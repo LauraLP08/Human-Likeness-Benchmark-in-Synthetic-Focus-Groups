@@ -106,11 +106,10 @@ here**. The parser itself is what produced
 | `agent_fidelity_pc_score.py` | Profile-consistency scoring |
 | `agent_fidelity_registry_diff.py` | Proposed registry rows, diffed before any registry change |
 
-The reported agent-fidelity measures are the two automatic stylometric ones: attribution
-lift and lexical distinctiveness. The hyper-exactness and profile-consistency
-operationalisations sit in the registry as `NOT_IN_REPORTED_INSTRUMENT` — designed, and
-not adopted, because they need a coding exercise per corpus and the benchmark is built to
-transfer without one.
+The two speaker-distinctiveness indicators are the automatic stylometric ones: attribution
+lift and lexical distinctiveness. The registry's `NOT_IN_REPORTED_INSTRUMENT` rows record alternative operationalisations that
+would need a coding exercise per corpus; the benchmark measures these constructs with the
+automatic producers above.
 
 ## External benchmark (exploratory, registry-declared)
 

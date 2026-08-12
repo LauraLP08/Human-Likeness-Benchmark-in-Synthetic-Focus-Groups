@@ -6,8 +6,8 @@ Design: `diseno_facilidad_de_consenso_2026-08-03.md`.*
 
 ## Status
 
-`AUTOMATIC_EXPLORATORY`. It does **not** substitute for the interpretive agreement /
-disagreement metrics, which remain `WITHHELD` pending the gold standard. No LLM judge in the
+`AUTOMATIC_EXPLORATORY`. This is the adopted operationalisation of the contrast axis between
+participants: deterministic, hash-anchored and transferable to any corpus. No LLM judge in the
 core. Zero API calls.
 
 ## Freeze hashes

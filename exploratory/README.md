@@ -1,14 +1,26 @@
-# Exploratory analyses
+# Additional exploratory analyses
 
-Everything here **was actually run and produced results**. None of it is reported in
-detail in the dissertation. It is published because a negative or unstable result that
-shaped a methodological decision is evidence, and because several of these strands are
-the strongest available argument for why the reported route was taken and not another.
+The benchmark reported in the dissertation is twelve indicators across three levels, set out
+in `docs/evaluation_framework_summary.md`. That is what was measured and that is what is
+reported.
 
-**Read this first:** none of these strands is part of the reported instrument, and
-several were closed by an explicit decision not to carry them into the Results. Do not
-quote a number from this directory as a finding of the study. Where a strand carries a
-formal status label, it is reproduced below.
+This directory holds **further lines of analysis that were run over the same corpus**. Each
+one asked a question the reported benchmark does not ask — what an evaluator finds without a
+codebook, whether the result holds in another domain, how the corpus compares against an
+external published benchmark, whether persona richness or construct relevance drives the
+thematic gap. Each produced results, and each is published with its full apparatus: design,
+producers, artefacts, and the reading of what it found.
+
+They are **additional, not preliminary**. Nothing here was left half-finished and nothing
+here was displaced from the benchmark: the reported instrument was chosen for automatic,
+deterministic measures that transfer to any corpus, and these strands explore territory
+beyond that choice.
+
+**How to read a number from this directory.** These analyses did not pass the reported
+benchmark's validation gates, and several returned negative or unstable results — which is
+often exactly why they are worth publishing. Do not quote a figure from here as a finding of
+the study. Where a strand carries a formal status label, it is reproduced below along with
+what that label means.
 
 ---
 
@@ -54,8 +66,9 @@ find when it is *not* given a codebook — through a Q3 emergent-calibration exe
 
 Results, stated with their own caveats:
 
-- **Q3 emergent calibration** closed as `CLOSED_WITH_UNRESOLVED_CASES_NO_FURTHER_HUMAN_ADJUDICATION`.
-  Recall 0.6818, strict precision 0.8000 over 44 theme × unit instances.
+- **Q3 emergent calibration** returned recall 0.6818 and strict precision 0.8000 over 44
+  theme × unit instances, with a set of cases the automatic procedure could not resolve
+  (`CLOSED_WITH_UNRESOLVED_CASES_NO_FURTHER_HUMAN_ADJUDICATION`).
 - The Claude cross-model judge is rated **`USABLE_FOR_CORROBORATION_ONLY`**: it produced
   8 non-verbatim quotations in 315, two of them outright fabricated.
 - A metric originally called `grounded_theme_rate` was renamed
@@ -109,8 +122,8 @@ because it matches Macho Meals FG1 in size, so only the *domain* varies.
   not a range for a true recall. A blind cross-model audit disagreed with 7 of 22
   evaluator negatives; all 7 are held as `CROSS_MODEL_SEMANTIC_DISAGREEMENTS`
   `AWAITING_HUMAN_ADJUDICATION` and none is counted as present.
-- Precision, F1 and synthetic novelty were **withdrawn as not identifiable under a closed
-  frame**.
+- Precision, F1 and synthetic novelty are **not identifiable under a closed frame**, so no
+  value is given for them: a closed frame makes precision an artefact of the closure.
 - **Three apparatus components did not port**, and that is itself a reportable cost:
   the transcript standardiser (dataset-specific branches), the comparable-window builder
   (a hardcoded run whitelist and a Macho Meals token set) and the results aggregator
@@ -176,7 +189,7 @@ Do not cite "Relevance of Response" without rescaling. The authored discussion i
 A multi-label turn-function scheme (`agreement`, `disagreement`, `challenge`,
 `neutral_elaboration`, with `mixed` **derived** as agreement ∧ disagreement, never
 assigned). Status: **`LLM_CODED_HUMAN_VALIDATION_REQUIRED`**. Only an FG1 pilot ran;
-FGs 2–5 were never run.
+The pilot covered FG1; it was not extended to FGs 2–5.
 
 The pilot's headline and the caveat that governs it:
 

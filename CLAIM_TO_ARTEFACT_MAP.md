@@ -179,33 +179,28 @@ individual identity — the producer's own docstring says so.
 
 ---
 
-## Alternative operationalisations, designed and not adopted
+## How each construct is measured
 
-The benchmark is built from **deterministic, automatic producers**. That is a design
-choice: an instrument that needs its own coding exercise for every corpus does not
-transfer to another population, topic, model or architecture, which is exactly what this
-benchmark exists to enable. Where a construct admitted both an automatic and an LLM-coded
-operationalisation, the automatic one was adopted and the alternative is kept in
-`PE/metric_registry.csv` under `NOT_IN_REPORTED_INSTRUMENT`, as a record of the path not
-taken.
+The benchmark is built from **deterministic, automatic producers**: an instrument that needs
+its own coding exercise for every corpus does not transfer to another population, topic,
+model or architecture, which is what this benchmark exists to enable. Several constructs
+admit more than one operationalisation; the table records which one the benchmark uses.
 
-| Construct | Adopted and reported | Alternative kept in the registry |
-|---|---|---|
-| Contrast between participants | Response acts under a frozen, hash-anchored contrastive-marker dictionary, plus intra-turn semantic dispersion — `scripts/consensus_dynamics_events.py`, `consensus_intraturn_dispersion.py` | `agreement`, `disagreement`, `challenge`, `neutral_elaboration` |
-| Specificity | Contextual-reference density per 100 participant words under a frozen entity-type spec — `scripts/consensus_specificity_gliner.py` (registry: `REPORTED_VIA_AUTOMATIC_PRODUCER`) | an LLM-coded per-turn variant |
-| Elaboration depth | `chain_depth`, `participant_participant_adjacency` | `substantive_vs_superficial_elaboration` |
-| Agent-level fidelity | Attribution lift and lexical distinctiveness — `scripts/agent_fidelity_stylometry.py` | `profile_continuity_group`, `profile_consistency_group`, `hyper_exactness` |
+| Construct | Measured by |
+|---|---|
+| Contrast between participants (indicator 9) | Response acts under a frozen, hash-anchored contrastive-marker dictionary, plus intra-turn semantic dispersion — `scripts/consensus_dynamics_events.py`, `consensus_intraturn_dispersion.py` |
+| Contextual reference density (indicator 10) | Entity extraction under a frozen entity-type spec, with stated-origin geography excluded — `scripts/consensus_specificity_gliner.py` |
+| Speaker distinctiveness (indicators 11, 12) | Attribution lift and lexical distinctiveness, offline — `scripts/agent_fidelity_stylometry.py` |
+| Elaboration depth | `chain_depth` and `participant_participant_adjacency`, from turn structure |
 
-Two further registry states, unrelated to the above: `tier1_length_matched_recall` and
-`tier1_length_matched_precision` are `DEFERRED_NOT_IMPLEMENTED` (specified, no producer),
-and `tier2b_section_theme_lists` is `RETIRED_NOT_FOR_FIDELITY` — the construct it measured
-was not the one the framework needed. `exploratory/persona_stress_test/` holds an
-agent-level diagnostic that ran outside the reported instrument and discharges no
-indicator.
+`metric_registry.csv` also carries rows marked `NOT_IN_REPORTED_INSTRUMENT`. These are
+alternative operationalisations of the same constructs — turn-level LLM coding rather than an
+automatic producer — kept in the ledger so that the choice of instrument is on the record.
+The benchmark does not use them.
 
-**Figure 8 is the adopted specificity measure**, not a substitute for something absent.
-It is an automatic producer under `CONSENSUS_DYNAMICS_EXPLORATORY`, and its frozen
-entity-type list and place-exclusion rule are published alongside it.
+**Figure 8 is the specificity measure the benchmark uses**, not a stand-in for something
+absent: an automatic producer whose frozen entity-type list and place-exclusion rule are
+published alongside it.
 
 ---
 

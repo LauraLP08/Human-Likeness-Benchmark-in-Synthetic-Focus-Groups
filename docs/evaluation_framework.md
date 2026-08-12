@@ -153,23 +153,18 @@ not become the yardstick by which it is measured. It is further declared that a
 synthetic-only theme means "not observed in the matched human group" and not automatically
 false, given that the human reference is a single instance per group.
 
-The central figures are recall from the real side (what fraction of the real codes the
-synthetic side reproduces) and precision of the synthetic side (what fraction of the
-synthetic codes are also in the real one), computed at both subtheme and theme level; F1 and
-the Jaccard index are reported as supplementary. The salience of each theme is reported as a
-descriptor — through participant breadth and a rank correlation between the human and
-synthetic salience hierarchies — and never enters the fidelity score. The result is not a
-single score but a profile of converging evidence, in which agreement or disagreement between
-the deductive and inductive layers is itself part of the finding.
+The central figures are thematic recall (indicator 4: what fraction of the paired human theme
+set the synthetic session recovers) and thematic precision (indicator 5: what fraction of the
+synthetic theme set also occurs in the human reference), computed at both subtheme and theme
+level; F1 and the Jaccard index are reported as supplementary. Participant reach (indicator 6)
+counts, for every present theme, the distinct speakers with verified evidence. Theme recurrence
+across focus groups (indicator 2) compares how regularly each theme appears on either side,
+and is the basis of the reported theme-presence figure. The result is not a single score but a
+profile across indicators.
 
-A complementary indicator of structural coverage, distinct from theme agreement, is added at
-this level: coverage of the discussion guide. Each planned guide topic is labelled in advance
-and classified as covered — a substantive exchange took place — omitted, or merged with
-another, and the proportion of covered topics is computed. Where thematic fidelity asks
-whether the same themes emerge, guide coverage asks whether the session traversed the planned
-structure, a facet the literature associates with guide completeness; it is computed
-identically on the human and synthetic sides and reported comparatively, without an absolute
-threshold.
+Thematic repertoire coverage (indicator 1) takes the union of verified themes across the five
+focus groups of one complete replicate, keeping synthetic replicates separate, so that a
+replicate's whole repertoire can be compared against the human one.
 
 ### 6. Level 1 (continued) — Saturation
 
@@ -218,11 +213,9 @@ For the consensus and disagreement axis, and for specificity, the automatic oper
 was adopted: a frozen, hash-anchored dictionary of contrastive markers applied to
 participant-to-participant response acts, accompanied by a geometric measure of intra-turn
 semantic dispersion that is independent of the dictionary. Specificity is adopted as the
-density of contextual references per 100 participant words, with frozen entity types. The
-turn-by-turn LLM-coded variant was designed and not adopted: the reported instrument is built
-from deterministic producers that transfer to any corpus without a coding exercise of its
-own. The alternatives are registered in `metric_registry.csv` with the state
-`NOT_IN_REPORTED_INSTRUMENT`.
+density of contextual references per 100 participant words, with frozen entity types. The benchmark uses these rather than turn-by-turn model coding, so that it transfers to any
+corpus without a coding exercise of its own; the alternative operationalisations are recorded
+in `metric_registry.csv` as `NOT_IN_REPORTED_INSTRUMENT`.
 
 ### 8. Level 3 — Speaker distinctiveness
 
@@ -241,21 +234,8 @@ overlap of vocabulary between their turns; greater overlap among the synthetic a
 among the human participants evidences flattening toward a single voice, the persona collapse
 the literature documents.
 
-Three generation-validity checks following Amirova et al. (2024) were also considered —
-backward continuity, forward continuity and profile consistency — which require a coding
-exercise of their own for each corpus. They were not adopted: the level is reported with the
-two automatic discriminators, which are computed over any transcript without an additional
-instrument. The three alternatives are registered in `metric_registry.csv` with the state
-`NOT_IN_REPORTED_INSTRUMENT`.
-
-Also at this level sits `persona_stress_test`, an internal diagnostic that subjects each
-synthetic participant to three probes — a false autobiographical premise, a knowledge question
-outside its profile, and a direct instruction to break character. It interrogates an isolated
-agent rather than the interactional character of a group transcript, and it fell **outside the
-reported instrument** with the state `EXPLORATORY_INTERNAL_DIAGNOSTIC_NOT_REPORTED`: it passed
-all of its technical gates, but the classification boundary for maintaining character proved
-unstable across repetitions, so it supports no defensible inference and discharges no
-indicator. Its artefacts are kept in `exploratory/persona_stress_test/`.
+Both indicators are computed offline over equal-length fragments, with no model call and no
+coding exercise, so the level transfers to any corpus of transcripts.
 
 ### 9. Reporting, execution strategy and limitations
 
@@ -267,14 +247,11 @@ validation of the thematic measure is anchored in a blind human coder and in the
 research team's published coding. The scope corresponds to the principal English-language
 case; extending it to datasets in other languages requires additional validation.
 
-The evaluation runs as a cascade: first the automated structural layer — verbosity,
-participation, adjacency, lexical distinction, guide coverage — over all transcripts, low-cost
-and deterministic, which locates where the synthetic side diverges most; model judgement is
-reserved for thematic fidelity, where meaning is indispensable and where the measure passes
-its three validation gates. A core of the framework is distinguished — thematic fidelity,
-saturation, and a few key interactional discriminators: verbosity, contrast, lexical
-distinction and adjacency — from the remaining indicators, which are reported as a secondary
-layer.
+The evaluation runs as a cascade: first the automated layer — turn length, its variation across
+focus groups, internally resolved contrast, contextual-reference density, and the two
+speaker-distinctiveness measures — over all transcripts, low-cost and deterministic; model
+judgement is reserved for thematic fidelity, where meaning is indispensable and where the
+measure passes its three validation gates.
 
 ---
 
@@ -319,37 +296,21 @@ Jaccard           = |R ∩ S| / |R ∪ S|
 These are computed at subtheme and theme level. `Recall` and `Precision` are the central
 figures; `F1` and `Jaccard` are supplementary.
 
-### D. Breadth (reach) and salience
+### D. Participant reach and theme recurrence (indicators 6 and 2)
 
 ```
-voiced_by(t)  = { participants with ≥1 verified quotation for subtheme t }
-Reach(t)      = |voiced_by(t)| / n_participants_in_group
+voiced_by(t)  = { participants with >=1 verified quotation for subtheme t }
+Reach(t)      = |voiced_by(t)| / n_participants_in_session
 ```
-Salience is a descriptor and does not enter F1. Hierarchy comparison:
-```
-ρ_salience = spearman( [Reach_real(t) : t ∈ R∩S], [Reach_synth(t) : t ∈ R∩S] )
-```
+Recurrence counts, for every theme and replicate, the focus groups containing verified
+evidence; recurrence profiles are compared theme by theme, never pooled across themes or
+across synthetic replicates.
 
-### E. Tier 2 — open extraction, matching and emergent themes
+### E. Open extraction without the codebook
 
-```
-extract_themes(blind_transcript):
-    return up to 8 themes { label, definition, quotations[], participant_count }
-           only where strongly supported (no minimum)
-    verify each quotation by substring; participant_count = distinct verified voices
-
-match(themes_H, themes_S):
-    primary judge = LLM semantic equivalence (label+definition+quotations), blind and symmetric
-    cross-check   = cosine of multilingual embeddings (diagnostic only)
-    return matched pairs
-
-Open_recall     = |matched themes_H| / |themes_H|
-Open_precision  = |matched themes_S| / |themes_S|
-Emergent        = themes_S with no correspondence      # first-order finding
-Not_reproduced  = themes_H with no correspondence
-```
-The codebook remains fixed; emergent themes are not added to it. Each emergent theme is
-reported with its `participant_count`.
+Not part of the twelve reported indicators. Extracting themes without the codebook, matching
+them across sides and identifying synthetic-only themes is an additional line of analysis;
+its design, artefacts and results are in `exploratory/emergent_inductive_coding/`.
 
 ### F. Validation gates for the measure
 
@@ -423,23 +384,22 @@ contextual reference density = anchors per 100 participant words, via a local NE
 
 ### I. Guide coverage
 
-```
-for each guide topic T1…Tn: state ∈ {covered, omitted, merged}
-Coverage = |covered topics| / |guide topics|
-compute identically on human and synthetic; report comparatively (no threshold)
-```
+Not part of the twelve reported indicators. Classifying each planned guide topic as covered,
+omitted or merged is an additional line of analysis rather than a fidelity measure.
 
-### J. Speaker distinctiveness
+### J. Speaker distinctiveness (indicators 11 and 12)
 
 ```
-# Linguistic attribution — automated
-build a profile per participant over a subset of questions; test attribution of an unseen
-fragment from a different question; read against the chance baseline of its own condition
+# 11 — cross-question speaker attribution
+leave-one-question-out folds: build a profile per participant from the other questions and
+attribute an equal-length held-out fragment from the held-out question. Compare accuracy with
+fold-specific chance, preserving within-fold clustering. Significance by fold-respecting label
+permutation (20,000 permutations).
 
-# Lexical distinction (flattening) — automated
-overlap(a,b) = |types(a) ∩ types(b)| / |types(a) ∪ types(b)|     # per pair of participants
-report mean overlap between participants; compare synthetic vs human
-(greater synthetic than human overlap ⇒ collapse toward a single voice)
+# 12 — within-question lexical similarity
+equal-length fragments; every cross-speaker pair within each question; aggregate
+question-level medians to the session level. Greater similarity among synthetic participants
+than among human ones indicates convergence toward a single voice.
 ```
 
 ### K. Human variability envelope

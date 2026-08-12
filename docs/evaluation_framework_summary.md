@@ -58,8 +58,7 @@ This is the benchmark as reported. Column headings follow the dissertation's App
 
 **Consensus, as a further indicator where feasible:** the proportion of responses to another
 participant expressing agreement, disagreement or neither, compared across focus groups and
-conditions. Indicator 9 is the automatic instrument that stands in for it in the reported
-results; a turn-level LLM-coded variant was designed and not adopted.
+conditions. Indicator 9 is the automatic instrument the benchmark uses for it.
 
 ## Instrument selection
 
@@ -84,8 +83,8 @@ it is:
   reported as diagnostic or exploratory, never as a primary claim.
 - `REPORTED_VIA_AUTOMATIC_PRODUCER` — the construct is reported and its adopted
   operationalisation is a dedicated automatic producer.
-- `NOT_IN_REPORTED_INSTRUMENT` — designed and not adopted; the row is kept as a record of
-  the alternative.
+- `NOT_IN_REPORTED_INSTRUMENT` — an alternative operationalisation of a construct the
+  benchmark measures another way; kept so the choice of instrument is on the record.
 - `DEFERRED_NOT_IMPLEMENTED`, `RETIRED_NOT_FOR_FIDELITY` — specified without a producer, or
   withdrawn as a fidelity indicator.
 
