@@ -375,13 +375,12 @@ programming tools, as the dissertation's Implementation section records. Every o
 reviewed and tested before being incorporated. This is stated for transparency about the
 software, not as a warrant of its correctness.
 
-**Documentation.** The Markdown files in this repository fall into two classes,
-distinguishable by a rule anyone can verify. Files written by a script in this repository
-are programmatic output; the generating script and line can be recovered by searching the
-code for the filename. Every other Markdown file is narrative prose, drafted by Claude
-(Anthropic) working in dialogue with the author, who set the questions, directed the
-analysis, reviewed each methodological decision and validated the reported figures
-against the underlying data before inclusion.
+**Documentation.** The Markdown documentation in this repository was assembled with AI
+assistance under the author's direction. Files written by a script are programmatic output;
+the generating script and line can be recovered by searching the code for the filename.
+Every other Markdown file was reviewed by the author, who set the questions, directed the
+analysis, took each methodological decision and validated the reported figures against the
+underlying data before inclusion. The dissertation text is the author's own.
 
 **Models used in the study itself.** Participants were generated with Claude Haiku 4.5,
 the moderator with Claude Sonnet 4.6, and thematic coding was performed by
