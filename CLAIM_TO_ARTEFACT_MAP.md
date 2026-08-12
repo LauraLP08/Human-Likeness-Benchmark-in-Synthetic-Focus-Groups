@@ -27,9 +27,10 @@ indicator 3.
 | **Level 2 · Interaction process** | 7 turn-length distribution · 8 between-focus-group variation in turn length · 9 internally resolved contrast · 10 contextual-reference density | `structural`, `interaction`, `interpretive` |
 | **Level 3 · Speaker distinctiveness** | 11 cross-question speaker attribution · 12 within-question lexical similarity | `interpretive`, `exploratory` |
 
-Consensus — the proportion of responses to another participant expressing agreement,
-disagreement or neither — is named in Appendix D as a further indicator where feasible.
-Indicator 9 is the automatic instrument that stands in for it in the reported results.
+Appendix D carries one footnote: consensus — the proportion of responses to another
+participant expressing agreement, disagreement or neither — is noted there as a further
+indicator to measure where feasible. It is not among the twelve and no value for it is
+reported.
 
 **`metric_registry.csv` has 51 rows, not 12, and that is not a contradiction.** The registry
 is an operational ledger rather than a statement of the benchmark: besides the twelve

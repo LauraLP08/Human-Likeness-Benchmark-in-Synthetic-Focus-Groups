@@ -56,9 +56,10 @@ This is the benchmark as reported. Column headings follow the dissertation's App
 | 11 | Cross-question speaker attribution | Whether a participant's language is distinguishable from peers and recognisable across guide questions. | Use leave-one-question-out folds: build profiles from other questions and attribute an equal-length held-out fragment. Compare accuracy with fold-specific chance while preserving within-fold clustering. | Offline stylometric classification. |
 | 12 | Within-question lexical similarity | Whether participants answering the same question use unusually similar wording. | Create equal-length fragments, calculate every cross-speaker pair within each question, and aggregate question-level medians to the session level. | Offline lexical geometry. |
 
-**Consensus, as a further indicator where feasible:** the proportion of responses to another
-participant expressing agreement, disagreement or neither, compared across focus groups and
-conditions. Indicator 9 is the automatic instrument the benchmark uses for it.
+Appendix D carries one footnote to this table: consensus — the proportion of responses to
+another participant expressing agreement, disagreement or neither, compared across focus
+groups and conditions — is noted there as a further indicator to measure where feasible. It
+is not among the twelve and no value for it is reported.
 
 ## Instrument selection
 
