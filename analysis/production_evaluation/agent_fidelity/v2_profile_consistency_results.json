@@ -1,0 +1,1684 @@
+{
+ "retrieved_utc": "2026-08-03T22:22:02.694142+00:00",
+ "job_id": "msgbatch_01KstMdLsHQnjrRciHDEdFfG",
+ "jobs": [
+  {
+   "job_id": "msgbatch_01KstMdLsHQnjrRciHDEdFfG",
+   "role": "ORIGINAL"
+  }
+ ],
+ "repair_applied": false,
+ "repaired_custom_ids": [],
+ "n_provider_requests": 26,
+ "n_expected_adjudications": 256,
+ "n_returned_adjudications": 256,
+ "missing_adjudications": [],
+ "extra_adjudications": [],
+ "union_matches_item_manifest": true,
+ "n_gate_failures": 0,
+ "gate_failures": [],
+ "n_invalid_evidence_decisions": 3,
+ "invalid_evidence_decisions": [
+  {
+   "item_id": "PC2-80F5225550B8A049",
+   "why": "non-literal quote_b",
+   "repetition_index": 2,
+   "returned": "You can't just wing it like i can in glasgow"
+  },
+  {
+   "item_id": "PC2-04397D99B4D6EB96",
+   "why": "non-literal quote_a",
+   "repetition_index": 2,
+   "returned": "living in london, you'd kind of think this stuff would be looser, woul"
+  },
+  {
+   "item_id": "PC2-07BD16C7608DA21A",
+   "why": "non-literal quote_a",
+   "repetition_index": 2,
+   "returned": "i don't think that means i need to pick it apart every time i'm decidi"
+  }
+ ],
+ "invalid_evidence_rule": "a decision whose quote is not literal, or whose turn id does not match, is unusable: its item becomes UNRESOLVED_INVALID_EVIDENCE. It is not repaired, triggers no third call, and does not invalidate other valid decisions.",
+ "gate_failure_triggers": [
+  "non-literal quote",
+  "wrong speaker",
+  "invalid turn_id",
+  "missing or extra adjudication"
+ ],
+ "n_incomplete_decisions": 2,
+ "incomplete_decisions": [
+  {
+   "item_id": "PC2-8CB56B5049BE4DF2",
+   "repetition_index": 1,
+   "why": "empty justification"
+  },
+  {
+   "item_id": "PC2-586FA5B0A4702E9A",
+   "repetition_index": 1,
+   "why": "empty justification"
+  }
+ ],
+ "incomplete_decision_rule": "a decision missing a required prose field is unusable, so its item falls to UNRESOLVED_INCOMPLETE_EVIDENCE. It is not a gate failure and is never repaired by a third call.",
+ "gate": {
+  "union_matches_item_manifest": true,
+  "no_gate_failure": true,
+  "governing_criterion": "verbatim evidence validity >= 0.95",
+  "n_executable_fixtures": 4,
+  "executable_fixtures_both_repetitions_correct": 4,
+  "n_fixtures_excluded_schema_mismatch": 4,
+  "fixture_exclusion_reason": "REJECT was never in the transmitted schema enum, so these four fixtures could not be returned however the auditor behaved. They are excluded from the auditor denominator and retained as scorer tests; they are never counted as substantive auditor failures.",
+  "passed": true
+ },
+ "fixtures": [
+  {
+   "item_id": "PCF-CHANGE-1",
+   "expected": "POSITION_CHANGED_WITH_EXPLANATION",
+   "returned": [
+    "POSITION_CHANGED_WITH_EXPLANATION",
+    "POSITION_CHANGED_WITH_EXPLANATION"
+   ],
+   "executable": true,
+   "status": null,
+   "both_correct": true,
+   "either_correct": true
+  },
+  {
+   "item_id": "PCF-CONTEXT-1",
+   "expected": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "returned": [
+    "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+    "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY"
+   ],
+   "executable": true,
+   "status": null,
+   "both_correct": true,
+   "either_correct": true
+  },
+  {
+   "item_id": "PCF-CONTRA-1",
+   "expected": "UNEXPLAINED_CONTRADICTION",
+   "returned": [
+    "UNEXPLAINED_CONTRADICTION",
+    "UNEXPLAINED_CONTRADICTION"
+   ],
+   "executable": true,
+   "status": null,
+   "both_correct": true,
+   "either_correct": true
+  },
+  {
+   "item_id": "PCF-CONTRA-2",
+   "expected": "UNEXPLAINED_CONTRADICTION",
+   "returned": [
+    "UNEXPLAINED_CONTRADICTION",
+    "UNEXPLAINED_CONTRADICTION"
+   ],
+   "executable": true,
+   "status": null,
+   "both_correct": true,
+   "either_correct": true
+  },
+  {
+   "item_id": "PCF-REJECT-QUOTE",
+   "expected": "REJECT",
+   "returned": [
+    "CONSISTENT",
+    "CONSISTENT"
+   ],
+   "executable": false,
+   "status": "INVALID_AUDITOR_FIXTURE_SCHEMA_MISMATCH",
+   "both_correct": false,
+   "either_correct": false
+  },
+  {
+   "item_id": "PCF-REJECT-SPEAKER",
+   "expected": "REJECT",
+   "returned": [
+    "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+    "CONSISTENT"
+   ],
+   "executable": false,
+   "status": "INVALID_AUDITOR_FIXTURE_SCHEMA_MISMATCH",
+   "both_correct": false,
+   "either_correct": false
+  },
+  {
+   "item_id": "PCF-REJECT-TURN",
+   "expected": "REJECT",
+   "returned": [
+    "CONSISTENT",
+    "CONSISTENT"
+   ],
+   "executable": false,
+   "status": "INVALID_AUDITOR_FIXTURE_SCHEMA_MISMATCH",
+   "both_correct": false,
+   "either_correct": false
+  },
+  {
+   "item_id": "PCF-REJECT-UNCERTAIN",
+   "expected": "REJECT",
+   "returned": [
+    "UNCERTAIN",
+    "UNCERTAIN"
+   ],
+   "executable": false,
+   "status": "INVALID_AUDITOR_FIXTURE_SCHEMA_MISMATCH",
+   "both_correct": false,
+   "either_correct": false
+  }
+ ],
+ "fixtures_excluded_from_rates": true,
+ "agreement_between_repetitions": {
+  "n_real_items": 120,
+  "n_scored": 120,
+  "n_corroborated": 100,
+  "exact_agreement": 0.8333,
+  "n_unresolved": 20,
+  "n_unresolved_incomplete_evidence": 2,
+  "disagreement_matrix": {
+   "CONSISTENT|CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY": 9,
+   "CONSISTENT|POSITION_CHANGED_WITH_EXPLANATION": 6
+  },
+  "n_items_with_an_uncertain_repetition": 0,
+  "uncertain_rate": 0.0
+ },
+ "screener_proposed": {
+  "n_items": 60,
+  "n_corroborated": 54,
+  "n_unresolved": 6,
+  "corroborated_categories": {
+   "CONSISTENT": 46,
+   "POSITION_CHANGED_WITH_EXPLANATION": 6,
+   "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY": 2,
+   "UNEXPLAINED_CONTRADICTION": 0
+  },
+  "by_condition": {
+   "demographics-only": {
+    "CONSISTENT": 13,
+    "POSITION_CHANGED_WITH_EXPLANATION": 5,
+    "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY": 1
+   },
+   "human": {
+    "CONSISTENT": 19
+   },
+   "enriched": {
+    "CONSISTENT": 14,
+    "POSITION_CHANGED_WITH_EXPLANATION": 1,
+    "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY": 1
+   }
+  },
+  "n_corroborated_unexplained_contradictions": 0,
+  "n_items_by_condition": {
+   "human": 20,
+   "enriched": 20,
+   "demographics-only": 20
+  }
+ },
+ "random_controls": {
+  "n_items": 60,
+  "n_corroborated": 46,
+  "n_unresolved": 14,
+  "corroborated_categories": {
+   "CONSISTENT": 34,
+   "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY": 6,
+   "POSITION_CHANGED_WITH_EXPLANATION": 4,
+   "UNEXPLAINED_CONTRADICTION": 2
+  },
+  "by_condition": {
+   "human": {
+    "CONSISTENT": 17,
+    "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY": 3
+   },
+   "demographics-only": {
+    "CONSISTENT": 9,
+    "POSITION_CHANGED_WITH_EXPLANATION": 3,
+    "UNEXPLAINED_CONTRADICTION": 1
+   },
+   "enriched": {
+    "CONSISTENT": 8,
+    "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY": 3,
+    "UNEXPLAINED_CONTRADICTION": 1,
+    "POSITION_CHANGED_WITH_EXPLANATION": 1
+   }
+  },
+  "n_corroborated_unexplained_contradictions": 2,
+  "n_items_by_condition": {
+   "human": 20,
+   "enriched": 20,
+   "demographics-only": 20
+  }
+ },
+ "by_stratum": {
+  "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST": {
+   "n_items": 30,
+   "n_corroborated": 24,
+   "n_unresolved": 6,
+   "corroborated_categories": {
+    "CONSISTENT": 19,
+    "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY": 2,
+    "POSITION_CHANGED_WITH_EXPLANATION": 3,
+    "UNEXPLAINED_CONTRADICTION": 0
+   },
+   "by_condition": {
+    "human": {
+     "CONSISTENT": 9
+    },
+    "demographics-only": {
+     "CONSISTENT": 5,
+     "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY": 1,
+     "POSITION_CHANGED_WITH_EXPLANATION": 3
+    },
+    "enriched": {
+     "CONSISTENT": 5,
+     "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY": 1
+    }
+   },
+   "n_corroborated_unexplained_contradictions": 0,
+   "n_items_by_condition": {
+    "human": 10,
+    "enriched": 10,
+    "demographics-only": 10
+   }
+  },
+  "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST": {
+   "n_items": 30,
+   "n_corroborated": 30,
+   "n_unresolved": 0,
+   "corroborated_categories": {
+    "CONSISTENT": 27,
+    "POSITION_CHANGED_WITH_EXPLANATION": 3,
+    "UNEXPLAINED_CONTRADICTION": 0
+   },
+   "by_condition": {
+    "demographics-only": {
+     "CONSISTENT": 8,
+     "POSITION_CHANGED_WITH_EXPLANATION": 2
+    },
+    "enriched": {
+     "CONSISTENT": 9,
+     "POSITION_CHANGED_WITH_EXPLANATION": 1
+    },
+    "human": {
+     "CONSISTENT": 10
+    }
+   },
+   "n_corroborated_unexplained_contradictions": 0,
+   "n_items_by_condition": {
+    "human": 10,
+    "enriched": 10,
+    "demographics-only": 10
+   }
+  },
+  "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL": {
+   "n_items": 60,
+   "n_corroborated": 46,
+   "n_unresolved": 14,
+   "corroborated_categories": {
+    "CONSISTENT": 34,
+    "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY": 6,
+    "POSITION_CHANGED_WITH_EXPLANATION": 4,
+    "UNEXPLAINED_CONTRADICTION": 2
+   },
+   "by_condition": {
+    "human": {
+     "CONSISTENT": 17,
+     "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY": 3
+    },
+    "demographics-only": {
+     "CONSISTENT": 9,
+     "POSITION_CHANGED_WITH_EXPLANATION": 3,
+     "UNEXPLAINED_CONTRADICTION": 1
+    },
+    "enriched": {
+     "CONSISTENT": 8,
+     "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY": 3,
+     "UNEXPLAINED_CONTRADICTION": 1,
+     "POSITION_CHANGED_WITH_EXPLANATION": 1
+    }
+   },
+   "n_corroborated_unexplained_contradictions": 2,
+   "n_items_by_condition": {
+    "human": 20,
+    "enriched": 20,
+    "demographics-only": 20
+   }
+  }
+ },
+ "prevalence": {
+  "reportable": "DETECTED_LOWER_BOUND_RATE",
+  "why": "120 of 2,611 screened pairs were adjudicated, drawn 20 per condition per role rather than as a probability sample, so no corpus-wide contradiction rate can be estimated from them",
+  "unaudited_pairs_are_not_negative": true,
+  "n_screened_pairs": 2611,
+  "n_audited": 120,
+  "remaining_pairs_blocked": true
+ },
+ "rules_applied": {
+  "agreement": "CORROBORATED",
+  "disagreement": "UNRESOLVED",
+  "one_repetition_UNCERTAIN": "kept, never converted to absence",
+  "no_third_call": true,
+  "no_confidence_or_majority_resolution": true
+ },
+ "per_item": {
+  "PC2-0143C19F5F2A25FA": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 1
+  },
+  "PC2-02661972CCAA93CB": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "PC2-041A2B591B71D5FF": {
+   "rep1": "POSITION_CHANGED_WITH_EXPLANATION",
+   "rep2": "POSITION_CHANGED_WITH_EXPLANATION",
+   "state": "CORROBORATED",
+   "category": "POSITION_CHANGED_WITH_EXPLANATION",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 2
+  },
+  "PC2-04397D99B4D6EB96": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "UNRESOLVED_INVALID_EVIDENCE",
+   "category": null,
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 2
+  },
+  "PC2-04A06C378945CB42": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "PC2-06E0FDFB606060DE": {
+   "rep1": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "rep2": "CONSISTENT",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 3
+  },
+  "PC2-074E7E6CC80C270C": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 3
+  },
+  "PC2-07BD14E1DF07A681": {
+   "rep1": "POSITION_CHANGED_WITH_EXPLANATION",
+   "rep2": "CONSISTENT",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 1
+  },
+  "PC2-07BD16C7608DA21A": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "UNRESOLVED_INVALID_EVIDENCE",
+   "category": null,
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 1
+  },
+  "PC2-0870C6270E30D301": {
+   "rep1": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "rep2": "CONSISTENT",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "PC2-0A46C3EF78483009": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 1
+  },
+  "PC2-0B324327E0CFA85D": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 2
+  },
+  "PC2-0E0A15A4152F0EAD": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "replicate": 3
+  },
+  "PC2-10BD0F1AC3E7179C": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 2
+  },
+  "PC2-10EA9EE421A571EA": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 1
+  },
+  "PC2-13B1C9C76C1723B1": {
+   "rep1": "CONSISTENT",
+   "rep2": "POSITION_CHANGED_WITH_EXPLANATION",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 2
+  },
+  "PC2-15DA7E7C554D3F0C": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "PC2-19D3F85FD9D2D4B9": {
+   "rep1": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "rep2": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "state": "CORROBORATED",
+   "category": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg4",
+   "replicate": null
+  },
+  "PC2-2117623897E0E541": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 3
+  },
+  "PC2-237265F3A972CC3B": {
+   "rep1": "CONSISTENT",
+   "rep2": "POSITION_CHANGED_WITH_EXPLANATION",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 3
+  },
+  "PC2-2373306231AF1F31": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "PC2-238E680E90D439E7": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg4",
+   "replicate": null
+  },
+  "PC2-23FB7FF78F35567E": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg1",
+   "replicate": null
+  },
+  "PC2-254D98A9874BFFA1": {
+   "rep1": "POSITION_CHANGED_WITH_EXPLANATION",
+   "rep2": "POSITION_CHANGED_WITH_EXPLANATION",
+   "state": "CORROBORATED",
+   "category": "POSITION_CHANGED_WITH_EXPLANATION",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg2",
+   "replicate": 2
+  },
+  "PC2-28BF397A9D7C1E68": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "PC2-2918CEF19949F7EF": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg2",
+   "replicate": null
+  },
+  "PC2-30B2EA7216ACED49": {
+   "rep1": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "rep2": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "state": "CORROBORATED",
+   "category": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "PC2-32F0B8100A0DEB0C": {
+   "rep1": "POSITION_CHANGED_WITH_EXPLANATION",
+   "rep2": "POSITION_CHANGED_WITH_EXPLANATION",
+   "state": "CORROBORATED",
+   "category": "POSITION_CHANGED_WITH_EXPLANATION",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg2",
+   "replicate": 1
+  },
+  "PC2-33F24021ABD4616E": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "PC2-3746C4C94E71A91D": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 2
+  },
+  "PC2-38725C3E7EB3418C": {
+   "rep1": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "rep2": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "state": "CORROBORATED",
+   "category": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg2",
+   "replicate": 2
+  },
+  "PC2-3986A3BFAD4E7FD1": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 3
+  },
+  "PC2-3ACF00CBD709C356": {
+   "rep1": "UNEXPLAINED_CONTRADICTION",
+   "rep2": "UNEXPLAINED_CONTRADICTION",
+   "state": "CORROBORATED",
+   "category": "UNEXPLAINED_CONTRADICTION",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "PC2-3C23BC24B4A67514": {
+   "rep1": "POSITION_CHANGED_WITH_EXPLANATION",
+   "rep2": "CONSISTENT",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "PC2-3FB500695CEC4677": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 2
+  },
+  "PC2-4125E5A5DB402F18": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg2",
+   "replicate": null
+  },
+  "PC2-42193E1F0CACAF6C": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 3
+  },
+  "PC2-4287C82B9495C2A1": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "PC2-47437FB15035985D": {
+   "rep1": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "rep2": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "state": "CORROBORATED",
+   "category": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "PC2-488E2361F9977B09": {
+   "rep1": "POSITION_CHANGED_WITH_EXPLANATION",
+   "rep2": "CONSISTENT",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 3
+  },
+  "PC2-4AE7CC318736F6A7": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg4",
+   "replicate": null
+  },
+  "PC2-517A30D94BBB2C8B": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 1
+  },
+  "PC2-5817BC422FEDA20B": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 2
+  },
+  "PC2-586FA5B0A4702E9A": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "UNRESOLVED_INCOMPLETE_EVIDENCE",
+   "category": null,
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "PC2-5CE3FD9E23FB66A5": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "PC2-62AF30C9AA226A13": {
+   "rep1": "POSITION_CHANGED_WITH_EXPLANATION",
+   "rep2": "POSITION_CHANGED_WITH_EXPLANATION",
+   "state": "CORROBORATED",
+   "category": "POSITION_CHANGED_WITH_EXPLANATION",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg2",
+   "replicate": 1
+  },
+  "PC2-6943E9C04EAD2945": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "PC2-69C38FD616E564A5": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "PC2-71E0AFEE1F63C15D": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "PC2-7377CF7197A9D749": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg1",
+   "replicate": null
+  },
+  "PC2-74232E86FBEDB515": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 3
+  },
+  "PC2-7595D3BB4301D21D": {
+   "rep1": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "rep2": "CONSISTENT",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "PC2-7701B42661B94D77": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg1",
+   "replicate": null
+  },
+  "PC2-7E9F69601107D8E3": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 3
+  },
+  "PC2-8012A334587FEC23": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "PC2-80F5225550B8A049": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "UNRESOLVED_INVALID_EVIDENCE",
+   "category": null,
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 3
+  },
+  "PC2-828B3E13BCCC8722": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg4",
+   "replicate": null
+  },
+  "PC2-880EB7BA6DF5116C": {
+   "rep1": "POSITION_CHANGED_WITH_EXPLANATION",
+   "rep2": "POSITION_CHANGED_WITH_EXPLANATION",
+   "state": "CORROBORATED",
+   "category": "POSITION_CHANGED_WITH_EXPLANATION",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "PC2-886EEAB7B3D5F33E": {
+   "rep1": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "rep2": "CONSISTENT",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "replicate": 1
+  },
+  "PC2-8A25105E948BAB9C": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg1",
+   "replicate": null
+  },
+  "PC2-8C1A24A24F31CE90": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "PC2-8C1BB96E06C46289": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg2",
+   "replicate": null
+  },
+  "PC2-8CB56B5049BE4DF2": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "UNRESOLVED_INCOMPLETE_EVIDENCE",
+   "category": null,
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "PC2-914A7D78BF88A046": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "PC2-97074FD23954EB56": {
+   "rep1": "POSITION_CHANGED_WITH_EXPLANATION",
+   "rep2": "POSITION_CHANGED_WITH_EXPLANATION",
+   "state": "CORROBORATED",
+   "category": "POSITION_CHANGED_WITH_EXPLANATION",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg3",
+   "replicate": 2
+  },
+  "PC2-973F68B8208C8CDE": {
+   "rep1": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "rep2": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "state": "CORROBORATED",
+   "category": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "PC2-9983E445753C9F38": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 3
+  },
+  "PC2-9A4606D52125A10A": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "replicate": 3
+  },
+  "PC2-9BAC9E1A0ACC798A": {
+   "rep1": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "rep2": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "state": "CORROBORATED",
+   "category": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 3
+  },
+  "PC2-9DEA510470EBCC27": {
+   "rep1": "POSITION_CHANGED_WITH_EXPLANATION",
+   "rep2": "POSITION_CHANGED_WITH_EXPLANATION",
+   "state": "CORROBORATED",
+   "category": "POSITION_CHANGED_WITH_EXPLANATION",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "replicate": 3
+  },
+  "PC2-9E6FC96FBDD3CDA0": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "PC2-9F43551952402126": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 2
+  },
+  "PC2-9F84A9E35625BC5E": {
+   "rep1": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "rep2": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "state": "CORROBORATED",
+   "category": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "PC2-A4809AE7A74296DB": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "PC2-A6E6228DD66AD5B0": {
+   "rep1": "POSITION_CHANGED_WITH_EXPLANATION",
+   "rep2": "POSITION_CHANGED_WITH_EXPLANATION",
+   "state": "CORROBORATED",
+   "category": "POSITION_CHANGED_WITH_EXPLANATION",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg2",
+   "replicate": 1
+  },
+  "PC2-A7622CEFEB727D8C": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg2",
+   "replicate": null
+  },
+  "PC2-A92087322BD37D01": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "PC2-A986119FAC39E217": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg4",
+   "replicate": null
+  },
+  "PC2-AB31F1D04AB9169C": {
+   "rep1": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "rep2": "CONSISTENT",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg2",
+   "replicate": 3
+  },
+  "PC2-ACD5E3280FD978A0": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 3
+  },
+  "PC2-AEA894B9DF3C2590": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "PC2-B07DDA3A99284399": {
+   "rep1": "POSITION_CHANGED_WITH_EXPLANATION",
+   "rep2": "CONSISTENT",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "PC2-B1E56DB26F45EC28": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 1
+  },
+  "PC2-B22BF7863F22AA8E": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 3
+  },
+  "PC2-B8189368F0421E22": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 2
+  },
+  "PC2-B863DC893B9D02CB": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg1",
+   "replicate": null
+  },
+  "PC2-B884CA90A420717F": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg4",
+   "replicate": null
+  },
+  "PC2-B920D073F5CE8C0E": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "replicate": 1
+  },
+  "PC2-BA797530531BDF58": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "PC2-BC14CB3FF0520448": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg4",
+   "replicate": null
+  },
+  "PC2-BCE162EE385AD7DC": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 3
+  },
+  "PC2-BFA56625D4E8E11C": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "PC2-BFB6192882F3284F": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg2",
+   "replicate": null
+  },
+  "PC2-C1E3D0C4C3CC9EA6": {
+   "rep1": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "rep2": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "state": "CORROBORATED",
+   "category": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "PC2-C581E417BC0A248B": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 2
+  },
+  "PC2-CA9DF6CBD0B6707E": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 1
+  },
+  "PC2-CBC7170D45684F1C": {
+   "rep1": "POSITION_CHANGED_WITH_EXPLANATION",
+   "rep2": "POSITION_CHANGED_WITH_EXPLANATION",
+   "state": "CORROBORATED",
+   "category": "POSITION_CHANGED_WITH_EXPLANATION",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 2
+  },
+  "PC2-D24C497F9F3D7CBE": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg2",
+   "replicate": 3
+  },
+  "PC2-D2DCB5D297CED41E": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg2",
+   "replicate": null
+  },
+  "PC2-D3C41745BE2E1803": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "replicate": 1
+  },
+  "PC2-DC7CECE1315DF2CC": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg4",
+   "replicate": null
+  },
+  "PC2-DF9D242FADEBCA39": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "PC2-E1718519D2F00A25": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg2",
+   "replicate": 1
+  },
+  "PC2-E38856AC320469B0": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg1",
+   "replicate": null
+  },
+  "PC2-E753B97E7E74C519": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg2",
+   "replicate": null
+  },
+  "PC2-E924AC838622ED65": {
+   "rep1": "POSITION_CHANGED_WITH_EXPLANATION",
+   "rep2": "POSITION_CHANGED_WITH_EXPLANATION",
+   "state": "CORROBORATED",
+   "category": "POSITION_CHANGED_WITH_EXPLANATION",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "replicate": 3
+  },
+  "PC2-E97C7A218E8DA7A0": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg3",
+   "replicate": 1
+  },
+  "PC2-EB90DF6D364C3D6A": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg4",
+   "replicate": null
+  },
+  "PC2-ED7D15D6819834D0": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "PC2-EE1AC1F7D4287F46": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "PC2-EEEC536283B6758A": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "PC2-EEEFD32CA6D5EEE4": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 2
+  },
+  "PC2-EF1A6C9A7A7ED9C9": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 3
+  },
+  "PC2-F4EFB79E8127378C": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "PC2-F512A327E4B4F438": {
+   "rep1": "UNEXPLAINED_CONTRADICTION",
+   "rep2": "UNEXPLAINED_CONTRADICTION",
+   "state": "CORROBORATED",
+   "category": "UNEXPLAINED_CONTRADICTION",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "PC2-F53814EC5B8F0C11": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+   "role": "PROPOSED",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "PC2-F7CCDA4A3D037C68": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 2
+  },
+  "PC2-F8BF84490DF6E6CE": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg4",
+   "replicate": null
+  },
+  "PC2-FCE734D343372475": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "human",
+   "fg": "fg1",
+   "replicate": null
+  },
+  "PC2-FF9EB2CD765A225D": {
+   "rep1": "CONSISTENT",
+   "rep2": "CONSISTENT",
+   "state": "CORROBORATED",
+   "category": "CONSISTENT",
+   "stratum": "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL",
+   "role": "CONTROL",
+   "condition": "demographics-only",
+   "fg": "fg2",
+   "replicate": 3
+  }
+ }
+}

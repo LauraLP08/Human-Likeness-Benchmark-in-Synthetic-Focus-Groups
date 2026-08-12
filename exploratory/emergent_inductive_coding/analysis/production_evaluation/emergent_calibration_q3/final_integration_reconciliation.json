@@ -1,0 +1,1294 @@
+{
+ "built_utc": "2026-08-02T21:59:06.848632+00:00",
+ "sealed_artefacts": {
+  "Clustering_U01_U07.xlsx": {
+   "path": "analysis\\production_evaluation\\partial_emergent_clustering\\Clustering_U01_U07.xlsx",
+   "sha256": "d5dd0c452287387182b8dadaa10ebefdab765b7c4aa2aab1648db313d720f3ab",
+   "matches_expected": true
+  },
+  "Emergent_Matching_Q3_RESEARCHER_V2.xlsx": {
+   "path": "analysis\\production_evaluation\\emergent_calibration_q3\\Emergent_Matching_Q3_RESEARCHER_V2.xlsx",
+   "sha256": "4113068f044f52d628dd7955f17629a6eabf58b53f5616cb9c6f21614d836a63",
+   "matches_expected": true
+  },
+  "Transportability_Emergent_SingleCoder.xlsx": {
+   "path": "analysis\\production_evaluation\\transportability_sample\\Transportability_Emergent_SingleCoder.xlsx",
+   "sha256": "c508cea736f558e070e0e424047ead1093f42782c9609af1fe52bef0488866dc",
+   "matches_expected": true
+  },
+  "supplementary_human_reference.json": {
+   "path": "analysis\\production_evaluation\\transportability_sample\\supplementary_human_reference.json",
+   "sha256": "076eb723b00c85479b9576ef00f99f79af9dd278b519a9b612feb46ed8b926a7",
+   "matches_expected": true
+  }
+ },
+ "reconciliation": "ALL FIGURES RECONCILED",
+ "deductive": {
+  "recall": {
+   "mean_difference": 0.121,
+   "n_favouring_enriched": 4,
+   "n_favouring_demographics_only": 1,
+   "n_ties": 0,
+   "exploratory_sign_test_p": 0.375,
+   "minimum_attainable_p": 0.0625,
+   "cannot_reach_p05": true
+  },
+  "precision": {
+   "mean_difference": 0.0778,
+   "n_favouring_enriched": 2,
+   "n_favouring_demographics_only": 1,
+   "n_ties": 2,
+   "exploratory_sign_test_p": 1.0,
+   "minimum_attainable_p": 0.25,
+   "cannot_reach_p05": true
+  },
+  "reach": {
+   "mean_difference": 0.1176,
+   "n_favouring_enriched": 4,
+   "n_favouring_demographics_only": 1,
+   "n_ties": 0,
+   "exploratory_sign_test_p": 0.375,
+   "minimum_attainable_p": 0.0625,
+   "cannot_reach_p05": true
+  },
+  "f1_secondary": {
+   "mean_difference": 0.1495,
+   "n_favouring_enriched": 4,
+   "n_favouring_demographics_only": 1,
+   "n_ties": 0,
+   "exploratory_sign_test_p": 0.375,
+   "minimum_attainable_p": 0.0625,
+   "cannot_reach_p05": true
+  }
+ },
+ "deductive_per_fg": [
+  {
+   "metric": "recall",
+   "fg": "fg1",
+   "enriched_mean": 0.375,
+   "demographics_only_mean": 0.3333,
+   "difference": 0.0417,
+   "direction": "enriched",
+   "enriched_within_cell_sd": 0.0,
+   "demographics_only_within_cell_sd": 0.1443
+  },
+  {
+   "metric": "recall",
+   "fg": "fg2",
+   "enriched_mean": 0.3333,
+   "demographics_only_mean": 0.381,
+   "difference": -0.0476,
+   "direction": "demographics-only",
+   "enriched_within_cell_sd": 0.2182,
+   "demographics_only_within_cell_sd": 0.2182
+  },
+  {
+   "metric": "recall",
+   "fg": "fg3",
+   "enriched_mean": 0.3667,
+   "demographics_only_mean": 0.1,
+   "difference": 0.2667,
+   "direction": "enriched",
+   "enriched_within_cell_sd": 0.0577,
+   "demographics_only_within_cell_sd": 0.0
+  },
+  {
+   "metric": "recall",
+   "fg": "fg4",
+   "enriched_mean": 0.2778,
+   "demographics_only_mean": 0.0,
+   "difference": 0.2778,
+   "direction": "enriched",
+   "enriched_within_cell_sd": 0.1925,
+   "demographics_only_within_cell_sd": 0.0
+  },
+  {
+   "metric": "recall",
+   "fg": "fg5",
+   "enriched_mean": 0.6,
+   "demographics_only_mean": 0.5333,
+   "difference": 0.0667,
+   "direction": "enriched",
+   "enriched_within_cell_sd": 0.2,
+   "demographics_only_within_cell_sd": 0.1155
+  },
+  {
+   "metric": "precision",
+   "fg": "fg1",
+   "enriched_mean": 1.0,
+   "demographics_only_mean": 1.0,
+   "difference": 0.0,
+   "direction": "tie",
+   "enriched_within_cell_sd": 0.0,
+   "demographics_only_within_cell_sd": 0.0
+  },
+  {
+   "metric": "precision",
+   "fg": "fg2",
+   "enriched_mean": 0.6,
+   "demographics_only_mean": 0.6833,
+   "difference": -0.0833,
+   "direction": "demographics-only",
+   "enriched_within_cell_sd": 0.1732,
+   "demographics_only_within_cell_sd": 0.1607
+  },
+  {
+   "metric": "precision",
+   "fg": "fg3",
+   "enriched_mean": 1.0,
+   "demographics_only_mean": 1.0,
+   "difference": 0.0,
+   "direction": "tie",
+   "enriched_within_cell_sd": 0.0,
+   "demographics_only_within_cell_sd": 0.0
+  },
+  {
+   "metric": "precision",
+   "fg": "fg4",
+   "enriched_mean": 0.4222,
+   "demographics_only_mean": 0.0,
+   "difference": 0.4222,
+   "direction": "enriched",
+   "enriched_within_cell_sd": 0.154,
+   "demographics_only_within_cell_sd": 0.0
+  },
+  {
+   "metric": "precision",
+   "fg": "fg5",
+   "enriched_mean": 0.9167,
+   "demographics_only_mean": 0.8667,
+   "difference": 0.05,
+   "direction": "enriched",
+   "enriched_within_cell_sd": 0.1443,
+   "demographics_only_within_cell_sd": 0.2309
+  },
+  {
+   "metric": "reach",
+   "fg": "fg1",
+   "enriched_mean": 0.8222,
+   "demographics_only_mean": 0.5833,
+   "difference": 0.2389,
+   "direction": "enriched",
+   "enriched_within_cell_sd": 0.1925,
+   "demographics_only_within_cell_sd": 0.1258
+  },
+  {
+   "metric": "reach",
+   "fg": "fg2",
+   "enriched_mean": 0.75,
+   "demographics_only_mean": 0.5333,
+   "difference": 0.2167,
+   "direction": "enriched",
+   "enriched_within_cell_sd": 0.15,
+   "demographics_only_within_cell_sd": 0.1528
+  },
+  {
+   "metric": "reach",
+   "fg": "fg3",
+   "enriched_mean": 0.7056,
+   "demographics_only_mean": 0.6,
+   "difference": 0.1056,
+   "direction": "enriched",
+   "enriched_within_cell_sd": 0.0419,
+   "demographics_only_within_cell_sd": 0.2
+  },
+  {
+   "metric": "reach",
+   "fg": "fg4",
+   "enriched_mean": 0.8296,
+   "demographics_only_mean": 1.0,
+   "difference": -0.1704,
+   "direction": "demographics-only",
+   "enriched_within_cell_sd": 0.2065,
+   "demographics_only_within_cell_sd": 0.0
+  },
+  {
+   "metric": "reach",
+   "fg": "fg5",
+   "enriched_mean": 0.75,
+   "demographics_only_mean": 0.5528,
+   "difference": 0.1972,
+   "direction": "enriched",
+   "enriched_within_cell_sd": 0.0625,
+   "demographics_only_within_cell_sd": 0.0914
+  },
+  {
+   "metric": "f1_secondary",
+   "fg": "fg1",
+   "enriched_mean": 0.5455,
+   "demographics_only_mean": 0.4889,
+   "difference": 0.0566,
+   "direction": "enriched",
+   "enriched_within_cell_sd": 0.0,
+   "demographics_only_within_cell_sd": 0.154
+  },
+  {
+   "metric": "f1_secondary",
+   "fg": "fg2",
+   "enriched_mean": 0.4175,
+   "demographics_only_mean": 0.4781,
+   "difference": -0.0606,
+   "direction": "demographics-only",
+   "enriched_within_cell_sd": 0.2271,
+   "demographics_only_within_cell_sd": 0.2297
+  },
+  {
+   "metric": "f1_secondary",
+   "fg": "fg3",
+   "enriched_mean": 0.5348,
+   "demographics_only_mean": 0.1818,
+   "difference": 0.353,
+   "direction": "enriched",
+   "enriched_within_cell_sd": 0.0634,
+   "demographics_only_within_cell_sd": 0.0
+  },
+  {
+   "metric": "f1_secondary",
+   "fg": "fg4",
+   "enriched_mean": 0.33,
+   "demographics_only_mean": 0.0,
+   "difference": 0.33,
+   "direction": "enriched",
+   "enriched_within_cell_sd": 0.1866,
+   "demographics_only_within_cell_sd": 0.0
+  },
+  {
+   "metric": "f1_secondary",
+   "fg": "fg5",
+   "enriched_mean": 0.709,
+   "demographics_only_mean": 0.6405,
+   "difference": 0.0685,
+   "direction": "enriched",
+   "enriched_within_cell_sd": 0.1629,
+   "demographics_only_within_cell_sd": 0.0959
+  }
+ ],
+ "emergent": {
+  "n_human_instances": 44,
+  "n_machine_themes": 30,
+  "recall": {
+   "numerator_matched_human_instances": 30,
+   "denominator_human_instances": 44,
+   "value": 0.6818181818181818,
+   "note": "UNCERTAIN rows are NOT in the numerator; they are neither correct nor incorrect until resolved"
+  },
+  "strict_precision": {
+   "numerator_machine_themes_linked": 24,
+   "denominator_machine_themes": 30,
+   "value": 0.8,
+   "note": "strict: a machine theme not linked to any human instance counts against precision here even if it is later adjudicated VALID_NOVEL_THEME"
+  },
+  "literal_evidence_quotations": 58,
+  "taxonomy": {
+   "CONFIRMED_UNLINKED_WITH_HUMAN_CANDIDATE": {
+    "U01::M5": [
+     "U01::C02"
+    ],
+    "U03::M2": [
+     "U03::C09"
+    ],
+    "U06::M2": [
+     "U06::C09",
+     "U06::C11"
+    ],
+    "U06::M4": [
+     "U06::C09"
+    ]
+   },
+   "PURE_MACHINE_ONLY": [
+    "U03::M4",
+    "U06::M5"
+   ],
+   "rule": "A = no confirmed match BUT named on a human UNCERTAIN row; a human saw it and related it to her own theme without settling the relation. It must NOT be described as absent from the human reference. B = no confirmed match and no human candidate at all."
+  },
+  "uncertainty": {
+   "numerator": 6,
+   "denominator": 44,
+   "value": 0.13636363636363635
+  }
+ },
+ "crossmodel": {
+  "calibration": {
+   "n_calibration_cases": 14,
+   "n_decided": 9,
+   "n_agree": 6,
+   "n_disagree": 3,
+   "exact_agreement_on_decided": 0.6666666666666666,
+   "n_abstain": 0,
+   "n_unstable": 5,
+   "disagreement_matrix_decided_cases_only": {
+    "human=corresponds | claude=corresponds": 5,
+    "human=corresponds | claude=does_not": 1,
+    "human=does_not | claude=corresponds": 2,
+    "human=does_not | claude=does_not": 1
+   },
+   "instability_rate": 0.35714285714285715,
+   "granularity_confusions": [
+    {
+     "case_id": "CAL::one_to_many::U02::C10",
+     "relation": "one_to_many",
+     "unit": "U02",
+     "claude": "RELATED_BUT_DISTINCT"
+    }
+   ],
+   "units_with_granularity_confusion": [
+    "U02"
+   ],
+   "unusable_if": [
+    "contradicts the researcher on more than half of the decided calibration cases",
+    "reads a one-to-many or many-to-one human match as non-correspondence (NO_CORRESPONDENCE or RELATED_BUT_DISTINCT) in >= 2 units"
+   ],
+   "failed_majority_rule": false,
+   "failed_granularity_rule": false,
+   "judge_usable_for_pending_cases": "USABLE_FOR_CORROBORATION_ONLY",
+   "judge_usable_boolean": true,
+   "what_usable_does_not_mean": "It is NOT evidence of reliability sufficient for autonomous adjudication. The judge may corroborate a human-anchored finding; it may not settle one.",
+   "reliability_against_it": {
+    "exact_agreement_with_researcher": "6/9 stable cases",
+    "self_contradiction_rate": "5/14",
+    "abstentions": 0
+   },
+   "note": "No universal accuracy threshold is asserted. The two rules above are systematic-failure signals fixed before the results were read, and are analytic decisions rather than validated standards.",
+   "rows": [
+    {
+     "case_id": "CAL::MATCHED_one_to_one::U01::C01",
+     "stratum": "MATCHED_one_to_one",
+     "unit_id": "U01",
+     "human": "MATCHED",
+     "relation": "one_to_one",
+     "claude_rep1": "SAME_SUBSTANTIVE_THEME",
+     "claude_rep2": "PARTIAL_OVERLAP_CANDIDATE_MORE_SPECIFIC",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "stable": false,
+     "claude_side": "corresponds",
+     "human_side": "corresponds",
+     "agreement": "UNSTABLE"
+    },
+    {
+     "case_id": "CAL::MATCHED_one_to_one::U01::C03",
+     "stratum": "MATCHED_one_to_one",
+     "unit_id": "U01",
+     "human": "MATCHED",
+     "relation": "one_to_one",
+     "claude_rep1": "PARTIAL_OVERLAP_CANDIDATE_MORE_SPECIFIC",
+     "claude_rep2": "PARTIAL_OVERLAP_CANDIDATE_MORE_SPECIFIC",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "stable": true,
+     "claude_side": "corresponds",
+     "human_side": "corresponds",
+     "agreement": "AGREE"
+    },
+    {
+     "case_id": "CAL::MATCHED_one_to_one::U01::C04",
+     "stratum": "MATCHED_one_to_one",
+     "unit_id": "U01",
+     "human": "MATCHED",
+     "relation": "one_to_one",
+     "claude_rep1": "PARTIAL_OVERLAP_CANDIDATE_MORE_SPECIFIC",
+     "claude_rep2": "RELATED_BUT_DISTINCT",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "stable": false,
+     "claude_side": "corresponds",
+     "human_side": "corresponds",
+     "agreement": "UNSTABLE"
+    },
+    {
+     "case_id": "CAL::MATCHED_one_to_one::U01::C05",
+     "stratum": "MATCHED_one_to_one",
+     "unit_id": "U01",
+     "human": "MATCHED",
+     "relation": "one_to_one",
+     "claude_rep1": "PARTIAL_OVERLAP_CANDIDATE_MORE_SPECIFIC",
+     "claude_rep2": "PARTIAL_OVERLAP_CANDIDATE_MORE_SPECIFIC",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "stable": true,
+     "claude_side": "corresponds",
+     "human_side": "corresponds",
+     "agreement": "AGREE"
+    },
+    {
+     "case_id": "CAL::NO_MATCH_HUMAN_ONLY::U01::C07",
+     "stratum": "NO_MATCH_HUMAN_ONLY",
+     "unit_id": "U01",
+     "human": "NO_MATCH_HUMAN_ONLY",
+     "relation": "no_match_human_only",
+     "claude_rep1": "RELATED_BUT_DISTINCT",
+     "claude_rep2": "PARTIAL_OVERLAP_REFERENCE_MORE_SPECIFIC",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "stable": false,
+     "claude_side": "does_not",
+     "human_side": "does_not",
+     "agreement": "UNSTABLE"
+    },
+    {
+     "case_id": "CAL::NO_MATCH_HUMAN_ONLY::U02::C07",
+     "stratum": "NO_MATCH_HUMAN_ONLY",
+     "unit_id": "U02",
+     "human": "NO_MATCH_HUMAN_ONLY",
+     "relation": "no_match_human_only",
+     "claude_rep1": "PARTIAL_OVERLAP_REFERENCE_MORE_SPECIFIC",
+     "claude_rep2": "PARTIAL_OVERLAP_REFERENCE_MORE_SPECIFIC",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "stable": true,
+     "claude_side": "corresponds",
+     "human_side": "does_not",
+     "agreement": "DISAGREE"
+    },
+    {
+     "case_id": "CAL::NO_MATCH_HUMAN_ONLY::U03::C11",
+     "stratum": "NO_MATCH_HUMAN_ONLY",
+     "unit_id": "U03",
+     "human": "NO_MATCH_HUMAN_ONLY",
+     "relation": "no_match_human_only",
+     "claude_rep1": "PARTIAL_OVERLAP_REFERENCE_MORE_SPECIFIC",
+     "claude_rep2": "PARTIAL_OVERLAP_REFERENCE_MORE_SPECIFIC",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "stable": true,
+     "claude_side": "corresponds",
+     "human_side": "does_not",
+     "agreement": "DISAGREE"
+    },
+    {
+     "case_id": "CAL::NO_MATCH_HUMAN_ONLY::U05::C07",
+     "stratum": "NO_MATCH_HUMAN_ONLY",
+     "unit_id": "U05",
+     "human": "NO_MATCH_HUMAN_ONLY",
+     "relation": "no_match_human_only",
+     "claude_rep1": "RELATED_BUT_DISTINCT",
+     "claude_rep2": "RELATED_BUT_DISTINCT",
+     "confidence": [
+      "HIGH",
+      "HIGH"
+     ],
+     "stable": true,
+     "claude_side": "does_not",
+     "human_side": "does_not",
+     "agreement": "AGREE"
+    },
+    {
+     "case_id": "CAL::many_to_one::U01::M1",
+     "stratum": "many_to_one",
+     "unit_id": "U01",
+     "human": "MATCHED",
+     "relation": "many_to_one",
+     "claude_rep1": "RELATED_BUT_DISTINCT",
+     "claude_rep2": "PARTIAL_OVERLAP_CANDIDATE_MORE_SPECIFIC",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "stable": false,
+     "claude_side": "does_not",
+     "human_side": "corresponds",
+     "agreement": "UNSTABLE"
+    },
+    {
+     "case_id": "CAL::many_to_one::U01::M4",
+     "stratum": "many_to_one",
+     "unit_id": "U01",
+     "human": "MATCHED",
+     "relation": "many_to_one",
+     "claude_rep1": "SAME_SUBSTANTIVE_THEME",
+     "claude_rep2": "PARTIAL_OVERLAP_CANDIDATE_MORE_SPECIFIC",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "stable": false,
+     "claude_side": "corresponds",
+     "human_side": "corresponds",
+     "agreement": "UNSTABLE"
+    },
+    {
+     "case_id": "CAL::many_to_one::U03::M1",
+     "stratum": "many_to_one",
+     "unit_id": "U03",
+     "human": "MATCHED",
+     "relation": "many_to_one",
+     "claude_rep1": "PARTIAL_OVERLAP_REFERENCE_MORE_SPECIFIC",
+     "claude_rep2": "PARTIAL_OVERLAP_REFERENCE_MORE_SPECIFIC",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "stable": true,
+     "claude_side": "corresponds",
+     "human_side": "corresponds",
+     "agreement": "AGREE"
+    },
+    {
+     "case_id": "CAL::one_to_many::U01::C06",
+     "stratum": "one_to_many",
+     "unit_id": "U01",
+     "human": "MATCHED",
+     "relation": "one_to_many",
+     "claude_rep1": "SAME_SUBSTANTIVE_THEME",
+     "claude_rep2": "SAME_SUBSTANTIVE_THEME",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "stable": true,
+     "claude_side": "corresponds",
+     "human_side": "corresponds",
+     "agreement": "AGREE"
+    },
+    {
+     "case_id": "CAL::one_to_many::U02::C10",
+     "stratum": "one_to_many",
+     "unit_id": "U02",
+     "human": "MATCHED",
+     "relation": "one_to_many",
+     "claude_rep1": "RELATED_BUT_DISTINCT",
+     "claude_rep2": "RELATED_BUT_DISTINCT",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "stable": true,
+     "claude_side": "does_not",
+     "human_side": "corresponds",
+     "agreement": "DISAGREE"
+    },
+    {
+     "case_id": "CAL::one_to_many::U03::C02",
+     "stratum": "one_to_many",
+     "unit_id": "U03",
+     "human": "MATCHED",
+     "relation": "one_to_many",
+     "claude_rep1": "PARTIAL_OVERLAP_REFERENCE_MORE_SPECIFIC",
+     "claude_rep2": "PARTIAL_OVERLAP_REFERENCE_MORE_SPECIFIC",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "stable": true,
+     "claude_side": "corresponds",
+     "human_side": "corresponds",
+     "agreement": "AGREE"
+    }
+   ]
+  },
+  "audit": {
+   "n": 24,
+   "n_corroborated": 17,
+   "n_unresolved": 7,
+   "cases": [
+    {
+     "case_id": "A::U01::C02::U01::M5",
+     "task": "A_PAIRWISE_CORRESPONDENCE",
+     "unit_id": "U01",
+     "provenance": {
+      "human_key": "U01::C02",
+      "machine_key": "U01::M5"
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "RELATED_BUT_DISTINCT",
+     "category_as_returned": "RELATED_BUT_DISTINCT",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "A::U02::C09::U02::M1",
+     "task": "A_PAIRWISE_CORRESPONDENCE",
+     "unit_id": "U02",
+     "provenance": {
+      "human_key": "U02::C09",
+      "machine_key": "U02::M1"
+     },
+     "status": "CROSS_MODEL_UNRESOLVED",
+     "category": null,
+     "category_as_returned": null,
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "reasons": [
+      "repetitions disagree: PARTIAL_OVERLAP_REFERENCE_MORE_SPECIFIC vs PARTIAL_OVERLAP_CANDIDATE_MORE_SPECIFIC"
+     ]
+    },
+    {
+     "case_id": "A::U03::C09::U03::M2",
+     "task": "A_PAIRWISE_CORRESPONDENCE",
+     "unit_id": "U03",
+     "provenance": {
+      "human_key": "U03::C09",
+      "machine_key": "U03::M2"
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "RELATED_BUT_DISTINCT",
+     "category_as_returned": "RELATED_BUT_DISTINCT",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "A::U04::C09::U04::M1",
+     "task": "A_PAIRWISE_CORRESPONDENCE",
+     "unit_id": "U04",
+     "provenance": {
+      "human_key": "U04::C09",
+      "machine_key": "U04::M1"
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "SAME_SUBSTANTIVE_THEME",
+     "category_as_returned": "SAME_SUBSTANTIVE_THEME",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "A::U06::C09::U06::M2",
+     "task": "A_PAIRWISE_CORRESPONDENCE",
+     "unit_id": "U06",
+     "provenance": {
+      "human_key": "U06::C09",
+      "machine_key": "U06::M2"
+     },
+     "status": "CROSS_MODEL_UNRESOLVED",
+     "category": null,
+     "category_as_returned": null,
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "reasons": [
+      "repetition 2: quote not verbatim in T004"
+     ]
+    },
+    {
+     "case_id": "A::U06::C09::U06::M4",
+     "task": "A_PAIRWISE_CORRESPONDENCE",
+     "unit_id": "U06",
+     "provenance": {
+      "human_key": "U06::C09",
+      "machine_key": "U06::M4"
+     },
+     "status": "CROSS_MODEL_UNRESOLVED",
+     "category": null,
+     "category_as_returned": null,
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "reasons": [
+      "repetitions disagree: RELATED_BUT_DISTINCT vs NO_CORRESPONDENCE"
+     ]
+    },
+    {
+     "case_id": "A::U06::C11::U06::M2",
+     "task": "A_PAIRWISE_CORRESPONDENCE",
+     "unit_id": "U06",
+     "provenance": {
+      "human_key": "U06::C11",
+      "machine_key": "U06::M2"
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "PARTIAL_OVERLAP_MACHINE_MORE_SPECIFIC",
+     "category_as_returned": "PARTIAL_OVERLAP_CANDIDATE_MORE_SPECIFIC",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "A::U06::C11::U06::M3",
+     "task": "A_PAIRWISE_CORRESPONDENCE",
+     "unit_id": "U06",
+     "provenance": {
+      "human_key": "U06::C11",
+      "machine_key": "U06::M3"
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "NO_CORRESPONDENCE",
+     "category_as_returned": "NO_CORRESPONDENCE",
+     "confidence": [
+      "HIGH",
+      "HIGH"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "B::U01::M5",
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U01",
+     "provenance": {
+      "machine_key": "U01::M5"
+     },
+     "status": "CROSS_MODEL_UNRESOLVED",
+     "category": null,
+     "category_as_returned": null,
+     "confidence": [
+      "HIGH",
+      "HIGH"
+     ],
+     "reasons": [
+      "repetition 1: quote not verbatim in T005",
+      "repetition 2: quote not verbatim in T005"
+     ]
+    },
+    {
+     "case_id": "B::U02::M1",
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U02",
+     "provenance": {
+      "machine_key": "U02::M1"
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "FULLY_SUPPORTED",
+     "category_as_returned": "FULLY_SUPPORTED",
+     "confidence": [
+      "HIGH",
+      "HIGH"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "B::U03::M2",
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U03",
+     "provenance": {
+      "machine_key": "U03::M2"
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "FULLY_SUPPORTED",
+     "category_as_returned": "FULLY_SUPPORTED",
+     "confidence": [
+      "HIGH",
+      "HIGH"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "B::U03::M4",
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U03",
+     "provenance": {
+      "machine_key": "U03::M4"
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "FULLY_SUPPORTED",
+     "category_as_returned": "FULLY_SUPPORTED",
+     "confidence": [
+      "HIGH",
+      "HIGH"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "B::U04::M1",
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U04",
+     "provenance": {
+      "machine_key": "U04::M1"
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "FULLY_SUPPORTED",
+     "category_as_returned": "FULLY_SUPPORTED",
+     "confidence": [
+      "HIGH",
+      "HIGH"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "B::U06::M2",
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U06",
+     "provenance": {
+      "machine_key": "U06::M2"
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "FULLY_SUPPORTED",
+     "category_as_returned": "FULLY_SUPPORTED",
+     "confidence": [
+      "HIGH",
+      "HIGH"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "B::U06::M3",
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U06",
+     "provenance": {
+      "machine_key": "U06::M3"
+     },
+     "status": "CROSS_MODEL_UNRESOLVED",
+     "category": null,
+     "category_as_returned": null,
+     "confidence": [
+      "HIGH",
+      "HIGH"
+     ],
+     "reasons": [
+      "repetition 1: quote not verbatim in T006",
+      "repetition 2: quote not verbatim in T006"
+     ]
+    },
+    {
+     "case_id": "B::U06::M4",
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U06",
+     "provenance": {
+      "machine_key": "U06::M4"
+     },
+     "status": "CROSS_MODEL_UNRESOLVED",
+     "category": null,
+     "category_as_returned": null,
+     "confidence": [
+      "HIGH",
+      "HIGH"
+     ],
+     "reasons": [
+      "repetition 2: quote not verbatim in T006"
+     ]
+    },
+    {
+     "case_id": "B::U06::M5",
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U06",
+     "provenance": {
+      "machine_key": "U06::M5"
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "FULLY_SUPPORTED",
+     "category_as_returned": "FULLY_SUPPORTED",
+     "confidence": [
+      "HIGH",
+      "HIGH"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "B::U07::M4",
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U07",
+     "provenance": {
+      "machine_key": "U07::M4"
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "FULLY_SUPPORTED",
+     "category_as_returned": "FULLY_SUPPORTED",
+     "confidence": [
+      "HIGH",
+      "HIGH"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "B::U07::M5",
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U07",
+     "provenance": {
+      "machine_key": "U07::M5"
+     },
+     "status": "CROSS_MODEL_UNRESOLVED",
+     "category": null,
+     "category_as_returned": null,
+     "confidence": [
+      "HIGH",
+      "HIGH"
+     ],
+     "reasons": [
+      "repetition 1: quote not verbatim in T012",
+      "repetition 2: quote not verbatim in T012"
+     ]
+    },
+    {
+     "case_id": "C::U03::M4",
+     "task": "C_UNMATCHED_CANDIDATE_STATUS",
+     "unit_id": "U03",
+     "provenance": {
+      "machine_key": "U03::M4"
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "VALID_NOVEL_THEME",
+     "category_as_returned": "VALID_NOVEL_THEME",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "C::U06::M5",
+     "task": "C_UNMATCHED_CANDIDATE_STATUS",
+     "unit_id": "U06",
+     "provenance": {
+      "machine_key": "U06::M5"
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "VALID_NOVEL_THEME",
+     "category_as_returned": "VALID_NOVEL_THEME",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "D::U07::C06",
+     "task": "D_GRANULARITY",
+     "unit_id": "U07",
+     "provenance": {
+      "human_key": "U07::C06",
+      "machine_keys": [
+       "U07::M5",
+       "U07::M4"
+      ]
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "SUBSTANTIVE_MISMATCH",
+     "category_as_returned": "SUBSTANTIVE_MISMATCH",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "D::U07::M4",
+     "task": "D_GRANULARITY",
+     "unit_id": "U07",
+     "provenance": {
+      "machine_key": "U07::M4",
+      "human_keys": [
+       "U07::C02",
+       "U07::C06",
+       "U07::C08"
+      ]
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "SUBSTANTIVE_MISMATCH",
+     "category_as_returned": "SUBSTANTIVE_MISMATCH",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "reasons": []
+    },
+    {
+     "case_id": "D::U07::M5",
+     "task": "D_GRANULARITY",
+     "unit_id": "U07",
+     "provenance": {
+      "machine_key": "U07::M5",
+      "human_keys": [
+       "U07::C01",
+       "U07::C06"
+      ]
+     },
+     "status": "CROSS_MODEL_CORROBORATED",
+     "category": "SUBSTANTIVE_MISMATCH",
+     "category_as_returned": "SUBSTANTIVE_MISMATCH",
+     "confidence": [
+      "MEDIUM",
+      "MEDIUM"
+     ],
+     "reasons": []
+    }
+   ]
+  },
+  "quotes": {
+   "n_quotations": 315,
+   "n_character_exact": 307,
+   "n_non_verbatim": 8,
+   "by_classification": {
+    "CASE_ONLY": 2,
+    "FABRICATED_OR_MISATTRIBUTED": 2,
+    "PARTIAL_MISQUOTE": 4
+   },
+   "findings": [
+    {
+     "case_id": "B::U06::M3",
+     "repetition_index": 1,
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U06",
+     "turn_id": "T006",
+     "classification": "CASE_ONLY",
+     "longest_common_run_chars": 144,
+     "quote_len_chars": 145,
+     "matched_fraction": 0.993,
+     "quote": "it's not really about the vegetarianism itself, it's about someone doing something different and the group going, \"No, this is how we do things.\""
+    },
+    {
+     "case_id": "B::U06::M3",
+     "repetition_index": 2,
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U06",
+     "turn_id": "T006",
+     "classification": "CASE_ONLY",
+     "longest_common_run_chars": 144,
+     "quote_len_chars": 145,
+     "matched_fraction": 0.993,
+     "quote": "it's not really about the vegetarianism itself, it's about someone doing something different and the group going, \"No, this is how we do things.\""
+    },
+    {
+     "case_id": "B::U01::M5",
+     "repetition_index": 2,
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U01",
+     "turn_id": "T005",
+     "classification": "FABRICATED_OR_MISATTRIBUTED",
+     "longest_common_run_chars": 4,
+     "quote_len_chars": 223,
+     "matched_fraction": 0.018,
+     "quote": "It's not just that it's different from what we do. It's that being different in that particular way \\u2014 choosing not to eat meat \\u2014 that feels like it says something. And I think that something is tied to being a "
+    },
+    {
+     "case_id": "A::U06::C09::U06::M2",
+     "repetition_index": 2,
+     "task": "A_PAIRWISE_CORRESPONDENCE",
+     "unit_id": "U06",
+     "turn_id": "T004",
+     "classification": "PARTIAL_MISQUOTE",
+     "longest_common_run_chars": 110,
+     "quote_len_chars": 144,
+     "matched_fraction": 0.764,
+     "quote": "Whereas for me, eating meat \\u2014 nobody cares. Nobody needs to know why, it's just what I do. It's the default, so it doesn't need justifying."
+    },
+    {
+     "case_id": "B::U01::M5",
+     "repetition_index": 1,
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U01",
+     "turn_id": "T005",
+     "classification": "FABRICATED_OR_MISATTRIBUTED",
+     "longest_common_run_chars": 4,
+     "quote_len_chars": 223,
+     "matched_fraction": 0.018,
+     "quote": "It's not just that it's different from what we do. It's that being different in that particular way \\u2014 choosing not to eat meat \\u2014 that feels like it says something. And I think that something is tied to being a "
+    },
+    {
+     "case_id": "B::U07::M5",
+     "repetition_index": 1,
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U07",
+     "turn_id": "T012",
+     "classification": "PARTIAL_MISQUOTE",
+     "longest_common_run_chars": 65,
+     "quote_len_chars": 111,
+     "matched_fraction": 0.586,
+     "quote": "I grew up the same way Patrick did \\he you ats you ate, that's what men did. And I've stuck with that, largely."
+    },
+    {
+     "case_id": "B::U07::M5",
+     "repetition_index": 2,
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U07",
+     "turn_id": "T012",
+     "classification": "PARTIAL_MISQUOTE",
+     "longest_common_run_chars": 65,
+     "quote_len_chars": 104,
+     "matched_fraction": 0.625,
+     "quote": "I grew up the same way Patrick did \\was you ate, that's what men did. And I've stuck with that, largely."
+    },
+    {
+     "case_id": "B::U06::M4",
+     "repetition_index": 2,
+     "task": "B_CANDIDATE_GROUNDEDNESS",
+     "unit_id": "U06",
+     "turn_id": "T006",
+     "classification": "PARTIAL_MISQUOTE",
+     "longest_common_run_chars": 85,
+     "quote_len_chars": 161,
+     "matched_fraction": 0.528,
+     "quote": "once you're forty, you've got your own life sorted, you don't need to prove anything \\u2014 you just don't care. You eat what you want and nobody makes it weird."
+    }
+   ],
+   "actual_cost": {
+    "actual_input_tokens": 338638,
+    "actual_output_tokens": 75551,
+    "batch_input_per_mtok": 2.5,
+    "batch_output_per_mtok": 12.5,
+    "actual_batch_usd_at_list_rate": 1.79,
+    "pre_run_estimate_usd": 1.22,
+    "estimate_error": "the pre-run estimate was LOW; see report",
+    "caveat": "list rate; the organisation's effective rate is not API-visible"
+   }
+  }
+ },
+ "transportability": {
+  "n_units": 6,
+  "n_themes": 18,
+  "per_unit": {
+   "S01": {
+    "n_human_themes": 4,
+    "question_id": "Q1",
+    "stratum": "demographics-only"
+   },
+   "S02": {
+    "n_human_themes": 3,
+    "question_id": "Q4",
+    "stratum": "demographics-only"
+   },
+   "S03": {
+    "n_human_themes": 2,
+    "question_id": "Q1",
+    "stratum": "enriched"
+   },
+   "S04": {
+    "n_human_themes": 1,
+    "question_id": "Q4",
+    "stratum": "enriched"
+   },
+   "S05": {
+    "n_human_themes": 4,
+    "question_id": "Q2",
+    "stratum": "human"
+   },
+   "S06": {
+    "n_human_themes": 4,
+    "question_id": "Q5",
+    "stratum": "human"
+   }
+  },
+  "consolidation": "CONSOLIDATION_NOT_REQUIRED — CODER_ROWS_ALREADY_DISTINCT",
+  "limitations": [
+   "one coder",
+   "six units",
+   "four different guide questions",
+   "no inter-coder agreement",
+   "not a gold standard",
+   "no generalisation to all guide questions"
+  ]
+ },
+ "cost": {
+  "actual_input_tokens": 338638,
+  "actual_output_tokens": 75551,
+  "batch_input_per_mtok": 2.5,
+  "batch_output_per_mtok": 12.5,
+  "actual_batch_usd_at_list_rate": 1.79,
+  "pre_run_estimate_usd": 1.22,
+  "estimate_error": "the pre-run estimate was LOW; see report",
+  "caveat": "list rate; the organisation's effective rate is not API-visible"
+ },
+ "provenance": [
+  {
+   "figure": "deductive.recall.mean_difference",
+   "value": 0.121,
+   "source": "results/primary_effects_summary.csv",
+   "note": "FG-level, n=5 pairs"
+  },
+  {
+   "figure": "deductive.precision.mean_difference",
+   "value": 0.0778,
+   "source": "results/primary_effects_summary.csv",
+   "note": "FG-level, n=5 pairs"
+  },
+  {
+   "figure": "deductive.reach.mean_difference",
+   "value": 0.1176,
+   "source": "results/primary_effects_summary.csv",
+   "note": "FG-level, n=5 pairs"
+  },
+  {
+   "figure": "deductive.f1_secondary.mean_difference",
+   "value": 0.1495,
+   "source": "results/primary_effects_summary.csv",
+   "note": "FG-level, n=5 pairs"
+  },
+  {
+   "figure": "emergent.n_human_instances",
+   "value": 44,
+   "source": "matching_derivation_q3.json",
+   "note": ""
+  },
+  {
+   "figure": "emergent.n_machine_themes",
+   "value": 30,
+   "source": "matching_derivation_q3.json",
+   "note": ""
+  },
+  {
+   "figure": "emergent.recall",
+   "value": "30/44 = 0.6818",
+   "source": "bplus_evaluation_q3.json",
+   "note": ""
+  },
+  {
+   "figure": "emergent.strict_precision",
+   "value": "24/30 = 0.8000",
+   "source": "bplus_evaluation_q3.json",
+   "note": ""
+  },
+  {
+   "figure": "emergent.literal_evidence_quotations",
+   "value": 58,
+   "source": "extraction_results_q3.json",
+   "note": "counted from source, not copied"
+  },
+  {
+   "figure": "crossmodel.corroborated",
+   "value": "17/24",
+   "source": "cross_model_analysis_q3.json",
+   "note": ""
+  },
+  {
+   "figure": "crossmodel.exact_agreement",
+   "value": 0.6666666666666666,
+   "source": "cross_model_analysis_q3.json",
+   "note": "6/9 stable cases"
+  },
+  {
+   "figure": "crossmodel.instability_rate",
+   "value": 0.35714285714285715,
+   "source": "cross_model_analysis_q3.json",
+   "note": "5/14"
+  },
+  {
+   "figure": "crossmodel.non_verbatim_quotes",
+   "value": "8/315",
+   "source": "cross_model_quote_audit_q3.json",
+   "note": ""
+  },
+  {
+   "figure": "transportability.n_units",
+   "value": 6,
+   "source": "supplementary_human_reference.json",
+   "note": ""
+  },
+  {
+   "figure": "transportability.n_themes",
+   "value": 18,
+   "source": "supplementary_human_reference.json",
+   "note": ""
+  },
+  {
+   "figure": "cost.actual_list_batch_usd",
+   "value": 1.79,
+   "source": "cross_model_quote_audit_q3.json",
+   "note": "recomputed from token counts"
+  }
+ ]
+}

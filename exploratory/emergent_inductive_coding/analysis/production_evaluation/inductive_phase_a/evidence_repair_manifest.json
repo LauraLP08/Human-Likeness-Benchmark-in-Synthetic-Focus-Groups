@@ -1,0 +1,64 @@
+{
+ "built_utc": "2026-08-03T13:26:07.819151+00:00",
+ "execution_stage": "PHASE_A_EVIDENCE_REPAIR",
+ "submitted": false,
+ "authorisation": "NOT SUBMITTED — awaiting resolution of the count discrepancy",
+ "task": "evidence repair only; NO new open thematic extraction",
+ "model": "gemini-3.5-flash",
+ "execution_mode": "batch",
+ "codebook_shown": false,
+ "segmented_units_changed": false,
+ "n_requests": 1,
+ "n_units": 1,
+ "unique_keys": true,
+ "prompt": "A supporting quotation must be one contiguous substring copied exactly from a single participant turn. Do not omit words from the middle, join separate passages, alter punctuation, repair grammar or paraphrase. If no exact contiguous participant quotation supports the theme, return NOT_SUPPORTED_IN_UNIT.",
+ "schema": {
+  "type": "object",
+  "required": [
+   "verdict"
+  ],
+  "properties": {
+   "verdict": {
+    "type": "string",
+    "enum": [
+     "SUPPORTED",
+     "NOT_SUPPORTED_IN_UNIT"
+    ]
+   },
+   "turn_id": {
+    "type": "string"
+   },
+   "speaker": {
+    "type": "string"
+   },
+   "quote": {
+    "type": "string"
+   }
+  },
+  "conditional_requirement_enforced_locally": {
+   "SUPPORTED": "turn_id, speaker and quote are all mandatory and non-empty",
+   "NOT_SUPPORTED_IN_UNIT": "turn_id, speaker and quote must be empty or absent",
+   "why_local": "the provider's structured output does not express if/then across sibling fields, so the requirement is enforced by the validator below and a violation is quarantined, never repaired"
+  },
+  "no_third_category": true,
+  "confidence_not_requested": true
+ },
+ "requests": [
+  {
+   "custom_request_key": "par::demographics-only::fg2::R2::Q5::T2",
+   "execution_stage": "PHASE_A_EVIDENCE_REPAIR",
+   "unit_id": "demographics-only::fg2::R2::Q5",
+   "theme_id": "T2",
+   "label": "Seeking autonomy over autopilot default choices",
+   "description": "For some, the appeal of plant-based eating lies in reclaiming autonomy and rejecting the passive, unthinking acceptance of food defaults.",
+   "unit_text_sha256": "11a6f96116155bc85e0c7cbdc4b66f4a7bb66b524a1f97b01739a32df8cbff18",
+   "theme_sha256": "ea1cc6b3ada9aa20490707af0c4bb03fd531085f0ef06e085d1508db8b324fe6",
+   "prompt_sha256": "68376c6532ee310e305932df8827a1422eadfc4efceac1aa830bd32925787b5d",
+   "schema_sha256": "5717d9e7c717716125b2c02920591ffbce8510ba8f35b514c7bdd6f781d700ba",
+   "model": "gemini-3.5-flash",
+   "execution_mode": "batch",
+   "cache_key": "37c32ec7dfecfc3b647691b4ea3ee95b62e3531e5981f699b0c3ecd1f979255c"
+  }
+ ],
+ "derived_not_hardcoded": "request count comes from the revalidation's EVIDENCE_REPAIR_REQUIRED themes"
+}

@@ -1,0 +1,1875 @@
+{
+  "schema_version": 3,
+  "session_meta": {
+    "id": "macho_meals_fg4_run03",
+    "research_objective": "Focus group guide exploring how men in the UK make everyday food\nchoices, how social context, work, hobbies, health, taste and other\npeople shape what they eat, how gender and masculinity may influence\nfood choices, and what would need to change for plant-based foods to\nbecome more acceptable or appealing.\n",
+    "topic_domain": "Masculinity, food choice, animal product consumption, and plant-based eating",
+    "participant_collective_identity": "Men in the UK reflecting on food choices, male friendship, gender norms, and plant-based eating",
+    "moderator_knowledge_brief": "Explore (1) everyday food decision-making, (2) the social contexts in\nwhich men spend time with male friends, (3) the influence of other\npeople, work, hobbies, health, nutrition and taste on food choices,\n(4) whether participants perceive gender as shaping what they eat,\n(5) social acceptability and gendered meanings attached to vegetarian,\nvegan, plant-based, feminine or masculine foods, and (6) what personal,\nsocial and practical changes would make plant-based eating more viable\nor appealing. The discussion should remain exploratory, non-judgmental,\nand non-leading.\n",
+    "researcher_notes": "",
+    "temperature": 1.0,
+    "participant_response_max_tokens": 800,
+    "participation_mode": "emergent",
+    "moderator_model": "claude-sonnet-4-6",
+    "initial_session_plan": {
+      "thematisation_approach": "These participants will be framed simply as men reflecting on their own everyday lives \u2014 what they eat, where they spend time, who they spend it with. The collective identity is understated and experiential: ordinary men talking about ordinary choices, not subjects of a study on gender. This framing is intentional \u2014 the more abstract themes (gender, masculinity, plant-based eating) will be arrived at through concrete, personal territory first.",
+      "priority_research_areas": [
+        "Gender and food choice (Section 3): Participants are likely to deny or minimise gender's role in their food choices \u2014 social desirability pressure is high here. Probes must ground claims in specific social situations and past behaviour rather than accepting abstract self-reports.",
+        "Plant-based shift and barriers (Section 4): Imagining a plant-based shift is where masculinity norms are most likely to surface implicitly (e.g. 'it wouldn't fill me up', 'mates would take the piss'). Need to distinguish practical barriers from social/identity ones without leading.",
+        "Social context of eating and male friendship (Sections 1\u20132): Early sections must do enough work to establish that food is socially embedded for these men \u2014 that groundwork makes later sections on gender and plant-based eating more specific and less abstract.",
+        "Consensus and conformity risk (throughout): Three men of similar age and dietary profile may converge quickly, especially on gendered topics where there is a collectively comfortable position. Dissent invitations and contradiction probes will be important throughout Sections 3\u20135."
+      ],
+      "participant_notes": [
+        {
+          "participant_id": "mm_fg4_gregor",
+          "anticipated_role": "Urban North West context may yield a different food culture reference point than the other two. At 53, likely to have well-established food habits and views. May be confident and direct. Watch for whether he sets a tone that others follow.",
+          "initial_attention_flag": "Urban setting may offer richer social food context \u2014 worth drawing on if others are more rural in their examples."
+        },
+        {
+          "participant_id": "mm_fg4_james",
+          "anticipated_role": "Suburban South East context \u2014 possibly more exposure to plant-based options and food culture diversity. May be slightly more moderate or open-minded on plant-based eating. Watch for whether he self-moderates to fit group norms.",
+          "initial_attention_flag": "If he softens or hedges a more open position under group pressure, that is worth a gentle direct probe."
+        },
+        {
+          "participant_id": "mm_fg4_mark",
+          "anticipated_role": "Rural East of England \u2014 likely strong connection to traditional food culture, possibly farming or countryside associations. May be the most grounded in conventional food norms. Could be a dominant voice on 'real food' or similar framing.",
+          "initial_attention_flag": "Rural profile may bring practical or cultural barriers to plant-based eating that are distinct from urban or suburban ones \u2014 worth drawing out specifically."
+        }
+      ],
+      "known_risk_conditions": [
+        "Social desirability on gender: All three men may initially deny that gender influences their food choices. Behavioural grounding and specific social scenario probes will be needed to surface actual practice beneath the stated attitude.",
+        "Consensus lock-in on plant-based foods: There is a real risk these three men converge quickly on a position of 'not for me / too fussy / not filling enough' and the group reinforces that without differentiation. Plan `invite_dissent` and `synthesize_and_challenge` moves for Sections 4 and 5.",
+        "Abstract rather than concrete answers: Questions like 'how do you decide what to eat?' can produce generic answers (taste, habit, convenience). Behavioural grounding probes must anchor responses in actual recent meals and real situations.",
+        "Group size is small (three participants): Silence from one participant is more visible and potentially more uncomfortable. Be alert to any participant going quiet without clear reason \u2014 reactivate gently but not obtrusively.",
+        "Time pressure: 45 minutes for 6 sections with 3 main topic sections. Sections 3, 4, and 5 must get the most time. Sections 1 and 2 serve as productive warm-up but should not be over-explored."
+      ],
+      "directivity_plan": "Sections 0\u20132 (intro and context): Hold back significantly. Let the men find their footing, establish rapport, and arrive at concrete examples through light, open questions. Probe only when a response contains something emotionally or behaviourally specific that deserves following. Do not mine these sections for depth at the expense of later ones. Section 3 (gender and food): Push harder here. This is where abstract denial of gender's role needs to be tested against specific social experiences. Use behavioural probes, scenario grounding, and contradiction surfacing. Sections 4\u20135 (plant-based): Push hardest here on specificity and differentiation. Probe the gap between stated openness and actual behaviour. Surface identity and social pressures that participants may be framing only as practical barriers. Section 6 (closing): Very light touch \u2014 hold space for anything unfinished, but do not reopen exhausted topics.",
+      "time_budget": {
+        "total_minutes": 45,
+        "total_word_budget": 4500,
+        "budget_rationale": "Main topic sections (3, 4, 5) receive approximately 60% of the total word budget combined, with Sections 4 and 5 weighted most heavily as the core research territory. Context sections (1 and 2) receive moderate allocations \u2014 enough to do genuine warm-up and grounding work but not so much that they crowd out the main topics. Intro and closing are light.",
+        "per_section": [
+          {
+            "section_index": 0,
+            "section_label": "Introduction and instructions",
+            "section_phase": "intro",
+            "word_budget": 250,
+            "turn_budget": 4
+          },
+          {
+            "section_index": 1,
+            "section_label": "Opening discussion: male friendship and place",
+            "section_phase": "context",
+            "word_budget": 500,
+            "turn_budget": 8
+          },
+          {
+            "section_index": 2,
+            "section_label": "Everyday food decision-making",
+            "section_phase": "context",
+            "word_budget": 600,
+            "turn_budget": 10
+          },
+          {
+            "section_index": 3,
+            "section_label": "Gender and food choice",
+            "section_phase": "main_topic",
+            "word_budget": 900,
+            "turn_budget": 14
+          },
+          {
+            "section_index": 4,
+            "section_label": "Imagining a plant-based shift",
+            "section_phase": "main_topic",
+            "word_budget": 1000,
+            "turn_budget": 16
+          },
+          {
+            "section_index": 5,
+            "section_label": "Making plant-based foods more appealing",
+            "section_phase": "main_topic",
+            "word_budget": 850,
+            "turn_budget": 14
+          },
+          {
+            "section_index": 6,
+            "section_label": "Closing remarks",
+            "section_phase": "closing",
+            "word_budget": 150,
+            "turn_budget": 4
+          }
+        ]
+      }
+    },
+    "current_section_index": 6,
+    "section_phase": "closing",
+    "current_question_index": 0,
+    "total_turns": 38,
+    "session_started_at": "2026-07-29T13:49:57.340983Z",
+    "inject_participant_intro": false,
+    "run_label": "run03",
+    "participant_episodic_depth": "since_last_n",
+    "participant_episodic_since_last_n": 20,
+    "participant_episodic_recent_k": 6,
+    "moderator_reflection_enabled": true,
+    "moderator_restraint_prompt": true,
+    "moderator_context_mode": "summarized",
+    "engagement_own_history_token_budget": 1500,
+    "moderator_prompt_override": "sandbox/01_MODERATOR_SYSTEM_PROMPT_MINIMAL.md",
+    "moderator_opening_prompt_override": null,
+    "time_budget_tracking_enabled": true
+  },
+  "discussion_guide": [
+    {
+      "section_index": 0,
+      "section_label": "Introduction and instructions",
+      "section_phase": "intro",
+      "section_purpose": "Section 0: Introduction and instructions",
+      "scripted_question": "Hi everyone, thanks so much for joining the focus group today. We\u2019re\ngoing to take about 45 minutes to talk about your food choices and\nopinions, and this will be recorded for research purposes. Try not to\noverthink the questions, and simply speak freely. There are no right\nor wrong answers. Please be respectful of your fellow focus group\nmembers, and keep your responses relatively brief to allow time for\neveryone to speak. But remember that this is a conversation, not an\ninterview, so you can jump in when you have something to say and you\ndon\u2019t have to take turns answering each question, but you can if you\nwant to. Okay great, let\u2019s start by going around and saying your name\nand where in the UK you\u2019re coming from today.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 1,
+      "section_label": "Opening discussion: male friendship and place",
+      "section_phase": "context",
+      "section_purpose": "Section 1: Opening discussion: male friendship and place",
+      "scripted_question": "What\u2019s your favourite place in your city to spend time with your male\nfriends? Why? Feel free to be specific.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 2,
+      "section_label": "Everyday food decision-making",
+      "section_phase": "context",
+      "section_purpose": "Section 2: Everyday food decision-making",
+      "scripted_question": "How do you decide what to eat?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "Do other people influence what you eat? If so, tell us more about how.",
+        "Do your work or hobbies influence what foods you eat? Tell us more about how.",
+        "How important is health and nutrition?",
+        "How important is taste?"
+      ]
+    },
+    {
+      "section_index": 3,
+      "section_label": "Gender and food choice",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 3: Gender and food choice",
+      "scripted_question": "Do you think your gender influences what you eat? Tell us more about\nwhy or why not.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "Is it socially acceptable for men to eat vegetarian or vegan foods?",
+        "Are some foods considered feminine?",
+        "Are some foods considered masculine?"
+      ]
+    },
+    {
+      "section_index": 4,
+      "section_label": "Imagining a plant-based shift",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 4: Imagining a plant-based shift",
+      "scripted_question": "Imagine you decided to go plant-based \u2014 what would need to change in\nyour life for you to do that?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "How would your family and friends react to this?",
+        "How might it change the way you shop or cook?"
+      ]
+    },
+    {
+      "section_index": 5,
+      "section_label": "Making plant-based foods more appealing",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 5: Making plant-based foods more appealing",
+      "scripted_question": "What might make plant-based foods more appealing to you or other men\nyou know?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 6,
+      "section_label": "Closing remarks",
+      "section_phase": "closing",
+      "section_purpose": "Section 6: Closing remarks",
+      "scripted_question": "Okay everyone, that\u2019s our time. Thanks so much for participating\ntoday. Before we finish, is there anything else you would like to add\nabout food choices, gender, masculinity, or plant-based eating?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    }
+  ],
+  "participants": {
+    "mm_fg4_gregor": {
+      "id": "mm_fg4_gregor",
+      "name": "Gregor",
+      "profile_summary": "Gregor, 53, Male. Urban, North West, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg4_gregor",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Gregor",
+            "age": 53,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Urban",
+              "region": "North West",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "2-4 per week",
+            "poultry": "Once a week",
+            "fish": "2-4 per week",
+            "egg": "1-3 per month",
+            "dairy": "2-4 per week"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.3,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 1.4,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 5.2,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 2.4,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 2.4,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG4"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Okie dokie. (.) Um, well, mine is, if I was meeting up with a group of friends, I suppose obviously, it depends on the occasion. Um, but if I was going out for a meal for it, for example, um, we've got a particularly nice Spanish restaurant which we all enjoy. So it's a tapas, got a great atmosphere, it kind of transports you to feel that you're there, it's kind of one of those kind of very atmospheric kind of dark moody lighting sort of place. So we always have a good laugh in there. It's a good good place to share and and just be able to chat as well because it's not too noisy.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 12,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg4_james": {
+      "id": "mm_fg4_james",
+      "name": "James",
+      "profile_summary": "James, 50, Male. Suburban, South East, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg4_james",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "James",
+            "age": 50,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "South East",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "Once a week",
+            "poultry": "2-4 per week",
+            "fish": "2-4 per week",
+            "egg": "2-4 per week",
+            "dairy": "2-4 per week"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 2.7,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 2.7,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.2,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.6,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 1.8,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG4"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Okay. Uh, yeah, my my one would definitely be, so I spend a lot of my weekends playing cricket. So we have a really great bar down there. I must know. (.) I must know about 100 people, so it's normally just hanging out at the cricket club with my friends. It's just a lovely way to spend the weekend (.) for me (.) or anytime during the week. So if England football matches are on, we\u2019ll go and watch it there.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 11,
+      "emotional_signal": "said 'it's a weird thing to realize, isn't it? That you're benefiting from a system that you can also see is a bit crap' \u2014 affective register, slight discomfort with the recognition",
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg4_mark": {
+      "id": "mm_fg4_mark",
+      "name": "Mark",
+      "profile_summary": "Mark, 52, Male. Village or Rural, East of England, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg4_mark",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Mark",
+            "age": 52,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Village or Rural",
+              "region": "East of England",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "Once a week",
+            "poultry": "Once a week",
+            "fish": "Once a week",
+            "egg": "1-3 per month",
+            "dairy": "Once a day"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.8,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.3,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 5.2,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 5.2,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 3.5,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG4"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Favourite place in the city to eat? Well, I don't live in a city. I'm kind of quite rural. And uh I don't tend to go out with male friends much. It would normally be family. Uh but if I did, uh, probably be Wetherspoons. That's uh kind of pretty local to me and purely just because of the price really.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 14,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    }
+  },
+  "group_state": {
+    "participation_balance": {
+      "mm_fg4_gregor": 0.324,
+      "mm_fg4_james": 0.297,
+      "mm_fg4_mark": 0.378
+    },
+    "silent_participants": [],
+    "consensus_risk": 0.55,
+    "dominant_voices": [],
+    "unresolved_tensions": [
+      {
+        "participant_id": "mm_fg4_mark",
+        "flagged_at_turn": 18,
+        "description": "Mark's framing ('just awkwardness about anything different, not necessarily about masculinity') sits in tension with James's account, which specifically quoted 'that's not what blokes do' \u2014 language that is explicitly gendered, not merely about difference. Mark's reframe may be deflecting the gender question rather than genuinely disagreeing about the mechanism.",
+        "resolved": false,
+        "resolved_at_turn": null,
+        "surfaced": true,
+        "surface_count": 1
+      }
+    ],
+    "group_has_agreed_easily_on": [
+      "People matter more than place \u2014 both Mark and Gregor landed here, though they differ on what the place contributes.",
+      "James confirms the 'people over place' theme, completing a three-way consensus across different geographic contexts \u2014 urban, suburban, rural.",
+      "All three participants have converged on the idea that they cannot reliably separate genuine food preference from normalised comfort \u2014 the system is too smooth and invisible to tell.",
+      "All three participants have converged on the idea that plant-based food becoming 'normal' \u2014 not a statement \u2014 is the key shift, and that peer behaviour and availability matter more than the food itself.",
+      "All three participants converge on peer behaviour (mates ordering casually without making it a thing) as the key lever for normalisation, with availability and food quality as secondary factors."
+    ],
+    "section_turn_counts": {
+      "mm_fg4_james": 1,
+      "mm_fg4_gregor": 1,
+      "mm_fg4_mark": 1
+    },
+    "section_word_counts": {
+      "MODERATOR": 158,
+      "mm_fg4_james": 275,
+      "mm_fg4_gregor": 258,
+      "mm_fg4_mark": 242
+    },
+    "completed_section_turn_counts": {
+      "0": {
+        "mm_fg4_james": 1,
+        "mm_fg4_mark": 1,
+        "mm_fg4_gregor": 1
+      },
+      "1": {
+        "mm_fg4_mark": 3,
+        "mm_fg4_gregor": 2,
+        "mm_fg4_james": 1
+      },
+      "2": {
+        "mm_fg4_mark": 2,
+        "mm_fg4_gregor": 2
+      },
+      "3": {
+        "mm_fg4_james": 4,
+        "mm_fg4_gregor": 2,
+        "mm_fg4_mark": 3
+      },
+      "4": {
+        "mm_fg4_james": 2,
+        "mm_fg4_gregor": 2,
+        "mm_fg4_mark": 2
+      },
+      "5": {
+        "mm_fg4_james": 2,
+        "mm_fg4_mark": 2,
+        "mm_fg4_gregor": 2
+      }
+    },
+    "completed_section_word_counts": {
+      "0": {
+        "MODERATOR": 180,
+        "mm_fg4_james": 21,
+        "mm_fg4_mark": 48,
+        "mm_fg4_gregor": 77
+      },
+      "1": {
+        "MODERATOR": 83,
+        "mm_fg4_mark": 343,
+        "mm_fg4_gregor": 330,
+        "mm_fg4_james": 191
+      },
+      "2": {
+        "MODERATOR": 79,
+        "mm_fg4_mark": 277,
+        "mm_fg4_gregor": 443
+      },
+      "3": {
+        "MODERATOR": 268,
+        "mm_fg4_james": 1000,
+        "mm_fg4_gregor": 465,
+        "mm_fg4_mark": 542
+      },
+      "4": {
+        "MODERATOR": 233,
+        "mm_fg4_james": 533,
+        "mm_fg4_gregor": 493,
+        "mm_fg4_mark": 459
+      },
+      "5": {
+        "MODERATOR": 278,
+        "mm_fg4_james": 545,
+        "mm_fg4_mark": 441,
+        "mm_fg4_gregor": 540
+      }
+    },
+    "consecutive_silent_turns": 0,
+    "consecutive_participant_turns": 0,
+    "last_speaker_id": "MODERATOR",
+    "last_engagement_round": [
+      {
+        "participant_id": "mm_fg4_mark",
+        "wants_to_speak": true,
+        "urgency": 0.7,
+        "hook": "James and Gregor have both named something uncomfortable \u2014 the gap between seeing the system and changing because of it. Mark hasn't actually landed on his own discomfort yet. He's been pushed to question whether his meat preference is real or shaped, but he's still sitting in a kind of half-aware place. There's something unresolved there about what it means to benefit from a system you now see, and he might need to voice that rather than leave it hanging.",
+        "addressed_to": null,
+        "intent": "respond"
+      }
+    ],
+    "section_summaries": [
+      {
+        "section_index": 0,
+        "section_label": "Introduction and instructions",
+        "discussion_summary": "This opening section established geographic and demographic diversity across participants \u2014 urban Manchester, suburban South East, rural East of England \u2014 with Gregor briefly introducing a theme of urban exposure to difference versus quieter, more homogeneous rural settings. The section closed before substantive discussion began, with the moderator pivoting to the first real topic: meaningful social spaces with male friends. No strong thematic tension emerged yet; this was largely scene-setting.",
+        "strategy_summary": "The approach here was straightforward orientation: introduce ground rules, keep the welcome warm and low-pressure, and move quickly to substance. Framing the session as a genuine conversation rather than a quiz was deliberate \u2014 intended to reduce performance anxiety. The transition to the first question was efficient. The main risk was Gregor's early urban/rural contrast going unexplored, but given it arose in introductions, holding that thread for later was the right call."
+      },
+      {
+        "section_index": 1,
+        "section_label": "Opening discussion: male friendship and place",
+        "discussion_summary": "This section centred on the relationship between place, familiarity, and male sociality \u2014 specifically whether a fixed, shared venue generates something qualitatively different from flexible variety. The tension wasn't urban versus rural so much as depth-through-repetition versus richness-through-range, with both sides ultimately conceding the people matter most. James's practical middle-ground position softened the binary without fully resolving it, leaving open whether place itself does independent social work.",
+        "strategy_summary": "The section opened as a natural two-way exchange between Mark and Gregor, and the main call was when to intervene \u2014 I held back through four turns to let the tension develop organically, then pulled James in once the Mark-Gregor dynamic had plateaued. That worked: James reframed rather than just picked sides. The transition out used the emergent consensus on 'people over place' as a bridge to food, which felt earned rather than forced."
+      },
+      {
+        "section_index": 2,
+        "section_label": "Everyday food decision-making",
+        "discussion_summary": "This section centred on the degree to which environment shapes behaviour \u2014 specifically whether dietary variety is a product of personal preference or structural friction. The Mark-Gregor exchange recapitulated the place-versus-agency tension from Section 1 but sharpened it: Gregor introduced friction as a more precise mechanism than simple exposure, while Mark held that individual will overrides circumstance. The section closed with that tension productively unresolved, creating a natural entry point for the gender-and-food question.",
+        "strategy_summary": "I let the Mark-Gregor exchange run without James, judging that the binary was sharper and more analytically useful without a mediating voice this time \u2014 the friction-versus-determinism distinction Gregor landed was exactly the kind of conceptual refinement worth letting develop. The transition acknowledged that refinement explicitly before pivoting, which felt earned. The risk was James remaining silent for a full section; that's a participation gap to address early in the next one."
+      },
+      {
+        "section_index": 3,
+        "section_label": "Gender and food choice",
+        "discussion_summary": "This section centred on the social enforcement of masculine food norms \u2014 specifically how informal ridicule shapes behaviour regardless of whether it reflects genuine belief. The key conceptual move was James's distinction between conscious conviction and cumulative effect: jokes don't require sincere ideology to do real social work. Gregor's notion of 'invisible privilege' \u2014 benefiting from the default without noticing it \u2014 gave that argument its sharpest form, and Mark progressively conceded ground as the logic accumulated.",
+        "strategy_summary": "The main moves were: letting James open on invisibility, pulling Mark in early before he went quiet again, then surfacing the James-Mark tension explicitly rather than letting it dissolve into vague agreement. Naming the two positions as potentially distinct forced James to sharpen his argument and Mark to genuinely engage rather than retreat. Gregor was reintroduced late to consolidate rather than disrupt the developing consensus. The closing pivot to a concrete hypothetical was designed to shift from social analysis to personal friction \u2014 appropriate given where the group had landed."
+      },
+      {
+        "section_index": 4,
+        "section_label": "Imagining a plant-based shift",
+        "discussion_summary": "This section tested the gender-norms analysis developed in Section 3 against personal stakes \u2014 asking what change would actually cost. The productive tension was between James and Gregor, who both eat meat willingly yet felt discomfort at the invisible pressure sustaining that choice, and Mark, who acknowledged the system's reality while remaining genuinely unbothered by it. The section's conceptual advance was separating 'constrained by norms' from 'aligned with norms' \u2014 and noticing that alignment doesn't neutralise the mechanism.",
+        "strategy_summary": "The main moves were letting James and Gregor develop the 'you can see it but can't un-see it' thread without interruption, then pulling Mark in deliberately once the conceptual ground was set. The follow-up challenge \u2014 surfacing the tension between his earlier 'just awkwardness' framing and his later 'system works for me' framing \u2014 pushed him to a more honest, nuanced position without destabilising him. The transition pivot to appeal factors felt earned rather than forced."
+      },
+      {
+        "section_index": 5,
+        "section_label": "Making plant-based foods more appealing",
+        "discussion_summary": "This section moved from diagnosing the social mechanism to interrogating whether individual preference is separable from structural conditioning \u2014 a sharper, more personal iteration of the agency-versus-constraint tension running throughout. The group converged on a genuinely uncomfortable position: knowing the mechanism doesn't dissolve it. The closing exchange separated availability and social cover as distinct barriers, with urban density offering more cover but not eliminating the underlying pressure.",
+        "strategy_summary": "The main moves were letting James's challenge to Mark's 'unaffected' position land without moderator cushioning, then pulling Gregor in to consolidate rather than disrupt the developing convergence. The push to concretise cost-reduction \u2014 forcing past 'make it normal' to specific mechanisms \u2014 was deliberate and worked reasonably well, generating the availability-versus-cover distinction. The risk was the group converging too comfortably; the closing invitation to unfinished business was an attempt to reopen without forcing."
+      },
+      {
+        "section_index": 6,
+        "section_label": "Closing remarks",
+        "discussion_summary": "This closing section turned on the gap between comprehension and behaviour change \u2014 all three participants acknowledged seeing the mechanism clearly yet anticipated carrying on largely unchanged. The productive distinction was between James's resigned self-awareness, Gregor's reframing toward small social adjustments rather than dietary change, and Mark's more unsettling position: uncertainty about whether his preferences were ever genuinely his own. That last move extended the agency-versus-constraint thread into genuinely personal, unresolved territory.",
+        "strategy_summary": "The main call was giving James's opening honesty room to land without moderator cushioning, then pulling Gregor and Mark in sequentially to let each develop their own version rather than converging on James's framing. That worked: three distinct positions emerged rather than one. The close was intentionally light \u2014 thanking without summarising \u2014 to preserve the unresolved quality Mark had named. The risk was ending on discomfort; I judged that earned rather than careless given how the session developed."
+      }
+    ],
+    "moderator_turn_share_overall": 0.579,
+    "moderator_turn_share_recent": 0.9
+  },
+  "moderator_log": [
+    {
+      "turn": 0,
+      "timestamp": "2026-07-29T13:50:44.417696Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Session is initialising. No participant has spoken. The opening utterance needs to welcome, establish the conversational register and ground rules, and deliver the first discussion-guide question naturally. The tone should be warm and unhurried \u2014 these are three men who may not be used to this kind of group discussion format. Ground rules should be communicated lightly so they feel enabling rather than regulatory. The first question (name and location) is deliberately low-stakes and should feel like a natural continuation of the welcome.",
+      "action": "ask_initial_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Hi everyone, thanks so much for joining today \u2014 really glad you're all here. I'm the moderator for this session, and my job is basically just to keep the conversation going and make sure everyone gets a chance to speak. We've got about 45 minutes together, and this will be recorded for research purposes, so just so you know that's happening.\n\nThe main thing I'd say before we get going is that this is genuinely a conversation, not a quiz \u2014 there are no right or wrong answers, and I'm not looking for any particular kind of response. Whatever you actually think, or do, or find yourself saying in the moment is exactly what's useful. You don't need to take turns answering every question \u2014 if something someone else says connects with your experience, just jump in. And if you disagree with each other, that's completely fine \u2014 actually that tends to make things more interesting.\n\nOkay, let's keep it simple to start \u2014 if you could just go around and say your name and where in the UK you're coming from today, that'd be great.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": null
+    },
+    {
+      "turn": 2,
+      "timestamp": "2026-07-29T13:50:59.233101Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "James has just introduced himself \u2014 brief, low-key, a bit self-deprecating about his location ('nothing too exciting really'). This is the intro round and we're just collecting names and places. Gregor and Mark haven't spoken yet. The session state shows all three had high urgency to introduce themselves. The priority is simply getting all three men to speak before moving on. No probing needed here \u2014 this is a pure warm-up moment. I should observe and let Gregor and Mark introduce themselves naturally, or wait to see if they do so without prompting.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 3,
+      "timestamp": "2026-07-29T13:51:15.356149Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Mark has just introduced himself \u2014 brief, warm, low-key. James and Mark have both spoken. Gregor has not yet introduced himself. This is the only remaining task for this section. The section is close to its word budget. Gregor has been flagged as wanting to speak. I should observe and let him introduce himself naturally without prompting \u2014 he's already signalled intent and the cue is obvious.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "timestamp": "2026-07-29T13:51:32.768517Z",
+      "trigger": "section_complete",
+      "situation_assessment": "All three participants have now introduced themselves. Gregor has given a slightly fuller intro than the others, noting Manchester's diversity and implying exposure to different foods \u2014 a potentially useful thread for later, but this is the intro section and the word budget is essentially spent (249/250 words, 2/4 turns). The section's goal \u2014 getting all three men to speak and establish basic comfort \u2014 has been met. The right move is a brief, warm acknowledgement and transition into Section 1. No probing needed here.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Good stuff \u2014 Manchester, the South East, and rural East of England. Nice spread. Right, let's get into it. First question is a simple one: what's your favourite place in your city, town, or wherever you are \u2014 to spend time with your male friends? Could be a pub, somewhere outdoors, a mate's house, whatever comes to mind. Why that place?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 5,
+      "timestamp": "2026-07-29T13:52:00.718118Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Mark has just answered the Section 1 question \u2014 favourite place to spend time with male friends. His answer is clear, specific, and grounded: a proper village local and someone's garden for barbecues. The key texture is 'nothing fancy about it, but that's the point' \u2014 the relaxedness and low-key social ease. This is one of three answers needed; Gregor and James haven't responded yet to this question (they only introduced themselves in Section 0). The section has 0 turns counted and 59 moderator words \u2014 so the other two men haven't yet answered. James and Gregor both signalled high urgency to speak. The right move is to let them respond naturally without my intervention \u2014 they'll almost certainly pick up the thread without prompting. Mark's answer is good and will invite comparison from the others.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "timestamp": "2026-07-29T13:52:19.839713Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Gregor has just answered the Section 1 question \u2014 his answer is clear and substantive: Manchester offers more variety, and for him the appeal is doing different things with the same people (pubs, meals, walking). It's a meaningful contrast to Mark's 'same spot, relaxed, nothing fancy' framing \u2014 Gregor values variety and diversity of activity where Mark values consistency and ease. That contrast is interesting but doesn't need my intervention to surface \u2014 James hasn't spoken yet on this question and is likely to add his own angle. The section has used only 1/8 turns and 131/500 words. James signalled high urgency to speak. The right move is to observe and let him contribute naturally.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "timestamp": "2026-07-29T13:52:42.620147Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Mark has now responded to Gregor's point about variety, making a clear case for the value of consistency and settled routine over options. This is a genuine and interesting contrast between the two \u2014 Gregor values variety and diversity of activity; Mark values predictability and ease. James still hasn't contributed to this section's question at all. The section has used 2/8 turns and 266/500 words, so there's space. James signalled urgency to speak and has his own take (suburban context, not as limited as Gregor implied, but not a village pub either). The right move is to observe \u2014 James is likely to jump in naturally, and Mark and Gregor are in a productive, easy back-and-forth that doesn't need my interruption. No consensus risk, no silence, no contradiction requiring action. Let James come in.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg4_james",
+        "rationale": "James has not yet responded to the Section 1 question and has signalled he wants to. If he doesn't self-select in the next turn, a light invitation is warranted.",
+        "condition": "James does not speak in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "timestamp": "2026-07-29T13:53:06.607268Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Gregor has responded thoughtfully to Mark's defence of routine, softening the contrast ('I reckon both things have something going for them') while landing on a clear position: it's the people that matter, not the place. This is a natural resolution to the Mark/Gregor exchange and lands the section's key theme \u2014 social connection as the core of male friendship spaces \u2014 with some texture around urban variety vs. rural consistency. James still hasn't contributed to Section 1 at all. The section has used 368/500 words and 3/8 turns, so there's room. James signalled he wants to speak and has his own suburban angle. The right move is to observe \u2014 Gregor's last line ('it's the people that matters, isn't it?') is a natural open invitation for James or Mark to respond. James is very likely to jump in now. No intervention needed.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg4_james",
+        "rationale": "James has not yet contributed to Section 1 and signalled he wants to. Gregor's closing line ('it's the people that matters, isn't it?') is an open invitation \u2014 if James doesn't self-select in the next participant turn, a light invitation is warranted.",
+        "condition": "James does not speak in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "timestamp": "2026-07-29T13:53:34.348420Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Mark has just made a genuinely interesting distinction \u2014 not defending sameness for its own sake, but articulating what a fixed place does that rotation can't replicate: the landlord knowing your name, the shared rhythm of a whole village, the accidental encounters. Gregor conceded the people point; Mark is now pushing back with the counter-argument that place itself does something irreducible. This is a productive exchange and the section has real texture now. However: the section is over its word budget (563/500), James has not spoken a single word in Section 1, and a mandatory intervention is required. The current guide question has been substantively answered by Mark and Gregor \u2014 the range of positions is clear (variety + people-first vs. place-as-relationship-infrastructure). The marginal value of more Mark/Gregor back-and-forth is low. The right move is to bring James in \u2014 this is both the mandatory intervention and the natural next step. James's suburban context sits between the two poles already articulated, and he signalled urgency to speak. A warm, light invitation framed around the topic (not the silence) is appropriate. Then I should prepare to transition to Section 2.",
+      "action": "reactivate_silent",
+      "target": "mm_fg4_james",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 1 is over budget and the core question has been answered. After James contributes, move to Section 2.",
+        "condition": "James has responded and no urgent new thread has opened."
+      },
+      "intervention_mode": "speak",
+      "utterance": "James, you've been listening to these two go back and forth \u2014 what's your version of it? Where do you and your mates end up?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "timestamp": "2026-07-29T13:53:53.131479Z",
+      "trigger": "section_complete",
+      "situation_assessment": "James has now answered the Section 1 question. His response is coherent and positions him between Gregor and Mark \u2014 suburban flexibility, pub as default, people over place \u2014 which confirms the range of positions across the group. The section has used 756/500 words and 5/8 turns, well over budget. The guide question has been substantively answered: all three participants have contributed, the range of experience is clear (village ritual, urban variety, suburban pragmatism), and the group has independently landed on 'people matter more than place' as a shared theme. There is no new thread here worth mining \u2014 James's answer is a tidy synthesis, not an opening. The marginal value of further Section 1 discussion is very low. The right move is to transition to Section 2.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Yeah, that practical middle ground makes sense \u2014 the pub as a default without it being a rule. So across all three of you, different parts of the country, but the same thread coming through: it's the people that make it work, not the specific place. Let's follow that through a bit \u2014 because if we're eating and drinking with people, food's part of the picture too. How do you actually decide what you eat? Day to day, what's driving that?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 11,
+      "timestamp": "2026-07-29T13:54:29.388294Z",
+      "trigger": null,
+      "situation_assessment": "Mark has opened Section 2 with a clear, concrete answer: a structured weekly pattern of meat, fish, and dairy, driven by habit and satiety rather than deliberation. It's a direct and specific response to 'how do you decide what to eat?' \u2014 useful data for the research. However, it's the first contribution to this section and represents only one voice (and a fairly uncomplicated, habitual-eating perspective). Gregor and James both signalled they want to speak and have their own angles. The section has barely begun (79 words, 0 turns logged). The right move is to let the group run \u2014 Mark's answer is clear enough that Gregor and James may naturally respond or add their own positions without prompting. No intervention needed yet.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 12,
+      "timestamp": "2026-07-29T13:54:52.431614Z",
+      "trigger": null,
+      "situation_assessment": "Gregor has responded directly to Mark's answer with a useful contrast: same broad diet (meat, fish, dairy) but shaped differently by urban environment and social context rather than deliberate choice. He's introduced a new dimension \u2014 place as a passive shaper of food range \u2014 which is a genuine addition to the section's research value. The section is early (180 words, 1 turn out of budget). James has signalled urgency to speak and hasn't contributed to Section 2 yet. Two participants have now spoken, giving contrasting but not conflicting perspectives. The natural next move is to let James come in \u2014 he has his own angle ('even simpler than Mark's making it sound') and this is a group conversation. No intervention needed; James is likely to speak voluntarily.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 13,
+      "timestamp": "2026-07-29T13:55:20.016051Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Mark has pushed back on Gregor's 'place shapes you passively' framing, asserting it's fundamentally about individual choice. This is a genuine and productive tension \u2014 not drift, directly relevant to Section 2's question about how food decisions get made. The exchange has real research value: the Mark/Gregor debate surfaces a deeper question about agency versus environment in food choice, which will matter for later sections on gender and plant-based eating. James hasn't spoken in Section 2 yet and has a contrasting suburban angle ready. Three participants have each spoken once (Mark twice), the section is at 402/600 words with 2/10 turns used \u2014 plenty of room. James's urgency signal was high and he had a direct counter-perspective to Gregor. The natural move is to let James come in and complete the three-way picture. The Mark-Gregor exchange is doing exactly what a good Section 2 should do \u2014 mapping different frameworks for food decision-making \u2014 and the group doesn't need me right now.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg4_james",
+        "rationale": "James hasn't spoken in Section 2 yet and has a suburban counter-perspective to both Mark and Gregor. If he doesn't come in voluntarily on the next turn, a warm invitation would complete the range of positions.",
+        "condition": "James does not speak voluntarily on the next turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "timestamp": "2026-07-29T13:55:49.246533Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Gregor has given a clear, well-articulated answer that directly addresses the Section 2 guide question from a different angle \u2014 environmental friction as a shaper of food choice rather than active deliberation. This is a genuine and useful conceptual contribution. The Mark-Gregor exchange has been productive: two contrasting frameworks (individual will vs. environmental friction) have emerged organically and been argued with specificity. The section is at 578/600 words \u2014 effectively at budget. James hasn't spoken in Section 2 yet, but the section's core question has been answered with enough range by Mark and Gregor. The Mark-Gregor tension has resolved into a clear conceptual difference that the group understands. The research territory here is largely mapped. The right move is to let the section land and transition to Section 3, which is where the real research work begins. James will have opportunity to speak there. There is no value in continuing to probe Section 2 when Section 3 is the priority area and the budget is spent.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg4_james",
+        "rationale": "James hasn't spoken in Section 2 and has a suburban perspective that may be relevant. Section 3 opens the gender question \u2014 if he doesn't come in voluntarily early on, a warm invitation would complete the range of voices.",
+        "condition": "James does not speak voluntarily in the first two turns of Section 3."
+      },
+      "intervention_mode": "speak",
+      "utterance": "That distinction between friction and determinism is useful \u2014 you're not saying the place makes you, just that it makes certain things easier or harder to bother with. Right. What I want to do is take some of that and go somewhere slightly different with it. We've been talking about how you decide what to eat \u2014 I want to get into something that might sit underneath some of that. Do you think your gender influences what you eat? And I mean that in any direction \u2014 whether you think it does, doesn't, or it's more complicated than that.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "timestamp": "2026-07-29T13:56:36.177639Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "James has just opened Section 3 with a genuinely substantive and analytically interesting answer. He's not denying gender's role \u2014 he's reframing it: the gender effect for men is the invisibility of their food choices, the freedom from having to justify them. He's drawing a contrast with what happens when a man goes vegetarian (gets questions/pushback) versus eating meat (unremarkable). This is exactly the kind of nuanced claim that Section 3 needs tested \u2014 it's interesting but also potentially a comfortable framing that avoids the harder question of whether men's food choices are more constrained than James is acknowledging. The claim that 'a bloke can also not eat meat, but he might get more pushback' is worth probing or redirecting to the group \u2014 does that track with Mark and Gregor's experience? Mark (rural) in particular would likely have a different view of that 'freedom from judgment' claim. Gregor has also signalled urgency to speak. The group hasn't yet responded to James, and the natural next move is to let the exchange develop \u2014 either Gregor or Mark responding to what James just said. James's 'invisibility' framing is provocative enough that it may generate organic disagreement. I should not speak yet \u2014 give the group space to react to this. The section is very early (96 words, 0 turns used), and the conversation has just begun in earnest.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg4_james",
+        "rationale": "James's 'invisibility' framing \u2014 that gender shapes food through freedom from scrutiny rather than pressure to conform \u2014 is a interesting but untested claim. The specific moment he mentioned (a man going vegetarian getting pushback) deserves a concrete example probe if others don't pick it up.",
+        "condition": "Mark and Gregor do not engage substantively with James's invisibility framing in the next two turns."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "timestamp": "2026-07-29T13:57:07.609923Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "Gregor has affirmed James's 'invisibility' framing and extended it meaningfully \u2014 connecting it back to his own friction argument from Section 2 and noting that the people who get scrutinised are those making non-default choices. This is substantive and adds texture, but it also risks becoming a comfortable consensus: both James and Gregor have landed on 'invisibility is the mechanism' without testing it against lived specifics. Neither has been challenged on whether this invisibility is entirely benign or whether it also constitutes a constraint \u2014 i.e., does the absence of scrutiny for meat-eating also mean that deviation from meat-eating carries real social cost for men? Gregor mentioned 'less of a bloke' comments directed at his vegetarian mates, which is the first concrete instance of gendered food pressure in the session and deserves to be explored. Mark hasn't spoken in Section 3 yet, and his rural context might yield a quite different account of this \u2014 whether the 'invisibility' framing holds in a setting where food culture is more homogeneous and deviation from meat-eating might carry heavier social weight. The participation imbalance is real (Mark silent so far in Section 3), but the current line of discussion is still productively developing. The right move is to redirect Gregor's 'less of a bloke' observation to the group \u2014 particularly to Mark \u2014 rather than a direct probe on Gregor alone. This is the most analytically rich thread so far and opens the gendered food pressure question concretely.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg4_mark",
+        "rationale": "Mark hasn't spoken in Section 3 yet and his rural context may yield a different account of whether the 'invisibility' framing holds \u2014 in a more homogeneous food culture, deviation from meat-eating might carry heavier social weight than James and Gregor are describing.",
+        "condition": "Mark does not respond to the group redirect in the next turn."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Gregor, you mentioned your mates getting comments about being 'less of a bloke' when they've gone vegetarian. Does that land with the others? Is that something you've seen or experienced \u2014 that kind of reaction when a man eats differently from the default?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "timestamp": "2026-07-29T13:57:38.968083Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "James has given a concrete, specific account of a mate who went vegetarian and faced sustained social ribbing \u2014 'gone soft,' 'that's not what blokes do' \u2014 before eventually it settled down. This is exactly the kind of behavioural specificity Section 3 needs. He's also offered an interpretation: it wasn't about the food itself but about the signal the different choice sent about masculinity. That's analytically interesting and worth keeping in play. Critically, Mark has still not spoken in Section 3 at all. The section is at 2/14 turns and James and Gregor have dominated so far. Mark's rural background is likely to yield a different texture here \u2014 food culture homogeneity in rural East of England may mean deviation from meat-eating carries heavier social weight, or conversely, may simply mean it never comes up. The queue from turn 16 had a direct probe on Mark as the planned fallback if he didn't respond to the redirect \u2014 he hasn't. The current line is productive but the group is at risk of settling into a comfortable shared framing (it's daft, it's just food, but it still happens) before Mark has contributed. The right move is to bring Mark in now. The question is how \u2014 not a reactivate_silent (too soft at this point in a main topic section) but an invite_to_speak or a redirect that specifically invites his perspective given the rural context. Given that James has named a specific concrete experience, redirecting to Mark using his likely different context is the natural move. I can use the rural angle lightly without being heavy-handed about it.",
+      "action": "invite_to_speak",
+      "target": "mm_fg4_mark",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg4_mark",
+        "rationale": "If Mark gives a substantive answer, probe for specificity \u2014 a concrete instance from his rural context where a man's food choices attracted comment, or where that expectation of meat-eating is particularly strong.",
+        "condition": "Mark gives a general or brief answer without a concrete example."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Mark, you've been quiet on this one \u2014 what's your take? Does that ring true in your world?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "timestamp": "2026-07-29T13:58:08.834511Z",
+      "trigger": "contradiction_pending",
+      "situation_assessment": "Mark has responded, but his contribution is essentially a reframe that deflects from the masculinity question: he's suggesting the social pressure around non-default food choices is just general awkwardness about difference, not specifically gendered. This is an analytically interesting but potentially evasive position \u2014 it partially contradicts what James described (the 'that's not what blokes do' framing being explicitly gendered) while also being plausible on its own terms. Mark's framing deserves testing: he's essentially saying 'it's just weirdness about anything different' but the examples James gave were explicitly masculine in their language. There's a productive tension here between James's account (the comments were specifically about masculinity) and Mark's reframe (it's just awkwardness about difference). This is worth surfacing \u2014 not as a gotcha, but as a genuine question for the group: is there a meaningful difference between those two explanations? The section is almost at its word budget (876/900) but only at 3/14 turns, which is a significant mismatch \u2014 the word budget is likely skewed by long participant turns, and there's still analytical depth to cover (the suggested probes on feminine/masculine foods haven't been touched). I should not treat the word budget as a hard stop here. The more pressing issue is whether to directly probe the James-Mark tension or let it develop. Given this is Section 3's core territory and the contradiction is specific and testable, I should surface it \u2014 but briefly and without being heavy-handed. A synthesize_and_challenge framing would work: acknowledge both positions and ask the group to work out whether they're actually saying different things. This keeps the conversation productive without me appearing to take James's side.",
+      "action": "synthesize_and_challenge",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": "medium",
+      "queued_next_action": {
+        "action": "ask_initial_to_group",
+        "target": "group",
+        "rationale": "The suggested probes on masculine/feminine foods haven't been touched yet and are important for the research objective. Once the James-Mark tension is worked through, open that thread.",
+        "condition": "The James-Mark tension resolves or reaches a natural resting point in the next two turns."
+      },
+      "intervention_mode": "speak",
+      "utterance": "There's something interesting sitting between what James said and what Mark just said. James, your account of your mate getting stick \u2014 'gone soft,' 'that's not what blokes do' \u2014 that language sounds pretty specifically about masculinity. But Mark, you're saying it might just be that people get funny about anything out of the ordinary, and the bloke thing isn't necessarily the point. Are those two different explanations, or are they saying the same thing in different ways?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 19,
+      "timestamp": "2026-07-29T13:58:39.814138Z",
+      "trigger": null,
+      "situation_assessment": "James has pushed back on Mark substantively and well \u2014 the distinction he's drawing (gendered language versus general awkwardness about difference) is analytically precise and directly advances the section's research question. He's also correctly noted that the invisibility argument applies specifically to gender expectations, not just to 'difference' in the abstract. This is genuinely productive tension between James and Mark, and importantly, the argument is now resting with Mark to respond to. Gregor hasn't spoken since his turn 16 contribution, and has something queued \u2014 he was explicitly flagged as wanting to challenge Mark on this same point. The conversation is live and contested. The group does not need me right now. Intervening would interrupt a genuine back-and-forth that is doing exactly what Section 3 needs. The right move is to observe and let Mark (and possibly Gregor) respond. The word budget is over (1171/900) but the section has only used 4/14 turns, and this is the core analytical territory \u2014 this is not a moment to cut short.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "timestamp": "2026-07-29T13:59:06.016339Z",
+      "trigger": null,
+      "situation_assessment": "Mark has partially conceded James's point \u2014 he now acknowledges the language is specifically gendered ('gone soft' isn't something you'd say about pottery). But he's retreated to a subtler position: maybe the language is gendered but the belief beneath it isn't deep, or people are just reaching for the easiest joke. This is a meaningful refinement rather than a capitulation, and it actually opens a more interesting analytical question: is the harm in the language itself (regardless of how deeply people 'believe' it), or does it only matter if there's genuine underlying conviction? That's worth sitting with \u2014 and importantly, Gregor has been queued with something to add since turn 16. He was described as wanting to push on the invisibility angle and engage with Mark's position. The conversation has been two-way between James and Mark for a couple of turns; Gregor has genuine energy to contribute and this is a natural moment for him to enter. The group is doing exactly the right work for Section 3's research questions. The James-Mark tension has now yielded something analytically rich: not just 'yes gender shapes food' but a precise question about whether gendered language is a surface performance or reflects deeper belief. I don't need to intervene \u2014 Gregor wants to speak and the conversation is still live and productive. The section is well over its word budget but only at 5/14 turns, and this is the analytical core. Let it run.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "timestamp": "2026-07-29T13:59:40.820480Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "James has made a sophisticated and analytically significant move: he's shifted the question from 'do people consciously believe gendered food norms?' to 'does it matter whether they consciously believe them, given the behavioural effects are the same?' This is exactly the kind of conceptual depth Section 3 needs \u2014 and it's a direct, well-argued response to Mark's last retreat position. The argument James is making (performative vs. sincere belief, but equivalent behavioural effect) is rich research material. Mark has been engaged and partially conceding; Gregor has been quiet for several turns now (his last contribution was turn 16) and has been flagged as wanting to speak. The conversation has been running productively between James and Mark for four consecutive turns. Gregor's perspective \u2014 particularly his lived Manchester context and his earlier comment about mates getting 'stick' \u2014 is directly relevant to what James just said. He has something queued. The section is well over its word budget but the research value here is genuinely high: this is the core gender-and-food question being worked through at real depth. Gregor re-entering now would both restore participation balance and potentially add a different perspective (does the invisibility argument apply to his Manchester context the same way?). But the conversation is still live and building \u2014 James just made a strong argument that Mark hasn't had a chance to respond to. The choice is: observe and let Mark respond, or invite Gregor in given he's been silent for ~5 turns. Given that Gregor has been flagged as wanting to speak with genuine energy, and the James-Mark exchange has been running for long enough, this is a natural moment to either observe one more turn (let Mark respond) or actively pass to Gregor. Mark responding first feels right \u2014 he's been directly challenged and letting him reply before Gregor adds weight feels more natural. Observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg4_gregor",
+        "rationale": "Gregor has been silent since turn 16 and was flagged as wanting to engage on exactly this invisibility/gendered-language question. If Mark responds and the exchange continues without Gregor, bring him in \u2014 his Manchester context and earlier comment about mates getting stick is directly relevant to what James just argued about behavioural effect regardless of belief.",
+        "condition": "Mark responds but Gregor does not self-select in the following turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "timestamp": "2026-07-29T14:00:15.759388Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Mark has now substantially conceded James's core argument \u2014 he's accepted that the jokes pile up and shape behaviour regardless of conscious belief, and has offered his own corroborating observation ('blokes who wouldn't say they care about all this masculinity stuff, but they still do the expected thing'). This is a meaningful shift from his earlier 'just awkwardness about difference' position. The deferred contradiction flag from turn 18 has effectively been resolved organically by the conversation itself \u2014 Mark walked himself toward acknowledging the gendered mechanism without needing me to surface it explicitly. Gregor has been silent since turn 16 and was queued with genuine energy to contribute on exactly this topic. The James-Mark exchange has run its natural course and landed somewhere analytically useful. Three consecutive participant turns have produced a productive arc: contested framing \u2192 partial concession \u2192 fuller concession. The section is well over word budget (1818/900) and has covered the core gender-and-food question with real depth. What's not yet on the table: the group's own personal experience of adjusting behaviour (Mark just gestured at this \u2014 'you just adjust' \u2014 but hasn't grounded it in a specific moment), and Gregor has been absent from this exchange entirely. The queued next action from turn 21 was to reactivate Gregor if Mark responded without Gregor self-selecting \u2014 that condition has now been met across two turns. Given the section is deeply over budget and the conceptual territory has been well-covered, the question is whether to bring Gregor in for a final contribution on this question before moving on, or to begin transitioning. Gregor's perspective \u2014 particularly whether the Manchester context or his own specific experience adds anything new \u2014 is worth one more contribution before closing the section. A light invitation to Gregor that also implicitly signals the section is nearing its end feels right. I'll bring Gregor in with a brief invite tied to what Mark just said about 'just adjusting' \u2014 his earlier comment about mates getting stick is directly relevant \u2014 then use his response as the natural close of this section before transitioning to Section 4.",
+      "action": "reactivate_silent",
+      "target": "mm_fg4_gregor",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 3 has been thoroughly explored \u2014 the gender-and-food question has been worked through with genuine depth and differentiation. After Gregor contributes, transition to Section 4 (imagining a plant-based shift).",
+        "condition": "After Gregor responds, regardless of content, unless he raises something genuinely new that requires a follow-up."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Gregor \u2014 you mentioned earlier your mates getting stick when they've gone vegetarian, and now Mark's talking about blokes just adjusting to avoid the hassle. Does that match what you've seen, or is it different in your experience?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "timestamp": "2026-07-29T14:00:38.535045Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Gregor has just delivered exactly what was needed \u2014 a specific, personal account (his mate going back to eating meat, the 'never stopped' comments) that corroborates James's cumulative-effect argument, and he's added something genuinely new: the discomfort of noticing the invisible privilege ('you benefit from it without really noticing it, and then you feel a bit awkward when you do notice it'). He's also offered the sharpest formulation yet: 'it's about keeping people in line without having to say it outright.' That's analytically rich. The section has now produced a coherent and well-developed picture across all three participants: gendered food norms operate through cumulative social pressure rather than explicit belief, and the 'invisibility' of conformity is itself part of the mechanism. All three men have engaged, Mark has moved from deflection to genuine concession, and Gregor has closed the loop with both personal evidence and a structural insight. The section is massively over word budget (2029/900) and has been well-explored. The queued next action from the last turn was section_transition after Gregor responds, unless he raises something genuinely new. Gregor has added something conceptually rich but not a new research thread requiring further probing \u2014 the 'keeping people in line without saying it outright' formulation is a good closing note rather than an opening for more. The research objective for Section 3 is satisfied. It's time to move to Section 4. A brief, appreciative transition that doesn't over-summarise and pivots naturally to the plant-based shift question.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "There's something in what you just said, Gregor \u2014 keeping people in line without saying it outright \u2014 that feels like it's doing a lot of work. And that thread about invisibility, the easiness of just being in the default, has run through a lot of what all three of you have said. Let's take that somewhere concrete. Imagine you actually decided to go plant-based \u2014 not permanently, not as a big statement, just: you're doing it. What would need to change in your life for that to actually work?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 24,
+      "timestamp": "2026-07-29T14:01:20.651614Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "James has just delivered a remarkably clear and self-aware answer to the Section 4 question. He's distinguished practical barriers (low) from social barriers (high), and he's connected this directly back to Gregor's 'invisibility' concept from Section 3 in a way that advances rather than repeats it \u2014 specifically, the idea that going plant-based would mean actively losing a form of social ease he currently holds without effort. This is genuinely rich material: he's named the mechanism (not the food, but the cost of stepping outside the default), and he's done it with real emotional honesty ('that's the bit that actually bothers me'). The question now is whether to probe James further, redirect to the group, or observe. James has answered the guide question with sufficient specificity and depth \u2014 there's little more to extract from him immediately without risking over-probing. The more valuable move is to open this to Mark and Gregor, particularly Mark, whose earlier position was more about friction with the 'different' and who hasn't yet been asked to imagine this for himself specifically. Mark's rural context may yield a different texture of social pressure. The section is just opened (87 words used), so there's real space. A redirect to group here \u2014 specifically anchoring on James's practical/social distinction \u2014 is the right move. It invites Mark and Gregor to respond to the substance without me adding framing.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg4_mark",
+        "rationale": "Mark's rural context and his earlier 'just awkwardness about difference' framing may produce a different picture of what would need to change \u2014 the social cost might be weighted differently, or the practical dimension might be higher. Worth probing specifically if he doesn't go deep in his initial response.",
+        "condition": "Mark responds but stays abstract or practical without addressing the social dimension."
+      },
+      "intervention_mode": "speak",
+      "utterance": "James is making a distinction there between the practical side and the social side \u2014 and he's saying the practical bit is almost fine, it's the social cost that's the real barrier. Does that land the same way for you two? What would actually need to change in your lives?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "timestamp": "2026-07-29T14:01:54.462967Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Gregor has answered the Section 4 question with genuine specificity and emotional honesty. He's made an important distinction from James: he actually likes meat and would miss it, so his barrier isn't purely social \u2014 it's a mix of genuine preference and social pressure. But he's also landed on the same structural observation as James: the default is 'so locked down' that even considering a change feels like a fight. Both James and Gregor have now answered the guide question from different angles. Mark has not yet spoken in this section \u2014 he was queued with urgency and had explicitly signalled he had something to say about his own honest assessment of what would need to change. The queued action from turn 24 was to probe Mark if he stayed abstract; more pressingly, he simply hasn't spoken yet. Mark's rural context, his earlier 'just awkwardness about difference' position, and his signalled self-reflection about not being honest make him the most analytically valuable voice right now. The section is at 398/1000 words with 1/16 turns used \u2014 there's substantial room. I should not intervene to probe Gregor further (his answer was complete and specific) or synthesize yet (Mark hasn't contributed). The right move is to let the discussion develop naturally \u2014 Mark may well self-select here given his queued urgency. Gregor has just finished. The floor is open. I should observe and let Mark take it.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg4_mark",
+        "rationale": "Mark has not yet spoken in Section 4 and was queued with high urgency. If he does not self-select in the next turn, a light invitation tied to his rural context and his earlier comment about 'just adjusting' is needed.",
+        "condition": "Mark does not speak in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 26,
+      "timestamp": "2026-07-29T14:02:29.203904Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "James has just delivered something genuinely rich \u2014 he's moved from describing a structural observation to articulating a personal paradox: he benefits from a system he can see is 'a bit crap' and feels unable to do much about it. This is emotionally honest and analytically precise. But crucially, James and Gregor have now both spoken at length and are largely in agreement \u2014 they've converged on the same structural insight from slightly different angles. Mark has still not spoken in Section 4. His queued urgency was high; he signalled he had something to say about his own honest self-assessment. Given his rural background, his earlier 'just awkwardness about difference' framing, and his signalled recognition that he might have been rationalising, his perspective may look different from James and Gregor's. The section has produced strong material from two participants but risks becoming a James-Gregor dialogue. The participation imbalance is real and the moment is natural \u2014 James has just finished, the floor is open. Mark should be brought in. I don't need a formal reactivation probe since the conversation is at a natural pause \u2014 I can let Mark self-select, but his queued urgency suggests he will take it. The right call is to observe and let Mark take the floor, with a queued reactivation if he doesn't.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg4_mark",
+        "rationale": "Mark has not spoken in Section 4 and had high queued urgency about his own honest self-assessment. If he does not self-select following James's turn, a light warm invitation is needed \u2014 particularly drawing on his earlier 'just adjusting' framing and what he said about knowing what he likes.",
+        "condition": "Mark does not speak in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "timestamp": "2026-07-29T14:03:03.170493Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Gregor has just delivered something analytically significant: he's moved from structural observation to personal complicity \u2014 'I'm part of that, aren't I?' \u2014 and landed on a specific, modest form of possible action (not laughing along). This is a genuine moment of self-implication. James and Gregor have now both spoken at length in this section and have converged on the same structural insight from slightly different but complementary angles. The section is at 907/1000 words \u2014 nearly at budget. Mark has still not spoken a single word in Section 4, despite having queued urgency of 0.7 and signalling he had something to say. His perspective is the missing piece: rural context, earlier 'just awkwardness about difference' framing, and his signalled self-reflection about possibly rationalising. This is now a genuine participation imbalance \u2014 two participants have produced rich, honest material; one has been entirely absent. The section guide question has been well-answered by James and Gregor, but Mark's voice is analytically distinct and the section cannot close without it. Given the word budget is almost exhausted, I need to bring Mark in now \u2014 efficiently, warmly \u2014 without opening new ground that would take the section over budget. A light, warm reactivation tied to what the group has been discussing is the right move.",
+      "action": "reactivate_silent",
+      "target": "mm_fg4_mark",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 4 is at budget and James and Gregor have produced strong material. After Mark responds, the section should close and move to Section 5 \u2014 what would make plant-based more appealing.",
+        "condition": "Mark responds to the reactivation."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Mark, you've been taking all this in \u2014 where does it land for you? What would actually need to change in your life if you were to make that shift?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "timestamp": "2026-07-29T14:03:28.061702Z",
+      "trigger": "contradiction_pending",
+      "situation_assessment": "Mark has finally spoken in Section 4 and given an honest, self-aware answer: he genuinely wants meat, the system works for him because it aligns with what he wants, and he acknowledges he may be 'part of the problem' but can't pretend to be bothered by something that doesn't bother him. This is a complete and specific answer to the guide question from his perspective. The section is now over word budget (1191/1000) and all three participants have spoken. The queued action was section_transition after Mark responded. However, before closing the section, there is a flagged contradiction pending for Mark that is directly relevant right now: his earlier framing was 'just awkwardness about anything different, not necessarily about masculinity' \u2014 but his current answer implicitly accepts the gender framing (he's talking about 'the system' and male social pressure) without acknowledging the shift. More importantly, his final line \u2014 'I eat what I like, I'm comfortable with it' \u2014 is analytically interesting precisely because it sits alongside his earlier deflection of gender as a mechanism. He's now conceding the system exists and suits him; earlier he was denying it was about gender at all. This is a genuine and surfaceable tension. The section is over budget, but this contradiction is the most analytically valuable thing left to surface before transitioning \u2014 and it can be done efficiently. A light reflect_contradiction move targeting Mark, framing it as curiosity not accusation, would be valuable. It's brief enough to not further blow the word budget, and it closes out the section's most important unresolved tension before moving to Section 5.",
+      "action": "reflect_contradiction",
+      "target": "mm_fg4_mark",
+      "probe_type": null,
+      "follow_up_intensity": "light",
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 4 is over budget and all three participants have contributed. After Mark responds to the contradiction probe, move to Section 5.",
+        "condition": "Mark responds to the contradiction probe."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Mark, I want to pick up on something you said earlier \u2014 back when this came up you were saying it was 'just awkwardness about anything different, not necessarily about masculinity.' But just now you're describing a system that works for you because what it pushes happens to be what you want anyway. Those feel like slightly different things to me. How do you see those two fitting together?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 29,
+      "timestamp": "2026-07-29T14:03:50.449196Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Mark has just responded to the reflect_contradiction probe from turn 28 and given a genuinely thoughtful answer. He's doing something analytically interesting: he's partially conceding the point (yes, the pressure is real, yes 'gone soft' is gendered language) while preserving a distinction about mechanism \u2014 is it deliberate gender policing, or is it just default-aversion that happens to use gendered language? And he's honest about his own epistemic limits: 'maybe I'm just not seeing it as clearly because it's not pushing against what I want to do.' This is a substantive and specific answer to the contradiction probe. The flagged tension from turn 18 has now been engaged with directly \u2014 Mark isn't fully resolving it but he is genuinely grappling with it rather than deflecting. The unresolved tension can be considered surfaced and worked. The section is now well over budget (1474/1000 words) and all three participants have contributed substantively. Mark's final concession \u2014 'I might be wrong about that' and the self-aware 'maybe I'm just not seeing it clearly' \u2014 is a genuine and honest closing note for the section. The guide question (what would need to change?) has been answered by all three. Section 4 is done. The queued next action from turn 28 was section_transition. That is the right call now. I should acknowledge briefly and move to Section 5 without summarising exhaustively.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "That's a really honest place to land, Mark \u2014 and that distinction between the mechanism and the effect is worth holding onto. Let's move on from there. You've all been talking about what makes it hard to step outside the default. I want to flip that around a bit now \u2014 what do you think might actually make plant-based food more appealing? To you, or to men you know. What would need to be different about it?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 30,
+      "timestamp": "2026-07-29T14:04:35.825303Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "James has given a substantive, well-structured answer to the Section 5 guide question. He's drawn a clean distinction between the practical (food that actually satisfies, hearty lentil stew vs. fake burger) and the social (the comments, the 'gone soft' culture). The practical layer is specific and grounded. The social layer recapitulates ground already covered in Sections 3 and 4 \u2014 the 'make it normal, stop making it weird' conclusion is honest but not new. The section is just opening (75/850 words, 0/14 turns) and James has gone first with a complete, confident answer. The risk now is that Mark and Gregor simply agree and the group converges on James's framing without adding anything distinctive. Mark's rural context and Gregor's urban context could yield meaningfully different takes on both the practical and social dimensions \u2014 what counts as 'hearty' food, what the social cost of plant-based actually looks like in different male friendship contexts. The right move is to open this to the group, specifically inviting the others to respond to what James has said \u2014 not summarising James, but using his distinction as a springboard. I should redirect to the group and let Gregor and Mark respond. I do NOT need to probe James further \u2014 he's given a full answer. The emotional signal flagged for James is from an earlier section; his current turn is confident and analytical, not emotionally raw. No direct probe needed here.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "James is making a distinction there between the food itself \u2014 what actually fills you up \u2014 and the stuff around it, the social layer. Does that land the same way for you two? And I'm curious whether what counts as 'hearty' or satisfying looks different depending on where you are, what you're used to.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "timestamp": "2026-07-29T14:05:05.542961Z",
+      "trigger": null,
+      "situation_assessment": "James has just made a sharp, analytically rich move: he's turned his earlier 'you can't un-see it' insight back onto Mark, arguing that alignment with norms doesn't tell you whether the norms are shaping your wants in the first place. This is a direct, thoughtful challenge to Mark \u2014 not aggressive, but substantive. It's also the most analytically sophisticated thing said in this section so far. The section guide question is about what would make plant-based foods more appealing, but James has pivoted back to the social-pressure-and-invisibility thread from Sections 3 and 4. This isn't entirely off-topic \u2014 his argument (that the social layer is the real barrier, not the food itself) is directly relevant to Section 5's question \u2014 but the group is at risk of cycling back through ground already covered rather than advancing into new territory. The important thing here is that James has directly addressed Mark, and Mark hasn't responded yet. Gregor also hasn't spoken since the moderator's redirect. The natural and correct thing is to let Mark respond \u2014 this is a live two-person exchange that the group should work through. There's no need to intervene. The conversation has genuine energy and direction. The emotional register note about James is from an earlier section; his current turn is confident and analytical, not distressed. The right call is observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 32,
+      "timestamp": "2026-07-29T14:05:35.430307Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Mark has just given one of the most emotionally honest and analytically significant responses of the session. He's acknowledged genuine uncertainty about whether his preferences are authentically his own or shaped by the absence of friction \u2014 and he's named the discomfort of that realisation explicitly ('that's actually a bit uncomfortable, to be honest'). This is substantive, specific, and emotionally real. The deferred contradiction from turn 18 has effectively been resolved organically: Mark has moved well past the 'just awkwardness, not masculinity' deflection \u2014 he's now conceding that the mechanism James described is probably operating on him too, without having been explicitly confronted about the earlier framing. Surfacing that old tension now would be backwards-looking and potentially deflating when the conversation has moved to a more honest and productive place. The flagged contradiction is resolved in spirit. What the section still needs: Gregor has not spoken since the moderator's redirect at turn 30. The section's guide question \u2014 what would make plant-based foods more appealing \u2014 has been addressed by James (practical: hearty food; social: stop making it weird) and now by Mark in an indirect but rich way (the discomfort of recognising you can't separate preference from normalisation). Gregor's urban Manchester context could add something distinct here \u2014 what does the practical or social landscape look like from that vantage point? He flagged urgency to push back on James ('I think he's maybe going too far with it'), and that tension hasn't been given space. The right move is a light, warm invitation to Gregor \u2014 not a direct probe on a specific claim, but an open invitation to respond to what Mark just said or add his own perspective. The group has been in a James-Mark exchange for several turns; Gregor is the natural next voice. I should not speak at length \u2014 this is a conversational pass, not a synthesis.",
+      "action": "invite_to_speak",
+      "target": "mm_fg4_gregor",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Gregor, you've been sitting with all of this \u2014 where does that land for you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "timestamp": "2026-07-29T14:06:08.045674Z",
+      "trigger": "consensus_risk",
+      "situation_assessment": "Gregor has just given a genuinely rich and honest response that lands in a similar place to Mark's \u2014 acknowledging he can't separate authentic preference from normalised comfort \u2014 but adds something distinct: the 'smooth system' observation, that you can see the mechanism and still go along with it because the friction of not going along is real and the payoff is uncertain. This is the most complete answer to Section 5's guide question we've had from Gregor, and it connects directly to the appeal question: for plant-based food to become more appealing, the friction of the alternative has to come down, or the payoff of questioning the norm has to become clearer. The section has now had three substantive contributions (James's practical/social distinction, Mark's discomfort at not being able to tell preference from comfort, Gregor's 'you can see it and still go along with it'). The word budget is over (896/850) but the turn budget is not (3/14) \u2014 and importantly, the section's research question hasn't been fully answered yet. What's been produced so far is largely a restatement and extension of the social-pressure-and-invisibility thread from Sections 3 and 4, applied to what would make plant-based more appealing. James's practical answer (hearty food, not fake meat) has been stated but not deepened. The group hasn't really explored what would concretely make the social layer easier \u2014 specific things like celebrity association, price, availability, framing, marketing, peer behaviour. The question was 'what might make plant-based foods more appealing to you or other men you know?' \u2014 we've heard 'make it normal, stop making it weird' and 'the friction is real even when you can see it', but we haven't heard much about what would actually tip the balance. The section still has research value. The group has converged emotionally and analytically (all three now acknowledging the invisible system) \u2014 consensus risk is elevated. The right move is NOT to probe individual emotional responses further (that would deepen what's already well-covered), but to push the group toward what would actually change things \u2014 concrete, specific, actionable territory. A synthesize_and_challenge move feels right here: acknowledge that all three have arrived at a similar place (you can see it and still go along with it), then challenge the group to move from diagnosis to what would actually shift it in practice \u2014 not at the abstract 'make it normal' level, but specific levers.",
+      "action": "synthesize_and_challenge",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": "medium",
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "So all three of you are arriving at a similar place \u2014 you can see the mechanism, and you're still going along with it, because the friction of doing otherwise is real and the upside is unclear. That makes sense as a description. But I want to push on something: if the problem is that the alternative costs too much effort and discomfort, what would actually lower that cost? Not in the abstract \u2014 like, concretely. Is it the food itself, something about how it's sold or framed, who's eating it, what your mates do? Because 'make it normal' is the end state, but something has to move first.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 34,
+      "timestamp": "2026-07-29T14:06:49.651198Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Mark has just given a concrete, practical, and well-structured answer to the guide question \u2014 probably the most directly on-point response the section has produced. He's identified three distinct levers: availability (decent options at the places men actually go), peer modelling (a mate casually ordering plant-based without drama), and framing (it being treated as a normal option, not a statement). This is specific, grounded in his rural/pub context, and adds something James's earlier answer didn't fully cover \u2014 the 'availability at the point of use' angle and the 'first-mover peer' mechanism. Importantly, Mark's answer here also resolves the deferred contradiction from turn 18. He's no longer framing the barrier as 'just awkwardness about anything different, not masculinity' \u2014 he's now explicitly describing a social marking mechanism ('if I ordered a salad, that's marked, everyone notices') that is functionally the same gendered norming James described. Surfacing the old contradiction now would be backwards-looking and deflating; the organic resolution is more valuable than an explicit confrontation. The section's word budget is well over (1255/850), but the turn budget has headroom (4/14) and the section still has research value \u2014 specifically, James flagged something earlier about seeing an upside Gregor wasn't naming (from last_engagement_round), and Gregor hasn't responded to the synthesis challenge with a concrete answer yet. However, looking at the current state: James has spoken (hearty food + stop making it weird), Mark has now spoken (availability + peer modelling + normalisation). Gregor has not yet responded to the moderator's synthesize_and_challenge from turn 33, which asked specifically what would concretely lower the cost. Gregor's urban Manchester context \u2014 with more variety, more exposure \u2014 might yield a different or more nuanced answer on what actually moves first. The word budget is spent but there's still something worth getting. The right move is a light, warm invitation to Gregor to respond to the concrete question, not a heavy probe. The group is converging reasonably organically on 'availability + normalisation' \u2014 consensus risk is moderate but not alarming since these are genuinely different framings of similar mechanisms. I should let Gregor respond before deciding whether to push harder or transition to closing.",
+      "action": "invite_to_speak",
+      "target": "mm_fg4_gregor",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Once Gregor responds, the section's core question will have been addressed by all three participants with sufficient concreteness. The word budget is well over, and closing remarks need space.",
+        "condition": "Gregor gives a substantive response and no new tension or contradiction emerges that warrants staying in the section."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Gregor \u2014 Mark's talking about the pub, his mates, what's on the menu. Does that map onto your end of things, or does it look different from where you are?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 35,
+      "timestamp": "2026-07-29T14:07:18.477908Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Gregor has now responded to the concrete question with a substantive and geographically specific answer. He's confirmed availability isn't his barrier (Manchester has the options), identified the peer behaviour mechanism as the key lever, and added something genuinely new: the concept of 'cover' \u2014 that diversity of choices makes it harder to mark plant-based as a statement, but doesn't eliminate the pressure entirely. He's also landed on a precise formulation: 'ordering it when they actually want to, without the calculation.' This is the most analytically useful thing said this turn. All three participants have now answered the guide question with concrete specificity: James (hearty food + stop making it weird), Mark (availability at actual venues + peer modelling without drama), Gregor (peer behaviour + social cover + remove the calculation). The section's research question has been answered with real depth and differentiation. The word budget is substantially over (1516/850) and the session time is also well over budget (75+ minutes estimated vs 45 planned). The queued next action from turn 34 specified a section_transition once Gregor gave a substantive response and no new tension emerged requiring more time in the section. Gregor's answer does not introduce a new tension that warrants staying \u2014 it consolidates and extends. The one thing worth noting: Gregor's final formulation ('just stop, and I'm not sure how you make that happen') is a genuine acknowledgment of limits rather than an emotional cue requiring probing. No new contradictions. The deferred tension from Mark is resolved. The right move is section_transition to closing, brief and warm, without a comprehensive recap.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "That's a useful distinction, Gregor \u2014 availability and social cover aren't the same thing, even when both are there. Right, we've covered a lot of ground across all of this \u2014 food choices, how gender and social context shape them, what a plant-based shift would actually cost, and what might move it. Before we finish, I want to give everyone a chance to add anything that feels unfinished \u2014 anything about food, masculinity, or plant-based eating that hasn't come up, or that you want to leave on the table.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 36,
+      "timestamp": "2026-07-29T14:07:58.880700Z",
+      "trigger": "emotional_register",
+      "situation_assessment": "James has just given one of the most personally honest statements of the entire session \u2014 a clear-eyed acknowledgment that understanding a mechanism and changing your behaviour because of it are different things, and that he expects to be the person who saw it and carried on anyway. This is not a new research finding that needs probing; it's a closing statement that completes a thread that has been building since Section 3. The emotional register is genuine but not distressed \u2014 James sounds reflective, not in need of support or rescue. He's named what he's sitting with clearly and without prompting. The guide question for this section is simply whether anyone has anything unfinished to add. James has answered that for himself. The right response here is not to probe deeper \u2014 that would drag back into territory we've covered, and this is closing. It's also not to summarise or synthesize, which would flatten what he said. The appropriate move is a brief, warm acknowledgment that holds the weight of what he said without analysing it, and then opens the floor gently to Gregor and Mark in case they want to add anything before we close. This is a light-touch closing action. Gregor signalled he had something unfinished (from last_engagement_round), and Mark did too \u2014 both at urgency 0.65-0.7. They should have a moment. But the section is nearly at its word budget (86/150) and the session is well over time. Keep it brief.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Once Gregor and Mark have had a moment to add anything unfinished, the session should close warmly. The word and turn budgets are nearly spent.",
+        "condition": "Gregor and/or Mark respond and no significant new tension emerges."
+      },
+      "intervention_mode": "speak",
+      "utterance": "That takes some honesty, James \u2014 thank you. The gap between seeing something and actually living differently because of it is real. Gregor, Mark \u2014 anything sitting with you that you wanted to get to?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 37,
+      "timestamp": "2026-07-29T14:08:26.343148Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Gregor has given a thoughtful, honest closing statement that genuinely differentiates his position from James's \u2014 not 'I'll see it and carry on anyway' but 'I'll see it and try not to feed into it, even if I don't change what I eat.' This is a meaningful distinction: James named the gap between understanding and behaviour, Gregor has named a third option between full behaviour change and complicit passivity \u2014 a kind of low-cost, social-level attentiveness. This is a genuine contribution, not a rerun of what's been said. The session is now substantially over time and the closing section is at 394/150 words. Mark signalled he had something to add (urgency 0.65, 'something that's landed with me'). The right move is to give Mark a brief moment \u2014 his urgency was real and he deserves the floor \u2014 and then close warmly. No probing, no synthesis, no new territory. Just hold the door open for Mark and then bring it home.",
+      "action": "invite_to_speak",
+      "target": "mm_fg4_mark",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Once Mark has had his moment, the session should close. All three participants have had a genuine final word. No unresolved tensions remain live.",
+        "condition": "Mark responds and no significant new tension emerges."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Mark \u2014 anything you wanted to get to before we close?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 38,
+      "timestamp": "2026-07-29T14:08:47.167343Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Mark has just given the most personally vulnerable statement of the entire session \u2014 arriving at genuine uncertainty about whether his preferences are his own, and being honest enough to say he doesn't know what he'll do with that. This is a closing statement, not an opening for deeper probing. The flagged contradiction (Mark's 'just awkwardness' framing vs. James's explicitly gendered language) was surfaced earlier in the session and has been progressively resolved through the work of Sections 3-5 \u2014 Mark has moved from deflecting the gender question to acknowledging the system's existence and his alignment with it. Using reflect_contradiction now would reopen contested territory in a closing section when Mark has just offered something genuinely honest and vulnerable. That would be a misuse of the technique. The right response here is a warm, brief close. All three participants have now had a genuine final word. The session is substantially over time (85+ mins vs 45 planned). The queued next action from turn 37 specified section_transition once Mark responded and no significant new tension emerged. Mark's response does not introduce new tension \u2014 it completes a personal arc. The session should close now, warmly and briefly, without synthesis or summary.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Thank you, Mark \u2014 and thank you both. That's a good place to end. You've all been genuinely honest today, and that's not nothing. Thanks very much for your time.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    }
+  ],
+  "transcript": [
+    {
+      "turn": 0,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Hi everyone, thanks so much for joining today \u2014 really glad you're all here. I'm the moderator for this session, and my job is basically just to keep the conversation going and make sure everyone gets a chance to speak. We've got about 45 minutes together, and this will be recorded for research purposes, so just so you know that's happening.\n\nThe main thing I'd say before we get going is that this is genuinely a conversation, not a quiz \u2014 there are no right or wrong answers, and I'm not looking for any particular kind of response. Whatever you actually think, or do, or find yourself saying in the moment is exactly what's useful. You don't need to take turns answering every question \u2014 if something someone else says connects with your experience, just jump in. And if you disagree with each other, that's completely fine \u2014 actually that tends to make things more interesting.\n\nOkay, let's keep it simple to start \u2014 if you could just go around and say your name and where in the UK you're coming from today, that'd be great.",
+      "timestamp": "2026-07-29T13:50:44.417746+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 2,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Right, I'm James. I'm from the South East \u2014 suburban area, so nothing too exciting really. Been here a good while now.",
+      "timestamp": "2026-07-29T13:50:59.232844+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 3,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "I'm Mark. I'm out in the East of England, village area \u2014 bit more rural than James here, I'd say. Been there most of my life, so it's just what I know, really. Nice enough, quiet. Not much to report on that front, but yeah, that's where I'm from.",
+      "timestamp": "2026-07-29T13:51:15.355841+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "I'm Gregor, Manchester way. Yeah, proper different from what you two are describing, I'd say. It's busy, isn't it \u2014 lots going on, lots of different people around. That's just the rhythm of it up here. Not knocking the quieter places, but it's a different world really. You get exposed to more, I think \u2014 different food, different ways of doing things. It's the norm up here now, whereas I imagine it's maybe less so where you lot are.",
+      "timestamp": "2026-07-29T13:51:32.768220+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Good stuff \u2014 Manchester, the South East, and rural East of England. Nice spread. Right, let's get into it. First question is a simple one: what's your favourite place in your city, town, or wherever you are \u2014 to spend time with your male friends? Could be a pub, somewhere outdoors, a mate's house, whatever comes to mind. Why that place?",
+      "timestamp": "2026-07-29T13:51:32.768566+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Yeah, for me it's the pub, to be honest. There's one in the village \u2014 proper local, you know, not some chain thing. It's where you bump into people, have a pint, a chat. Or sometimes someone's garden if the weather's decent \u2014 bit of a barbecue going, that sort of thing. Nothing fancy about it, but that's the point, isn't it? You're just... there. Relaxed. Don't have to be doing anything in particular.",
+      "timestamp": "2026-07-29T13:52:00.717889+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, I get that \u2014 the pub's still a big thing up here too, don't get me wrong. But it's a bit different in Manchester. You've got the pubs, sure, but you've also got cafes, restaurants, all sorts really. You might meet your mates at a pub one week, then grab food somewhere completely different the next. There's more options, I suppose.\n\nAnd the thing about it \u2014 you get a real mix of people doing their own thing. It's not necessarily about sitting in the same spot every time being the point of it. For me, it's more just... being able to do different things with the same people, if that makes sense. Sometimes it's a pint, sometimes it's a decent meal, sometimes you're just walking around. The diversity of it, that's what appeals to me.",
+      "timestamp": "2026-07-29T13:52:19.839533+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "I see what you're saying, but I think there's something in just knowing where you're going, you know? In the village, you go to the pub, and that's the thing \u2014 everyone knows it, everyone's there. You're not spending half the evening deciding where to go next. It's settled. And I reckon that's actually worth something. You're not chasing options all the time.\n\nI mean, I'm not saying there's anything wrong with what you've got up there, but we don't feel like we're missing out just because we're doing the same thing in the same place. It works. That's the point of it.",
+      "timestamp": "2026-07-29T13:52:42.619480+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Fair enough, and I'm not saying it doesn't work \u2014 clearly it does for you. But I don't think it's about chasing options, like you're restless or indecisive. It's just... when you've got that many people from different backgrounds living in the same place, you end up with more things on offer. It's not a choice I'm making every time, it's just what's there.\n\nAnd look, I get the appeal of the settled thing. There's something nice about knowing where you're going, what to expect. But in Manchester, you can have that too \u2014 I've got my regular spots \u2014 except you're also not locked into it, if that makes sense. You can go somewhere different if you fancy it without it being some kind of big adventure.\n\nI reckon both things have something going for them, to be honest. But the way you're putting it, it sounds like doing the same thing in the same place is the only way to be comfortable, and I don't think that's quite right. You can be just as settled with your mates if you're trying different places \u2014 it's the people that matters, isn't it? Not the postcode of the pub.",
+      "timestamp": "2026-07-29T13:53:06.606181+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Yeah, fair point \u2014 it is the people that matters, you're right about that. I'm not saying you can't be settled doing different things. But what I'm getting at is different, I think. It's not about being locked in or not having a choice. It's about... the place does something. The pub's not just where we happen to meet \u2014 it's where everyone knows you've been for years. The landlord knows your name, knows what you drink. That builds something over time that you can't really get if you're rotating through different spots, even with the same people.\n\nI suppose what I mean is, yeah, you've got your regular places in Manchester too, but the whole thing about a village is everyone else is doing the same rhythm as you. Everyone's at that one pub on a Friday. You run into people you haven't seen for months. That's not restlessness or being stuck \u2014 that's just how it works here. And it's something, isn't it? Something Gregor, that variety doesn't necessarily replace.",
+      "timestamp": "2026-07-29T13:53:34.347336+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "James, you've been listening to these two go back and forth \u2014 what's your version of it? Where do you and your mates end up?",
+      "timestamp": "2026-07-29T13:53:34.348532+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah, so for me it's usually the pub as well, but I think I'm probably somewhere in between what you two are saying, to be honest.\n\nI mean, we've got our spots \u2014 there's a couple of pubs we'll go to regularly. You get to know the staff, you know what to expect. That's nice, that familiarity. But we're not locked into it. If someone fancies trying somewhere different, or there's a new place that's opened up, we just... go there instead. No big drama about it.\n\nI think the thing is, it doesn't have to be one or the other, does it? You can have the comfort of knowing where you're going most of the time without it being some rigid thing. And you're right, Mark \u2014 the people is what matters. But I reckon you don't lose that just because you're not sitting in the exact same chair every Friday night.\n\nIt's more practical for me than anything else. Some weeks I'm busier, some weeks we might fancy a change of scenery. Life just moves around a bit, doesn't it? But yeah, the pub's still the default. That part hasn't changed.",
+      "timestamp": "2026-07-29T13:53:53.130281+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Yeah, that practical middle ground makes sense \u2014 the pub as a default without it being a rule. So across all three of you, different parts of the country, but the same thread coming through: it's the people that make it work, not the specific place. Let's follow that through a bit \u2014 because if we're eating and drinking with people, food's part of the picture too. How do you actually decide what you eat? Day to day, what's driving that?",
+      "timestamp": "2026-07-29T13:53:53.131576+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "For me it's pretty straightforward, really. I eat meat \u2014 that's just what I do. I'll have red meat once a week, bit of chicken another time, fish maybe once a week as well. And dairy most days \u2014 cheese, milk, that sort of thing. That's just my pattern.\n\nI don't overthink it. I know what I like, I know what fills me up, and that's what I go for. Some nights it's a roast, some nights it's a bit of fish. But I'm not weighing up all these options every time I sit down to eat. It's just... what works for me.",
+      "timestamp": "2026-07-29T13:54:29.388096+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, I eat meat too \u2014 red meat, fish, all of that. But I think where I'd be different from you, Mark, is that in Manchester you just end up eating a wider range of stuff without necessarily deciding to. Like, I'll have my red meat and fish, but I might have a curry one night, Thai food another, someone might suggest a Japanese place... it's just what's around you, and you get used to it.\n\nI'm not overthinking it either, but my pattern's probably a bit different because of where I am. I eat meat regularly \u2014 two, three times a week, fish maybe twice \u2014 but there's also nights where you're just grabbing something else because that's what the group fancies, or that's what's convenient. It's not a conscious choice to diversify, it's just... that's what living somewhere with more options does to you.\n\nSame with dairy, to be honest \u2014 I probably have it less often than you do. Not because I've decided against it, but it's just not what I reach for as much. There's other stuff available, so it naturally balances out differently.\n\nI think what you're doing \u2014 knowing what works for you and sticking with it \u2014 that's fair enough. But it's interesting how much where you live actually shapes what you end up eating without you really thinking about it.",
+      "timestamp": "2026-07-29T13:54:52.431041+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Yeah, I hear what you're saying \u2014 the options are definitely there for you. But I don't know, I think you're maybe giving the place more credit than it deserves, if I'm honest. Like, just because there's a curry place or Thai restaurant doesn't mean you have to eat there, does it? You could still just... not go. You could stick with what you know.\n\nI mean, we've got options round here too, if you really want them. There's a few takeaways, restaurants \u2014 it's not like we're completely cut off. But I don't go there every week because it's not what I'm after. I know what I like, and I stick with it. That works for me.\n\nI reckon it's less about where you live and more about what you actually want to do. You could live in Manchester and eat the same thing every night if you fancied it. Or you could be out here and be trying new places all the time. It's a choice, isn't it? Not just something the place does to you.",
+      "timestamp": "2026-07-29T13:55:20.015794+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Right, but that's not quite what I'm saying, Mark. I'm not saying you have to do anything \u2014 you're right, you could live anywhere and stick with what you know. But I'm talking about friction, aren't I? In a village, if you want a curry, you probably have to plan it, maybe travel somewhere, maybe it's not even that good when you get there. So you don't bother as much.\n\nIn Manchester, you walk out your door and there's a decent curry place on the corner. Your mate says let's grab Thai \u2014 it's five minutes away. You're not making some big conscious decision each time. It's just easier, so you end up doing it more. That's not about me being indecisive or you being stubborn \u2014 it's just how friction works, innit?\n\nAnd yeah, we've probably got similar takeaways available to you lot round here too, but the difference is density and quality. If there's only one dodgy Chinese place within twenty minutes, you're not going to bother much. If there's five restaurants and they're all decent, you will. That's not a personal choice thing \u2014 that's just how it plays out.\n\nI'm not saying the place determines what you do. I'm saying it makes certain paths easier than others. You can still choose differently, but most people don't when they don't have to.",
+      "timestamp": "2026-07-29T13:55:49.245885+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That distinction between friction and determinism is useful \u2014 you're not saying the place makes you, just that it makes certain things easier or harder to bother with. Right. What I want to do is take some of that and go somewhere slightly different with it. We've been talking about how you decide what to eat \u2014 I want to get into something that might sit underneath some of that. Do you think your gender influences what you eat? And I mean that in any direction \u2014 whether you think it does, doesn't, or it's more complicated than that.",
+      "timestamp": "2026-07-29T13:55:49.246596+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah, I think it does actually \u2014 but maybe not in the way people usually bang on about, if I'm honest.\n\nLike, I eat meat regularly. I'm a meat eater. But that's not because I feel like I have to prove something or because it's manly or whatever. It's just what I like. And I reckon that's the thing \u2014 being male, you sort of get to just... not think about it too much. You make your choices and no one really questions them.\n\nI notice it more when you see other people doing it differently. You'll see someone go vegetarian or whatever, and suddenly everyone's got an opinion about it, you know? All these comments. Whereas if I'm just eating a roast on Sunday, no one's looking at me sideways about it. No one's saying oh, you're being too manly, or whatever.\n\nI think the gender thing is less about what you actually eat and more about the freedom to not have to defend your choices. A bloke can eat meat without anyone making a thing of it. A bloke can also not eat meat, but he might get more... I don't know, pushback maybe? Questions about it. Whereas a woman eating salad \u2014 that's just expected, assumed. Or if she eats meat, that's also fair game for comment.\n\nSo yeah, gender shapes it, but I reckon it's more about the invisibility of it for men. You just do what you do, and it's fine. You don't have to think about what it means about you.",
+      "timestamp": "2026-07-29T13:56:36.176871+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "That's a fair point, James. Yeah, I think you're onto something there \u2014 the invisibility bit especially. I eat meat, I always have, and it's just... normal, isn't it? No one's making anything of it. I've never had to explain myself or justify it.\n\nBut you're right that it's different for other people. I've had mates who've gone vegetarian, and the amount of stick they get is mad, honestly. Like, why does it matter so much to people? It's just what they're eating. And yeah, it tends to come with these comments about being less of a bloke or whatever \u2014 which is just... it's daft, really. I don't get it.\n\nI think what you're saying about friction connects to that too, doesn't it? Where you live shapes what's easy to eat, sure. But also, as a bloke in Manchester or anywhere else, you're not sat there thinking about what your food choices say about you. You're just grabbing what's available or what you fancy. Whereas I reckon other people \u2014 women especially, people making different choices \u2014 they're probably thinking about it more because they know they're going to get questioned.\n\nThe invisibility is the thing. You don't notice it until you see someone else getting pulled up for the exact same kind of choice you're making without anyone batting an eyelid.",
+      "timestamp": "2026-07-29T13:57:07.608976+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Gregor, you mentioned your mates getting comments about being 'less of a bloke' when they've gone vegetarian. Does that land with the others? Is that something you've seen or experienced \u2014 that kind of reaction when a man eats differently from the default?",
+      "timestamp": "2026-07-29T13:57:07.610027+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah, I've seen it. Not massively in my circle, to be fair, but it definitely happens. There's this one mate \u2014 he went vegetarian a few years back, and the amount of joking about it... it was relentless for a bit. Like, every time we were out, someone would make a crack about it. \"Oh, he's gone soft,\" that kind of thing. Nothing nasty meant most of the time, but it was constant, you know?\n\nAnd what struck me is \u2014 no one actually cared what he was eating. It was more about the idea of it, I think. Like, the fact that he'd made a different choice meant something had to be said about it. Whereas me sitting there with my fish, no one's remarking on anything.\n\nHe stuck with it though, so eventually people just shut up about it. But it took a bit of time for that to settle. There was definitely this undercurrent of like, oh, that's a bit odd, that's not what blokes do.\n\nI think it's daft, to be honest. It's just food. If someone wants to eat meat, great. If they don't, that should be fine too. But yeah, there's definitely this thing where \u2014 for blokes especially \u2014 if you step outside what's expected, people notice. And they comment. Women get it differently and probably worse in some ways, but men definitely get this thing where your food choices become a statement about whether you're proper masculine or not, which is just... it's silly.",
+      "timestamp": "2026-07-29T13:57:38.967805+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Mark, you've been quiet on this one \u2014 what's your take? Does that ring true in your world?",
+      "timestamp": "2026-07-29T13:57:38.968112+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "I mean, I've seen it happen, yeah. There's definitely people who'll make comments if someone goes vegetarian or whatever. But honestly, I'm not sure how much of it is really about masculinity and how much is just... people being a bit awkward about anything that's different, you know?\n\nLike, James's mate going vegetarian \u2014 yeah, people made jokes. But I don't know if that's because they think he's less of a bloke. Could just be that he's done something a bit out of the ordinary, and people don't know what to do with it, so they have a laugh about it. That's just what people do sometimes, isn't it?\n\nI eat meat, I always have. No one's ever questioned me about it, but I don't think that's because I'm proving something or because it's manly. It's just what I like. I don't really think about it in those terms \u2014 gender and food choices all linked up like that. That might be overthinking it a bit, for me anyway.\n\nDoes it happen that people get a bit funny about unusual choices? Yeah, probably. But I'm not sure it's always this big thing about masculinity. Sometimes people are just a bit... I don't know, unsure how to react to something different. That's not the same as saying meat equals manly or whatever.",
+      "timestamp": "2026-07-29T13:58:08.833655+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something interesting sitting between what James said and what Mark just said. James, your account of your mate getting stick \u2014 'gone soft,' 'that's not what blokes do' \u2014 that language sounds pretty specifically about masculinity. But Mark, you're saying it might just be that people get funny about anything out of the ordinary, and the bloke thing isn't necessarily the point. Are those two different explanations, or are they saying the same thing in different ways?",
+      "timestamp": "2026-07-29T13:58:08.834648+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "No, I think they're different, actually. And I'm going to push back a bit here, Mark \u2014 I don't think it's just awkwardness about difference in general.\n\nThe language matters, doesn't it? When people said my mate had gone soft, that's not just \"oh, you're doing something unusual.\" That's specifically saying something about him as a man. You don't say someone's gone soft about every unusual choice \u2014 you say it about things that are coded as less masculine. If he'd taken up pottery or ballroom dancing or whatever, people might joke about it, but not in quite that way.\n\nThe fact that vegetarianism gets that particular response \u2014 the \"not what blokes do\" thing \u2014 that's gendered. That's about masculinity. It's not the same as being awkward about difference. It's about a specific set of assumptions about what men should be doing, what men should eat.\n\nI think what you're saying, Mark \u2014 that people just don't know what to do with different things \u2014 that's part of it, fair enough. But I don't reckon that's all of it. The jokes about going soft, they're not accidental. They're about him being less of a bloke, whether people would say it in those words or not.\n\nAnd that's the thing James was saying about invisibility. My mate got picked up on it because he stepped outside the line. I don't get picked up on anything because I'm doing what's expected. That's not just about being awkward around difference \u2014 that's about gender expectations being real and specific, not just vague.",
+      "timestamp": "2026-07-29T13:58:39.813768+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Fair enough, yeah \u2014 I hear what you're saying about the language. Gone soft, that is a specific thing, isn't it? You wouldn't say that about pottery. That's a fair point.\n\nI suppose what I mean is, I'm not sure how much people actually believe all that, or how much it's just... the way people talk. Like, do they genuinely think vegetarianism makes someone less masculine, or is it just the easiest joke to make because it's there? I don't know. I'm genuinely not sure about that bit.\n\nBut yeah, you're right \u2014 the language itself is about masculinity. I wasn't saying it wasn't. I was more thinking it might not run as deep as people make out. But the language is definitely there, I'll grant you that. Whether that's because people actually care about what it means or they're just reaching for something to say \u2014 I can't speak to that.",
+      "timestamp": "2026-07-29T13:59:06.016094+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "But that's the thing though, Mark \u2014 whether people consciously believe it or not doesn't really matter that much, does it? The jokes still do something.\n\nMy mate heard those comments enough times, and it probably made him think twice about ordering a salad when he was out with us, or telling other people about it. That's real, regardless of whether the lads saying it genuinely think vegetarianism's unmanly or they're just having a laugh. The effect's the same.\n\nI reckon that's how this stuff actually works. It's not like there's some big conspiracy where blokes sit around saying \"we must protect meat eating for masculine reasons.\" It's just... the jokes are there, the comments are there, and over time they shape what people feel comfortable doing. You don't have to believe something fully for it to influence how you behave.\n\nSo yeah, maybe half the people making those cracks don't actually care. But the cracks still add up, and they still make a difference to what people feel like they can do. That matters more than whether everyone's got some deep conviction about it, I reckon.\n\nAnd honestly, I think a lot of blokes probably do half-believe it without really knowing it. They're not sitting there thinking it through \u2014 they've just absorbed the idea that meat's normal for men and vegetables are a bit... softer. Whether that's a conscious belief or just how they've been brought up to see things, the end result is similar.",
+      "timestamp": "2026-07-29T13:59:40.819621+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Yeah, okay \u2014 that actually makes sense. I hadn't quite thought about it that way, but you're right. The jokes pile up, and after a while your mate's probably thinking twice about what he orders or who he mentions it to. That's not nothing, is it? That's actually shaping what he does.\n\nI suppose I've seen that happen too, now you mention it. There's definitely blokes I know who... well, they wouldn't say they care about all this masculinity stuff, but they still do the expected thing. Not because anyone's forcing them, but because it's just easier, you know? Less hassle. Less of the comments.\n\nI wasn't trying to say it doesn't matter if people believe it or not \u2014 I just meant I wasn't sure how deep it went. But what you're saying about the cumulative effect, that's fair. It doesn't have to be some big conscious thing for it to work on people. The jokes are there, everyone knows what they mean, and so you just... adjust. Even if no one's spelling it out.",
+      "timestamp": "2026-07-29T14:00:15.759025+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Gregor \u2014 you mentioned earlier your mates getting stick when they've gone vegetarian, and now Mark's talking about blokes just adjusting to avoid the hassle. Does that match what you've seen, or is it different in your experience?",
+      "timestamp": "2026-07-29T14:00:15.759451+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, I've definitely seen it. And what James is saying about the cumulative thing \u2014 that's exactly it, I reckon. It's not like anyone's sitting round plotting it, but the effect's real.\n\nI had a mate a few years back, went vegetarian for a bit. And it was like... the comments just never stopped. \"Gone soft,\" \"where's your protein,\" all that stuff. Some of it was just banter, fair enough, but there was a real undercurrent to it. Like, it wasn't acceptable, and he needed to know that. And he did eventually go back to eating meat, though I'm not sure if that was because he actually wanted to or because it was just easier not to have to deal with it every time he ordered food.\n\nWhat gets me is \u2014 and maybe this is what bothered me earlier when Mark was talking about not overthinking things \u2014 is that for blokes like me, we don't have to think about it. I eat meat, no one says anything, life's easy. But that easiness is built on this thing where if you step outside it, you get grief. And I'm not sure that's a good trade-off, if I'm honest.\n\nJames's point about the invisibility \u2014 yeah, that's the thing. You benefit from it without really noticing it, and then you feel a bit awkward when you do notice it. Because it's not really about the food, is it? It's about keeping people in line without having to say it outright.",
+      "timestamp": "2026-07-29T14:00:38.534770+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something in what you just said, Gregor \u2014 keeping people in line without saying it outright \u2014 that feels like it's doing a lot of work. And that thread about invisibility, the easiness of just being in the default, has run through a lot of what all three of you have said. Let's take that somewhere concrete. Imagine you actually decided to go plant-based \u2014 not permanently, not as a big statement, just: you're doing it. What would need to change in your life for that to actually work?",
+      "timestamp": "2026-07-29T14:00:38.535095+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Right, so honestly? Practically speaking, not that much would need to change. I could do it. There's loads of plant-based stuff available, restaurants do it now, it's not like I'd starve or anything.\n\nBut \u2014 and I think this is what Gregor's getting at \u2014 the friction wouldn't just be practical, would it? It'd be social. I'd have to deal with the comments. Every time we went out, every time I ordered something, there'd be that thing. Even if my mates weren't being deliberately nasty about it, there'd be the jokes, the \"oh James's gone vegan,\" that kind of stuff. And I'd have to either laugh along or defend myself, and both of those get tiring.\n\nAnd here's the bit that actually bothers me \u2014 I don't think the food itself is the issue for me. I could eat plant-based fine. But the fact that I'd have to think about it every single time, whereas now I just... don't. That invisibility Gregor was talking about \u2014 I've got it and I'm not even trying. The minute I step outside it, I lose it.\n\nThat's the thing that gets to me about the whole situation, if I'm honest. It's not that there's anything wrong with eating meat or eating plants. It's that the social stuff creates this pressure to just stay in the default lane, even when there's no real reason you have to. And that pressure works so quietly that most blokes don't even notice it's there until they see someone else bump up against it.\n\nSo yeah, practically? Easy. Socially? It'd be a different story.",
+      "timestamp": "2026-07-29T14:01:20.651179+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "James is making a distinction there between the practical side and the social side \u2014 and he's saying the practical bit is almost fine, it's the social cost that's the real barrier. Does that land the same way for you two? What would actually need to change in your lives?",
+      "timestamp": "2026-07-29T14:01:20.651657+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, James has hit on it. Practically, I could do it tomorrow \u2014 there's food everywhere in Manchester, I could eat fine. But socially... I mean, I'm aware enough to know what would happen, aren't I? The comments would start, and they wouldn't stop.\n\nBut I think for me it's slightly different because I actually like eating meat. It's familiar, it's satisfying \u2014 I'd genuinely miss it. So it's not like I'm sitting here thinking, oh, I wish I could go plant-based but the social pressure's stopping me. That's not my situation.\n\nWhat bothers me more is that the pressure exists at all, if I'm honest. Because it means if I did decide I wanted to change \u2014 not because I thought I had to, but because I actually fancied trying something different \u2014 I'd have to brace myself for it. And that's... I don't know, it feels like something's not quite right about that, you know? That the default is so locked down that even considering stepping outside it feels like you're going to have to fight for it.\n\nI probably wouldn't do it. The meat matters to me enough that I'm not going to put myself through that grief. But the fact that the grief would be there in the first place \u2014 that's the thing that sits wrong with me. It's the quietness of it, like. You don't even notice you're being kept in line until you try to move.",
+      "timestamp": "2026-07-29T14:01:54.462653+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah. Yeah, that's exactly it, Gregor. That's what's actually bothering me too, now I'm thinking about it properly.\n\nI was just talking about the practical side and the social side like they're separate things, but they're not really, are they? The thing is \u2014 I don't actually want to go plant-based. I like eating meat. That's genuine. But the fact that I can't even... consider it without doing all these calculations about what people would say, what it would mean about me \u2014 that's the problem.\n\nAnd you're right about the quietness of it. I've never sat round thinking \"oh, the lads are keeping me in line about this.\" It's not like that. It's just become so normal, so invisible, that the pressure's just there underneath everything without anyone having to say a word. I benefit from it without noticing it most of the time.\n\nBut what you just said \u2014 about the grief being there even before you step outside \u2014 that's what's hit me. I'm not being pressured to eat meat. I want to eat meat. But I'm also aware, right now, in this conversation, that if I didn't want to eat meat, or if I wanted to try something different, I'd have to factor in all this social cost that you two wouldn't have to think about in the same way. Women get it too, obviously, but differently.\n\nAnd that's just... it's a weird thing to realize, isn't it? That you're benefiting from a system that you can also see is a bit crap, and you're not really in a position to do much about it without making it a whole thing.",
+      "timestamp": "2026-07-29T14:02:29.203114+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, and that's the uncomfortable bit, innit? You see it, and you can't really un-see it once it's in your head. But you're also not going to blow up your whole life about it or turn it into some big statement, because that would be its own problem \u2014 suddenly you're the bloke who's made a thing of it, you know?\n\nI think what gets me is that it doesn't have to be like this. Like, if someone went vegetarian and people just... didn't comment on it, didn't make it weird \u2014 that would solve it, wouldn't it? It's not complicated. But the thing is, I'm not going to be the one to start that, because I eat meat and I'm comfortable with it. So the pressure just carries on, and blokes like your mate adjust without really thinking about why they're adjusting.\n\nAnd I'm part of that, aren't I? By just not saying anything when the comments happen, by going along with it because it's easier. That's how it stays invisible and normal.\n\nI don't know if I'd say I'm in a position to do much about it though, not really. I'm not going to go plant-based to make a point \u2014 that's not going to solve anything, and it'd just make me the weird one. But maybe... I don't know. Maybe just not laughing along quite so much when it comes up? Not feeding into it? That's probably the only thing that actually changes anything, isn't it \u2014 just not reinforcing it when you see it happening.",
+      "timestamp": "2026-07-29T14:03:03.170139+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Mark, you've been taking all this in \u2014 where does it land for you? What would actually need to change in your life if you were to make that shift?",
+      "timestamp": "2026-07-29T14:03:03.170534+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "I mean... yeah, practically I could do it. There's enough around, even out where I am. That's not the thing.\n\nBut listening to you two talk about it, I'm realizing I'm probably not thinking about this the same way. Because I genuinely don't want to go plant-based. I like meat \u2014 it's satisfying, it's what I eat. That's not me saying I can't imagine it or I'm being kept in line. It's just... that's what I want.\n\nWhat you're both saying about the invisibility and the pressure, though \u2014 I get that now. And yeah, it's odd once you see it. But I'm not sure I feel the same kind of discomfort about it as you two do, to be honest. Like, the system works for me because I actually want what the system's pushing, if that makes sense. I'm not being held back from something I'd rather do.\n\nMaybe that makes me part of the problem Gregor was talking about \u2014 just going along with it because it's easier and it suits me anyway. I don't know. I haven't really thought about that bit before, not seriously. But I also can't pretend to be bothered about something that doesn't actually bother me, you know? I eat what I like, I'm comfortable with it. That's where I'm at.",
+      "timestamp": "2026-07-29T14:03:28.060984+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Mark, I want to pick up on something you said earlier \u2014 back when this came up you were saying it was 'just awkwardness about anything different, not necessarily about masculinity.' But just now you're describing a system that works for you because what it pushes happens to be what you want anyway. Those feel like slightly different things to me. How do you see those two fitting together?",
+      "timestamp": "2026-07-29T14:03:28.061791+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Yeah, fair point \u2014 I see what you're getting at. I suppose what I meant earlier is I'm still not entirely convinced it's all deliberate or that deep, you know? Like, the system James and Gregor are describing \u2014 I can see it now they've laid it out. The pressure's real, the comments happen. That part's clear.\n\nBut I'm not sure if it's because everyone's consciously thinking \"we need to keep men eating meat for masculinity reasons,\" or if it's more that... meat-eating just is the default, and people react funny to anything outside the default. The fact that it happens to be gendered \u2014 yeah, James made that clear with the \"gone soft\" thing. That's a gendered comment, I get that.\n\nWhat I meant was, I'm not sure how much of it is actually about maintaining some idea of what men should be, and how much is just people being a bit awkward and the gendered language happening to be what comes out. Does that make sense?\n\nBut I'll be honest \u2014 I might be wrong about that. I'm just not as sure as you two seem to be about what's driving it underneath. And also, like I said, it doesn't really affect me the way it's affecting your mate or the way you two are thinking about it now, because I actually want to eat meat anyway. So maybe I'm just not seeing it as clearly because it's not pushing against what I want to do.",
+      "timestamp": "2026-07-29T14:03:50.448752+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a really honest place to land, Mark \u2014 and that distinction between the mechanism and the effect is worth holding onto. Let's move on from there. You've all been talking about what makes it hard to step outside the default. I want to flip that around a bit now \u2014 what do you think might actually make plant-based food more appealing? To you, or to men you know. What would need to be different about it?",
+      "timestamp": "2026-07-29T14:03:50.449275+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Right, so I think there's a practical answer and then there's the other bit.\n\nPractically \u2014 and I've seen this \u2014 it's about food that actually satisfies you, isn't it? Plant-based stuff that's hearty, that fills you up. A lot of the stuff marketed at blokes is either trying too hard to be meat \u2014 like, a fake burger that's trying to taste exactly like beef \u2014 or it's the opposite, it's all kale and quinoa bowls. Neither of those works for most lads I know.\n\nBut the stuff that does work \u2014 a proper lentil stew, bean chilli, that kind of thing \u2014 people eat it without thinking about whether it's plant-based or not. They're just eating food that tastes good and sticks with them. I know blokes who eat that regularly and don't make a fuss about it.\n\nThe real problem though \u2014 and this is what you can't solve just by making better food \u2014 is the whole thing around it. If plant-based became just... normal, if there wasn't this edge to it, this idea that it means something about you as a man, then it'd probably shift. But that's the part that's actually hard.\n\nBecause like, we've been talking about all this social pressure, the comments, the invisibility of the default. You could have the best plant-based food in the world, but if the moment you order it you're braced for the \"oh, gone soft have we\" comments, most blokes aren't going to bother. It's not worth the hassle.\n\nSo I reckon what would actually change things is if people \u2014 blokes especially \u2014 just... stopped making it weird. Stopped the comments, stopped treating it like it means something. That sounds simple, but it's actually the hard bit, isn't it?",
+      "timestamp": "2026-07-29T14:04:35.823434+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "James is making a distinction there between the food itself \u2014 what actually fills you up \u2014 and the stuff around it, the social layer. Does that land the same way for you two? And I'm curious whether what counts as 'hearty' or satisfying looks different depending on where you are, what you're used to.",
+      "timestamp": "2026-07-29T14:04:35.825435+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah, I think it does land the same way. And Gregor's probably right that what feels hearty is partly just what you're used to \u2014 in Manchester you might have a different range of what counts as satisfying because you're eating more variety anyway.\n\nBut I want to come back to something Mark said earlier, about not being pushed against what he wants so not seeing the pressure clearly. I get why you'd say that, Mark, but I don't think that's quite right. Because I'm not being pushed against what I want either \u2014 I like eating meat. But that doesn't mean the pressure isn't shaping me.\n\nLike, I genuinely don't know if I'd want to go plant-based anyway. But I can't tell, can I? Because the pressure's there whether I'm trying to step outside it or not. It's shaped what I'm comfortable thinking about, what I'd even consider without doing all these calculations. That's different from me just happening to want what the system pushes.\n\nSo I think Mark might be underestimating how much it's affecting him too, honestly. He says it doesn't affect him because he wants meat anyway. But how does he know that's just what he wants, and not what he's comfortable wanting? Those are hard to separate when the whole environment's set up to make one thing normal and the other thing costly.\n\nI'm not trying to have a go at him \u2014 I'm just saying I didn't notice it either until I started thinking about it properly. And once you do notice it, you can't really unknow it.",
+      "timestamp": "2026-07-29T14:05:05.540977+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Yeah, okay. That's... that's actually getting to me a bit, if I'm honest.\n\nBecause you're right \u2014 I can't really tell the difference, can I? Between what I actually want and what I'm comfortable wanting. I eat meat, I've always eaten meat, no one's ever questioned it. So how would I even know if that's just what I like or if it's... I don't know, just what I've never had to think twice about?\n\nI mean, I do like it. The taste, the satisfaction of it. That feels real to me. But once you start saying it like that \u2014 that the pressure shapes what you're comfortable thinking about \u2014 it's hard to unknow, like you said. I'm sitting here now wondering if I've just never bothered trying anything else because there's been no friction, no reason to bother. That's different from actively preferring it, maybe.\n\nI don't think I'm being deliberately dense about it. I just genuinely hadn't thought about it that way before. But yeah, fair point \u2014 I probably am underestimating how much it's in there already, just underneath everything I do without me really noticing.\n\nThat's... that's actually a bit uncomfortable, to be honest. Not in a defensive way. Just \u2014 I'm not used to thinking about it like that.",
+      "timestamp": "2026-07-29T14:05:35.429880+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Gregor, you've been sitting with all of this \u2014 where does that land for you?",
+      "timestamp": "2026-07-29T14:05:35.430371+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, I think James has got at something real there. And what's hitting me is \u2014 I'm in the same boat as Mark, aren't I? I like eating meat, genuinely. But I can't actually know if I'm liking it because it's genuinely what I want, or because it's what I've never had to think twice about.\n\nI eat meat regularly, it's satisfying, it's what my mates eat, it's what's always been normal for me. But that doesn't mean... it doesn't prove anything, does it? It just means the pressure's been so quiet and so constant that I can't tell where it ends and where my actual preference starts.\n\nWhat gets me is, I'm aware of this stuff now \u2014 we've been talking about it for the last hour \u2014 and I still don't know if I actually want to change anything about what I eat. Because even knowing all this, the friction's real. The social cost is real. So even if I did think, you know what, I want to try something different, I'd probably just... not. Because it's easier not to.\n\nAnd I think that's the thing that bothers me most. It's not that I'm being forced into anything. It's that the system's so smooth, so invisible, that you can see it and still just... go along with it. Because the alternative requires effort and discomfort, and for what? Just to find out whether I actually like meat or I've just been comfortable not questioning it?\n\nThat's a weird place to be in, honestly.",
+      "timestamp": "2026-07-29T14:06:08.045207+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So all three of you are arriving at a similar place \u2014 you can see the mechanism, and you're still going along with it, because the friction of doing otherwise is real and the upside is unclear. That makes sense as a description. But I want to push on something: if the problem is that the alternative costs too much effort and discomfort, what would actually lower that cost? Not in the abstract \u2014 like, concretely. Is it the food itself, something about how it's sold or framed, who's eating it, what your mates do? Because 'make it normal' is the end state, but something has to move first.",
+      "timestamp": "2026-07-29T14:06:08.045730+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Right, yeah. So practically speaking, out where I am \u2014 it's about what's actually available and how easy it is to get. If there were decent plant-based options at the places we actually go \u2014 the pub, a mate's house \u2014 that'd lower the friction, wouldn't it? Not because it'd change what people think, but because you're not making a special choice, you're just... ordering something.\n\nLike, if the pub did a decent lentil stew or a bean thing alongside the usual roasts, and people could just order it without it being a statement, that's different. Right now, if I went to the pub and ordered a salad, that's marked. Everyone notices. But if there's a hearty plant-based option on the menu like everything else, it's just food.\n\nAnd I suppose \u2014 your mates matter too, doesn't it? If one of your mates just casually ordered something plant-based and no one made a thing of it, that would probably shift something. Not because you'd suddenly want to do it, but because the weirdness would go out of it. It'd just be a choice someone made, like ordering fish instead of beef.\n\nI think the food itself being good matters, yeah \u2014 hearty, filling, not apologetic about it. But the bigger thing is probably just... it being treated like a normal option, not a statement. And that happens when enough people around you just do it without drama.",
+      "timestamp": "2026-07-29T14:06:49.650638+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Gregor \u2014 Mark's talking about the pub, his mates, what's on the menu. Does that map onto your end of things, or does it look different from where you are?",
+      "timestamp": "2026-07-29T14:06:49.651265+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "I think Mark's right about the practical side \u2014 yeah, if places just had decent options and treated them like normal food, that'd help. But in Manchester, honestly, we've kind of got that already. The restaurants, the pubs, they've all got plant-based stuff now. It's not hard to find. And people do order it without making a huge thing of it in most cases.\n\nSo for me, the availability side isn't really the barrier. It's more... it's the people around you, like Mark said. If your mates are ordering it casually, if you see blokes eating it without it being weird, that changes things. But even in Manchester where there's loads of choice and it's more normal overall, you still get the comments sometimes. You still notice it.\n\nAnd I think the thing is \u2014 and maybe this is specific to cities \u2014 when there's actual diversity of people doing different things, it does become less of a thing. You go to a restaurant, you see all sorts ordering all sorts. It's harder to make plant-based into this statement about who you are when there's just... loads of people making different choices anyway.\n\nBut that's not the same as it being solved, is it? Because even with all that around you, you still know what would happen if you personally stepped outside the default. The fact that it's easier in Manchester doesn't mean the pressure's not there, just that there's more cover for it.\n\nI reckon what would actually shift it is blokes just... ordering it when they actually want to, without the calculation. And then not making comments when other blokes do. That's it. But that requires people to just stop, and I'm not sure how you make that happen.",
+      "timestamp": "2026-07-29T14:07:18.477583+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a useful distinction, Gregor \u2014 availability and social cover aren't the same thing, even when both are there. Right, we've covered a lot of ground across all of this \u2014 food choices, how gender and social context shape them, what a plant-based shift would actually cost, and what might move it. Before we finish, I want to give everyone a chance to add anything that feels unfinished \u2014 anything about food, masculinity, or plant-based eating that hasn't come up, or that you want to leave on the table.",
+      "timestamp": "2026-07-29T14:07:18.477946+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "I think... there's something unfinished for me, yeah.\n\nWe've been talking about all this \u2014 the pressure, the invisibility, how it shapes what you do \u2014 and I can see it now. I couldn't have articulated it this morning, but I can now. And that's useful. But the honest thing is, I'm going to go back to my life, and I'm probably going to keep eating meat, and I'm probably going to go along with the comments when they happen, and nothing's really going to change because it's too much friction to do anything differently.\n\nAnd I think I need to sit with that, because it's not comfortable. I'm aware of something that bothers me, and I'm not going to do anything about it. And I'll probably tell myself it doesn't matter that much, or that it's not my problem to solve, and then it'll fade back to being invisible again.\n\nWhat gets me is \u2014 Gregor said it earlier \u2014 you can see it and still just go along with it. And that's true for me too. Even knowing what I know now, even this conversation, the social cost of actually doing something differently is still too high for me to bother. And I don't like that about myself, but I also don't think I'm going to change it.\n\nI suppose what I'm saying is \u2014 I get it now, in a way I didn't before. The mechanism, the way it works, how quiet it is. But understanding something and actually changing how you live because of it, those are different things. And I'm probably going to be the bloke who saw it and then just... carried on anyway.",
+      "timestamp": "2026-07-29T14:07:58.880319+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That takes some honesty, James \u2014 thank you. The gap between seeing something and actually living differently because of it is real. Gregor, Mark \u2014 anything sitting with you that you wanted to get to?",
+      "timestamp": "2026-07-29T14:07:58.880740+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, I hear what James is saying \u2014 and I'm probably going to do the same thing, carry on as I am. But I think for me it's slightly different, and I want to name that because it matters.\n\nJames is saying he'll see it and then just go along with it anyway. And yeah, I will too, in a lot of ways. But it's not quite... I'm not sure I feel like I'm compromising something I want to do, you know? I'm not sitting here thinking, oh, I'd rather go plant-based but the social cost is too high, so I'm just accepting it. That's not my situation.\n\nWhat I'm more aware of now is just \u2014 the system's there, it's working quietly underneath everything, and I benefit from it without really noticing. And I don't like that about it, the quietness of it. But me changing what I eat wouldn't actually solve that, would it? It'd just make me the exception for a bit and then I'd probably stop because it's easier not to.\n\nWhat I think I'm more likely to do is just... be a bit more aware when I see it happening with other people. Not laugh along quite so much. Not feed into it. That's not much, and it's not going to change anything massive. But it's something that doesn't require me to blow up my own life to do it.\n\nI don't know if that makes me better or worse than James's position \u2014 probably somewhere in between. But yeah, that's where I'm at with it.",
+      "timestamp": "2026-07-29T14:08:26.342410+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Mark \u2014 anything you wanted to get to before we close?",
+      "timestamp": "2026-07-29T14:08:26.343230+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 38,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "I mean... yeah, there's something I'm sitting with, but I'm not sure I can quite articulate it properly.\n\nWhat you two have said \u2014 James about seeing it and just carrying on anyway, Gregor about not laughing along quite so much \u2014 it's made me realize I haven't even got to that point yet, if I'm honest. I'm still in the bit where I'm uncomfortable with the idea that I don't really know what I want. And I'm not sure what to do with that.\n\nLike, I came here today thinking I just ate meat because that's what I like. And that still might be true. But now I'm wondering whether I've never questioned it because there's been no reason to \u2014 no friction, no comments, no pressure because I'm doing the default thing. And that's... it's a strange thing to sit with.\n\nI don't think I'm going to go plant-based or anything. That still doesn't appeal to me. But I think what's different for me now is just \u2014 I'm a bit less sure that I know why I'm doing what I'm doing. And I'm not comfortable being unsure about that. So I don't know what I'm going to do with that, to be honest. Maybe nothing. Maybe I'll just... think about it a bit more. See if it changes anything.\n\nBut I wanted to say it out loud because otherwise I'd probably just push it aside and forget about it once I left here.",
+      "timestamp": "2026-07-29T14:08:47.166875+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 38,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Thank you, Mark \u2014 and thank you both. That's a good place to end. You've all been genuinely honest today, and that's not nothing. Thanks very much for your time.",
+      "timestamp": "2026-07-29T14:08:47.167427+00:00",
+      "selection_mode": "moderator_intervention"
+    }
+  ]
+}

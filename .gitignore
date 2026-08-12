@@ -1,0 +1,21 @@
+# Secrets — never commit
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Sessions written by running the test suite or a new simulation.
+# The 46 committed session directories are all named macho_meals_* and are
+# tracked; anything else under output/ is a local run.
+output/session_logs/*
+!output/session_logs/macho_meals_*
+!output/session_logs/README.md
+
+# OS
+Thumbs.db
+.DS_Store

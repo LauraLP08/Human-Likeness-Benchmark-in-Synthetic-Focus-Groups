@@ -1,0 +1,249 @@
+{
+ "cache_key": "e4dbf3d9990468d517b4a07a72740a04328037c8ef4d4ffa81e02bf7afaf84d9",
+ "computed_utc": "2026-07-31T00:24:58.181194+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/to8xlhi19eohi33n4kb6vuyexr1a1b89ndws",
+ "custom_request_key": "macho_meals_fg1_demoonly_run01",
+ "input": {
+  "side": "synthetic",
+  "fg": "fg1",
+  "condition": "demographics-only",
+  "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg1_demoonly_run01\\comparable_transcript.json",
+  "sha256": "a68930e5b8cf7b283eb7d5d97a0e9915dbabf301cd91e5f9be810a156522a9cc",
+  "physical_run": "macho_meals_fg1_demoonly_run01",
+  "canonical_replication_index": 1
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "e3db78c268e5d46ff9159c0af03f522791a72a28b4d43b415e7079797052552a",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 22167,
+  "candidates_tokens": 938,
+  "total_tokens": 28643,
+  "thoughts_tokens": 5538,
+  "cached_tokens": null,
+  "raw_text_chars": 3087,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 22167,
+  "candidates_tokens": 938,
+  "total_tokens": 28643,
+  "thoughts_tokens": 5538,
+  "cached_tokens": null,
+  "raw_text_chars": 3087,
+  "parse_attempt": 1,
+  "headroom_tokens": 15446
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T025",
+      "speaker": "Participant 5",
+      "quote": "Yeah, I think it does, actually. But maybe not in the way you're thinking."
+     },
+     {
+      "turn_id": "T027",
+      "speaker": "Participant 1",
+      "quote": "you're kind of aware you're a bloke sat alone"
+     },
+     {
+      "turn_id": "T033",
+      "speaker": "Participant 2",
+      "quote": "So yeah, gender's definitely in it. Whether I'm willing to admit that or not."
+     },
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 3",
+      "quote": "there's definitely that voice going, what if someone I know sees me eating a salad or whatever"
+     },
+     {
+      "turn_id": "T039",
+      "speaker": "Participant 4",
+      "quote": "So the gender thing — yeah, it's probably there somewhere."
+     }
+    ],
+    "evidence_note": "All five participants explicitly acknowledge that gender influences what they eat, how they are perceived eating certain foods, or where they feel comfortable eating.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T033",
+      "speaker": "Participant 2",
+      "quote": "You go to the chippy, you get fish and chips or a pie or whatever. That's what men do."
+     }
+    ],
+    "evidence_note": "Participant 2 explains that eating meat/animal products like fish and chips or pie is the socially normative, default choice for men in his community.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2"
+    ],
+    "reach": 0.2
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "D",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 6,
+  "verified_quotes": 6,
+  "total_present_codes": 2,
+  "verified_codes": 2,
+  "demoted_codes": 0
+ }
+}

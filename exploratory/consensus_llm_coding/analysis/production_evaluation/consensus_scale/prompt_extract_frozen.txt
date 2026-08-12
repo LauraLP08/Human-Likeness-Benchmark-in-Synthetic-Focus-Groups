@@ -1,0 +1,28 @@
+You are analysing a group discussion that follows a discussion guide. The excerpt
+for each guide question is given separately.
+
+For EACH guide question shown, identify exactly {k} KEY CLAIMS made in that
+section. A key claim is a substantive, contestable proposition about the topic —
+something a participant could agree or disagree with.
+
+A good claim:
+  * is a complete proposition, not a topic label
+    GOOD: "The pub is the default place to meet because it requires no planning"
+    BAD:  "Pubs"
+  * is contestable — someone could reasonably take the opposite position
+  * is stated in neutral third-person terms, NOT attributed to any speaker, and
+    NOT quoting the discussion's wording verbatim
+  * is about the substance of the topic, not about the conversation itself
+
+Each claim must carry an `evidence_quote`: a VERBATIM, EXACT substring of that
+section's text, at least 3 words, copied character for character, showing where
+the claim comes from.
+
+OUTPUT — JSON only, no prose, no code fences:
+
+{{"sections": [
+  {{"section_index": 1,
+    "claims": [
+      {{"claim": "...", "evidence_quote": "..."}}
+    ]}}
+]}}

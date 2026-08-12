@@ -1,0 +1,84 @@
+{
+  "session_id": "mindfulness_fg1_run01",
+  "run_label": "run01",
+  "research_objective": "Focus group guide exploring how to formulate a brief, accessible,\nself-administered online mindfulness intervention for individuals\ninterested in meditation but constrained by limited time and financial\nresources and seeking stress relief. The proposed intervention is\nintended to be fully online, use audio tracks for mindfulness exercises,\nand require a shorter time commitment than traditional 8-week\nMindfulness-Based Stress Reduction (MBSR) courses.",
+  "topic_domain": "Self-administered online mindfulness intervention, stress reduction, and sham meditation control",
+  "participation_mode": "emergent",
+  "temperature": 1.0,
+  "participant_collective_identity": "Certified mindfulness instructors with between 7 and 15 years of professional experience",
+  "moderator_knowledge_brief": "Explore how to design an online, self-administered mindfulness\nintervention for the general population experiencing medium to high\nstress levels while facing time and financial constraints. The discussion\nshould cover adaptation from traditional mindfulness or MBSR-based\napproaches, key mindfulness components, online delivery, session\nfrequency and duration, audio track structure, participant motivation,\nand the design of a credible sham meditation control condition.\n\nParticipants are certified mindfulness instructors with between 7 and 15\nyears of professional experience.\n\nThe moderator should keep the discussion exploratory and non-leading. Use\nthe scripted questions as the spine of the session, but listen actively and\nbriefly synthesize participants' contributions when helpful to validate\nunderstanding, connect related points, or transition to the next topic. Do\nnot turn participant-generated ideas into pre-planned probes unless those\nideas emerge naturally during the live discussion.",
+  "researcher_notes": "",
+  "moderator_prompt_override": "sandbox/01_MODERATOR_SYSTEM_PROMPT_MINIMAL.md",
+  "moderator_restraint_prompt": true,
+  "moderator_context_mode": "summarized",
+  "moderator_reflection_enabled": true,
+  "time_budget_tracking_enabled": true,
+  "participant_response_max_tokens": 800,
+  "participant_episodic_depth": "since_last_n",
+  "participant_episodic_since_last_n": 20,
+  "engagement_own_history_token_budget": 1500,
+  "participants": [
+    {
+      "agent_payload_path": "agents/mindfulness/mf_p1.json"
+    },
+    {
+      "agent_payload_path": "agents/mindfulness/mf_p2.json"
+    },
+    {
+      "agent_payload_path": "agents/mindfulness/mf_p3.json"
+    },
+    {
+      "agent_payload_path": "agents/mindfulness/mf_p4.json"
+    },
+    {
+      "agent_payload_path": "agents/mindfulness/mf_p5.json"
+    }
+  ],
+  "discussion_guide": [
+    {
+      "section_index": 0,
+      "section_label": "Introduction and instructions",
+      "section_phase": "intro",
+      "section_purpose": "Section 0: Introduction and instructions",
+      "scripted_question": "Thank you very much for taking the time to participate in this focus\ngroup. Today we will discuss how to create an effective\nself-administered mindfulness intervention for people who are facing\ntime and financial constraints and are seeking stress relief. The idea\nis to design an intervention that is practical, impactful, accessible,\nand suitable for people experiencing medium to high levels of stress.\n\nWe will discuss key components for stress reduction, as well as the\nduration and frequency of the audio mindfulness tracks that may be part\nof this intervention. If we have time, we will also discuss how to\ncreate a balanced control group for the research that matches the\nmindfulness intervention.\n\nPlease feel free to share your thoughts openly. There are no right or\nwrong answers. You may not need to answer every question; please answer\nthe questions you feel able to respond to. I will moderate the session,\nbut I will not provide my own answers to these questions.",
+      "suggested_probes": []
+    },
+    {
+      "section_index": 1,
+      "section_label": "Online adaptation and key mindfulness components",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 1: Online adaptation and key mindfulness components",
+      "scripted_question": "1. How can we effectively adapt traditional mindfulness practices from\nMBSR to an online format while ensuring their efficacy? Note that it\ndoes not have to be necessarily an adapted version of MBSR; it must be\nan intervention that can be self-administered and is functional to\nreduce stress levels of participants.\n\n2. Can we design a mindfulness protocol centered solely on key\nmindfulness components, for example acceptance, to maximize impact on\nstress regulation? Which components should take precedence?\n\n3. What elements are crucial for the success of an online mindfulness\ntraining if we consider stress reduction as the main outcome of the\nintervention?",
+      "suggested_probes": [
+        "Would you keep the whole structure of a traditional MBSR protocol in a condensed form, or would you select only some contents?"
+      ]
+    },
+    {
+      "section_index": 2,
+      "section_label": "Frequency, duration, and content",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 2: Frequency, duration, and content",
+      "scripted_question": "1. What is the optimal duration and frequency for each online\nmindfulness session to balance effectiveness and practicality for our\ntarget audience of stressed individuals with time constraints?\n\n2. How should each mindfulness track be structured? Consider an\nintroductory segment, for example providing an overview of mindfulness\nand/or presenting an attitude like nonjudging, followed by a\nmindfulness exercise.\n\n3. How can we motivate participants to integrate mindfulness into their\ndaily routines, considering their time and resource constraints?",
+      "suggested_probes": [
+        "Should participants meditate every day, or would it be better to practise three times a week?",
+        "Would the track be entirely the mindfulness exercise, or would it also include a psychoeducational part at the beginning?"
+      ]
+    },
+    {
+      "section_index": 3,
+      "section_label": "Control group and sham meditation",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 3: Control group and sham meditation",
+      "scripted_question": "To establish a balanced control group, that is, a sham meditation\ncondition, it is necessary to create a control condition where\nindividuals believe they are engaging in meditation, yet the components\nof mindfulness are absent.\n\nDeveloping a sham meditation track involves creating an audio session\nthat mimics the appearance of a genuine mindfulness exercise. It should\nhave a comparable word count and comparable instructions to maintain\nbalance with the mindfulness condition, while strategically omitting key\nmindfulness elements. This sham meditation should convincingly simulate\nthe meditation experience, allowing for a rigorous comparative analysis.\n\nHow would you structure this sham meditation intervention?",
+      "suggested_probes": []
+    },
+    {
+      "section_index": 4,
+      "section_label": "Closing remarks",
+      "section_phase": "closing",
+      "section_purpose": "Section 4: Closing remarks",
+      "scripted_question": "Thank you very much for participating today. Before we finish, is\nthere anything else you would like to add about the design of the\nmindfulness intervention, the audio tracks, or the control condition?",
+      "suggested_probes": []
+    }
+  ]
+}

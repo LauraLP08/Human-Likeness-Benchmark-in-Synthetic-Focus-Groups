@@ -1,0 +1,257 @@
+{
+ "cache_key": "af88fdab3ae1c5fee254a1fb1e9ae20b50319f41c201d4527a84cccc6d156404",
+ "computed_utc": "2026-08-06T14:00:43.989452+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/8y9ygaa2u591cxfgvtkn8rwxo1cbu429igw1",
+ "custom_request_key": "twinpop_fg4_r1",
+ "input": {
+  "side": "synthetic",
+  "fg": "fg4",
+  "condition": "twinpop",
+  "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg4_twinpop_run01\\comparable_transcript.json",
+  "sha256": "0aaa99f7b4d5eda5d7a4d4166f4744c0c5c0d254b534f02805d38f4d0c412d73",
+  "physical_run": "macho_meals_fg4_twinpop_run01",
+  "canonical_replication_index": 1
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "2de14e4d870acdc6b26a054de18c049965aea2927b422dc3235012b9abba96fa",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 11286,
+  "candidates_tokens": 984,
+  "total_tokens": 20146,
+  "thoughts_tokens": 7876,
+  "cached_tokens": null,
+  "raw_text_chars": 3303,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 11286,
+  "candidates_tokens": 984,
+  "total_tokens": 20146,
+  "thoughts_tokens": 7876,
+  "cached_tokens": null,
+  "raw_text_chars": 3303,
+  "parse_attempt": 1,
+  "headroom_tokens": 15400
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T015",
+      "speaker": "Participant 2",
+      "quote": "So in that sense, yeah, gender's in it somewhere."
+     },
+     {
+      "turn_id": "T021",
+      "speaker": "Participant 3",
+      "quote": "I suppose that's where the gender thing actually does come in, now that you mention it."
+     },
+     {
+      "turn_id": "T025",
+      "speaker": "Participant 1",
+      "quote": "if I was sat there planning a week's worth of meals like my wife does"
+     }
+    ],
+    "evidence_note": "All three participants acknowledge a meaningful influence of gender regarding domestic food planning and social food choices.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T029",
+      "speaker": "Participant 2",
+      "quote": "proper meals — meat and potatoes, that kind of thing."
+     }
+    ],
+    "evidence_note": "Participant 2 discusses meat and potatoes as proper meals, positioning animal products as the socially normative default.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2"
+    ],
+    "reach": 0.3333333333333333
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T027",
+      "speaker": "Participant 2",
+      "quote": "Can't be coming home to rabbit food and still having energy."
+     },
+     {
+      "turn_id": "T030",
+      "speaker": "Participant 3",
+      "quote": "I'd need to know it's actually proper food too, not just... rabbit food"
+     },
+     {
+      "turn_id": "T032",
+      "speaker": "Participant 1",
+      "quote": "you still need meals that actually fill you up and keep you going through the day"
+     }
+    ],
+    "evidence_note": "All three participants discuss plant-based options as insufficient ('rabbit food') to meet their nutritional, satiety, or energy needs.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "D",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 7,
+  "verified_quotes": 7,
+  "total_present_codes": 3,
+  "verified_codes": 3,
+  "demoted_codes": 0
+ }
+}

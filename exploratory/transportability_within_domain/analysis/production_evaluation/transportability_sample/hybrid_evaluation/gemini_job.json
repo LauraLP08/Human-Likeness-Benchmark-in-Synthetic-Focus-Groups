@@ -1,0 +1,42 @@
+{
+ "created_utc": "2026-08-02T20:01:44.492327+00:00",
+ "job_name": "batches/fr2ux2vj1g55gy1oe62c48gmkgplchers1rg",
+ "state": "JobState.JOB_STATE_PENDING",
+ "model": "gemini-3.5-flash",
+ "n_requests": 6,
+ "units": [
+  "S01",
+  "S02",
+  "S03",
+  "S04",
+  "S05",
+  "S06"
+ ],
+ "prompt_sha256": "4424eec734ce7c057c805fdc9885ad10f62c335302c4f7392e4ed8914b9b5608",
+ "response_schema_sha256": "eed4e1b03b546b03fac59d7f2a9e2474a1c0b02de16a64658bdba4004d50ed95",
+ "effective_config": {
+  "task": "emergent_extraction",
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "response_schema_transmitted": true,
+  "response_schema_sha256": "eed4e1b03b546b03fac59d7f2a9e2474a1c0b02de16a64658bdba4004d50ed95",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "schema_version": "emergent_theme_v1",
+  "scope": "S01-S06 supplementary transportability"
+ },
+ "cache_keys": {
+  "S01": "bc90663e8d3c6865a55159e97d1ef530d3096476ee17d3dad8e6d3f20658d18a",
+  "S02": "b8b30fc5f30eb48122886dc35162e97ae196c21c9fceefd5da2c190cd1d41a4c",
+  "S03": "1a3e3e1d304c39e90c7bb764b43b3e153f5b7dad25d95325e527cf0080fb85d0",
+  "S04": "1f8d65286d77ca0d115e8c91802f099ffb47ea2d999c7ac89b43a4a4147cd36f",
+  "S05": "48a8588c0bbf5a0dc78a23d28a77c72d8b976972f310f3acc7c0bda6e3b75bd4",
+  "S06": "3cc546a86a87a6b835d3be5d759a7ee05f31b4afb048b1d96e7948b8b3af990f"
+ },
+ "warning": "batch creation is NOT idempotent"
+}

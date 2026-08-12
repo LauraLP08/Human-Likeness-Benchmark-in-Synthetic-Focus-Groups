@@ -1,0 +1,591 @@
+{
+  "date": "2026-07-29",
+  "evaluator": "gemini-2.5-flash",
+  "human_source": "C:\\Users\\JLARA\\Documents\\Dissertation\\my_qualitative_project\\data\\datasets_transcripts\\standardized\\macho_meals\\fg1\\transcript.json",
+  "synthetic_source": "C:\\Users\\JLARA\\Documents\\Dissertation\\my_qualitative_project\\output\\session_logs\\macho_meals_fg1_run01\\transcript.json",
+  "data_floor": {
+    "min_participant_turns": 3,
+    "min_words": 150
+  },
+  "segmentation_crosscheck": {
+    "state_files_found": 48,
+    "entries_agree": 66,
+    "entries_differ_on_boundary_turn": 6,
+    "entries_in_conflict": 0,
+    "conflicts": [],
+    "clean": true
+  },
+  "compared_sections": [
+    {
+      "section_index": 1,
+      "section_label": "Opening discussion: male friendship and place",
+      "human_counts": {
+        "section_index": 1,
+        "section_label": "Opening discussion: male friendship and place",
+        "participant_turns": 12,
+        "moderator_turns": 2,
+        "participant_words": 352,
+        "total_words": 414,
+        "distinct_participants": 5,
+        "first_turn_id": "T001",
+        "last_turn_id": "T014",
+        "meets_floor": true
+      },
+      "synthetic_counts": {
+        "section_index": 1,
+        "section_label": "Opening discussion: male friendship and place",
+        "participant_turns": 6,
+        "moderator_turns": 2,
+        "participant_words": 978,
+        "total_words": 1053,
+        "distinct_participants": 4,
+        "first_turn_id": "T009",
+        "last_turn_id": "T016",
+        "meets_floor": true
+      },
+      "human_themes": 3,
+      "synthetic_themes": 3,
+      "matched": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "matched_pairs": [],
+      "emergent_themes": [
+        {
+          "theme_label": "Pubs as default social venues",
+          "participant_count": 0
+        },
+        {
+          "theme_label": "Importance of decent pub food",
+          "participant_count": 3
+        },
+        {
+          "theme_label": "Pubs' varying commitment to food quality",
+          "participant_count": 2
+        }
+      ],
+      "missed_themes": [
+        {
+          "theme_label": "Affordable Food and Drink",
+          "participant_count": 2
+        },
+        {
+          "theme_label": "Shared Hobbies and Interests",
+          "participant_count": 2
+        },
+        {
+          "theme_label": "Flexibility in Food Choices",
+          "participant_count": 3
+        }
+      ],
+      "disagreements": 1
+    },
+    {
+      "section_index": 2,
+      "section_label": "Everyday food decision-making",
+      "human_counts": {
+        "section_index": 2,
+        "section_label": "Everyday food decision-making",
+        "participant_turns": 7,
+        "moderator_turns": 1,
+        "participant_words": 324,
+        "total_words": 333,
+        "distinct_participants": 4,
+        "first_turn_id": "T015",
+        "last_turn_id": "T022",
+        "meets_floor": true
+      },
+      "synthetic_counts": {
+        "section_index": 2,
+        "section_label": "Everyday food decision-making",
+        "participant_turns": 5,
+        "moderator_turns": 1,
+        "participant_words": 951,
+        "total_words": 1012,
+        "distinct_participants": 2,
+        "first_turn_id": "T017",
+        "last_turn_id": "T022",
+        "meets_floor": true
+      },
+      "human_themes": 3,
+      "synthetic_themes": 4,
+      "matched": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "matched_pairs": [],
+      "emergent_themes": [
+        {
+          "theme_label": "Convenience and Ease of Preparation",
+          "participant_count": 2
+        },
+        {
+          "theme_label": "Quality and Taste Perception",
+          "participant_count": 2
+        },
+        {
+          "theme_label": "Price Markup and Value Chain",
+          "participant_count": 2
+        },
+        {
+          "theme_label": "Mindfulness in Food Choices",
+          "participant_count": 2
+        }
+      ],
+      "missed_themes": [
+        {
+          "theme_label": "Influence of group cravings",
+          "participant_count": 2
+        },
+        {
+          "theme_label": "Tendency for routine orders",
+          "participant_count": 2
+        },
+        {
+          "theme_label": "Variety of available options",
+          "participant_count": 2
+        }
+      ],
+      "disagreements": 2
+    },
+    {
+      "section_index": 3,
+      "section_label": "Gender and food choice",
+      "human_counts": {
+        "section_index": 3,
+        "section_label": "Gender and food choice",
+        "participant_turns": 9,
+        "moderator_turns": 1,
+        "participant_words": 462,
+        "total_words": 481,
+        "distinct_participants": 5,
+        "first_turn_id": "T023",
+        "last_turn_id": "T032",
+        "meets_floor": true
+      },
+      "synthetic_counts": {
+        "section_index": 3,
+        "section_label": "Gender and food choice",
+        "participant_turns": 11,
+        "moderator_turns": 6,
+        "participant_words": 2644,
+        "total_words": 2966,
+        "distinct_participants": 5,
+        "first_turn_id": "T023",
+        "last_turn_id": "T039",
+        "meets_floor": true
+      },
+      "human_themes": 3,
+      "synthetic_themes": 5,
+      "matched": 2,
+      "recall": 0.6667,
+      "precision": 0.4,
+      "matched_pairs": [
+        {
+          "human": "Gender's influence on food choices",
+          "synthetic": "Gendered Food Choices and Expectations"
+        },
+        {
+          "human": "Eating more with male friends",
+          "synthetic": "Social Pressure and 'Banter' Around Food"
+        }
+      ],
+      "emergent_themes": [
+        {
+          "theme_label": "Lack of Deliberation in Food Choices",
+          "participant_count": 2
+        },
+        {
+          "theme_label": "Active Choice to Avoid Thinking About Food Origins",
+          "participant_count": 2
+        },
+        {
+          "theme_label": "Influence of Geography and Local Norms",
+          "participant_count": 3
+        }
+      ],
+      "missed_themes": [
+        {
+          "theme_label": "Food choices based on cravings",
+          "participant_count": 2
+        }
+      ],
+      "disagreements": 0
+    },
+    {
+      "section_index": 4,
+      "section_label": "Imagining a plant-based shift",
+      "human_counts": {
+        "section_index": 4,
+        "section_label": "Imagining a plant-based shift",
+        "participant_turns": 13,
+        "moderator_turns": 1,
+        "participant_words": 730,
+        "total_words": 752,
+        "distinct_participants": 5,
+        "first_turn_id": "T033",
+        "last_turn_id": "T046",
+        "meets_floor": true
+      },
+      "synthetic_counts": {
+        "section_index": 4,
+        "section_label": "Imagining a plant-based shift",
+        "participant_turns": 8,
+        "moderator_turns": 5,
+        "participant_words": 2054,
+        "total_words": 2412,
+        "distinct_participants": 5,
+        "first_turn_id": "T040",
+        "last_turn_id": "T052",
+        "meets_floor": true
+      },
+      "human_themes": 4,
+      "synthetic_themes": 4,
+      "matched": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "matched_pairs": [],
+      "emergent_themes": [
+        {
+          "theme_label": "Social Discomfort of Changing Diet",
+          "participant_count": 4
+        },
+        {
+          "theme_label": "Comfort of the Default and Lack of Motivation",
+          "participant_count": 4
+        },
+        {
+          "theme_label": "Distinction Between Passive Default and Active Choice",
+          "participant_count": 3
+        },
+        {
+          "theme_label": "Personal Connection to Food and Community",
+          "participant_count": 2
+        }
+      ],
+      "missed_themes": [
+        {
+          "theme_label": "Significant dietary and lifestyle changes",
+          "participant_count": 4
+        },
+        {
+          "theme_label": "Impact on athletic and fitness routines",
+          "participant_count": 3
+        },
+        {
+          "theme_label": "Challenges with taste and food substitutes",
+          "participant_count": 2
+        },
+        {
+          "theme_label": "Need for new knowledge and recipes",
+          "participant_count": 4
+        }
+      ],
+      "disagreements": 3
+    },
+    {
+      "section_index": 5,
+      "section_label": "Making plant-based foods more appealing",
+      "human_counts": {
+        "section_index": 5,
+        "section_label": "Making plant-based foods more appealing",
+        "participant_turns": 17,
+        "moderator_turns": 1,
+        "participant_words": 920,
+        "total_words": 936,
+        "distinct_participants": 5,
+        "first_turn_id": "T047",
+        "last_turn_id": "T064",
+        "meets_floor": true
+      },
+      "synthetic_counts": {
+        "section_index": 5,
+        "section_label": "Making plant-based foods more appealing",
+        "participant_turns": 7,
+        "moderator_turns": 4,
+        "participant_words": 1803,
+        "total_words": 2056,
+        "distinct_participants": 5,
+        "first_turn_id": "T053",
+        "last_turn_id": "T063",
+        "meets_floor": true
+      },
+      "human_themes": 5,
+      "synthetic_themes": 5,
+      "matched": 2,
+      "recall": 0.4,
+      "precision": 0.4,
+      "matched_pairs": [
+        {
+          "human": "Taste and Texture Improvement",
+          "synthetic": "Importance of taste and satisfaction"
+        },
+        {
+          "human": "Health Benefits and Nutritional Value",
+          "synthetic": "Personal and direct motivators for change"
+        }
+      ],
+      "emergent_themes": [
+        {
+          "theme_label": "Preference for meat is deeply ingrained",
+          "participant_count": 3
+        },
+        {
+          "theme_label": "Contextual shaping of food preferences",
+          "participant_count": 2
+        },
+        {
+          "theme_label": "Difficulty of changing established preferences",
+          "participant_count": 3
+        }
+      ],
+      "missed_themes": [
+        {
+          "theme_label": "Ingredient Transparency and Education",
+          "participant_count": 3
+        },
+        {
+          "theme_label": "Affordability and Price Competitiveness",
+          "participant_count": 2
+        },
+        {
+          "theme_label": "Recipe Ideas and Usage Guidance",
+          "participant_count": 1
+        }
+      ],
+      "disagreements": 0
+    }
+  ],
+  "skipped_sections": [
+    {
+      "section_index": 0,
+      "section_label": "Introduction and instructions",
+      "status": "skipped_no_counterpart",
+      "reason": "absent from the human transcript",
+      "human_counts": null,
+      "synthetic_counts": {
+        "section_index": 0,
+        "section_label": "Introduction and instructions",
+        "participant_turns": 6,
+        "moderator_turns": 2,
+        "participant_words": 425,
+        "total_words": 619,
+        "distinct_participants": 5,
+        "first_turn_id": "T001",
+        "last_turn_id": "T008",
+        "meets_floor": true
+      }
+    },
+    {
+      "section_index": 6,
+      "section_label": "Closing remarks",
+      "status": "skipped_no_counterpart",
+      "reason": "absent from the human transcript",
+      "human_counts": null,
+      "synthetic_counts": {
+        "section_index": 6,
+        "section_label": "Closing remarks",
+        "participant_turns": 4,
+        "moderator_turns": 5,
+        "participant_words": 1039,
+        "total_words": 1315,
+        "distinct_participants": 2,
+        "first_turn_id": "T064",
+        "last_turn_id": "T072",
+        "meets_floor": true
+      }
+    }
+  ],
+  "stability_check": [
+    {
+      "section_index": 2,
+      "section_label": "Everyday food decision-making",
+      "side": "human",
+      "theme_counts": [
+        3,
+        4,
+        3
+      ],
+      "pairwise": [
+        {
+          "pair": "run1_vs_run2",
+          "matched": 3,
+          "recall": 1.0,
+          "precision": 0.75
+        },
+        {
+          "pair": "run1_vs_run3",
+          "matched": 3,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        {
+          "pair": "run2_vs_run3",
+          "matched": 3,
+          "recall": 0.75,
+          "precision": 1.0
+        }
+      ],
+      "mean_pairwise_recall": 0.917,
+      "verdict": "stable"
+    },
+    {
+      "section_index": 2,
+      "section_label": "Everyday food decision-making",
+      "side": "synthetic",
+      "theme_counts": [
+        4,
+        4,
+        4
+      ],
+      "pairwise": [
+        {
+          "pair": "run1_vs_run2",
+          "matched": 4,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        {
+          "pair": "run1_vs_run3",
+          "matched": 4,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        {
+          "pair": "run2_vs_run3",
+          "matched": 4,
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      ],
+      "mean_pairwise_recall": 1.0,
+      "verdict": "stable"
+    },
+    {
+      "section_index": 3,
+      "section_label": "Gender and food choice",
+      "side": "human",
+      "theme_counts": [
+        3,
+        4,
+        4
+      ],
+      "pairwise": [
+        {
+          "pair": "run1_vs_run2",
+          "matched": 3,
+          "recall": 1.0,
+          "precision": 0.75
+        },
+        {
+          "pair": "run1_vs_run3",
+          "matched": 3,
+          "recall": 1.0,
+          "precision": 0.75
+        },
+        {
+          "pair": "run2_vs_run3",
+          "matched": 4,
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      ],
+      "mean_pairwise_recall": 1.0,
+      "verdict": "stable"
+    },
+    {
+      "section_index": 3,
+      "section_label": "Gender and food choice",
+      "side": "synthetic",
+      "theme_counts": [
+        5,
+        5,
+        5
+      ],
+      "pairwise": [
+        {
+          "pair": "run1_vs_run2",
+          "matched": 5,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        {
+          "pair": "run1_vs_run3",
+          "matched": 5,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        {
+          "pair": "run2_vs_run3",
+          "matched": 5,
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      ],
+      "mean_pairwise_recall": 1.0,
+      "verdict": "stable"
+    },
+    {
+      "section_index": 5,
+      "section_label": "Making plant-based foods more appealing",
+      "side": "human",
+      "theme_counts": [
+        5,
+        5,
+        5
+      ],
+      "pairwise": [
+        {
+          "pair": "run1_vs_run2",
+          "matched": 5,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        {
+          "pair": "run1_vs_run3",
+          "matched": 4,
+          "recall": 0.8,
+          "precision": 0.8
+        },
+        {
+          "pair": "run2_vs_run3",
+          "matched": 4,
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      ],
+      "mean_pairwise_recall": 0.867,
+      "verdict": "stable"
+    },
+    {
+      "section_index": 5,
+      "section_label": "Making plant-based foods more appealing",
+      "side": "synthetic",
+      "theme_counts": [
+        5,
+        5,
+        6
+      ],
+      "pairwise": [
+        {
+          "pair": "run1_vs_run2",
+          "matched": 5,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        {
+          "pair": "run1_vs_run3",
+          "matched": 5,
+          "recall": 1.0,
+          "precision": 0.833
+        },
+        {
+          "pair": "run2_vs_run3",
+          "matched": 5,
+          "recall": 1.0,
+          "precision": 0.833
+        }
+      ],
+      "mean_pairwise_recall": 1.0,
+      "verdict": "stable"
+    }
+  ]
+}

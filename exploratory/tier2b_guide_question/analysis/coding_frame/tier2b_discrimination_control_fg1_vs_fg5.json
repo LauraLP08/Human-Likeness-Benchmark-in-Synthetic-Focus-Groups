@@ -1,0 +1,2306 @@
+{
+  "date": "2026-07-29",
+  "evaluator": "gemini-2.5-flash",
+  "evaluator_config": {
+    "model": "gemini-2.5-flash",
+    "key_env": "GEMINI_API_KEY_25",
+    "temperature": 0.0,
+    "thinking_level": null
+  },
+  "human_arm": {
+    "source": "C:\\Users\\JLARA\\Documents\\Dissertation\\my_qualitative_project\\analysis\\coding_frame\\tier2b_guide_question_human_fg1.json",
+    "reused_not_reextracted": true,
+    "evaluator_confirmed": "gemini-2.5-flash"
+  },
+  "matched_arm_source": "C:\\Users\\JLARA\\Documents\\Dissertation\\my_qualitative_project\\analysis\\coding_frame\\tier2b_guide_question_pilot_fg1_gemini25.json",
+  "primary_control_run": "macho_meals_fg5_run01",
+  "control_run_selection_note": "macho_meals_fg5_run02 archived (generation failure, not a valid replicate). Valid runs: run01, run03, run04. run01 is the primary control — first valid replicate and naming counterpart of macho_meals_fg1_run01. Any additional arm is an independent robustness point and is never pooled with run01.",
+  "data_floor": {
+    "min_participant_turns": 3,
+    "min_words": 150
+  },
+  "control_arms": [
+    {
+      "run": "macho_meals_fg5_run01",
+      "source": "C:\\Users\\JLARA\\Documents\\Dissertation\\my_qualitative_project\\output\\session_logs\\macho_meals_fg5_run01\\transcript.json",
+      "is_primary": true,
+      "segmentation_crosscheck": {
+        "state_files_found": 36,
+        "entries_agree": 46,
+        "entries_differ_on_boundary_turn": 6,
+        "entries_in_conflict": 0,
+        "conflicts": [],
+        "clean": true
+      },
+      "segmentation_warnings": [],
+      "section_counts": [
+        {
+          "section_index": 0,
+          "section_label": "Introduction and instructions",
+          "participant_turns": 6,
+          "moderator_turns": 2,
+          "participant_words": 764,
+          "total_words": 1007,
+          "distinct_participants": 4,
+          "first_turn_id": "T001",
+          "last_turn_id": "T008",
+          "meets_floor": true
+        },
+        {
+          "section_index": 1,
+          "section_label": "Opening discussion: male friendship and place",
+          "participant_turns": 4,
+          "moderator_turns": 1,
+          "participant_words": 1038,
+          "total_words": 1117,
+          "distinct_participants": 2,
+          "first_turn_id": "T009",
+          "last_turn_id": "T013",
+          "meets_floor": true
+        },
+        {
+          "section_index": 2,
+          "section_label": "Everyday food decision-making",
+          "participant_turns": 4,
+          "moderator_turns": 1,
+          "participant_words": 894,
+          "total_words": 994,
+          "distinct_participants": 2,
+          "first_turn_id": "T014",
+          "last_turn_id": "T018",
+          "meets_floor": true
+        },
+        {
+          "section_index": 3,
+          "section_label": "Gender and food choice",
+          "participant_turns": 7,
+          "moderator_turns": 3,
+          "participant_words": 1808,
+          "total_words": 1941,
+          "distinct_participants": 4,
+          "first_turn_id": "T019",
+          "last_turn_id": "T028",
+          "meets_floor": true
+        },
+        {
+          "section_index": 4,
+          "section_label": "Imagining a plant-based shift",
+          "participant_turns": 8,
+          "moderator_turns": 4,
+          "participant_words": 2296,
+          "total_words": 2530,
+          "distinct_participants": 4,
+          "first_turn_id": "T029",
+          "last_turn_id": "T040",
+          "meets_floor": true
+        },
+        {
+          "section_index": 5,
+          "section_label": "Making plant-based foods more appealing",
+          "participant_turns": 5,
+          "moderator_turns": 4,
+          "participant_words": 1211,
+          "total_words": 1436,
+          "distinct_participants": 4,
+          "first_turn_id": "T041",
+          "last_turn_id": "T049",
+          "meets_floor": true
+        },
+        {
+          "section_index": 6,
+          "section_label": "Closing remarks",
+          "participant_turns": 1,
+          "moderator_turns": 2,
+          "participant_words": 228,
+          "total_words": 381,
+          "distinct_participants": 1,
+          "first_turn_id": "T050",
+          "last_turn_id": "T052",
+          "meets_floor": false
+        }
+      ],
+      "compared_sections": [
+        {
+          "section_index": 1,
+          "section_label": "Opening discussion: male friendship and place",
+          "human_counts": {
+            "section_index": 1,
+            "section_label": "Opening discussion: male friendship and place",
+            "participant_turns": 12,
+            "moderator_turns": 2,
+            "participant_words": 352,
+            "total_words": 414,
+            "distinct_participants": 5,
+            "first_turn_id": "T001",
+            "last_turn_id": "T014",
+            "meets_floor": true
+          },
+          "synthetic_counts": {
+            "section_index": 1,
+            "section_label": "Opening discussion: male friendship and place",
+            "participant_turns": 4,
+            "moderator_turns": 1,
+            "participant_words": 1038,
+            "total_words": 1117,
+            "distinct_participants": 2,
+            "first_turn_id": "T009",
+            "last_turn_id": "T013",
+            "meets_floor": true
+          },
+          "human_themes": 3,
+          "synthetic_themes": 5,
+          "matched": 1,
+          "recall": 0.3333,
+          "precision": 0.2,
+          "matched_pairs": [
+            {
+              "human": "Flexibility in Food Choices",
+              "synthetic": "Ease and lack of agenda in pub meetups"
+            }
+          ],
+          "emergent_themes": [
+            {
+              "theme_label": "Pubs as primary social spaces",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Unspoken social pressures in male spaces",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Impact of changing dietary habits",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Pubs reinforcing traditional masculinity",
+              "participant_count": 1
+            }
+          ],
+          "missed_themes": [
+            {
+              "theme_label": "Affordable Food and Drink",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Shared Hobbies and Interests",
+              "participant_count": 2
+            }
+          ],
+          "disagreements": [],
+          "disagreement_count": 0
+        },
+        {
+          "section_index": 2,
+          "section_label": "Everyday food decision-making",
+          "human_counts": {
+            "section_index": 2,
+            "section_label": "Everyday food decision-making",
+            "participant_turns": 7,
+            "moderator_turns": 1,
+            "participant_words": 324,
+            "total_words": 333,
+            "distinct_participants": 4,
+            "first_turn_id": "T015",
+            "last_turn_id": "T022",
+            "meets_floor": true
+          },
+          "synthetic_counts": {
+            "section_index": 2,
+            "section_label": "Everyday food decision-making",
+            "participant_turns": 4,
+            "moderator_turns": 1,
+            "participant_words": 894,
+            "total_words": 994,
+            "distinct_participants": 2,
+            "first_turn_id": "T014",
+            "last_turn_id": "T018",
+            "meets_floor": true
+          },
+          "human_themes": 3,
+          "synthetic_themes": 4,
+          "matched": 2,
+          "recall": 0.6667,
+          "precision": 0.5,
+          "matched_pairs": [
+            {
+              "human": "Tendency for routine orders",
+              "synthetic": "Influence of habit and practicality on food choices"
+            },
+            {
+              "human": "Influence of group cravings",
+              "synthetic": "Perceived social pressure and 'normal' eating"
+            }
+          ],
+          "emergent_themes": [
+            {
+              "theme_label": "Distinction between marketing and social pressure",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Impact of local context on social dynamics",
+              "participant_count": 2
+            }
+          ],
+          "missed_themes": [
+            {
+              "theme_label": "Variety of available options",
+              "participant_count": 2
+            }
+          ],
+          "disagreements": [
+            {
+              "type": "gemini_no_embed_high",
+              "ri": 0,
+              "si": 0,
+              "sim": 0.672,
+              "reason": "R0 focuses on immediate group influence on food choices, while S0 describes individual habits and practical considerations like availability and convenience.",
+              "human_theme": "Influence of group cravings",
+              "synthetic_theme": "Influence of habit and practicality on food choices"
+            },
+            {
+              "type": "gemini_no_embed_high",
+              "ri": 0,
+              "si": 3,
+              "sim": 0.715,
+              "reason": "R0 describes the direct influence of group cravings. S3 examines how local context influences the nature and presence of social pressures, which is a meta-level analysis of social dynamics rather than the direct influence itself.",
+              "human_theme": "Influence of group cravings",
+              "synthetic_theme": "Impact of local context on social dynamics"
+            }
+          ],
+          "disagreement_count": 2
+        },
+        {
+          "section_index": 3,
+          "section_label": "Gender and food choice",
+          "human_counts": {
+            "section_index": 3,
+            "section_label": "Gender and food choice",
+            "participant_turns": 9,
+            "moderator_turns": 1,
+            "participant_words": 462,
+            "total_words": 481,
+            "distinct_participants": 5,
+            "first_turn_id": "T023",
+            "last_turn_id": "T032",
+            "meets_floor": true
+          },
+          "synthetic_counts": {
+            "section_index": 3,
+            "section_label": "Gender and food choice",
+            "participant_turns": 7,
+            "moderator_turns": 3,
+            "participant_words": 1808,
+            "total_words": 1941,
+            "distinct_participants": 4,
+            "first_turn_id": "T019",
+            "last_turn_id": "T028",
+            "meets_floor": true
+          },
+          "human_themes": 3,
+          "synthetic_themes": 4,
+          "matched": 1,
+          "recall": 0.3333,
+          "precision": 0.25,
+          "matched_pairs": [
+            {
+              "human": "Gender's influence on food choices",
+              "synthetic": "Outdated Link Between Meat and Masculinity"
+            }
+          ],
+          "emergent_themes": [
+            {
+              "theme_label": "Unnoticed Social Pressure to Eat Meat",
+              "participant_count": 3
+            },
+            {
+              "theme_label": "Complicity in Perpetuating Norms",
+              "participant_count": 3
+            },
+            {
+              "theme_label": "The Burden of Conscious Food Choices",
+              "participant_count": 3
+            }
+          ],
+          "missed_themes": [
+            {
+              "theme_label": "Eating more with male friends",
+              "participant_count": 1
+            },
+            {
+              "theme_label": "Food choices based on cravings",
+              "participant_count": 2
+            }
+          ],
+          "disagreements": [],
+          "disagreement_count": 0
+        },
+        {
+          "section_index": 4,
+          "section_label": "Imagining a plant-based shift",
+          "human_counts": {
+            "section_index": 4,
+            "section_label": "Imagining a plant-based shift",
+            "participant_turns": 13,
+            "moderator_turns": 1,
+            "participant_words": 730,
+            "total_words": 752,
+            "distinct_participants": 5,
+            "first_turn_id": "T033",
+            "last_turn_id": "T046",
+            "meets_floor": true
+          },
+          "synthetic_counts": {
+            "section_index": 4,
+            "section_label": "Imagining a plant-based shift",
+            "participant_turns": 8,
+            "moderator_turns": 4,
+            "participant_words": 2296,
+            "total_words": 2530,
+            "distinct_participants": 4,
+            "first_turn_id": "T029",
+            "last_turn_id": "T040",
+            "meets_floor": true
+          },
+          "human_themes": 4,
+          "synthetic_themes": 6,
+          "matched": 2,
+          "recall": 0.5,
+          "precision": 0.3333,
+          "matched_pairs": [
+            {
+              "human": "Need for new knowledge and recipes",
+              "synthetic": "Practicality and Knowledge Gaps"
+            },
+            {
+              "human": "Significant dietary and lifestyle changes",
+              "synthetic": "Comfort vs. Willingness to Change"
+            }
+          ],
+          "emergent_themes": [
+            {
+              "theme_label": "Social Awkwardness and Inconvenience",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Lack of Supporting Infrastructure",
+              "participant_count": 4
+            },
+            {
+              "theme_label": "Age and Life Stage as a Factor",
+              "participant_count": 3
+            },
+            {
+              "theme_label": "Individual Action Driving Systemic Change",
+              "participant_count": 2
+            }
+          ],
+          "missed_themes": [
+            {
+              "theme_label": "Impact on athletic and fitness routines",
+              "participant_count": 3
+            },
+            {
+              "theme_label": "Challenges with taste and food substitutes",
+              "participant_count": 2
+            }
+          ],
+          "disagreements": [
+            {
+              "type": "gemini_no_embed_high",
+              "ri": 2,
+              "si": 0,
+              "sim": 0.708,
+              "reason": "R2 specifically addresses taste, quality of substitutes, and blandness, which are sensory and experiential concerns, distinct from S0's focus on general practicalities and knowledge gaps in cooking.",
+              "human_theme": "Challenges with taste and food substitutes",
+              "synthetic_theme": "Practicality and Knowledge Gaps"
+            }
+          ],
+          "disagreement_count": 1
+        },
+        {
+          "section_index": 5,
+          "section_label": "Making plant-based foods more appealing",
+          "human_counts": {
+            "section_index": 5,
+            "section_label": "Making plant-based foods more appealing",
+            "participant_turns": 17,
+            "moderator_turns": 1,
+            "participant_words": 920,
+            "total_words": 936,
+            "distinct_participants": 5,
+            "first_turn_id": "T047",
+            "last_turn_id": "T064",
+            "meets_floor": true
+          },
+          "synthetic_counts": {
+            "section_index": 5,
+            "section_label": "Making plant-based foods more appealing",
+            "participant_turns": 5,
+            "moderator_turns": 4,
+            "participant_words": 1211,
+            "total_words": 1436,
+            "distinct_participants": 4,
+            "first_turn_id": "T041",
+            "last_turn_id": "T049",
+            "meets_floor": true
+          },
+          "human_themes": 5,
+          "synthetic_themes": 5,
+          "matched": 2,
+          "recall": 0.4,
+          "precision": 0.4,
+          "matched_pairs": [
+            {
+              "human": "Recipe Ideas and Usage Guidance",
+              "synthetic": "Need for demonstration and cultural shift"
+            },
+            {
+              "human": "Taste and Texture Improvement",
+              "synthetic": "Lack of exposure to appealing plant-based food"
+            }
+          ],
+          "emergent_themes": [
+            {
+              "theme_label": "Comfort and familiarity with traditional diet",
+              "participant_count": 3
+            },
+            {
+              "theme_label": "Personal choice to not explore plant-based options",
+              "participant_count": 3
+            },
+            {
+              "theme_label": "Motivation beyond just taste or health",
+              "participant_count": 1
+            }
+          ],
+          "missed_themes": [
+            {
+              "theme_label": "Ingredient Transparency and Education",
+              "participant_count": 3
+            },
+            {
+              "theme_label": "Affordability and Price Competitiveness",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Health Benefits and Nutritional Value",
+              "participant_count": 2
+            }
+          ],
+          "disagreements": [
+            {
+              "type": "gemini_no_embed_high",
+              "ri": 0,
+              "si": 3,
+              "sim": 0.666,
+              "reason": "R0 focuses on improving the inherent taste and texture of plant-based foods, while S3 emphasizes external social and cultural influences on perceived appeal, rather than the food's intrinsic qualities.",
+              "human_theme": "Taste and Texture Improvement",
+              "synthetic_theme": "Need for demonstration and cultural shift"
+            }
+          ],
+          "disagreement_count": 1
+        }
+      ],
+      "skipped_sections": [
+        {
+          "section_index": 0,
+          "section_label": "Introduction and instructions",
+          "status": "skipped_no_counterpart",
+          "reason": "absent from the human transcript",
+          "human_counts": null,
+          "synthetic_counts": {
+            "section_index": 0,
+            "section_label": "Introduction and instructions",
+            "participant_turns": 6,
+            "moderator_turns": 2,
+            "participant_words": 764,
+            "total_words": 1007,
+            "distinct_participants": 4,
+            "first_turn_id": "T001",
+            "last_turn_id": "T008",
+            "meets_floor": true
+          }
+        },
+        {
+          "section_index": 6,
+          "section_label": "Closing remarks",
+          "status": "skipped_no_counterpart",
+          "reason": "absent from the human transcript",
+          "human_counts": null,
+          "synthetic_counts": {
+            "section_index": 6,
+            "section_label": "Closing remarks",
+            "participant_turns": 1,
+            "moderator_turns": 2,
+            "participant_words": 228,
+            "total_words": 381,
+            "distinct_participants": 1,
+            "first_turn_id": "T050",
+            "last_turn_id": "T052",
+            "meets_floor": false
+          }
+        }
+      ],
+      "synthetic_sections": [
+        {
+          "section_index": 1,
+          "section_label": "Opening discussion: male friendship and place",
+          "participant_turns": 4,
+          "moderator_turns": 1,
+          "participant_words": 1038,
+          "total_words": 1117,
+          "distinct_participants": 2,
+          "first_turn_id": "T009",
+          "last_turn_id": "T013",
+          "meets_floor": true,
+          "themes": [
+            {
+              "theme_label": "Pubs as primary social spaces",
+              "theme_definition": "This theme captures the participants' shared experience of pubs being the traditional and most common gathering places for male friends.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T010",
+                  "speaker": "Participant 1",
+                  "quote": "Well, that's a good question. I suppose for me it's quite a lot the pub, to be honest."
+                },
+                {
+                  "turn_id": "T011",
+                  "speaker": "Participant 4",
+                  "quote": "Yeah, the pub's been my main spot too, Patrick. That's where you'd naturally end up with the lads, isn't it?"
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Ease and lack of agenda in pub meetups",
+              "theme_definition": "This theme highlights the appeal of pubs as places for spontaneous, unstructured socialising without the need for extensive planning or specific activities.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T010",
+                  "speaker": "Participant 1",
+                  "quote": "The pub though, that's the main one for me. It's just... it's easy, I suppose. You don't have to plan much."
+                },
+                {
+                  "turn_id": "T011",
+                  "speaker": "Participant 4",
+                  "quote": "Just somewhere to be without having to make a big thing of it."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Unspoken social pressures in male spaces",
+              "theme_definition": "This theme describes the subtle, often unstated expectations and norms, particularly around food choices, that can create discomfort or a sense of not belonging for some men in traditional male gathering places.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T011",
+                  "speaker": "Participant 4",
+                  "quote": "You go down the pub, it's all about the steak night or the pie or whatever, and there's this sort of... I don't know, unspoken thing where that's what blokes do, you know?"
+                },
+                {
+                  "turn_id": "T012",
+                  "speaker": "Participant 1",
+                  "quote": "There is something there, isn't there? This sort of... assumption about what a man should order, what a man should be eating."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Impact of changing dietary habits",
+              "theme_definition": "This theme focuses on how personal dietary changes, such as reducing meat consumption, can lead to feelings of awkwardness or subtle social exclusion in environments like pubs that cater to traditional male food preferences.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T011",
+                  "speaker": "Participant 4",
+                  "quote": "I've shifted how I eat — bit less meat and all that — and I've noticed it's actually... it's awkward in those spaces sometimes."
+                },
+                {
+                  "turn_id": "T012",
+                  "speaker": "Participant 1",
+                  "quote": "I've got mates who've cut back on meat, or gone vegetarian even, and yeah, there's definitely been a bit of ribbing."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Pubs reinforcing traditional masculinity",
+              "theme_definition": "This theme explores how pubs, through their offerings and atmosphere, inadvertently reinforce certain aspects of traditional masculinity, making it challenging for men who deviate from these norms to feel fully comfortable.",
+              "participant_count": 1,
+              "verified_quotes": [
+                {
+                  "turn_id": "T012",
+                  "speaker": "Participant 1",
+                  "quote": "And I think what you're saying about the pubs — they do seem to lean into that quite heavily now. Steak nights, pie nights, all of that."
+                }
+              ],
+              "unverified_quote_count": 1
+            }
+          ]
+        },
+        {
+          "section_index": 2,
+          "section_label": "Everyday food decision-making",
+          "participant_turns": 4,
+          "moderator_turns": 1,
+          "participant_words": 894,
+          "total_words": 994,
+          "distinct_participants": 2,
+          "first_turn_id": "T014",
+          "last_turn_id": "T018",
+          "meets_floor": true,
+          "themes": [
+            {
+              "theme_label": "Influence of habit and practicality on food choices",
+              "theme_definition": "This theme captures how participants' daily food decisions are primarily driven by established routines, what's readily available, and what is convenient to prepare and consume.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T015",
+                  "speaker": "Participant 2",
+                  "quote": "It's more that it's what I've got in the fridge, what I know how to cook, what fills you up after a day's work. Habit, really. Practicality."
+                },
+                {
+                  "turn_id": "T017",
+                  "speaker": "Participant 4",
+                  "quote": "Look, most days it's just... what's there. I'll have some fish, maybe a bit of chicken, eggs. I'm not thinking about it in some grand way."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Perceived social pressure and 'normal' eating",
+              "theme_definition": "This theme explores participants' differing views on whether there is an unspoken social expectation or pressure to conform to certain eating habits, particularly regarding meat consumption.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T015",
+                  "speaker": "Participant 2",
+                  "quote": "I go to the pub, I order whatever I fancy, and nobody's looking sideways at me about it."
+                },
+                {
+                  "turn_id": "T017",
+                  "speaker": "Participant 4",
+                  "quote": "It's more like... the entire setup just assumes one thing. The pub does steak nights because that's what sells, right? But that's because there's this underlying sense of what's normal, what's expected."
+                },
+                {
+                  "turn_id": "T018",
+                  "speaker": "Participant 2",
+                  "quote": "If everywhere you go, the food's set up one way, the assumptions are all pointing the same direction, then yeah, that does make it easier to fit in if you're going along with it."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Distinction between marketing and social pressure",
+              "theme_definition": "This theme highlights participants' discussion about whether commercial practices, like themed nights, are purely business decisions or contribute to a broader social expectation around food.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T016",
+                  "speaker": "Participant 2",
+                  "quote": "There's the pub doing steak nights because that's what sells — that's marketing, that's business. Fair enough. But that's not the same as the blokes round the table giving you a hard time for ordering something else, is it?"
+                },
+                {
+                  "turn_id": "T017",
+                  "speaker": "Participant 4",
+                  "quote": "The pub does steak nights because that's what sells, right? But that's because there's this underlying sense of what's normal, what's expected."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Impact of local context on social dynamics",
+              "theme_definition": "This theme captures how participants acknowledge that their specific geographical and social environments influence the presence and nature of social pressures related to food choices.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T015",
+                  "speaker": "Participant 2",
+                  "quote": "The thing is, out here in the village, you don't get as much of that fashionable pub culture anyway — the themed nights and all that."
+                },
+                {
+                  "turn_id": "T017",
+                  "speaker": "Participant 4",
+                  "quote": "And maybe where you are it's different — you're right, maybe you don't get as much of the themed nights culture. But I'm noticing it more and more round here, and it does narrow things."
+                },
+                {
+                  "turn_id": "T018",
+                  "speaker": "Participant 2",
+                  "quote": "I think you might be right that it's different where you are and where I am. Round here, you're with the same group — you've known them thirty, forty years in some cases."
+                }
+              ],
+              "unverified_quote_count": 0
+            }
+          ]
+        },
+        {
+          "section_index": 3,
+          "section_label": "Gender and food choice",
+          "participant_turns": 7,
+          "moderator_turns": 3,
+          "participant_words": 1808,
+          "total_words": 1941,
+          "distinct_participants": 4,
+          "first_turn_id": "T019",
+          "last_turn_id": "T028",
+          "meets_floor": true,
+          "themes": [
+            {
+              "theme_label": "Outdated Link Between Meat and Masculinity",
+              "theme_definition": "This theme captures participants' shared view that the idea of eating meat being inherently tied to being a man is old-fashioned and unnecessary.",
+              "participant_count": 1,
+              "verified_quotes": [
+                {
+                  "turn_id": "T028",
+                  "speaker": "Participant 2",
+                  "quote": "What bothers me more, if I'm being honest, is the idea that eating meat is somehow tied up with being a proper man. That feels daft to me."
+                }
+              ],
+              "unverified_quote_count": 2
+            },
+            {
+              "theme_label": "Unnoticed Social Pressure to Eat Meat",
+              "theme_definition": "This theme describes how participants who conform to meat-eating norms often don't perceive social pressure, while acknowledging its existence for others.",
+              "participant_count": 3,
+              "verified_quotes": [
+                {
+                  "turn_id": "T021",
+                  "speaker": "Participant 1",
+                  "quote": "But I don't experience it myself because I'm eating the meat anyway. Which, I suppose, means I've not really had to think about whether I even care about it, have I?"
+                },
+                {
+                  "turn_id": "T022",
+                  "speaker": "Participant 3",
+                  "quote": "I'm the same, really — I eat meat, so I don't notice if there's pressure around it. But that doesn't mean there isn't something there."
+                },
+                {
+                  "turn_id": "T026",
+                  "speaker": "Participant 4",
+                  "quote": "You're right — you get to just eat without thinking. And I'm not saying you should feel guilty about that, but... you're aware of it now, aren't you? That's the thing. You're noticing that you haven't had to notice."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Complicity in Perpetuating Norms",
+              "theme_definition": "This theme reflects participants' realization that their inaction or silence, even when not directly experiencing pressure, contributes to maintaining existing social expectations around food.",
+              "participant_count": 3,
+              "verified_quotes": [
+                {
+                  "turn_id": "T024",
+                  "speaker": "Participant 3",
+                  "quote": "Because it's easier. Because it doesn't affect you if you're eating the meat anyway. And that means — what, I've just been letting the whole thing keep itself going?"
+                },
+                {
+                  "turn_id": "T026",
+                  "speaker": "Participant 4",
+                  "quote": "What you're saying about being complicit, Fletcher — I don't think that's too harsh, actually. Not in a blame way, but you're right. If nobody ever says anything, if it all just stays quiet, then the assumption just keeps sitting there, doesn't it?"
+                },
+                {
+                  "turn_id": "T028",
+                  "speaker": "Participant 2",
+                  "quote": "And I suppose I've been one of those people who hasn't said anything. I've just gone along with it because it didn't inconvenience me. Which is... well, it's not great, is it?"
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "The Burden of Conscious Food Choices",
+              "theme_definition": "This theme highlights the mental effort and 'calculation' required for individuals who deviate from established food norms, contrasting with the ease of those who conform.",
+              "participant_count": 3,
+              "verified_quotes": [
+                {
+                  "turn_id": "T022",
+                  "speaker": "Participant 3",
+                  "quote": "What strikes me, listening to Keith, is that he's having to be conscious of his choices in a way I'm not. He's aware of the backdrop, aware of how he'll be read."
+                },
+                {
+                  "turn_id": "T023",
+                  "speaker": "Participant 1",
+                  "quote": "Keith's the one who has to be conscious of it, who has to think about what he's ordering and how it might be read. That's different."
+                },
+                {
+                  "turn_id": "T026",
+                  "speaker": "Participant 4",
+                  "quote": "But there's this small calculation that happens now, that didn't used to happen before. What am I ordering? How's it going to land? Is it worth the slightly awkward moment, or should I just go with what everyone else is having?"
+                }
+              ],
+              "unverified_quote_count": 0
+            }
+          ]
+        },
+        {
+          "section_index": 4,
+          "section_label": "Imagining a plant-based shift",
+          "participant_turns": 8,
+          "moderator_turns": 4,
+          "participant_words": 2296,
+          "total_words": 2530,
+          "distinct_participants": 4,
+          "first_turn_id": "T029",
+          "last_turn_id": "T040",
+          "meets_floor": true,
+          "themes": [
+            {
+              "theme_label": "Practicality and Knowledge Gaps",
+              "theme_definition": "This theme captures the practical challenges and lack of knowledge participants anticipate when considering a shift to plant-based eating, particularly around cooking and meal preparation.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T030",
+                  "speaker": "Participant 4",
+                  "quote": "First thing is just... knowledge. I'd need to know how to cook differently. I can do a bit of fish, a bit of chicken, but a proper plant-based meal? I'm not confident about that."
+                },
+                {
+                  "turn_id": "T032",
+                  "speaker": "Participant 1",
+                  "quote": "The knowledge bit — he's right. I can cook a chicken, I can do a steak. But a proper meal without any of that? I'd be... I'd probably be a bit lost."
+                },
+                {
+                  "turn_id": "T034",
+                  "speaker": "Participant 1",
+                  "quote": "Because the truth is, I could learn to cook differently. I could order something else at the pub and just not care about the look on someone's face."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Social Awkwardness and Inconvenience",
+              "theme_definition": "This theme describes the discomfort and social challenges participants foresee when their dietary choices deviate from the norm in social settings.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T030",
+                  "speaker": "Participant 4",
+                  "quote": "I suppose what I'm saying is, it's not just about me deciding I want to eat differently. It's about the whole infrastructure around eating."
+                },
+                {
+                  "turn_id": "T032",
+                  "speaker": "Participant 1",
+                  "quote": "Not the cooking, not the social awkwardness — though that's real enough. It's just that everything around me assumes meat."
+                }
+              ],
+              "unverified_quote_count": 1
+            },
+            {
+              "theme_label": "Lack of Supporting Infrastructure",
+              "theme_definition": "This theme highlights the absence of readily available plant-based options in restaurants, pubs, and supermarkets, making a dietary shift difficult.",
+              "participant_count": 4,
+              "verified_quotes": [
+                {
+                  "turn_id": "T030",
+                  "speaker": "Participant 4",
+                  "quote": "The places I go would need to actually have options that aren't just the token salad or whatever. And there'd need to be this shift where ordering something different isn't... noticeable."
+                },
+                {
+                  "turn_id": "T032",
+                  "speaker": "Participant 1",
+                  "quote": "So if I was going to go plant-based tomorrow, I'd be swimming against a lot of that current. Not because anyone's being difficult, but because the practical side of life is all set up for the way I'm eating now."
+                },
+                {
+                  "turn_id": "T038",
+                  "speaker": "Participant 3",
+                  "quote": "Out here, there's not much of an option at all, if I'm being honest. You go to the pub, you get what's on the menu — usually a steak, a pie, maybe fish and chips."
+                },
+                {
+                  "turn_id": "T040",
+                  "speaker": "Participant 2",
+                  "quote": "The pub situation's similar though — you go in, it's meat or fish or whatever, and that's it. There's not going to be some fancy plant-based option sitting there."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Comfort vs. Willingness to Change",
+              "theme_definition": "This theme explores the tension between maintaining personal comfort and the motivation or willingness to embrace inconvenience for a dietary change.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T034",
+                  "speaker": "Participant 1",
+                  "quote": "I'm just... I haven't wanted to badly enough to bother, and I've been comfortable enough that I didn't have to think about it."
+                },
+                {
+                  "turn_id": "T036",
+                  "speaker": "Participant 1",
+                  "quote": "Comfort is the thing. That's the honest answer. I prefer not to, because I'm comfortable as I am."
+                },
+                {
+                  "turn_id": "T040",
+                  "speaker": "Participant 2",
+                  "quote": "It just doesn't bother me enough to make a change."
+                }
+              ],
+              "unverified_quote_count": 1
+            },
+            {
+              "theme_label": "Age and Life Stage as a Factor",
+              "theme_definition": "This theme captures how participants' age and perceived remaining lifespan influence their motivation and willingness to adopt significant lifestyle changes.",
+              "participant_count": 3,
+              "verified_quotes": [
+                {
+                  "turn_id": "T034",
+                  "speaker": "Participant 1",
+                  "quote": "But here's the thing — and I'm not saying this to dodge what you're saying, Keith — at seventy-three, there's a different calculus, I think."
+                },
+                {
+                  "turn_id": "T035",
+                  "speaker": "Participant 4",
+                  "quote": "I mean, I've got maybe twenty years, thirty if I'm lucky. That's not nothing, but it's not forever either."
+                },
+                {
+                  "turn_id": "T036",
+                  "speaker": "Participant 1",
+                  "quote": "And at my age, that doesn't quite feel like enough reason to make myself uncomfortable every time I go out for dinner or down the pub."
+                },
+                {
+                  "turn_id": "T040",
+                  "speaker": "Participant 2",
+                  "quote": "But I'm also sixty-eight, and I've been eating the same way my whole life. The pull to do it differently just isn't there."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Individual Action Driving Systemic Change",
+              "theme_definition": "This theme explores the idea that individual choices, even if initially awkward, contribute to broader shifts in societal infrastructure and availability of options.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T032",
+                  "speaker": "Participant 1",
+                  "quote": "They happen because enough people want something different that the places around you start offering it. The pubs start putting proper options on the menu, not just a token salad."
+                },
+                {
+                  "turn_id": "T033",
+                  "speaker": "Participant 4",
+                  "quote": "Because demand drives change, like you said. But demand comes from people actually doing it, even when it's a bit awkward."
+                },
+                {
+                  "turn_id": "T034",
+                  "speaker": "Participant 1",
+                  "quote": "The infrastructure gets there because people start demanding it. I know that. I've seen it happen."
+                }
+              ],
+              "unverified_quote_count": 0
+            }
+          ]
+        },
+        {
+          "section_index": 5,
+          "section_label": "Making plant-based foods more appealing",
+          "participant_turns": 5,
+          "moderator_turns": 4,
+          "participant_words": 1211,
+          "total_words": 1436,
+          "distinct_participants": 4,
+          "first_turn_id": "T041",
+          "last_turn_id": "T049",
+          "meets_floor": true,
+          "themes": [
+            {
+              "theme_label": "Lack of exposure to appealing plant-based food",
+              "theme_definition": "This theme captures participants' perception that they lack experience with genuinely delicious and satisfying plant-based meals, leading to assumptions about its appeal.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T042",
+                  "speaker": "Participant 3",
+                  "quote": "If you're going to shift away from that, the plant-based stuff would have to be genuinely delicious, genuinely satisfying. Not just — here's a lettuce leaf and some chickpeas."
+                },
+                {
+                  "turn_id": "T044",
+                  "speaker": "Participant 3",
+                  "quote": "But I've never actually... sat down and eaten something plant-based that was made well, that someone cared about making taste good."
+                },
+                {
+                  "turn_id": "T045",
+                  "speaker": "Participant 2",
+                  "quote": "I could probably cook something decent if I put my mind to it. Or ask someone. Or just... try it properly instead of assuming it's going to be beans on toast or whatever."
+                }
+              ],
+              "unverified_quote_count": 1
+            },
+            {
+              "theme_label": "Comfort and familiarity with traditional diet",
+              "theme_definition": "This theme highlights participants' strong preference for their established eating habits and familiar foods, which are associated with comfort and 'home'.",
+              "participant_count": 3,
+              "verified_quotes": [
+                {
+                  "turn_id": "T042",
+                  "speaker": "Participant 3",
+                  "quote": "You grow up eating your mum's stew, your Sunday roast, whatever. That's comfort food. That's what tastes like home."
+                },
+                {
+                  "turn_id": "T045",
+                  "speaker": "Participant 2",
+                  "quote": "I eat what I know. Meat, potatoes, veg on the side. That's what I grew up with, that's what I cook, that's what tastes like home."
+                },
+                {
+                  "turn_id": "T047",
+                  "speaker": "Participant 1",
+                  "quote": "I prefer knowing what I'm eating, how to cook it, what it's going to taste like. I prefer the comfort of that."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Personal choice to not explore plant-based options",
+              "theme_definition": "This theme captures participants' realization that their perceived lack of appeal for plant-based food is actually a conscious decision to not actively seek out or try it.",
+              "participant_count": 3,
+              "verified_quotes": [
+                {
+                  "turn_id": "T044",
+                  "speaker": "Participant 3",
+                  "quote": "That's not the pull not being there. That's me deciding not to look for it."
+                },
+                {
+                  "turn_id": "T045",
+                  "speaker": "Participant 2",
+                  "quote": "And I'm choosing not to, which is different from it just not being available or not being possible."
+                },
+                {
+                  "turn_id": "T047",
+                  "speaker": "Participant 1",
+                  "quote": "The barrier is just that I prefer not to. I prefer knowing what I'm eating, how to cook it, what it's going to taste like."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Need for demonstration and cultural shift",
+              "theme_definition": "This theme highlights the idea that seeing others successfully prepare and enjoy plant-based food, or a broader cultural shift, is necessary to make it more appealing.",
+              "participant_count": 1,
+              "verified_quotes": [
+                {
+                  "turn_id": "T042",
+                  "speaker": "Participant 3",
+                  "quote": "Around here, there's no culture of that. There's no one doing brilliant plant-based cooking. Nobody's showing you what's possible."
+                },
+                {
+                  "turn_id": "T042",
+                  "speaker": "Participant 3",
+                  "quote": "If there was someone — a chef, a mate who cooks, whatever — who could show you that plant-based food could actually be as good as what you've always eaten, that'd be different."
+                },
+                {
+                  "turn_id": "T043",
+                  "speaker": "Moderator",
+                  "quote": "this idea that you need someone to actually show you it's possible, not just tell you it exists."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Motivation beyond just taste or health",
+              "theme_definition": "This theme explores the idea that for some, a deeper, non-food-related motivation (e.g., social or ethical concerns) is needed to overcome the inertia of changing dietary habits.",
+              "participant_count": 1,
+              "verified_quotes": [
+                {
+                  "turn_id": "T049",
+                  "speaker": "Participant 4",
+                  "quote": "And then also caring about the bigger picture enough that the awkwardness felt worth it. If it was just one or the other, I probably wouldn't have bothered either."
+                },
+                {
+                  "turn_id": "T049",
+                  "speaker": "Participant 4",
+                  "quote": "It was about not wanting to be part of keeping that quiet assumption going."
+                }
+              ],
+              "unverified_quote_count": 0
+            }
+          ]
+        }
+      ],
+      "mean_recall": 0.4467,
+      "mean_precision": 0.3367,
+      "total_matched_pairs": 8
+    },
+    {
+      "run": "macho_meals_fg5_run03",
+      "source": "C:\\Users\\JLARA\\Documents\\Dissertation\\my_qualitative_project\\output\\session_logs\\macho_meals_fg5_run03\\transcript.json",
+      "is_primary": false,
+      "segmentation_crosscheck": {
+        "state_files_found": 44,
+        "entries_agree": 63,
+        "entries_differ_on_boundary_turn": 6,
+        "entries_in_conflict": 0,
+        "conflicts": [],
+        "clean": true
+      },
+      "segmentation_warnings": [],
+      "section_counts": [
+        {
+          "section_index": 0,
+          "section_label": "Introduction and instructions",
+          "participant_turns": 6,
+          "moderator_turns": 2,
+          "participant_words": 363,
+          "total_words": 508,
+          "distinct_participants": 4,
+          "first_turn_id": "T001",
+          "last_turn_id": "T008",
+          "meets_floor": true
+        },
+        {
+          "section_index": 1,
+          "section_label": "Opening discussion: male friendship and place",
+          "participant_turns": 6,
+          "moderator_turns": 3,
+          "participant_words": 880,
+          "total_words": 993,
+          "distinct_participants": 4,
+          "first_turn_id": "T009",
+          "last_turn_id": "T017",
+          "meets_floor": true
+        },
+        {
+          "section_index": 2,
+          "section_label": "Everyday food decision-making",
+          "participant_turns": 6,
+          "moderator_turns": 3,
+          "participant_words": 1123,
+          "total_words": 1259,
+          "distinct_participants": 4,
+          "first_turn_id": "T018",
+          "last_turn_id": "T026",
+          "meets_floor": true
+        },
+        {
+          "section_index": 3,
+          "section_label": "Gender and food choice",
+          "participant_turns": 12,
+          "moderator_turns": 7,
+          "participant_words": 2701,
+          "total_words": 3156,
+          "distinct_participants": 4,
+          "first_turn_id": "T027",
+          "last_turn_id": "T045",
+          "meets_floor": true
+        },
+        {
+          "section_index": 4,
+          "section_label": "Imagining a plant-based shift",
+          "participant_turns": 6,
+          "moderator_turns": 5,
+          "participant_words": 1450,
+          "total_words": 1739,
+          "distinct_participants": 4,
+          "first_turn_id": "T046",
+          "last_turn_id": "T056",
+          "meets_floor": true
+        },
+        {
+          "section_index": 5,
+          "section_label": "Making plant-based foods more appealing",
+          "participant_turns": 6,
+          "moderator_turns": 4,
+          "participant_words": 1555,
+          "total_words": 1734,
+          "distinct_participants": 4,
+          "first_turn_id": "T057",
+          "last_turn_id": "T066",
+          "meets_floor": true
+        },
+        {
+          "section_index": 6,
+          "section_label": "Closing remarks",
+          "participant_turns": 1,
+          "moderator_turns": 2,
+          "participant_words": 128,
+          "total_words": 269,
+          "distinct_participants": 1,
+          "first_turn_id": "T067",
+          "last_turn_id": "T069",
+          "meets_floor": false
+        }
+      ],
+      "compared_sections": [
+        {
+          "section_index": 1,
+          "section_label": "Opening discussion: male friendship and place",
+          "human_counts": {
+            "section_index": 1,
+            "section_label": "Opening discussion: male friendship and place",
+            "participant_turns": 12,
+            "moderator_turns": 2,
+            "participant_words": 352,
+            "total_words": 414,
+            "distinct_participants": 5,
+            "first_turn_id": "T001",
+            "last_turn_id": "T014",
+            "meets_floor": true
+          },
+          "synthetic_counts": {
+            "section_index": 1,
+            "section_label": "Opening discussion: male friendship and place",
+            "participant_turns": 6,
+            "moderator_turns": 3,
+            "participant_words": 880,
+            "total_words": 993,
+            "distinct_participants": 4,
+            "first_turn_id": "T009",
+            "last_turn_id": "T017",
+            "meets_floor": true
+          },
+          "human_themes": 3,
+          "synthetic_themes": 4,
+          "matched": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "matched_pairs": [],
+          "emergent_themes": [
+            {
+              "theme_label": "Value of Familiarity and Comfort",
+              "participant_count": 4
+            },
+            {
+              "theme_label": "Being Known and Accepted Authentically",
+              "participant_count": 4
+            },
+            {
+              "theme_label": "Shifting Priorities with Age",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Importance of Genuine Interaction",
+              "participant_count": 2
+            }
+          ],
+          "missed_themes": [
+            {
+              "theme_label": "Affordable Food and Drink",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Shared Hobbies and Interests",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Flexibility in Food Choices",
+              "participant_count": 3
+            }
+          ],
+          "disagreements": [],
+          "disagreement_count": 0
+        },
+        {
+          "section_index": 2,
+          "section_label": "Everyday food decision-making",
+          "human_counts": {
+            "section_index": 2,
+            "section_label": "Everyday food decision-making",
+            "participant_turns": 7,
+            "moderator_turns": 1,
+            "participant_words": 324,
+            "total_words": 333,
+            "distinct_participants": 4,
+            "first_turn_id": "T015",
+            "last_turn_id": "T022",
+            "meets_floor": true
+          },
+          "synthetic_counts": {
+            "section_index": 2,
+            "section_label": "Everyday food decision-making",
+            "participant_turns": 6,
+            "moderator_turns": 3,
+            "participant_words": 1123,
+            "total_words": 1259,
+            "distinct_participants": 4,
+            "first_turn_id": "T018",
+            "last_turn_id": "T026",
+            "meets_floor": true
+          },
+          "human_themes": 3,
+          "synthetic_themes": 4,
+          "matched": 1,
+          "recall": 0.3333,
+          "precision": 0.25,
+          "matched_pairs": [
+            {
+              "human": "Variety of available options",
+              "synthetic": "Simplicity of limited choice"
+            }
+          ],
+          "emergent_themes": [
+            {
+              "theme_label": "Prioritizing local and trusted suppliers",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Anxiety over loss of local shops",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Convenience versus quality dilemma",
+              "participant_count": 1
+            }
+          ],
+          "missed_themes": [
+            {
+              "theme_label": "Influence of group cravings",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Tendency for routine orders",
+              "participant_count": 2
+            }
+          ],
+          "disagreements": [],
+          "disagreement_count": 0
+        },
+        {
+          "section_index": 3,
+          "section_label": "Gender and food choice",
+          "human_counts": {
+            "section_index": 3,
+            "section_label": "Gender and food choice",
+            "participant_turns": 9,
+            "moderator_turns": 1,
+            "participant_words": 462,
+            "total_words": 481,
+            "distinct_participants": 5,
+            "first_turn_id": "T023",
+            "last_turn_id": "T032",
+            "meets_floor": true
+          },
+          "synthetic_counts": {
+            "section_index": 3,
+            "section_label": "Gender and food choice",
+            "participant_turns": 12,
+            "moderator_turns": 7,
+            "participant_words": 2701,
+            "total_words": 3156,
+            "distinct_participants": 4,
+            "first_turn_id": "T027",
+            "last_turn_id": "T045",
+            "meets_floor": true
+          },
+          "human_themes": 3,
+          "synthetic_themes": 5,
+          "matched": 1,
+          "recall": 0.3333,
+          "precision": 0.2,
+          "matched_pairs": [
+            {
+              "human": "Gender's influence on food choices",
+              "synthetic": "Outdated Masculinity and Meat"
+            }
+          ],
+          "emergent_themes": [
+            {
+              "theme_label": "Reactions to Vegetarianism/Veganism",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Visibility and Social Scrutiny in Small Communities",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Distinguishing Intentionality from Difference",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Personal Responsibility for Social Pressure",
+              "participant_count": 2
+            }
+          ],
+          "missed_themes": [
+            {
+              "theme_label": "Eating more with male friends",
+              "participant_count": 1
+            },
+            {
+              "theme_label": "Food choices based on cravings",
+              "participant_count": 2
+            }
+          ],
+          "disagreements": [],
+          "disagreement_count": 0
+        },
+        {
+          "section_index": 4,
+          "section_label": "Imagining a plant-based shift",
+          "human_counts": {
+            "section_index": 4,
+            "section_label": "Imagining a plant-based shift",
+            "participant_turns": 13,
+            "moderator_turns": 1,
+            "participant_words": 730,
+            "total_words": 752,
+            "distinct_participants": 5,
+            "first_turn_id": "T033",
+            "last_turn_id": "T046",
+            "meets_floor": true
+          },
+          "synthetic_counts": {
+            "section_index": 4,
+            "section_label": "Imagining a plant-based shift",
+            "participant_turns": 6,
+            "moderator_turns": 5,
+            "participant_words": 1450,
+            "total_words": 1739,
+            "distinct_participants": 4,
+            "first_turn_id": "T046",
+            "last_turn_id": "T056",
+            "meets_floor": true
+          },
+          "human_themes": 4,
+          "synthetic_themes": 4,
+          "matched": 1,
+          "recall": 0.25,
+          "precision": 0.25,
+          "matched_pairs": [
+            {
+              "human": "Significant dietary and lifestyle changes",
+              "synthetic": "Disruption of established routines and habits"
+            }
+          ],
+          "emergent_themes": [
+            {
+              "theme_label": "Visibility and social discomfort of dietary choices",
+              "participant_count": 3
+            },
+            {
+              "theme_label": "The burden of 'owning' a deliberate choice",
+              "participant_count": 1
+            },
+            {
+              "theme_label": "Hypocrisy in judging others' visibility",
+              "participant_count": 2
+            }
+          ],
+          "missed_themes": [
+            {
+              "theme_label": "Impact on athletic and fitness routines",
+              "participant_count": 3
+            },
+            {
+              "theme_label": "Challenges with taste and food substitutes",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Need for new knowledge and recipes",
+              "participant_count": 4
+            }
+          ],
+          "disagreements": [
+            {
+              "type": "gemini_no_embed_high",
+              "ri": 3,
+              "si": 0,
+              "sim": 0.717,
+              "reason": "R3 is about the need for new knowledge and recipes, while S0 is about the general disruption of routines and habits, not specifically learning.",
+              "human_theme": "Need for new knowledge and recipes",
+              "synthetic_theme": "Disruption of established routines and habits"
+            }
+          ],
+          "disagreement_count": 1
+        },
+        {
+          "section_index": 5,
+          "section_label": "Making plant-based foods more appealing",
+          "human_counts": {
+            "section_index": 5,
+            "section_label": "Making plant-based foods more appealing",
+            "participant_turns": 17,
+            "moderator_turns": 1,
+            "participant_words": 920,
+            "total_words": 936,
+            "distinct_participants": 5,
+            "first_turn_id": "T047",
+            "last_turn_id": "T064",
+            "meets_floor": true
+          },
+          "synthetic_counts": {
+            "section_index": 5,
+            "section_label": "Making plant-based foods more appealing",
+            "participant_turns": 6,
+            "moderator_turns": 4,
+            "participant_words": 1555,
+            "total_words": 1734,
+            "distinct_participants": 4,
+            "first_turn_id": "T057",
+            "last_turn_id": "T066",
+            "meets_floor": true
+          },
+          "human_themes": 5,
+          "synthetic_themes": 5,
+          "matched": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "matched_pairs": [],
+          "emergent_themes": [
+            {
+              "theme_label": "Social pressure against visible change",
+              "participant_count": 3
+            },
+            {
+              "theme_label": "Plant-based food as a 'statement'",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Difficulty in changing ingrained social behaviour",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Collective responsibility for social norms",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Awareness as a first step to change",
+              "participant_count": 3
+            }
+          ],
+          "missed_themes": [
+            {
+              "theme_label": "Taste and Texture Improvement",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Ingredient Transparency and Education",
+              "participant_count": 3
+            },
+            {
+              "theme_label": "Affordability and Price Competitiveness",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Health Benefits and Nutritional Value",
+              "participant_count": 2
+            },
+            {
+              "theme_label": "Recipe Ideas and Usage Guidance",
+              "participant_count": 1
+            }
+          ],
+          "disagreements": [],
+          "disagreement_count": 0
+        }
+      ],
+      "skipped_sections": [
+        {
+          "section_index": 0,
+          "section_label": "Introduction and instructions",
+          "status": "skipped_no_counterpart",
+          "reason": "absent from the human transcript",
+          "human_counts": null,
+          "synthetic_counts": {
+            "section_index": 0,
+            "section_label": "Introduction and instructions",
+            "participant_turns": 6,
+            "moderator_turns": 2,
+            "participant_words": 363,
+            "total_words": 508,
+            "distinct_participants": 4,
+            "first_turn_id": "T001",
+            "last_turn_id": "T008",
+            "meets_floor": true
+          }
+        },
+        {
+          "section_index": 6,
+          "section_label": "Closing remarks",
+          "status": "skipped_no_counterpart",
+          "reason": "absent from the human transcript",
+          "human_counts": null,
+          "synthetic_counts": {
+            "section_index": 6,
+            "section_label": "Closing remarks",
+            "participant_turns": 1,
+            "moderator_turns": 2,
+            "participant_words": 128,
+            "total_words": 269,
+            "distinct_participants": 1,
+            "first_turn_id": "T067",
+            "last_turn_id": "T069",
+            "meets_floor": false
+          }
+        }
+      ],
+      "synthetic_sections": [
+        {
+          "section_index": 1,
+          "section_label": "Opening discussion: male friendship and place",
+          "participant_turns": 6,
+          "moderator_turns": 3,
+          "participant_words": 880,
+          "total_words": 993,
+          "distinct_participants": 4,
+          "first_turn_id": "T009",
+          "last_turn_id": "T017",
+          "meets_floor": true,
+          "themes": [
+            {
+              "theme_label": "Value of Familiarity and Comfort",
+              "theme_definition": "This theme captures participants' appreciation for places that are familiar, comfortable, and predictable, where they know what to expect and feel at ease.",
+              "participant_count": 4,
+              "verified_quotes": [
+                {
+                  "turn_id": "T010",
+                  "speaker": "Participant 4",
+                  "quote": "It's just... familiar, isn't it? You know what you're getting. The landlord knows your name. That's worth something, I reckon."
+                },
+                {
+                  "turn_id": "T011",
+                  "speaker": "Participant 1",
+                  "quote": "It's comfortable, you know? You don't have to think about it."
+                },
+                {
+                  "turn_id": "T012",
+                  "speaker": "Participant 4",
+                  "quote": "There's a comfort in it. You're not performing, if that makes sense — you're just... there. Known."
+                },
+                {
+                  "turn_id": "T015",
+                  "speaker": "Participant 2",
+                  "quote": "You just... sit down, you know who's going to be there, what you're getting."
+                },
+                {
+                  "turn_id": "T017",
+                  "speaker": "Participant 3",
+                  "quote": "It's just... comfortable. You know the people, they know you."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Being Known and Accepted Authentically",
+              "theme_definition": "This theme highlights the desire to be in places where one is recognized, remembered, and accepted for who they are, without the need to 'perform' or impress others.",
+              "participant_count": 4,
+              "verified_quotes": [
+                {
+                  "turn_id": "T011",
+                  "speaker": "Participant 1",
+                  "quote": "It's about being around people who know you, where you don't have to explain yourself or make small talk with strangers."
+                },
+                {
+                  "turn_id": "T012",
+                  "speaker": "Participant 4",
+                  "quote": "You're not performing, if that makes sense — you're just... there. Known."
+                },
+                {
+                  "turn_id": "T013",
+                  "speaker": "Participant 1",
+                  "quote": "The places where you can be yourself without having to put on a show — they become more valuable."
+                },
+                {
+                  "turn_id": "T015",
+                  "speaker": "Participant 2",
+                  "quote": "Nobody's expecting you to be anything other than what you are."
+                },
+                {
+                  "turn_id": "T017",
+                  "speaker": "Participant 3",
+                  "quote": "It's about being somewhere you're accepted as you are."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Shifting Priorities with Age",
+              "theme_definition": "This theme captures the sentiment that as participants get older, their priorities for social spaces change, valuing genuine connection and comfort over superficial aspects or 'proving' oneself.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T010",
+                  "speaker": "Participant 4",
+                  "quote": "I suppose that's what matters at my age — you want somewhere you can actually talk to people, have a laugh."
+                },
+                {
+                  "turn_id": "T017",
+                  "speaker": "Participant 3",
+                  "quote": "You get to a certain age and you realize a lot of that business when you're younger, all that posturing, it's a bit of a waste of time, really."
+                }
+              ],
+              "unverified_quote_count": 3
+            },
+            {
+              "theme_label": "Importance of Genuine Interaction",
+              "theme_definition": "This theme reflects the preference for meaningful conversations and interactions with people who care, contrasting with impersonal transactions.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T010",
+                  "speaker": "Participant 4",
+                  "quote": "You can have a chat without having to shout over music."
+                },
+                {
+                  "turn_id": "T011",
+                  "speaker": "Participant 1",
+                  "quote": "They remember what you like, they talk to you properly. At my age, that matters more than it probably did when I was younger."
+                },
+                {
+                  "turn_id": "T012",
+                  "speaker": "Participant 4",
+                  "quote": "It's the interaction, isn't it? Someone who actually cares about what they're selling, who knows you. Bit different from scanning something at a self-checkout."
+                }
+              ],
+              "unverified_quote_count": 0
+            }
+          ]
+        },
+        {
+          "section_index": 2,
+          "section_label": "Everyday food decision-making",
+          "participant_turns": 6,
+          "moderator_turns": 3,
+          "participant_words": 1123,
+          "total_words": 1259,
+          "distinct_participants": 4,
+          "first_turn_id": "T018",
+          "last_turn_id": "T026",
+          "meets_floor": true,
+          "themes": [
+            {
+              "theme_label": "Prioritizing local and trusted suppliers",
+              "theme_definition": "This theme captures participants' preference for buying food from local shops and known suppliers, valuing the quality and relationship over convenience.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T019",
+                  "speaker": "Participant 3",
+                  "quote": "I'll go to the butcher if I've got time, and he'll tell me what's good that week, what he's got in."
+                },
+                {
+                  "turn_id": "T020",
+                  "speaker": "Participant 2",
+                  "quote": "It forces you to actually know who you're buying from, what they're selling you."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Anxiety over loss of local shops",
+              "theme_definition": "This theme reflects participants' concern and frustration about the decline and potential disappearance of local butchers and farm shops.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T021",
+                  "speaker": "Participant 3",
+                  "quote": "The butcher I go to — he's getting on a bit now, you know? And I'm not sure what happens when he retires."
+                },
+                {
+                  "turn_id": "T024",
+                  "speaker": "Participant 1",
+                  "quote": "The thing that frustrates me though — and Toby's touched on it — is that I've watched those places disappear around here too."
+                }
+              ],
+              "unverified_quote_count": 1
+            },
+            {
+              "theme_label": "Convenience versus quality dilemma",
+              "theme_definition": "This theme highlights the internal conflict participants experience between the desire for high-quality, locally sourced food and the practical need for convenience, often leading them to choose supermarkets.",
+              "participant_count": 1,
+              "verified_quotes": [
+                {
+                  "turn_id": "T024",
+                  "speaker": "Participant 1",
+                  "quote": "I say I value it, I say it matters, but then I go to the supermarket because it's convenient."
+                }
+              ],
+              "unverified_quote_count": 1
+            },
+            {
+              "theme_label": "Simplicity of limited choice",
+              "theme_definition": "This theme describes how having fewer food options, particularly in rural areas, can lead to a more straightforward and less stressful decision-making process about what to eat.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T019",
+                  "speaker": "Participant 3",
+                  "quote": "You're not agonizing over choices or worrying if you're doing the right thing. You just eat what's there, what you know is decent. Simple as that."
+                },
+                {
+                  "turn_id": "T020",
+                  "speaker": "Participant 2",
+                  "quote": "It's practical, but it's also... I don't know, it feels more straightforward somehow. You're not agonizing over choices or worrying if you're doing the right thing."
+                }
+              ],
+              "unverified_quote_count": 0
+            }
+          ]
+        },
+        {
+          "section_index": 3,
+          "section_label": "Gender and food choice",
+          "participant_turns": 12,
+          "moderator_turns": 7,
+          "participant_words": 2701,
+          "total_words": 3156,
+          "distinct_participants": 4,
+          "first_turn_id": "T027",
+          "last_turn_id": "T045",
+          "meets_floor": true,
+          "themes": [
+            {
+              "theme_label": "Outdated Masculinity and Meat",
+              "theme_definition": "This theme captures participants' reflections on the historical association of meat consumption with masculinity and their current views on this idea as largely outdated or 'silly'.",
+              "participant_count": 3,
+              "verified_quotes": [
+                {
+                  "turn_id": "T029",
+                  "speaker": "Participant 3",
+                  "quote": "I mean, yeah, there's definitely that thing — you grow up with it, the idea that a proper meal's got meat on it. But I think that's... it's a bit of an old story, isn't it?"
+                },
+                {
+                  "turn_id": "T033",
+                  "speaker": "Participant 2",
+                  "quote": "I eat meat, I don't really think about whether it makes me more or less of a man. It's just... what I eat. I like it."
+                },
+                {
+                  "turn_id": "T035",
+                  "speaker": "Participant 4",
+                  "quote": "For me, honestly, I don't think about whether eating meat makes me more of a man or anything like that. That's not why I eat it."
+                }
+              ],
+              "unverified_quote_count": 1
+            },
+            {
+              "theme_label": "Reactions to Vegetarianism/Veganism",
+              "theme_definition": "This theme explores participants' observations and feelings about how some people react to vegetarian or vegan food choices, ranging from indifference to defensiveness or even hostility.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T029",
+                  "speaker": "Participant 3",
+                  "quote": "The thing that does wind me up though is when you get people making a fuss about vegetarians or vegans, like they're somehow threatening or it's all some kind of statement."
+                },
+                {
+                  "turn_id": "T030",
+                  "speaker": "Participant 1",
+                  "quote": "The thing that gets me is the way some people react to vegetarians or vegans — like Toby says, they talk about them like they're a threat or something."
+                }
+              ],
+              "unverified_quote_count": 2
+            },
+            {
+              "theme_label": "Visibility and Social Scrutiny in Small Communities",
+              "theme_definition": "This theme captures the participants' discussion about how food choices, especially those that deviate from the norm, are noticed, discussed, and can lead to social pressure in small, close-knit communities.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T041",
+                  "speaker": "Participant 2",
+                  "quote": "Because out here, in a small community, you do notice everything. Everyone knows what everyone else is doing — what you eat, where you shop, what you're about."
+                },
+                {
+                  "turn_id": "T043",
+                  "speaker": "Participant 3",
+                  "quote": "In a place like ours, if you're doing something different, you're not just standing out. You're under a kind of... scrutiny. People notice, they talk, and that has real consequences."
+                },
+                {
+                  "turn_id": "T044",
+                  "speaker": "Participant 2",
+                  "quote": "There's noticing — yeah, people notice things in a small place, they talk about them. That's just how communities work. But there's a difference between that and actual hostility, isn't there?"
+                },
+                {
+                  "turn_id": "T045",
+                  "speaker": "Participant 3",
+                  "quote": "The thing is, when you live in a small place like we do, you do get used to having opinions about what everyone's doing. That's just the texture of it."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Distinguishing Intentionality from Difference",
+              "theme_definition": "This theme explores the participants' struggle to differentiate between someone simply making a different food choice and someone deliberately 'making a point' or 'making a show' with their food choices, and how this distinction influences their reactions.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T037",
+                  "speaker": "Participant 4",
+                  "quote": "But if it felt like they were... making a point about it, you know, drawing attention to it, then yeah, that would get my back up a bit."
+                },
+                {
+                  "turn_id": "T041",
+                  "speaker": "Participant 2",
+                  "quote": "You see someone order something without meat, and because it's unusual, you assume there's a statement being made. But they might just fancy a salad, like you say."
+                }
+              ],
+              "unverified_quote_count": 1
+            },
+            {
+              "theme_label": "Personal Responsibility for Social Pressure",
+              "theme_definition": "This theme highlights participants' realization that while social pressure exists in small communities, their individual actions and interpretations contribute to or alleviate that pressure, rather than it being an inevitable community trait.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T042",
+                  "speaker": "Participant 3",
+                  "quote": "Yeah, but I think Fletcher's being a bit generous there, if I'm honest. Because it's not just about how we're reading it — it's actual pressure, isn't it?"
+                },
+                {
+                  "turn_id": "T044",
+                  "speaker": "Participant 2",
+                  "quote": "So Toby's right that there's real pressure. But I think some of that pressure is us putting it there, you know? Not the community itself, but what we choose to do with what we notice."
+                },
+                {
+                  "turn_id": "T045",
+                  "speaker": "Participant 3",
+                  "quote": "I've caught myself doing that, actually. Someone orders something without meat, or I hear they've gone vegetarian, and there's this little moment where I note it as unusual, maybe mention it to someone else."
+                }
+              ],
+              "unverified_quote_count": 1
+            }
+          ]
+        },
+        {
+          "section_index": 4,
+          "section_label": "Imagining a plant-based shift",
+          "participant_turns": 6,
+          "moderator_turns": 5,
+          "participant_words": 1450,
+          "total_words": 1739,
+          "distinct_participants": 4,
+          "first_turn_id": "T046",
+          "last_turn_id": "T056",
+          "meets_floor": true,
+          "themes": [
+            {
+              "theme_label": "Disruption of established routines and habits",
+              "theme_definition": "This theme captures the participants' concerns about how adopting a plant-based diet would necessitate significant changes to their daily routines, social interactions, and long-standing habits.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T047",
+                  "speaker": "Participant 1",
+                  "quote": "My whole routine, my habits, probably how people see me. And I'm not sure I want that disruption."
+                },
+                {
+                  "turn_id": "T049",
+                  "speaker": "Participant 4",
+                  "quote": "My wife, she does the cooking most of the time. If I suddenly said I was going plant-based, that changes what she's doing."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Visibility and social discomfort of dietary choices",
+              "theme_definition": "This theme reflects the participants' apprehension about their dietary choices becoming visible to others, leading to social scrutiny, the need for explanation, and a feeling of being 'different'.",
+              "participant_count": 3,
+              "verified_quotes": [
+                {
+                  "turn_id": "T047",
+                  "speaker": "Participant 1",
+                  "quote": "My daughter, when she visits, she'd probably notice. Ask questions. Not in a hostile way, but... it would be different."
+                },
+                {
+                  "turn_id": "T049",
+                  "speaker": "Participant 4",
+                  "quote": "My mates would notice. And maybe they'd be fine with it, but... I'd feel it. I'd feel like I was doing something that needed explaining."
+                },
+                {
+                  "turn_id": "T051",
+                  "speaker": "Participant 2",
+                  "quote": "If you just eat meat, nobody thinks twice about it. It's normal, invisible. But if you change it, suddenly you're visible."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "The burden of 'owning' a deliberate choice",
+              "theme_definition": "This theme highlights the participants' discomfort with making a conscious, deliberate dietary choice that would require them to 'own' and potentially justify that decision to others, in contrast to changes that happen gradually or 'accidentally'.",
+              "participant_count": 1,
+              "verified_quotes": [
+                {
+                  "turn_id": "T049",
+                  "speaker": "Participant 4",
+                  "quote": "If I changed, I'd have to own it. Right now I can just eat what I eat. But if I went the other way, I'd have to live with people knowing I'd made a choice."
+                },
+                {
+                  "turn_id": "T054",
+                  "speaker": "Participant 4",
+                  "quote": "That's deliberate. That's a choice you're announcing, whether you mean to or not. What I've done is just... drift a bit."
+                }
+              ],
+              "unverified_quote_count": 1
+            },
+            {
+              "theme_label": "Hypocrisy in judging others' visibility",
+              "theme_definition": "This theme captures the participants' self-reflection on their own double standards, where they are uncomfortable with being noticed for their choices but readily notice and comment on others' visible dietary changes.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T051",
+                  "speaker": "Participant 2",
+                  "quote": "If we're uncomfortable with people noticing when we do something different, maybe we shouldn't be making such a fuss when other people do. That's a bit of a double standard, isn't it?"
+                },
+                {
+                  "turn_id": "T052",
+                  "speaker": "Participant 4",
+                  "quote": "I'm basically saying it's fine to notice and comment on it when it's someone else, but I wouldn't want that done to me."
+                }
+              ],
+              "unverified_quote_count": 0
+            }
+          ]
+        },
+        {
+          "section_index": 5,
+          "section_label": "Making plant-based foods more appealing",
+          "participant_turns": 6,
+          "moderator_turns": 4,
+          "participant_words": 1555,
+          "total_words": 1734,
+          "distinct_participants": 4,
+          "first_turn_id": "T057",
+          "last_turn_id": "T066",
+          "meets_floor": true,
+          "themes": [
+            {
+              "theme_label": "Social pressure against visible change",
+              "theme_definition": "This theme captures the participants' shared experience of a social environment where making an open, deliberate choice to change one's eating habits is met with scrutiny or judgment, making invisible or accidental change more acceptable.",
+              "participant_count": 3,
+              "verified_quotes": [
+                {
+                  "turn_id": "T058",
+                  "speaker": "Participant 1",
+                  "quote": "We've basically built a system where you can only change if nobody notices you're changing."
+                },
+                {
+                  "turn_id": "T060",
+                  "speaker": "Participant 3",
+                  "quote": "I've enforced that invisibility. I've made it so that changing quietly is acceptable but choosing openly isn't."
+                },
+                {
+                  "turn_id": "T066",
+                  "speaker": "Participant 4",
+                  "quote": "I've changed what I eat, but I've let it look like it just happened, like aging or like my wife changed the cooking."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Plant-based food as a 'statement'",
+              "theme_definition": "This theme describes the perception that choosing plant-based food is not merely a dietary preference but carries moral or social implications, signaling a judgment or a departure from group norms.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T058",
+                  "speaker": "Participant 1",
+                  "quote": "Right now, if you go plant-based, people assume it means something about what you think of the rest of us. That you're making a judgment."
+                },
+                {
+                  "turn_id": "T060",
+                  "speaker": "Participant 3",
+                  "quote": "And when someone does something different, yeah, we notice and we talk. But it's not like we can just collectively decide to stop doing that."
+                },
+                {
+                  "turn_id": "T062",
+                  "speaker": "Participant 3",
+                  "quote": "If they want to eat differently, they have to live with all of us noticing. With their choice being registered as noteworthy."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Difficulty in changing ingrained social behaviour",
+              "theme_definition": "This theme highlights the challenge participants face in altering their own ingrained habits of noticing and commenting on others' food choices, even after intellectually understanding the negative impact.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T062",
+                  "speaker": "Participant 3",
+                  "quote": "I can see it now, sitting here, but I also know what Patrick means — next week I'll probably still do it. I'll notice, I might mention it."
+                },
+                {
+                  "turn_id": "T064",
+                  "speaker": "Participant 2",
+                  "quote": "Patrick and Toby are right — seeing it doesn't automatically change how you behave. That's the honest part, and I respect that they've said it."
+                }
+              ],
+              "unverified_quote_count": 1
+            },
+            {
+              "theme_label": "Collective responsibility for social norms",
+              "theme_definition": "This theme reflects the participants' realization that the social pressure around food choices is not due to individual malice but is a collective, often unconscious, enforcement of norms by the group.",
+              "participant_count": 2,
+              "verified_quotes": [
+                {
+                  "turn_id": "T058",
+                  "speaker": "Participant 1",
+                  "quote": "part of the reason that hasn't happened yet is because of blokes like me. Because we've made it feel like a statement."
+                },
+                {
+                  "turn_id": "T060",
+                  "speaker": "Participant 3",
+                  "quote": "Because the pressure comes from lots of small moments — not just one person being deliberately hostile, but all of us noticing, all of us treating it as noteworthy, all of us letting it register as unusual."
+                },
+                {
+                  "turn_id": "T061",
+                  "speaker": "Participant 1",
+                  "quote": "And Toby's right — it's all of us doing that together that makes it stick. It's not one person being a bully about it."
+                }
+              ],
+              "unverified_quote_count": 0
+            },
+            {
+              "theme_label": "Awareness as a first step to change",
+              "theme_definition": "This theme captures the idea that while immediate behavioural change is difficult, the act of recognizing and acknowledging the social dynamics and their 'cost' is a crucial initial step towards potential future shifts.",
+              "participant_count": 3,
+              "verified_quotes": [
+                {
+                  "turn_id": "T062",
+                  "speaker": "Participant 3",
+                  "quote": "But maybe the thing is just to be aware of that cost, you know? To at least know what we're doing when we do it."
+                },
+                {
+                  "turn_id": "T064",
+                  "speaker": "Participant 2",
+                  "quote": "the fact that you've all sat here and named it, said it out loud, acknowledged what's happening and what it costs someone else, that matters. That's not nothing."
+                },
+                {
+                  "turn_id": "T066",
+                  "speaker": "Participant 4",
+                  "quote": "But I think Fletcher's right — at least I can see what's happening now. I can see that I've had it both ways."
+                }
+              ],
+              "unverified_quote_count": 0
+            }
+          ]
+        }
+      ],
+      "mean_recall": 0.1833,
+      "mean_precision": 0.14,
+      "total_matched_pairs": 3
+    }
+  ],
+  "comparison_vs_matched_pilot": {
+    "matched_arm": {
+      "run": "macho_meals_fg1_run01",
+      "mean_recall": 0.2133,
+      "mean_precision": 0.16,
+      "total_matched_pairs": 4
+    },
+    "control_arms": [
+      {
+        "run": "macho_meals_fg5_run01",
+        "is_primary": true,
+        "mean_recall": 0.4467,
+        "mean_precision": 0.3367,
+        "total_matched_pairs": 8,
+        "mean_recall_margin": -0.2334
+      },
+      {
+        "run": "macho_meals_fg5_run03",
+        "is_primary": false,
+        "mean_recall": 0.1833,
+        "mean_precision": 0.14,
+        "total_matched_pairs": 3,
+        "mean_recall_margin": 0.03
+      }
+    ],
+    "per_section": [
+      {
+        "section_index": 1,
+        "section_label": "Opening discussion: male friendship and place",
+        "matched_recall": 0.0,
+        "matched_precision": 0.0,
+        "matched_matched": 0,
+        "arms": {
+          "macho_meals_fg5_run01": {
+            "recall": 0.3333,
+            "precision": 0.2,
+            "matched": 1,
+            "recall_margin": -0.3333
+          },
+          "macho_meals_fg5_run03": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "matched": 0,
+            "recall_margin": 0.0
+          }
+        }
+      },
+      {
+        "section_index": 2,
+        "section_label": "Everyday food decision-making",
+        "matched_recall": 0.0,
+        "matched_precision": 0.0,
+        "matched_matched": 0,
+        "arms": {
+          "macho_meals_fg5_run01": {
+            "recall": 0.6667,
+            "precision": 0.5,
+            "matched": 2,
+            "recall_margin": -0.6667
+          },
+          "macho_meals_fg5_run03": {
+            "recall": 0.3333,
+            "precision": 0.25,
+            "matched": 1,
+            "recall_margin": -0.3333
+          }
+        }
+      },
+      {
+        "section_index": 3,
+        "section_label": "Gender and food choice",
+        "matched_recall": 0.6667,
+        "matched_precision": 0.4,
+        "matched_matched": 2,
+        "arms": {
+          "macho_meals_fg5_run01": {
+            "recall": 0.3333,
+            "precision": 0.25,
+            "matched": 1,
+            "recall_margin": 0.3334
+          },
+          "macho_meals_fg5_run03": {
+            "recall": 0.3333,
+            "precision": 0.2,
+            "matched": 1,
+            "recall_margin": 0.3334
+          }
+        }
+      },
+      {
+        "section_index": 4,
+        "section_label": "Imagining a plant-based shift",
+        "matched_recall": 0.0,
+        "matched_precision": 0.0,
+        "matched_matched": 0,
+        "arms": {
+          "macho_meals_fg5_run01": {
+            "recall": 0.5,
+            "precision": 0.3333,
+            "matched": 2,
+            "recall_margin": -0.5
+          },
+          "macho_meals_fg5_run03": {
+            "recall": 0.25,
+            "precision": 0.25,
+            "matched": 1,
+            "recall_margin": -0.25
+          }
+        }
+      },
+      {
+        "section_index": 5,
+        "section_label": "Making plant-based foods more appealing",
+        "matched_recall": 0.4,
+        "matched_precision": 0.4,
+        "matched_matched": 2,
+        "arms": {
+          "macho_meals_fg5_run01": {
+            "recall": 0.4,
+            "precision": 0.4,
+            "matched": 2,
+            "recall_margin": 0.0
+          },
+          "macho_meals_fg5_run03": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "matched": 0,
+            "recall_margin": 0.4
+          }
+        }
+      }
+    ],
+    "arms_not_pooled": "Each control arm keeps its own margin. No averaged mismatched figure is reported: the commissioning instructions require one documented FG5 run per control, and pooling replicates would hide the run-to-run spread."
+  }
+}

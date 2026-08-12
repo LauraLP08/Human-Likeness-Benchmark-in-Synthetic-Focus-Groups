@@ -1,0 +1,86 @@
+{
+ "gate": "G3(b) + evaluator variance + G2 layer2 + G2 layer3 — repaired",
+ "evaluator": "frozen_evaluation_spec.md §2-§4. Never Claude.",
+ "execution_order": [
+  "G3(b) 24",
+  "variance probe 3",
+  "layer2 24 or 72",
+  "layer3 48"
+ ],
+ "order_rationale": "G3(b) is the only gate whose firing forces regeneration of the narratives, so it runs first; every layer-2/3 call made before it would be discarded if it fired.",
+ "g3b": {
+  "n_pairs": 24,
+  "neutralisation": {
+   "tokens_mapped": [
+    "female",
+    "he",
+    "her",
+    "hers",
+    "herself",
+    "him",
+    "himself",
+    "his",
+    "husband",
+    "male",
+    "man",
+    "men",
+    "mr",
+    "mrs",
+    "ms",
+    "she",
+    "wife",
+    "woman",
+    "women"
+   ],
+   "gender_tokens_remaining": 0,
+   "subgate_pass": true,
+   "controls": [
+    {
+     "name": "negative: neutralised text has 0 gender tokens",
+     "expected": "PASS",
+     "observed": "PASS"
+    },
+    {
+     "name": "positive: planted pronouns detected",
+     "expected": "FAIL",
+     "observed": "FAIL"
+    }
+   ]
+  },
+  "counterbalanced": true,
+  "seed": 20260805,
+  "reported": [
+   "binomial over 24 pairs",
+   "per-cell majority over n=8"
+  ],
+  "non_independence": "3 candidates per cell share one census row",
+  "pre_declared_caveat": "REWRITTEN after neutralisation. Before it, the evaluator was at CEILING by construction (pronouns); the earlier caveat claimed the opposite. With gender surface removed and the census attributes held fixed, the two texts of a pair are near-paraphrases, so the evaluator sits near chance BY CONSTRUCTION: a non-firing G3(b) is WEAK EVIDENCE, never evidence of absence of caricature."
+ },
+ "layer2": {
+  "arms": {
+   "twinpop": "target",
+   "control_inverted": "PRIMARY control — same prompt, fields and length",
+   "control_shuffled": "sentence-level recombination across agents: same genre, register, length and vocabulary, no coherent person",
+   "control_no_narrative": "DEMOTED — 415-418 words vs 241-256 (1.7x) and a different genre entirely (behaviour instructions). Kept only as an explicitly non-matched floor reading."
+  },
+  "n_calls": 72,
+  "passes": 3,
+  "valid_at": 2,
+  "quote_verification": "substring after project normalisation; unverifiable = discarded",
+  "stop_condition": "DIFFERENTIAL against control_inverted and control_shuffled",
+  "pre_declared_limit": "control_inverted is near-paraphrase (too strong) and control_no_narrative is another genre (too weak), so layer 2 may yield a floor and a ceiling rather than a decision.",
+  "variance_probe": "3 calls on one text first; if the frozen evaluator is deterministic, the >=2/3 rule is decorative and this drops to 24 calls"
+ },
+ "layer3": {
+  "n_calls": 48,
+  "blindness": "NOT ACHIEVABLE — declared, not claimed",
+  "reported_twice": [
+   "raw",
+   "with biographical redaction"
+  ],
+  "redaction_note": "'building' and 'training' removed from the list: they sit on B.3",
+  "threshold": "DESCRIPTIVE — exact counts, no gate, no implicit alpha"
+ },
+ "total_calls_max": 147,
+ "sample_g3b_prompt": "Below are two short descriptions of a person's life, A and B. They were written from the same underlying facts.\n\nA:\nA forty-five-year-old employee working full-time in a lower managerial and administrative role, holding responsibility for supervising staff as a manager in logistics, warehousing and transport within the wholesale and retail trade, including motor vehicle and motorcycle repair. Weekly hours fall between thirty-one and forty-eight, spent entirely at a workplace rather than at home. A degree-level or higher qualification underpins the position. The commute, made by car or van, covers between ten and twenty kilometres each way across the South East. Home is a terraced house owned with a mortgage, situated in a suburban part of the South East. The household consists of one person aged under sixty-five, living alone and never married or in a registered civil partnership. The property has two or more bedrooms beyond what a single occupant requires, leaving considerable spare room that can be turned over to storage, a study or guest use. Owning rather than renting brings both long-term security and ongoing financial commitment to the mortgage. Weekdays follow a structured p"
+}

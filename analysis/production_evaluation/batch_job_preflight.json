@@ -1,0 +1,17 @@
+{
+ "created_utc": "2026-07-30T23:57:22.902878+00:00",
+ "job_name": "batches/el0qvaxk3uqnhjiettuewoeb89cw5jgs0d5e",
+ "display_name": "preflight_batch_fg1_16384_v1",
+ "state": "JobState.JOB_STATE_SUCCEEDED",
+ "model": "gemini-3.5-flash",
+ "execution_mode": "batch",
+ "n_requests": 3,
+ "custom_request_keys": [
+  "human_fg1",
+  "enriched_fg1_r2",
+  "demographics_only_fg1_r2"
+ ],
+ "manifest": "analysis\\production_evaluation\\preflight_batch_manifest.json",
+ "warning": "batch creation is NOT idempotent — never create again for this preflight",
+ "last_polled_utc": "2026-07-31T00:06:54.691769+00:00"
+}

@@ -1,0 +1,24 @@
+MANIFIESTO DE CONGELACION - Brazo twin poblacional (FG3+FG4)
+Proyecto: my_qualitative_project / DS03_MACHO_MEALS_UK
+Generado: 2026-08-04
+Estado del brazo al momento de generar este manifiesto: FASE 0.
+  - ninguna persona generada
+  - ningun config creado
+  - ninguna sesion corrida
+  - ningun cambio de codigo aplicado
+
+SHA-256 (algoritmo: sha256, sobre los bytes exactos del archivo):
+
+611676bed6ab2f1950ed9fddd0ca46151c7e0c362537e2458c0d2f812b447631  48960 bytes  PREREGISTRO_BRAZO_TWIN_POBLACIONAL_2026-08-04.md
+b4ad85d10e52316027c1897eabc627ab173cf84f329c3fcafd73e3de39b39376  16234 bytes  ADENDUM_TWIN_POBLACIONAL_CONGELADO_2026-08-04.md
+
+VERIFICACION POSTERIOR
+Para comprobar que un archivo no ha cambiado desde esta fecha, ejecutar en la raiz
+del proyecto:
+
+  py -c "import hashlib,pathlib;[print(hashlib.sha256(pathlib.Path(f).read_bytes()).hexdigest(),f) for f in __import__('sys').argv[1:]]" ARCHIVO.md
+
+ADVERTENCIA: el hash cambia si el archivo se reabre y reguarda con finales de linea
+distintos (CRLF vs LF) o con BOM. No reguardar estos archivos con un editor que
+normalice finales de linea. Si el hash deja de coincidir, NO es evidencia de fraude:
+es motivo para regenerar el manifiesto y declarar la fecha real de la version vigente.

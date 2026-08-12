@@ -1,0 +1,115 @@
+{
+ "diagnostic": "template_effect",
+ "is_gate": false,
+ "note": "Diagnostic only. Does not replace R4 and must not become a selection gate retrospectively.",
+ "structural_patterns_fixed_a_priori": [
+  "^\\s*(a|an)\\s+[a-z\\-]+-year-old\\b",
+  "^\\s*home is\\b",
+  "^\\s*the home is\\b",
+  "^\\s*weekdays?\\s+(follow|are|tend)\\b",
+  "^\\s*days?\\s+(follow|are)\\b",
+  "^\\s*the household consists of\\b",
+  "^\\s*weekends?\\s+(leave|are|tend|allow)\\b",
+  "\\bthe role (carries|involves|places)\\b",
+  "\\bthe work(place)? (is|sits|involves)\\b",
+  "\\bthere (is|are) at least\\b"
+ ],
+ "distance_full_text": 0.4322,
+ "distance_structural_removed": 0.4456,
+ "delta": 0.0134,
+ "words_full": 1999,
+ "words_after_strip": 1950,
+ "removed_occurrences": [
+  [
+   "Home is",
+   6
+  ],
+  [
+   "Weekdays follow",
+   4
+  ],
+  [
+   "The role carries",
+   2
+  ],
+  [
+   "A forty-five-year-old",
+   1
+  ],
+  [
+   "The workplace sits",
+   1
+  ],
+  [
+   "There are at least",
+   1
+  ],
+  [
+   "A forty-eight-year-old",
+   1
+  ],
+  [
+   "A forty-year-old",
+   1
+  ],
+  [
+   "A forty-seven-year-old",
+   1
+  ],
+  [
+   "The work sits",
+   1
+  ],
+  [
+   "Weekdays are",
+   1
+  ],
+  [
+   "the work is",
+   1
+  ]
+ ],
+ "recurring_4grams_reported_not_removed": [
+  [
+   "owned with a mortgage",
+   7
+  ],
+  [
+   "in a suburban part",
+   6
+  ],
+  [
+   "a suburban part of",
+   6
+  ],
+  [
+   "suburban part of the",
+   6
+  ],
+  [
+   "between thirty-one and forty-eight",
+   5
+  ],
+  [
+   "thirty-one and forty-eight hours",
+   5
+  ],
+  [
+   "house in a suburban",
+   5
+  ],
+  [
+   "part of the south",
+   4
+  ],
+  [
+   "with a mortgage still",
+   4
+  ],
+  [
+   "no supervisory or management",
+   4
+  ]
+ ],
+ "metric": "project build_tfidf + cosine_distance, shared space over the 8 narratives"
+}

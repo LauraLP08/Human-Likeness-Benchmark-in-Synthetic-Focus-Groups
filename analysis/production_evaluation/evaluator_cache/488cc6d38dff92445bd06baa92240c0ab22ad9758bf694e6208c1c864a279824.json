@@ -1,0 +1,269 @@
+{
+ "cache_key": "488cc6d38dff92445bd06baa92240c0ab22ad9758bf694e6208c1c864a279824",
+ "computed_utc": "2026-07-31T00:24:58.181194+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/to8xlhi19eohi33n4kb6vuyexr1a1b89ndws",
+ "custom_request_key": "macho_meals_fg4_run03",
+ "input": {
+  "side": "synthetic",
+  "fg": "fg4",
+  "condition": "enriched",
+  "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg4_run03\\comparable_transcript.json",
+  "sha256": "944d9f0fcf3db6c267bdae829ed8208c6a74a7070e5cfdb4b12482fd7255ee0c",
+  "physical_run": "macho_meals_fg4_run03",
+  "canonical_replication_index": 3
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "d6860dda7956f0220754ecd0d0baa7ca7d8965fdf6b0326ee6d894be3f75f26a",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 11767,
+  "candidates_tokens": 1096,
+  "total_tokens": 21454,
+  "thoughts_tokens": 8591,
+  "cached_tokens": null,
+  "raw_text_chars": 3697,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 11767,
+  "candidates_tokens": 1096,
+  "total_tokens": 21454,
+  "thoughts_tokens": 8591,
+  "cached_tokens": null,
+  "raw_text_chars": 3697,
+  "parse_attempt": 1,
+  "headroom_tokens": 15288
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T015",
+      "speaker": "Participant 3",
+      "quote": "Yeah, I think it does actually"
+     },
+     {
+      "turn_id": "T016",
+      "speaker": "Participant 2",
+      "quote": "Yeah, I think you're onto something there — the invisibility bit especially."
+     },
+     {
+      "turn_id": "T042",
+      "speaker": "Participant 1",
+      "quote": "I probably am underestimating how much it's in there already, just underneath everything I do without me really noticing."
+     }
+    ],
+    "evidence_note": "All three participants acknowledge that gender shapes food choices, particularly through the invisibility of default choices and the social pressure faced when deviating from them.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T042",
+      "speaker": "Participant 1",
+      "quote": "I eat meat, I've always eaten meat, no one's ever questioned it."
+     },
+     {
+      "turn_id": "T016",
+      "speaker": "Participant 2",
+      "quote": "I eat meat, I always have, and it's just... normal, isn't it?"
+     },
+     {
+      "turn_id": "T032",
+      "speaker": "Participant 3",
+      "quote": "It's just become so normal, so invisible, that the pressure's just there underneath everything"
+     }
+    ],
+    "evidence_note": "All three participants describe eating animal products as a socially normative or default practice that goes unquestioned.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T042",
+      "speaker": "Participant 1",
+      "quote": "I do like it. The taste, the satisfaction of it."
+     },
+     {
+      "turn_id": "T031",
+      "speaker": "Participant 2",
+      "quote": "I actually like eating meat. It's familiar, it's satisfying — I'd genuinely miss it."
+     },
+     {
+      "turn_id": "T032",
+      "speaker": "Participant 3",
+      "quote": "I like eating meat. That's genuine."
+     }
+    ],
+    "evidence_note": "All three participants discuss their personal enjoyment, satisfaction, and appreciation for the taste of meat.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "D",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 9,
+  "verified_quotes": 9,
+  "total_present_codes": 3,
+  "verified_codes": 3,
+  "demoted_codes": 0
+ }
+}

@@ -1,0 +1,270 @@
+{
+ "built_utc": "2026-08-03T20:56:30.130911+00:00",
+ "id": "AGENT_FIDELITY_BLINDED_AUDIT_PACKAGES",
+ "status": "PREPARED_NOT_EXECUTED",
+ "no_api_calls": true,
+ "no_new_human_tasks": true,
+ "detector_role": "the detectors PROPOSE candidates and classify nothing; the category is a contextual judgement the audit makes",
+ "numeral_density_status": "NUMERAL_DENSITY_DESCRIPTIVE_PROXY_NOT_HYPER_EXACTNESS",
+ "numeral_density_warning": "a lower numeral density must not be read as less hyper-exactness; density counts how many figures appear, not how they are used",
+ "blinding": {
+  "payload_excludes": [
+   "condition",
+   "focus group",
+   "replicate",
+   "human or synthetic",
+   "model",
+   "agent profile",
+   "run name",
+   "unit_id"
+  ],
+  "sealed_reference": "agent_fidelity_audit_sealed_reference.json",
+  "request_manifest_has_no_read_dependency_on_the_sealed_file": true
+ },
+ "hyper_exactness": {
+  "categories": [
+   "ORDINARY_EVERYDAY_SPECIFICITY",
+   "PLAUSIBLE_PERSONAL_RECALL",
+   "HYPER_EXACT_STATISTICAL_CLAIM",
+   "IMPLAUSIBLY_PRECISE_EPISODIC_RECALL",
+   "UNCERTAIN"
+  ],
+  "required_fields_per_decision": [
+   "item_id",
+   "verbatim_quote",
+   "turn_id",
+   "speaker",
+   "category",
+   "justification",
+   "minimum_context_used",
+   "what_would_resolve_uncertain"
+  ],
+  "n_participant_turns_scanned": 1301,
+  "n_detector_candidates": 67,
+  "n_random_nondetected_controls": 60,
+  "n_universe": 127,
+  "control_stratum_name": "RANDOM_NONDETECTED_CONTROL_TURNS",
+  "controls_are_not_known_negatives": "these turns fired no detector; they have not been judged and must never be called known negatives. Their purpose is to measure hyper-exact cases the detector missed.",
+  "candidates_by_condition": {
+   "human": 11,
+   "enriched": 31,
+   "demographics-only": 25
+  },
+  "controls_by_condition": {
+   "human": 20,
+   "enriched": 20,
+   "demographics-only": 20
+  },
+  "control_selection": "deterministic: non-candidate turns of at least 15 words ordered by a stable hash and taken round-robin across focus groups, 20 per condition",
+  "no_overlap_between_candidates_and_controls": true,
+  "stratum_is_not_revealed_to_the_auditor": "detector fields are stripped from every payload, so a control and a candidate are indistinguishable in the request",
+  "detector_hit_counts": {
+   "PERCENTAGE_OR_DECIMAL": 1,
+   "EXACT_DATE_OR_TIME": 1,
+   "STATISTICAL_FIGURE": 0,
+   "SPECIFIC_QUANTITY_OR_PRICE": 50,
+   "SPECIFIC_FREQUENCY_OR_DURATION": 16,
+   "PRECISE_EPISODIC_MARKER": 2
+  },
+  "mean_words_per_item": 201,
+  "cost_full_universe": {
+   "n_items": 127,
+   "items_per_request": 12,
+   "n_requests": 11,
+   "estimated_input_tokens": 64251,
+   "estimated_output_tokens": 27940,
+   "claude_batch_usd": 0.5099,
+   "claude_rate_verified_utc": "2026-08-02",
+   "gemini_cost_status": "NOT_CALCULATED_RATE_NOT_VERIFIED",
+   "token_model": "tokens = 1.7502 * words + 1620 (measured, R2 0.9989)"
+  },
+  "reporting_distinctions_required": [
+   "detector candidate yield",
+   "adjudicated hyper-exact cases among candidates",
+   "hyper-exact cases found in the nondetected controls",
+   "estimated or detected corpus rate"
+  ],
+  "if_controls_cannot_support_prevalence": "DETECTED_LOWER_BOUND_RATE",
+  "unaudited_is_not_negative": "turns that were neither detected nor audited are reported as NOT_AUDITED, never as negative"
+ },
+ "profile_consistency": {
+  "classification": "LLM_ASSISTED_EXPLORATORY_PROFILE_CONSISTENCY_AUDIT",
+  "not_called": "validated profile consistency",
+  "categories": [
+   "CONSISTENT",
+   "POSITION_CHANGED_WITH_EXPLANATION",
+   "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "UNEXPLAINED_CONTRADICTION",
+   "UNCERTAIN"
+  ],
+  "screener_role": "vocabulary overlap proposes pairs; it never decides. No embedding and no NLI model may dictate a verdict.",
+  "n_candidate_pairs_total": 802,
+  "n_screener_proposed_total": 742,
+  "n_unscreened_population": 1962,
+  "control_sample_purpose": "estimate false negatives; a screener's silence is not evidence of consistency",
+  "control_sample_seed": 20260803,
+  "pilot": {
+   "n_pairs": 120,
+   "n_random_controls": 60,
+   "n_screener_proposed": 60,
+   "stratification": "condition x similarity tercile x focus group, round-robin so every stratum contributes before any contributes twice",
+   "similarity_tercile_bounds": [
+    0.0882,
+    0.1064
+   ],
+   "n_strata_available": 45,
+   "strata_represented": [
+    "demographics-only|T1",
+    "demographics-only|T2",
+    "demographics-only|T3",
+    "enriched|T1",
+    "enriched|T2",
+    "enriched|T3",
+    "human|T1",
+    "human|T2",
+    "human|T3"
+   ],
+   "pairs_by_condition": {
+    "demographics-only": 63,
+    "human": 25,
+    "enriched": 32
+   },
+   "proposed_by_condition": {
+    "human": 15,
+    "enriched": 15,
+    "demographics-only": 30
+   },
+   "controls_by_condition": {
+    "human": 10,
+    "enriched": 17,
+    "demographics-only": 33
+   },
+   "control_condition_balance_note": "the 60 controls were drawn at random from the unscreened population and are therefore NOT balanced by condition; only the 60 proposed pairs are stratified. Any false-negative estimate must be reported per condition with its own denominator.",
+   "n_repetitions": 2,
+   "n_adjudications": 240,
+   "cache_keys_distinct_per_item_and_repetition": true,
+   "n_distinct_cache_keys": 240,
+   "mean_words_per_pair": 89,
+   "cost": {
+    "n_items": 240,
+    "items_per_request": 10,
+    "n_requests": 24,
+    "estimated_input_tokens": 76248,
+    "estimated_output_tokens": 48000,
+    "claude_batch_usd": 0.7906,
+    "claude_rate_verified_utc": "2026-08-02",
+    "gemini_cost_status": "NOT_CALCULATED_RATE_NOT_VERIFIED",
+    "token_model": "tokens = 1.7502 * words + 1620 (measured, R2 0.9989)"
+   },
+   "gate": {
+    "id": "PROFILE_CONSISTENCY_PILOT_GATE_V1",
+    "fixed_before_any_result_is_seen": true,
+    "no_conventional_threshold_adopted": "0.80 is not used as a default. Each bound below is set by the precision the interpretation needs, not by convention.",
+    "criteria": {
+     "planted_contradiction_recall": {
+      "requirement": "the direct-contradiction validation case returns UNEXPLAINED_CONTRADICTION in BOTH repetitions",
+      "why": "an auditor that misses a contradiction built to be unmissable cannot support any claim about contradictions"
+     },
+     "contradiction_vs_context_separation": {
+      "requirement": "the CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY case is never returned as UNEXPLAINED_CONTRADICTION in either repetition",
+      "why": "the indicator rests entirely on this distinction; confusing the two would inflate contradiction in exactly the direction under study"
+     },
+     "malformed_response_rejection": {
+      "requirement": "all five REJECT validation cases are rejected",
+      "why": "a verdict resting on a misattributed or paraphrased quote is not evidence"
+     },
+     "exact_agreement_between_repetitions": {
+      "detection_only_floor": 0.6,
+      "full_audit_floor": 0.75,
+      "why": "below 0.60 the repetitions disagree on more than a third of items and no rate computed from them would be interpretable; 0.75 is where a five-category judgement becomes stable enough to carry a reported distribution rather than a flag"
+     },
+     "uncertain_rate": {
+      "ceiling": 0.3,
+      "why": "above 0.30 the audit is mostly declining to decide and the remaining categories describe a self-selected subset"
+     },
+     "verbatim_evidence_validity": {
+      "floor": 0.95,
+      "why": "quote verification is mechanical, so anything short of near-perfect means the auditor is reconstructing rather than citing"
+     },
+     "control_behaviour": {
+      "requirement": "the 60 non-proposed controls are adjudicated with the same field completeness as the proposed pairs",
+      "why": "if controls are treated differently, the false-negative estimate they exist to provide is not usable"
+     }
+    },
+    "outcomes": [
+     "AUDITOR_USABLE_FOR_EXPLORATORY_FULL_AUDIT",
+     "AUDITOR_USABLE_FOR_DETECTION_ONLY",
+     "AUDITOR_USABLE_FOR_CORROBORATION_ONLY",
+     "AUDITOR_UNSTABLE_STOP"
+    ],
+    "if_gate_fails": "the remaining 682 pairs are NOT executed and the instability is itself the pilot result",
+    "disagreement_resolution_forbidden": [
+     "model confidence",
+     "modal vote",
+     "a third call",
+     "similarity scores",
+     "unrecorded manual choice"
+    ],
+    "disagreement_resolution_rule": "items where the two repetitions disagree stay UNRESOLVED and are reported as such; they are never collapsed to a single label"
+   },
+   "auditor_validation_cases": [
+    {
+     "case": "DIRECT_CONTRADICTION",
+     "must_return": "UNEXPLAINED_CONTRADICTION",
+     "a": "i never eat meat, i gave it up years ago and i do not miss it at all",
+     "b": "i have a steak most weekends, it is the best part of my week"
+    },
+    {
+     "case": "EXPLAINED_CHANGE",
+     "must_return": "POSITION_CHANGED_WITH_EXPLANATION",
+     "a": "i would never cook plant based food at home, it is not for me",
+     "b": "i said earlier it was not for me, but hearing you all i have changed my mind and i would try cooking it"
+    },
+    {
+     "case": "DIFFERENT_CONTEXTS_NOT_CONTRADICTORY",
+     "must_return": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+     "a": "when i am out with my mates i will always order the burger",
+     "b": "at home during the week i mostly cook vegetables and pasta"
+    },
+    {
+     "case": "EVIDENCE_FROM_ANOTHER_SPEAKER",
+     "must_return": "REJECT",
+     "reject_reason": "the quoted evidence is attributed to a different participant"
+    },
+    {
+     "case": "NON_LITERAL_QUOTE",
+     "must_return": "REJECT",
+     "reject_reason": "the returned quote is not contiguous verbatim text of the item"
+    },
+    {
+     "case": "UNKNOWN_TURN_ID",
+     "must_return": "REJECT",
+     "reject_reason": "the returned turn id is not one of the two supplied"
+    },
+    {
+     "case": "NO_JUSTIFICATION",
+     "must_return": "REJECT",
+     "reject_reason": "a category was returned with an empty justification"
+    },
+    {
+     "case": "UNCERTAIN_WITHOUT_EXPLANATION",
+     "must_return": "REJECT",
+     "reject_reason": "UNCERTAIN was returned without stating what would resolve it"
+    }
+   ],
+   "n_remaining_pairs_not_sent": 682,
+   "remaining_pairs_are_blocked_until_the_gate_passes": true
+  },
+  "cost_full_audit_if_gate_passes": {
+   "n_items": 802,
+   "items_per_request": 10,
+   "n_requests": 81,
+   "estimated_input_tokens": 257337,
+   "estimated_output_tokens": 160400,
+   "claude_batch_usd": 2.6483,
+   "claude_rate_verified_utc": "2026-08-02",
+   "gemini_cost_status": "NOT_CALCULATED_RATE_NOT_VERIFIED",
+   "token_model": "tokens = 1.7502 * words + 1620 (measured, R2 0.9989)"
+  }
+ }
+}

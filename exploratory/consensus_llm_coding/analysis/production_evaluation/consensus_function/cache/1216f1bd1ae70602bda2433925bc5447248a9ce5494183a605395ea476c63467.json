@@ -1,0 +1,209 @@
+{
+  "cache_key": "1216f1bd1ae70602bda2433925bc5447248a9ce5494183a605395ea476c63467",
+  "run": "macho_meals_fg1_run01",
+  "condition": "enriched",
+  "chunk_index": 2,
+  "target_turn_ids": [
+    "T034",
+    "T035",
+    "T037",
+    "T039",
+    "T041",
+    "T043",
+    "T045",
+    "T046",
+    "T047",
+    "T049",
+    "T050",
+    "T052"
+  ],
+  "shown_turn_ids": [
+    "T031",
+    "T032",
+    "T033",
+    "T034",
+    "T035",
+    "T036",
+    "T037",
+    "T038",
+    "T039",
+    "T040",
+    "T041",
+    "T042",
+    "T043",
+    "T044",
+    "T045",
+    "T046",
+    "T047",
+    "T048",
+    "T049",
+    "T050",
+    "T051",
+    "T052"
+  ],
+  "blinded_transcript_sha256": "fbe54e144019b9391f8b8c8354f9b52edc3637af360a12bef12d5731dc9accde",
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "probe_tag": null,
+  "attempt": 1,
+  "finish_reasons": [
+    "FinishReason.STOP"
+  ],
+  "truncated": false,
+  "parse_error": null,
+  "prompt_tokens": 6693,
+  "candidates_tokens": 1168,
+  "thoughts_tokens": 7487,
+  "codings": [
+    {
+      "turn_id": "T034",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "you're right that there's no deep reason for you to change",
+          "target_turn_id": "T033"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T035",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "I think you're making it sound more... I dunno, passive than it actually is",
+          "target_turn_id": "T034"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T037",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "I eat meat, I like it fine, it's normal.",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T039",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "I think I'm more like Speaker E than Speaker A on this",
+          "target_turn_id": "T037"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T041",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "there's a certain way of thinking about food that I just wasn't raised with",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T043",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "the social stuff Speaker E and Speaker B are talking about \u2014 yeah, that's real.",
+          "target_turn_id": "T039"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T045",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "what would actually pull people isn't the moral argument",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T046",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "I think you're kind of sidestepping what actually matters to me",
+          "target_turn_id": "T045"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T047",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "I think you're kind of treating preference like it's just... fixed",
+          "target_turn_id": "T046"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T049",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Speaker D's right that preference gets shaped by context",
+          "target_turn_id": "T047"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "I think he's maybe underestimating how solid those preferences get once they're already formed",
+          "target_turn_id": "T047"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T050",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "there's a difference between \"preference is shaped by context\" and \"your preference will change if context changes.\"",
+          "target_turn_id": "T049"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T052",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Speaker E's right \u2014 my preference for meat is shaped by everything around it",
+          "target_turn_id": "T049"
+        }
+      ],
+      "no_code_reason": null
+    }
+  ],
+  "called_utc": "2026-08-06T17:23:18.711862+00:00"
+}

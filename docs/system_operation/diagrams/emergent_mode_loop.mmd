@@ -1,0 +1,24 @@
+graph TD
+    A[Start Emergent Step] --> B[Format Recent Transcript]
+    B --> C[For each Participant: API call assess_engagement]
+    C --> D[Parse Intent, Wants_to_Speak, Urgency, Hook]
+    D --> E[Apply Contextual Bonuses]
+    E --> F[Filter: wants_to_speak == true & intent != stay_silent]
+    F --> G{Any >= URGENCY_THRESHOLD?}
+    
+    G -- Yes --> H[Sort by -urgency and turn_count]
+    H --> I[Select top participant]
+    I --> J{Consecutive Turns < MAX?}
+    J -- Yes --> K[API: call_participant]
+    J -- No --> L[Force Moderator Intervention]
+    
+    G -- No --> M{Consecutive Silence >= 2?}
+    M -- Yes --> N[Lower Threshold Fallback]
+    N --> I
+    M -- No --> L
+    
+    K --> O[Participant Utterance]
+    L --> P[Silence or Forced Trigger]
+    O --> Q[API: call_moderator]
+    P --> Q
+    Q --> R[Update State & Return]

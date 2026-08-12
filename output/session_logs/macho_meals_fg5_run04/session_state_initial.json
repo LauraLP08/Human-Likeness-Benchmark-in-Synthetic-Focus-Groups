@@ -1,0 +1,567 @@
+{
+  "schema_version": 3,
+  "session_meta": {
+    "id": "macho_meals_fg5_run04",
+    "research_objective": "Focus group guide exploring how men in the UK make everyday food\nchoices, how social context, work, hobbies, health, taste and other\npeople shape what they eat, how gender and masculinity may influence\nfood choices, and what would need to change for plant-based foods to\nbecome more acceptable or appealing.\n",
+    "topic_domain": "Masculinity, food choice, animal product consumption, and plant-based eating",
+    "participant_collective_identity": "Men in the UK reflecting on food choices, male friendship, gender norms, and plant-based eating",
+    "moderator_knowledge_brief": "Explore (1) everyday food decision-making, (2) the social contexts in\nwhich men spend time with male friends, (3) the influence of other\npeople, work, hobbies, health, nutrition and taste on food choices,\n(4) whether participants perceive gender as shaping what they eat,\n(5) social acceptability and gendered meanings attached to vegetarian,\nvegan, plant-based, feminine or masculine foods, and (6) what personal,\nsocial and practical changes would make plant-based eating more viable\nor appealing. The discussion should remain exploratory, non-judgmental,\nand non-leading.\n",
+    "researcher_notes": "",
+    "temperature": 1.0,
+    "participant_response_max_tokens": 800,
+    "participation_mode": "emergent",
+    "moderator_model": "claude-sonnet-4-6",
+    "initial_session_plan": null,
+    "current_section_index": 0,
+    "section_phase": "intro",
+    "current_question_index": 0,
+    "total_turns": 0,
+    "session_started_at": "2026-07-29T19:07:43.041844Z",
+    "inject_participant_intro": false,
+    "run_label": "run04",
+    "participant_episodic_depth": "since_last_n",
+    "participant_episodic_since_last_n": 20,
+    "participant_episodic_recent_k": 6,
+    "moderator_reflection_enabled": true,
+    "moderator_restraint_prompt": true,
+    "moderator_context_mode": "summarized",
+    "engagement_own_history_token_budget": 1500,
+    "moderator_prompt_override": "sandbox/01_MODERATOR_SYSTEM_PROMPT_MINIMAL.md",
+    "moderator_opening_prompt_override": null,
+    "time_budget_tracking_enabled": true
+  },
+  "discussion_guide": [
+    {
+      "section_index": 0,
+      "section_label": "Introduction and instructions",
+      "section_phase": "intro",
+      "section_purpose": "Section 0: Introduction and instructions",
+      "scripted_question": "Hi everyone, thanks so much for joining the focus group today. We\u2019re\ngoing to take about 45 minutes to talk about your food choices and\nopinions, and this will be recorded for research purposes. Try not to\noverthink the questions, and simply speak freely. There are no right\nor wrong answers. Please be respectful of your fellow focus group\nmembers, and keep your responses relatively brief to allow time for\neveryone to speak. But remember that this is a conversation, not an\ninterview, so you can jump in when you have something to say and you\ndon\u2019t have to take turns answering each question, but you can if you\nwant to. Okay great, let\u2019s start by going around and saying your name\nand where in the UK you\u2019re coming from today.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 1,
+      "section_label": "Opening discussion: male friendship and place",
+      "section_phase": "context",
+      "section_purpose": "Section 1: Opening discussion: male friendship and place",
+      "scripted_question": "What\u2019s your favourite place in your city to spend time with your male\nfriends? Why? Feel free to be specific.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 2,
+      "section_label": "Everyday food decision-making",
+      "section_phase": "context",
+      "section_purpose": "Section 2: Everyday food decision-making",
+      "scripted_question": "How do you decide what to eat?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": [
+        "Do other people influence what you eat? If so, tell us more about how.",
+        "Do your work or hobbies influence what foods you eat? Tell us more about how.",
+        "How important is health and nutrition?",
+        "How important is taste?"
+      ]
+    },
+    {
+      "section_index": 3,
+      "section_label": "Gender and food choice",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 3: Gender and food choice",
+      "scripted_question": "Do you think your gender influences what you eat? Tell us more about\nwhy or why not.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": [
+        "Is it socially acceptable for men to eat vegetarian or vegan foods?",
+        "Are some foods considered feminine?",
+        "Are some foods considered masculine?"
+      ]
+    },
+    {
+      "section_index": 4,
+      "section_label": "Imagining a plant-based shift",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 4: Imagining a plant-based shift",
+      "scripted_question": "Imagine you decided to go plant-based \u2014 what would need to change in\nyour life for you to do that?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": [
+        "How would your family and friends react to this?",
+        "How might it change the way you shop or cook?"
+      ]
+    },
+    {
+      "section_index": 5,
+      "section_label": "Making plant-based foods more appealing",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 5: Making plant-based foods more appealing",
+      "scripted_question": "What might make plant-based foods more appealing to you or other men\nyou know?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 6,
+      "section_label": "Closing remarks",
+      "section_phase": "closing",
+      "section_purpose": "Section 6: Closing remarks",
+      "scripted_question": "Okay everyone, that\u2019s our time. Thanks so much for participating\ntoday. Before we finish, is there anything else you would like to add\nabout food choices, gender, masculinity, or plant-based eating?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": []
+    }
+  ],
+  "participants": {
+    "mm_fg5_fletcher": {
+      "id": "mm_fg5_fletcher",
+      "name": "Fletcher",
+      "profile_summary": "Fletcher, 64, Male. Village or Rural, Scotland, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg5_fletcher",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Fletcher",
+            "age": 64,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Village or Rural",
+              "region": "Scotland",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "1-3 per month",
+            "poultry": "Once a week",
+            "fish": "1-3 per month",
+            "egg": "1-3 per month",
+            "dairy": "2-4 per week"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.1,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 2.3,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.2,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.8,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 1.9,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG5"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Similar to the up to everybody else really, male friends definitely it will be a pub. The older we get, the the quieter that pub needs to be. We can't be doing loud music in pubs anymore. And again, like Toby said, living in a rural place, we've got a few country pubs which are lovely, expensive but lovely.\nAnd, um, I suppose like a traditional kind of, um, British pub meal is what we tend to go for.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 0,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg5_keith": {
+      "id": "mm_fg5_keith",
+      "name": "Keith",
+      "profile_summary": "Keith, 72, Male. Suburban, North West, UK. Flexitarian.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg5_keith",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Keith",
+            "age": 72,
+            "gender": "Male",
+            "diet": "Flexitarian",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "North West",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "1-3 per month",
+            "poultry": "1-3 per month",
+            "fish": "1-3 per month",
+            "egg": "1-3 per month",
+            "dairy": "Once a day"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.5,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.6,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.0,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.0,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 1.9,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG5"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Self-identified flexitarian."
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Well, I like to go to Wetherspoons too, Patrick.\nIt's just that I got some, I used to live down South. Um, well in Somerset, funny enough, Bridgewater and, um, made a lot, a lot of friends. I worked for the, the, the local council and, um, many of them come up for a holiday every year.\nSo yeah, we like to go around the city and always spend up our times in, um, in Wetherspoon. It's cheap, cheerful, good food and needs to say the company's good.\nGood.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 0,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg5_patrick": {
+      "id": "mm_fg5_patrick",
+      "name": "Patrick",
+      "profile_summary": "Patrick, 73, Male. Suburban, South East, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg5_patrick",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Patrick",
+            "age": 73,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "South East",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "Once a week",
+            "poultry": "2-4 per week",
+            "fish": "Once a week",
+            "egg": "1-3 per month",
+            "dairy": "2-4 per week"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.2,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 2.4,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.6,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.4,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 1.5,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG5"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Being the fact that I live in Milton Keynes, it's a, um, you probably know it's a fairly new city. Um, I've lived, um, in a place called Bletchley. Um, for, um, on the outskirts of Milton Keynes. for quite a number of years. So the city has grown. Um, I've got a number of, um, sort of male friends that I've worked with and we meet up in, um, probably every, every couple of months, every six weeks, couple of months.\nAnd I suppose I hate to say, but our favourite place tends to be a Wetherspoons. Um, we tend to meet in a pub and, uh, we just, uh, We just tend to go for a, a curry, um, we sort of meet up, chat about old times and, uh, we've got quite a bit in common, all of us. So, um, yeah, that's what we tend to do. We tend to go for a few beers, nothing, nothing too much, tend to go for a few beers and then we just end up going for a curry.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 0,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg5_toby": {
+      "id": "mm_fg5_toby",
+      "name": "Toby",
+      "profile_summary": "Toby, 68, Male. Village or Rural, South West, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg5_toby",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Toby",
+            "age": 68,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Village or Rural",
+              "region": "South West",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "2-4 per week",
+            "poultry": "2-4 per week",
+            "fish": "Once a week",
+            "egg": "2-4 per week",
+            "dairy": "2-3 per day"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 2.5,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 1.1,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.4,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.0,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 1.6,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG5"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Uh, I'll leave that up to the wife. She's like, she decides what I eat. But if like, we're going out, we go down to the local pub.\nAnd because I'm rural as well, we've got lots of farms round here, so we, uh. We're lucky (.) enough to get sort of a freebies lots of freebies, which is good.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 0,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    }
+  },
+  "group_state": {
+    "participation_balance": {},
+    "silent_participants": [],
+    "consensus_risk": 0.0,
+    "dominant_voices": [],
+    "unresolved_tensions": [],
+    "group_has_agreed_easily_on": [],
+    "section_turn_counts": {},
+    "section_word_counts": {},
+    "completed_section_turn_counts": {},
+    "completed_section_word_counts": {},
+    "consecutive_silent_turns": 0,
+    "consecutive_participant_turns": 0,
+    "last_speaker_id": null,
+    "last_engagement_round": [],
+    "section_summaries": [],
+    "moderator_turn_share_overall": 0.0,
+    "moderator_turn_share_recent": 0.0
+  },
+  "moderator_log": [],
+  "transcript": []
+}

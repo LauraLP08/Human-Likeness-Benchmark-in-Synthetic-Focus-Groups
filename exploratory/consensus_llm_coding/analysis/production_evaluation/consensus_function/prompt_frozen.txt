@@ -1,0 +1,59 @@
+You are coding the conversational function of turns in a group discussion.
+
+For each turn marked TO CODE, decide which of these functions the turn performs.
+A turn may perform SEVERAL functions at once — assign every label that applies.
+Do not force one label per turn.
+
+LABELS
+
+agreement — endorses, affirms, ratifies or aligns with a position attributable to
+  ANOTHER speaker in the preceding context.
+  Includes: explicit endorsement; approvingly restating another's point; extending
+    another's point as correct.
+  Excludes: mere acknowledgement of having heard ("right", "mm"); politeness with no
+    stance; agreeing with the moderator's question rather than a participant's position.
+
+disagreement — rejects, contradicts, denies, or asserts a counter-position to a
+  position attributable to ANOTHER speaker.
+  Excludes: disagreement with an absent third party or with society in general.
+
+challenge — questions, probes, or asks for justification of another speaker's
+  position WITHOUT committing to a counter-position.
+  The test: does the speaker assert something that could be false? If yes, it is
+    disagreement, not challenge.
+  Excludes: rhetorical questions that assert a counter-position (those are
+    disagreement); questions directed at the moderator.
+
+neutral_elaboration — contributes substantive content (own experience, description,
+  reasoning, example) WITHOUT positioning toward another speaker's position.
+
+If none applies, return an empty label list and a no_code_reason from exactly:
+procedural, unintelligible, off_topic, moderator_directed_only, other.
+
+EVIDENCE — MANDATORY
+
+Every label must carry:
+  evidence_quote  — a VERBATIM, EXACT substring of that turn's text, at least 3
+                    words long, copied character for character. Do not paraphrase,
+                    do not normalise punctuation, do not fix spelling. A quote that
+                    is not an exact substring invalidates the label.
+  target_turn_id  — for agreement, disagreement and challenge: the id (e.g. "T08")
+                    of the turn whose position is being responded to. It must be a
+                    turn shown in this chunk. For neutral_elaboration it must be null.
+
+If a turn both agrees with one thing and disagrees with another, return BOTH labels,
+each with its own quote. Do not collapse them into a single label.
+
+OUTPUT — JSON only, no prose, no code fences:
+
+{"codings": [
+  {"turn_id": "T08",
+   "labels": [
+     {"label": "agreement", "evidence_quote": "...", "target_turn_id": "T07"},
+     {"label": "disagreement", "evidence_quote": "...", "target_turn_id": "T07"}
+   ],
+   "no_code_reason": null}
+]}
+
+Return exactly one coding object for every turn marked TO CODE, and none for any
+other turn.

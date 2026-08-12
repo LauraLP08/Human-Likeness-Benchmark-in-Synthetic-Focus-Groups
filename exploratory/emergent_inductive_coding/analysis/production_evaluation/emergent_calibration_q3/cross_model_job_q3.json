@@ -1,0 +1,643 @@
+{
+ "created_utc": "2026-08-02T19:10:02.500307+00:00",
+ "job_id": "msgbatch_01DubjDH8Jgyj5qMhi36kQh8",
+ "processing_status": "in_progress",
+ "n_requests": 76,
+ "model": "claude-opus-5",
+ "effective_config": {
+  "task": "cross_model_adjudication",
+  "model": "claude-opus-5",
+  "execution_mode": "batch",
+  "max_output_tokens": 8192,
+  "effort": "high",
+  "thinking": "adaptive_default_not_transmitted",
+  "temperature_transmitted": false,
+  "top_p_transmitted": false,
+  "top_k_transmitted": false,
+  "output_config_format": "json_schema",
+  "protocol_version": "cross_model_audit_q3_v1"
+ },
+ "manifest_prompt_sha256": {
+  "A_PAIRWISE_CORRESPONDENCE": "287b242f82bfcfc84a7b233f92ae5d4cb54ad1cb942a08474e02abf3f4916222",
+  "B_CANDIDATE_GROUNDEDNESS": "ca4abce1ca0488b1ea3b89f54f288f62abc622da49274e40eeff5c8d44dc9029",
+  "C_UNMATCHED_CANDIDATE_STATUS": "456e1df3e4d3a9eba6f843782497a9b90a229f1f9715a23d8f8fd098e965a085",
+  "D_GRANULARITY": "bb30c6b5dfdc1545043b27c2bf4d71356e6a739c1be359ccc8ec340fb23c9c2f"
+ },
+ "manifest_schema_sha256": {
+  "A_PAIRWISE_CORRESPONDENCE": "94a2b1a78ae97e158714654848ee2a2d04a6229257d3d870f540d296f49bc4b0",
+  "B_CANDIDATE_GROUNDEDNESS": "7b0f8b1adee599f3099677d1ff2d4bef6e99fd17c704315cf33a9ee6703a188a",
+  "C_UNMATCHED_CANDIDATE_STATUS": "cb957687a4497bdacdf350616332014e397a2b455d5a8fbddf5b4f5053b6b7c0",
+  "D_GRANULARITY": "1d33cdbab1fb6ed61c2ee80dabfd59c3ddb29d2f47a812a08bad80aa607ba4ff"
+ },
+ "custom_id_map": {
+  "cma001": {
+   "custom_request_key": "CAL::MATCHED_one_to_one::U01::C01|rep1",
+   "case_id": "CAL::MATCHED_one_to_one::U01::C01",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "calibration",
+   "cache_key": "737e1a0f9d00d4031972ff945716809d07022a1675340464e78d736d74c546e2"
+  },
+  "cma002": {
+   "custom_request_key": "CAL::MATCHED_one_to_one::U01::C01|rep2",
+   "case_id": "CAL::MATCHED_one_to_one::U01::C01",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "calibration",
+   "cache_key": "b5c273d62debffef08ddb244c27e86d312ac7cb103964dc3fae23a87b13d1f4f"
+  },
+  "cma003": {
+   "custom_request_key": "CAL::MATCHED_one_to_one::U01::C03|rep1",
+   "case_id": "CAL::MATCHED_one_to_one::U01::C03",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "calibration",
+   "cache_key": "d642d3af48c082568fa2acc0b88ebc12273f874baa7108722f0586aa8f7e295f"
+  },
+  "cma004": {
+   "custom_request_key": "CAL::MATCHED_one_to_one::U01::C03|rep2",
+   "case_id": "CAL::MATCHED_one_to_one::U01::C03",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "calibration",
+   "cache_key": "2ab7fc75910c7e9930b4c616ef235fbd7a082164f8e17edf93849be7536cb7aa"
+  },
+  "cma005": {
+   "custom_request_key": "CAL::MATCHED_one_to_one::U01::C04|rep1",
+   "case_id": "CAL::MATCHED_one_to_one::U01::C04",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "calibration",
+   "cache_key": "0e409b0c828b75d591b54bc73fb82b82770723de00004ef311439c397f974834"
+  },
+  "cma006": {
+   "custom_request_key": "CAL::MATCHED_one_to_one::U01::C04|rep2",
+   "case_id": "CAL::MATCHED_one_to_one::U01::C04",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "calibration",
+   "cache_key": "0a4f86066735c572af6e49725abb83651a8e7a05eef0ecbfa24ab227db40c435"
+  },
+  "cma007": {
+   "custom_request_key": "CAL::MATCHED_one_to_one::U01::C05|rep1",
+   "case_id": "CAL::MATCHED_one_to_one::U01::C05",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "calibration",
+   "cache_key": "39de5e4c43245782a8a1f5120654b824a9ebbe50b358f8a459eceb3ebbf6142d"
+  },
+  "cma008": {
+   "custom_request_key": "CAL::MATCHED_one_to_one::U01::C05|rep2",
+   "case_id": "CAL::MATCHED_one_to_one::U01::C05",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "calibration",
+   "cache_key": "e6803de0457fef55e18d2420e1c673fef5783f4e1a3b30442f698e5538046348"
+  },
+  "cma009": {
+   "custom_request_key": "CAL::NO_MATCH_HUMAN_ONLY::U01::C07|rep1",
+   "case_id": "CAL::NO_MATCH_HUMAN_ONLY::U01::C07",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "calibration",
+   "cache_key": "9b845d9aa5121db6441ade897d9511f738c2abf422124a02de4a04536422ad58"
+  },
+  "cma010": {
+   "custom_request_key": "CAL::NO_MATCH_HUMAN_ONLY::U01::C07|rep2",
+   "case_id": "CAL::NO_MATCH_HUMAN_ONLY::U01::C07",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "calibration",
+   "cache_key": "4441bb9f24ab1327a61113f8a7a936b50f71c9ceeb75ba5e6fae77e23cd4993a"
+  },
+  "cma011": {
+   "custom_request_key": "CAL::NO_MATCH_HUMAN_ONLY::U02::C07|rep1",
+   "case_id": "CAL::NO_MATCH_HUMAN_ONLY::U02::C07",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "calibration",
+   "cache_key": "75070ac1140d89adb3845977358d0b7d81852373101dac0e8fdb30b9e16dcc63"
+  },
+  "cma012": {
+   "custom_request_key": "CAL::NO_MATCH_HUMAN_ONLY::U02::C07|rep2",
+   "case_id": "CAL::NO_MATCH_HUMAN_ONLY::U02::C07",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "calibration",
+   "cache_key": "5a04c18f786bda906d37a0ca97c20f00d6c0afabeac535a7e7aad10d7dc1ed85"
+  },
+  "cma013": {
+   "custom_request_key": "CAL::NO_MATCH_HUMAN_ONLY::U03::C11|rep1",
+   "case_id": "CAL::NO_MATCH_HUMAN_ONLY::U03::C11",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "calibration",
+   "cache_key": "223d507056e1da85679f5abe1d1943791d65073f3df9268382e7f2c0b0985fea"
+  },
+  "cma014": {
+   "custom_request_key": "CAL::NO_MATCH_HUMAN_ONLY::U03::C11|rep2",
+   "case_id": "CAL::NO_MATCH_HUMAN_ONLY::U03::C11",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "calibration",
+   "cache_key": "bb0d9651718adf23bd2a202b2a6bea9127b75ff437391d40c5afe011ff6eac76"
+  },
+  "cma015": {
+   "custom_request_key": "CAL::NO_MATCH_HUMAN_ONLY::U05::C07|rep1",
+   "case_id": "CAL::NO_MATCH_HUMAN_ONLY::U05::C07",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "calibration",
+   "cache_key": "4dcce3079c0ffed8456d6ae4168b7ad0842d5c4cc7a0c8bd42d63a4c3aa30227"
+  },
+  "cma016": {
+   "custom_request_key": "CAL::NO_MATCH_HUMAN_ONLY::U05::C07|rep2",
+   "case_id": "CAL::NO_MATCH_HUMAN_ONLY::U05::C07",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "calibration",
+   "cache_key": "07ccbff3d5de8548b11977fc6ac975aaa680f64b55cf761dab740e644edcdbc4"
+  },
+  "cma017": {
+   "custom_request_key": "CAL::one_to_many::U01::C06|rep1",
+   "case_id": "CAL::one_to_many::U01::C06",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "calibration",
+   "cache_key": "acf1b8f193967e63d08954edb1e963dc49a55204dd744d04caa80f078e55cb01"
+  },
+  "cma018": {
+   "custom_request_key": "CAL::one_to_many::U01::C06|rep2",
+   "case_id": "CAL::one_to_many::U01::C06",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "calibration",
+   "cache_key": "1f12e7a7b738e49d9ac120eafa33bbd2f3ff032ae4e2f0161aed54c37cfbd7dc"
+  },
+  "cma019": {
+   "custom_request_key": "CAL::one_to_many::U02::C10|rep1",
+   "case_id": "CAL::one_to_many::U02::C10",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "calibration",
+   "cache_key": "2a96ff5081d783adf0480dec2e2907179331fce41c33a43881142f14ab923a12"
+  },
+  "cma020": {
+   "custom_request_key": "CAL::one_to_many::U02::C10|rep2",
+   "case_id": "CAL::one_to_many::U02::C10",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "calibration",
+   "cache_key": "c6d17445a4bc1316bc046cd5d24dd7679d310829c7cff1236f7c70d3a512a48d"
+  },
+  "cma021": {
+   "custom_request_key": "CAL::one_to_many::U03::C02|rep1",
+   "case_id": "CAL::one_to_many::U03::C02",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "calibration",
+   "cache_key": "609eaedbffacc5f2491b001accad69e53368ad40ff6449d199db0c2920e058a0"
+  },
+  "cma022": {
+   "custom_request_key": "CAL::one_to_many::U03::C02|rep2",
+   "case_id": "CAL::one_to_many::U03::C02",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "calibration",
+   "cache_key": "baeb0105adff41e3a63e23e963ced248b35bfdf63fcf4ef605876d5c8d12857e"
+  },
+  "cma023": {
+   "custom_request_key": "CAL::many_to_one::U01::M1|rep1",
+   "case_id": "CAL::many_to_one::U01::M1",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "calibration",
+   "cache_key": "01f744af7a06adf1d5e34a34b7dc1e5120ed3d5451ae8932b4152c42d21cdb3d"
+  },
+  "cma024": {
+   "custom_request_key": "CAL::many_to_one::U01::M1|rep2",
+   "case_id": "CAL::many_to_one::U01::M1",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "calibration",
+   "cache_key": "4f0b5df90aab57f811b19517464bf1b48c108ba4780712a966b6bec922e076a1"
+  },
+  "cma025": {
+   "custom_request_key": "CAL::many_to_one::U01::M4|rep1",
+   "case_id": "CAL::many_to_one::U01::M4",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "calibration",
+   "cache_key": "bbd5f7ab3d02bb0e236ebdadce4ff2777151a39d80b4ec7ba25673206672f047"
+  },
+  "cma026": {
+   "custom_request_key": "CAL::many_to_one::U01::M4|rep2",
+   "case_id": "CAL::many_to_one::U01::M4",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "calibration",
+   "cache_key": "a733be522a70e496491b54d72465c159a4be204f8c2b444492648fbcef86097c"
+  },
+  "cma027": {
+   "custom_request_key": "CAL::many_to_one::U03::M1|rep1",
+   "case_id": "CAL::many_to_one::U03::M1",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "calibration",
+   "cache_key": "8aa1079de8e11e4a575ad5353cc0e2461964ee5dedfc4a06671353729ad2bdec"
+  },
+  "cma028": {
+   "custom_request_key": "CAL::many_to_one::U03::M1|rep2",
+   "case_id": "CAL::many_to_one::U03::M1",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "calibration",
+   "cache_key": "db3529ea025f629a56d60eaf4a6571def6c235765c86a26d93217985bd84b994"
+  },
+  "cma029": {
+   "custom_request_key": "A::U01::C02::U01::M5|rep1",
+   "case_id": "A::U01::C02::U01::M5",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "f48f588485d8b6c8cf6a5e91bdd8ad332eff0ef44c885612285169e301c0cad5"
+  },
+  "cma030": {
+   "custom_request_key": "A::U01::C02::U01::M5|rep2",
+   "case_id": "A::U01::C02::U01::M5",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "72b3b63d3f6f2052bd285dbbb010f6df4c92c5c3e3f4f46fe635a05d3b85cf97"
+  },
+  "cma031": {
+   "custom_request_key": "A::U02::C09::U02::M1|rep1",
+   "case_id": "A::U02::C09::U02::M1",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "a00588106fd0dc58d082295cde96e60056895b56a7d9a5e92572ec304a93c4d3"
+  },
+  "cma032": {
+   "custom_request_key": "A::U02::C09::U02::M1|rep2",
+   "case_id": "A::U02::C09::U02::M1",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "b0bca5789b05ba23435ed66d3e5c18bb01d61eb2714eb1e160f55d73b3aef880"
+  },
+  "cma033": {
+   "custom_request_key": "A::U03::C09::U03::M2|rep1",
+   "case_id": "A::U03::C09::U03::M2",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "c527cdde1c5347a7a099265e77f6111b3e414fd497957519fb096b4f108bf3b6"
+  },
+  "cma034": {
+   "custom_request_key": "A::U03::C09::U03::M2|rep2",
+   "case_id": "A::U03::C09::U03::M2",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "ed6eba6bc375d7f3a988fcf55f74aeca65ac2de9e6c401991a93902a21a6e946"
+  },
+  "cma035": {
+   "custom_request_key": "A::U04::C09::U04::M1|rep1",
+   "case_id": "A::U04::C09::U04::M1",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "268fc8666a379020f63618746d53035915dd29fa93e9de75754ffc16a50f5b7d"
+  },
+  "cma036": {
+   "custom_request_key": "A::U04::C09::U04::M1|rep2",
+   "case_id": "A::U04::C09::U04::M1",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "9aa0d3ca2bd0ea38f5064638ab579d5a28fd4236b6665dfeddbddcadfa9a86d8"
+  },
+  "cma037": {
+   "custom_request_key": "A::U06::C09::U06::M2|rep1",
+   "case_id": "A::U06::C09::U06::M2",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "d2c2edd2c07edb26e402583b872a3465b6df1bfc268ee13b9ec53bcc2e436913"
+  },
+  "cma038": {
+   "custom_request_key": "A::U06::C09::U06::M2|rep2",
+   "case_id": "A::U06::C09::U06::M2",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "3ab3e251e853ecefbaa91494d4fc09b4cf3a327f0c938b4b0af59e5563ce31d2"
+  },
+  "cma039": {
+   "custom_request_key": "A::U06::C09::U06::M4|rep1",
+   "case_id": "A::U06::C09::U06::M4",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "e73c2e7a20d39b5acfc0cb8c8ae1fcbdcc317219faed10e4dcec18e3faa16806"
+  },
+  "cma040": {
+   "custom_request_key": "A::U06::C09::U06::M4|rep2",
+   "case_id": "A::U06::C09::U06::M4",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "2d9b9bc72f5396c55fffbd1f7b6d54a5aa9e0d01ecc924c74f6c543ca8c749a5"
+  },
+  "cma041": {
+   "custom_request_key": "A::U06::C11::U06::M3|rep1",
+   "case_id": "A::U06::C11::U06::M3",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "5f4df9b00d1b23808cfbcd70a5cf0400a7862da692bf95c9ea63d98f14134cc7"
+  },
+  "cma042": {
+   "custom_request_key": "A::U06::C11::U06::M3|rep2",
+   "case_id": "A::U06::C11::U06::M3",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "758db94615ac08e0b052408dbe4ba37b5196c06dc794cc039bb941ddb894f971"
+  },
+  "cma043": {
+   "custom_request_key": "A::U06::C11::U06::M2|rep1",
+   "case_id": "A::U06::C11::U06::M2",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "95487f051bae2748003653923efa47a35ea6904f99dd0bbe00e8fb4284765643"
+  },
+  "cma044": {
+   "custom_request_key": "A::U06::C11::U06::M2|rep2",
+   "case_id": "A::U06::C11::U06::M2",
+   "task": "A_PAIRWISE_CORRESPONDENCE",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "1847c924c3d32dc10c3073c14d6d5990b77f6f291906c6844bed4e77e84d6f0b"
+  },
+  "cma045": {
+   "custom_request_key": "B::U01::M5|rep1",
+   "case_id": "B::U01::M5",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "422cbd5c3bb0f511192abad848cbc7c9f12e675f1708b6ecad5be97e748952b5"
+  },
+  "cma046": {
+   "custom_request_key": "B::U01::M5|rep2",
+   "case_id": "B::U01::M5",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "2d840472aeb35ee81f22eb4c3660174458473d5e1f03f0929f1add0847afd73c"
+  },
+  "cma047": {
+   "custom_request_key": "B::U02::M1|rep1",
+   "case_id": "B::U02::M1",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "c5ea864e081496bfaa2111428b87adbe4b2cedfb15ca67c6372447306a587ad0"
+  },
+  "cma048": {
+   "custom_request_key": "B::U02::M1|rep2",
+   "case_id": "B::U02::M1",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "5741f35764bb3a9d9f771d6ce6436a583d348c2f6dadc93015fbd24342fcaa65"
+  },
+  "cma049": {
+   "custom_request_key": "B::U03::M2|rep1",
+   "case_id": "B::U03::M2",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "d74c45991b5441d8c9913ef80b4acdd35e636dcd250fb33aebec8cc4940b38a4"
+  },
+  "cma050": {
+   "custom_request_key": "B::U03::M2|rep2",
+   "case_id": "B::U03::M2",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "128ff141d6cf261e7035862c4d7598a03d42181265f68436265c56b5e97fd371"
+  },
+  "cma051": {
+   "custom_request_key": "B::U03::M4|rep1",
+   "case_id": "B::U03::M4",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "342b381c0e16f874b3ddb5c8d0b80df3ef5de69073dc63cf61f4cac2a367546c"
+  },
+  "cma052": {
+   "custom_request_key": "B::U03::M4|rep2",
+   "case_id": "B::U03::M4",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "d8a2cabafe8f3d56d04da40a4f77f643f8cdeb924b05e767b7dec510174182f4"
+  },
+  "cma053": {
+   "custom_request_key": "B::U04::M1|rep1",
+   "case_id": "B::U04::M1",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "4bb6e2ff8cf393cf02beb5aa485166fdd10fbd69e6371bb547b0ca82a64cd74f"
+  },
+  "cma054": {
+   "custom_request_key": "B::U04::M1|rep2",
+   "case_id": "B::U04::M1",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "e45e603fef64592f38f2b86d7814133af78a3f70c806bca99544e144856bc8c5"
+  },
+  "cma055": {
+   "custom_request_key": "B::U06::M2|rep1",
+   "case_id": "B::U06::M2",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "9023d0b373e4beeff9abdd2afe19f7609276691d396f9ba5f84422255b146d02"
+  },
+  "cma056": {
+   "custom_request_key": "B::U06::M2|rep2",
+   "case_id": "B::U06::M2",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "6ff2fc549abea24b3a23b9ea74e335447bc41bd16c8b9f5eedab63fc0447b220"
+  },
+  "cma057": {
+   "custom_request_key": "B::U06::M3|rep1",
+   "case_id": "B::U06::M3",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "198a47b4a829a5ceff5f266943426ba5892912704cb012786c72d4439ca07621"
+  },
+  "cma058": {
+   "custom_request_key": "B::U06::M3|rep2",
+   "case_id": "B::U06::M3",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "11c96395dca4fc126be931c87585326e6f81757ffd51b0d39de5f919261de927"
+  },
+  "cma059": {
+   "custom_request_key": "B::U06::M4|rep1",
+   "case_id": "B::U06::M4",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "61acfd269d33d4962683862aec9ec83f90282e957ad7a89a746e67eb858b78bc"
+  },
+  "cma060": {
+   "custom_request_key": "B::U06::M4|rep2",
+   "case_id": "B::U06::M4",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "2893b909902012621ef47610f18b937e1c72d75c82aa5aeb045ae906a004debc"
+  },
+  "cma061": {
+   "custom_request_key": "B::U06::M5|rep1",
+   "case_id": "B::U06::M5",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "f171a75800561444e0b754c1d0621cc2d30d91098448f9c898cced7de296b33c"
+  },
+  "cma062": {
+   "custom_request_key": "B::U06::M5|rep2",
+   "case_id": "B::U06::M5",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "cb716f636506356095df6e61afea75a8ffbf4e6b94b93fbaf7226b8394cb8055"
+  },
+  "cma063": {
+   "custom_request_key": "B::U07::M4|rep1",
+   "case_id": "B::U07::M4",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "b055ecb5bf2f892e487b3ae27fc65c6c6a1ba75f1ab7b74900b13481bc9260c3"
+  },
+  "cma064": {
+   "custom_request_key": "B::U07::M4|rep2",
+   "case_id": "B::U07::M4",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "b1e6188627f0aff5c9c1eea1675cd1b337a6d47282ff1f6a867395e009e01dde"
+  },
+  "cma065": {
+   "custom_request_key": "B::U07::M5|rep1",
+   "case_id": "B::U07::M5",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "13081f4a13fde1cdef9ffe9b39625dd19e1c9a4b128f3b7097cd8cdbdabeac53"
+  },
+  "cma066": {
+   "custom_request_key": "B::U07::M5|rep2",
+   "case_id": "B::U07::M5",
+   "task": "B_CANDIDATE_GROUNDEDNESS",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "c25c77100be28097d0afd42028476a614eb54485db985fb1c7f4303713369dd0"
+  },
+  "cma067": {
+   "custom_request_key": "C::U03::M4|rep1",
+   "case_id": "C::U03::M4",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "918b25a03f4e2954c57bd92943a0205ed690b3903bde557e8fb8040faad1fed3"
+  },
+  "cma068": {
+   "custom_request_key": "C::U03::M4|rep2",
+   "case_id": "C::U03::M4",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "a750c0f3262b13d60c1321506c2ffe4b3761b046067edd7d92bf7ec79c10747d"
+  },
+  "cma069": {
+   "custom_request_key": "C::U06::M5|rep1",
+   "case_id": "C::U06::M5",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "b59461f150e18f8df9e5ed88406806de9c17fef5f5192823724d3c71cd14b6db"
+  },
+  "cma070": {
+   "custom_request_key": "C::U06::M5|rep2",
+   "case_id": "C::U06::M5",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "a4ae0836835088f31754da36a0b2efbed25b6845f769dc9d1352a1e4d64ddeb6"
+  },
+  "cma071": {
+   "custom_request_key": "D::U07::C06|rep1",
+   "case_id": "D::U07::C06",
+   "task": "D_GRANULARITY",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "68c77f4e11a5163a9b68775511d16659f52e11fe8a604042635d077abae1cfea"
+  },
+  "cma072": {
+   "custom_request_key": "D::U07::C06|rep2",
+   "case_id": "D::U07::C06",
+   "task": "D_GRANULARITY",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "ebbdcccba3db80255eb81cc01b10c077c4238e2091739c39bd5313b081745e79"
+  },
+  "cma073": {
+   "custom_request_key": "D::U07::M4|rep1",
+   "case_id": "D::U07::M4",
+   "task": "D_GRANULARITY",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "7b222f771bc9babbd5247bb9f490783e473a9b4c12aa04e09ea786847ece5a55"
+  },
+  "cma074": {
+   "custom_request_key": "D::U07::M4|rep2",
+   "case_id": "D::U07::M4",
+   "task": "D_GRANULARITY",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "659d21df41e82fdd37d5bc37877048777cff39701d727272e07d130964bd4cd5"
+  },
+  "cma075": {
+   "custom_request_key": "D::U07::M5|rep1",
+   "case_id": "D::U07::M5",
+   "task": "D_GRANULARITY",
+   "repetition_index": 1,
+   "group": "pending",
+   "cache_key": "9d8c42b62733efea2b77072be22dd77fecd0d205edd689344c35c3a36c206c0f"
+  },
+  "cma076": {
+   "custom_request_key": "D::U07::M5|rep2",
+   "case_id": "D::U07::M5",
+   "task": "D_GRANULARITY",
+   "repetition_index": 2,
+   "group": "pending",
+   "cache_key": "0e5e5136d89dcd3e849e2d0c8a152bf21ab18cb84e3bf0bd5ea6057682d83cbb"
+  }
+ },
+ "warning": "batch creation is NOT idempotent — never create again for this scope"
+}

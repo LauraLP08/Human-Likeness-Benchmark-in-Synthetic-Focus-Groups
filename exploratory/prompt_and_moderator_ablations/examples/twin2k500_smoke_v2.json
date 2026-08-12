@@ -1,0 +1,24 @@
+{
+  "session_id": "twin2k500_smoke_002",
+  "research_objective": "Smoke test of Twin-2K-500 path-based agent loading. Verify that a participant loaded via agent_payload_path has agent_payload populated and that simulation_config.notes reaches the model (Layer 4).",
+  "topic_domain": "Daily routines",
+  "participation_mode": "orchestrated",
+  "temperature": 1.0,
+  "participant_collective_identity": "US adults from the Twin-2K-500 panel",
+  "moderator_knowledge_brief": "Brief warm-up conversation about daily routines. No specific research hypotheses.",
+  "researcher_notes": "Smoke test v2 — path-based loading. Do not analyse. Single participant, single section, minimal turns.",
+  "participants": [
+    { "agent_payload_path": "agents/twin2k500/twin_574.json" }
+  ],
+  "discussion_guide": [
+    {
+      "section_index": 0,
+      "section_label": "Introduction",
+      "section_phase": "intro",
+      "section_purpose": "Get the participant talking about their daily routine. Establish comfort. This is a smoke test — keep it minimal.",
+      "scripted_question": "Can you give me a quick picture of what a typical weekday looks like for you — from morning until evening?",
+      "probing_depth_ceiling": "light",
+      "stimulus": null
+    }
+  ]
+}

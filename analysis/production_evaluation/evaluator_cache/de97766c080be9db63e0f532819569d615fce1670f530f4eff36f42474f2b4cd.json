@@ -1,0 +1,337 @@
+{
+ "cache_key": "de97766c080be9db63e0f532819569d615fce1670f530f4eff36f42474f2b4cd",
+ "computed_utc": "2026-07-31T00:24:58.181194+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/to8xlhi19eohi33n4kb6vuyexr1a1b89ndws",
+ "custom_request_key": "human_fg2",
+ "input": {
+  "side": "human",
+  "fg": "fg2",
+  "condition": "human",
+  "path": "data\\datasets_transcripts\\standardized\\macho_meals\\fg2\\transcript.json",
+  "sha256": "3e7a13fe70f828c190bf8dc3f58ac405c9460c4751f78331915b52668d13eb4d",
+  "physical_run": null,
+  "canonical_replication_index": null
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "79f36f478efb90336c4800837840ee42051993fd64344631a49945bd62694728",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 5335,
+  "candidates_tokens": 1799,
+  "total_tokens": 14692,
+  "thoughts_tokens": 7558,
+  "cached_tokens": null,
+  "raw_text_chars": 6262,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 5335,
+  "candidates_tokens": 1799,
+  "total_tokens": 14692,
+  "thoughts_tokens": 7558,
+  "cached_tokens": null,
+  "raw_text_chars": 6262,
+  "parse_attempt": 1,
+  "headroom_tokens": 14585
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T014",
+      "speaker": "Participant 2",
+      "quote": "I don't think gender influences what I eat at all."
+     },
+     {
+      "turn_id": "T015",
+      "speaker": "Participant 5",
+      "quote": "Yeah I don't think as well like rather than what you eat maybe I can say size can affect sometimes"
+     },
+     {
+      "turn_id": "T016",
+      "speaker": "Participant 3",
+      "quote": "Yeah I don't look at, um, I don't I don't know what's, uh, like a female meal or male meal."
+     },
+     {
+      "turn_id": "T017",
+      "speaker": "Participant 1",
+      "quote": "I agree that gender doesn't play any role whatsoever, um, in regards to what I eat."
+     },
+     {
+      "turn_id": "T018",
+      "speaker": "Participant 4",
+      "quote": "Yeah, same with me. I've never even thought about it until I read that question, to be honest."
+     }
+    ],
+    "evidence_note": "All five participants explicitly deny that gender has any influence on their food choices.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": true,
+    "confidence": "medium",
+    "supporting_quotes": [
+     {
+      "turn_id": "T015",
+      "speaker": "Participant 5",
+      "quote": "rather than what you eat maybe I can say size can affect sometimes, maybe I can eat more. Rather than female difference."
+     },
+     {
+      "turn_id": "T016",
+      "speaker": "Participant 3",
+      "quote": "And yeah, maybe like Bilal says, maybe about portions, but nothing in particular."
+     }
+    ],
+    "evidence_note": "Participants 5 and 3 deny gender influence on food type but immediately discuss portion sizes as a gendered differentiator without recognizing it as such.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 3",
+     "Participant 5"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T029",
+      "speaker": "Participant 1",
+      "quote": "As human beings it's what we've been doing for 1000s of years"
+     },
+     {
+      "turn_id": "T031",
+      "speaker": "Participant 2",
+      "quote": "whenever you go out for a Sunday roast, or whatever, like 95% of your plate is plant based. It's just like the roast beef or the roast chicken"
+     }
+    ],
+    "evidence_note": "Participants describe eating meat as a normal, historical practice or as a standard, default part of traditional meals.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T008",
+      "speaker": "Participant 5",
+      "quote": "generally choose chicken I think I'd like that."
+     },
+     {
+      "turn_id": "T031",
+      "speaker": "Participant 2",
+      "quote": "I actually don't want to give that up full stop."
+     }
+    ],
+    "evidence_note": "Participants express personal enjoyment of chicken and an unwillingness to give up eating meat dishes.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2",
+     "Participant 5"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T022",
+      "speaker": "Participant 3",
+      "quote": "I feel like I'm trying to be something but it's not, it's not real."
+     },
+     {
+      "turn_id": "T024",
+      "speaker": "Participant 2",
+      "quote": "I'm actually gonna have to sit and read the label here to see what this is going to be about."
+     },
+     {
+      "turn_id": "T025",
+      "speaker": "Participant 4",
+      "quote": "surely that must be processed in some really odd way"
+     },
+     {
+      "turn_id": "T028",
+      "speaker": "Participant 5",
+      "quote": "some of them maybe we don't know what what ingredient what's it's like how the process."
+     }
+    ],
+    "evidence_note": "Participants discuss plant-based alternatives as unnatural, expressing concern over unfamiliar ingredients and odd processing methods.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2",
+     "Participant 3",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 0.8
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T022",
+      "speaker": "Participant 3",
+      "quote": "I am not a plant based eater. And uh I may have tried once. Um, I was never really satisfied."
+     },
+     {
+      "turn_id": "T025",
+      "speaker": "Participant 4",
+      "quote": "tasted exactly like beef and they cost exactly the same as beef then I'd consider it, but they're a long way off from that"
+     },
+     {
+      "turn_id": "T033",
+      "speaker": "Participant 2",
+      "quote": "can't get that texture correct as well. I think that'll be quite important for me."
+     }
+    ],
+    "evidence_note": "Participants express dissatisfaction with the taste and texture of plant-based alternatives, stating they are far from matching the real thing.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2",
+     "Participant 3",
+     "Participant 4"
+    ],
+    "reach": 0.6
+   },
+   {
+    "subtheme_id": "D",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T031",
+      "speaker": "Participant 2",
+      "quote": "it would have to become extortionately expensive for me to change."
+     }
+    ],
+    "evidence_note": "Participant 2 describes an extreme financial scenario where meat becomes extortionately expensive as the only way he would transition to plant-based.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2"
+    ],
+    "reach": 0.2
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 19,
+  "verified_quotes": 19,
+  "total_present_codes": 7,
+  "verified_codes": 7,
+  "demoted_codes": 0
+ }
+}

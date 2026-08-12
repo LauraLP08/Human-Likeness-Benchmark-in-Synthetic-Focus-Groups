@@ -1,0 +1,44 @@
+{
+ "checked_utc": "2026-07-30T23:54:24.794800+00:00",
+ "model": "gemini-3.5-flash",
+ "key_env": "GEMINI_API_KEY_NEXT",
+ "check_type": "metadata only — no content generated, no job submitted",
+ "sdk_version": "2.10.0",
+ "sdk_exposes_batches_api": true,
+ "sdk_batches_methods": [
+  "cancel",
+  "create",
+  "create_embeddings",
+  "delete",
+  "get",
+  "list",
+  "vertexai"
+ ],
+ "model_found": true,
+ "supported_actions_raw": [
+  "generateContent",
+  "countTokens",
+  "createCachedContent",
+  "batchGenerateContent"
+ ],
+ "input_token_limit": 1048576,
+ "output_token_limit": 65536,
+ "model_version": "3.5-flash-05-2026",
+ "declares_batch_generate_content": true,
+ "listing_entries_matching_model": {
+  "gemini-3.5-flash": [
+   "generateContent",
+   "countTokens",
+   "createCachedContent",
+   "batchGenerateContent"
+  ],
+  "gemini-3.5-flash-lite": [
+   "generateContent",
+   "countTokens",
+   "createCachedContent",
+   "batchGenerateContent"
+  ]
+ },
+ "conclusion": "BATCH_SUPPORTED",
+ "recommendation": "proceed to build the three-request batch preflight"
+}

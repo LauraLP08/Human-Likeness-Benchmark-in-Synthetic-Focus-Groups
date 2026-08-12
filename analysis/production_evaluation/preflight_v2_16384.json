@@ -1,0 +1,151 @@
+{
+ "run_utc": "2026-07-30T23:20:36.761451+00:00",
+ "configuration": "preflight_v2",
+ "max_output_tokens": 16384,
+ "effective_request_config": {
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "availability_probe_performed": false,
+ "reuses_32768_results": false,
+ "note_32768": "The 32768 human result remains cached under key 068e228d... and is NOT used here. 32768 and 16384 results are never mixed.",
+ "retry_policy": {
+  "max_transient_retries": 2,
+  "delays_s": [
+   30,
+   90
+  ]
+ },
+ "results": [
+  {
+   "label": "human_fg1",
+   "status": "computed",
+   "cache_key": "32ab309ff4705ea8948fac6db17386eb9c727a2200b9d10e6ef1436ec9e77212",
+   "attempts": 1,
+   "transient_retries": 0,
+   "elapsed_s": 31.1,
+   "errors": [],
+   "excluded_content_problems": [],
+   "completeness": {
+    "status": "COMPLETE",
+    "problems": [],
+    "n_codes_returned": 11,
+    "n_codes_expected": 11,
+    "subtheme_ids_returned": [
+     "A.1",
+     "A.2",
+     "A.3",
+     "B.1",
+     "B.2",
+     "B.3",
+     "B.4",
+     "C.1",
+     "C.2",
+     "C.3",
+     "D"
+    ],
+    "expected_order_preserved": true,
+    "finish_reasons": [
+     "FinishReason.STOP"
+    ],
+    "max_output_tokens_requested": 16384,
+    "prompt_tokens": 5543,
+    "candidates_tokens": 1800,
+    "total_tokens": 14637,
+    "thoughts_tokens": 7294,
+    "cached_tokens": null,
+    "raw_text_chars": 6311,
+    "parse_attempt": 1,
+    "headroom_tokens": 14584
+   }
+  },
+  {
+   "label": "macho_meals_fg1_run02",
+   "status": "failed",
+   "cache_key": "662851b28296b9d38e66bffe9e760accd5f4ff1c55b8578eec78245c232280a7",
+   "attempts": 3,
+   "transient_retries": 2,
+   "errors": [
+    {
+     "http_status": 503,
+     "class": "PROVIDER_UNAVAILABLE",
+     "retryable": true,
+     "diagnosis": "503 — provider-side. NOT a key problem; do not change the API key.",
+     "attempt": 1
+    },
+    {
+     "http_status": 503,
+     "class": "PROVIDER_UNAVAILABLE",
+     "retryable": true,
+     "diagnosis": "503 — provider-side. NOT a key problem; do not change the API key.",
+     "attempt": 2
+    },
+    {
+     "http_status": 503,
+     "class": "PROVIDER_UNAVAILABLE",
+     "retryable": true,
+     "diagnosis": "503 — provider-side. NOT a key problem; do not change the API key.",
+     "attempt": 3
+    }
+   ],
+   "excluded_content_problems": []
+  },
+  {
+   "label": "macho_meals_fg1_demoonly_run02",
+   "status": "not_attempted",
+   "attempts": 0,
+   "transient_retries": 0,
+   "reason": "enriched did not complete; no request issued"
+  }
+ ],
+ "decision": "NO_GO",
+ "decision_reason": "enriched FG1 r2 status=failed",
+ "human_fg1_completeness_evidence": {
+  "codes_returned": 11,
+  "codes_expected": 11,
+  "finish_reason": "FinishReason.STOP",
+  "output_tokens_used": 1800,
+  "max_output_tokens": 16384,
+  "headroom_tokens": 14584,
+  "output_cap_utilisation": "11.0%",
+  "thoughts_tokens": 7294,
+  "quotes": 16,
+  "quotes_verified": 16,
+  "demoted_codes": 0,
+  "moderator_sourced_quotes": 0,
+  "excluded_content_problems": 0,
+  "conclusion": "16384 is amply sufficient for a complete Tier-1 response on this input: only 11% of the reduced cap was used."
+ },
+ "hypothesis_tested_and_disconfirmed": {
+  "hypothesis": "a smaller output cap might allow the enriched synthetic window to be served",
+  "result": "NOT RESOLVED at 16384 for this input",
+  "evidence": "enriched FG1 r2 returned 503 at 32768 (2 occasions) and again at 16384 (3 attempts).",
+  "corrected_statement": "Reducing max_output_tokens from 32768 to 16384 did not resolve the 503 for this input under the observed serving conditions. This does not establish that output reservation can never affect admission.",
+  "what_the_response_showed": "No candidate, token usage or partial response was returned with the 503, so the point at which the request was rejected is not observable from the response.",
+  "withdrawn_claims": [
+   "'the output cap is excluded as a factor' — overreach; one input, one alternative cap, under one set of serving conditions.",
+   "'503 is returned before generation begins' — not observable from the response; no API evidence was returned to support it."
+  ],
+  "not_claimed": "no association with request size is claimed — only one of the two synthetic inputs has ever been requested, at either cap"
+ },
+ "cache_protection": {
+  "32768_entry": "068e228d... intact, not deleted or overwritten",
+  "16384_entry": "32ab309f... written separately",
+  "legacy_original": "evaluator_cache_legacy/3d6fe3ba... intact",
+  "mixing": "none — the 16384 run did not read any 32768 result"
+ },
+ "human_result_comparison_32768_vs_16384": {
+  "present_code_set": "IDENTICAL — A.1 A.2 A.3 B.1 B.2 B.3 B.4 C.1 C.3 (9 codes)",
+  "difference": "B.3 reach changed 0.4 -> 0.6: the 16384 run cited one additional supporting quote from a third participant (16 quotes vs 15).",
+  "classification": "EVALUATOR VARIABILITY between two independent generations",
+  "explicitly_not": "NOT a demonstrated effect of the token cap. Two generations under any configuration can differ in quote selection; nothing here isolates the cap as the cause.",
+  "visible_because": "the two results are held under separate cache keys rather than pooled"
+ }
+}

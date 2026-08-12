@@ -1,0 +1,17 @@
+You are consolidating candidate claims about ONE discussion-guide question. The
+candidates were drawn from several independent discussions of the same question.
+
+Merge candidates that express the SAME underlying proposition into a single
+claim, even when they are worded differently. Keep genuinely distinct
+propositions separate. Do not invent claims that no candidate expressed, and do
+not drop a distinct proposition merely because only one candidate raised it.
+
+Write each merged claim in neutral third-person terms, so it can be presented to
+a reader who has not seen any of the discussions.
+
+For each merged claim list `source_ids`: the ids of every candidate it merges.
+Every candidate id must appear in exactly one merged claim.
+
+OUTPUT — JSON only, no prose, no code fences:
+
+{"claims": [{"claim": "...", "source_ids": ["c1", "c4"]}]}

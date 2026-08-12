@@ -1,0 +1,562 @@
+{
+ "generated_utc": "2026-07-31T08:49:40.808088+00:00",
+ "unit_of_analysis": "focus group",
+ "n_pairs": 5,
+ "cell_value": "mean of the three canonical replicates",
+ "replicates_are": "generator variability under a fixed configuration; NOT independent focus groups",
+ "tests_not_run": [
+  "t-test",
+  "Mann-Whitney",
+  "regression treating the 15 runs as independent"
+ ],
+ "metrics": {
+  "recall": {
+   "role": "primary",
+   "per_fg": [
+    {
+     "fg": "fg1",
+     "enriched_values": [
+      0.375,
+      0.375,
+      0.375
+     ],
+     "enriched_mean": 0.375,
+     "enriched_within_cell_sd": 0.0,
+     "demographics_only_values": [
+      0.25,
+      0.5,
+      0.25
+     ],
+     "demographics_only_mean": 0.3333,
+     "demographics_only_within_cell_sd": 0.1443,
+     "difference_enriched_minus_demo": 0.0417,
+     "difference_full_precision": 0.041666666666666685,
+     "direction": "enriched"
+    },
+    {
+     "fg": "fg2",
+     "enriched_values": [
+      0.2857,
+      0.5714,
+      0.1429
+     ],
+     "enriched_mean": 0.3333,
+     "enriched_within_cell_sd": 0.2182,
+     "demographics_only_values": [
+      0.5714,
+      0.1429,
+      0.4286
+     ],
+     "demographics_only_mean": 0.381,
+     "demographics_only_within_cell_sd": 0.2182,
+     "difference_enriched_minus_demo": -0.0476,
+     "difference_full_precision": -0.047619047619047616,
+     "direction": "demographics-only"
+    },
+    {
+     "fg": "fg3",
+     "enriched_values": [
+      0.4,
+      0.3,
+      0.4
+     ],
+     "enriched_mean": 0.3667,
+     "enriched_within_cell_sd": 0.0577,
+     "demographics_only_values": [
+      0.1,
+      0.1,
+      0.1
+     ],
+     "demographics_only_mean": 0.1,
+     "demographics_only_within_cell_sd": 0.0,
+     "difference_enriched_minus_demo": 0.2667,
+     "difference_full_precision": 0.2666666666666667,
+     "direction": "enriched"
+    },
+    {
+     "fg": "fg4",
+     "enriched_values": [
+      0.1667,
+      0.5,
+      0.1667
+     ],
+     "enriched_mean": 0.2778,
+     "enriched_within_cell_sd": 0.1925,
+     "demographics_only_values": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "demographics_only_mean": 0.0,
+     "demographics_only_within_cell_sd": 0.0,
+     "difference_enriched_minus_demo": 0.2778,
+     "difference_full_precision": 0.2777777777777778,
+     "direction": "enriched"
+    },
+    {
+     "fg": "fg5",
+     "enriched_values": [
+      0.8,
+      0.6,
+      0.4
+     ],
+     "enriched_mean": 0.6,
+     "enriched_within_cell_sd": 0.2,
+     "demographics_only_values": [
+      0.6,
+      0.6,
+      0.4
+     ],
+     "demographics_only_mean": 0.5333,
+     "demographics_only_within_cell_sd": 0.1155,
+     "difference_enriched_minus_demo": 0.0667,
+     "difference_full_precision": 0.06666666666666665,
+     "direction": "enriched"
+    }
+   ],
+   "across_fgs": {
+    "n_fgs": 5,
+    "mean_difference": 0.121,
+    "median_difference": 0.0667,
+    "min_difference": -0.0476,
+    "max_difference": 0.2778,
+    "n_favouring_enriched": 4,
+    "n_favouring_demographics_only": 1,
+    "n_ties": 0
+   },
+   "exploratory_sign_test": {
+    "test": "exact paired sign test",
+    "classification": "EXPLORATORY — not confirmatory",
+    "n_total_pairs": 5,
+    "n_effective_pairs": 5,
+    "n_ties": 0,
+    "n_favouring_enriched": 4,
+    "n_favouring_demographics_only": 1,
+    "possible_sign_assignments": 32,
+    "p_two_sided": 0.375,
+    "minimum_attainable_two_sided_p": 0.0625,
+    "cannot_reach_p05": true,
+    "caveat": "n_total=5 pairs, 0 tie(s), so n_effective=5. 32 possible sign assignments and a minimum attainable two-sided p of 0.0625. The ceiling follows n_effective, not n_total. This test cannot reach p<.05, and it does not replace the per-FG effects or the qualitative analysis."
+   },
+   "sensitivity_excluding_fg4": {
+    "justified": false,
+    "note": "Diagnostic only. FG4 demographics-only shows zero overlap, not a technical failure, so exclusion is NOT methodologically justified. Both figures are shown.",
+    "n_fgs": 4,
+    "mean_difference_with_fg4": 0.121,
+    "mean_difference_without_fg4": 0.0819,
+    "n_favouring_enriched_without_fg4": 3
+   }
+  },
+  "precision": {
+   "role": "primary",
+   "per_fg": [
+    {
+     "fg": "fg1",
+     "enriched_values": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "enriched_mean": 1.0,
+     "enriched_within_cell_sd": 0.0,
+     "demographics_only_values": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "demographics_only_mean": 1.0,
+     "demographics_only_within_cell_sd": 0.0,
+     "difference_enriched_minus_demo": 0.0,
+     "difference_full_precision": 0.0,
+     "direction": "tie"
+    },
+    {
+     "fg": "fg2",
+     "enriched_values": [
+      0.5,
+      0.8,
+      0.5
+     ],
+     "enriched_mean": 0.6,
+     "enriched_within_cell_sd": 0.1732,
+     "demographics_only_values": [
+      0.8,
+      0.5,
+      0.75
+     ],
+     "demographics_only_mean": 0.6833,
+     "demographics_only_within_cell_sd": 0.1607,
+     "difference_enriched_minus_demo": -0.0833,
+     "difference_full_precision": -0.08333333333333337,
+     "direction": "demographics-only"
+    },
+    {
+     "fg": "fg3",
+     "enriched_values": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "enriched_mean": 1.0,
+     "enriched_within_cell_sd": 0.0,
+     "demographics_only_values": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "demographics_only_mean": 1.0,
+     "demographics_only_within_cell_sd": 0.0,
+     "difference_enriched_minus_demo": 0.0,
+     "difference_full_precision": 0.0,
+     "direction": "tie"
+    },
+    {
+     "fg": "fg4",
+     "enriched_values": [
+      0.3333,
+      0.6,
+      0.3333
+     ],
+     "enriched_mean": 0.4222,
+     "enriched_within_cell_sd": 0.154,
+     "demographics_only_values": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "demographics_only_mean": 0.0,
+     "demographics_only_within_cell_sd": 0.0,
+     "difference_enriched_minus_demo": 0.4222,
+     "difference_full_precision": 0.4222222222222222,
+     "direction": "enriched"
+    },
+    {
+     "fg": "fg5",
+     "enriched_values": [
+      1.0,
+      0.75,
+      1.0
+     ],
+     "enriched_mean": 0.9167,
+     "enriched_within_cell_sd": 0.1443,
+     "demographics_only_values": [
+      0.6,
+      1.0,
+      1.0
+     ],
+     "demographics_only_mean": 0.8667,
+     "demographics_only_within_cell_sd": 0.2309,
+     "difference_enriched_minus_demo": 0.05,
+     "difference_full_precision": 0.04999999999999993,
+     "direction": "enriched"
+    }
+   ],
+   "across_fgs": {
+    "n_fgs": 5,
+    "mean_difference": 0.0778,
+    "median_difference": 0.0,
+    "min_difference": -0.0833,
+    "max_difference": 0.4222,
+    "n_favouring_enriched": 2,
+    "n_favouring_demographics_only": 1,
+    "n_ties": 2
+   },
+   "exploratory_sign_test": {
+    "test": "exact paired sign test",
+    "classification": "EXPLORATORY — not confirmatory",
+    "n_total_pairs": 5,
+    "n_effective_pairs": 3,
+    "n_ties": 2,
+    "n_favouring_enriched": 2,
+    "n_favouring_demographics_only": 1,
+    "possible_sign_assignments": 8,
+    "p_two_sided": 1.0,
+    "minimum_attainable_two_sided_p": 0.25,
+    "cannot_reach_p05": true,
+    "caveat": "n_total=5 pairs, 2 tie(s), so n_effective=3. 8 possible sign assignments and a minimum attainable two-sided p of 0.25. The ceiling follows n_effective, not n_total. This test cannot reach p<.05, and it does not replace the per-FG effects or the qualitative analysis."
+   },
+   "sensitivity_excluding_fg4": {
+    "justified": false,
+    "note": "Diagnostic only. FG4 demographics-only shows zero overlap, not a technical failure, so exclusion is NOT methodologically justified. Both figures are shown.",
+    "n_fgs": 4,
+    "mean_difference_with_fg4": 0.0778,
+    "mean_difference_without_fg4": -0.0083,
+    "n_favouring_enriched_without_fg4": 1
+   }
+  },
+  "reach": {
+   "role": "primary",
+   "per_fg": [
+    {
+     "fg": "fg1",
+     "enriched_values": [
+      0.9333,
+      0.6,
+      0.9333
+     ],
+     "enriched_mean": 0.8222,
+     "enriched_within_cell_sd": 0.1925,
+     "demographics_only_values": [
+      0.6,
+      0.45,
+      0.7
+     ],
+     "demographics_only_mean": 0.5833,
+     "demographics_only_within_cell_sd": 0.1258,
+     "difference_enriched_minus_demo": 0.2389,
+     "difference_full_precision": 0.23888888888888893,
+     "direction": "enriched"
+    },
+    {
+     "fg": "fg2",
+     "enriched_values": [
+      0.75,
+      0.6,
+      0.9
+     ],
+     "enriched_mean": 0.75,
+     "enriched_within_cell_sd": 0.15,
+     "demographics_only_values": [
+      0.4,
+      0.7,
+      0.5
+     ],
+     "demographics_only_mean": 0.5333,
+     "demographics_only_within_cell_sd": 0.1528,
+     "difference_enriched_minus_demo": 0.2167,
+     "difference_full_precision": 0.21666666666666667,
+     "direction": "enriched"
+    },
+    {
+     "fg": "fg3",
+     "enriched_values": [
+      0.75,
+      0.6667,
+      0.7
+     ],
+     "enriched_mean": 0.7056,
+     "enriched_within_cell_sd": 0.0419,
+     "demographics_only_values": [
+      0.8,
+      0.6,
+      0.4
+     ],
+     "demographics_only_mean": 0.6,
+     "demographics_only_within_cell_sd": 0.2,
+     "difference_enriched_minus_demo": 0.1056,
+     "difference_full_precision": 0.10555555555555562,
+     "direction": "enriched"
+    },
+    {
+     "fg": "fg4",
+     "enriched_values": [
+      0.8889,
+      0.6,
+      1.0
+     ],
+     "enriched_mean": 0.8296,
+     "enriched_within_cell_sd": 0.2065,
+     "demographics_only_values": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "demographics_only_mean": 1.0,
+     "demographics_only_within_cell_sd": 0.0,
+     "difference_enriched_minus_demo": -0.1704,
+     "difference_full_precision": -0.1703703703703704,
+     "direction": "demographics-only"
+    },
+    {
+     "fg": "fg5",
+     "enriched_values": [
+      0.8125,
+      0.6875,
+      0.75
+     ],
+     "enriched_mean": 0.75,
+     "enriched_within_cell_sd": 0.0625,
+     "demographics_only_values": [
+      0.45,
+      0.5833,
+      0.625
+     ],
+     "demographics_only_mean": 0.5528,
+     "demographics_only_within_cell_sd": 0.0914,
+     "difference_enriched_minus_demo": 0.1972,
+     "difference_full_precision": 0.1972222222222222,
+     "direction": "enriched"
+    }
+   ],
+   "across_fgs": {
+    "n_fgs": 5,
+    "mean_difference": 0.1176,
+    "median_difference": 0.1972,
+    "min_difference": -0.1704,
+    "max_difference": 0.2389,
+    "n_favouring_enriched": 4,
+    "n_favouring_demographics_only": 1,
+    "n_ties": 0
+   },
+   "exploratory_sign_test": {
+    "test": "exact paired sign test",
+    "classification": "EXPLORATORY — not confirmatory",
+    "n_total_pairs": 5,
+    "n_effective_pairs": 5,
+    "n_ties": 0,
+    "n_favouring_enriched": 4,
+    "n_favouring_demographics_only": 1,
+    "possible_sign_assignments": 32,
+    "p_two_sided": 0.375,
+    "minimum_attainable_two_sided_p": 0.0625,
+    "cannot_reach_p05": true,
+    "caveat": "n_total=5 pairs, 0 tie(s), so n_effective=5. 32 possible sign assignments and a minimum attainable two-sided p of 0.0625. The ceiling follows n_effective, not n_total. This test cannot reach p<.05, and it does not replace the per-FG effects or the qualitative analysis."
+   },
+   "sensitivity_excluding_fg4": {
+    "justified": false,
+    "note": "Diagnostic only. FG4 demographics-only shows zero overlap, not a technical failure, so exclusion is NOT methodologically justified. Both figures are shown.",
+    "n_fgs": 4,
+    "mean_difference_with_fg4": 0.1176,
+    "mean_difference_without_fg4": 0.1896,
+    "n_favouring_enriched_without_fg4": 4
+   }
+  },
+  "f1_secondary": {
+   "role": "secondary",
+   "per_fg": [
+    {
+     "fg": "fg1",
+     "enriched_values": [
+      0.5455,
+      0.5455,
+      0.5455
+     ],
+     "enriched_mean": 0.5455,
+     "enriched_within_cell_sd": 0.0,
+     "demographics_only_values": [
+      0.4,
+      0.6667,
+      0.4
+     ],
+     "demographics_only_mean": 0.4889,
+     "demographics_only_within_cell_sd": 0.154,
+     "difference_enriched_minus_demo": 0.0566,
+     "difference_full_precision": 0.05656565656565654,
+     "direction": "enriched"
+    },
+    {
+     "fg": "fg2",
+     "enriched_values": [
+      0.3636,
+      0.6667,
+      0.2222
+     ],
+     "enriched_mean": 0.4175,
+     "enriched_within_cell_sd": 0.2271,
+     "demographics_only_values": [
+      0.6667,
+      0.2222,
+      0.5455
+     ],
+     "demographics_only_mean": 0.4781,
+     "demographics_only_within_cell_sd": 0.2297,
+     "difference_enriched_minus_demo": -0.0606,
+     "difference_full_precision": -0.06060606060606061,
+     "direction": "demographics-only"
+    },
+    {
+     "fg": "fg3",
+     "enriched_values": [
+      0.5714,
+      0.4615,
+      0.5714
+     ],
+     "enriched_mean": 0.5348,
+     "enriched_within_cell_sd": 0.0634,
+     "demographics_only_values": [
+      0.1818,
+      0.1818,
+      0.1818
+     ],
+     "demographics_only_mean": 0.1818,
+     "demographics_only_within_cell_sd": 0.0,
+     "difference_enriched_minus_demo": 0.353,
+     "difference_full_precision": 0.3529803529803531,
+     "direction": "enriched"
+    },
+    {
+     "fg": "fg4",
+     "enriched_values": [
+      0.2222,
+      0.5455,
+      0.2222
+     ],
+     "enriched_mean": 0.33,
+     "enriched_within_cell_sd": 0.1866,
+     "demographics_only_values": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "demographics_only_mean": 0.0,
+     "demographics_only_within_cell_sd": 0.0,
+     "difference_enriched_minus_demo": 0.33,
+     "difference_full_precision": 0.32996632996632996,
+     "direction": "enriched"
+    },
+    {
+     "fg": "fg5",
+     "enriched_values": [
+      0.8889,
+      0.6667,
+      0.5714
+     ],
+     "enriched_mean": 0.709,
+     "enriched_within_cell_sd": 0.1629,
+     "demographics_only_values": [
+      0.6,
+      0.75,
+      0.5714
+     ],
+     "demographics_only_mean": 0.6405,
+     "demographics_only_within_cell_sd": 0.0959,
+     "difference_enriched_minus_demo": 0.0685,
+     "difference_full_precision": 0.06851851851851853,
+     "direction": "enriched"
+    }
+   ],
+   "across_fgs": {
+    "n_fgs": 5,
+    "mean_difference": 0.1495,
+    "median_difference": 0.0685,
+    "min_difference": -0.0606,
+    "max_difference": 0.353,
+    "n_favouring_enriched": 4,
+    "n_favouring_demographics_only": 1,
+    "n_ties": 0
+   },
+   "exploratory_sign_test": {
+    "test": "exact paired sign test",
+    "classification": "EXPLORATORY — not confirmatory",
+    "n_total_pairs": 5,
+    "n_effective_pairs": 5,
+    "n_ties": 0,
+    "n_favouring_enriched": 4,
+    "n_favouring_demographics_only": 1,
+    "possible_sign_assignments": 32,
+    "p_two_sided": 0.375,
+    "minimum_attainable_two_sided_p": 0.0625,
+    "cannot_reach_p05": true,
+    "caveat": "n_total=5 pairs, 0 tie(s), so n_effective=5. 32 possible sign assignments and a minimum attainable two-sided p of 0.0625. The ceiling follows n_effective, not n_total. This test cannot reach p<.05, and it does not replace the per-FG effects or the qualitative analysis."
+   },
+   "sensitivity_excluding_fg4": {
+    "justified": false,
+    "note": "Diagnostic only. FG4 demographics-only shows zero overlap, not a technical failure, so exclusion is NOT methodologically justified. Both figures are shown.",
+    "n_fgs": 4,
+    "mean_difference_with_fg4": 0.1495,
+    "mean_difference_without_fg4": 0.1044,
+    "n_favouring_enriched_without_fg4": 3
+   }
+  }
+ }
+}

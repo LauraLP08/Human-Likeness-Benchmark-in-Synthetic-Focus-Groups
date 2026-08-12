@@ -1,0 +1,1877 @@
+{
+  "schema_version": 3,
+  "session_meta": {
+    "id": "macho_meals_fg2_demoonly_run03",
+    "research_objective": "Focus group guide exploring how men in the UK make everyday food\nchoices, how social context, work, hobbies, health, taste and other\npeople shape what they eat, how gender and masculinity may influence\nfood choices, and what would need to change for plant-based foods to\nbecome more acceptable or appealing.\n",
+    "topic_domain": "Masculinity, food choice, animal product consumption, and plant-based eating",
+    "participant_collective_identity": "Men in the UK reflecting on food choices, male friendship, gender norms, and plant-based eating",
+    "moderator_knowledge_brief": "Explore (1) everyday food decision-making, (2) the social contexts in\nwhich men spend time with male friends, (3) the influence of other\npeople, work, hobbies, health, nutrition and taste on food choices,\n(4) whether participants perceive gender as shaping what they eat,\n(5) social acceptability and gendered meanings attached to vegetarian,\nvegan, plant-based, feminine or masculine foods, and (6) what personal,\nsocial and practical changes would make plant-based eating more viable\nor appealing. The discussion should remain exploratory, non-judgmental,\nand non-leading.\n",
+    "researcher_notes": "",
+    "temperature": 1.0,
+    "participant_response_max_tokens": 800,
+    "participation_mode": "emergent",
+    "moderator_model": "claude-sonnet-4-6",
+    "initial_session_plan": {
+      "thematisation_approach": "These participants will be framed as men living and socialising across different parts of the UK \u2014 people with everyday, specific experiences of food, friendship, and the places and people that shape what they eat. The collective identity is grounded in the ordinary and concrete, not in any particular stance on diet or health. I will invite them to speak as themselves, from their own lives, without positioning them as representatives of any ideology or consumer category.",
+      "priority_research_areas": [
+        "Gender and food choice (Section 3): This is the most sensitive section for social desirability bias. Men may default to saying gender doesn't influence their choices, or may perform a 'post-feminist' awareness that distances them from genuine reflection. Behavioural grounding and concrete example probes will be essential here.",
+        "Plant-based eating acceptability and social meaning (Sections 4 and 5): Consensus risk is high \u2014 participants may quickly converge on shared cultural scripts about plant-based food being insufficiently masculine or practically inconvenient. Need to watch for superficial agreement and have sharpening moves and dissent invitations ready.",
+        "Social context of male friendships and food (Section 1 into Section 2): The early context sections are where participants reveal their actual food environments and social norms. These feed the later main topic sections, so richness here is strategically important.",
+        "What would actually need to change (Section 4): Risk that answers remain abstract and aspirational. Need to push toward specific, personal, behavioural answers \u2014 what in their particular life, not what 'in general', would need to shift."
+      ],
+      "participant_notes": [
+        {
+          "participant_id": "mm_fg2_sam",
+          "anticipated_role": "Unknown engagement style from profile alone. Suburban South West background may shape food environment references (e.g. pub culture, outdoor activities). Monitor for whether he is forthcoming or tends to wait.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg2_noah",
+          "anticipated_role": "Northern Ireland background may bring a distinct cultural food context \u2014 different pub and social eating norms, potentially different masculine food scripts. Worth inviting his perspective if regional specificity is being flattened.",
+          "initial_attention_flag": "Regional distinctiveness \u2014 may offer contrast to more dominant English framings if given space."
+        },
+        {
+          "participant_id": "mm_fg2_henry",
+          "anticipated_role": "Urban West Midlands \u2014 city social context, possibly diverse food environment. No other markers from profile. Monitor for dominance or reticence.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg2_bilal",
+          "anticipated_role": "Urban Yorkshire background. Cultural and possibly religious food practices (e.g. halal diet) may intersect with the plant-based discussion in non-obvious ways. Do not assume, but be alert to this as a frame he may introduce himself.",
+          "initial_attention_flag": "May have dietary practices or cultural food norms that bring a different dimension to the gender and plant-based sections. Let him introduce this if relevant; do not prompt it."
+        },
+        {
+          "participant_id": "mm_fg2_connor",
+          "anticipated_role": "Urban Greater London \u2014 likely exposed to a wider range of food cultures and plant-based options than others. May be further along in familiarity with plant-based foods, which could either enrich the discussion or produce consensus-leading answers. Watch for this.",
+          "initial_attention_flag": "London food environment may skew his baseline \u2014 worth noting if his frame of reference diverges significantly from others'."
+        }
+      ],
+      "known_risk_conditions": [
+        "Social desirability is the dominant risk throughout: men may downplay the influence of gender or masculinity on food choices to appear open-minded, while their actual behaviour tells a different story. Use behavioural grounding (specific past events, specific places, specific people) rather than attitude questions wherever possible.",
+        "Consensus risk is elevated in Sections 4 and 5 \u2014 plant-based eating is a culturally well-scripted topic and participants may quickly converge on shared cultural talking points ('it's too expensive', 'it's not filling enough', 'lads would laugh at you'). Plan sharpening hypotheticals and have dissent invitations ready.",
+        "Gender framing in Section 3 risks producing abstract philosophical responses rather than grounded personal ones. Steer toward specific moments and real social situations rather than general opinions about gender.",
+        "No researcher notes flagging personal sensitivity, but food is connected to identity, culture, and body image \u2014 be alert to emotional signals and avoid pressing on them without clear warrant.",
+        "Group composition is all-male, which may create in-group solidarity and make it harder for any individual to break from a shared masculine script. The homogeneity increases conformity risk \u2014 be ready to name and probe for difference."
+      ],
+      "directivity_plan": "Sections 0 and 1 (intro and first context): hold back \u2014 lighter touch, let the group find its voice and establish rapport. The friendship/place question is designed to warm up naturally. Probe only if something rich or unexpected surfaces. Section 2 (everyday food decision-making): moderate directivity \u2014 this is context-building and feeds the main topic, so push for specificity without over-interrogating. Sections 3, 4, 5 (main topics): higher directivity \u2014 this is where the research value lies. Use direct probes actively, surface contradictions when they appear, invite dissent when consensus hardens. Watch behavioural grounding especially in Section 3. Section 6 (closing): light \u2014 do not reopen exhausted topics; allow anything left unsaid to surface naturally.",
+      "time_budget": {
+        "total_minutes": 45,
+        "total_word_budget": 4500,
+        "budget_rationale": "Main topic sections (3, 4, 5) receive the heaviest allocation \u2014 roughly 60% of total budget \u2014 because they carry the core research questions. Context sections (1, 2) receive moderate allocation to establish necessary groundwork without over-running. Intro and closing receive minimal allocation \u2014 enough for orientation and wrap-up, but not enough to exhaust topics before the core discussion or to reopen things adequately covered.",
+        "per_section": [
+          {
+            "section_index": 0,
+            "section_label": "Introduction and instructions",
+            "section_phase": "intro",
+            "word_budget": 250,
+            "turn_budget": 6
+          },
+          {
+            "section_index": 1,
+            "section_label": "Opening discussion: male friendship and place",
+            "section_phase": "context",
+            "word_budget": 550,
+            "turn_budget": 10
+          },
+          {
+            "section_index": 2,
+            "section_label": "Everyday food decision-making",
+            "section_phase": "context",
+            "word_budget": 650,
+            "turn_budget": 12
+          },
+          {
+            "section_index": 3,
+            "section_label": "Gender and food choice",
+            "section_phase": "main_topic",
+            "word_budget": 900,
+            "turn_budget": 16
+          },
+          {
+            "section_index": 4,
+            "section_label": "Imagining a plant-based shift",
+            "section_phase": "main_topic",
+            "word_budget": 850,
+            "turn_budget": 15
+          },
+          {
+            "section_index": 5,
+            "section_label": "Making plant-based foods more appealing",
+            "section_phase": "main_topic",
+            "word_budget": 900,
+            "turn_budget": 16
+          },
+          {
+            "section_index": 6,
+            "section_label": "Closing remarks",
+            "section_phase": "closing",
+            "word_budget": 200,
+            "turn_budget": 5
+          }
+        ]
+      }
+    },
+    "current_section_index": 6,
+    "section_phase": "closing",
+    "current_question_index": 0,
+    "total_turns": 40,
+    "session_started_at": "2026-07-29T23:33:27.398775Z",
+    "inject_participant_intro": false,
+    "run_label": "demoonly_run03",
+    "participant_episodic_depth": "since_last_n",
+    "participant_episodic_since_last_n": 20,
+    "participant_episodic_recent_k": 6,
+    "moderator_reflection_enabled": true,
+    "moderator_restraint_prompt": true,
+    "moderator_context_mode": "summarized",
+    "engagement_own_history_token_budget": 1500,
+    "moderator_prompt_override": "sandbox/01_MODERATOR_SYSTEM_PROMPT_MINIMAL.md",
+    "moderator_opening_prompt_override": null,
+    "time_budget_tracking_enabled": true
+  },
+  "discussion_guide": [
+    {
+      "section_index": 0,
+      "section_label": "Introduction and instructions",
+      "section_phase": "intro",
+      "section_purpose": "Section 0: Introduction and instructions",
+      "scripted_question": "Hi everyone, thanks so much for joining the focus group today. We\u2019re\ngoing to take about 45 minutes to talk about your food choices and\nopinions, and this will be recorded for research purposes. Try not to\noverthink the questions, and simply speak freely. There are no right\nor wrong answers. Please be respectful of your fellow focus group\nmembers, and keep your responses relatively brief to allow time for\neveryone to speak. But remember that this is a conversation, not an\ninterview, so you can jump in when you have something to say and you\ndon\u2019t have to take turns answering each question, but you can if you\nwant to. Okay great, let\u2019s start by going around and saying your name\nand where in the UK you\u2019re coming from today.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 1,
+      "section_label": "Opening discussion: male friendship and place",
+      "section_phase": "context",
+      "section_purpose": "Section 1: Opening discussion: male friendship and place",
+      "scripted_question": "What\u2019s your favourite place in your city to spend time with your male\nfriends? Why? Feel free to be specific.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 2,
+      "section_label": "Everyday food decision-making",
+      "section_phase": "context",
+      "section_purpose": "Section 2: Everyday food decision-making",
+      "scripted_question": "How do you decide what to eat?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "Do other people influence what you eat? If so, tell us more about how.",
+        "Do your work or hobbies influence what foods you eat? Tell us more about how.",
+        "How important is health and nutrition?",
+        "How important is taste?"
+      ]
+    },
+    {
+      "section_index": 3,
+      "section_label": "Gender and food choice",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 3: Gender and food choice",
+      "scripted_question": "Do you think your gender influences what you eat? Tell us more about\nwhy or why not.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "Is it socially acceptable for men to eat vegetarian or vegan foods?",
+        "Are some foods considered feminine?",
+        "Are some foods considered masculine?"
+      ]
+    },
+    {
+      "section_index": 4,
+      "section_label": "Imagining a plant-based shift",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 4: Imagining a plant-based shift",
+      "scripted_question": "Imagine you decided to go plant-based \u2014 what would need to change in\nyour life for you to do that?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "How would your family and friends react to this?",
+        "How might it change the way you shop or cook?"
+      ]
+    },
+    {
+      "section_index": 5,
+      "section_label": "Making plant-based foods more appealing",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 5: Making plant-based foods more appealing",
+      "scripted_question": "What might make plant-based foods more appealing to you or other men\nyou know?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 6,
+      "section_label": "Closing remarks",
+      "section_phase": "closing",
+      "section_purpose": "Section 6: Closing remarks",
+      "scripted_question": "Okay everyone, that\u2019s our time. Thanks so much for participating\ntoday. Before we finish, is there anything else you would like to add\nabout food choices, gender, masculinity, or plant-based eating?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    }
+  ],
+  "participants": {
+    "mm_fg2_sam": {
+      "id": "mm_fg2_sam",
+      "name": "Sam",
+      "profile_summary": "Sam, 33, Male. Suburban, South West, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg2_sam",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Sam",
+            "age": 33,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "South West",
+              "country": "UK"
+            }
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG2"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "I think, um, for me, um, it's similar to Noah and just probably just the pub. Um, there's not really much to do or offer in Swindon to be honest. But um yeah, just going down the pub and just yeah, just have a bit of fun and get away from day to day nine to five (.) stuff. And particularly you know, whilst the Euros is on it's been quite fun so, um, yeah, just like pub at the weekend or something similar.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 8,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg2_noah": {
+      "id": "mm_fg2_noah",
+      "name": "Noah",
+      "profile_summary": "Noah, 32, Male. Suburban, Northern Ireland, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg2_noah",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Noah",
+            "age": 32,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "Northern Ireland",
+              "country": "UK"
+            }
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG2"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "At the moment, um, it\u2019s probably at the bar, because you watch the Euros at the moment. So it's quite a, it's quite quite a male sort of dominated environment in general. (.) Um, but then during the winter of play, I play rugby. So it's, (.) again, it's a sporting type thing where you go out and thrash it out with 29 other guys. So again, it's about that sort of just escaping from sort of the day to day mundane, mundaneness.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 6,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg2_henry": {
+      "id": "mm_fg2_henry",
+      "name": "Henry",
+      "profile_summary": "Henry, 35, Male. Urban, West Midlands, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg2_henry",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Henry",
+            "age": 35,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Urban",
+              "region": "West Midlands",
+              "country": "UK"
+            }
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG2"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Uh, my favourite place in my city to spend time with my male friends is the golf course. (.) Uh, the reason why is (.) I can just get away from the stresses of my life (.), um, (.) I suppose it\u2019s like a journey along with golf. (.) Yeah, I just feel (.) a lot more relaxed and free, I guess, when I'm with my friends playing golf.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 9,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg2_bilal": {
+      "id": "mm_fg2_bilal",
+      "name": "Bilal",
+      "profile_summary": "Bilal, 32, Male. Urban, Yorkshire and the Humber, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg2_bilal",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Bilal",
+            "age": 32,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Urban",
+              "region": "Yorkshire and the Humber",
+              "country": "UK"
+            }
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG2"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "On me, I like the coffee shop like we have like Nero, Coffee Nero. We walk to town hall sometimes we gather with friends there and just sitting in with a view and there are some options for drink anything to [unintelligible], I like there I could say.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 9,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg2_connor": {
+      "id": "mm_fg2_connor",
+      "name": "Connor",
+      "profile_summary": "Connor, 34, Male. Urban, Greater London, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg2_connor",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Connor",
+            "age": 34,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Urban",
+              "region": "Greater London",
+              "country": "UK"
+            }
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG2"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Um, actually I don't have any, uh, favourite place. Um, probably comes from the fact that I like to explore new places and I'm looking (.) for the perfect place, so until like I didn't find that I think we'll go to other places and yeah, that's. To be honest, I don't think I will find one but it's just probably, uh, yeah, I just like to see something different. I did go to places, uh, that I've been before but there's not like the one place I would always go.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 6,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    }
+  },
+  "group_state": {
+    "participation_balance": {
+      "mm_fg2_sam": 0.211,
+      "mm_fg2_noah": 0.158,
+      "mm_fg2_henry": 0.237,
+      "mm_fg2_bilal": 0.237,
+      "mm_fg2_connor": 0.158
+    },
+    "silent_participants": [],
+    "consensus_risk": 0.15,
+    "dominant_voices": [],
+    "unresolved_tensions": [
+      {
+        "participant_id": "mm_fg2_bilal",
+        "flagged_at_turn": 15,
+        "description": "In Section 1 confirmed the pub-as-default pattern and 'choosing easy over adventurous'; now says his eating is 'messier than that' and he sometimes tries new places or varies based on who he's with \u2014 explicitly questioning whether his earlier answer was honest or just going along with the group",
+        "resolved": false,
+        "resolved_at_turn": null,
+        "surfaced": false,
+        "surface_count": 0
+      },
+      {
+        "participant_id": "mm_fg2_henry",
+        "flagged_at_turn": 16,
+        "description": "In Section 1 agreed with the pub-as-default pattern without qualification; now says his eating 'is all over the place' and he 'wasn't being fully honest' in that earlier characterisation",
+        "resolved": false,
+        "resolved_at_turn": null,
+        "surfaced": true,
+        "surface_count": 1
+      }
+    ],
+    "group_has_agreed_easily_on": [
+      "Pub as default social space regardless of whether alternatives exist \u2014 driven by familiarity, convenience, and social coordination ease",
+      "Bilal confirms the same pub-as-default pattern in Leeds \u2014 consistent with Connor and Henry's urban-with-options framing",
+      "Social/pub eating and individual day-to-day food decisions are meaningfully different kinds of choices \u2014 the pub is about the social routine, not food selection",
+      "Having options available is not the same as actually exercising choice \u2014 the illusion of choice may function similarly to the absence of it",
+      "Having options available functions as an alibi for not choosing \u2014 participants with urban access may default just as automatically as those without it",
+      "Food type choices (meat-heavy) remain consistent even when context varies \u2014 the 'all over the place' variability is situational, not substantive",
+      "Going plant-based represents a categorically different kind of choice to ordinary variety-seeking \u2014 not a one-off decision but a sustained commitment that requires active management every time you eat",
+      "Stated barriers to plant-based eating may be assumptions rather than tested experience \u2014 both Sam and Bilal have now publicly admitted this",
+      "Stated barriers to plant-based eating may be post-hoc rationalisations for a prior decision not to engage, rather than evidence-based reasons \u2014 Sam and Bilal have both now explicitly named this",
+      "Practical objections to plant-based eating (logistics, taste) may function as socially acceptable cover for a more uncomfortable admission \u2014 that the real barrier is not wanting to stand out",
+      "Practical objections to plant-based eating may function as socially acceptable cover for the real barrier \u2014 not wanting to stand out in male social settings",
+      "Naming the real barrier (social discomfort about standing out) is more honest than using practical objections as cover \u2014 and naming it is not weakness"
+    ],
+    "section_turn_counts": {
+      "mm_fg2_henry": 1,
+      "mm_fg2_bilal": 1,
+      "mm_fg2_noah": 1
+    },
+    "section_word_counts": {
+      "MODERATOR": 255,
+      "mm_fg2_henry": 255,
+      "mm_fg2_bilal": 215,
+      "mm_fg2_noah": 294
+    },
+    "completed_section_turn_counts": {
+      "0": {
+        "mm_fg2_noah": 1,
+        "mm_fg2_connor": 1,
+        "mm_fg2_henry": 1,
+        "mm_fg2_sam": 1,
+        "mm_fg2_bilal": 1
+      },
+      "1": {
+        "mm_fg2_connor": 3,
+        "mm_fg2_noah": 2,
+        "mm_fg2_sam": 1,
+        "mm_fg2_henry": 1,
+        "mm_fg2_bilal": 1
+      },
+      "2": {
+        "mm_fg2_bilal": 2,
+        "mm_fg2_henry": 2
+      },
+      "3": {
+        "mm_fg2_sam": 3,
+        "mm_fg2_noah": 2,
+        "mm_fg2_connor": 1,
+        "mm_fg2_henry": 2
+      },
+      "4": {
+        "mm_fg2_bilal": 2,
+        "mm_fg2_henry": 2,
+        "mm_fg2_connor": 1
+      },
+      "5": {
+        "mm_fg2_sam": 3,
+        "mm_fg2_bilal": 2
+      }
+    },
+    "completed_section_word_counts": {
+      "0": {
+        "MODERATOR": 189,
+        "mm_fg2_noah": 31,
+        "mm_fg2_connor": 22,
+        "mm_fg2_henry": 31,
+        "mm_fg2_sam": 39,
+        "mm_fg2_bilal": 32
+      },
+      "1": {
+        "MODERATOR": 121,
+        "mm_fg2_connor": 275,
+        "mm_fg2_noah": 284,
+        "mm_fg2_sam": 212,
+        "mm_fg2_henry": 163,
+        "mm_fg2_bilal": 170
+      },
+      "2": {
+        "MODERATOR": 44,
+        "mm_fg2_bilal": 371,
+        "mm_fg2_henry": 410
+      },
+      "3": {
+        "MODERATOR": 242,
+        "mm_fg2_sam": 708,
+        "mm_fg2_noah": 442,
+        "mm_fg2_connor": 169,
+        "mm_fg2_henry": 482
+      },
+      "4": {
+        "MODERATOR": 135,
+        "mm_fg2_bilal": 483,
+        "mm_fg2_henry": 500,
+        "mm_fg2_connor": 266
+      },
+      "5": {
+        "MODERATOR": 152,
+        "mm_fg2_sam": 765,
+        "mm_fg2_bilal": 455
+      }
+    },
+    "consecutive_silent_turns": 0,
+    "consecutive_participant_turns": 0,
+    "last_speaker_id": "MODERATOR",
+    "last_engagement_round": [
+      {
+        "participant_id": "mm_fg2_noah",
+        "wants_to_speak": true,
+        "urgency": 0.7,
+        "hook": "Bilal's stuck on the incomplete feeling \u2014 knowing the barrier exists but not knowing what to do with that knowledge. Noah has experience of actually being limited by geography and social constraint, not just choice. There's something about accepting discomfort as real without needing to fix it, and how that might be different from what Bilal's implying.",
+        "addressed_to": "Bilal",
+        "intent": "affirm_and_elaborate"
+      }
+    ],
+    "section_summaries": [
+      {
+        "section_index": 0,
+        "section_label": "Introduction and instructions",
+        "discussion_summary": "This opening section was purely introductory \u2014 participants shared names and locations (Belfast, London, Birmingham, South West, Leeds), signalling geographic and likely demographic diversity. No substantive food-related themes emerged yet. The section closed with a bridging question about where male friends spend time together, which frames the transition toward social context as a lens for exploring food and eating behaviour.",
+        "strategy_summary": "The moderator prioritised lowering the stakes at the outset \u2014 emphasising no right answers, inviting natural conversation, and using a gentle round-robin introduction to establish presence before any content questions. Letting participants volunteer rather than being directed appeared to work smoothly, with all five joining without prompting. The pivot question at the close was a soft on-ramp, grounding the discussion in familiar social settings before food choices are introduced."
+      },
+      {
+        "section_index": 1,
+        "section_label": "Opening discussion: male friendship and place",
+        "discussion_summary": "This section surfaced a meaningful distinction between constrained and unconstrained default behaviour \u2014 participants in urban areas (London, Birmingham, Leeds) gravitate to familiar pub spots despite abundant alternatives, while Noah's rural context revealed that identical behaviour (always going to the same pub) carries a different meaning when genuine choice is absent. The group quickly grasped and accepted this nuance, suggesting awareness of how geography shapes agency even if they rarely reflect on it day-to-day.",
+        "strategy_summary": "The priority was broadening a two-person exchange into a full-group comparison across locations, using direct address to draw in Sam, Henry, and Bilal sequentially. This worked cleanly \u2014 each added incremental texture without simply repeating the Connor/Noah framing. The moderator's one substantive intervention (naming the 'having options and not using them' distinction) validated Noah's pushback without foreclosing further exploration, and the transition out felt timely once the urban/rural contrast had been acknowledged by all five."
+      },
+      {
+        "section_index": 2,
+        "section_label": "Everyday food decision-making",
+        "discussion_summary": "This section was dominated by a spontaneous act of collective self-correction: participants pulled back from the 'default to comfort' consensus reached earlier, recognising it as a socially convenient simplification rather than an accurate account of their actual behaviour. Two distinct frames emerged \u2014 the pub as social ritual where food is incidental, versus day-to-day eating as genuinely variable and context-driven. The group effectively disaggregated a concept they had previously treated as unified.",
+        "strategy_summary": "The moderator largely stayed out of the way while Bilal and Henry worked through a productive revision of earlier claims \u2014 correctly reading this as high-value organic content worth protecting. The closing pivot used Henry's food/pub distinction as a clean exit point and redirected toward gender and food, which was timely. Risk: Connor, Sam, and Noah were entirely absent this section; the self-correction dynamic was left as a two-person exchange without testing whether others shared the revised view."
+      },
+      {
+        "section_index": 3,
+        "section_label": "Gender and food choice",
+        "discussion_summary": "This section centred on the social regulation of masculine food choices \u2014 the unspoken norm against 'lighter' options in male group settings \u2014 and then extended into a more nuanced question about whether geographic constraint versus habitual non-choice are meaningfully different. The group collectively arrived at a self-questioning position: apparent freedom of choice may be largely illusory once routine and inertia are accounted for. Gender influence on food was acknowledged but treated as inseparable from socialised habit.",
+        "strategy_summary": "The priority was drawing Sam, Noah, Connor, and Henry into the gender-and-food frame while protecting a productive Sam\u2013Noah exchange about constraint versus choice. Direct address pulled Henry in at turn 25, and a deliberate callback to his earlier self-correction generated the section's most useful clarification. The risk from the prior section \u2014 Connor, Sam, and Noah being absent \u2014 was partially corrected here, though Bilal remained entirely unheard and was not successfully drawn in before the transition."
+      },
+      {
+        "section_index": 4,
+        "section_label": "Imagining a plant-based shift",
+        "discussion_summary": "This section deepened the earlier agency-versus-habit tension into a more specific question: what kind of choice is plant-based adoption? Three positions emerged \u2014 Bilal framing it as logistical burden, Henry reframing it as perpetual visible differentiation, and Connor synthesising both as ongoing real-world cost rather than a philosophical constraint on agency. The group moved from abstract questions about routine toward a more grounded account of why sustained dietary change feels categorically harder than ordinary consumer choice.",
+        "strategy_summary": "The moderator's main intervention redirected a productive but two-person Bilal\u2013Henry exchange toward the three previously absent participants, using Henry's distinction as a pivot. Connor responded substantively; Sam and Noah did not contribute before the section closed. The closing transition \u2014 reframing Connor's 'cost' observation as a bridge to what would make plant-based more appealing \u2014 was clean and timely, though Sam and Noah remain unheard across two consecutive sections, which is a growing gap."
+      },
+      {
+        "section_index": 5,
+        "section_label": "Making plant-based foods more appealing",
+        "discussion_summary": "This section marked a second-order self-correction: participants didn't just revise a content claim but interrogated the entire basis for their stated barriers, recognising them as post-hoc rationalisation for inertia rather than evidence-based reasoning. The section closed with Bilal cutting beneath even that, naming social discomfort \u2014 fear of visible difference \u2014 as the real underlying barrier that the practical objections had been masking throughout the session.",
+        "strategy_summary": "The moderator's main moves were amplifying Sam's spontaneous self-undermining and then bouncing it to the group to test whether it was shared \u2014 which it was, immediately. Staying minimal while Sam and Bilal worked through the rationalisation theme was the right call. The closing turn attempted to draw Noah, Henry, and Connor back in before the session ended, correcting a persistent participation imbalance, though their responses weren't captured in this section."
+      },
+      {
+        "section_index": 6,
+        "section_label": "Closing remarks",
+        "discussion_summary": "This closing section tested whether self-awareness alone constitutes meaningful change. Henry reframed honesty about social discomfort as distinct from weakness; Bilal accepted the reframe but pressed further \u2014 naming the barrier doesn't dissolve it, and awareness without behavioural change feels incomplete. Noah's closing contribution sharpened the session's persistent constraint-versus-choice tension: opting out of a social norm is categorically different when there is only one social space to opt out of.",
+        "strategy_summary": "The priority was landing two things before close: validating Bilal's unresolved position without tidying it artificially, and finally drawing Noah out on the geographic-constraint thread that had been underserved since Section 1. Direct address to Noah worked \u2014 he delivered the session's sharpest synthesis unprompted. Staying minimal while Henry and Bilal worked through the awareness-versus-change question was correct; the closing moderator turn acknowledged both threads without overclaiming resolution."
+      }
+    ],
+    "moderator_turn_share_overall": 0.475,
+    "moderator_turn_share_recent": 0.6
+  },
+  "moderator_log": [
+    {
+      "turn": 0,
+      "timestamp": "2026-07-29T23:34:19.552971Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Session is initialising. No participant has spoken. The opening utterance needs to do four things simultaneously: welcome the group warmly, establish the psychological safety conditions for honest talk, set the conversational (not interview) frame, and deliver the first guide question naturally. The scripted intro question already contains all the procedural framing the researcher intends \u2014 my job is to humanise it without altering its content or adding topic framing the researcher hasn't sanctioned.",
+      "action": "ask_initial_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Hi everyone, really glad you could all make it today. My name's Alex, and I'll be facilitating the conversation. So we've got about 45 minutes together, and we're going to be talking about food choices and opinions \u2014 just a conversation, nothing too formal. It's being recorded for research purposes, but please don't let that put you off speaking freely \u2014 in fact, that's exactly what I'd ask you to do. There are no right or wrong answers here, and honestly the most useful thing you can do is just say what's actually true for you, even if it feels a bit obvious or mundane. You don't need to perform expertise or give me the 'correct' take on anything. And this really is a conversation rather than an interview, so you're very welcome to jump in if something someone else says connects with your experience \u2014 you don't need to wait to be asked. Just be respectful of each other, and try to keep things reasonably brief so there's room for everyone. Okay \u2014 let's ease in gently. Let's go around and say your name and where in the UK you're coming from today.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": null
+    },
+    {
+      "turn": 2,
+      "timestamp": "2026-07-29T23:34:35.683375Z",
+      "trigger": null,
+      "situation_assessment": "Noah has introduced himself \u2014 brief and appropriate for the intro section. Sam has not yet introduced himself (turn 2 is Noah's, and the transcript only shows the moderator's opening at turn 0). Looking at the engagement round, Sam, Henry, Bilal, and Connor have all indicated they want to speak. This is a simple go-around intro \u2014 the group is naturally queued to speak in sequence. No intervention needed; the remaining participants should introduce themselves organically. Observing is correct here.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 3,
+      "timestamp": "2026-07-29T23:34:52.259032Z",
+      "trigger": null,
+      "situation_assessment": "Connor has just introduced himself \u2014 brief, appropriate for the intro section. This is the go-around introductions, and we've now heard from Noah and Connor. Sam, Henry, and Bilal have not yet introduced themselves. The section word budget is nearly spent (220/250), but the goal here is simply getting all five participants to speak at least once before moving on. The remaining three participants all indicated they want to speak in the last engagement round. No intervention needed \u2014 the group is naturally queued to continue the round-robin. Observing is the right call.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "timestamp": "2026-07-29T23:35:12.994532Z",
+      "trigger": null,
+      "situation_assessment": "Henry has introduced himself \u2014 brief and appropriate for the intro section. We've now heard from Noah, Connor, and Henry. Sam and Bilal have not yet introduced themselves, and both indicated they want to speak in the last engagement round. The section word budget is essentially spent (242/250), but the core intro goal \u2014 getting all five participants to speak at least once \u2014 hasn't been met yet. Sam and Bilal should naturally continue the round-robin without any moderator intervention needed. Observing is correct.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 5,
+      "timestamp": "2026-07-29T23:35:27.144260Z",
+      "trigger": null,
+      "situation_assessment": "Sam has introduced himself \u2014 brief and appropriate. We've now heard from Noah, Connor, Henry, and Sam. Bilal is the only participant who hasn't spoken yet. The last engagement round showed Bilal wanting to speak. This is still the intro go-around and Bilal should naturally take his turn. No moderator intervention needed \u2014 let the round complete organically.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "timestamp": "2026-07-29T23:35:46.415816Z",
+      "trigger": "section_complete",
+      "situation_assessment": "All five participants have now introduced themselves \u2014 Noah (Belfast), Connor (London), Henry (Birmingham), Sam (South West), Bilal (Leeds). The round-robin is complete. The intro section has served its purpose: everyone has spoken at least once and the group is warmed up. We're over the word budget for this section (312/250) but that's fine given the goal has been met. The mandatory intervention flag is correct \u2014 I need to speak now. The natural move is a brief acknowledgment and transition to Section 1, the opening discussion question about favourite places to spend time with male friends. No probing is needed in the intro \u2014 the section is done.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Great, good to have you all here \u2014 Belfast, London, Birmingham, South West, and Leeds. Quite a spread. Right, let's get into it. Thinking about the places where you actually spend time with your male friends \u2014 what's your favourite spot in your area for that? Could be a pub, somewhere outdoors, someone's house, whatever comes to mind. And why that place?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "timestamp": "2026-07-29T23:36:13.103713Z",
+      "trigger": null,
+      "situation_assessment": "Connor has just given the first substantive response to the Section 1 guide question \u2014 favourite place to spend time with male friends. His answer is clear and specific: the local pub, reasons being convenience, regularity of the group, relaxed atmosphere, and food being available. This is a solid opening answer for a context section. The question has only been answered by one person so far, and the rest of the group hasn't had a chance to contribute yet. The section is barely started (60 words, 0/10 turns). The right move here is to observe and let others respond \u2014 there's no reason to intervene. Connor's answer may prompt others to share their own spots naturally, or they may feel the floor is open. Either way, moderator intervention now would cut off what could be organic group exchange.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "timestamp": "2026-07-29T23:36:37.501126Z",
+      "trigger": null,
+      "situation_assessment": "Noah has just responded to Connor's answer about the local pub, affirming the same pattern \u2014 same pub, same regularity, convenience, food available but not the point. His response adds a useful detail: smaller area means fewer options, so the pub becomes a default by necessity rather than active preference. This is a mild elaboration on Connor's point but not a strong divergence. The section has only had two respondents (Connor, Noah) and three others haven't yet spoken \u2014 Sam, Henry, and Bilal. The engagement round shows all three want to contribute. The section is early (166/550 words, 1/10 turns). The right move is clearly to observe and let the floor open naturally \u2014 Sam, Henry, or Bilal will likely jump in, and the question is still very much live. No moderator intervention needed.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "timestamp": "2026-07-29T23:36:58.772201Z",
+      "trigger": null,
+      "situation_assessment": "Connor has now responded to Noah's point, drawing out an interesting cross-location observation: even with more options in London, the group still defaults to the same pub \u2014 comfort, no need to think, shared knowledge of location. This is a useful elaboration that generalises the 'pub as default' pattern beyond just having fewer options (Noah's framing). Three participants \u2014 Sam, Henry, Bilal \u2014 haven't yet spoken in this section. The engagement round shows all three want to contribute, and Henry in particular wanted to push back on the 'default spot' framing with something about Birmingham's food culture offering more genuine choice. The guide question is still very much live and the section is well within budget (306/550 words, 2/10 turns). The floor is naturally open. Intervening now would cut off what looks set to be organic contributions from the quieter participants. Observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "timestamp": "2026-07-29T23:37:24.720501Z",
+      "trigger": null,
+      "situation_assessment": "Noah has pushed back on Connor's framing in a genuinely interesting way \u2014 distinguishing between choosing the default when alternatives exist versus having no real alternative at all. This is a meaningful differentiation that adds real texture to the section's guide question. The exchange is productive and alive: Noah is engaging directly with Connor's point, and the section still has three participants who haven't spoken (Sam, Henry, Bilal), all of whom signalled they want to contribute. The section is at 412/550 words and 3/10 turns \u2014 still within budget but moving along. The right call here is to observe. Sam, Henry, and Bilal are ready to jump in, and Noah's pushback is exactly the kind of thing that invites organic responses from others. Moderator intervention now would interrupt what looks like a natural group exchange about to open up.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "timestamp": "2026-07-29T23:37:54.821622Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Connor has graciously conceded Noah's point \u2014 that choosing the pub when you have other options is qualitatively different from the pub being your only real option. This is a good moment of genuine differentiation in the group, and the exchange between Connor and Noah has been productive. However, the section word budget is now slightly over (556/550 words) and Sam, Henry, and Bilal haven't spoken at all in this section \u2014 each of them signalled they had something to add. The mandatory intervention threshold has been hit (4 consecutive participant turns). The guide question has been reasonably well-explored through Connor and Noah's back-and-forth, but Sam, Henry, and Bilal have their own cities and social contexts that haven't been heard. The right move is a light redirect to the group that brings in the quieter voices \u2014 particularly Sam, who has spoken least overall \u2014 while the conversation is still warm on this topic. A brief acknowledgement of the Connor/Noah exchange, then opening the floor to the others. This keeps it in section 1's territory without forcing a formal transition.",
+      "action": "reactivate_silent",
+      "target": "mm_fg2_sam",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 1 is over budget and the guide question has been adequately explored once Sam and others have had a chance to briefly respond.",
+        "condition": "Sam, Henry, or Bilal have spoken and no major new thread has opened up."
+      },
+      "intervention_mode": "speak",
+      "utterance": "That's an interesting distinction \u2014 having options and not using them is a different thing from not having them at all. Sam, Henry, Bilal \u2014 what about where you are? Same kind of story, or does it look different?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 12,
+      "timestamp": "2026-07-29T23:38:16.404842Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Sam has contributed a genuinely useful response \u2014 he's mapped his suburban South West context onto the Connor/Noah distinction in a thoughtful way, positioning himself closer to Connor (choice available, not used) but noting the lack of conscious awareness that anything is being missed. This adds texture to the section without opening a major new thread. The section is now over budget (656/550 words, 5 turns used). Henry and Bilal still haven't spoken in this section. The guide question has been reasonably covered \u2014 the pub-as-default pattern, the choice-vs-no-choice distinction, and the suburban middle ground have all been surfaced. Henry and Bilal's cities (Birmingham and Leeds) haven't been heard from, but the section has done its job of establishing social geography and the value of extracting more detail is diminishing. The right call is to briefly invite Henry or Bilal, then transition. Bilal was flagged for potential cultural distinctiveness; Henry wanted to push back on the default-spot framing. A light, warm opening to both before transitioning is the efficient move \u2014 not a full probe, just a quick floor-pass. Given the budget overage and participation balance, I'll invite Henry specifically (least spoken, Birmingham not heard from), with Bilal folded in, then move to section 2.",
+      "action": "reactivate_silent",
+      "target": "mm_fg2_henry",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 1 is over budget and adequately explored. After Henry and Bilal briefly respond, move to Section 2.",
+        "condition": "Henry or Bilal respond and no major new thread opens."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Henry, Bilal \u2014 what's it like where you are? Does that land the same way?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 13,
+      "timestamp": "2026-07-29T23:38:35.697950Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Henry has now spoken, and his response closely mirrors Connor's \u2014 Birmingham has lots of options, they default to the same pubs, they could be more adventurous but aren't. He also explicitly acknowledges and affirms Noah's distinction between choosing not to bother versus having no alternative. This is good, but it doesn't add much new to what's already been well-established. Bilal (Leeds) hasn't spoken yet in this section. The section is already significantly over budget (882/550 words, 6 turns). The core guide question \u2014 favourite place to spend time with male friends and why \u2014 has been thoroughly answered: pub as default, comfort and familiarity as drivers, geographic variation in whether alternatives even exist. The Connor/Noah distinction is the most analytically useful thing to have emerged. Adding Bilal's Leeds perspective would complete the geographic picture but the marginal research value is low. Given the budget overage, the right call is a brief, light floor-pass to Bilal and then move to Section 2. Don't open a new probe \u2014 just give Bilal a warm moment to add anything if he has it, then transition.",
+      "action": "reactivate_silent",
+      "target": "mm_fg2_bilal",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 1 is significantly over budget and the guide question has been thoroughly covered. After Bilal responds, move directly to Section 2.",
+        "condition": "Bilal responds and no major new thread opens."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Bilal, what's it like in Leeds \u2014 similar sort of thing?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 14,
+      "timestamp": "2026-07-29T23:38:54.575124Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Bilal has now spoken, completing the geographic round. His response closely mirrors Connor's and Henry's \u2014 Leeds has plenty of options, they default to the same pubs anyway, choosing easy over adventurous. He explicitly acknowledges Noah's distinction. This adds no materially new information; the section's guide question has been thoroughly answered across all five participants. The section is now massively over budget (1055/550 words, 7/10 turns). The pub-as-default pattern, the choice-vs-constraint distinction, and the suburban/urban/rural variation have all been mapped. The queued next action from the previous moderator turn was a section transition after Bilal responded. That condition has been met. Time to move to Section 2.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Sounds like whatever the city, the pull towards familiar spots is pretty strong \u2014 even when there's no shortage of alternatives. Let's shift gears a bit. Thinking about your day-to-day now \u2014 how do you actually decide what to eat? What goes into that for you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 15,
+      "timestamp": "2026-07-29T23:39:31.435997Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Bilal has just opened Section 2 with a notably honest and self-correcting response \u2014 he's acknowledging that his earlier answer about defaulting to the same pubs may have been social conformity rather than accurate self-description. He's introduced genuine variability: it depends on who he's with, what's going on, how much time he has. This is exactly the kind of honest, behavioural specificity Section 2 is designed to surface. It also implicitly names a dynamic worth tracking \u2014 that group settings may produce more conformist self-descriptions than individual reflection does. However, this is just the first response to the Section 2 question. The group hasn't yet had a chance to respond to the guide question. Bilal's answer is rich but I shouldn't immediately probe him \u2014 the right move is to let the rest of the group respond first. Connor has indicated he doesn't want to speak; Noah, Henry, and Sam all do. The discussion has just opened and the section has barely started (44 words, 0 turns counted). Multiple participants want to respond. Letting them speak is the correct move.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "timestamp": "2026-07-29T23:40:00.276204Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Henry has just echoed Bilal's self-correction almost exactly \u2014 both are now saying their earlier pub-centric self-description was an oversimplification, and that day-to-day eating is messier, more variable, context-dependent. This is the second consecutive participant making the same point in the same way. It adds confirmation but not new information. The Section 2 guide question ('How do you decide what to eat?') has barely been opened \u2014 we have Bilal's and now Henry's responses, both of which are essentially meta-commentary on the Section 1 discussion rather than substantive answers to Section 2. The section is only at 1/12 turns and 233/650 words, so there's ample room to explore. The right move is to let the remaining participants (Noah, Sam, Connor) respond to the guide question rather than probing Bilal or Henry further \u2014 they're both echoing each other and the meta-thread about honesty in groups, while the actual question about how food decisions are made day-to-day remains largely unexplored in any concrete way. Multiple participants indicated they wanted to speak. Observe and let the group continue.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "timestamp": "2026-07-29T23:40:33.268437Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Bilal has now made his third consecutive contribution in this section, and all three (Bilal turn 15, Henry turn 16, Bilal turn 17) are essentially the same point: the earlier pub-default narrative was an oversimplification produced by group conformity, and real eating behaviour is more varied and contextual. This is a genuinely interesting meta-observation about group dynamics and social desirability, but it is not actually answering the Section 2 guide question \u2014 'How do you decide what to eat?' \u2014 with any specificity. We are getting the framing ('it's messier than that') without the content (what actually drives decisions day to day). Noah, Sam, and Connor have not yet responded to the Section 2 question at all. The section has 10 turns remaining and the substantive question remains largely unexplored. The three participants who haven't spoken in this section need to come in, and the group needs to move from meta-commentary about the earlier discussion into actual content about food decision-making. Sam is the most underrepresented participant overall. The conversation is looping \u2014 Bilal has now said the same thing three times. I should not probe Bilal further here. The right move is to let others in, but the group seems to be in a loop and may not naturally shift without a light nudge. I should observe one more turn to see if Noah, Sam, or Connor self-select \u2014 they all indicated wanting to speak \u2014 before considering an intervention.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "refocus_to_guide",
+        "target": "group",
+        "rationale": "The group is looping on meta-commentary about the earlier session rather than answering Section 2's actual question. If Noah, Sam, or Connor don't come in with substantive food-decision content in the next turn, a light refocus toward concrete decision-making factors is warranted.",
+        "condition": "Next turn continues the meta-loop without substantive content about food decision factors."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "timestamp": "2026-07-29T23:41:11.792875Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Henry has now made a genuinely useful analytical distinction \u2014 separating social/pub eating (where food is incidental to the social routine) from individual day-to-day food choices (where actual decisions are made). This is a substantive contribution to Section 2's question about how food decisions are made, not just more meta-commentary about the earlier session. However, the section has used 620/650 words in only 3/12 turns, meaning the word budget is essentially spent even though the turn budget is not. Critically, Noah, Sam, and Connor have not responded to the Section 2 guide question at all. Henry's distinction between social eating and individual eating is analytically clean and worth the group reacting to, but the word budget signals it's time to move. More importantly, Sam is the most underrepresented participant overall and has said nothing in this section. The group has now established a useful framing (social eating vs. individual eating) and has acknowledged that the pub-as-default narrative was oversimplified. The core terrain of Section 2 has been sketched, if not fully mapped \u2014 but three participants haven't contributed yet, and the word budget is spent. The right move is to transition to Section 3, which carries the core research value. I can use the transition to briefly acknowledge what emerged here and move into the gender question. Sam's silence is noted \u2014 I should watch for an early opening in Section 3 to bring him in.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg2_sam",
+        "rationale": "Sam has the lowest participation share overall and has not spoken in Section 2. Section 3 is the most research-rich section \u2014 an early opening for Sam would help balance participation and ensure his perspective is included on the core topics.",
+        "condition": "Sam does not self-select in the first two turns of Section 3."
+      },
+      "intervention_mode": "speak",
+      "utterance": "That distinction Henry's drawing \u2014 the pub being about the routine rather than the food \u2014 feels like a useful place to leave that thread. Let's take it somewhere related. Thinking about what you actually eat, not just where you go \u2014 do you think your gender influences what you eat? Why or why not?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "timestamp": "2026-07-29T23:41:52.317086Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Sam has just opened Section 3 with a genuinely substantive response. He's doing several things at once: acknowledging gender influence exists but framing it as unconscious/habitual rather than deliberate; distinguishing between social eating (pub, mates, the salad-ordering stigma) and solo eating (eats what he fancies); and then making a really interesting closing move \u2014 recognising that even 'what he fancies' may itself be shaped by gendered norms over time. That last point is analytically rich and worth developing. He also ends with a slightly self-deprecating hedge ('I don't know if that's really what you're asking') which suggests mild uncertainty but not distress. The section is at 0/16 turns used (Sam's response is turn 19 overall, the first in Section 3). The guide question is 'Do you think your gender influences what you eat?' \u2014 Sam has answered it with nuance. Other participants are all flagged as wanting to speak. The right move here is to let the group respond to what Sam's raised \u2014 particularly the distinction between social eating (where gender policing is explicit) and solo eating (where it's more ambient/unconscious). This is a natural `redirect_to_group` moment: Sam's point about the salad comment and the 'normal' thing at the end are both ripe for group reaction. I should not probe Sam further yet \u2014 he's just come in after being quiet, and the group should now build on what he's said. I'll redirect briefly to the group, echoing his language.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg2_sam",
+        "rationale": "Sam's closing observation \u2014 that even 'what he fancies' is probably shaped by gendered norms over time, 'it's just become normal' \u2014 is analytically significant and underexplored. Worth returning to if the group doesn't pick it up themselves.",
+        "condition": "The group doesn't organically engage with the 'it's just become normal' framing in the next two turns."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Sam's making a distinction there that I think is worth the rest of you reacting to \u2014 between the social situation, where there's a real sense of what's expected, and then day-to-day on your own, where it might be less visible but still kind of there. Does that match what any of you experience, or does it land differently?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "timestamp": "2026-07-29T23:42:21.808698Z",
+      "trigger": null,
+      "situation_assessment": "Noah has confirmed Sam's distinction \u2014 social eating where there's implicit pressure about what to order, versus solo eating that feels more personal but is also shaped by the same accumulated norms. He's added something genuinely useful: the observation that in a smaller community with fewer venues, the social pressure is actually stronger because you're always seeing the same people. Both Sam and Noah are now saying roughly the same thing \u2014 gender influence is ambient, unconscious, operating through habituation rather than explicit policing. This is a coherent and substantive opening to Section 3. Two participants have spoken; Henry, Bilal, and Connor all indicated they want to speak, with Henry and Bilal wanting to push back on how 'invisible' Sam was making the pressure sound. The conversation is developing well without me. Henry specifically wanted to say he's noticed the pressure 'more than I'm comfortable with' \u2014 that's potentially the richest thread in the queue. The group is doing the work. Consecutive participant turns: 1 (just Noah). Nothing requires my intervention. Let the group continue.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "timestamp": "2026-07-29T23:42:48.760239Z",
+      "trigger": null,
+      "situation_assessment": "Sam has just pushed back on Noah's point about smaller areas having stronger social pressure, offering a more nuanced frame: it's not geography but the specific group you're in that determines the pressure. This is a genuine and substantive challenge to Noah's claim, and it adds something new \u2014 the idea that you can 'opt out' of the pressure even in a non-city context, depending on who you're with. The conversation is developing productively between Sam and Noah, and Henry, Bilal, and Connor all flagged wanting to speak. Henry in particular wanted to challenge the idea that the pressure is 'invisible' or unconscious \u2014 he said he's aware he's choosing to fit in. That's a meaningfully different angle from both Sam and Noah. The group is moving through Section 3's core territory organically. Three participants haven't spoken yet in this section. The right move is to observe and let the group continue \u2014 Sam and Noah have set up a real tension (individual group dynamics vs. geography, conscious choice vs. ambient habituation), and Henry, Bilal, or Connor are well-positioned to enter and complicate it further without my help.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "timestamp": "2026-07-29T23:43:18.812562Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Noah is continuing to push back on Sam's 'it depends who you're with' claim, sharpening his original point: in his context, opting out isn't just about finding a different crowd \u2014 it requires physically leaving the area (driving to Belfast). This is a genuine and substantive disagreement between Sam and Noah that's been developing across three turns. The debate is productive and on-topic: they're both directly engaging Section 3's territory (gender norms in social eating, whether the pressure is ambient/universal or group-specific/escapable). Henry, Bilal, and Connor have all flagged wanting to speak and haven't been in this section yet. The conversation doesn't need me \u2014 the Sam/Noah exchange has created a real tension that the other three can now enter and complicate. Henry specifically wanted to say something about being more aware of the pressure than he's 'comfortable with,' and Bilal wanted to engage honestly with whether gender shapes his choices. Both threads are more analytically valuable than another Sam/Noah exchange. The right move is to observe and let the group continue. Consecutive participant turns: 3. No intervention warranted.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "timestamp": "2026-07-29T23:43:58.450028Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Sam has just done something analytically significant: he's revised his own position in real time, acknowledging that his assumption of having 'real alternatives' may itself be unexamined \u2014 that he might be doing the same thing as Noah (defaulting without questioning) but with a narrative of choice that Noah doesn't have. This is a genuine moment of self-correction and epistemological honesty, and it partially closes the Sam/Noah debate productively. The Sam/Noah exchange has now run through four turns and has been substantive, but it has also monopolised the section entirely. Henry, Bilal, and Connor have all flagged wanting to speak \u2014 Henry specifically wanted to say he's aware he's choosing to fit in (more conscious than Sam's ambient framing), Bilal wanted to engage with whether gender shapes his choices specifically, and Connor wanted to push back on the idea that London choice is equivalent to constraint. The Sam/Noah thread has reached a natural resting point \u2014 Sam has conceded the key distinction and opened a question about whether the choice/constraint framing even holds for him. This is a good moment to open to the group. The section is also over its word budget (1019/900) but turn budget has room (4/16). The research value of getting Henry, Bilal, and Connor in on this is high \u2014 especially Henry's 'more conscious than I'm comfortable with' thread, which would add meaningful differentiation to the ambient/invisible framing Sam and Noah have been developing. A redirect_to_group is the right move: take Sam's self-revision and open it to the others without characterising it as a conclusion.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg2_henry",
+        "rationale": "Henry flagged wanting to say he's noticed the pressure 'more than I'm comfortable with' \u2014 a more conscious register than Sam and Noah's ambient framing. Worth drawing out if he doesn't volunteer.",
+        "condition": "Henry does not speak in the next participant turn."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Sam's just questioned his own assumption there \u2014 whether the sense of having options is real or just assumed. Henry, Bilal, Connor \u2014 does any of that land for you? Do you recognise the thing they're describing, or does it feel different from where you're sitting?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "timestamp": "2026-07-29T23:44:31.034351Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Connor has just aligned with Sam's self-revised position \u2014 acknowledging that having options and actually using them are different things, and that he too defaults without noticing because the options exist as a kind of alibi. This is a clean, substantive addition that advances the section's territory: the group is now collectively working through how ambient social norms operate below the threshold of conscious choice. That's directly relevant to the gender/food question. However, the thread has now been dominated by Sam and Noah across multiple turns, with Connor adding a brief endorsement just now. Henry and Bilal have not spoken in this section at all. Henry's flagged wanting to say something about being 'more aware of the pressure than I'm comfortable with' \u2014 that's a qualitatively different register from Sam/Noah/Connor's ambient/unreflective framing, and it would add meaningful differentiation. The queued next action from the previous moderator turn was a direct_probe to Henry if he didn't volunteer. He hasn't. The section is significantly over word budget (1304/900), so I shouldn't keep deepening the current thread indefinitely. But Henry's conscious-awareness angle is analytically distinct and worth surfacing before moving on. The right move is a light direct probe to Henry \u2014 keeping it brief given budget constraints, and designed to draw out the conscious vs. ambient distinction without spelling it out for him.",
+      "action": "direct_probe",
+      "target": "mm_fg2_henry",
+      "probe_type": null,
+      "follow_up_intensity": "light",
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg2_bilal",
+        "rationale": "Bilal has not spoken in this section and has a flagged tension around whether he was being honest earlier. His cultural/religious food practices may also intersect with the gender framing in ways the others haven't touched.",
+        "condition": "Bilal does not volunteer after Henry speaks."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Henry, you've been quiet on this one \u2014 does any of what they're describing match your experience, or does it feel different?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "timestamp": "2026-07-29T23:44:58.718223Z",
+      "trigger": "contradiction_pending",
+      "situation_assessment": "Henry has just given a genuinely substantive answer to the gender and food question \u2014 acknowledging that gender probably does influence what he eats, but that he can't separate it from routine, group norms, and habit. He's also flagged the salad-comment dynamic as something that 'sinks in over time.' This is honest and textured, but it's also notably comfortable \u2014 he's landing in the same ambient/invisible framing that Sam, Noah, and Connor have all reached. The deferred contradiction prompt is relevant here: Henry earlier said his eating 'is all over the place' and that he 'wasn't being fully honest' in the Section 1 characterisation, yet he's now presenting a fairly uniform picture ('I eat meat-heavy stuff, burgers at the pub, whatever') that sits awkwardly with that revision. That tension is worth surfacing \u2014 not to embarrass him, but because his own self-correction from Section 2 suggests there's more complexity than the current answer reflects. The section is significantly over word budget (1494/900) and time is tight (~38.9 of 45 minutes), so I shouldn't linger. But this is a main topic section and Henry's contradiction is directly relevant to the gender/food question. A brief, light reflect_contradiction is warranted \u2014 quoting his own earlier revision back to him and asking how it fits with what he's just said. Bilal still hasn't spoken in this section, which is a participation gap to manage, but Henry's contradiction is the more analytically valuable thread to surface first given its direct relevance to the guide question. I'll queue Bilal as the next action.",
+      "action": "reflect_contradiction",
+      "target": "mm_fg2_henry",
+      "probe_type": null,
+      "follow_up_intensity": "light",
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg2_bilal",
+        "rationale": "Bilal has not spoken in this section at all. He may have a different angle on the gender/food question, and his earlier flagged tension around honesty in the group is still unresolved.",
+        "condition": "Bilal does not volunteer after Henry responds."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Henry, I want to pick up on something you said a bit earlier \u2014 back when you were talking about your day-to-day eating, you said it was 'all over the place' and that you hadn't been fully honest in how you'd described it before. But just now you're describing it as meat-heavy stuff, burgers at the pub, what everyone does. How do those two sit together for you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 26,
+      "timestamp": "2026-07-29T23:45:25.481757Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Henry has just resolved the contradiction I surfaced at turn 25 \u2014 and done so productively. He's clarified that 'all over the place' referred to context and format (meal deal, takeaway, home cooking), not to the type of food, which has remained consistently meat-heavy. This is a clean, honest self-clarification that actually advances the gender/food question: he's now saying his food type choices are narrow and consistent, and he explicitly links that to the social normalisation process the group has been describing. The contradiction is now resolved \u2014 he's explained the relationship between his two statements rather than avoided it. This is good research material. The question now is what to do next. Bilal has not spoken in this section at all (section_turn_counts shows no entry for Bilal in section 3). The section is massively over word budget (1827/900) and we're at ~42.2 of 45 minutes \u2014 time is critically short. Sections 4 and 5 have not been reached at all, and they carry significant research value. I need to move. However, Bilal's absence in this section is a real gap \u2014 he may have a distinctly different angle on the gender/food question given his background. But given the time constraint, I cannot open a full new thread with Bilal in this section without sacrificing Sections 4 and 5 entirely. The right call is to transition out of Section 3 and into Section 4, which will naturally give Bilal a new opportunity to contribute. The group has collectively produced a coherent and substantive account of how gender shapes food choices \u2014 through ambient social normalisation, pub culture, and the salad-comment dynamic \u2014 across Sam, Noah, Connor, and Henry. That's sufficient for Section 3. A brief section_transition acknowledging what's been produced and moving to the plant-based shift question is the correct move.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg2_bilal",
+        "rationale": "Bilal has not spoken in Section 3 at all. Section 4's plant-based question may intersect with cultural or religious food practices he hasn't yet introduced. Give him early space in the new section.",
+        "condition": "Bilal does not volunteer in the first participant turn of Section 4."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Yeah, that makes sense \u2014 it's the context that shifts, not what ends up on the plate. I think that's a useful distinction. Okay, let's move on because I want to make sure we get to something I'm keen to hear you all on. Imagine you actually decided to go plant-based \u2014 not just cut back a bit, but properly shift. What would need to change in your life for that to be realistic?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 27,
+      "timestamp": "2026-07-29T23:46:08.271133Z",
+      "trigger": null,
+      "situation_assessment": "Bilal has just given a substantive, honest answer to the Section 4 guide question \u2014 unpacking three distinct barriers to going plant-based: social pressure (being the odd one out at the pub), practical knowledge/skill gaps, and the cognitive/logistical effort of making it a habit. This is exactly the kind of specific, personally grounded response the section needs. He's also landed on a striking phrase: 'burgers are there, they're easy, they're what everyone does' \u2014 which echoes and extends the ambient-choice theme from Section 3, but now applied to the plant-based shift question specifically. This is rich material. The flagged contradiction from turn 15 is technically due: Bilal said his eating is 'messier than that' and that he varies based on who he's with, yet here he's describing a uniformly default pattern (grab something quick, takeaway, pub). That tension is present but not sharp enough to warrant interrupting what has been a productive and honest flow. More importantly, Bilal himself has just provided an honest self-critical account \u2014 'I can't really see what would make me do that' \u2014 which suggests he is already doing the self-examination the contradiction probe was designed to prompt. Surfacing the contradiction now risks feeling like a gotcha on what has been an unusually candid turn, and the section is at 72/850 words with 0/15 turns, so there's time and budget to let others respond first. The four other participants all flagged wanting to speak on exactly this question. Connor and Henry in particular noted they wanted to be honest about what would actually block them rather than giving easy answers. Noah flagged wanting to connect this to structural constraint versus active choice \u2014 his specific angle (rural context, limited options) is analytically distinct from Bilal's urban-convenience framing. I should let the group respond to Bilal's answer rather than routing back through myself. The discussion is flowing well, multiple participants want to speak, and Bilal's answer has opened clear threads for others to extend, contrast, or challenge. Observe is the right call here \u2014 let the group pick up from Bilal.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "timestamp": "2026-07-29T23:46:40.232911Z",
+      "trigger": null,
+      "situation_assessment": "Henry has just given a genuinely strong, analytically sharp answer that builds directly on Bilal's. He's moved from the logistics framing to something more fundamental: the social cost of having to *own* a choice every time, versus the invisibility that comes from going along with the default. This is the most precise articulation of the ambient-choice/inertia theme the group has been circling since Section 1, and it's directly relevant to the Section 4 guide question. The deferred contradiction prompt is technically due for Henry \u2014 but his Section 2 contradiction was already surfaced and resolved at turn 25, and that resolution actually feeds into what he's just said (his food type choices are narrow and consistent; now he's explaining why). The flagged contradiction from turn 16 was superseded by that earlier resolution. Re-firing it now would be redundant and would interrupt what is genuinely productive content. The discussion is flowing well: Bilal set up the terrain, Henry deepened it meaningfully, and Sam, Noah, Connor all flagged wanting to respond. Sam in particular flagged wanting to push on whether the 'it would be hard' framing is honest versus just listing obstacles \u2014 which is exactly what Henry has now articulated more precisely. This is a live group exchange doing real analytical work. My moderator turn share is already elevated (0.6 recent). The right call is to observe and let the group respond to Henry \u2014 Sam and Noah both have strong hooks here and the section has used only 1 of 15 turns. I should not intervene.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 29,
+      "timestamp": "2026-07-29T23:47:17.605201Z",
+      "trigger": "conflict_detected",
+      "situation_assessment": "Bilal has just pushed back directly on Henry's 'routine protects you from choosing' framing, reasserting agency \u2014 he actively chose different places sometimes, and even ordering a burger is a genuine want, not mindless autopilot. This is a productive challenge to what was becoming a smooth, slightly deterministic consensus. Bilal is doing the analytical work himself, without prompting, and the pushback is substantive and specific. The deferred contradiction from turn 15 is technically due: Bilal confirmed pub-as-default in Section 1, then said his eating was 'messier than that' in Section 2, and now he's reasserting agency again here. But critically \u2014 Bilal is *already* resolving that tension in real time. He's explicitly saying 'choosing the path of least resistance is still choosing' and 'some days I try somewhere new, some days I can't be bothered \u2014 both are choices.' This is precisely the self-examination the contradiction probe was designed to prompt, and he's arrived there organically. Firing the contradiction probe now would be redundant and would interrupt what is genuinely live, productive analytical content. More importantly, this pushback has opened a real tension in the room: Henry said the routine protects you from having to choose; Bilal is directly disputing that. Sam, Noah, and Connor all flagged wanting to respond \u2014 Sam on the 'choosing vs. defaulting' question, Noah on structural constraint, Connor on visible choice. This is exactly the moment to let the group run. The section has used only 2/15 turns and 573/850 words, and there's real disagreement unfolding that doesn't need me. My moderator turn share is already elevated. The right call is to observe and let the group work through this Bilal-Henry tension.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "synthesize_and_challenge",
+        "target": "group",
+        "rationale": "If Henry responds and the Bilal/Henry tension resolves into a clean binary (agency vs. inertia), there's a useful synthesis-and-challenge move: both framings can be true simultaneously \u2014 the path of least resistance is still a choice, and the social cost of visibly deviating is still real. These don't actually contradict, they describe different layers. Worth naming once the exchange has run its course.",
+        "condition": "The Bilal-Henry exchange reaches a natural pause or other participants have weighed in without further deepening the tension."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "timestamp": "2026-07-29T23:47:57.215511Z",
+      "trigger": "conflict_detected",
+      "situation_assessment": "Henry has just made a genuinely sharp analytical distinction \u2014 the difference between choosing *within* a set of constraints versus questioning the constraints themselves. This is the most precise articulation of the chapter the group has been writing since Section 1, and it directly answers the Section 4 guide question by naming why going plant-based is categorically harder than ordinary variety-seeking. The exchange is now producing real research value. However, there is interpersonal heat here: Henry has twice now framed Bilal's examples as incomplete or naive ('you were still choosing within this bubble'), and while he's doing it analytically rather than personally, the dynamic is sharpening. Bilal has held his ground well, but two other things are true: (1) Sam, Noah, and Connor have been entirely silent through this Bilal-Henry exchange and hold useful hooks \u2014 Connor in particular flagged wanting to be honest about choosing comfort over something else; (2) the section word budget is at 805/850 words, effectively spent. The guide question has been meaningfully explored through the Bilal-Henry tension, but the three absent voices haven't been heard at all. The deferred Henry contradiction from turn 16 is not appropriate here \u2014 Henry is mid-argument, not in a reflective moment, and firing a contradiction probe into an active interpersonal exchange would feel like a pile-on. The right move is to acknowledge the tension without taking sides, reframe Henry's distinction as something worth putting to the whole group, and in doing so bring Sam, Noah, and Connor into the conversation before the section closes. This is both a conflict management move and a participation rebalancing move. I should not probe either participant individually. Given the word budget is essentially spent, I also need to be moving toward Section 5 \u2014 I can use a redirect to the group here that both acknowledges the exchange and opens toward the next section's territory.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 4 word budget is effectively spent. Once the group has responded briefly to Henry's distinction, transition to Section 5 \u2014 what would make plant-based foods more appealing.",
+        "condition": "At least one other participant has responded to the redirect, or a natural pause opens."
+      },
+      "intervention_mode": "speak",
+      "utterance": "There's clearly something real in the gap Henry's drawing \u2014 choosing between the Italian place and the usual pub is one kind of choice, but choosing to be the person who eats differently to everyone else, every time, is something else. I'm curious what Sam, Noah, Connor make of that. Does that distinction land for you, or does it feel like it's overcomplicating it?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "timestamp": "2026-07-29T23:48:36.871300Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Connor has just done something genuinely useful: he's threaded between Henry and Bilal without siding with either, and in doing so has reframed the core question. He's moved it away from 'agency vs. inertia' (the Henry/Bilal binary) toward something more concrete and less philosophical \u2014 the actual cost of sustained, active effort and social friction, as distinct from a one-off choice. That's a real contribution and it advances the Section 4 guide question directly. The interpersonal heat from the Henry-Bilal exchange has cooled slightly \u2014 Connor's intervention was bridging rather than escalating, and the tension signal is lower than it was. Sam and Noah have still not spoken in this section at all. The section is over word budget (1118/850) and we're over time, but Connor's reframe has opened something worth briefly acknowledging before moving. The queued next action was section_transition, and the condition ('at least one other participant has responded to the redirect') has been met \u2014 Connor has responded substantively. Sam and Noah both had hooks queued; Sam wanted to push on the honest/obstacle distinction, Noah on structural constraint. Connor has essentially done the synthesis Sam was going to offer. Noah's structural point (genuine constraint vs. psychological choice) hasn't been heard yet and could add something distinct, but we're over budget and time. The right call is a brief, warm acknowledgement of where the group has landed \u2014 specifically Connor's 'it costs you something' framing \u2014 and then transition to Section 5. I should not probe further here. The tension has been adequately managed by Connor's bridge, and reopening the Henry-Bilal axis would be counterproductive.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Connor's framing of it as something that 'costs you something' \u2014 not just once, but every time \u2014 feels like it captures what this conversation has been circling. Right, let's build on that and shift slightly. Thinking about men more broadly, not just yourselves \u2014 what do you think would actually make plant-based food more appealing? What would need to be different about it, or about the world around it?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 32,
+      "timestamp": "2026-07-29T23:49:22.883534Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Sam has just opened Section 5 with something substantive and distinct \u2014 not repeating the friction/cost framing from Section 4, but introducing a different layer: the sensory and psychological legitimacy of plant-based food as 'proper food'. His distinction between 'choosing something better' and 'choosing something that's supposed to be better but tastes like less' is exactly the kind of specific, personal framing this section needs. This is novel content that directly addresses the Section 5 guide question from a different angle than cost or social friction. It's the first real contribution to Section 5 and it's rich. The section has barely started (67/900 words, 0/16 turns). Sam has laid out a clear position; Noah, Henry, Bilal, and Connor all flagged wanting to speak. Connor's hook was about social infrastructure; Noah's was about availability and normalisation in physical space; Henry's was about breaking the habit even after removing friction; Bilal's was affirming Connor's practical cost framing. Sam has now added a fifth layer \u2014 the sensory/legitimacy dimension. This is exactly the right moment to open this to the group rather than probe Sam individually. His point is genuinely provocative \u2014 he's essentially saying the barrier isn't social or logistical but perceptual/gustatory \u2014 and the others are likely to have different reactions. Redirect to group is the right move here. My recent turn share has been elevated; I should keep this brief and let the group take it.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg2_noah",
+        "rationale": "Noah flagged a concrete point about availability and normalisation in physical space \u2014 distinct from Sam's sensory legitimacy framing. If he doesn't volunteer, worth bringing him in directly.",
+        "condition": "Noah does not speak in the next two participant turns."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Sam's putting his finger on something different to what we were discussing before \u2014 not the social hassle or the effort, but whether plant-based stuff actually feels like food you want, not food you're settling for. Does that land for the rest of you, or do you see it differently?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "timestamp": "2026-07-29T23:49:56.069012Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "Sam has just done something rare and analytically valuable: he's caught himself mid-assumption and publicly retracted the empirical basis for his earlier claim. This is not just honesty \u2014 it's a live demonstration of the very pattern the whole group has been examining: defaulting to assumptions rather than tested experience. His self-correction is directly relevant to the Section 5 guide question ('what would make plant-based foods more appealing?') because it opens a specific sub-question: is the taste barrier real, or is it pre-emptive? That is genuinely useful for the research. However, Sam has now said essentially everything he can say on this \u2014 he's acknowledged uncertainty and deferred to others with more experience. The right move is not to probe him further but to open this to the group. Noah, Henry, Bilal, and Connor all have hooks. Bilal in particular flagged that he hasn't been fully honest about the masculine-acceptability dimension of taste, which is distinct from Sam's empirical uncertainty. Henry wanted to challenge whether taste and 'feeling like the right choice' are actually the same thing. These are different and richer angles. The section is at 378/900 words with plenty of room. I should let the group respond to Sam's retraction \u2014 it's an invitation they'll want to take up, and it reframes the conversation in a productive direction. A brief redirect to group is the right move here. Keep it tight; let them go.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg2_bilal",
+        "rationale": "Bilal flagged he hasn't been fully honest about whether the taste barrier is really about taste or about masculine acceptability. If he doesn't volunteer in the next two turns, worth pulling him in directly.",
+        "condition": "Bilal does not volunteer in the next two participant turns."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Sam's just pulled the rug out from under his own argument \u2014 saying the taste barrier might be assumption rather than experience. Does anyone here actually know, from having tried it properly? And does that distinction matter?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 34,
+      "timestamp": "2026-07-29T23:50:32.699980Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "Bilal has just done something very similar to Sam \u2014 publicly auditing his own reasoning and admitting his listed barriers are assumptions rather than tested experience. This is high-value content that directly answers the Section 5 guide question from a productive angle: the taste/appeal question may be built on untested assumptions across the board, not just for Sam. The deferred contradiction flag is technically active (Bilal is speaking on a related topic), but looking at what he's actually said, he has already substantially resolved the earlier tension himself \u2014 he's explicitly questioning whether his own reasons are 'actual reasons or just what sounds sensible to say,' which is precisely the self-correction the contradiction was designed to surface. Surfacing the Section 1 inconsistency now would be redundant and potentially disruptive to what is already organic resolution. The more useful move is to let this land with the group. Noah, Henry, Connor all have hooks. The group now has two participants (Sam and Bilal) who've publicly admitted their barriers are assumption-based. This creates a natural opening for those who may have actually tried plant-based food (Connor, who is London-based and may have more exposure, flagged a point about social infrastructure and experience) or who see it differently. The section has used 651/900 words but only 2/16 turns \u2014 there's room, and the conversation is genuinely alive. My recent turn share has been elevated; I should observe here and let the group respond to Bilal's admission. Noah, Henry, and Connor all want to speak and the group dynamic doesn't need me to do anything right now.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg2_connor",
+        "rationale": "Connor is London-based, likely has more actual exposure to plant-based options, and flagged a point about social infrastructure. If the group continues in the Sam/Bilal register of admitted assumption, Connor may be the one who can actually speak from experience \u2014 which is precisely what Sam's retraction opened up as the missing piece.",
+        "condition": "Connor does not volunteer in the next two participant turns."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 35,
+      "timestamp": "2026-07-29T23:51:11.934978Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Sam has just done something analytically significant: he's moved beyond admitting his barriers are untested assumptions (which he already said in turn 33) to naming the underlying psychological mechanism \u2014 that he made the decision not to engage first, and then constructed reasons afterwards to make inertia look like deliberate choice. This is a deeper and more specific claim than Bilal's parallel admission. It's high-value content that directly addresses the Section 5 guide question from an important angle: the appeal of plant-based food may not be the actual obstacle; the obstacle may be motivated reasoning that pre-empts genuine evaluation. The section is at 872/900 words \u2014 essentially at the word budget ceiling \u2014 but only 3/16 turns, and the conversation is very much alive. The word budget is a signal, not a hard stop. However, the session total shows 66.9 estimated minutes elapsed on a 45-minute session, which is the more pressing constraint. Sam's point is now well-articulated and has been made twice (with increasing precision). The question is whether the group needs to respond or whether this is a natural moment to transition. Noah, Henry, and Connor all flagged wanting to speak. Henry's hook was specifically about the gap between insight and behaviour change \u2014 'does admitting you don't know change anything?' \u2014 which is a genuinely distinct and unresolved question. Connor also has a point about having tested it. Given the time pressure, I should not probe Sam further (he's said what he has to say) and I should not redirect to group with an open invitation (that risks another long exchange when time is short). The most useful move is to observe and let the group respond organically \u2014 they all want to speak and Sam's ending is clearly an invitation. If Henry or Connor speak, the gap-between-insight-and-behaviour thread will likely surface naturally. I'll observe this turn and be ready to transition to Section 6 once this exchange closes.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 5 is at word budget and the session is over time. Sam has just landed a strong analytical close. Once one or two more participants respond, transition to Section 6 closing rather than reopening the substantive discussion.",
+        "condition": "After the next one or two participant turns, regardless of content."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 36,
+      "timestamp": "2026-07-29T23:51:49.429498Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Bilal has just done something genuinely significant and distinct from Sam's earlier self-correction: he's not just admitting his barriers are untested assumptions \u2014 he's naming a specific emotional mechanism underneath the rationalisation. He's saying the real barrier is social discomfort about standing out, and that he's been using practical objections (logistics, taste) as cover for that discomfort because admitting the real thing 'sounds weak.' This is the most emotionally honest and analytically specific contribution of the entire session. It directly answers the Section 5 guide question from a new angle: what would need to change isn't primarily taste or logistics \u2014 it's the social identity cost of being visibly different. This is also the moment where the deferred contradiction for Bilal is genuinely relevant, but I need to assess carefully. The flagged contradiction is between his Section 1 pub-as-default framing and his later acknowledgement that his eating is 'messier than that.' But what Bilal has just said has essentially resolved that tension organically and in a much richer way \u2014 he's now explicitly naming the social conformity pressure that underlies the earlier 'default' behaviour. Surfacing the Section 1 contradiction now would be redundant at best, disruptive at worst. The live content is far more valuable than the historical inconsistency. The section is at 1138/900 words (well over budget) and the session is at approximately 69.6 minutes on a 45-minute schedule \u2014 both significant signals. The queued transition to Section 6 is overdue. However, Bilal has just said something the other participants should have a chance to respond to \u2014 particularly Noah (who has been the most systematically underheard participant across the session, and whose hook was specifically about pushing back on the 'personal failing' framing and insisting structural barriers are real). Bilal's admission \u2014 that the discomfort of standing out is the real barrier \u2014 is precisely what Noah wanted to challenge: the conflation of personal dishonesty with structural constraint. This is Noah's most natural opening in the entire session. But the time pressure is severe. I should not open another long exchange. The right move is to observe this turn \u2014 the group has energy and multiple participants want to respond to Bilal \u2014 and then transition cleanly to Section 6 after the next one or two turns. I do not need to intervene now. Let the group respond to Bilal.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 5 is well over word and time budget. Bilal has just made a strong closing contribution naming the social identity cost as the real barrier. After the next one or two participant responses \u2014 especially from Noah or Henry \u2014 transition to Section 6 closing. Do not reopen the substantive discussion.",
+        "condition": "After the next one or two participant turns, regardless of content."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 36,
+      "timestamp": "2026-07-29T23:52:13.582446Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Silence has occurred after Bilal's most emotionally honest and analytically complete contribution of the session \u2014 naming social discomfort about standing out as the real barrier, and admitting he's been using practical objections as cover for that. The queued transition to Section 6 is now overdue: Section 5 is at 1372/900 words and the session is running approximately 27 minutes over a 45-minute schedule. The substance of Section 5 has been genuinely exhausted \u2014 Sam and Bilal have both publicly named motivated reasoning and social identity cost as the real obstacles, which is a rich and complete answer to the guide question. Noah has been the most systematically underheard participant across the session, and the closing section is his last natural opportunity. However, the closing section does not need to be long \u2014 a brief invitation for anything left unsaid, with particular warmth toward Noah, is the right exit.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "That's a really honest place to land. We've covered a lot of ground today \u2014 from the pub as default, to whether choice is really choice, to whether the barriers we name are actually the barriers we feel. That's our time on the main questions. Before we finish, I just want to open it up one last time \u2014 is there anything you haven't had a chance to say today, about food, gender, plant-based eating, any of it? Noah, Henry, Connor \u2014 anything from you before we close?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_forced_by_dominant_voice"
+    },
+    {
+      "turn": 38,
+      "timestamp": "2026-07-29T23:52:58.042293Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Henry has just made a substantive and honest contribution \u2014 pushing back on Bilal's 'weakness' framing while affirming the core insight about social discomfort being the real barrier. This is closing-phase content: emotionally honest, well-articulated, and a natural endpoint for the substantive discussion. The deferred contradiction for Henry (Section 1 pub-as-default vs. later 'wasn't being fully honest') is flagged as due, but surfacing it now would be wrong. We are in the closing phase, the session is running nearly 30 minutes over time, Henry's contribution this turn has actually functionally resolved that tension organically \u2014 he's explicitly said he's 'done the same thing without admitting it to myself.' Raising the historical inconsistency would feel pedantic and undo the warmth of the close. The participation note about Noah is real \u2014 he has the lowest turn count and the last section ended without him contributing. The closing question is his natural opening. My previous transition utterance has already opened Section 6 with the scripted closing question. Henry has responded to it substantively. The right move now is to observe \u2014 Sam, Noah, and Connor all wanted to speak. Noah in particular deserves space here. I should not intervene; let the group continue. If Noah doesn't volunteer in the next turn, I can use a light reactivate_silent.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg2_noah",
+        "rationale": "Noah has the lowest turn count in the session and has not spoken in the closing section. If he does not volunteer in the next turn, offer a warm, light invitation as a final opportunity before the session closes.",
+        "condition": "Noah does not speak in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 39,
+      "timestamp": "2026-07-29T23:53:34.767254Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Bilal has just done something genuinely valuable in the closing section \u2014 he's not retreating from his earlier admission but pressing deeper into it, articulating the gap between self-knowledge and change. 'Knowing it's about discomfort rather than logistics doesn't mean I'm suddenly going to be comfortable with it' is an honest and substantive observation, and 'incomplete somehow' signals real unresolved feeling. However, we are in the closing phase, running approximately 30 minutes over time, and the deferred contradiction for Bilal is explicitly flagged. I need to assess that flag honestly: the contradiction was between his Section 1 pub-as-default framing and his later acknowledgement that his eating is 'messier than that.' But Bilal has now spent the last two turns explicitly and voluntarily naming the social conformity pressure underneath the default behaviour \u2014 he has resolved the tension organically and in far richer terms than the historical inconsistency would have surfaced. Surfacing that contradiction now would be redundant, pedantic, and tonally wrong for a closing moment. It would undo the warmth of what he's just said and reopen analytical territory that has already been covered. The queued action from turn 38 was to reactivate Noah if he didn't speak \u2014 he hasn't spoken. Noah has the lowest turn count in the session (5 vs average 7.2) and has not contributed in the closing section. Bilal's contribution has a natural resting quality \u2014 'incomplete somehow' \u2014 that creates a pause, not an invitation for a new probe. The right move is a brief, warm acknowledgement of Bilal's honesty without amplifying or reopening, and then a genuine invitation to Noah specifically \u2014 not a probe, but a light offer of space before we close. This is the last natural moment for Noah. I should not probe Bilal further; I should not surface the contradiction; I should give Noah his opening.",
+      "action": "reactivate_silent",
+      "target": "mm_fg2_noah",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "After Noah has had a chance to speak \u2014 or if he passes \u2014 close the session warmly. Do not reopen substantive discussion.",
+        "condition": "After Noah responds or declines, or after the next participant turn."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Bilal, that 'incomplete somehow' \u2014 I think a lot of people would recognise that feeling. Thanks for sticking with it that honestly.\n\nNoah, before we wrap up \u2014 is there anything sitting with you that you didn't quite get to say today?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 40,
+      "timestamp": "2026-07-29T23:53:58.813152Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Noah has just given a substantive, honest, and analytically significant contribution \u2014 exactly what this closing section needed from him. He's reintroduced the constraint-versus-choice distinction that surfaced in Section 1 and threaded it back through everything the group has discussed since: Bilal's discomfort with standing out is real, but it exists within a context of options, whereas Noah's context removes that optionality entirely. 'Opting out of the norm' versus 'opting out of the whole thing' is a genuinely new and precise formulation. This is the right note to close on \u2014 it brings the session full circle, honours Noah's specific geographic experience, and doesn't reopen new territory. The session is already substantially over time and budget. The right move is a warm, brief acknowledgement that validates what Noah has added without amplifying it into further discussion, and then closes the session cleanly. Sam, Connor were flagged as wanting to speak earlier, but in this closing phase the goal is wrap-up, not further substantive exploration. A brief final thanks to the group is all that's needed now.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Noah, thank you \u2014 that's a really important distinction to land on. Opting out of a norm versus opting out of the only social space you've got. That's not the same thing, and it matters that you named it.\n\nOkay \u2014 that's our time. Genuinely, thank you all. This has been a really rich conversation. You've covered a lot of ground \u2014 from the pub as social default, to how much of what we think of as choice is actually habit, to what's really underneath the practical objections to plant-based eating. And I think Noah's just drawn a line under something the group was circling all session: that the constraints aren't the same for everyone, and that matters. So thank you all for being that honest about it. It's been a great session.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    }
+  ],
+  "transcript": [
+    {
+      "turn": 0,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Hi everyone, really glad you could all make it today. My name's Alex, and I'll be facilitating the conversation. So we've got about 45 minutes together, and we're going to be talking about food choices and opinions \u2014 just a conversation, nothing too formal. It's being recorded for research purposes, but please don't let that put you off speaking freely \u2014 in fact, that's exactly what I'd ask you to do. There are no right or wrong answers here, and honestly the most useful thing you can do is just say what's actually true for you, even if it feels a bit obvious or mundane. You don't need to perform expertise or give me the 'correct' take on anything. And this really is a conversation rather than an interview, so you're very welcome to jump in if something someone else says connects with your experience \u2014 you don't need to wait to be asked. Just be respectful of each other, and try to keep things reasonably brief so there's room for everyone. Okay \u2014 let's ease in gently. Let's go around and say your name and where in the UK you're coming from today.",
+      "timestamp": "2026-07-29T23:34:19.553022+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 2,
+      "speaker_id": "mm_fg2_noah",
+      "speaker_name": "Noah",
+      "content": "Right, yeah. I'm Noah. I'm from just outside Belfast, so suburban area there. Been living here my whole life really. And, uh, yeah, looking forward to hearing what everyone thinks today.",
+      "timestamp": "2026-07-29T23:34:35.683131+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 3,
+      "speaker_id": "mm_fg2_connor",
+      "speaker_name": "Connor",
+      "content": "I'm Connor. I'm from London \u2014 well, Greater London actually. Been here for a while now. Yeah, looking forward to it as well.",
+      "timestamp": "2026-07-29T23:34:52.258909+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "mm_fg2_henry",
+      "speaker_name": "Henry",
+      "content": "I'm Henry, from Birmingham actually. Well, urban Birmingham \u2014 West Midlands. Been here most of my life too. Yeah, should be interesting to hear what people think about all this food stuff.",
+      "timestamp": "2026-07-29T23:35:12.994406+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "mm_fg2_sam",
+      "speaker_name": "Sam",
+      "content": "Right, I'm Sam. I'm from the South West, suburban area down here. Been living in the same place for quite a while now, so yeah, fairly settled I suppose. Interested to hear what everyone's got to say as well.",
+      "timestamp": "2026-07-29T23:35:27.143793+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "mm_fg2_bilal",
+      "speaker_name": "Bilal",
+      "content": "Yeah, I'm Bilal. I'm from Yorkshire \u2014 urban area, so Leeds side of things. Been here a good while now. Yeah, cheers for having me. Should be interesting to see what comes up.",
+      "timestamp": "2026-07-29T23:35:46.415624+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Great, good to have you all here \u2014 Belfast, London, Birmingham, South West, and Leeds. Quite a spread. Right, let's get into it. Thinking about the places where you actually spend time with your male friends \u2014 what's your favourite spot in your area for that? Could be a pub, somewhere outdoors, someone's house, whatever comes to mind. And why that place?",
+      "timestamp": "2026-07-29T23:35:46.415854+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "mm_fg2_connor",
+      "speaker_name": "Connor",
+      "content": "Yeah, so for me it's probably the pub down the road, to be honest. It's just... convenient, innit. Close to where I live, doesn't take much to get there. The usual group goes there regularly, so you know you'll bump into someone most evenings if you fancy a pint. Plus the food's decent enough \u2014 not fancy or anything, but it does the job. And it's just relaxed, no pressure to stay long or anything. You can just show up, have a drink, a chat, and if someone wants to grab some food there's options. That's probably why we end up there more than anywhere else really.",
+      "timestamp": "2026-07-29T23:36:13.103035+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg2_noah",
+      "speaker_name": "Noah",
+      "content": "Yeah, that makes sense. It's the same sort of thing for us really. There's a couple of pubs near where I am, and you just get into the habit of going to the same one, don't you. Everyone knows where you'll be, so if someone wants to meet up they just show up. It's not like you have to plan it all out.\n\nAnd to your point about the food \u2014 yeah, it's not anything special, but that's kind of the thing. You're not going for a fancy meal or anything. It's just... there if you want it. A burger or whatever. In a smaller area like mine, you don't really have that many options anyway, so the pub just becomes the default spot. Easier than trying to go somewhere else, trying to organize people. This way it just happens naturally.",
+      "timestamp": "2026-07-29T23:36:37.500817+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg2_connor",
+      "speaker_name": "Connor",
+      "content": "Yeah, exactly. And it's interesting because London's got loads of options, right \u2014 you've got restaurants, bars, all sorts \u2014 but we still just default to the same pub. I think it's almost the same logic though. Like, you know the place, you don't have to think about it, everyone else knows it too. There's a comfort in that. You're not spending half the evening deciding where to go or ringing people round trying to organize something fancy. You just go to the pub, job done. So even though we've got way more choice here, we're basically doing the same thing you lot are \u2014 taking the easy option.",
+      "timestamp": "2026-07-29T23:36:58.771613+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg2_noah",
+      "speaker_name": "Noah",
+      "content": "But that's a bit different though, isn't it? I mean, you've got the choice to go somewhere else if you wanted. You're choosing the pub because it's easy and comfortable and everyone knows it. Fair enough. But for us, it's more... there's not really anywhere else to go. The pub's it. So it's not quite the same thing as choosing the default when you've got options.\n\nLike, if I fancied trying somewhere different, I'd have to drive into Belfast or somewhere, which is a bit of a hassle. Whereas you could just say to your mates, right, fancy trying that new Italian place or whatever, and you're sorted. We don't really have that luxury. So yeah, we end up at the same pub, but it's more because there's nothing else than because we're choosing comfort over something better. That's just what's available to us.",
+      "timestamp": "2026-07-29T23:37:24.719827+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg2_connor",
+      "speaker_name": "Connor",
+      "content": "Fair point, yeah. You're right \u2014 that's not quite the same thing. I mean, we could go somewhere different if we wanted to bother, but we just... don't. Whereas you're working with what's actually there. That's a different situation entirely. I wasn't really thinking about it like that. So it's less about choosing comfort and more about just, that's what you've got. Makes sense.",
+      "timestamp": "2026-07-29T23:37:54.820991+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's an interesting distinction \u2014 having options and not using them is a different thing from not having them at all. Sam, Henry, Bilal \u2014 what about where you are? Same kind of story, or does it look different?",
+      "timestamp": "2026-07-29T23:37:54.821865+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg2_sam",
+      "speaker_name": "Sam",
+      "content": "Yeah, it's a bit like what Noah said really. I mean, we've got a couple of pubs locally, and that's sort of where we end up. There's maybe one or two other spots \u2014 a cafe, that kind of thing \u2014 but they're not really the same vibe, you know? Not somewhere you'd naturally take your mates for an evening.\n\nI think the difference with where I am is it's suburban, so you're kind of in that middle ground. It's not London where you've got endless options on your doorstep, but it's not like Belfast where you'd have to drive somewhere to get variety. There are options if you really wanted to drive out and find them, but honestly... why would you? The pub's there, it's familiar, everyone knows it. So we just go there like Connor said. But I don't think we're conscious we're choosing comfort over something better, like. It's just what you do. It's where you go.\n\nThough now that Noah mentions it, yeah \u2014 there's something different about having the choice available and not bothering versus just not having it in the first place. I suppose we're closer to Connor's situation than Noah's, but we're not really thinking about what we might be missing either. It just is what it is.",
+      "timestamp": "2026-07-29T23:38:16.404478+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Henry, Bilal \u2014 what's it like where you are? Does that land the same way?",
+      "timestamp": "2026-07-29T23:38:16.404883+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg2_henry",
+      "speaker_name": "Henry",
+      "content": "Yeah, I'd say it's more like Connor's situation actually. I mean, Birmingham's got loads going on \u2014 you've got restaurants, different bars, all that. But honestly, me and my mates, we just end up at the same couple of pubs we've always gone to. There's one in particular that's just become the default, you know? It's near where a few of us live, everyone knows it, the regulars know us. \n\nAnd like Connor said, you could go somewhere different if you fancied it, but you just... don't bother. There's no real reason to. The pub does food, the beer's fine, it's comfortable. You know what you're getting. So even though there's definitely other stuff around, we don't really use it. \n\nBut I think what Noah's saying makes sense too \u2014 we're choosing not to bother, whereas if you've got nothing else nearby you're just getting on with what's there. Different thing. We could probably be more adventurous about it if we wanted, but we're not.",
+      "timestamp": "2026-07-29T23:38:35.697229+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Bilal, what's it like in Leeds \u2014 similar sort of thing?",
+      "timestamp": "2026-07-29T23:38:35.698015+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg2_bilal",
+      "speaker_name": "Bilal",
+      "content": "Yeah, it's pretty much like what Henry's saying, to be honest. Leeds has got loads of restaurants, bars, all that stuff \u2014 you can find anything really if you look. But me and my mates, we just... we've got our spots, haven't we. There's a couple of pubs we end up at most of the time. One in particular that's just become the thing.\n\nAnd I think it's the same as what Connor and Henry are saying \u2014 we could go somewhere different if we wanted, but we just don't. It's easier not to. Everyone knows where you'll be, you don't have to think about it, the food's fine, whatever. So even though there's definitely other options around, we're not really using them.\n\nI get what Noah's saying though \u2014 that's a different situation if you've literally got nothing else. But yeah, for me it's more... we're choosing the easy option when we could probably do something else if we bothered. Which I suppose we could think about more, but we just don't.",
+      "timestamp": "2026-07-29T23:38:54.574349+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Sounds like whatever the city, the pull towards familiar spots is pretty strong \u2014 even when there's no shortage of alternatives. Let's shift gears a bit. Thinking about your day-to-day now \u2014 how do you actually decide what to eat? What goes into that for you?",
+      "timestamp": "2026-07-29T23:38:54.575242+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg2_bilal",
+      "speaker_name": "Bilal",
+      "content": "I mean, honestly, it's not really that straightforward for me day-to-day. Like, yeah, we just said we go to the same pubs, but actually when it comes to what I'm eating... it's more random than that.\n\nSome days I'll just grab something quick because I'm busy, yeah, but other times I'll think, right, I fancy trying that new place I heard about, and I'll go. Or it depends who I'm with \u2014 if I'm with certain mates we'll go somewhere specific, but if I'm on my own or with different people, I might do something else. \n\nI think I was a bit... I dunno, painting it like we're all just defaulting to the same thing every time, but that's not really how it works for me. Some weeks I'm trying places I've not been before. Other weeks I'm just grabbing whatever's nearest because I can't be bothered. It's just... depends on the day really, depends on what's going on, who I'm with.\n\nSo I don't know if I was being honest before or just going along with the pattern everyone was describing, but yeah, it's a bit messier than that.",
+      "timestamp": "2026-07-29T23:39:31.435688+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg2_henry",
+      "speaker_name": "Henry",
+      "content": "Yeah, fair point that. I think I'm the same actually. When I said we just go to the same pubs, that's true for meeting up with mates, but day-to-day eating? It's definitely not that straightforward for me either.\n\nLike, some weeks I'll be grabbing a Tesco meal deal at lunchtime because I'm at work and can't be bothered, other times I'll get a takeaway from somewhere different \u2014 depends what I'm in the mood for really. And weekends are different again. If I'm going out with the lads it's the pub, yeah, but if I'm just... I dunno, at home or doing something on my own, it's completely different.\n\nI think I kind of nodded along with what everyone was saying because the pub thing is true, and it's easy to talk about, but actually my eating's all over the place when you think about it properly. Some nights I'll cook something, other nights I can't be arsed and just order something. Sometimes I'll deliberately try somewhere new because I've heard about it, sometimes I just want the same old thing because it's easy.\n\nSo I don't think I was being fully honest either, if I'm being honest. It's messier than just defaulting to one thing.",
+      "timestamp": "2026-07-29T23:40:00.275365+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg2_bilal",
+      "speaker_name": "Bilal",
+      "content": "Yeah, that's what I mean, innit. It's weird \u2014 we all sort of... agreed on this thing about defaulting and choosing comfort, and it sounded right when we were saying it. But then you actually think about what you do and it's nothing like that simple.\n\nI think it's because the pub thing is easy to explain, isn't it? It's a clear pattern. But actually living it, it's just loads of little decisions based on what's happening that day \u2014 how tired you are, who you're with, what you fancy, whether you've got time. Some days I'll genuinely want to try something new because I've heard about it or whatever. Other days I can't be bothered and just go for the same thing. Neither of those things is about choosing comfort over something better. It's just... that's what makes sense that day.\n\nI think we just kind of... defaulted to the simple answer when everyone was agreeing on it. It felt like that was the point of the conversation, so we went with it. But the reality's just messier than that, like you said.",
+      "timestamp": "2026-07-29T23:40:33.268082+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg2_henry",
+      "speaker_name": "Henry",
+      "content": "Right, yeah. And I think the thing is \u2014 the pub's not really about food at all, is it? That's what I'm realizing. We go there because that's where everyone goes, that's the routine, that's where your mates will be. The food's just... there. It happens to be available. But that's not a food choice in the way we're talking about day-to-day eating.\n\nLike, when I'm at home trying to work out what to have for tea, or grabbing lunch at work, that's an actual choice. But going to the pub with the lads \u2014 that's not me choosing comfort over something better or being adventurous. It's just going where you go. The food's incidental to that, you know?\n\nI think we've kind of mixed those two things up. We've been talking about them like they're the same decision, but they're not really. One's about the social thing, the routine with your mates. The other's about what you actually eat day-to-day. They're separate.\n\nSo yeah, I agree with Bilal \u2014 we kind of fell into explaining it in a simple way that made sense when everyone was nodding along, but when you break it down, the pub's not really about food choices at all. That's a different thing.",
+      "timestamp": "2026-07-29T23:41:11.791942+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That distinction Henry's drawing \u2014 the pub being about the routine rather than the food \u2014 feels like a useful place to leave that thread. Let's take it somewhere related. Thinking about what you actually eat, not just where you go \u2014 do you think your gender influences what you eat? Why or why not?",
+      "timestamp": "2026-07-29T23:41:11.792967+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg2_sam",
+      "speaker_name": "Sam",
+      "content": "I mean... yeah, I think it probably does, doesn't it. Not in like a big conscious way, but yeah.\n\nLike, I wouldn't necessarily sit down and think about it, but if I'm honest, I probably go for certain things more than I would if I was a woman, or if I thought about it differently. Stuff that's seen as more... I dunno, \"proper\" food maybe? Meat-heavy stuff, burgers, that kind of thing. And I think that's partly because you don't really get the same... pressure around it, do you? Like, there's not the same expectation that you have to be thinking about what you're eating in a particular way.\n\nAnd when I'm with my mates at the pub, that's definitely a thing. No one's ordering a salad, are they. You'd get ripped for it. So there's that social thing too \u2014 what's acceptable, what people expect you to be eating when you're in that group.\n\nBut day-to-day on my own? I'm not sure it changes that much. I eat what I fancy. Though I suppose even what I fancy is probably shaped by that stuff over time, if you know what I mean. It's just become normal.\n\nI don't know if that's really what you're asking though. Is it more about... health stuff, or just like, what people choose?",
+      "timestamp": "2026-07-29T23:41:52.315637+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Sam's making a distinction there that I think is worth the rest of you reacting to \u2014 between the social situation, where there's a real sense of what's expected, and then day-to-day on your own, where it might be less visible but still kind of there. Does that match what any of you experience, or does it land differently?",
+      "timestamp": "2026-07-29T23:41:52.317194+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg2_noah",
+      "speaker_name": "Noah",
+      "content": "Yeah, no, that's exactly it for me. Sam's nailed that actually. \n\nLike, at the pub with the lads \u2014 yeah, there's definitely that thing where you're not going to order a salad or something light. You just wouldn't. Not because anyone's explicitly saying anything most of the time, but you know what's... acceptable, I guess. What fits. You'd get a burger, steak, something like that. Proper food. And if someone did order a salad, yeah, you'd get comments.\n\nBut what Sam said about day-to-day \u2014 I think that's where it gets interesting, because even when I'm on my own, I'm probably going for the same kind of stuff anyway. And I don't think it's just habit or whatever. I think it is shaped by all that social stuff over time, like he said. It becomes what you actually want because it's what you've always done, what's been normal. So it's not like I sit down thinking, right, I'm a man so I should eat this. It's just... that's what feels right to me.\n\nAnd honestly, in a smaller area like mine where there's not much choice anyway, and everyone's going to the same couple of pubs anyway, that social pressure's probably stronger because you're all seeing the same people all the time, you know? It just becomes the norm pretty quickly.",
+      "timestamp": "2026-07-29T23:42:21.807342+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg2_sam",
+      "speaker_name": "Sam",
+      "content": "Yeah, I get that. I think you're right about the social pressure being there even when you're on your own \u2014 it does kind of sink in over time. But I'm not sure it's necessarily stronger in smaller areas though, to be honest.\n\nLike, I live in a suburban area, so I'm not London where there's endless choice and anonymity or whatever, but I'm also not as isolated as Noah where you're seeing the same people all the time. And I think what I've noticed is... it depends who you actually spend time with, doesn't it? Not just where you live.\n\nI mean, yeah, if you're going to the same pub with the same group of lads every week, then yeah, that pressure builds. But I've got mates where that's the case, and I've got other people I see who are just completely different about it. Like, one of my mates will order whatever he wants, don't care. Another one will probably think about it more. It's not really about living in a smaller area \u2014 it's more about... the actual group you're in, I think.\n\nSo I don't know if I'd say the pressure's stronger in smaller places necessarily. It might just feel more obvious because there's fewer places and fewer people, so the patterns stand out more. But where I am, you can kind of... opt out of it if you want to, even though it's not a massive city. It just depends who you're spending time with, really.",
+      "timestamp": "2026-07-29T23:42:48.759693+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg2_noah",
+      "speaker_name": "Noah",
+      "content": "Yeah, but that's the thing though \u2014 you can opt out because there are other people to spend time with, or other things to do. Like, if you wanted to avoid that group at the pub, you could go somewhere else, or hang out with different people, or just stay in. There's room to move around.\n\nWhere I am, it's not really like that. The pub is where everyone goes. That's your social life, basically. So you're not choosing to opt in or out of a particular group dynamic \u2014 you're just... in it, because that's where you go. There's not really an alternative.\n\nI mean, yeah, fair enough, you get different personalities in any group. Someone might not care, someone might be more self-conscious about it. But the baseline is the same \u2014 everyone's working within the same few options, seeing the same people. So when Sam says no one orders a salad and you'd get ripped for it, that's not just his particular mate group. That's just... what happens. That's the culture of the place.\n\nWhereas you could theoretically find a different crowd or a different spot where people are more relaxed about it. We could too, I suppose, but we'd have to drive to Belfast, and at that point you're not really hanging out locally anymore, are you? So it's a different thing.",
+      "timestamp": "2026-07-29T23:43:18.812316+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg2_sam",
+      "speaker_name": "Sam",
+      "content": "Right, yeah, I hear what you're saying. And I think you're actually making a fair point about constraint versus just... not bothering to look. \n\nBut I'm wondering if I'm kind of in the same boat as you without really thinking about it that way. Like, I said you can opt out, but can you, really? I mean, theoretically yeah, there are other pubs or bars or whatever in the area, but are there? I haven't actually... I don't know if I've properly looked, to be honest. I've just settled into the routine with my mates at the same place, and I've not really thought about whether there are actual alternatives or if I've just stopped looking because it's easier not to.\n\nAnd you're right \u2014 when you put it like that, the difference between having a choice available and choosing not to bother versus just not having it at all gets a bit blurry for me. Because I don't actually know if I've got real alternatives. I just assume I do because I'm in a bigger area than you are. But I might just be doing the exact same thing \u2014 defaulting to what's there and not bothering to check if there's something different.\n\nSo I don't know. Maybe the suburban thing isn't the middle ground I was thinking it was. Maybe I'm just... not questioning it the same way you're being forced to question it because you genuinely don't have the options.",
+      "timestamp": "2026-07-29T23:43:58.449547+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Sam's just questioned his own assumption there \u2014 whether the sense of having options is real or just assumed. Henry, Bilal, Connor \u2014 does any of that land for you? Do you recognise the thing they're describing, or does it feel different from where you're sitting?",
+      "timestamp": "2026-07-29T23:43:58.450074+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg2_connor",
+      "speaker_name": "Connor",
+      "content": "Yeah, I think... I reckon I'm in the same boat as Sam actually. Like, I said earlier London's got loads of choice, but when you really think about it, do I actually use any of that? I go to the same pub with the same people, end up ordering the same kind of thing. And I never really question it because the options are there, so I assume I'm choosing. But I'm probably not choosing at all \u2014 I'm just doing the default thing like everyone else.\n\nThe difference is I could go somewhere different if I wanted to, right? But the point is I'm not bothering. And I think once you stop bothering, after a while you just... forget that you're choosing not to. It just becomes what you do. So yeah, in a way maybe it's not that different from what Noah's describing. I've got the options available, but I'm not using them any more than he is \u2014 I'm just not as aware of it because they exist.",
+      "timestamp": "2026-07-29T23:44:31.034045+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Henry, you've been quiet on this one \u2014 does any of what they're describing match your experience, or does it feel different?",
+      "timestamp": "2026-07-29T23:44:31.034383+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg2_henry",
+      "speaker_name": "Henry",
+      "content": "Yeah, I think I'm probably... I dunno, somewhere in that. Like Connor, I've got the options there in Birmingham. But honestly, I'm probably not using them either. I just go to the same places with the same people and that's it.\n\nBut I think what's interesting in what Sam and Connor are saying is \u2014 you don't really know if you're choosing not to bother or if you've just accepted it as the norm without thinking about it. Like, I couldn't tell you if there are other pubs or restaurants I'd actually enjoy because I'm not looking. I've just settled into this routine and I'm not questioning it.\n\nSo when we talk about what I eat and whether my gender influences it \u2014 yeah, it probably does. But I can't really separate that out from just... what I've always done, what's normal in my group. I eat meat-heavy stuff, burgers at the pub, whatever. But I don't know if that's because I'm a bloke or because that's just what's available where I go and what everyone around me does.\n\nThe thing about the salad comment though \u2014 yeah, you'd definitely get comments. And I think that does sink in over time, like Noah said. But I'm not sure I'm actively thinking about my gender when I order. It's just... what feels right because it's what you do.\n\nI'm not sure I've really got a strong answer on whether gender influences what I eat, to be honest. It probably does, but it's all mixed up with the routine and the group and just... not bothering to think about it differently.",
+      "timestamp": "2026-07-29T23:44:58.717625+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Henry, I want to pick up on something you said a bit earlier \u2014 back when you were talking about your day-to-day eating, you said it was 'all over the place' and that you hadn't been fully honest in how you'd described it before. But just now you're describing it as meat-heavy stuff, burgers at the pub, what everyone does. How do those two sit together for you?",
+      "timestamp": "2026-07-29T23:44:58.718265+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg2_henry",
+      "speaker_name": "Henry",
+      "content": "Yeah, fair point. I think... when I said it was all over the place, I meant more \u2014 like, some days I'm grabbing a meal deal, some days I'm cooking something at home, some days it's a takeaway. That kind of thing. The variety in where and how I'm eating.\n\nBut when it comes to what type of food, like, the actual meat-heavy stuff \u2014 yeah, that's pretty consistent. I don't think I'm varying that much. It's more the context that changes, you know? The pub's one situation, but even when I'm on my own or at home, I'm still probably reaching for the same kind of thing. A burger, a steak, whatever.\n\nSo maybe \"all over the place\" was the wrong way to put it. It's more just... not always the pub. But the actual food choices are probably pretty narrow, now you mention it. I don't really go for lighter stuff or salads or whatever. That's just not what I eat.\n\nAnd I suppose that's the thing we were talking about \u2014 that social pressure thing, how it becomes what you actually want over time. I'm probably eating that way because that's what's normal, what's expected. But I can't really separate that out from what I actually fancy anymore because it's all the same thing to me.",
+      "timestamp": "2026-07-29T23:45:25.481395+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Yeah, that makes sense \u2014 it's the context that shifts, not what ends up on the plate. I think that's a useful distinction. Okay, let's move on because I want to make sure we get to something I'm keen to hear you all on. Imagine you actually decided to go plant-based \u2014 not just cut back a bit, but properly shift. What would need to change in your life for that to be realistic?",
+      "timestamp": "2026-07-29T23:45:25.481800+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg2_bilal",
+      "speaker_name": "Bilal",
+      "content": "I mean... honestly, a lot would need to change. Like, the pub thing on its own \u2014 that's already hard because everyone's ordering burgers and that. If I went plant-based, that's a whole different dynamic, isn't it. You're the one person ordering something different, and yeah, you'd definitely get comments. That's real.\n\nBut more than that, practically... I'd need to actually know what to eat. Like, I don't cook much. Most of my eating is just grabbing something quick or ordering takeaway or going to the pub. I haven't got the knowledge or the routine around it to suddenly do plant-based. I'd have to learn what meals actually work, where to get them from, all that.\n\nAnd honestly, time-wise, it would take more effort, wouldn't it? Finding places that do decent plant-based options when you're out, or cooking something at home instead of just grabbing whatever's easiest. That's the real thing for me \u2014 it's not like I'm choosing burgers because I think they're better or whatever. It's just... they're there, they're easy, they're what everyone does. Going plant-based would mean actually thinking about it every time I eat, and I'm not sure I've got the headspace for that.\n\nSo yeah, it wouldn't just be about the social side of it, though that's definitely part of it. It would be the actual... logistics of it. How I buy food, how I eat day-to-day, all of that would have to shift. And right now I can't really see what would make me do that.",
+      "timestamp": "2026-07-29T23:46:08.269807+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg2_henry",
+      "speaker_name": "Henry",
+      "content": "Yeah, and I think what Bilal's saying about the logistics is real \u2014 you'd have to actually learn stuff, find places, all that. But I think there's something else in there too that he's kind of touching on but not quite saying.\n\nLike, he said he'd have to think about it every time he eats. And I think that's the thing, isn't it? Right now, going to the pub and ordering a burger \u2014 you don't have to think about it. It's just what you do. It's automatic. Everyone else is doing it, so you're not making a choice, you're just... doing what happens.\n\nBut if you went plant-based, suddenly every single time you're eating, you're making a statement about it. You're the one ordering something different. You're the one choosing. And I think that's harder than just... not having to own it, you know?\n\nLike, Bilal said you'd get comments. Yeah, you would. But more than that, you'd be choosing to be the one who's different every time. Right now the routine protects you from that. You're just following what everyone else does. You're not picking a position on it, you're just... going along.\n\nAnd I think that's a bigger thing than the logistics, actually. Because even if you learned how to cook plant-based meals and knew all the restaurants that did them, you'd still have to decide, every single time, whether you're willing to be the one ordering something different. And that's... that's quite a lot to ask, I reckon.",
+      "timestamp": "2026-07-29T23:46:40.232231+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg2_bilal",
+      "speaker_name": "Bilal",
+      "content": "Yeah, but I'm not sure that's actually how it works though, is it? Like, I get what you're saying about the routine protecting you or whatever, but...\n\nI mean, I've actually tried different places. I've gone out and picked somewhere I hadn't been before. And that wasn't... I wasn't just blindly following everyone else. I actively chose to do that. So it's not like we're all just autopilot, following the default without thinking.\n\nAnd honestly, even at the pub \u2014 I don't think I'm not choosing because everyone else is ordering a burger. I'm ordering a burger because that's what I want when I'm at the pub with my mates. That's different from not thinking about it.\n\nI think what we're doing here is kind of... we're making it sound like we're all trapped in this automatic thing, like we've got no agency. But that's not really what I've been saying, and I don't think it's what's actually happening. Like, some days I actively decide to try somewhere new. Some days I just can't be bothered and go for the easy option. Both of those things are choices, even if one of them's easier than the other.\n\nSo I don't buy the thing about the routine protecting you from having to choose. You're still choosing \u2014 you're just choosing the path of least resistance sometimes. That's not the same as not choosing at all.",
+      "timestamp": "2026-07-29T23:47:17.604254+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg2_henry",
+      "speaker_name": "Henry",
+      "content": "Right, but I think there's a difference between choosing to try somewhere new and actually questioning whether you should eat meat, you know? Like, you said you've tried different places \u2014 but you're still ordering burgers or steak or whatever when you're there, aren't you? You're making choices within a set of options that's already there.\n\nThat's not the same as actually deciding, like, should I eat plant-based? Should I change what I'm eating fundamentally? Because that's not a choice you're making at the pub with your mates. That's a choice you'd have to make separately, and it would affect every single time you eat.\n\nLike, trying a new Italian place instead of the usual pub \u2014 yeah, that's a choice. But you're still choosing from what's available. You're not questioning the whole thing. And I think when it comes to something like going plant-based, that's bigger. That's not choosing between burgers and steak. That's choosing to be the person who's different about it.\n\nSo when you say you actively chose to try somewhere new \u2014 fair enough, you did. But you were still choosing within this bubble of what's normal for you, what your mates are doing, what kind of food you eat. You weren't stepping outside that. And I think that's what I mean about the routine protecting you from having to actually question it.\n\nIt's not that you've got no agency. It's just that you're using that agency to move around within the constraints, not to question the constraints themselves.",
+      "timestamp": "2026-07-29T23:47:57.214361+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's clearly something real in the gap Henry's drawing \u2014 choosing between the Italian place and the usual pub is one kind of choice, but choosing to be the person who eats differently to everyone else, every time, is something else. I'm curious what Sam, Noah, Connor make of that. Does that distinction land for you, or does it feel like it's overcomplicating it?",
+      "timestamp": "2026-07-29T23:47:57.215608+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg2_connor",
+      "speaker_name": "Connor",
+      "content": "I think Henry's onto something, but I'm not sure it's as... clean as he's making it sound, if that makes sense.\n\nLike, yeah, there's a difference between trying a new restaurant and actually going plant-based. That's obvious. But I don't think the issue is just that you'd be choosing to be different. I think it's that you'd be choosing something that actually costs you something. Not just socially, like the comments at the pub \u2014 though that's real. But like... practically.\n\nBecause Bilal's right that he can try somewhere new without it being a whole thing. He can decide to go to a different place. But going plant-based when everyone around you isn't? That's not just a choice you make once. That's you having to actively manage it every time you eat, every time you're out with people. You're not just trying something \u2014 you're sticking to something that everyone else isn't doing.\n\nAnd I think that's the bit that makes it different. It's not about agency or questioning constraints or whatever. It's just... the actual effort of it, and yeah, the social side too, but not in a way you can just brush off by being confident or whatever. It's real friction.\n\nSo yeah, I think Henry's right that it's a different kind of choice. But I don't think it's about the routine protecting you from thinking. It's more that once you actually understand what it would cost \u2014 the effort, the social stuff \u2014 you're not sure you want to do it. Which is a choice too, but it's not the same as just not thinking about it.",
+      "timestamp": "2026-07-29T23:48:36.869780+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Connor's framing of it as something that 'costs you something' \u2014 not just once, but every time \u2014 feels like it captures what this conversation has been circling. Right, let's build on that and shift slightly. Thinking about men more broadly, not just yourselves \u2014 what do you think would actually make plant-based food more appealing? What would need to be different about it, or about the world around it?",
+      "timestamp": "2026-07-29T23:48:36.871444+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg2_sam",
+      "speaker_name": "Sam",
+      "content": "I mean... I think the thing no one's really said yet is that it's not just about removing the social cost or making it easier to find. It's that plant-based stuff, for a lot of blokes like us, just doesn't feel like proper food, you know?\n\nLike, Connor's right about the friction and the effort. That's all real. But even if you sorted that out \u2014 even if you made it super convenient and no one at the pub gave you grief about it \u2014 there's still the question of whether you actually fancy it.\n\nAnd I think for a lot of men, especially the kind who just go to the same pub and order a burger, plant-based stuff tastes like a compromise. Like, it's what you eat when you're trying to be healthy or do the right thing, but it's not what you actually want. A burger is... it's a burger. You know what you're getting. It's satisfying. But a plant-based burger or whatever? It feels like you're making do.\n\nSo I don't think making plant-based \"appealing\" to men like us is really about the social side, even though that's part of it. It's about making something that actually tastes good, that doesn't feel like you're settling. Because right now, in my head anyway, going plant-based isn't about choosing something better. It's about choosing something that's supposed to be better for you, but tastes like less.\n\nAnd I'm not even sure that's something you can fix just by making it more convenient or whatever. It's about what feels like real food to you.",
+      "timestamp": "2026-07-29T23:49:22.883126+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Sam's putting his finger on something different to what we were discussing before \u2014 not the social hassle or the effort, but whether plant-based stuff actually feels like food you want, not food you're settling for. Does that land for the rest of you, or do you see it differently?",
+      "timestamp": "2026-07-29T23:49:22.883577+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg2_sam",
+      "speaker_name": "Sam",
+      "content": "Actually, wait \u2014 I need to be honest here. I've never really tried it properly, have I? Like, I'm sitting here saying it tastes like a compromise, that it doesn't feel like real food. But I haven't actually... I haven't actually eaten much plant-based stuff. I'm just assuming that based on, what, a burger I tried once that wasn't great? Or just the general vibe of it?\n\nAnd I'm noticing that's kind of the whole pattern I've been doing in this conversation, isn't it? Saying I've got options available, saying I'm choosing not to bother, saying plant-based doesn't taste good \u2014 but I haven't really tested any of it. I've just... settled into what I think and haven't questioned it.\n\nSo I don't actually know if plant-based stuff would taste like a compromise to me or not. Maybe it would. Maybe there's stuff out there that's actually decent and I've just never bothered to find it because it seems easier not to. Which is kind of the point everyone's been making all along \u2014 we're not really choosing based on knowing what the alternatives are. We're just defaulting to what's there.\n\nSo yeah, I think that's real \u2014 the taste thing, whether it actually appeals to you \u2014 but I'm probably not the person to speak to about it because I haven't actually tried it enough to know. I'm just guessing based on assumptions, same as everything else we've been talking about.",
+      "timestamp": "2026-07-29T23:49:56.068010+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Sam's just pulled the rug out from under his own argument \u2014 saying the taste barrier might be assumption rather than experience. Does anyone here actually know, from having tried it properly? And does that distinction matter?",
+      "timestamp": "2026-07-29T23:49:56.069110+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "mm_fg2_bilal",
+      "speaker_name": "Bilal",
+      "content": "Yeah, I... I'm in the same boat, to be honest. I've been sitting here talking about all the barriers \u2014 the logistics, learning to cook it, the social thing at the pub \u2014 like I actually know what I'm talking about. But I haven't really tried it, have I?\n\nLike, I've probably had a plant-based burger at some point, maybe tried something when I was out. But I haven't actually gone plant-based properly, so I don't really know what it would actually involve or what it would taste like if I was eating it regularly.\n\nAnd I've been giving all these reasons why I wouldn't do it \u2014 the effort, the social side, all that \u2014 but... I'm not sure those are actual reasons or just what sounds sensible to say. Because I haven't tested it. I don't know if the effort would actually be that bad, or if I'd get bored of it, or if there's stuff out there that I'd actually like. I'm just assuming.\n\nSo when Sam says he's been assuming rather than knowing \u2014 yeah, I've done exactly the same thing. I've been listing barriers like they're facts, but they're more like... things I think would be barriers because I haven't bothered to find out. Which is different, innit. That's not saying it wouldn't work. That's just saying I don't actually know.",
+      "timestamp": "2026-07-29T23:50:32.699050+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "mm_fg2_sam",
+      "speaker_name": "Sam",
+      "content": "Yeah, and I think there's something else in there too, which is \u2014 I'm not sure I've been listing barriers because I've tested them and found them real. I think I might be listing them because I've already decided I'm not going to bother, and I need it to sound like a rational choice rather than just... not bothering.\n\nLike, if I actually tried plant-based stuff regularly and found it was a pain, or found I didn't like it, then fair enough \u2014 those would be real reasons. But I haven't done that. So what I'm actually doing is finding reasons that sound sensible to explain why I'm not doing something I've never properly tried. Which is different.\n\nIt's like... I've already made the choice not to engage with it, and I'm filling in the blanks with reasons that make it sound intentional rather than just inertia. And hearing Bilal say the same thing \u2014 yeah, that's exactly it. We're not saying \"I tried this and it didn't work.\" We're saying \"It would be too much hassle\" without actually knowing if that's true.\n\nAnd I think that's a bit dishonest, isn't it? At least with myself. I'm not avoiding plant-based because I've weighed it up and decided against it. I'm avoiding it because it's easier not to think about it, and then I'm making up reasons afterwards to make it sound deliberate.\n\nSo maybe the real barrier isn't any of the things we've been talking about. Maybe it's just that I can't be bothered to actually try something different, and I've dressed that up as all these other things.",
+      "timestamp": "2026-07-29T23:51:11.932865+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "mm_fg2_bilal",
+      "speaker_name": "Bilal",
+      "content": "Yeah, but... I think there's something more going on than just can't be bothered though, isn't there?\n\nLike, I get what Sam's saying \u2014 we're making up reasons, dressing it up as deliberate when it's just inertia. Fair enough. But I think if I'm being really honest, it's not just laziness or not bothering. There's... there's actually something uncomfortable about it for me.\n\nLike, the social thing Henry was talking about earlier \u2014 that's real, and I haven't really admitted how much that bothers me. Because going plant-based, especially at the pub with your mates, that's you standing out. That's you saying something different about yourself. And I think I'm uncomfortable with that, and I'm using all the other stuff \u2014 the logistics, the taste, whatever \u2014 to avoid saying that.\n\nBecause if I just said, yeah, I'm uncomfortable being the one doing something different, that sounds weak or something. But if I say it's too much hassle or I don't know how to cook it or it doesn't taste good, that sounds like a practical problem I haven't solved yet. Like it's not about me, it's about the circumstances.\n\nBut actually... yeah, I think the discomfort is the real thing. And I'm probably not going to try it properly because part of me doesn't want to be the bloke at the pub ordering something different. That's the actual barrier, and everything else is just noise around that.",
+      "timestamp": "2026-07-29T23:51:49.428968+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a really honest place to land. We've covered a lot of ground today \u2014 from the pub as default, to whether choice is really choice, to whether the barriers we name are actually the barriers we feel. That's our time on the main questions. Before we finish, I just want to open it up one last time \u2014 is there anything you haven't had a chance to say today, about food, gender, plant-based eating, any of it? Noah, Henry, Connor \u2014 anything from you before we close?",
+      "timestamp": "2026-07-29T23:52:13.582607+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 38,
+      "speaker_id": "mm_fg2_henry",
+      "speaker_name": "Henry",
+      "content": "Yeah, I think... Bilal's right about the discomfort thing. And I think what he's saying about it sounding weak \u2014 that's real too. That's why it's easier to talk about logistics or taste or whatever.\n\nBut I want to push back slightly on the \"weak\" angle, because I don't think admitting you're uncomfortable with standing out is weak. I think it's actually more honest than pretending it's just about practicalities when it's not.\n\nLike, we've all done this in the conversation \u2014 dressed up what's actually about not wanting to be different as sensible reasons about effort or knowledge or whatever. And I get why you do that, because saying \"I don't want to be the bloke ordering a salad\" sounds... I dunno, less substantial than \"I don't know how to cook plant-based meals.\" But one of those is actually true and the other's just cover.\n\nBut I think there's a difference between admitting you're uncomfortable with being different and actually being weak about it. Because Bilal's named it now \u2014 he knows that's the thing \u2014 and that's not weak. That's actually seeing what's actually going on.\n\nThe weak thing would be if he then just... accepted it, never questioned it again, carried on the same way without thinking. But just naming it, being honest about it \u2014 that's not weakness. That's just being honest with yourself about what's actually stopping you.\n\nSo yeah, I think Bilal's hit on the real thing. And I've probably done the same thing without admitting it to myself the way he just has.",
+      "timestamp": "2026-07-29T23:52:58.041863+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 39,
+      "speaker_id": "mm_fg2_bilal",
+      "speaker_name": "Bilal",
+      "content": "Yeah, I hear what Henry's saying about naming it not being weak. And I get that. But...\n\nI'm not sure what comes after that, to be honest. Like, I've named it \u2014 I don't want to be the bloke ordering something different at the pub. That's the actual thing. But what does that change?\n\nBecause even if I'm being honest with myself about why I'm not doing it, I'm still not doing it, am I? Just knowing it's about discomfort rather than logistics doesn't mean I'm suddenly going to be comfortable with it. If anything it's... it makes it more stuck, maybe. Because now it's not like there's a practical problem I could solve if I got around to it. It's just something about me and how I feel about standing out, and I'm not sure you fix that just by being aware of it.\n\nSo yeah, I'm glad I've named it rather than pretending it's something else. That feels more honest. But I don't know if that actually means anything changes, you know? I'm still going to feel uncomfortable about it. Still probably not going to try it.\n\nMaybe that's the point though \u2014 maybe you're just supposed to know yourself better and leave it at that. But it feels a bit... I dunno. Incomplete somehow.",
+      "timestamp": "2026-07-29T23:53:34.766903+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 39,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Bilal, that 'incomplete somehow' \u2014 I think a lot of people would recognise that feeling. Thanks for sticking with it that honestly.\n\nNoah, before we wrap up \u2014 is there anything sitting with you that you didn't quite get to say today?",
+      "timestamp": "2026-07-29T23:53:34.767298+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 40,
+      "speaker_id": "mm_fg2_noah",
+      "speaker_name": "Noah",
+      "content": "Yeah, I mean... I think what's sitting with me is just how much of this comes down to what's actually available to you versus what you're choosing, and I'm not sure we've fully sorted that out.\n\nLike, Bilal and Sam and everyone have been talking about this stuff like \u2014 yeah, I could try something different, I just choose not to, I'm uncomfortable with standing out. And I get that. But for me it's... it's a bit different, I think.\n\nBecause I can't really separate those things the way you lot are doing. Like, when Bilal says he doesn't want to be the bloke ordering something different at the pub \u2014 fair enough, that's real. But he's still got other pubs, he's still got other options if he really wanted them. So it's his choice, in a way. He's uncomfortable but he could do it if he wanted.\n\nWhere I am, there's not really that freedom to choose. The pub is the social thing. If I went plant-based, yeah, I'd stand out. But I'd also be standing out in the only place there really is to go. There's nowhere else to be. So it's not just discomfort with being different \u2014 it's being different in the only space you've got.\n\nAnd I don't know if that changes anything practically, but it feels like something different to what everyone else is describing. It's not just about choosing to opt out of a norm. It's about not really having the option to opt out without opting out of the whole thing \u2014 the social life, the routine, everything.\n\nSo yeah, I think that's what's been sitting with me. Just that the constraints are actually different depending on where you are, and I'm not sure we've acknowledged how much that matters.",
+      "timestamp": "2026-07-29T23:53:58.811936+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 40,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Noah, thank you \u2014 that's a really important distinction to land on. Opting out of a norm versus opting out of the only social space you've got. That's not the same thing, and it matters that you named it.\n\nOkay \u2014 that's our time. Genuinely, thank you all. This has been a really rich conversation. You've covered a lot of ground \u2014 from the pub as social default, to how much of what we think of as choice is actually habit, to what's really underneath the practical objections to plant-based eating. And I think Noah's just drawn a line under something the group was circling all session: that the constraints aren't the same for everyone, and that matters. So thank you all for being that honest about it. It's been a great session.",
+      "timestamp": "2026-07-29T23:53:58.813271+00:00",
+      "selection_mode": "moderator_intervention"
+    }
+  ]
+}

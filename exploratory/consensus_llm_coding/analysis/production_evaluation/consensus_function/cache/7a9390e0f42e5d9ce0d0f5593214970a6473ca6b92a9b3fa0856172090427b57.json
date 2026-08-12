@@ -1,0 +1,184 @@
+{
+  "cache_key": "7a9390e0f42e5d9ce0d0f5593214970a6473ca6b92a9b3fa0856172090427b57",
+  "run": "macho_meals_fg1_run02",
+  "condition": "enriched",
+  "chunk_index": 2,
+  "target_turn_ids": [
+    "T035",
+    "T037",
+    "T038",
+    "T040",
+    "T041",
+    "T042",
+    "T044",
+    "T046"
+  ],
+  "shown_turn_ids": [
+    "T032",
+    "T033",
+    "T034",
+    "T035",
+    "T036",
+    "T037",
+    "T038",
+    "T039",
+    "T040",
+    "T041",
+    "T042",
+    "T043",
+    "T044",
+    "T045",
+    "T046"
+  ],
+  "blinded_transcript_sha256": "6c421997d64c5606c333ce8bec4d2213a3bacedb525f218a437bcb04a851cf33",
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "probe_tag": null,
+  "attempt": 1,
+  "finish_reasons": [
+    "FinishReason.STOP"
+  ],
+  "truncated": false,
+  "parse_error": null,
+  "prompt_tokens": 4547,
+  "candidates_tokens": 1141,
+  "thoughts_tokens": 7032,
+  "codings": [
+    {
+      "turn_id": "T035",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "I'm kind of with Speaker C on the \"it's just food\" bit, actually.",
+          "target_turn_id": "T033"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T037",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "I think Speaker B's right about the accessibility thing mattering",
+          "target_turn_id": "T035"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "I'm not sure that's what's actually blocking it for me, to be honest.",
+          "target_turn_id": "T035"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T038",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "I'm not sure you're giving the accessibility thing enough credit, to be honest.",
+          "target_turn_id": "T037"
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "And yeah, the social thing's real too.",
+          "target_turn_id": "T037"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T040",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Speaker B's right that accessibility matters more than Speaker E's giving it credit for.",
+          "target_turn_id": "T038"
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "Speaker E's right that just having the stuff available doesn't automatically make it feel normal.",
+          "target_turn_id": "T037"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "you can't manufacture that for plant-based stuff just by making it easier to access.",
+          "target_turn_id": "T038"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T041",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "I think you're making it sound like it all has to flip at once, and I'm not sure that's how it actually happens.",
+          "target_turn_id": "T040"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T042",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "that woman in your village, she's not proving what you're saying, is she?",
+          "target_turn_id": "T041"
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "She's kind of proving what Speaker C was saying.",
+          "target_turn_id": "T040"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T044",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "I think Speaker C's right actually.",
+          "target_turn_id": "T042"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "And I think that's the thing Speaker B's missing a bit.",
+          "target_turn_id": "T041"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T046",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "I think they've got a point",
+          "target_turn_id": "T044"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "I'm not sure it's as black and white as they're making it sound either.",
+          "target_turn_id": "T044"
+        }
+      ],
+      "no_code_reason": null
+    }
+  ],
+  "called_utc": "2026-08-06T17:33:12.956658+00:00"
+}

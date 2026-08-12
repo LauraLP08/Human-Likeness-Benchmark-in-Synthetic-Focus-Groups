@@ -1,0 +1,94 @@
+{
+  "record_type": "CROSS_DOMAIN_CONTAMINATION_AUDIT",
+  "scope": "mindfulness_fg1_run01 — pre-run, offline",
+  "read_only": true,
+  "no_api_calls": true,
+  "method_note": "Prompts rendered through the same functions the live run uses. load_system_prompt strips the file-level comment header, so provenance comments (which mention macho_meals_fg1_run01) do not reach the model and are correctly absent from these results.",
+  "config_audited": "configs/experiment/mindfulness_fg1_run01.json",
+  "surfaces_audited": {
+    "moderator_system_prompt": {
+      "chars": 20830,
+      "hits": 3
+    },
+    "session_opening_prompt": {
+      "chars": 14853,
+      "hits": 0
+    },
+    "moderator_reflection_prompt": {
+      "chars": 3392,
+      "hits": 4
+    },
+    "participant_system_prompt::mf_p1": {
+      "chars": 2691,
+      "hits": 0
+    },
+    "participant_system_prompt::mf_p2": {
+      "chars": 2723,
+      "hits": 0
+    },
+    "participant_system_prompt::mf_p3": {
+      "chars": 2767,
+      "hits": 0
+    },
+    "participant_system_prompt::mf_p4": {
+      "chars": 2700,
+      "hits": 0
+    },
+    "participant_system_prompt::mf_p5": {
+      "chars": 2787,
+      "hits": 0
+    }
+  },
+  "total_hits": 7,
+  "hits": [
+    {
+      "surface": "moderator_system_prompt",
+      "category": "domain_nouns",
+      "pattern": "\\bsalad\\b",
+      "matched_text": "salad",
+      "context": "rlier said gender doesn't influence food choices; just said they'd feel judged ordering a salad in front of mates\"     } ] ```  Populate only when you detect for the first time that a p"
+    },
+    {
+      "surface": "moderator_system_prompt",
+      "category": "domain_nouns",
+      "pattern": "\\bfood\\b",
+      "matched_text": "food",
+      "context": "\"participant_id\": \"P1\",         \"description\": \"earlier said gender doesn't influence food choices; just said they'd feel judged ordering a salad in front of mates\"     } ] ```  Po"
+    },
+    {
+      "surface": "moderator_system_prompt",
+      "category": "domain_nouns",
+      "pattern": "\\bmates\\b",
+      "matched_text": "mates",
+      "context": "doesn't influence food choices; just said they'd feel judged ordering a salad in front of mates\"     } ] ```  Populate only when you detect for the first time that a participant has sai"
+    },
+    {
+      "surface": "moderator_reflection_prompt",
+      "category": "domain_nouns",
+      "pattern": "\\bshopping habits\\b",
+      "matched_text": "shopping habits",
+      "context": "nvenience and peer judgment, with a recurring tension between stated values and described shopping habits.' Forbidden example (this is a recap, not a synthesis, and duplicates the transcript): 'D"
+    },
+    {
+      "surface": "moderator_reflection_prompt",
+      "category": "participant_names",
+      "pattern": "\\bDavid\\b",
+      "matched_text": "David",
+      "context": "s.' Forbidden example (this is a recap, not a synthesis, and duplicates the transcript): 'David said he prioritizes price, then Sam said he agrees, then Isaiah pushed back.'\",   \"strate"
+    },
+    {
+      "surface": "moderator_reflection_prompt",
+      "category": "participant_names",
+      "pattern": "\\bIsaiah\\b",
+      "matched_text": "Isaiah",
+      "context": "plicates the transcript): 'David said he prioritizes price, then Sam said he agrees, then Isaiah pushed back.'\",   \"strategy_summary\": \"ONE paragraph, 80 WORDS OR FEWER. A synthesis of Y"
+    },
+    {
+      "surface": "moderator_reflection_prompt",
+      "category": "participant_names",
+      "pattern": "\\bSam\\b",
+      "matched_text": "Sam",
+      "context": ", not a synthesis, and duplicates the transcript): 'David said he prioritizes price, then Sam said he agrees, then Isaiah pushed back.'\",   \"strategy_summary\": \"ONE paragraph, 80 WORD"
+    }
+  ]
+}

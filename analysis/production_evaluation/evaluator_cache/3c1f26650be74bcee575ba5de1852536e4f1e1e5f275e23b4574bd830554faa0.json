@@ -1,0 +1,255 @@
+{
+ "cache_key": "3c1f26650be74bcee575ba5de1852536e4f1e1e5f275e23b4574bd830554faa0",
+ "computed_utc": "2026-07-31T00:24:58.181194+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/to8xlhi19eohi33n4kb6vuyexr1a1b89ndws",
+ "custom_request_key": "macho_meals_fg2_demoonly_run02",
+ "input": {
+  "side": "synthetic",
+  "fg": "fg2",
+  "condition": "demographics-only",
+  "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg2_demoonly_run02\\comparable_transcript.json",
+  "sha256": "a4ab58a1d9584fd5f94cd6a394ebfd87f704787753628b50f3dcda97decbfe53",
+  "physical_run": "macho_meals_fg2_demoonly_run02",
+  "canonical_replication_index": 2
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "78c4d9e142705c95aa1675f9cff62f9496a52b57cb9e635bd82f4cb5cb4890b8",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 14990,
+  "candidates_tokens": 1022,
+  "total_tokens": 22378,
+  "thoughts_tokens": 6366,
+  "cached_tokens": null,
+  "raw_text_chars": 3384,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 14990,
+  "candidates_tokens": 1022,
+  "total_tokens": 22378,
+  "thoughts_tokens": 6366,
+  "cached_tokens": null,
+  "raw_text_chars": 3384,
+  "parse_attempt": 1,
+  "headroom_tokens": 15362
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T017",
+      "speaker": "Participant 2",
+      "quote": "there's definitely a thing where you're aware of what you're ordering and how it'll come across."
+     },
+     {
+      "turn_id": "T018",
+      "speaker": "Participant 4",
+      "quote": "you're not ordering a salad with the lads because it feels a bit precious or like you're making a statement about it."
+     },
+     {
+      "turn_id": "T026",
+      "speaker": "Participant 5",
+      "quote": "And yeah, I reckon that does feel more gendered than just picking salad. Because it's like... a bloke doing that stands out a bit more"
+     },
+     {
+      "turn_id": "T028",
+      "speaker": "Participant 3",
+      "quote": "maybe that's tied up with the whole masculinity thing we were talking about earlier"
+     }
+    ],
+    "evidence_note": "Participants 2, 3, 4, and 5 all explicitly discuss how being a man influences what foods they feel comfortable ordering in social contexts.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2",
+     "Participant 3",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 0.8
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T017",
+      "speaker": "Participant 2",
+      "quote": "Like a burger or a steak or something. Simple, doesn't need explaining."
+     },
+     {
+      "turn_id": "T028",
+      "speaker": "Participant 3",
+      "quote": "You're just supposed to want a burger, not think about why you're eating what you're eating."
+     },
+     {
+      "turn_id": "T049",
+      "speaker": "Participant 4",
+      "quote": "Going to the pub, ordering a burger because that's what you do."
+     }
+    ],
+    "evidence_note": "Participants 2, 3, and 4 describe eating animal products like burgers or steaks as the default, automatic, and socially expected norm for men.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2",
+     "Participant 3",
+     "Participant 4"
+    ],
+    "reach": 0.6
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "D",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 7,
+  "verified_quotes": 7,
+  "total_present_codes": 2,
+  "verified_codes": 2,
+  "demoted_codes": 0
+ }
+}

@@ -1,0 +1,773 @@
+{
+ "built_from": "source artefacts only; no value copied from the report",
+ "n_figures": 47,
+ "figures": [
+  {
+   "figure": "structural.total_words.human",
+   "value": 4689.0,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'total_words' and condition == 'human'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 5
+  },
+  {
+   "figure": "structural.total_words.enriched",
+   "value": 8277.2667,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'total_words' and condition == 'enriched'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 15
+  },
+  {
+   "figure": "structural.total_words.demographics_only",
+   "value": 8816.9333,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'total_words' and condition == 'demographics-only'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 15
+  },
+  {
+   "figure": "structural.total_words.enriched_minus_demo",
+   "value": -539.6667,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "exact enriched mean minus exact demographics-only mean, rounded once at the end. NOT the difference of the two rounded means printed above — subtracting already-rounded values would carry two rounding errors into the result",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "operands_exact": {
+    "enriched": 8277.266666666666,
+    "demographics_only": 8816.933333333334
+   },
+   "n_source_rows": 35
+  },
+  {
+   "figure": "structural.total_words.n_fg_enriched_closer_to_human",
+   "value": "3/5",
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "per FG, count where |enriched_fg_mean - human_fg_mean| < |demo_fg_mean - human_fg_mean|. A small-n directional count: it is not a test and does not evidence a consistent advantage. Compared on exact FG means, never on rounded ones",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "per_fg": {
+    "fg1": true,
+    "fg2": true,
+    "fg3": true,
+    "fg4": false,
+    "fg5": false
+   }
+  },
+  {
+   "figure": "structural.participant_turns.human",
+   "value": 69.2,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'participant_turns' and condition == 'human'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 5
+  },
+  {
+   "figure": "structural.participant_turns.enriched",
+   "value": 32.1333,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'participant_turns' and condition == 'enriched'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 15
+  },
+  {
+   "figure": "structural.participant_turns.demographics_only",
+   "value": 33.4667,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'participant_turns' and condition == 'demographics-only'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 15
+  },
+  {
+   "figure": "structural.participant_turns.enriched_minus_demo",
+   "value": -1.3333,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "exact enriched mean minus exact demographics-only mean, rounded once at the end. NOT the difference of the two rounded means printed above — subtracting already-rounded values would carry two rounding errors into the result",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "operands_exact": {
+    "enriched": 32.13333333333333,
+    "demographics_only": 33.46666666666667
+   },
+   "n_source_rows": 35
+  },
+  {
+   "figure": "structural.participant_turns.n_fg_enriched_closer_to_human",
+   "value": "2/5",
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "per FG, count where |enriched_fg_mean - human_fg_mean| < |demo_fg_mean - human_fg_mean|. A small-n directional count: it is not a test and does not evidence a consistent advantage. Compared on exact FG means, never on rounded ones",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "per_fg": {
+    "fg1": false,
+    "fg2": false,
+    "fg3": false,
+    "fg4": true,
+    "fg5": true
+   }
+  },
+  {
+   "figure": "structural.words_per_turn_iqr.human",
+   "value": 96.45,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'words_per_turn_iqr' and condition == 'human'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 5
+  },
+  {
+   "figure": "structural.words_per_turn_iqr.enriched",
+   "value": 70.5,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'words_per_turn_iqr' and condition == 'enriched'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 15
+  },
+  {
+   "figure": "structural.words_per_turn_iqr.demographics_only",
+   "value": 52.75,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'words_per_turn_iqr' and condition == 'demographics-only'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 15
+  },
+  {
+   "figure": "structural.words_per_turn_iqr.enriched_minus_demo",
+   "value": 17.75,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "exact enriched mean minus exact demographics-only mean, rounded once at the end. NOT the difference of the two rounded means printed above — subtracting already-rounded values would carry two rounding errors into the result",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "operands_exact": {
+    "enriched": 70.5,
+    "demographics_only": 52.75
+   },
+   "n_source_rows": 35
+  },
+  {
+   "figure": "structural.words_per_turn_iqr.n_fg_enriched_closer_to_human",
+   "value": "3/5",
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "per FG, count where |enriched_fg_mean - human_fg_mean| < |demo_fg_mean - human_fg_mean|. A small-n directional count: it is not a test and does not evidence a consistent advantage. Compared on exact FG means, never on rounded ones",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "per_fg": {
+    "fg1": false,
+    "fg2": true,
+    "fg3": false,
+    "fg4": true,
+    "fg5": true
+   }
+  },
+  {
+   "figure": "structural.short_turn_proportion_25w.human",
+   "value": 0.3443,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'short_turn_proportion_25w' and condition == 'human'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 5
+  },
+  {
+   "figure": "structural.short_turn_proportion_25w.enriched",
+   "value": 0.0,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'short_turn_proportion_25w' and condition == 'enriched'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 15
+  },
+  {
+   "figure": "structural.short_turn_proportion_25w.demographics_only",
+   "value": 0.0,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'short_turn_proportion_25w' and condition == 'demographics-only'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 15
+  },
+  {
+   "figure": "structural.short_turn_proportion_25w.enriched_minus_demo",
+   "value": 0.0,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "exact enriched mean minus exact demographics-only mean, rounded once at the end. NOT the difference of the two rounded means printed above — subtracting already-rounded values would carry two rounding errors into the result",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "operands_exact": {
+    "enriched": 0.0,
+    "demographics_only": 0.0
+   },
+   "n_source_rows": 35
+  },
+  {
+   "figure": "structural.short_turn_proportion_25w.n_fg_enriched_closer_to_human",
+   "value": "0/5",
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "per FG, count where |enriched_fg_mean - human_fg_mean| < |demo_fg_mean - human_fg_mean|. A small-n directional count: it is not a test and does not evidence a consistent advantage. Compared on exact FG means, never on rounded ones",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "per_fg": {
+    "fg1": false,
+    "fg2": false,
+    "fg3": false,
+    "fg4": false,
+    "fg5": false
+   }
+  },
+  {
+   "figure": "structural.turn_balance_gini.human",
+   "value": 0.1954,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'turn_balance_gini' and condition == 'human'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 5
+  },
+  {
+   "figure": "structural.turn_balance_gini.enriched",
+   "value": 0.0725,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'turn_balance_gini' and condition == 'enriched'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 15
+  },
+  {
+   "figure": "structural.turn_balance_gini.demographics_only",
+   "value": 0.0885,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'turn_balance_gini' and condition == 'demographics-only'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 15
+  },
+  {
+   "figure": "structural.turn_balance_gini.enriched_minus_demo",
+   "value": -0.016,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "exact enriched mean minus exact demographics-only mean, rounded once at the end. NOT the difference of the two rounded means printed above — subtracting already-rounded values would carry two rounding errors into the result",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "operands_exact": {
+    "enriched": 0.07248,
+    "demographics_only": 0.08845333333333333
+   },
+   "n_source_rows": 35
+  },
+  {
+   "figure": "structural.turn_balance_gini.n_fg_enriched_closer_to_human",
+   "value": "2/5",
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "per FG, count where |enriched_fg_mean - human_fg_mean| < |demo_fg_mean - human_fg_mean|. A small-n directional count: it is not a test and does not evidence a consistent advantage. Compared on exact FG means, never on rounded ones",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "per_fg": {
+    "fg1": true,
+    "fg2": false,
+    "fg3": false,
+    "fg4": true,
+    "fg5": false
+   }
+  },
+  {
+   "figure": "structural.chain_depth.human",
+   "value": 12.8,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'chain_depth' and condition == 'human'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 5
+  },
+  {
+   "figure": "structural.chain_depth.enriched",
+   "value": 2.0218,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'chain_depth' and condition == 'enriched'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 15
+  },
+  {
+   "figure": "structural.chain_depth.demographics_only",
+   "value": 2.0178,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'chain_depth' and condition == 'demographics-only'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 15
+  },
+  {
+   "figure": "structural.chain_depth.enriched_minus_demo",
+   "value": 0.0039,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "exact enriched mean minus exact demographics-only mean, rounded once at the end. NOT the difference of the two rounded means printed above — subtracting already-rounded values would carry two rounding errors into the result",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "operands_exact": {
+    "enriched": 2.02178,
+    "demographics_only": 2.017846666666667
+   },
+   "n_source_rows": 35
+  },
+  {
+   "figure": "structural.chain_depth.n_fg_enriched_closer_to_human",
+   "value": "4/5",
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "per FG, count where |enriched_fg_mean - human_fg_mean| < |demo_fg_mean - human_fg_mean|. A small-n directional count: it is not a test and does not evidence a consistent advantage. Compared on exact FG means, never on rounded ones",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "per_fg": {
+    "fg1": false,
+    "fg2": true,
+    "fg3": true,
+    "fg4": true,
+    "fg5": true
+   }
+  },
+  {
+   "figure": "structural.moderator_word_share.human",
+   "value": 0.0253,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'moderator_word_share' and condition == 'human'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 5
+  },
+  {
+   "figure": "structural.moderator_word_share.enriched",
+   "value": 0.1079,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'moderator_word_share' and condition == 'enriched'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 15
+  },
+  {
+   "figure": "structural.moderator_word_share.demographics_only",
+   "value": 0.1157,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "filter metric_id == 'moderator_word_share' and condition == 'demographics-only'; mean of the per-FG means (replicates collapse to their FG mean first, so the FG stays the comparative unit)",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "n_source_rows": 15
+  },
+  {
+   "figure": "structural.moderator_word_share.enriched_minus_demo",
+   "value": -0.0077,
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "exact enriched mean minus exact demographics-only mean, rounded once at the end. NOT the difference of the two rounded means printed above — subtracting already-rounded values would carry two rounding errors into the result",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "operands_exact": {
+    "enriched": 0.10792,
+    "demographics_only": 0.11566
+   },
+   "n_source_rows": 35
+  },
+  {
+   "figure": "structural.moderator_word_share.n_fg_enriched_closer_to_human",
+   "value": "4/5",
+   "source": "results/structural_interaction_metrics_long.csv",
+   "rule": "per FG, count where |enriched_fg_mean - human_fg_mean| < |demo_fg_mean - human_fg_mean|. A small-n directional count: it is not a test and does not evidence a consistent advantage. Compared on exact FG means, never on rounded ones",
+   "column": "value",
+   "unit_of_analysis": "focus group (n=5)",
+   "namespace": "_comparable_window",
+   "per_fg": {
+    "fg1": true,
+    "fg2": true,
+    "fg3": true,
+    "fg4": true,
+    "fg5": false
+   }
+  },
+  {
+   "figure": "deductive.recall.fg2.difference_enriched_minus_demo",
+   "value": -0.0476,
+   "source": "results/primary_effects_by_fg.csv",
+   "rule": "row metric == 'recall' and fg == 'fg2'; the exception noted in the report narrative",
+   "column": "difference_enriched_minus_demo",
+   "unit_of_analysis": "focus group (mean of 3 replicates per cell)",
+   "namespace": "_comparable_window",
+   "direction": "demographics-only",
+   "demographics_only_mean": 0.381,
+   "enriched_mean": 0.3333,
+   "within_cell_sd": {
+    "enriched": 0.2182,
+    "demographics_only": 0.2182
+   }
+  },
+  {
+   "figure": "deductive.recall.fg4.difference_enriched_minus_demo",
+   "value": 0.2778,
+   "source": "results/primary_effects_by_fg.csv",
+   "rule": "row metric == 'recall' and fg == 'fg4'; the exception noted in the report narrative",
+   "column": "difference_enriched_minus_demo",
+   "unit_of_analysis": "focus group (mean of 3 replicates per cell)",
+   "namespace": "_comparable_window",
+   "direction": "enriched",
+   "demographics_only_mean": 0.0,
+   "enriched_mean": 0.2778,
+   "within_cell_sd": {
+    "enriched": 0.1925,
+    "demographics_only": 0.0
+   }
+  },
+  {
+   "figure": "deductive.precision.fg2.difference_enriched_minus_demo",
+   "value": -0.0833,
+   "source": "results/primary_effects_by_fg.csv",
+   "rule": "row metric == 'precision' and fg == 'fg2'; the exception noted in the report narrative",
+   "column": "difference_enriched_minus_demo",
+   "unit_of_analysis": "focus group (mean of 3 replicates per cell)",
+   "namespace": "_comparable_window",
+   "direction": "demographics-only",
+   "demographics_only_mean": 0.6833,
+   "enriched_mean": 0.6,
+   "within_cell_sd": {
+    "enriched": 0.1732,
+    "demographics_only": 0.1607
+   }
+  },
+  {
+   "figure": "deductive.precision.fg4.difference_enriched_minus_demo",
+   "value": 0.4222,
+   "source": "results/primary_effects_by_fg.csv",
+   "rule": "row metric == 'precision' and fg == 'fg4'; the exception noted in the report narrative",
+   "column": "difference_enriched_minus_demo",
+   "unit_of_analysis": "focus group (mean of 3 replicates per cell)",
+   "namespace": "_comparable_window",
+   "direction": "enriched",
+   "demographics_only_mean": 0.0,
+   "enriched_mean": 0.4222,
+   "within_cell_sd": {
+    "enriched": 0.154,
+    "demographics_only": 0.0
+   }
+  },
+  {
+   "figure": "deductive.reach.fg2.difference_enriched_minus_demo",
+   "value": 0.2167,
+   "source": "results/primary_effects_by_fg.csv",
+   "rule": "row metric == 'reach' and fg == 'fg2'; the exception noted in the report narrative",
+   "column": "difference_enriched_minus_demo",
+   "unit_of_analysis": "focus group (mean of 3 replicates per cell)",
+   "namespace": "_comparable_window",
+   "direction": "enriched",
+   "demographics_only_mean": 0.5333,
+   "enriched_mean": 0.75,
+   "within_cell_sd": {
+    "enriched": 0.15,
+    "demographics_only": 0.1528
+   }
+  },
+  {
+   "figure": "deductive.reach.fg4.difference_enriched_minus_demo",
+   "value": -0.1704,
+   "source": "results/primary_effects_by_fg.csv",
+   "rule": "row metric == 'reach' and fg == 'fg4'; the exception noted in the report narrative",
+   "column": "difference_enriched_minus_demo",
+   "unit_of_analysis": "focus group (mean of 3 replicates per cell)",
+   "namespace": "_comparable_window",
+   "direction": "demographics-only",
+   "demographics_only_mean": 1.0,
+   "enriched_mean": 0.8296,
+   "within_cell_sd": {
+    "enriched": 0.2065,
+    "demographics_only": 0.0
+   }
+  },
+  {
+   "figure": "deductive.f1_secondary.fg2.difference_enriched_minus_demo",
+   "value": -0.0606,
+   "source": "results/primary_effects_by_fg.csv",
+   "rule": "row metric == 'f1_secondary' and fg == 'fg2'; the exception noted in the report narrative",
+   "column": "difference_enriched_minus_demo",
+   "unit_of_analysis": "focus group (mean of 3 replicates per cell)",
+   "namespace": "_comparable_window",
+   "direction": "demographics-only",
+   "demographics_only_mean": 0.4781,
+   "enriched_mean": 0.4175,
+   "within_cell_sd": {
+    "enriched": 0.2271,
+    "demographics_only": 0.2297
+   }
+  },
+  {
+   "figure": "deductive.f1_secondary.fg4.difference_enriched_minus_demo",
+   "value": 0.33,
+   "source": "results/primary_effects_by_fg.csv",
+   "rule": "row metric == 'f1_secondary' and fg == 'fg4'; the exception noted in the report narrative",
+   "column": "difference_enriched_minus_demo",
+   "unit_of_analysis": "focus group (mean of 3 replicates per cell)",
+   "namespace": "_comparable_window",
+   "direction": "enriched",
+   "demographics_only_mean": 0.0,
+   "enriched_mean": 0.33,
+   "within_cell_sd": {
+    "enriched": 0.1866,
+    "demographics_only": 0.0
+   }
+  },
+  {
+   "figure": "deductive.fg4_demographics_only.subtheme_recall",
+   "value": "0.0",
+   "per_replicate": {
+    "macho_meals_fg4_demoonly_run01": 0.0,
+    "macho_meals_fg4_demoonly_run02": 0.0,
+    "macho_meals_fg4_demoonly_run03": 0.0
+   },
+   "source": "results/per_run_metrics.csv",
+   "rule": "rows fg == 'fg4' and condition == 'demographics-only'; column 'tier1_subtheme_recall' across the three replicates. Reported to qualify the subtheme-level zeros: the same runs are not empty at theme level",
+   "column": "tier1_subtheme_recall",
+   "unit_of_analysis": "run (3 replicates of one FG cell)",
+   "namespace": "_comparable_window"
+  },
+  {
+   "figure": "deductive.fg4_demographics_only.subtheme_precision",
+   "value": "0.0",
+   "per_replicate": {
+    "macho_meals_fg4_demoonly_run01": 0.0,
+    "macho_meals_fg4_demoonly_run02": 0.0,
+    "macho_meals_fg4_demoonly_run03": 0.0
+   },
+   "source": "results/per_run_metrics.csv",
+   "rule": "rows fg == 'fg4' and condition == 'demographics-only'; column 'tier1_matched_theme_precision' across the three replicates. Reported to qualify the subtheme-level zeros: the same runs are not empty at theme level",
+   "column": "tier1_matched_theme_precision",
+   "unit_of_analysis": "run (3 replicates of one FG cell)",
+   "namespace": "_comparable_window"
+  },
+  {
+   "figure": "deductive.fg4_demographics_only.theme_level_recall",
+   "value": "0.25-0.5",
+   "per_replicate": {
+    "macho_meals_fg4_demoonly_run01": 0.25,
+    "macho_meals_fg4_demoonly_run02": 0.5,
+    "macho_meals_fg4_demoonly_run03": 0.5
+   },
+   "source": "results/per_run_metrics.csv",
+   "rule": "rows fg == 'fg4' and condition == 'demographics-only'; column 'tier1_theme_level_recall' across the three replicates. Reported to qualify the subtheme-level zeros: the same runs are not empty at theme level",
+   "column": "tier1_theme_level_recall",
+   "unit_of_analysis": "run (3 replicates of one FG cell)",
+   "namespace": "_comparable_window"
+  },
+  {
+   "figure": "deductive.fg4_demographics_only.theme_level_precision",
+   "value": "1.0",
+   "per_replicate": {
+    "macho_meals_fg4_demoonly_run01": 1.0,
+    "macho_meals_fg4_demoonly_run02": 1.0,
+    "macho_meals_fg4_demoonly_run03": 1.0
+   },
+   "source": "results/per_run_metrics.csv",
+   "rule": "rows fg == 'fg4' and condition == 'demographics-only'; column 'tier1_theme_level_precision' across the three replicates. Reported to qualify the subtheme-level zeros: the same runs are not empty at theme level",
+   "column": "tier1_theme_level_precision",
+   "unit_of_analysis": "run (3 replicates of one FG cell)",
+   "namespace": "_comparable_window"
+  }
+ ],
+ "per_fg_structural_means": {
+  "total_words": {
+   "human": {
+    "fg1": 2916.0,
+    "fg2": 2963.0,
+    "fg3": 7631.0,
+    "fg4": 3440.0,
+    "fg5": 6495.0
+   },
+   "enriched": {
+    "fg1": 8803.0,
+    "fg2": 8264.6667,
+    "fg3": 8324.3333,
+    "fg4": 7417.3333,
+    "fg5": 8577.0
+   },
+   "demographics-only": {
+    "fg1": 10757.3333,
+    "fg2": 8272.6667,
+    "fg3": 10229.3333,
+    "fg4": 6893.3333,
+    "fg5": 7932.0
+   }
+  },
+  "participant_turns": {
+   "human": {
+    "fg1": 58.0,
+    "fg2": 28.0,
+    "fg3": 98.0,
+    "fg4": 39.0,
+    "fg5": 123.0
+   },
+   "enriched": {
+    "fg1": 34.3333,
+    "fg2": 35.3333,
+    "fg3": 29.6667,
+    "fg4": 29.3333,
+    "fg5": 32.0
+   },
+   "demographics-only": {
+    "fg1": 41.6667,
+    "fg2": 34.6667,
+    "fg3": 35.3333,
+    "fg4": 26.6667,
+    "fg5": 29.0
+   }
+  },
+  "words_per_turn_iqr": {
+   "human": {
+    "fg1": 62.5,
+    "fg2": 91.25,
+    "fg3": 116.5,
+    "fg4": 132.0,
+    "fg5": 80.0
+   },
+   "enriched": {
+    "fg1": 80.4167,
+    "fg2": 83.25,
+    "fg3": 50.5833,
+    "fg4": 80.9167,
+    "fg5": 57.3333
+   },
+   "demographics-only": {
+    "fg1": 61.3333,
+    "fg2": 63.4167,
+    "fg3": 50.8333,
+    "fg4": 50.8333,
+    "fg5": 37.3333
+   }
+  },
+  "short_turn_proportion_25w": {
+   "human": {
+    "fg1": 0.431,
+    "fg2": 0.0357,
+    "fg3": 0.3673,
+    "fg4": 0.359,
+    "fg5": 0.5285
+   },
+   "enriched": {
+    "fg1": 0.0,
+    "fg2": 0.0,
+    "fg3": 0.0,
+    "fg4": 0.0,
+    "fg5": 0.0
+   },
+   "demographics-only": {
+    "fg1": 0.0,
+    "fg2": 0.0,
+    "fg3": 0.0,
+    "fg4": 0.0,
+    "fg5": 0.0
+   }
+  },
+  "turn_balance_gini": {
+   "human": {
+    "fg1": 0.269,
+    "fg2": 0.1,
+    "fg3": 0.2694,
+    "fg4": 0.1538,
+    "fg5": 0.185
+   },
+   "enriched": {
+    "fg1": 0.0848,
+    "fg2": 0.0655,
+    "fg3": 0.1168,
+    "fg4": 0.0373,
+    "fg5": 0.058
+   },
+   "demographics-only": {
+    "fg1": 0.0793,
+    "fg2": 0.0964,
+    "fg3": 0.1337,
+    "fg4": 0.025,
+    "fg5": 0.1079
+   }
+  },
+  "chain_depth": {
+   "human": {
+    "fg1": 9.6667,
+    "fg2": 5.6,
+    "fg3": 16.3333,
+    "fg4": 7.8,
+    "fg5": 24.6
+   },
+   "enriched": {
+    "fg1": 2.1046,
+    "fg2": 2.2096,
+    "fg3": 1.9378,
+    "fg4": 2.0321,
+    "fg5": 1.8248
+   },
+   "demographics-only": {
+    "fg1": 2.4727,
+    "fg2": 2.1704,
+    "fg3": 1.8351,
+    "fg4": 1.8274,
+    "fg5": 1.7836
+   }
+  },
+  "moderator_word_share": {
+   "human": {
+    "fg1": 0.0439,
+    "fg2": 0.03,
+    "fg3": 0.0131,
+    "fg4": 0.0259,
+    "fg5": 0.0134
+   },
+   "enriched": {
+    "fg1": 0.0996,
+    "fg2": 0.0961,
+    "fg3": 0.1163,
+    "fg4": 0.103,
+    "fg5": 0.1246
+   },
+   "demographics-only": {
+    "fg1": 0.1076,
+    "fg2": 0.0995,
+    "fg3": 0.124,
+    "fg4": 0.1328,
+    "fg5": 0.1145
+   }
+  }
+ }
+}

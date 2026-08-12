@@ -1,0 +1,297 @@
+{
+ "cache_key": "07226739664d2cc1a65bc8ac9c6cd139319716e95597f978163bb7f3e6008382",
+ "computed_utc": "2026-07-31T00:24:58.181194+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/to8xlhi19eohi33n4kb6vuyexr1a1b89ndws",
+ "custom_request_key": "human_fg5",
+ "input": {
+  "side": "human",
+  "fg": "fg5",
+  "condition": "human",
+  "path": "data\\datasets_transcripts\\standardized\\macho_meals\\fg5\\transcript.json",
+  "sha256": "4f0b0a04f435d369f99b844017e5869ecf1b9d78dfa0e0d55e1ead59bdea44ae",
+  "physical_run": null,
+  "canonical_replication_index": null
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "4b0843331194f88599bebbf78fe9b3f3314f1b8c375a628d0d1184a5c905ff2f",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 11147,
+  "candidates_tokens": 1354,
+  "total_tokens": 17885,
+  "thoughts_tokens": 5384,
+  "cached_tokens": null,
+  "raw_text_chars": 4535,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 11147,
+  "candidates_tokens": 1354,
+  "total_tokens": 17885,
+  "thoughts_tokens": 5384,
+  "cached_tokens": null,
+  "raw_text_chars": 4535,
+  "parse_attempt": 1,
+  "headroom_tokens": 15030
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T059",
+      "speaker": "Participant 1",
+      "quote": "from my point of view, men are meat, definitely."
+     },
+     {
+      "turn_id": "T060",
+      "speaker": "Participant 3",
+      "quote": "Yeah, I totally agree."
+     }
+    ],
+    "evidence_note": "Participants 1, 3, and 4 explicitly acknowledge a strong influence of gender on eating habits, describing meat eating as being strongly associated with men.",
+    "quote_verified": true,
+    "unverified_quote_count": 1,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 3"
+    ],
+    "reach": 0.5
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T020",
+      "speaker": "Participant 4",
+      "quote": "It was just what you had. You liked it and you ate it."
+     },
+     {
+      "turn_id": "T021",
+      "speaker": "Participant 3",
+      "quote": "every Sunday. It was Sunday roast and Monday was cold meat"
+     },
+     {
+      "turn_id": "T064",
+      "speaker": "Participant 1",
+      "quote": "meat's always been in a menu"
+     }
+    ],
+    "evidence_note": "Participants 1, 3, and 4 express how eating meat and animal products is a socially default and normative habit rooted in childhood upbringing and traditional menus.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 3",
+     "Participant 4"
+    ],
+    "reach": 0.75
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T050",
+      "speaker": "Participant 4",
+      "quote": "supporting British farmers"
+     },
+     {
+      "turn_id": "T051",
+      "speaker": "Participant 2",
+      "quote": "the farmers, that is their livelihood out there, the livestock, unfortunately."
+     }
+    ],
+    "evidence_note": "Participants 2 and 4 describe purchasing animal products as a necessity to support the livelihoods of local British livestock farmers.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2",
+     "Participant 4"
+    ],
+    "reach": 0.5
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T018",
+      "speaker": "Participant 4",
+      "quote": "I still love meat"
+     },
+     {
+      "turn_id": "T033",
+      "speaker": "Participant 3",
+      "quote": "then I might have a juicy steak."
+     },
+     {
+      "turn_id": "T064",
+      "speaker": "Participant 1",
+      "quote": "I quite like going out and, um, having some ribs"
+     }
+    ],
+    "evidence_note": "Participants 1, 3, and 4 describe animal products as tasty and enjoyable treats, such as a juicy steak or ribs.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 3",
+     "Participant 4"
+    ],
+    "reach": 0.75
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T125",
+      "speaker": "Participant 1",
+      "quote": "it was, it was literally just like a piece of leather"
+     },
+     {
+      "turn_id": "T093",
+      "speaker": "Participant 4",
+      "quote": "some of it can be quite bland"
+     },
+     {
+      "turn_id": "T117",
+      "speaker": "Participant 3",
+      "quote": "I just find the taste very, very bland."
+     }
+    ],
+    "evidence_note": "Participants 1, 3, and 4 describe the unpleasant, bland taste or leather-like texture of plant-based substitutes and dishes.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 3",
+     "Participant 4"
+    ],
+    "reach": 0.75
+   },
+   {
+    "subtheme_id": "D",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 14,
+  "verified_quotes": 13,
+  "total_present_codes": 5,
+  "verified_codes": 5,
+  "demoted_codes": 0
+ }
+}

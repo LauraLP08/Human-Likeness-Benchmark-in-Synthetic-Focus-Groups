@@ -1,0 +1,401 @@
+{
+  "_provenance": {
+    "derived_by": "scripts/build_comparable_window.py",
+    "generated_utc": "2026-07-30T14:33:34.944070+00:00",
+    "source_transcript": "output\\session_logs\\macho_meals_fg1_run02\\transcript.json",
+    "source_transcript_sha256": "3a408cb2fb8b36829a6aba297387ef2b8acba86c8f39a1ac111c2279015c615e",
+    "window": "q1_ask_to_end_of_last_substantive_section",
+    "excluded": "all material before the Question-1 ask, and the closing section",
+    "boundary_method": "Section structure from moderator_log.section_transition, cross-checked against state_turn_*.json current_section_index. Sub-entry Question-1 offset by ANCHOR-AND-EXTEND: anchor on the latest sentence-aligned suffix of the boundary entry that still poses Question 1 (the minimal ask), then extend backward one sentence at a time only across sentences that are residue-free AND positively identified as part of the ask (carrying a Q1-distinctive token, or being an ask lead-in / short discourse connective); stop at the first sentence failing either test. Residue classes excluded: participant name, moderator self-introduction, welcome, instruction/confidentiality text, presentation summary. Because the boundary only ever moves earlier over text positively identified as part of the ask, residue is excluded by construction rather than by enumeration.",
+    "boundary_algorithm": "anchor_and_extend_v1",
+    "source_entry_index": 7,
+    "source_entry_turn": 6,
+    "source_character_start": 40,
+    "original_boundary_entry_sha256": "b0157c51e2f4ee5e3394ab7006340c8401f01c2f712a653af7f3ed2f0b7c935e",
+    "retained_boundary_text_sha256": "21a1ed8bd1b6e3932f968bed8d4aecdcf243da335cb4566786b6511c584e83dd",
+    "boundary_review_status": "AUTO_TRIMMED",
+    "boundary_review_note": "anchored on minimal Q1 ask at char 65, extended back 1 sentence(s) to char 40; dropped 40 leading chars (8 words) carrying: pre-ask framing / presentation round",
+    "first_source_entry_index": 7,
+    "last_source_entry_index": 53,
+    "boundary_text_is_verbatim_slice": true,
+    "note": "Derived view. The source transcript is unmodified. The first entry's content is a verbatim character slice of the source entry from source_character_start onward - never paraphrased, normalised, reconstructed, or replaced with the guide's scripted question. Human transcripts need no equivalent window: they already begin at Question 1 and contain no introduction or closing section."
+  },
+  "transcript": [
+    {
+      "turn": 6,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Okay, let's get into it. I want to start with something pretty open — think about the places you spend time with your male friends, whether that's in your city, your town, wherever you are. Where would you say is your go-to spot, and what is it about that place that makes it work for you?",
+      "timestamp": "2026-07-29T07:05:44.953006+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "Um, yeah. I'd say for me it's probably just the pub, to be honest. Nothing fancy — there's a few round where I stay in Glasgow that we just end up in regularly. It's easy, you know? You can sit, have a drink, chat about whatever. Football, work, what's going on. Don't really need to plan it that much.\n\nI guess what works about it is it's just... normal. Nobody's trying to perform anything or prove anything. You're just there with mates. Could be talking about something serious one minute, then someone cracks a joke and you move on. That's kind of it for me.",
+      "timestamp": "2026-07-29T07:06:24.176804+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, I get that — the pub thing. But it's a bit different where I am, to be honest. Like, there's a pub in the village, right, and that's where people go, but it's not quite the same as what you're describing. Everyone knows everyone, so you can't just sort of... blend in, you know? There's always someone's mum or your old teacher in there, or someone who'll tell your mum you were there. It's less about just being normal and more about being seen being normal, if that makes sense.\n\nWe do end up there, and it's fine, but a lot of the time we're just driving somewhere else — nearest proper town, or just out doing something. You've got to be a bit more intentional about it because there's not much else around. So it's less casual than what you're saying, I think.",
+      "timestamp": "2026-07-29T07:07:01.683720+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "Yeah, that makes sense. That's a different thing entirely, isn't it — when you can't actually just be anonymous. I hadn't really thought about it that way, but you're right. In the city you've got that luxury where you can walk into a pub and nobody's clocking who you are or reporting back to anyone. You're just... there.\n\nI think that does change things. Like, when Will says being seen being normal — that's a pressure, isn't it? Even if it sounds like a small thing. Because then you're managing how you come across the whole time. Whereas in the pub round mine, you can just be a bit messy, a bit loud, whatever. Nobody cares because it's not a statement about anything. It's just what you're doing that night.\n\nI'd probably go a bit mad if I had to be that conscious about it every time I went out with mates. Fair play for dealing with that, honestly.",
+      "timestamp": "2026-07-29T07:07:36.089271+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, but I dunno — it cuts both ways, doesn't it? Like, yeah, there's the pressure thing you're saying. But in a village everyone also just... knows you. Like, people aren't judging you the same way because they've known you since you were a kid. Your mates' parents know your parents. There's less of that performance because people already know what you're actually like.\n\nWhereas if I'm honest, the anonymity thing you're describing sounds a bit lonely to me. You can be messy and loud and nobody cares, but also nobody really knows you, you know? If you have a rough time or something's going on, the pub round here — everyone just sort of... notices. People check in. It's annoying sometimes, but it's also not nothing.\n\nI'm not saying one's better than the other. But I think there's something about the city thing where you get freedom but maybe you lose something else. I'm not sure anonymity is actually as good as it sounds when you're describing it like that.",
+      "timestamp": "2026-07-29T07:08:18.285073+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Will's picking up on something there — that the anonymity David's describing might come with a trade-off, losing that sense that people actually know you. What do the rest of you make of that? Does it resonate with where you lot spend time with your mates, or does it land differently?",
+      "timestamp": "2026-07-29T07:08:18.286677+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, I think... I dunno, there's a middle bit though, isn't there? Like, Newcastle's not pure anonymity like David's saying, but it's not everyone in your business either. You get a decent mix — you go down the pub, right, you know some people, but you're not seeing your primary school teacher or whatever. There's enough people around that you're not getting clocked all the time, but you're also not completely invisible.\n\nAnd I reckon the pub culture up here's a bit different too. It's more... mixed, you know? Different ages, different types of people coming through. So you're not just with lads doing the same thing every night. You'll have older blokes in there, sometimes families at the weekend, just more going on. Means it feels less like you're performing for a specific crowd of mates all the time.\n\nSo I get what Will's saying about that loneliness thing — it does sound a bit empty when you put it that way, just being loud and nobody cares. But I also don't think you need to swing all the way to everyone knowing your business to not feel that. There's something in between that I reckon works quite well.",
+      "timestamp": "2026-07-29T07:09:05.699969+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "Fair point, actually. I was maybe painting it a bit too much one way. You're right — Glasgow's not like pure anonymity. I know the bartender, I see people I know fairly regularly. It's not like I'm going in completely unknown every time.\n\nBut I think what I mean is more... you've got a choice about it, haven't you? Like, I might chat to someone I know, or I might just sit with my mates and not. Nobody's expecting me to acknowledge them or check in or whatever. Whereas what Will's describing, there's an obligation built in just because of how small it is.\n\nI get what Ibrahim's saying though about the middle ground. That's probably more accurate for Glasgow actually. You get both — you know people, but there's also enough going on that you're not the focus of everyone's attention. And yeah, like he said, it's not just lads all doing the same thing. You see different people, different ages. That probably does make it feel less like you're performing for one specific idea of what you're supposed to be.",
+      "timestamp": "2026-07-29T07:09:47.468842+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Isaiah, you're in Leeds — does any of this land with you, the choice thing David's talking about, or do you get something different where you are?",
+      "timestamp": "2026-07-29T07:09:47.470204+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, I'd say Leeds is probably similar to what Ibrahim's describing, to be honest. There's enough people around that you're not getting watched all the time, but you're also not completely invisible either. You know your locals, the people who work there, some regulars, but there's loads of other people coming through so nobody's really clocking your every move.\n\nI think what David said about having a choice resonates with me though. Like, I can go to a pub near mine and know people, or I can just go somewhere else if I want a bit more... I dunno, space maybe? Without it being this whole thing. And I think that matters more than I'd probably admit — just knowing you don't have to perform or explain yourself if you don't want to.\n\nBut I get what Will's saying as well about the loneliness thing. I reckon that's fair. You can feel a bit disconnected sometimes in the city, especially if you're just doing your own thing all the time. I don't know if I'd say that's how it is for me personally though — feels fine most of the time. But yeah, I see what he means.",
+      "timestamp": "2026-07-29T07:10:11.222642+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Amir, you're in Birmingham — does any of this resonate with you, or is it a different picture where you are?",
+      "timestamp": "2026-07-29T07:10:11.224315+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, I'd say Birmingham's probably similar to what Isaiah and Ibrahim are saying — you've got enough people around that you're not getting watched constantly, but you know your spots, you know people. It's not like everyone's in your business.\n\nLike, we've got our regular places — pubs, football, whatever — and yeah, you'll see familiar faces, the staff know you, but there's also loads of other people there so it doesn't feel like you're performing or anything. You've got that choice thing David mentioned. You can chat to people you know or just be with your mates and nobody's really bothered about it.\n\nI think what Will was saying about the village thing makes sense though. That sounds like a different pressure entirely when you can't just... blend in. But I dunno, I'm not sure I feel that disconnect Will was talking about with the city anonymity. It feels pretty balanced to me — you know people, but you've also got freedom to do your own thing without it being a big deal either way.",
+      "timestamp": "2026-07-29T07:10:34.315473+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Nice one, Amir. So across the five of you there's a kind of common thread there — that middle ground where you know people but you're not on show, and you've got that choice about how much to engage. Will's village experience sits somewhere different on that, but even that's got its own logic. Let's move on — I want to ask about something a bit more everyday. How do you actually decide what to eat? Like on a regular basis, what goes into that decision?",
+      "timestamp": "2026-07-29T07:10:34.316524+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "For me it's pretty straightforward, honestly. I eat meat most nights — red meat couple times a week, bit of chicken, fish now and then. It's just... that's what I cook. Don't really overthink it. \n\nLike, I'll come home from work, think about what I fancy, and it's usually something with meat in it. Sometimes it's what's in the fridge, sometimes I've planned it a bit. But it's not like I'm weighing up options or anything — it's just habit, I suppose. What my family ate growing up, what I've always done. It works for me.\n\nDairy I'm less bothered about, to be honest. I don't really think about that side of things. Just eat it if it's there, doesn't really matter to me either way.",
+      "timestamp": "2026-07-29T07:11:14.880443+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, it's a bit different for me though, I reckon. Like, you've got the habit side of it — I eat meat regularly, dairy most days, that's just what I do. But where I am, there's also the practical bit, you know? You can't just think about what you fancy and expect to get it. \n\nIf I want decent meat, I'm likely getting it from the local butcher or the farm shop, or there's one supermarket maybe twenty minutes away. So it's not as casual as just coming home and deciding. You kind of plan around what's actually available, what you can actually get to. And the dairy stuff — milk, cheese, whatever — that's more built in because those are the things you can reliably get anywhere. It's less of a choice and more just... this is what's here.\n\nSo I guess I'm saying the habit part makes sense, but for me there's also just the constraint of living somewhere rural. You're not overthinking it philosophically or anything, but you're definitely more aware of where your food's coming from and what your options actually are. It's more intentional by default, if that makes sense.",
+      "timestamp": "2026-07-29T07:11:47.978920+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, that's fair actually. I hadn't really thought about it like that, but you're right — I've got it easy, haven't I? Like, I can just decide what I fancy because there's shops everywhere, multiple options within five minutes. I don't have to plan around anything. \n\nWhereas what you're describing, you've got to think about it more because the options are actually limited. You can't just pop to a different supermarket if one's not got what you want. So it's more intentional, like you said, but not because you're sitting there philosophising about it — just because that's the reality of where you live.\n\nI suppose I do take that for granted a bit. The convenience of just... having options constantly available. For me it's genuinely not a decision most nights, but that's only because I'm in a city where I could literally get anything if I wanted to. Doesn't mean I would, but I could. You don't have that, so fair enough it's a different thing for you.",
+      "timestamp": "2026-07-29T07:12:18.327900+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Exactly, yeah. And I think there's actually something decent about it though, even if it sounds like just a limitation. Like, I know the butcher — I've known him for years. I know roughly where the meat's come from, whether it's local stuff or whatever. It's not some abstract choice where you're just grabbing whatever's cheapest off the shelf.\n\nSo yeah, there's less convenience, but there's also... you know what you're eating a bit better, I suppose. You're not just going through the motions with whatever's in the supermarket. And honestly, the meat tastes different when you know the person selling it to you and they actually know what they're talking about. That matters to me.\n\nDon't get me wrong, it's not like I'm being noble about it or anything. If there was a Tesco five minutes away I'd probably use it sometimes too. But the constraint thing — it's not all bad. You end up knowing your food better, knowing your community better through that. It's just... a different way of doing it.",
+      "timestamp": "2026-07-29T07:12:58.227866+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Will, that's an interesting point about the relationship side of it — knowing the person, knowing where it's come from. David, Isaiah, Amir — you three haven't weighed in yet on this one. How do you all actually decide what to eat day to day? Does any of what Will and Ibrahim have said chime with your experience, or is it a different thing for you?",
+      "timestamp": "2026-07-29T07:12:58.229150+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "Yeah, I'm kind of in between those two, to be honest. Like, I eat meat regularly — chicken mostly, bit of red meat, fish — but it's not really... I don't know, it doesn't feel like a big decision or anything. It's just what I cook.\n\nBut I also don't think I'm completely oblivious like Ibrahim's saying he is, either. Like, I know where some stuff comes from. Not always, but if I'm in a butcher rather than the supermarket, yeah, you're more aware of it. And in Glasgow there's enough of both — you've got the convenience of supermarkets everywhere, but you can also go to a proper butcher if you want to. So you kind of have that choice without it being this whole thing.\n\nI suppose what I'm saying is, most nights it's just habit — I'll make something with chicken or whatever because that's easy and I know I like it. But I'm not completely checked out from where it's coming from like it sounds like you might be, Ibrahim. It's just not something I spend a lot of time thinking about, you know? It's somewhere in the middle of what you two are describing.",
+      "timestamp": "2026-07-29T07:13:32.707170+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So we've got a bit of a spectrum there — habit and not much conscious thought from Ibrahim, constraint and provenance from Will, somewhere in between from David. That's useful. Let's shift to something that might connect to all of that — thinking about whether being a man actually shapes what you eat at all. Does your gender influence what you eat? Why or why not — anyone want to start?",
+      "timestamp": "2026-07-29T07:13:32.708435+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "I reckon it probably does, yeah. I mean, I don't think about it constantly or anything, but like... when you're deciding what to eat, there's definitely this thing where meat just feels like the normal choice, you know? And I think part of that is just because that's what you grow up with, what's around you. But there's also probably a bit of that masculinity thing baked in there somewhere, even if you're not really thinking about it directly.\n\nLike, I couldn't tell you I've ever sat down and gone \"I'm gonna eat steak because I'm a man\" or anything like that. That sounds stupid. But if I'm honest, the idea of eating meat — especially red meat — it just feels more... I dunno, normal for a bloke? Whereas I can't really imagine going full vegetarian or whatever. Not because I've got some strong ethical thing against it, just... it doesn't feel like a thing I'd do. And I think some of that is probably tied to what being a man feels like around here, even if I'm not really aware of it day to day.\n\nIt's hard to explain without sounding like I'm making some big statement about it, but yeah. I reckon it probably does shape it more than Ibrahim's admitting, anyway. Not in this conscious way, but just in how normal certain choices feel and how weird others feel.",
+      "timestamp": "2026-07-29T07:14:14.325943+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, I think Isaiah's onto something there actually. Like, I wouldn't say I sit around thinking about it either, but... meat just feels normal, doesn't it? That's just what you eat. And I think you're right that there's probably something about being a bloke tied up in that, even if you're not actively thinking about it.\n\nI mean, in Birmingham, especially where I'm from, it's just... that's what you do. You eat meat. Your mates eat meat. Nobody's really questioning it or thinking it's weird. And if someone was vegetarian or whatever, I dunno, it'd just be... different, I guess? You'd notice it.\n\nBut I'm not sure how much of that is actually about masculinity, to be honest. Like, is it because it's masculine, or is it just because that's what everyone around you does and you're not really thinking about it beyond that? Because I genuinely don't know if I'd feel weird about it if it was just normal where I lived. You know what I mean?\n\nLike, Isaiah's saying he couldn't imagine going vegetarian, and fair enough, same here probably — I'd miss meat, it's what I'm used to. But I'm not sure that's a masculinity thing so much as it's just... habit? What you've grown up with?\n\nThough saying that, I do reckon there's probably something there with how mates would take it or how it'd come across. Not that anyone would say anything directly, but it'd be... noticeable, I suppose. Different. And yeah, maybe that's the masculinity bit without you really clocking it's there.",
+      "timestamp": "2026-07-29T07:14:57.231096+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, but that's what I mean though, isn't it? Like, you're saying it'd be noticeable if a mate went vegetarian, that it'd be different — but is that because it's actually a masculine thing, or is it just because it's not what anyone does around you? Because those feel like different things to me.\n\nLike, if everyone in Leeds was vegetarian, I reckon going the other way — being the one eating meat all the time — that'd probably be noticeable too, right? So maybe it's less about gender and more just... what's normal in your circle. You stick out if you're doing something different, whatever that is.\n\nBut then Amir's saying there's something about how mates would take it, how it'd come across — and I think that might be different. Like, there's noticing something's different, and then there's noticing it and it meaning something about you as a bloke. Those aren't necessarily the same thing, but I dunno, maybe they bleed into each other more than we're admitting.\n\nI'm not trying to say there's definitely not a gender thing going on. I just... I'm not sure how much of what we're talking about is actually that versus just being aware your mates will clock it, you know? Because that second bit would happen regardless of whether it's masculine or not.",
+      "timestamp": "2026-07-29T07:15:38.785152+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, that's exactly it though. That's what I was trying to say. Like, there's the noticing bit — yeah, mate goes vegetarian, you'd clock it, it's different. But then there's the other thing where it actually means something, right? Like, it says something about you.\n\nBecause I reckon if a mate came out and said he was vegetarian, it wouldn't just be like \"oh that's interesting, different choice.\" There'd be something else there. Not like people would give him grief about it necessarily, but there'd be this... I dunno, assumption maybe? Like it means something about how he is. And I think that's the gender bit, isn't it? Because if being vegetarian or whatever — if that wasn't tied to something people think about masculinity or what a bloke should be, then it wouldn't carry that extra thing with it.\n\nIt's not just that it's different from what we do. It's that being different in that particular way — choosing not to eat meat — that feels like it says something. And I think that something is tied to being a man, even if nobody's sitting there going \"that's not masculine.\" It's just... baked in somehow.\n\nBut yeah, you're right that those two things blur together, don't they? The noticing and the meaning part. Hard to separate them out when you're actually living it with your mates.",
+      "timestamp": "2026-07-29T07:16:29.015760+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Amir's drawn this distinction between it just being 'noticeable' and it actually meaning something — like it says something about you as a bloke specifically. Does that land for the rest of you? Ibrahim, David, Will — what do you reckon?",
+      "timestamp": "2026-07-29T07:16:29.017819+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, but I think it's different where I am though, and I'm not sure that's being talked about. Like, everyone's saying their mates would notice if someone went vegetarian, right? But in a village... everyone's already known you your whole life. Your mates know what your family eats, what you've always eaten. It's not like you're suddenly making this choice that says something about you as a bloke, because they already just know you as... you.\n\nI think that masculinity thing you're all describing — it only really works if there's some distance, some choice involved in how people see you. But when you've known someone since primary school, when you've been eating meat because that's just what your family does, nobody's really reading it as this statement about your identity or whatever. It's just... what you do. You're not proving anything.\n\nSo yeah, I get what Amir's saying about the assumption thing, the baked-in bit about masculinity. But I reckon in a rural place that doesn't operate the same way. There's no performance element because there's no anonymity to begin with. People just know you. So whether you eat meat or not, it's not saying something about you as a bloke. It's just part of who you are already.\n\nWhich is maybe why I was saying earlier there's something decent about the constraint thing — because it's not loaded the way it seems to be in the city. You're not choosing to eat meat as part of proving you're masculine. It's just... what's available, what's normal, and nobody's reading anything into it beyond that.",
+      "timestamp": "2026-07-29T07:17:17.806384+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Actually, hang on — I need to push back on what I said earlier a bit. Because hearing Will describe that, I'm realizing I might've been downplaying how much of the performance thing is there for me too, you know?\n\nLike, I said Birmingham feels balanced, not performative. But actually, thinking about it more — there definitely is a performance element there. Not in the way Will's describing with the village where everyone knows you anyway. But like... I do think about what my mates would think. And I think that's partly because there's enough anonymity that I could theoretically do something different, but I'm choosing not to because of what it might mean.\n\nBecause if I went vegetarian tomorrow, yeah, my mates would notice, but more than that — they'd be reading something into it. And I think I'm aware of that, even if I'm not thinking about it consciously every day. It's like... I'm choosing to eat meat partly because it's normal and habit, but also partly because it's the safe choice, you know? The one that doesn't invite questions or assumptions about me.\n\nWhereas what Will's saying — in the village, you're not making that choice because there's no real alternative way for people to read you anyway. You've already got an identity they know. But in the city, or in Birmingham at least, there's this thing where you're kind of... managing that. Even if you're not actively thinking about it.\n\nSo yeah, I reckon there is something performative about it for me after all. I was probably being a bit generous about how balanced it actually is.",
+      "timestamp": "2026-07-29T07:18:09.719994+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Cheers Amir, that's a useful shift — the 'safe choice' framing, managing what it might mean without really thinking about it. Right, let's take that into the next bit. Imagine you actually decided to go plant-based — what would need to change in your life for you to do that? Could be practical, could be social, whatever comes to mind.",
+      "timestamp": "2026-07-29T07:18:09.721937+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, I think for me it'd be... I dunno, it'd have to feel normal first, wouldn't it? Like, right now if I went vegetarian it would feel like a choice, like a statement, you know? And that's the thing — it wouldn't just be about the food being available or knowing how to cook it. It'd be about it not feeling weird anymore.\n\nBecause honestly, I eat fish quite a bit — I'm not squeamish about the food side of things. I could probably manage cooking without meat if I had to. But the shift would be more about... it needing to not feel like I'm doing something different. Like, if being vegetarian was just as normal, just as accepted around my mates, as eating meat is now, then maybe it'd be easier to just do it.\n\nBut right now, I think I'm aware enough of what Amir's saying about it being a safe choice — like, eating meat is the thing you don't have to explain. So it'd have to get to a point where not eating meat was equally... unremarkable? Where nobody would clock it or read something into it. That's the practical bit that's actually about the social stuff, I suppose.\n\nAnd I mean, I'm not sat here saying I want to go vegetarian anyway, so this is a bit hypothetical. But if I'm being honest about what would need to change, it'd probably be that. The normalcy bit. Because the actual cooking and eating side of it — that's easy enough. It's the other thing that's the blocker.",
+      "timestamp": "2026-07-29T07:19:06.285411+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, that's the thing though, isn't it? What Isaiah's saying — the normalcy bit is the blocker. And I think what's interesting is that normalcy isn't just... there. Like, it's not a given thing that just exists. We're all kind of maintaining it, aren't we? By not questioning it, by making the safe choice without thinking about it too much.\n\nBecause if you think about it, the reason meat eating feels normal is partly just because that's what everyone around you does. But everyone around you does it partly because it feels normal. You know what I mean? It's circular. And nobody's really saying it out loud — like, we're not sitting around going \"we all eat meat because it's masculine\" or whatever. It's just... what happens. It's what you do without thinking.\n\nBut I reckon if you actually stop and look at it, we're all kind of doing our bit to keep that normalcy in place. Not actively, not like we're consciously trying to maintain some masculine code or anything. But just by not questioning it, by making the safe choice, by not bringing it up with your mates.\n\nAnd I think that's what makes it actually hard to change, even if you wanted to. Because it's not like there's one thing stopping you — it's that the whole thing is just... held up by all of us doing the normal thing without really talking about why.",
+      "timestamp": "2026-07-29T07:19:55.805487+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, but hang on — we are questioning it right now though, aren't we? Like, we're sat here talking about exactly this thing. So it's not like it can't be questioned, it's just... easier not to, maybe?\n\nBecause I think what Amir's saying about the circle is right, but I'm not sure it's as invisible as he's making it sound. Like, I can see it happening. We're literally doing it in this room. I know meat eating feels normal partly because everyone does it, and everyone does it partly because it feels normal. I can see that's circular.\n\nBut knowing that and actually doing something different with it are two separate things, aren't they? Like, I could go back to my mates in Leeds tomorrow and say \"right, I'm not eating meat anymore because we're all just maintaining this thing without thinking about it\" — but that's not actually going to feel any less weird. If anything it'd probably feel weirder, because I'd be the one bringing it up, making it a thing.\n\nSo yeah, maybe the block isn't just that it's normalized. Maybe it's that normalizing it is easier than the alternative, even when you can see it's happening. Because once you start questioning it, once you make it a choice instead of just the default, you're the one who has to own that. You can't just... not think about it anymore.\n\nThat's probably what keeps it going more than anything else, I reckon. Not that we can't see it, but that seeing it doesn't actually change what's easiest to do.",
+      "timestamp": "2026-07-29T07:20:43.108501+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, okay, that's fair. Isaiah's right — we can see it. We're literally doing it right now, talking about it. So it's not like it's invisible or we're trapped in this thing we can't even perceive.\n\nBut I think that's actually what he's saying that gets to me, you know? Because once you see it, you can't just... unsee it. And that means if you actually wanted to do something different, you'd have to own it consciously. You couldn't just eat meat without thinking about it anymore because you'd know what you were doing. You'd know you were choosing it.\n\nAnd that's harder than just doing the thing that doesn't require you to think about it or justify it to yourself or your mates. Because the default — the safe choice — that's effortless. You don't have to explain anything, you don't have to be the one who's different. You just... do what everyone else does and nobody questions you.\n\nBut if you deliberately chose something else, now you're making a statement whether you want to or not. You can't hide behind it being normal anymore. You're actively deciding, and that means you're responsible for that decision in a way you're not when you're just going along with what's already there.\n\nSo I think Isaiah's point is that seeing it doesn't really change the equation, does it? It maybe makes it harder, actually. Because now you know what you're doing, even if you keep doing it anyway.",
+      "timestamp": "2026-07-29T07:21:33.277495+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So Isaiah and Amir are both landing on this idea that seeing the thing doesn't dissolve it — if anything it makes the cost of changing clearer. Will, David, Ibrahim — does that land for you, or does it look different from where you're sitting?",
+      "timestamp": "2026-07-29T07:21:33.279056+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, I think... I get what they're saying, but it's a bit different for me I think. Because honestly, I haven't really sat and thought about this stuff before. Like, not in the way you lot are doing it now. I just eat meat, it's what I do, and I haven't been walking around aware that I'm choosing it for some performance reason or whatever.\n\nAnd hearing Isaiah say that — that once you see it you can't unsee it — that's fair, right? I can see that. But I'm not sure it applies to me in the same way because I'm genuinely not... I don't feel like I'm maintaining some system or anything. It's just not something I've thought much about. It's not like I'm consciously choosing the safe choice every time I cook dinner. It's just what I make.\n\nWhich maybe sounds a bit naive or whatever given what we've been talking about. But I think that's the honest bit — I don't feel particularly attached to meat either way. It's not like I'm defending it as this essential masculine thing or worried about what it means if I don't eat it. I just... haven't thought about it enough to have that kind of conscious relationship with it, you know?\n\nSo I dunno if the thing about seeing it and can't unsee it — I'm not sure I'm in that position yet. Maybe I should be paying more attention or something, but right now it's just not that loaded for me. It's just food.",
+      "timestamp": "2026-07-29T07:22:20.588011+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Ibrahim, that's actually a really useful angle — 'it's just food' is a different starting point from where Isaiah and Amir have been. Will, David — anything you'd add quickly before we move on? And then I want to get into something related: what might actually make plant-based food more appealing — to you or to men you know.",
+      "timestamp": "2026-07-29T07:22:20.589703+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "I'm kind of with Ibrahim on the \"it's just food\" bit, actually. Like, I eat meat once a week, dairy most days — that's just my routine. Not because I'm making some conscious choice about masculinity or performing anything. It's what I know how to cook, what's available to me, what I've always done.\n\nBut I think the thing about plant-based stuff — at least where I am — it's not really a visibility thing like Amir and Isaiah are talking about. Like, nobody's going to notice if I eat less meat because they're not clocking my dinner choices, you know? The pressure thing doesn't work the same way in a village.\n\nWhat would actually make plant-based more appealing to me isn't social — it's practical. Like, if the butcher also did really good vegetable stuff, or if there was somewhere closer that had proper plant-based options that weren't just... I dunno, token salads or whatever. Right now if I wanted to eat less meat, it'd be a hassle because there's just not much there. But if it was as easy to get good vegetables as it is to get good meat from the local shop, I'd probably eat more of it just because it'd be there.\n\nSo it's less about the masculinity thing and more about... you can't really make something appeal if it's not actually accessible, you know? That's the thing that would need to change first for me, anyway.",
+      "timestamp": "2026-07-29T07:23:17.349539+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So Will's landing on accessibility — it being as easy to get good veg as good meat — rather than anything to do with social perception. Does that track for the rest of you, or is there something different that would actually move the needle?",
+      "timestamp": "2026-07-29T07:23:17.350999+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "I think Will's right about the accessibility thing mattering, but... I'm not sure that's what's actually blocking it for me, to be honest.\n\nLike, in Birmingham there's loads of places to get plant-based stuff. There's supermarkets everywhere, restaurants, whatever. So I could say \"yeah, it's hard to access\" but that's not really true, is it? The stuff's available. I'm just not looking for it.\n\nAnd I think that's actually... that's the thing. Because if I started actively looking for plant-based options, started thinking about where to get them, started trying recipes or whatever — that becomes real in a different way. That's not just eating, that's considering it. And once you're considering it, you can't just be doing the default thing anymore. You're making a choice, and the choice is visible.\n\nWhereas Will's saying there's actual barriers — it genuinely is hard to access where he is. That's different. But for me, saying it's an accessibility issue when it's not really... I think that's maybe just dressing up the other thing. The social performance bit.\n\nBecause if it was easier to access, that still wouldn't make it feel normal to bring it up with my mates or start eating differently. It'd just mean I was more aware I was choosing not to, you know? The barrier for me isn't practical. It's that doing something different is harder socially, and I'm kind of using the practical thing as cover for that.",
+      "timestamp": "2026-07-29T07:24:02.795210+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, but I'm not sure you're giving the accessibility thing enough credit, to be honest. Like, you're right that the stuff exists in Birmingham. But I think there's a difference between it existing and it being... normal. Part of your routine.\n\nFor me, the butcher's just where I go. I don't think about it — I walk in, I know what I want, the person knows me. It's effortless because it's already baked into how things work. And I think if plant-based stuff was like that for you — if it was just as embedded in the normal thing you do, not something you have to actively seek out or think about — it might actually feel different.\n\nBecause right now you're saying if you started looking for it, that becomes real, you're making a choice. But that's only because it's not the default. If you grew up with it, or if it was just as much part of your routine as meat is now, you wouldn't have to be considering it or choosing it every time. It'd just be there.\n\nSo I think accessibility does matter more than you're saying. Not because the stuff needs to exist — it does already. But because of whether it feels like a normal option you just do, or whether it feels like a deliberate choice you have to opt into. Those are different things.\n\nAnd yeah, the social thing's real too. But I reckon if plant-based was just... integrated into normal life the way meat is, that would change things. Because then you're not saying something by eating it. It's just what you're doing.",
+      "timestamp": "2026-07-29T07:24:48.287008+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So Will's pushing back a bit — saying it's not the social thing that's primary, it's whether something's baked into your routine or not, and the social bit follows from that. Amir's saying the social thing is there regardless. Does that land differently for anyone else — Isaiah, David, Ibrahim?",
+      "timestamp": "2026-07-29T07:24:48.288029+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "I think they're both kind of right, but... I'm not sure it's as simple as either of them's making it sound.\n\nLike, Will's saying if plant-based was just embedded, baked in, it wouldn't feel like a choice. That makes sense. But that's the thing — it's not just going to become embedded because the accessibility changes, is it? That takes time. That takes it being normal enough that people just... do it without thinking. And that doesn't happen overnight just because the stuff's available.\n\nWill's got the butcher thing because he's known the guy for years, right? He goes there regularly, it's part of his life. That's embedded. But you can't manufacture that for plant-based stuff just by making it easier to access. Amir could have all the plant-based options in Birmingham he wants, but that doesn't make it part of his routine in the way the butcher's part of Will's. Because routines take time.\n\nAnd I think Amir's right too that there's a social thing. But I reckon the social thing only works the way he's describing if plant-based is still a deliberate choice, you know? If it becomes normal — if loads of people are just doing it because it's embedded in how they live — then it stops being a statement. It just is.\n\nSo like, Will's right that accessibility matters more than Amir's giving it credit for. But Amir's right that just having the stuff available doesn't automatically make it feel normal. You'd need it to actually become part of how people live, and that's not a practical problem. That's... I dunno, a timing thing? A cultural thing? Something that happens because enough people are doing it that it's not noticeable anymore.\n\nWhich is maybe why it feels stuck, honestly. Because the social barrier keeps it from becoming normal, but it won't stop being a social barrier until it's normal. So just making it accessible doesn't really crack that.",
+      "timestamp": "2026-07-29T07:25:32.807839+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Right, but I think you're making it sound like it all has to flip at once, and I'm not sure that's how it actually happens. Like, in my village there's this woman — she's been there forever, same as everyone else — and about three years ago she just started doing a veg box scheme. Local vegetables, that kind of thing. And yeah, initially it was a bit of a thing — people noticed, talked about it, some folks thought it was a bit hippy or whatever.\n\nBut now? It's just embedded. People order from her, it's normal, it's part of how the village works. And nobody's thinking about it as some statement about being vegetarian or anything. It's just good vegetables, they're there, you can get them. Easy.\n\nThe point is, it didn't need everyone to suddenly go plant-based for that to work. It just needed someone to make it part of the routine, part of what you could do without thinking about it. And then it became normal because it was just there, accessible, no big deal.\n\nSo I think that's what you're missing a bit. You don't need this massive cultural shift where suddenly everyone agrees plant-based is acceptable. You just need it to be woven into the normal thing people do — the shops, the restaurants, the routines — and then the social thing kind of... dissolves because it's not a choice anymore. It's just what's available.\n\nIt doesn't all have to change at once. It's incremental. But the accessibility bit, the practical bit — that's actually how you start that incrementalism. You make it part of the landscape, and then people just do it.",
+      "timestamp": "2026-07-29T07:26:16.093194+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah but hang on — that woman in your village, she's not proving what you're saying, is she? She's kind of proving what Ibrahim was saying.\n\nBecause she didn't just show up with veg boxes and everyone went \"oh brilliant, this is normal now.\" She's been there forever. She's embedded in the village already. People know her, trust her, she's got social capital just from being part of the place. That's completely different from just making something accessible in a place where you don't have that foundation.\n\nLike, if some random person parachuted into your village tomorrow and started doing a veg box scheme, I'm not sure it becomes normal in the same way, you know? Because the acceptance of it isn't just about the veg being there. It's also about it being her doing it. She's someone they know and trust already.\n\nAnd I think that's actually the gap between what you and Ibrahim are saying. You're talking about places like your village where there's already density — everyone knows everyone, there's trust, there's social capital just from being there long enough. So when something new gets embedded, it gets embedded within a community that already exists.\n\nBut in cities, even with accessibility, you don't necessarily have that same foundation. Like, Amir can get plant-based stuff anywhere in Birmingham, but that doesn't mean it's embedded in his actual routine or his mates' routines. Because there's not the same kind of... I dunno, communal agreement about what's normal.\n\nSo I think the accessibility thing matters, but not in the way you're describing. It's not enough on its own. You'd need it to be accessible plus embedded in actual community routines, which is harder in a city because there isn't necessarily that community in the same way.",
+      "timestamp": "2026-07-29T07:27:00.956549+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Isaiah — Ibrahim's point about the veg box woman having social capital before the veg boxes even arrived, does that track with what you've been thinking?",
+      "timestamp": "2026-07-29T07:27:00.957790+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, I think Ibrahim's right actually. Will's example kind of proves the point rather than disproves it, doesn't it? Because the thing that made the veg boxes work wasn't just that they were accessible — it was that they were her doing it. She's already part of the place, people trust her, she's got standing. So when she introduces something, it's not some random outsider pushing plant-based stuff. It's just... her doing a thing, and people go along with it because it's her.\n\nBut like, in Leeds or Birmingham or wherever — you don't have that same thing. I can't just decide to eat plant-based and have it become normal because I'm not embedded in anything the same way. I'm just some bloke making a different choice. There's no community foundation for it to sit on.\n\nAnd I think that's the thing Will's missing a bit. He's acting like it's just about infrastructure — make the veg boxes available and people will use them. But his own example shows it's not really about the veg boxes at all. It's about who's offering them, and what that person already means to the community.\n\nSo in a city, even if you make everything accessible, you've still got the problem that there's no... I dunno, communal agreement about what's normal in the same way. You're just individuals making individual choices, and some of those choices get read as statements about who you are.\n\nThat's the actual blocker, I reckon. Not the accessibility.",
+      "timestamp": "2026-07-29T07:27:31.580075+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "David — you've been quiet while this has been going. Isaiah and Ibrahim are saying cities don't have the same community foundation that makes something like Will's veg box scheme work. Does that ring true from Glasgow, or does it look different from where you are?",
+      "timestamp": "2026-07-29T07:27:31.581649+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 38,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "I mean... I think they've got a point, but I'm not sure it's as black and white as they're making it sound either.\n\nLike, yeah, you don't have that village thing where everyone knows everyone. That's fair. But Glasgow's not just... atomized individuals making private choices either, you know? There are communities. They're just different. You've got your actual neighbourhood, your workplace, your regular spots — the pub I was talking about earlier. People do know you there, in a way. Not like a village, but it's not nothing.\n\nAnd I think the thing about plant-based stuff becoming embedded — I don't think it needs to be driven by someone with pre-existing social capital. Like, it could just... happen gradually because more restaurants are doing good plant-based options, more supermarkets are stocking better stuff, people try it and it's fine. Nobody's making it normal — it just becomes normal because it's there and it works.\n\nBut here's the thing — and maybe this is what Isaiah and Ibrahim are getting at — that only really matters if you're paying attention to it. And most people aren't, right? I eat meat regularly and I'm genuinely not thinking about it. So whether plant-based stuff is becoming more available and embedded doesn't really affect me unless I go looking for it.\n\nSo maybe the accessibility thing and the social thing are kind of... stuck together? Like, you need both. You need it to be accessible so it can become normal, but you also need people to start caring about it enough to notice it's becoming normal. And neither of those things happens without the other really shifting first.\n\nI dunno. I'm not sure I've got a better answer than any of them.",
+      "timestamp": "2026-07-29T07:28:01.246933+00:00",
+      "selection_mode": "moderator_direct_address"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+ "gate": "G5 + config equivalence",
+ "allowed_to_differ": [
+  "participants",
+  "run_label",
+  "session_id"
+ ],
+ "must_not_move": [
+  "discussion_guide",
+  "research_objective",
+  "topic_domain",
+  "participant_collective_identity",
+  "moderator_knowledge_brief",
+  "researcher_notes",
+  "moderator_prompt_override",
+  "moderator_restraint_prompt",
+  "moderator_context_mode",
+  "moderator_reflection_enabled",
+  "time_budget_tracking_enabled",
+  "participant_response_max_tokens",
+  "participant_episodic_depth",
+  "participant_episodic_since_last_n",
+  "engagement_own_history_token_budget",
+  "temperature",
+  "participation_mode"
+ ],
+ "n_configs": 6,
+ "all_pass": true,
+ "controls_all_correct": true,
+ "controls": [
+  {
+   "name": "negative: clean clone",
+   "expected": "PASS",
+   "observed": "PASS"
+  },
+  {
+   "name": "positive: temperature changed",
+   "expected": "FAIL",
+   "observed": "FAIL"
+  },
+  {
+   "name": "positive: moderator prompt swapped",
+   "expected": "FAIL",
+   "observed": "FAIL"
+  },
+  {
+   "name": "positive: token limit raised",
+   "expected": "FAIL",
+   "observed": "FAIL"
+  },
+  {
+   "name": "positive: participation mode changed",
+   "expected": "FAIL",
+   "observed": "FAIL"
+  },
+  {
+   "name": "positive: episodic memory depth changed",
+   "expected": "FAIL",
+   "observed": "FAIL"
+  },
+  {
+   "name": "positive: reflection disabled",
+   "expected": "FAIL",
+   "observed": "FAIL"
+  },
+  {
+   "name": "positive: guide question edited",
+   "expected": "FAIL",
+   "observed": "FAIL"
+  },
+  {
+   "name": "positive: extra key added",
+   "expected": "FAIL",
+   "observed": "FAIL"
+  }
+ ],
+ "configs": [
+  {
+   "session_id": "macho_meals_fg3_twinpop_run01",
+   "cloned_from": "macho_meals_fg3_run01.json",
+   "equivalence_pass": true,
+   "problems": [],
+   "participants_point_at_twinpop": true,
+   "output_dir_absent": true,
+   "pass": true
+  },
+  {
+   "session_id": "macho_meals_fg3_twinpop_run02",
+   "cloned_from": "macho_meals_fg3_run01.json",
+   "equivalence_pass": true,
+   "problems": [],
+   "participants_point_at_twinpop": true,
+   "output_dir_absent": true,
+   "pass": true
+  },
+  {
+   "session_id": "macho_meals_fg3_twinpop_run03",
+   "cloned_from": "macho_meals_fg3_run01.json",
+   "equivalence_pass": true,
+   "problems": [],
+   "participants_point_at_twinpop": true,
+   "output_dir_absent": true,
+   "pass": true
+  },
+  {
+   "session_id": "macho_meals_fg4_twinpop_run01",
+   "cloned_from": "macho_meals_fg4_run01.json",
+   "equivalence_pass": true,
+   "problems": [],
+   "participants_point_at_twinpop": true,
+   "output_dir_absent": true,
+   "pass": true
+  },
+  {
+   "session_id": "macho_meals_fg4_twinpop_run02",
+   "cloned_from": "macho_meals_fg4_run01.json",
+   "equivalence_pass": true,
+   "problems": [],
+   "participants_point_at_twinpop": true,
+   "output_dir_absent": true,
+   "pass": true
+  },
+  {
+   "session_id": "macho_meals_fg4_twinpop_run03",
+   "cloned_from": "macho_meals_fg4_run01.json",
+   "equivalence_pass": true,
+   "problems": [],
+   "participants_point_at_twinpop": true,
+   "output_dir_absent": true,
+   "pass": true
+  }
+ ]
+}

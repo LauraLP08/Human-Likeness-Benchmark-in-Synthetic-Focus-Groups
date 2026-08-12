@@ -1,0 +1,67 @@
+{
+  "record_type": "THEMATIC_EVALUATION_PREFLIGHT",
+  "classification": "EXPLORATORY_OUT_OF_DOMAIN_THEMATIC_FIDELITY_CHECK",
+  "frame": {
+    "status": "HUMAN_DERIVED_RETROSPECTIVE_CODING_FRAME_V1",
+    "source_sha256": "9637506c4a389b29acd8f5b2c2739d25657de63b2040467f825596ead5a1ed27",
+    "parent_themes": 10,
+    "codes_total": 26,
+    "codes_verified": "PENDING — determined by phase A",
+    "codes_excluded": "PENDING — codes without a literal human quote become UNVERIFIED_SUMMARY_CLAIM",
+    "duplicate_labels": {
+      "psychoeducation": [
+        "T06_psychoeducation",
+        "T07_psychoeducation"
+      ]
+    }
+  },
+  "units_and_denominators": {
+    "unit_of_analysis": "code x corpus (presence), and code x participant (reach)",
+    "human_reference_recall": "verified-present codes in BOTH / verified-present codes in HUMAN",
+    "strict_precision": "verified-present codes in BOTH / verified-present codes in SYNTHETIC",
+    "f1": "computed only when both denominators are non-zero",
+    "participant_reach": "distinct participants with >=1 verified quote for a code / participants in that corpus — SYNTHETIC ONLY; the human side has no recoverable speaker identities (see baseline identity_reconciliation.json), so human reach is not computed",
+    "salience_hierarchy": "NOT COMPUTED — human speaker mapping is not recoverable"
+  },
+  "evaluator": {
+    "primary": "gemininext",
+    "repetitions_per_side": 2,
+    "structured_output": "response_mime_type=application/json via thematic_coding Tier-1 scaffold",
+    "call_log": "analysis/coding_frame/gemini_calls.jsonl"
+  },
+  "gates": {
+    "literalness": "each quote must be an exact substring of the turn it cites",
+    "turn_id": "the cited turn must exist in the blinded transcript",
+    "speaker": "moderator turns are never thematic evidence for a participant code",
+    "definition": "a quote counts only if it satisfies the operational definition, not the label"
+  },
+  "calls": {
+    "phase_A_frame_verification": {
+      "description": "code the HUMAN transcript against all 26 derived codes",
+      "n_calls": 2,
+      "approx_input_tokens_each": 15083
+    },
+    "phase_B_synthetic_coding": {
+      "description": "code the SYNTHETIC window against the FROZEN frame",
+      "n_calls": 2,
+      "approx_input_tokens_each": 21646
+    }
+  },
+  "totals": {
+    "gemini_calls": 4,
+    "approx_input_tokens": 73458,
+    "approx_output_tokens": 24000,
+    "claude_audit_calls": "determined after phase B; capped at 30 and reported"
+  },
+  "cost": {
+    "status": "NOT_CALCULATED_RATE_NOT_VERIFIED",
+    "why": "No published rate for gemini-3.5-flash was verified in this project; the earlier hybrid check recorded the same position. Measured token counts are reported instead of an invented cost."
+  },
+  "corpus": {
+    "human_turns": 67,
+    "synthetic_turns": 42,
+    "human_chars": 40521,
+    "synthetic_chars": 66773
+  },
+  "verdict": "PASS"
+}

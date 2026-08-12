@@ -1,0 +1,360 @@
+{
+  "evaluator": "gemini-2.5-flash",
+  "evaluator_params": "temperature=0.0",
+  "tier1_reach": {
+    "reach_repeatability": {
+      "n_runs": 5,
+      "per_code": [
+        {
+          "subtheme_id": "A.1",
+          "reach_per_run": [
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6
+          ],
+          "reach_mean": 0.6,
+          "reach_range": 0.0,
+          "voiced_stability_jaccard": 1.0
+        },
+        {
+          "subtheme_id": "A.2",
+          "reach_per_run": [
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4
+          ],
+          "reach_mean": 0.4,
+          "reach_range": 0.0,
+          "voiced_stability_jaccard": 1.0
+        },
+        {
+          "subtheme_id": "A.3",
+          "reach_per_run": [
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reach_mean": 0.08,
+          "reach_range": 0.4,
+          "voiced_stability_jaccard": 0.6
+        },
+        {
+          "subtheme_id": "B.1",
+          "reach_per_run": [
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "reach_mean": 0.2,
+          "reach_range": 0.0,
+          "voiced_stability_jaccard": 1.0
+        },
+        {
+          "subtheme_id": "B.2",
+          "reach_per_run": [
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4
+          ],
+          "reach_mean": 0.4,
+          "reach_range": 0.0,
+          "voiced_stability_jaccard": 1.0
+        },
+        {
+          "subtheme_id": "B.3",
+          "reach_per_run": [
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6
+          ],
+          "reach_mean": 0.6,
+          "reach_range": 0.0,
+          "voiced_stability_jaccard": 1.0
+        },
+        {
+          "subtheme_id": "B.4",
+          "reach_per_run": [
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "reach_mean": 0.2,
+          "reach_range": 0.0,
+          "voiced_stability_jaccard": 1.0
+        },
+        {
+          "subtheme_id": "C.1",
+          "reach_per_run": [
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4
+          ],
+          "reach_mean": 0.4,
+          "reach_range": 0.0,
+          "voiced_stability_jaccard": 1.0
+        },
+        {
+          "subtheme_id": "C.2",
+          "reach_per_run": [
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reach_mean": 0.08,
+          "reach_range": 0.4,
+          "voiced_stability_jaccard": 0.6
+        },
+        {
+          "subtheme_id": "C.3",
+          "reach_per_run": [
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4
+          ],
+          "reach_mean": 0.4,
+          "reach_range": 0.0,
+          "voiced_stability_jaccard": 1.0
+        },
+        {
+          "subtheme_id": "D",
+          "reach_per_run": [
+            0.8,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "reach_mean": 0.96,
+          "reach_range": 0.2,
+          "voiced_stability_jaccard": 0.92
+        }
+      ],
+      "mean_voiced_stability_jaccard": 0.92
+    },
+    "salience_matched": {
+      "label": "real FG1 vs synth FG1",
+      "shared_codes": [
+        "A.1",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.4",
+        "D"
+      ],
+      "anchor_reaches": [
+        0.6,
+        0.4,
+        0.2,
+        0.4,
+        0.2,
+        0.8
+      ],
+      "target_reaches": [
+        0.6,
+        0.4,
+        0.6,
+        0.6,
+        0.6,
+        0.8
+      ],
+      "spearman_rho": 0.257
+    },
+    "salience_mismatched": {
+      "label": "real FG1 vs synth FG5",
+      "shared_codes": [
+        "A.1",
+        "A.3",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.2"
+      ],
+      "anchor_reaches": [
+        0.6,
+        0.4,
+        0.4,
+        0.6,
+        0.2,
+        0.4
+      ],
+      "target_reaches": [
+        1.0,
+        0.75,
+        0.75,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "spearman_rho": -0.029
+    }
+  },
+  "tier2": {
+    "repeatability": {
+      "n_runs": 3,
+      "theme_counts": [
+        4,
+        5,
+        4
+      ],
+      "pairwise": [
+        {
+          "runs": "run1_vs_run2",
+          "recall": 1.0,
+          "precision": 0.8,
+          "matched": 4,
+          "run_a_themes": 4,
+          "run_b_themes": 5
+        },
+        {
+          "runs": "run1_vs_run3",
+          "recall": 1.0,
+          "precision": 1.0,
+          "matched": 4,
+          "run_a_themes": 4,
+          "run_b_themes": 4
+        },
+        {
+          "runs": "run2_vs_run3",
+          "recall": 0.6,
+          "precision": 0.75,
+          "matched": 3,
+          "run_a_themes": 5,
+          "run_b_themes": 4
+        }
+      ],
+      "mean_pairwise_recall": 0.867,
+      "mean_pairwise_precision": 0.85,
+      "verdict": "stable: most themes recovered consistently across runs"
+    },
+    "discrimination": {
+      "passed": true,
+      "matched_recall": 1.0,
+      "matched_precision": 0.5714,
+      "matched_matched_pairs": 4,
+      "mismatched_recall": 0.75,
+      "mismatched_precision": 0.375,
+      "mismatched_matched_pairs": 3,
+      "recall_margin": 0.25,
+      "matched_emergent_themes": [
+        {
+          "theme_label": "Lack of Motivation to Change Eating Habits",
+          "participant_count": 4,
+          "note": "n=1 group caveat: absent from matched real group only"
+        },
+        {
+          "theme_label": "Impact of Geographic Location on Food Access",
+          "participant_count": 2,
+          "note": "n=1 group caveat: absent from matched real group only"
+        },
+        {
+          "theme_label": "Unacknowledged Social Pressure and Conformity",
+          "participant_count": 3,
+          "note": "n=1 group caveat: absent from matched real group only"
+        }
+      ],
+      "mismatched_emergent_themes": [
+        {
+          "theme_label": "Impact of Rural Living on Food Choices",
+          "participant_count": 2,
+          "note": "n=1 group caveat: absent from matched real group only"
+        },
+        {
+          "theme_label": "Physical Signals and Dietary Adjustment",
+          "participant_count": 3,
+          "note": "n=1 group caveat: absent from matched real group only"
+        },
+        {
+          "theme_label": "The Cost of Pretending vs. Acknowledging Change",
+          "participant_count": 3,
+          "note": "n=1 group caveat: absent from matched real group only"
+        },
+        {
+          "theme_label": "Aging and the Urgency of Change",
+          "participant_count": 3,
+          "note": "n=1 group caveat: absent from matched real group only"
+        },
+        {
+          "theme_label": "Practicality and Consistency in Sustaining Change",
+          "participant_count": 2,
+          "note": "n=1 group caveat: absent from matched real group only"
+        }
+      ],
+      "matched_missed_themes": [],
+      "mismatched_missed_themes": [
+        "Improving appeal of plant-based foods"
+      ],
+      "matched_disagreements": 3,
+      "mismatched_disagreements": 1
+    },
+    "position_bias": {
+      "real_fg1": {
+        "label": "real FG1",
+        "total_verified_quotes": 18,
+        "distribution": {
+          "early": 2,
+          "middle": 11,
+          "final": 5
+        },
+        "pct": {
+          "early": 0.111,
+          "middle": 0.611,
+          "final": 0.278
+        },
+        "flag_early_bias": false
+      },
+      "synth_fg1": {
+        "label": "synth FG1",
+        "total_verified_quotes": 18,
+        "distribution": {
+          "early": 2,
+          "middle": 11,
+          "final": 5
+        },
+        "pct": {
+          "early": 0.111,
+          "middle": 0.611,
+          "final": 0.278
+        },
+        "flag_early_bias": false
+      },
+      "synth_fg5": {
+        "label": "synth FG5",
+        "total_verified_quotes": 18,
+        "distribution": {
+          "early": 2,
+          "middle": 11,
+          "final": 5
+        },
+        "pct": {
+          "early": 0.111,
+          "middle": 0.611,
+          "final": 0.278
+        },
+        "flag_early_bias": false
+      }
+    }
+  },
+  "cache_hit_rate": 0.0,
+  "cache_calls": 5,
+  "cache_hits": 0
+}

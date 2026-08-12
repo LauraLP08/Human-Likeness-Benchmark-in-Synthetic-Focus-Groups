@@ -1,0 +1,102 @@
+{
+ "id": "EXPLORATORY_PERSONA_ROBUSTNESS_STRESS_TEST",
+ "status": "EXPLORATORY_INTERNAL_DIAGNOSTIC_NOT_REPORTED",
+ "closed_utc": "2026-08-03T23:55:19.199287+00:00",
+ "executed_utc": "2026-08-04",
+ "decision_record": "PERSONA_STRESS_TEST_V2_EXCLUSION_RECORD.md",
+ "framework_placement": {
+  "level": 4,
+  "layer": "complementary agent fidelity",
+  "not": "Level 3 interactional",
+  "why": "the unit of analysis is an individual agent probed outside a group discussion, not the interactional character of a group transcript"
+ },
+ "technical_outcome": {
+  "preflight_gates": "37/37 passed",
+  "generation": "216/216 retrieved, 0 truncated, 0 quarantined",
+  "judging": "48/48 requests, 348/348 adjudications, 2 repetitions per item",
+  "fixtures": "24/24 correct, one detected mutation per family",
+  "technical_repairs": 0
+ },
+ "exclusion_reasons": [
+  "passed all technical gates and produced consistent evidence on resistance to false autobiographical premises and on epistemic calibration",
+  "character-maintenance classification showed insufficient stability in the INSTRUCTION family",
+  "the boundary between maintaining and breaking character requires human validation that is not available",
+  "the protocol did not pre-specify substantive pass thresholds",
+  "therefore the result does not support a defensible inference about persona fidelity and falls outside the reported analytical corpus"
+ ],
+ "integration": {
+  "FINAL_RESULTS_TABLES.xlsx": "NOT_INTEGRATED",
+  "metric_registry.csv": "NOT_INTEGRATED_NO_METRIC_ROW_CREATED",
+  "results_chapter": "NOT_INTEGRATED",
+  "confirmatory_results": "NOT_INTEGRATED",
+  "discharges_any_framework_indicator": false,
+  "persona_fidelity_validated": false,
+  "profile_continuity_validated": false,
+  "profile_consistency_validated": false
+ },
+ "closure_actions": {
+  "new_api_calls": 0,
+  "new_adjudications": 0,
+  "third_repetition_for_substantive_disagreement": false,
+  "artefacts_modified": 0,
+  "artefacts_deleted": 0,
+  "historical_results_rewritten": false
+ },
+ "provider_jobs": {
+  "generation_anchors": "msgbatch_011uvgiC11eKWyTj5JkLe1RF",
+  "generation_branches": "msgbatch_01GQDTu7qv7CHXUZQQ8rmmBZ",
+  "judge": "msgbatch_01L1BwsuZ1ahn4aNDE13Wpya"
+ },
+ "measured_cost_usd": 1.5429,
+ "preserved_artefacts_sha256": {
+  "pst_v2_gen_anchor_job.json": {
+   "sha256": "660464988f995bbb7d9c6aba4769a0ba77d8c4705bd2d859f518987a21681612",
+   "bytes": 16144
+  },
+  "pst_v2_gen_anchor_raw.json": {
+   "sha256": "cd1ea9ecf4bf254c789179d53970c5fc66ca367c1b319552ad83853c5ee24d30",
+   "bytes": 66959
+  },
+  "pst_v2_gen_branch_job.json": {
+   "sha256": "e149094daff3d7b18f4922fcee372b034da5a0ef24fc41e1ceec587a1062c8ae",
+   "bytes": 80764
+  },
+  "pst_v2_gen_branch_raw.json": {
+   "sha256": "24cb28fd561bec3aec59e76cf6197e09de8ffee025f536259dd71a889d3b51a8",
+   "bytes": 168417
+  },
+  "pst_v2_generation_manifest.json": {
+   "sha256": "3131afec487187a3bf0474cfd914501ce55e108a6f2bedc8d350137579f7632e",
+   "bytes": 1042795
+  },
+  "pst_v2_judge_job.json": {
+   "sha256": "6992fc4f4dc6a00abd45c01dbd0dd95c01c70e88d63de800966a2b0e1b3e074d",
+   "bytes": 15374
+  },
+  "pst_v2_judge_manifests.json": {
+   "sha256": "c3c4dd081e8d3a0da42cff3206064310725b2c32a3416623726c0205e600edb4",
+   "bytes": 933754
+  },
+  "pst_v2_judge_raw.json": {
+   "sha256": "2c1090b6e7712f249be1390ae5c102c9ded259f00ca8427125d702c607a269bd",
+   "bytes": 321585
+  },
+  "pst_v2_protocol.json": {
+   "sha256": "3105d44e5c75d46ee9cb3531531291bb618f18b20a8f181110bce6999e4ad968",
+   "bytes": 7862
+  },
+  "pst_v2_report.md": {
+   "sha256": "b2e2e70a81c4554f3a63163b28d15eb0859181baf4e2aa5ce936ad6dbc6c59a4",
+   "bytes": 3011
+  },
+  "pst_v2_scores.json": {
+   "sha256": "ce521f7ddc011b4e59904f37ba32399f87023d06461a762e5099c0fc47ac167a",
+   "bytes": 162020
+  },
+  "pst_v2_sealed_reference.json": {
+   "sha256": "925f1bb3f6b9ea68a3ac4975bffe8a36354cdbd8dee59ed3d2a8a6ceb09644b7",
+   "bytes": 242072
+  }
+ },
+ "integrity_note": "hashes recorded at closure over the artefacts exactly as the run produced them; the closure neither regenerated nor edited any of them"
+}

@@ -1,0 +1,22 @@
+{
+  "dataset": "DS03_MACHO_MEALS_UK",
+  "schema_version": "fg_agents_v1",
+  "agents_built": 22,
+  "intro_eligible": 17,
+  "fg3_resolution": {
+    "resolved": true,
+    "resolved_note": "The 5 FG3 dash-PID participants (see 'excluded_historical' below) were built once the researcher resolved the PID-matching gap via random 1:1 assignment of survey rows to known transcript speaker names. See each mm_fg3_*.json's study_context.identity_metadata_linkage_note for the full caveat.",
+    "agent_ids": [
+      "mm_fg3_andrew",
+      "mm_fg3_daniel",
+      "mm_fg3_john",
+      "mm_fg3_nick",
+      "mm_fg3_paul"
+    ]
+  },
+  "excluded_historical": {
+    "fg3_dash_pid_participants": 5,
+    "reason": "Researcher confirmed these 5 participants (pseudonyms A–E) are not part of the study. Survey data cannot be matched to individual FG3 participants due to a PID recording error.",
+    "status": "superseded — see fg3_resolution above"
+  }
+}

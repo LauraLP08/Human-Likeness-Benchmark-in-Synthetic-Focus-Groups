@@ -1,0 +1,20 @@
+graph TD
+    A[Start Moderator Call] --> B[Load System Prompt]
+    B --> C[Render User Prompt Template]
+    C --> D[Inject SessionState JSON]
+    D --> E[Inject TriggerEvent JSON]
+    E --> F[Inject Active Special Cases]
+    F --> G[API Call to claude-sonnet]
+    G --> H[Clean Markdown Fences]
+    H --> I[Parse JSON]
+    I -- Success --> J[Normalize Decision]
+    I -- Parse/Schema Error --> K[Format Correction Prompt]
+    K --> L[API Call Retry]
+    L --> M[Parse JSON Retry]
+    M -- Success --> J
+    M -- Fail --> N[Build Fallback Response]
+    J --> O[Pydantic Validation]
+    O -- Success --> P[Append API Log]
+    O -- Fail --> K
+    N --> P
+    P --> Q[Return ModeratorAPIResponse]

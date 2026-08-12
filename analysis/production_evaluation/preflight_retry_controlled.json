@@ -1,0 +1,82 @@
+{
+ "run_utc": "2026-07-30T23:09:38.325473+00:00",
+ "effective_request_config": {
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 32768,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "retry_policy": {
+  "max_transient_retries": 2,
+  "delays_s": [
+   30,
+   90
+  ],
+  "retryable_http": [
+   500,
+   502,
+   503,
+   504
+  ],
+  "terminal_http": [
+   401,
+   403,
+   404,
+   429
+  ]
+ },
+ "availability_probe_performed": false,
+ "results": [
+  {
+   "label": "human_fg1",
+   "status": "cache_hit",
+   "cache_key": "068e228d5b7afbfa15843a2252b092688a7a838c09432cda5b3fc153cab4960a",
+   "attempts": 0,
+   "transient_retries": 0
+  },
+  {
+   "label": "macho_meals_fg1_run02",
+   "status": "failed",
+   "cache_key": "225004119991821d18dc162375eb42ff55e619338bff0ece996ed06b94c9fb60",
+   "attempts": 3,
+   "transient_retries": 2,
+   "errors": [
+    {
+     "http_status": 503,
+     "class": "PROVIDER_UNAVAILABLE",
+     "retryable": true,
+     "diagnosis": "503 — provider-side. NOT a key problem; do not change the API key.",
+     "attempt": 1
+    },
+    {
+     "http_status": 503,
+     "class": "PROVIDER_UNAVAILABLE",
+     "retryable": true,
+     "diagnosis": "503 — provider-side. NOT a key problem; do not change the API key.",
+     "attempt": 2
+    },
+    {
+     "http_status": 503,
+     "class": "PROVIDER_UNAVAILABLE",
+     "retryable": true,
+     "diagnosis": "503 — provider-side. NOT a key problem; do not change the API key.",
+     "attempt": 3
+    }
+   ],
+   "excluded_content_problems": []
+  },
+  {
+   "label": "macho_meals_fg1_demoonly_run02",
+   "status": "not_attempted",
+   "attempts": 0,
+   "transient_retries": 0,
+   "reason": "enriched did not complete; no request issued"
+  }
+ ],
+ "next_step": "preflight_v2 with max_output_tokens=16384 — a NEW effective configuration requiring a NEW cache key and re-evaluation of all three inputs including the human. NOT authorised."
+}

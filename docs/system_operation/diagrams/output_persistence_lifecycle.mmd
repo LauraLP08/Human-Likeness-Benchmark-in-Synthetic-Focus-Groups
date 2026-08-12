@@ -1,0 +1,22 @@
+graph TD
+    A[Output Persistence] --> B[Log Directory Creation]
+    B --> C[session_state_initial.json]
+    C --> D{During Session Loop}
+    
+    D --> E[Record Participant Utterance]
+    D --> F[Apply Moderator Response]
+    E --> G[Update Transcript State]
+    F --> H[Update Moderator Log State]
+    
+    G --> I[save_transcript]
+    H --> I
+    I --> J[Write transcript.json]
+    I --> K[Write transcript.txt]
+    I --> L[Write moderator_log.json]
+    I --> M[Write state_turn_*.json]
+    
+    N[API Helpers] --> O[append_api_log]
+    O --> P[Write api_calls.jsonl]
+    
+    Q[Prompt Renderer] --> R[Write Rendered Prompts]
+    R --> S[Write rendered_prompt_index.csv]

@@ -1,0 +1,1455 @@
+{
+ "retrieved_utc": "2026-08-02T20:14:37.477630+00:00",
+ "job_id": "msgbatch_01LSVnMiM5BgYx5kiHX5pBdp",
+ "classification": "EXPLORATORY_OUT_OF_Q3_TRANSPORTABILITY_CHECK",
+ "n_results": 30,
+ "n_complete": 30,
+ "total_usage": {
+  "input_tokens": 162598,
+  "output_tokens": 31067
+ },
+ "results": [
+  {
+   "custom_id": "hy010",
+   "case_id": "C::S03::M2",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 2,
+   "blind_unit_id": "S03",
+   "question_id": "Q1",
+   "provenance": {
+    "machine_key": "S03::M2"
+   },
+   "cache_key": "84aa3e81331ccca66d3a4261bfdbc0776a98ac41c4dc7c0f1f42f89d39f556c6",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4725,
+    "output_tokens": 767
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T003",
+      "speaker": "Participant 1",
+      "quote": "when we were younger it was more about going out and getting hammered, but now it's quieter. You want to actually sit and have a conversation, especially at forty-five"
+     },
+     {
+      "turn_id": "T004",
+      "speaker": "Participant 5",
+      "quote": "It's the same for me at forty-seven — you're not trying to prove anything anymore, are you?"
+     },
+     {
+      "turn_id": "T007",
+      "speaker": "Participant 4",
+      "quote": "at forty you're not trying to impress anyone anymore. You just want to sit down with people you know and not have to think too hard about it. That's the appeal."
+     }
+    ],
+    "reasoning": "The candidate claims an age-related shift in how these men socialise: from heavy drinking and proving themselves when younger to quieter, conversational meet-ups now. This is directly and explicitly stated by three different participants (T003, T004, T007), including the age markers (45, 47, 40), so it is well grounded in the extract. Among the reference themes, one concerns the pub as convenient/simple venue and the other concerns age-related attention to food quality — neither makes the claim about a change in the character of socialising with age. Among the other candidate themes, the 'pub as low-stress default space' theme is about the pub's qualities as a venue for connection rather than about a developmental change from youthful excess, and the two food themes are about food quality; so this is not a restatement of another candidate. The claim is therefore both supported and thematically distinct.",
+    "information_that_would_settle_it": "Nothing is missing; the extract itself settles this — the age-contrast statements are explicit and repeated across participants, and no reference theme makes this claim."
+   }
+  },
+  {
+   "custom_id": "hy025",
+   "case_id": "D::frag::S02::S02_slot_02",
+   "task": "D_GRANULARITY",
+   "repetition_index": 1,
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "provenance": {
+    "human_key": "S02::S02_slot_02",
+    "machine_keys": [
+     "S02::M2",
+     "S02::M3",
+     "S02::M5"
+    ],
+    "relation": "possible_fragmentation"
+   },
+   "cache_key": "7a368b3011a796f6d4773e1db2b9c4a45c1627c9c641fafb204d809ba50e7681",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 7819,
+    "output_tokens": 1007
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T030",
+      "speaker": "Participant 1",
+      "quote": "She'd take it as a criticism of what she cooks. And my older relatives would definitely have opinions."
+     },
+     {
+      "turn_id": "T032",
+      "speaker": "Participant 4",
+      "quote": "it's that if I made that choice, suddenly I'm saying something about how she does things, or what she cares about"
+     },
+     {
+      "turn_id": "T032",
+      "speaker": "Participant 4",
+      "quote": "It's not just \"oh, he's made a choice,\" it's \"he's forcing his choices on his kid.\""
+     },
+     {
+      "turn_id": "T035",
+      "speaker": "Participant 1",
+      "quote": "The family reading is what makes the logistics impossible to stick with."
+     },
+     {
+      "turn_id": "T037",
+      "speaker": "Participant 5",
+      "quote": "if every time you're at your mum's there's this low-level awkwardness or you feel like you're being difficult, it just... wears you down"
+     },
+     {
+      "turn_id": "T033",
+      "speaker": "Participant 1",
+      "quote": "That affects what she buys, what she cooks, how she thinks about feeding me. And then it spreads — cousins notice, aunts have opinions, it becomes a thing at family gatherings."
+     }
+    ],
+    "reasoning": "The reference theme is a broad 'family pressure to keep status quo' claim that explicitly bundles three strands its own description names: family reading the change as an attack on their cooking, family/others objecting that a child is being forced into the diet, and the disruption to household habits and dynamics. The three candidate themes map onto distinguishable mechanisms present in the extract: (a) the choice being read as criticism of the mother's cooking and values (T030, T032), (b) the added scrutiny when children are involved and it is read as imposing on a kid (T032), and (c) the cumulative relational tension that wears you down and makes the change unsustainable (T035, T037, T040). Each is separately articulated and separately argued over in the transcript — the wear-down mechanism in particular is contested at length between P1, P4, P5 and P3, and the kids strand is introduced by P4 as an escalation rather than a restatement. So this is one broad theme decomposed into distinct mechanisms rather than an arbitrary split. The relational wear-down theme extends slightly beyond the reference's stated scope (sustainability over time rather than family objection per se), but it is still about family relational pressure, so it is not a substantive mismatch. Nothing in the reference is left unaccounted for by the candidate set, and nothing in the candidate set is off-topic.",
+    "information_that_would_settle_it": "Nothing essential is missing; the extract itself contains the distinct mechanisms (criticism-of-cooking, kids/imposition, cumulative wear-down) and shows them being separately debated. Knowing whether the coding scheme intended 'wear-down/sustainability' to sit under family pressure or under a separate 'persistence over time' theme would only refine, not change, the judgement."
+   }
+  },
+  {
+   "custom_id": "hy021",
+   "case_id": "C::S06::M5",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 1,
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "provenance": {
+    "machine_key": "S06::M5"
+   },
+   "cache_key": "0cb70b7f1792a0c091f4b6035b00d72adca5749b0285db260b5629449e0b47c0",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4834,
+    "output_tokens": 667
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T037",
+      "speaker": "Participant 3",
+      "quote": "I think plant based just feels a really loaded, um, really loaded phrase. And actually encouraging people to eat more fruit and veg is actually a better message."
+     },
+     {
+      "turn_id": "T038",
+      "speaker": "Participant 1",
+      "quote": "Yeah, plant based does sound, you're right, it does sound accusatory. And it, it's kind of oh you need to be eating plant based. Well it's yeah, you're right. Encouragement to eat more fruit veg is, seems to be the logical way."
+     },
+     {
+      "turn_id": "T036",
+      "speaker": "Participant 1",
+      "quote": "But again, I go back to, this plant based, whenever someone says plant based, I always think of these kinds of substitute kind of things."
+     }
+    ],
+    "reasoning": "The candidate claim - that the term 'plant-based' is a loaded/accusatory label and that promoting 'more fruit and veg' is a better framing - is stated explicitly and endorsed by two participants in consecutive turns (T037, T038), with a lead-in at T036 about the term connoting substitutes. The evidence quoted is verbatim from the extract. None of the four reference themes addresses terminology or message framing; they cover ingredients/healthiness, protein, health/fitness motivation, and price/taste. Nor does it restate any other candidate theme: the other candidates concern sensory replication, unhealthy additives, health benefits, masculinity, and price/taste parity. So it is both supported and thematically distinct.",
+    "information_that_would_settle_it": "Nothing further is needed; the extract explicitly contains the language-framing discussion at T037-T038 and no listed reference or candidate theme makes this claim."
+   }
+  },
+  {
+   "custom_id": "hy026",
+   "case_id": "D::frag::S02::S02_slot_02",
+   "task": "D_GRANULARITY",
+   "repetition_index": 2,
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "provenance": {
+    "human_key": "S02::S02_slot_02",
+    "machine_keys": [
+     "S02::M2",
+     "S02::M3",
+     "S02::M5"
+    ],
+    "relation": "possible_fragmentation"
+   },
+   "cache_key": "cfada035f83b12232a249718090edb205ea45e0d80b9b3a8f0eceff3343c3d15",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 7819,
+    "output_tokens": 1048
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T030",
+      "speaker": "Participant 1",
+      "quote": "She'd take it as a criticism of what she cooks. And my older relatives would definitely have opinions."
+     },
+     {
+      "turn_id": "T032",
+      "speaker": "Participant 4",
+      "quote": "It's not just Sunday dinner with my mum — it's that if I made that choice, suddenly I'm saying something about how she does things, or what she cares about."
+     },
+     {
+      "turn_id": "T032",
+      "speaker": "Participant 4",
+      "quote": "Because once you've got a kid, your choices aren't just about you anymore. If you decided to go vegan, you're also deciding that for your kid, at least initially."
+     },
+     {
+      "turn_id": "T035",
+      "speaker": "Participant 1",
+      "quote": "Sometimes it's the relational stuff that makes the practical stuff unsustainable."
+     },
+     {
+      "turn_id": "T037",
+      "speaker": "Participant 5",
+      "quote": "if every time you're at your mum's there's this low-level awkwardness or you feel like you're being difficult, it just... wears you down"
+     },
+     {
+      "turn_id": "T033",
+      "speaker": "Participant 1",
+      "quote": "That affects what she buys, what she cooks, how she thinks about feeding me. And then it spreads — cousins notice, aunts have opinions, it becomes a thing at family gatherings."
+     }
+    ],
+    "reasoning": "The reference theme is a broad umbrella: family pressure resisting the dietary change, explicitly enumerating several distinct sub-mechanisms in its own description (perceived attack on how they cook; imposing a diet on other family members/kids; disruption to household shopping and family habits/dynamics). The three candidate themes map onto exactly those mechanisms: (1) the choice read as criticism of the mother's cooking and values, (2) the cumulative relational tension around family meals that makes the change unsustainable, and (3) judgment about imposing the diet on children. All three are grounded in verbatim material from T030, T032, T035 and T037, and all three concern family/relational pressure against changing diet rather than logistics like work-lunch access or cost. The 'relational wear-down' theme is arguably the least tightly bound to the reference's wording, but the reference explicitly includes 'disrupting family habits and dynamics', and the wear-down claim in the extract is entirely about family dynamics (mum's cooking, aunts noticing, awkwardness at family gatherings), so it sits inside the same material. These are genuinely separable claims — a criticism-of-cooking reading, a cumulative-attrition mechanism, and a third-party/child-imposition dimension — so the finer grain is defensible rather than fragmentary, and no distinct claim is being collapsed.",
+    "information_that_would_settle_it": "Nothing essential is missing; the extract itself supports each candidate sub-claim and shows they all fall within the reference's stated scope of family pressure. The only residual question is whether the coding scheme intended 'relational wear-down' to sit under family pressure or under a separate sustainability/practical-barrier theme, which would require the wider codebook to confirm."
+   }
+  },
+  {
+   "custom_id": "hy028",
+   "case_id": "D::frag::S05::S05_slot_02",
+   "task": "D_GRANULARITY",
+   "repetition_index": 2,
+   "blind_unit_id": "S05",
+   "question_id": "Q2",
+   "provenance": {
+    "human_key": "S05::S05_slot_02",
+    "machine_keys": [
+     "S05::M2",
+     "S05::M3"
+    ],
+    "relation": "possible_fragmentation"
+   },
+   "cache_key": "ffa3fd42051b44c9f633483957c61a6b33bbaa0f2573907c7636adcde3537429",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4056,
+    "output_tokens": 1186
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "confidence": "MEDIUM",
+    "quotations": [
+     {
+      "turn_id": "T012",
+      "speaker": "Participant 2",
+      "quote": "So I'll, I'll try and have a rough plan based around what the schedule for the week is, but um equally I can get home tonight and go, you know, I can't even be assed cooking a pizza. Let's order a takeaway because, you know, hour long train journey."
+     },
+     {
+      "turn_id": "T013",
+      "speaker": "Participant 3",
+      "quote": "time is quite a big factor in terms of, um, what you eat in some ways"
+     },
+     {
+      "turn_id": "T016",
+      "speaker": "Participant 1",
+      "quote": "perhaps if anyone works from home, they might have more chances to put something in the oven whilst they're still working and, and, and have that cooking away"
+     },
+     {
+      "turn_id": "T018",
+      "speaker": "Participant 4",
+      "quote": "I actually work from home most of the time, so I can kind of cook something in the afternoon."
+     }
+    ],
+    "reasoning": "Both sides are working the same seam of the extract: that meal decisions are governed by work patterns and available time rather than deliberate planning. The reference states this as one broad claim (time/work schedule drives what is eaten, hence little planning), evidenced by Participant 2's account of hybrid working, commuting and takeaway fallback. The candidate splits the same material into two directional mechanisms: (a) work schedules and time pressure constraining what can be cooked (P2's commute, P3's long staff-meeting nights), and (b) working from home relaxing that constraint (P1's 'more chances to put something in the oven whilst they're still working', P4's 'I actually work from home most of the time, so I can kind of cook something in the afternoon'). The second candidate theme is not a redundant slice of the first: it rests on separate turns and separate speakers, and makes an opposite-signed claim (enabling rather than restricting), so it is a defensible finer-grained decomposition rather than a split of one indivisible claim. Neither candidate strays from the reference's subject matter, so this is not a substantive mismatch. The reason for only medium confidence is that the WFH point is voiced in the extract as a qualifier within the same time-and-convenience discussion ('if you're out and about quite a bit, then... it's probably restricted on time and convenience a bit more'), so a reader could reasonably treat it as an aspect of the single time/schedule claim rather than a theme in its own right.",
+    "information_that_would_settle_it": "The coding conventions governing whether contrasting or enabling conditions (e.g. WFH flexibility) are treated as sub-facets of a parent constraint theme or as standalone themes; and whether the reference theme's scope was intended to cover the WFH turns (T016, T018) or only Participant 2's account in T012."
+   }
+  },
+  {
+   "custom_id": "hy003",
+   "case_id": "C::S01::M4",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 1,
+   "blind_unit_id": "S01",
+   "question_id": "Q1",
+   "provenance": {
+    "machine_key": "S01::M4"
+   },
+   "cache_key": "c91187f81ae417f8b8d9fe6097f004634f1458dd8afaecb1bb575b81696e1083",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4497,
+    "output_tokens": 704
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T008",
+      "speaker": "Participant 5",
+      "quote": "we've got a pub, obviously, but it's not like you lot have got multiple ones to rotate between or anything. There's basically the one, and if you want to do something else you're kind of... limited, aren't you?"
+     },
+     {
+      "turn_id": "T008",
+      "speaker": "Participant 5",
+      "quote": "There's not as much of a culture of cooking nights or going to a brewery or whatever. That's more of an urban thing, I reckon."
+     },
+     {
+      "turn_id": "T008",
+      "speaker": "Participant 5",
+      "quote": "I don't think we've got the option to switch it up as much even if we wanted to"
+     },
+     {
+      "turn_id": "T008",
+      "speaker": "Participant 5",
+      "quote": "It's just... logistics are a bit different when you're not in a city with loads of options, you know?"
+     }
+    ],
+    "reasoning": "Participant 5's whole contribution in T008 is an explicit urban/rural contrast: only one pub available, no brewery/cooking-night culture ('more of an urban thing'), and no option to switch it up 'even if we wanted to', closing with the logistics point. That directly and substantially supports the candidate's claim. None of the reference themes makes this claim: 'not overthink what to do' is about planning aversion generally (it quotes part of T008 but frames it as the no-planning preference, not geographic constraint); 'less interaction at the usual pub', 'someone's flat', and 'pub is convenient/simple' are all different claims. Among the other candidate themes, the pub-as-default theme is about convenience/low effort by choice, whereas this one is about structural absence of alternatives — a distinct claim, not a restatement. Supported and distinct.",
+    "information_that_would_settle_it": "Nothing missing; T008 settles it — the extract contains an explicit, sustained statement of rural venue scarcity and logistical constraint, and no reference theme captures it."
+   }
+  },
+  {
+   "custom_id": "hy004",
+   "case_id": "C::S01::M4",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 2,
+   "blind_unit_id": "S01",
+   "question_id": "Q1",
+   "provenance": {
+    "machine_key": "S01::M4"
+   },
+   "cache_key": "fa1f8f9944fb63cd67dd1c8d6670d27cdbe73b4a4b04896abd4d8a4e7dccdbd0",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4497,
+    "output_tokens": 588
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T008",
+      "speaker": "Participant 5",
+      "quote": "we've got a pub, obviously, but it's not like you lot have got multiple ones to rotate between or anything. There's basically the one, and if you want to do something else you're kind of... limited, aren't you?"
+     },
+     {
+      "turn_id": "T008",
+      "speaker": "Participant 5",
+      "quote": "There's not as much of a culture of cooking nights or going to a brewery or whatever. That's more of an urban thing, I reckon."
+     },
+     {
+      "turn_id": "T008",
+      "speaker": "Participant 5",
+      "quote": "I don't think we've got the option to switch it up as much even if we wanted to"
+     },
+     {
+      "turn_id": "T008",
+      "speaker": "Participant 5",
+      "quote": "It's just... logistics are a bit different when you're not in a city with loads of options, you know?"
+     }
+    ],
+    "reasoning": "Participant 5's whole contribution in T008 makes the rural/urban contrast explicit: only one pub, limited alternatives, cooking nights and breweries framed as 'an urban thing', and no option to switch it up even if desired. This is a substantive, well-grounded thematic claim about geographic/logistical constraint. None of the reference themes states it: the reference theme quoting the same turn ('Essential to not overthink what to do with your friends') makes a different claim about disliking over-planning, not about limited rural options. The other candidate themes concern pub convenience, benefits of shared activities, and effort of alternatives \\u2014 none frames the constraint as rural geography.",
+    "information_that_would_settle_it": "Nothing missing; T008 explicitly and repeatedly supports the rural-limitation claim, and no reference theme makes that claim."
+   }
+  },
+  {
+   "custom_id": "hy014",
+   "case_id": "C::S04::M2",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 2,
+   "blind_unit_id": "S04",
+   "question_id": "Q4",
+   "provenance": {
+    "machine_key": "S04::M2"
+   },
+   "cache_key": "46e508d8554d3e4c12833931deff9e00eab147b82f29cc7e0ab2aca38ac9ebef",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4899,
+    "output_tokens": 779
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T030",
+      "speaker": "Participant 1",
+      "quote": "We're all kind of maintaining it, aren't we? By not questioning it, by making the safe choice without thinking about it too much."
+     },
+     {
+      "turn_id": "T030",
+      "speaker": "Participant 1",
+      "quote": "Because if you think about it, the reason meat eating feels normal is partly just because that's what everyone around you does. But everyone around you does it partly because it feels normal. You know what I mean? It's circular."
+     },
+     {
+      "turn_id": "T030",
+      "speaker": "Participant 1",
+      "quote": "But just by not questioning it, by making the safe choice, by not bringing it up with your mates."
+     },
+     {
+      "turn_id": "T031",
+      "speaker": "Participant 4",
+      "quote": "Because I think what Amir's saying about the circle is right, but I'm not sure it's as invisible as he's making it sound."
+     }
+    ],
+    "reasoning": "The candidate claim - that meat's normalcy is collectively and largely unreflectively sustained through a circular dynamic of everyone making the safe choice and not questioning or discussing it - is stated explicitly and at length by Participant 1 in T030 and acknowledged by Participant 4 in T031. It is well grounded in the extract. The single reference theme concerns what would need to change (plant-based eating becoming as common/normal as meat), a different claim about the condition for adoption rather than about how normalcy is jointly produced and maintained. Among the other candidate themes: 'Social normalcy as the primary barrier' is about social vs practical obstacles to change; 'Conscious choice requires personal responsibility' is about the burden of awareness and owning a deliberate choice; 'Meat-eating as an unexamined default' is Participant 3's personal disavowal of maintaining any system. The closest overlap is with the last, but that theme is an individual-level disclaimer of conscious participation, whereas the candidate makes a collective, structural claim about mutual reinforcement. The circularity/collective-maintenance idea is not stated by any listed theme, so it is distinct and supported.",
+    "information_that_would_settle_it": "Nothing further is needed; the extract (T030-T031) explicitly articulates the circular, collectively maintained normalcy claim, and none of the listed reference or candidate themes states it."
+   }
+  },
+  {
+   "custom_id": "hy013",
+   "case_id": "C::S04::M2",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 1,
+   "blind_unit_id": "S04",
+   "question_id": "Q4",
+   "provenance": {
+    "machine_key": "S04::M2"
+   },
+   "cache_key": "0388aef0da62b25ac10b43eb945c3b426817c777a3fc238e1485637941e1dffc",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4899,
+    "output_tokens": 988
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "MEDIUM",
+    "quotations": [
+     {
+      "turn_id": "T030",
+      "speaker": "Participant 1",
+      "quote": "We're all kind of maintaining it, aren't we? By not questioning it, by making the safe choice without thinking about it too much."
+     },
+     {
+      "turn_id": "T030",
+      "speaker": "Participant 1",
+      "quote": "the reason meat eating feels normal is partly just because that's what everyone around you does. But everyone around you does it partly because it feels normal. You know what I mean? It's circular."
+     },
+     {
+      "turn_id": "T030",
+      "speaker": "Participant 1",
+      "quote": "we're all kind of doing our bit to keep that normalcy in place. Not actively, not like we're consciously trying to maintain some masculine code or anything. But just by not questioning it, by making the safe choice, by not bringing it up with your mates."
+     },
+     {
+      "turn_id": "T031",
+      "speaker": "Participant 4",
+      "quote": "Because I think what Amir's saying about the circle is right, but I'm not sure it's as invisible as he's making it sound."
+     }
+    ],
+    "reasoning": "The candidate claim \\u2014 that meat-eating normalcy is collectively sustained through a circular dynamic of safe choices and non-questioning \\u2014 is explicitly and extensively articulated by Participant 1 in T030 and acknowledged by Participant 4 in T031. It is well grounded.\n\nIt is distinct from the single reference theme, which is about the condition Participant 4 would need for change (plant-based being as normal as meat), not about how normalcy is collectively produced and reproduced.\n\nAgainst other candidate themes: 'Social normalcy as the primary barrier' concerns normalcy vs practical cooking as the obstacle to change \\u2014 a different claim from the mechanism by which normalcy is maintained. 'Conscious choice requires personal responsibility' concerns the burden after awareness. 'Meat-eating as an unexamined default rather than a social choice' (T034, Participant 3) is the closest overlap conceptually, since both involve unreflective meat-eating, but Participant 3's point is a personal disavowal of being part of any system, whereas this candidate makes the opposite structural claim that everyone collectively upholds the norm. They are contrasting positions, not the same claim.\n\nSome tension exists with the candidate's word 'unconscious' given T031/T032 argue the dynamic is visible, but the substance of the collective-maintenance claim stands, and Participant 1 himself frames it as done 'without really talking about why'. Hence MEDIUM rather than HIGH.",
+    "information_that_would_settle_it": "Nothing external is needed \\u2014 the extract supports the claim. The only residual ambiguity is whether the graders would treat the collective-maintenance mechanism as merely a restatement of the 'social normalcy as barrier' candidate; a statement of the intended granularity conventions for theme separation would remove that doubt."
+   }
+  },
+  {
+   "custom_id": "hy027",
+   "case_id": "D::frag::S05::S05_slot_02",
+   "task": "D_GRANULARITY",
+   "repetition_index": 1,
+   "blind_unit_id": "S05",
+   "question_id": "Q2",
+   "provenance": {
+    "human_key": "S05::S05_slot_02",
+    "machine_keys": [
+     "S05::M2",
+     "S05::M3"
+    ],
+    "relation": "possible_fragmentation"
+   },
+   "cache_key": "7b9550883344ec37721e6662e7a89405b24ba1653e317dfacd26cc8fa1ff6cd7",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4056,
+    "output_tokens": 1331
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "confidence": "MEDIUM",
+    "quotations": [
+     {
+      "turn_id": "T012",
+      "speaker": "Participant 2",
+      "quote": "So I'll, I'll try and have a rough plan based around what the schedule for the week is, but um equally I can get home tonight and go, you know, I can't even be assed cooking a pizza. Let's order a takeaway because, you know, hour long train journey."
+     },
+     {
+      "turn_id": "T012",
+      "speaker": "Participant 2",
+      "quote": "Last night because I was at home working, um, I had actually planned out meals."
+     },
+     {
+      "turn_id": "T013",
+      "speaker": "Participant 3",
+      "quote": "time is quite a big factor in terms of, um, what you eat in some ways"
+     },
+     {
+      "turn_id": "T016",
+      "speaker": "Participant 1",
+      "quote": "perhaps if anyone works from home, they might have more chances to put something in the oven whilst they're still working and, and, and have that cooking away"
+     },
+     {
+      "turn_id": "T018",
+      "speaker": "Participant 4",
+      "quote": "I actually work from home most of the time, so I can kind of cook something in the afternoon."
+     },
+     {
+      "turn_id": "T014",
+      "speaker": "Participant 1",
+      "quote": "a lot of things are more, um, restricted around time and availability, isn't it?"
+     }
+    ],
+    "reasoning": "The reference theme makes one broad claim: work schedules and available time drive food decisions, which is why planning stays loose. The two candidate themes carve the same material into its two directions. Candidate 2 (busy schedules, long commutes, low energy pushing towards quick options or takeaway) is essentially the reference claim, and shares the same anchoring quote from T012. Candidate 1 (working from home creating room to cook) is the complementary case of the same mechanism \\u2014 and it is explicitly voiced in the same conversational thread (P1 in T016 immediately contrasts working from home with being 'out and about... restricted on time'), while the reference's own evidence contains the same contrast ('Last night because I was at home working... I had actually planned out meals'). So the candidate side is decomposing one broad 'time/work pattern determines eating' claim into two distinct mechanisms rather than asserting anything different. Neither piece is an artificial split of a single indivisible statement (they rest on different speakers and different situations), and neither introduces a claim outside the reference's scope. A defensible alternative reading is that the WFH-flexibility point is a separate substantive claim about enablement rather than constraint, which is why confidence is not HIGH.",
+    "information_that_would_settle_it": "The coding conventions used by each side \\u2014 specifically whether the reference framework intends 'work schedule/time' as a single umbrella covering both constraining and enabling effects of work arrangements, or whether it treats working-from-home flexibility as belonging to a separate theme elsewhere in the codebook. The extract itself supports both themes factually; only the intended scope of the reference theme is unclear."
+   }
+  },
+  {
+   "custom_id": "hy022",
+   "case_id": "C::S06::M5",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 2,
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "provenance": {
+    "machine_key": "S06::M5"
+   },
+   "cache_key": "c7c841f46f96754364ccb6de22eb688cf109e6a17c656753ffbe0db68deaa20b",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4834,
+    "output_tokens": 668
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T037",
+      "speaker": "Participant 3",
+      "quote": "I think plant based just feels a really loaded, um, really loaded phrase. And actually encouraging people to eat more fruit and veg is actually a better message."
+     },
+     {
+      "turn_id": "T038",
+      "speaker": "Participant 1",
+      "quote": "Yeah, plant based does sound, you're right, it does sound accusatory. And it, it's kind of oh you need to be eating plant based. Well it's yeah, you're right. Encouragement to eat more fruit veg is, seems to be the logical way."
+     },
+     {
+      "turn_id": "T036",
+      "speaker": "Participant 1",
+      "quote": "But again, I go back to, this plant based, whenever someone says plant based, I always think of these kinds of substitute kind of things."
+     }
+    ],
+    "reasoning": "The candidate claims that the terminology 'plant-based' itself is a barrier - it feels loaded/accusatory, and messaging around eating more fruit and veg would be more effective. This is explicitly stated by two participants in T037 and T038, with agreement, so it is well grounded in the extract. None of the four reference themes touches on framing or language: they cover price/taste, health/fitness motivation, protein from meat, and unhealthy ingredients in plant-based products. Nor do any of the other candidate themes make this claim; the closest ones (unhealthy additives, sensory replication) are about the products themselves, not the label used to describe them. The claim is a distinct thematic idea about communication/framing.",
+    "information_that_would_settle_it": "Nothing further is needed; T037 and T038 explicitly and jointly state the claim, and no listed reference or candidate theme addresses terminology or messaging framing."
+   }
+  },
+  {
+   "custom_id": "hy018",
+   "case_id": "C::S04::M4",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 2,
+   "blind_unit_id": "S04",
+   "question_id": "Q4",
+   "provenance": {
+    "machine_key": "S04::M4"
+   },
+   "cache_key": "adff2c9c448964d5836dc7b382778b1a3c2cf70640af60871d8e744056e28201",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4899,
+    "output_tokens": 1040
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 3",
+      "quote": "I just eat meat, it's what I do, and I haven't been walking around aware that I'm choosing it for some performance reason or whatever."
+     },
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 3",
+      "quote": "I don't feel like I'm maintaining some system or anything. It's just not something I've thought much about. It's not like I'm consciously choosing the safe choice every time I cook dinner. It's just what I make."
+     },
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 3",
+      "quote": "It's not like I'm defending it as this essential masculine thing or worried about what it means if I don't eat it."
+     },
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 3",
+      "quote": "right now it's just not that loaded for me. It's just food."
+     }
+    ],
+    "reasoning": "The candidate makes a claim grounded almost entirely in T034, where Participant 3 explicitly dissents from the awareness/performance framing developed by the other two speakers: he states he has not thought about meat-eating, does not feel he is maintaining a system, is not consciously making a 'safe choice', and does not feel attached to meat as a masculine marker. This is a substantive contribution in the extract, not an incidental aside — the moderator's turn invites exactly this response and Participant 3 devotes his entire turn to it.\n\nIt is distinct from the single reference theme, which concerns what would need to change (plant-based eating becoming as normal/unremarkable as meat) and is drawn from T029.\n\nIt is also distinct from the other candidate themes: 'Social normalcy as the primary barrier' is about social discomfort outweighing practical difficulty (T029/T030); 'Unconscious collective maintenance of normalcy' is a claim about a collective circular dynamic that people are jointly upholding (T030), whereas this candidate is an individual's denial that any such symbolic or maintenance work is occurring for him; and 'Conscious choice requires personal responsibility' concerns the burden that follows awareness (T031/T032), which Participant 3 says he is not yet in the position of.\n\nThe extract supports the claim directly and the idea is not stated by any listed reference theme.",
+    "information_that_would_settle_it": "Nothing is missing — the extract settles it. T034 verbatim supports the candidate's description, and comparison with the listed reference and candidate themes shows the claim is not already stated elsewhere."
+   }
+  },
+  {
+   "custom_id": "hy024",
+   "case_id": "C::S06::M6",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 2,
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "provenance": {
+    "machine_key": "S06::M6"
+   },
+   "cache_key": "1174c4f9e281aa3acc8f285b6c620e2df48769b4c7c74fb11618c1511f210234",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4834,
+    "output_tokens": 1984
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "UNCERTAIN",
+    "confidence": "LOW",
+    "quotations": [
+     {
+      "turn_id": "T036",
+      "speaker": "Participant 1",
+      "quote": "the one that I remember having one time, which I just, I just couldn't fathom was, was this kind of plant based bacon. And it was just awful."
+     },
+     {
+      "turn_id": "T036",
+      "speaker": "Participant 1",
+      "quote": "Now if they came up with some sort of amazing plant based bacon that that to me tasted and had the texture of bacon, um, then maybe that would, that would steer me down that route"
+     },
+     {
+      "turn_id": "T033",
+      "speaker": "Participant 2",
+      "quote": "For me again, it's down to the price and taste. If it was, if it was cheap and tasted the same, then I'd be perfectly happy to buy it."
+     },
+     {
+      "turn_id": "T039",
+      "speaker": "Participant 2",
+      "quote": "makes it taste nice or makes it taste like what it’s trying to simulate"
+     }
+    ],
+    "reasoning": "The candidate claim is clearly grounded: Participant 1 dismisses the plant-based bacon he tried as \"just awful\" and says only an \"amazing\" version that \"tasted and had the texture of bacon\" would steer him toward substitutes, and Participant 2 speaks of products tasting \"like what it's trying to simulate\". So support is not in question. The difficulty is distinctness. One reference theme is explicitly about taste parity (\"Plant-based food should taste very similar to what we're used to\"), and a fellow candidate theme states the same price/taste-parity idea; the sensory-replication claim can reasonably be read as that same requirement restated for substitute products, with texture added as a nuance. Equally reasonably, it can be read as a separate claim: not merely that plant-based food must taste good/cheap, but that imitation products must convincingly replicate the specific sensory profile (taste AND texture) of the meat they mimic, an angle no reference theme states and which the other candidates (additives, price/taste, loaded terminology) do not fully cover. Note also that the same turn contains a countervailing sentiment — P1 wants to \"get away from the kind of ... being a substitute\" and prefers vegetable-based meals — which complicates reading his bacon remark as a general requirement rather than an aside. The extract supports more than one defensible reading of whether this is a genuinely separate theme or a restatement of the taste-parity claim.",
+    "information_that_would_settle_it": "A stated convention on how finely themes are to be split — specifically whether \"taste/texture replication of a specific meat product\" is intended to sit inside the broader taste-parity theme or be coded separately. Additional discussion in the fuller transcript where participants elaborate on texture/mouthfeel as a distinct requirement (separate from general taste and price) would also settle it."
+   }
+  },
+  {
+   "custom_id": "hy008",
+   "case_id": "C::S02::M7",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 2,
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "provenance": {
+    "machine_key": "S02::M7"
+   },
+   "cache_key": "6615651942726e5aafd22f6d849655231b1d87d96f478f680844c6e067858a97",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 9026,
+    "output_tokens": 741
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T044",
+      "speaker": "Participant 2",
+      "quote": "But I reckon what's come up for me in listening to this is — I'm not actually sure I would do it, even if the practical stuff was easy and even if no one cared. Because I haven't really... thought about it enough to want to change, you know? It's not like I've got a barrier I'm fighting against. I just don't have a reason to do it yet."
+     },
+     {
+      "turn_id": "T044",
+      "speaker": "Participant 2",
+      "quote": "And maybe that's the actual friction for me — not the logistics or the family thing, but just that it would require me to actually think about what I'm eating and why, in a way I'm not really doing right now."
+     },
+     {
+      "turn_id": "T044",
+      "speaker": "Participant 2",
+      "quote": "I don't have the family thing the way Bilal's describing — my mum's not doing Sunday dinners with me anymore, that's just not part of my week."
+     }
+    ],
+    "reasoning": "Participant 2's turn at T044 explicitly and at length frames his own friction as an absence of motivation and reflection rather than any external obstacle — he says he lacks the family dynamic and, being in London, the access/social barriers, and concludes the real friction is that he hasn't thought about it enough to want to change. That is a distinct thematic claim: a motivational/attitudinal barrier as opposed to the practical, relational, parental, or collective-shift barriers. None of the three reference themes (extra effort/logistics, family pressure, pressure fading over time) states it, and none of the other candidate themes (logistical/financial, perceived judgment on family, relational wear-down, normalization through persistence, parental judgment, collective shifts) makes the same claim. It is not an incidental mention — it is the substantive conclusion of an entire turn and the extract's closing point.",
+    "information_that_would_settle_it": "Nothing is missing; the extract settles it. T044 is a full, self-contained statement of the claim and no listed reference or candidate theme covers it."
+   }
+  },
+  {
+   "custom_id": "hy020",
+   "case_id": "C::S06::M2",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 2,
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "provenance": {
+    "machine_key": "S06::M2"
+   },
+   "cache_key": "224b106e7f4fd4c6ff8e78752814179cbb825a1cfe203e110e16484d6c96ed5c",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4834,
+    "output_tokens": 826
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 1",
+      "quote": "certainly within my social group, the men aspect of it is just a, just a, we wouldn't even consider it being kind of unmanly. If one of our mates walked in with a plant based burger, I'm not going to start ribbing him for it."
+     },
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 1",
+      "quote": "my choice again, doesn't come down to, to being anything to do with being a man or male and any sort of macho, or unmacho, uh, vision that I might have of being plant based."
+     },
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 1",
+      "quote": "I think those days are long gone, where people thought of vegetarians as kind of weak, hippie, airy fairy sorts of people. Uh, that, that, society's changed now."
+     }
+    ],
+    "reasoning": "Participant 1 devotes a substantial portion of T034 to explicitly rejecting masculinity as a factor in plant-based food choice: he says his social group would not consider it unmanly, would not mock a mate for eating a plant-based burger, that his own choice has nothing to do with being male or any macho/unmacho vision, and that the old stereotype of vegetarians as weak or hippie is outdated because society has changed. This is a direct, extended, on-topic claim rather than an incidental aside, and it responds to the moderator's framing about men specifically. None of the four reference themes (price/taste, health/fitness, protein in meat, unhealthy ingredients) makes any claim about masculinity or social judgement. None of the other candidate themes (price/taste parity, health benefits, unhealthy additives, loaded terminology, sensory replication) covers it either. It is therefore both well grounded and thematically distinct. The only caveat is that it is voiced by a single participant without explicit agreement from others, but the candidate's description is framed at exactly the level the speaker asserts.",
+    "information_that_would_settle_it": "Nothing is missing; the extract settles it. T034 directly and extensively states the claim, and no reference or other candidate theme covers the masculinity dimension."
+   }
+  },
+  {
+   "custom_id": "hy011",
+   "case_id": "C::S03::M3",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 1,
+   "blind_unit_id": "S03",
+   "question_id": "Q1",
+   "provenance": {
+    "machine_key": "S03::M3"
+   },
+   "cache_key": "cc2392701e2443171bccad62c560245c561dbc3c94dd1ad11437d64fec124f0a",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4725,
+    "output_tokens": 1197
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "MEDIUM",
+    "quotations": [
+     {
+      "turn_id": "T004",
+      "speaker": "Participant 5",
+      "quote": "And like you say, it's not why you're there, but it makes the whole experience better if it's done well. You're more inclined to stay longer, have another pint if the food's good and you're not sitting there regretting what you ate."
+     },
+     {
+      "turn_id": "T005",
+      "speaker": "Participant 1",
+      "quote": "I went to one of the pubs I mentioned a while back, ordered a steak, and it was just... you could tell someone cared about where it came from. Not expensive or anything, just decent quality beef cooked right. Made a real difference to the evening."
+     },
+     {
+      "turn_id": "T003",
+      "speaker": "Participant 1",
+      "quote": "I'll grab something if I'm hungry, but it's not the main event."
+     },
+     {
+      "turn_id": "T007",
+      "speaker": "Participant 4",
+      "quote": "when you've had a decent steak or Sunday roast done right, you remember it"
+     }
+    ],
+    "reasoning": "The claim - that food is secondary to the social purpose of the pub visit but that well-sourced, well-cooked food materially improves the evening and encourages longer stays - is directly and explicitly stated by two participants (P5's 'it's not why you're there, but it makes the whole experience better... more inclined to stay longer, have another pint' and P1's 'Made a real difference to the evening'), and echoed by P4. It is therefore well grounded. It is also a distinct thematic claim from the listed reference themes: the reference food theme is about age-driven growth in awareness/discernment of food quality generally (including butchers and Tesco shopping), not about food's contribution to the pub social occasion; the other reference theme is about the pub's convenience as a default meeting place, mentioning food only in passing. Among the other candidate themes, 'Growing awareness of food quality paired with a practical attitude' concerns the trajectory and limits of personal discernment, and the pub themes concern connection and the shift away from heavy drinking - none makes the claim that quality food enhances and prolongs the social occasion. Some overlap with the age/food-awareness theme is arguable, which is why confidence is not maximal.",
+    "information_that_would_settle_it": "Nothing further is needed on support - the extract explicitly states the claim. The only residual question is a conventional one about granularity: whether the coding scheme treats 'food quality enhances the pub occasion' as separable from 'age-driven awareness of food quality'. Knowing the intended level of theme granularity would settle that."
+   }
+  },
+  {
+   "custom_id": "hy015",
+   "case_id": "C::S04::M3",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 1,
+   "blind_unit_id": "S04",
+   "question_id": "Q4",
+   "provenance": {
+    "machine_key": "S04::M3"
+   },
+   "cache_key": "0aac912794042d2f71c74198de4f3e013b4a1517e20efb8e5395f9555432a31d",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4899,
+    "output_tokens": 1119
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T031",
+      "speaker": "Participant 4",
+      "quote": "Because once you start questioning it, once you make it a choice instead of just the default, you're the one who has to own that. You can't just... not think about it anymore."
+     },
+     {
+      "turn_id": "T031",
+      "speaker": "Participant 4",
+      "quote": "Not that we can't see it, but that seeing it doesn't actually change what's easiest to do."
+     },
+     {
+      "turn_id": "T032",
+      "speaker": "Participant 1",
+      "quote": "But if you deliberately chose something else, now you're making a statement whether you want to or not. You can't hide behind it being normal anymore. You're actively deciding, and that means you're responsible for that decision in a way you're not when you're just going along with what's already there."
+     },
+     {
+      "turn_id": "T032",
+      "speaker": "Participant 1",
+      "quote": "And that's harder than just doing the thing that doesn't require you to think about it or justify it to yourself or your mates. Because the default — the safe choice — that's effortless."
+     }
+    ],
+    "reasoning": "The candidate claim is that awareness converts eating into a deliberate, ownable act, and that this burden of conscious responsibility is itself harder than following the effortless default. This is explicitly and repeatedly developed by both Participant 4 (T031) and Participant 1 (T032), including the 'seeing it doesn't change the equation' formulation, so it is firmly grounded in the extract rather than an incidental mention.\n\nIt is not stated by the single reference theme, which is about the need for plant-based eating to become as normal/unremarkable as meat-eating — a precondition claim, not a claim about the cost of awareness and ownership. It is also distinct from the other candidate themes: 'Unconscious collective maintenance of normalcy' concerns the circular, unspoken reproduction of the norm (T030); 'Social normalcy as the primary barrier' contrasts social discomfort with practical cooking difficulty (T029/T030); 'Meat-eating as an unexamined default' captures Participant 3's contrasting position of never having thought about it (T034). None of these makes the claim that visibility/awareness raises rather than lowers the cost of change by imposing personal responsibility for the choice. Indeed, that point is presented in the discussion as a rebuttal/refinement of the 'invisible circularity' claim, which underlines its distinctness.",
+    "information_that_would_settle_it": "Nothing further is needed; T031 and T032 directly and extensively state the candidate claim, and none of the listed reference or other candidate themes articulates it."
+   }
+  },
+  {
+   "custom_id": "hy002",
+   "case_id": "C::S01::M3",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 2,
+   "blind_unit_id": "S01",
+   "question_id": "Q1",
+   "provenance": {
+    "machine_key": "S01::M3"
+   },
+   "cache_key": "8363ab4082e7b16fd93ba45c97e8e6bb9749d63d427742e5478733f0472345eb",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4497,
+    "output_tokens": 1267
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "MEDIUM",
+    "quotations": [
+     {
+      "turn_id": "T004",
+      "speaker": "Participant 3",
+      "quote": "And I'll go along with it, but... I don't know, it feels like more effort sometimes? Like you've got to commit to being there for longer, help with the cooking or whatever."
+     },
+     {
+      "turn_id": "T005",
+      "speaker": "Participant 2",
+      "quote": "like, the cooking nights do take more effort upfront, fair enough"
+     },
+     {
+      "turn_id": "T005",
+      "speaker": "Participant 2",
+      "quote": "With the cooking thing, even if it's a hassle to organize, there's actually something happening."
+     },
+     {
+      "turn_id": "T006",
+      "speaker": "Participant 3",
+      "quote": "It does take more effort but like, what's the alternative? Just going through the motions every week?"
+     }
+    ],
+    "reasoning": "The candidate's claim - that non-pub alternatives (notably group cooking nights) are perceived as demanding in terms of upfront organisation, duration of commitment and active participation - is directly and repeatedly grounded in the extract: P3 says cooking 'feels like more effort' and requires committing 'to being there for longer, help with the cooking'; P2 concedes 'the cooking nights do take more effort upfront' and that it is 'a hassle to organize'; P3 later reiterates 'It does take more effort'. None of the four reference themes states this. The reference themes cover the pub's convenience, someone's flat as an alternative venue, the shallowness of pub interaction, and a dislike of over-planning meet-ups generally; none makes the specific claim that the alternative activities themselves carry an effort/commitment cost that acts as a barrier. Regarding duplication, the sibling candidate 'The pub as the default, low-effort social space' is the closest, and the two are related as converse framings, but it is evidenced solely by statements about the pub's ease of turning up and leaving, whereas this candidate makes the distinct claim about the burden attaching to the alternatives (planning, duration, participation). That is a different substantive assertion, though a reader could reasonably treat them as one idea, hence MEDIUM rather than HIGH.",
+    "information_that_would_settle_it": "Nothing further is needed from the extract, which clearly supports the claim. The only residual question is a conventions question outside the extract: whether the coding scheme treats 'pub is low-effort' and 'alternatives are high-effort' as one theme or two - knowing the granularity rule applied when the candidate set was produced would settle it definitively."
+   }
+  },
+  {
+   "custom_id": "hy012",
+   "case_id": "C::S03::M3",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 2,
+   "blind_unit_id": "S03",
+   "question_id": "Q1",
+   "provenance": {
+    "machine_key": "S03::M3"
+   },
+   "cache_key": "09da15907135100c94d79438d4f960db6ae623068cf0267c7a35621357a757a7",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4725,
+    "output_tokens": 1381
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T004",
+      "speaker": "Participant 5",
+      "quote": "And like you say, it's not why you're there, but it makes the whole experience better if it's done well. You're more inclined to stay longer, have another pint if the food's good and you're not sitting there regretting what you ate."
+     },
+     {
+      "turn_id": "T005",
+      "speaker": "Participant 1",
+      "quote": "I went to one of the pubs I mentioned a while back, ordered a steak, and it was just... you could tell someone cared about where it came from. Not expensive or anything, just decent quality beef cooked right. Made a real difference to the evening."
+     },
+     {
+      "turn_id": "T003",
+      "speaker": "Participant 1",
+      "quote": "I'll grab something if I'm hungry, but it's not the main event."
+     },
+     {
+      "turn_id": "T007",
+      "speaker": "Participant 4",
+      "quote": "when you've had a decent steak or Sunday roast done right, you remember it"
+     }
+    ],
+    "reasoning": "The candidate makes a specific, well-grounded claim: food is not the reason for going to the pub, but good, properly sourced food improves the evening and makes them linger. Both cited quotations appear verbatim (T004 explicitly links good food to staying longer and having another pint; T005 says it 'Made a real difference to the evening'), and T003's 'not the main event' supports the secondary-but-additive framing.\n\nIt is not stated by either reference theme. Reference theme 1 is about the pub's convenience and default status as a social venue (food is only mentioned in passing as one of several activities, not as an enhancer of the experience). Reference theme 2 is about age driving increased attention to food preparation and provenance — a claim about how their palate/awareness has changed over time, not about food's contribution to the enjoyment or duration of the pub visit.\n\nIt is also distinct from the other candidate themes: 'low-stress default space' concerns conversation and escape from daily pressures; 'shift from youthful indulgence' concerns ageing and socialising style; 'growing awareness of food quality paired with a practical attitude' concerns the permanence of the awareness and their non-obsessive stance on sourcing/shopping (Tesco, 'not going out of my way'), not the effect of good food on the social occasion. The overlap is thematic material (pub food quality) rather than the same claim.",
+    "information_that_would_settle_it": "Nothing is missing; the extract settles it. T004 and T005 directly assert that well-executed food improves the evening and encourages staying longer, and no reference theme makes that claim."
+   }
+  },
+  {
+   "custom_id": "hy005",
+   "case_id": "C::S02::M6",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 1,
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "provenance": {
+    "machine_key": "S02::M6"
+   },
+   "cache_key": "c8169281ec38d444de414f5b716395a158213e0c9f0c29386d368418b55d11de",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 9026,
+    "output_tokens": 891
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T042",
+      "speaker": "Participant 3",
+      "quote": "It's about whether you've got people around you who are shifting at the same time, or whether you're genuinely on your own with it."
+     },
+     {
+      "turn_id": "T042",
+      "speaker": "Participant 3",
+      "quote": "But what I've actually seen work — and I've done a version of this myself with other stuff, not food necessarily, but choices that felt risky — is when you're not alone in it."
+     },
+     {
+      "turn_id": "T042",
+      "speaker": "Participant 3",
+      "quote": "If you're the only one in your family or your mate group doing something different, yeah, the tension might get quieter but it doesn't really resolve. But if it's something that's happening more broadly, or if you find people who are already doing it... that changes the dynamic completely."
+     },
+     {
+      "turn_id": "T044",
+      "speaker": "Participant 2",
+      "quote": "Henry's right that it's different if there's other people doing it. That probably does matter."
+     }
+    ],
+    "reasoning": "The candidate claim — that going through the shift alongside others reduces social friction, whereas doing it alone leaves tension unresolved — is explicitly and extensively articulated by Participant 3 in T042 and endorsed by Participant 2 in T044. It is therefore well grounded in the extract, not an incidental mention: it is the substantive contribution of an entire turn and is picked up by the following speaker. None of the three reference themes states it: they cover (a) friction fading with patience/persistence, (b) family pressure/reading dietary change as criticism, and (c) practical effort/availability. The 'pressure fades eventually' reference theme is about the passage of time and quiet persistence by an individual, not about collective/simultaneous change by a peer group — a different mechanism. Among the other candidate themes, 'Normalization through quiet persistence' is the closest, but it explicitly attributes resolution to the individual persisting quietly over time (Participant 5's gym example), whereas this candidate attributes it to not being alone — indeed Participant 3 explicitly distinguishes his point from that: 'It's not just about willpower or being quiet about it until people accept it.' So it is not a duplicate.",
+    "information_that_would_settle_it": "Nothing is missing; the extract settles it. T042 states the collective-shift mechanism directly, and no reference theme or other candidate theme makes the same claim."
+   }
+  },
+  {
+   "custom_id": "hy029",
+   "case_id": "D::fuse::S01::M1",
+   "task": "D_GRANULARITY",
+   "repetition_index": 1,
+   "blind_unit_id": "S01",
+   "question_id": "Q1",
+   "provenance": {
+    "machine_key": "S01::M1",
+    "human_keys": [
+     "S01::S01_slot_01",
+     "S01::S01_slot_04"
+    ],
+    "relation": "possible_fusion"
+   },
+   "cache_key": "cba9c692740ca44510c3d40babbc385c82bd86e59427b0fceb86ecbea0606b84",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 3729,
+    "output_tokens": 1602
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "confidence": "MEDIUM",
+    "quotations": [
+     {
+      "turn_id": "T002",
+      "speaker": "Participant 3",
+      "quote": "It's just... easy, isn't it? You can sit for hours, have a drink, chat, watch the football if there's a match on. And everyone knows where they're going without having to plan it to death."
+     },
+     {
+      "turn_id": "T003",
+      "speaker": "Participant 2",
+      "quote": "Still the easiest option though when you just want to turn up without planning anything."
+     },
+     {
+      "turn_id": "T004",
+      "speaker": "Participant 3",
+      "quote": "when we do meet up it's less frequent, and we kind of just want to grab a pint rather than organize something big. It's simpler."
+     },
+     {
+      "turn_id": "T004",
+      "speaker": "Participant 3",
+      "quote": "The pub you can just rock up, have a couple, leave when you want."
+     },
+     {
+      "turn_id": "T008",
+      "speaker": "Participant 5",
+      "quote": "You don't need to plan it to death — you just go down there Friday night and your mates are there or they'll be there soon enough."
+     }
+    ],
+    "reasoning": "The candidate theme makes one composite claim: the pub is the default because it is convenient, flexible, and requires no planning. The two reference themes split that same material into (a) the pub's intrinsic convenience/amenities — easy to get to, cheap pints, drink, food, chat, football — and (b) a more general disposition against over-planning meet-ups, evidenced by Will's account of just turning up on a Friday and, elsewhere, by David's reluctance about cooking nights requiring commitment. Both reference themes are grounded in the extract and both are subsumed by the candidate's description, which explicitly names convenience, flexibility ('come and go') and low coordination.\n\nThis looks like a grain difference rather than a mismatch: the candidate's broad claim decomposes fairly naturally into a place-based mechanism (the pub itself offers what they want) and an attitudinal mechanism (they actively dislike organising). The 'not overthink' theme has some independent reach in the extract — the aversion to effort also shapes attitudes to cooking nights ('it feels like more effort sometimes? Like you've got to commit to being there for longer'), so it is not purely a restatement of pub convenience. That argues against calling the reference split over-fragmentation.\n\nThe counter-reading is available: participants raise 'plan it to death' precisely as a reason the pub wins, so the two reference themes rest on almost the same utterances and could be read as one claim cut in two. That is why this is MEDIUM rather than HIGH.",
+    "information_that_would_settle_it": "Whether the reference 'not overthink' theme was intended to apply beyond pub choice (e.g. to declining cooking nights or organised activities generally) rather than only as a property of pub-going — for instance a codebook definition or additional evidence for that theme drawn from non-pub contexts. Without that, the extract alone leaves the split defensible but not conclusively distinct."
+   }
+  },
+  {
+   "custom_id": "hy017",
+   "case_id": "C::S04::M4",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 1,
+   "blind_unit_id": "S04",
+   "question_id": "Q4",
+   "provenance": {
+    "machine_key": "S04::M4"
+   },
+   "cache_key": "5f0bc7f7b43e27a5a0b9450dcaf05c9683db36e9525d26b26621d71085983a73",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4899,
+    "output_tokens": 753
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 3",
+      "quote": "I just eat meat, it's what I do, and I haven't been walking around aware that I'm choosing it for some performance reason or whatever."
+     },
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 3",
+      "quote": "I don't feel like I'm maintaining some system or anything. It's just not something I've thought much about. It's not like I'm consciously choosing the safe choice every time I cook dinner. It's just what I make."
+     },
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 3",
+      "quote": "It's not like I'm defending it as this essential masculine thing or worried about what it means if I don't eat it. I just... haven't thought about it enough to have that kind of conscious relationship with it, you know?"
+     },
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 3",
+      "quote": "right now it's just not that loaded for me. It's just food."
+     }
+    ],
+    "reasoning": "Participant 3's whole turn (T034) explicitly and repeatedly states the candidate's claim: meat-eating is an unexamined default, not a symbolic or performance-driven choice, and he does not feel he is maintaining any system or masculine code. The evidence is direct and abundant. The single reference theme concerns the need for plant-based eating to become as normal as meat-eating (T029) — a different claim about conditions for change, not about a dissenting participant's lack of conscious relationship with meat. Among the other candidate themes: 'Conscious choice requires personal responsibility' is about the burden after awareness; 'Unconscious collective maintenance of normalcy' is Participant 1's claim that everyone collectively upholds the norm — which the candidate theme actually partially counterposes (P3 denies feeling he maintains a system) and is grounded in a different speaker and turn; 'Social normalcy as the primary barrier' concerns barriers to switching. None restates the candidate's claim that for some participants meat is simply unreflective, unloaded food. The extract settles this.",
+    "information_that_would_settle_it": "Nothing further is needed; T034 directly and explicitly supports the candidate claim, and no reference or other candidate theme makes the same claim."
+   }
+  },
+  {
+   "custom_id": "hy019",
+   "case_id": "C::S06::M2",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 1,
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "provenance": {
+    "machine_key": "S06::M2"
+   },
+   "cache_key": "3475e4ca706ee75223d5c177605cb4e3112a508afd6fa54f09dff1af681ab8c0",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4834,
+    "output_tokens": 755
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 1",
+      "quote": "certainly within my social group, the men aspect of it is just a, just a, we wouldn't even consider it being kind of unmanly. If one of our mates walked in with a plant based burger, I'm not going to start ribbing him for it."
+     },
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 1",
+      "quote": "I think those days are long gone, where people thought of vegetarians as kind of weak, hippie, airy fairy sorts of people. Uh, that, that, society's changed now."
+     },
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 1",
+      "quote": "my choice again, doesn't come down to, to being anything to do with being a man or male and any sort of macho, or unmacho, uh, vision that I might have of being plant based"
+     }
+    ],
+    "reasoning": "Participant 1 devotes an entire substantial turn (T034) to explicitly rejecting masculinity as a factor in plant-based food choice: peers would not consider it unmanly, would not mock a friend for a plant-based burger, and the stereotype of vegetarians as weak/hippie is described as outdated because 'society's changed'. This is a directly stated, developed claim rather than an incidental mention, so it is well grounded. None of the four reference themes (ingredients/healthiness, protein in meat, health/fitness motivation, price and taste) addresses masculinity or social judgement at all. Nor does any other candidate theme (sensory replication, loaded terminology, additives, health benefits, price/taste parity) make this claim. It is therefore a distinct, supported thematic idea. The only caveat is that it comes from a single participant, but the extract records it as an explicit and elaborated group-relevant statement.",
+    "information_that_would_settle_it": "Nothing is missing; the extract settles it. T034 explicitly and at length states that masculinity/machismo is not a barrier, and no reference or other candidate theme makes that claim."
+   }
+  },
+  {
+   "custom_id": "hy016",
+   "case_id": "C::S04::M3",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 2,
+   "blind_unit_id": "S04",
+   "question_id": "Q4",
+   "provenance": {
+    "machine_key": "S04::M3"
+   },
+   "cache_key": "e19da4a478fe1fc1920f3b7169a55d4b06dd22b4a062c3bbbf1cfecfa0c6f6a5",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4899,
+    "output_tokens": 870
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T031",
+      "speaker": "Participant 4",
+      "quote": "Because once you start questioning it, once you make it a choice instead of just the default, you're the one who has to own that. You can't just... not think about it anymore."
+     },
+     {
+      "turn_id": "T031",
+      "speaker": "Participant 4",
+      "quote": "Not that we can't see it, but that seeing it doesn't actually change what's easiest to do."
+     },
+     {
+      "turn_id": "T032",
+      "speaker": "Participant 1",
+      "quote": "But if you deliberately chose something else, now you're making a statement whether you want to or not. You can't hide behind it being normal anymore. You're actively deciding, and that means you're responsible for that decision in a way you're not when you're just going along with what's already there."
+     },
+     {
+      "turn_id": "T032",
+      "speaker": "Participant 1",
+      "quote": "Because now you know what you're doing, even if you keep doing it anyway."
+     }
+    ],
+    "reasoning": "The candidate claim — that awareness converts eating into a conscious, owned decision that must be justified, and that this burden of ownership makes change harder than the effortless default — is directly and extensively stated by both Participant 4 (T031) and Participant 1 (T032). It is clearly grounded. It is also distinct from the single reference theme, which concerns the precondition that plant-based eating become as normal/unremarkable as meat-eating; that theme is about social normalisation as a requirement, not about the epistemic/moral burden that follows from seeing the pattern. Among the other candidate themes: 'Social normalcy as the primary barrier' is about practical vs social barriers; 'Unconscious collective maintenance of normalcy' is about the circular, unquestioned reproduction of the norm (explicitly the pre-awareness state); 'Meat-eating as an unexamined default' is Participant 3's contrasting position of not having thought about it. The candidate here uniquely captures the post-awareness dynamic — visibility does not dissolve the norm, it raises the cost by imposing personal responsibility. There is some conceptual adjacency to the 'unconscious maintenance' theme (they are two halves of the same exchange), but the claims are opposed in content: one says the norm is sustained by not thinking, the other says even thinking about it doesn't help and makes owning a change costlier. That is a distinct thematic idea.",
+    "information_that_would_settle_it": "Nothing is missing; the extract settles it. T031 and T032 state the claim explicitly, and none of the reference or other candidate themes makes the same claim about the burden of conscious ownership following awareness."
+   }
+  },
+  {
+   "custom_id": "hy023",
+   "case_id": "C::S06::M6",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 1,
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "provenance": {
+    "machine_key": "S06::M6"
+   },
+   "cache_key": "71fe30ba3c3a7081937bbeb205d1b4fb5b8aa26c3b58a8af913d306f5fe46b96",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4834,
+    "output_tokens": 2112
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "MEDIUM",
+    "quotations": [
+     {
+      "turn_id": "T036",
+      "speaker": "Participant 1",
+      "quote": "the one that I remember having one time, which I just, I just couldn't fathom was, was this kind of plant based bacon. And it was just awful. And I could, just couldn't see the point of it"
+     },
+     {
+      "turn_id": "T036",
+      "speaker": "Participant 1",
+      "quote": "Now if they came up with some sort of amazing plant based bacon that that to me tasted and had the texture of bacon, um, then maybe that would, that would steer me down that route"
+     },
+     {
+      "turn_id": "T039",
+      "speaker": "Participant 2",
+      "quote": "it's probably that that gives it its, its nicer taste, it makes it, makes it taste nice or makes it taste like what it\","
+     },
+     {
+      "turn_id": "T039",
+      "speaker": "Participant 2",
+      "quote": "makes it taste like what it\rereaswoning\":\"\"}"
+     }
+    ],
+    "reasoning": "The extract does support a claim about sensory replication: Participant 1 recounts rejecting a plant-based bacon as 'awful' and states that a substitute that 'tasted and had the texture of bacon' would steer him toward it, and Participant 2 links the additives to making a product 'taste like what it's trying to simulate'. Texture and faithful mimicry of a specific meat product is a specific claim about substitute product design, and it is not stated by any listed reference theme: the reference 'Price and taste of plant-based are the main barrier' concerns cost plus generic taste parity as a purchase condition, and the other references concern additives/health, protein, and fitness. Among the other candidate themes, 'Price and taste parity' is about cheapness and general taste, and 'Unhealthy additives' is about health of substitutes, so this is not a straight restatement of either, though it overlaps the taste-parity idea. The overlap with taste parity, and the fact that Participant 1 simultaneously expresses scepticism about substitutes as a category (preferring vegetable-based meals), is why this is MEDIUM rather than HIGH.",
+    "information_that_would_settle_it": "A ruling on whether 'texture/mimicry of a specific meat product' counts as substantively distinct from the recorded 'taste parity' element of the price-and-taste reference theme; the extract itself contains the relevant evidence."
+   }
+  },
+  {
+   "custom_id": "hy007",
+   "case_id": "C::S02::M7",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 1,
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "provenance": {
+    "machine_key": "S02::M7"
+   },
+   "cache_key": "a6573d50fa9c0f354669dfec62335946ad69873faa125b958c1d5088bea45f0a",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 9026,
+    "output_tokens": 514
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T044",
+      "speaker": "Participant 2",
+      "quote": "Because I haven't really... thought about it enough to want to change, you know? It's not like I've got a barrier I'm fighting against. I just don't have a reason to do it yet."
+     },
+     {
+      "turn_id": "T044",
+      "speaker": "Participant 2",
+      "quote": "And maybe that's the actual friction for me — not the logistics or the family thing, but just that it would require me to actually think about what I'm eating and why, in a way I'm not really doing right now."
+     },
+     {
+      "turn_id": "T044",
+      "speaker": "Participant 2",
+      "quote": "But honestly, listening to all this, I'm realizing I don't actually know what my barrier would be."
+     }
+    ],
+    "reasoning": "Participant 2 in T044 explicitly identifies absence of motivation and reflection — rather than logistics, family, or social judgement — as his real friction. This is directly and clearly stated, so the claim is well grounded. None of the three reference themes covers it: they concern eventual fading of social pressure, family pressure/perceived criticism, and practical effort. Nor does any other candidate theme make this claim; the others address collective shifts, parental judgement, quiet normalization, relational wear-down, family judgement, and logistical/financial barriers. The theme is therefore both supported and distinct.",
+    "information_that_would_settle_it": "Nothing is missing; T044 settles it, as the participant explicitly names lack of reason/reflection as his actual friction."
+   }
+  },
+  {
+   "custom_id": "hy009",
+   "case_id": "C::S03::M2",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 1,
+   "blind_unit_id": "S03",
+   "question_id": "Q1",
+   "provenance": {
+    "machine_key": "S03::M2"
+   },
+   "cache_key": "0bfc5eb882dd11b0a8195b493f60d101f65ad9a305dae490eb94222985f41f89",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4725,
+    "output_tokens": 771
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T003",
+      "speaker": "Participant 1",
+      "quote": "when we were younger it was more about going out and getting hammered, but now it's quieter. You want to actually sit and have a conversation, especially at forty-five."
+     },
+     {
+      "turn_id": "T004",
+      "speaker": "Participant 5",
+      "quote": "It's the same for me at forty-seven — you're not trying to prove anything anymore, are you?"
+     },
+     {
+      "turn_id": "T007",
+      "speaker": "Participant 4",
+      "quote": "at forty you're not trying to impress anyone anymore. You just want to sit down with people you know and not have to think too hard about it."
+     }
+    ],
+    "reasoning": "The candidate claim — that socialising has changed with age from heavy drinking and status display to quieter, conversation-focused meet-ups — is stated explicitly by three separate participants, in the exact words quoted, so it is well grounded. It is also thematically distinct from both reference themes: one concerns age-driven attentiveness to food quality/provenance, the other concerns the pub's convenience as a default venue. Neither makes the developmental claim about how the character of male socialising itself has changed over time. Among the other candidate themes, 'The pub as a low-stress default space for connection' is the closest, but that claim is about the qualities of the venue (relaxed, interruption-free) rather than a change over the life course; it draws on the interruption-free framing rather than the 'when we were younger... getting hammered' contrast. So this is a distinct, supported idea rather than a restatement.",
+    "information_that_would_settle_it": "Nothing is missing; the extract contains explicit, verbatim statements from three participants contrasting younger drinking behaviour with current quieter socialising, and no reference theme makes this claim."
+   }
+  },
+  {
+   "custom_id": "hy001",
+   "case_id": "C::S01::M3",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 1,
+   "blind_unit_id": "S01",
+   "question_id": "Q1",
+   "provenance": {
+    "machine_key": "S01::M3"
+   },
+   "cache_key": "1d441d478ca10b8ebbf8f05dfdacd8b02eda4d49c980be80ed3c30c261c0f206",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 4497,
+    "output_tokens": 1434
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "MEDIUM",
+    "quotations": [
+     {
+      "turn_id": "T004",
+      "speaker": "Participant 3",
+      "quote": "And I'll go along with it, but... I don't know, it feels like more effort sometimes? Like you've got to commit to being there for longer, help with the cooking or whatever."
+     },
+     {
+      "turn_id": "T005",
+      "speaker": "Participant 2",
+      "quote": "like, the cooking nights do take more effort upfront, fair enough"
+     },
+     {
+      "turn_id": "T006",
+      "speaker": "Participant 3",
+      "quote": "It does take more effort but like, what's the alternative? Just going through the motions every week?"
+     },
+     {
+      "turn_id": "T004",
+      "speaker": "Participant 3",
+      "quote": "when we do meet up it's less frequent, and we kind of just want to grab a pint rather than organize something big. It's simpler."
+     }
+    ],
+    "reasoning": "The claim - that non-pub alternatives such as group cooking are perceived as demanding in planning, duration and active participation - is directly and repeatedly grounded in the extract. Participant 3 explicitly frames cooking nights as 'more effort', involving commitment to a longer stay and helping out, and contrasts this with not wanting to 'organize something big'; Participant 2 concedes the point ('take more effort upfront'), and Participant 3 reiterates it in T006. None of the reference themes states this: the 'pubs, convenient and simpler' theme is about the pub's positive attributes (drink, food, sport), 'not overthink' is evidenced by the rural low-planning point about everyone knowing where you'll be, and the other references concern flat-based alternatives and shallow pub interaction. The nearest overlap is with the other candidate 'The pub as the default, low-effort social space', but that claim is about the pub's convenience and flexibility (turn up, leave when you want, no planning), whereas this one identifies the perceived burden and commitment attached to the alternatives - a related but separable barrier, evidenced by different utterances. That overlap is the reason for MEDIUM rather than HIGH confidence.",
+    "information_that_would_settle_it": "The extract itself supports the claim; what is not fully settled is a coding convention question - whether 'pub is low-effort' and 'alternatives are high-effort' are intended as one theme or two under the scheme in use. A statement of the granularity rules for splitting reciprocal/mirror-image claims would settle it definitively."
+   }
+  },
+  {
+   "custom_id": "hy030",
+   "case_id": "D::fuse::S01::M1",
+   "task": "D_GRANULARITY",
+   "repetition_index": 2,
+   "blind_unit_id": "S01",
+   "question_id": "Q1",
+   "provenance": {
+    "machine_key": "S01::M1",
+    "human_keys": [
+     "S01::S01_slot_01",
+     "S01::S01_slot_04"
+    ],
+    "relation": "possible_fusion"
+   },
+   "cache_key": "b0971e6dde5d5da34b50e708b0e55a046439989c00a59edfd71c5c7842cb4973",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 3729,
+    "output_tokens": 1294
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "confidence": "MEDIUM",
+    "quotations": [
+     {
+      "turn_id": "T002",
+      "speaker": "Participant 3",
+      "quote": "It's just... easy, isn't it? You can sit for hours, have a drink, chat, watch the football if there's a match on. And everyone knows where they're going without having to plan it to death."
+     },
+     {
+      "turn_id": "T003",
+      "speaker": "Participant 2",
+      "quote": "Still the easiest option though when you just want to turn up without planning anything."
+     },
+     {
+      "turn_id": "T004",
+      "speaker": "Participant 3",
+      "quote": "The pub you can just rock up, have a couple, leave when you want."
+     },
+     {
+      "turn_id": "T008",
+      "speaker": "Participant 5",
+      "quote": "You don't need to plan it to death — you just go down there Friday night and your mates are there or they'll be there soon enough."
+     }
+    ],
+    "reasoning": "The candidate states one broad claim: the pub is the default because it is convenient, flexible and requires no planning. The two reference themes carve the same material at a finer grain into two separable components. The first isolates the pub's own affordances (cheap, nearby, you can drink, eat, chat, watch the football), evidenced by Participant 3's opening turn. The second isolates a more general norm about not over-organising meet-ups, evidenced by Participant 5's rural account where the no-planning benefit holds even though there is only one venue and no real choice of amenities. These are genuinely distinguishable: one could value the pub's offerings without caring about planning effort, and the aversion to 'planning it to death' is voiced as a broader preference that survives the loss of venue choice in T008. Both reference themes are grounded in verbatim material, and together they cover the candidate's territory without adding anything alien to it, so this reads as decomposition rather than mismatch. The main reason for hesitation is that the phrase 'plan it to death' appears within the same breath as the pub's convenience in T002, so the two reference themes could plausibly be read as one claim split in two.",
+    "information_that_would_settle_it": "Whether the coding convention that produced the reference themes treated 'venue affordances' and 'coordination effort' as intentionally separate analytic dimensions applied across the wider dataset, or whether the second theme was created only because a single participant repeated the same 'plan it to death' phrasing. Evidence from elsewhere in the discussion of the low-planning preference appearing independently of pub-going would confirm it as a distinct claim."
+   }
+  },
+  {
+   "custom_id": "hy006",
+   "case_id": "C::S02::M6",
+   "task": "C_UNMATCHED_CANDIDATE_STATUS",
+   "repetition_index": 2,
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "provenance": {
+    "machine_key": "S02::M6"
+   },
+   "cache_key": "28f962ec1a403a90e816c2f0e83a29b4e2a1a4b1b6324938fce67b9d333495fd",
+   "result_type": "succeeded",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 9026,
+    "output_tokens": 783
+   },
+   "status": "COMPLETE",
+   "judgement": {
+    "category": "VALID_NOVEL_THEME",
+    "confidence": "HIGH",
+    "quotations": [
+     {
+      "turn_id": "T042",
+      "speaker": "Participant 3",
+      "quote": "It's about whether you've got people around you who are shifting at the same time, or whether you're genuinely on your own with it."
+     },
+     {
+      "turn_id": "T042",
+      "speaker": "Participant 3",
+      "quote": "But what I've actually seen work — and I've done a version of this myself with other stuff, not food necessarily, but choices that felt risky — is when you're not alone in it."
+     },
+     {
+      "turn_id": "T042",
+      "speaker": "Participant 3",
+      "quote": "It wasn't one person defending their choice. It was a natural thing that happened to loads of us."
+     },
+     {
+      "turn_id": "T042",
+      "speaker": "Participant 3",
+      "quote": "If you're the only one in your family or your mate group doing something different, yeah, the tension might get quieter but it doesn't really resolve. But if it's something that's happening more broadly, or if you find people who are already doing it... that changes the dynamic completely."
+     },
+     {
+      "turn_id": "T044",
+      "speaker": "Participant 2",
+      "quote": "Henry's right that it's different if there's other people doing it. That probably does matter."
+     }
+    ],
+    "reasoning": "Participant 3 in T042 makes an explicit, developed argument that whether the shift is undertaken collectively (others changing at the same time, or joining people already doing it) determines whether the relational tension resolves or merely goes quiet, and Participant 2 endorses it in T044. This is clearly supported by the extract. None of the three reference themes covers it: they address practical effort, family pressure to keep the status quo, and the idea that pressure fades with patience through individual quiet persistence. The 'pressure fades eventually' reference theme is distinct \\ — indeed Participant 3 explicitly contrasts the collective condition with mere persistence ('It's not just about willpower or being quiet about it until people accept it'). Among the other candidate themes, 'Normalization through quiet persistence' is the closest but rests on individual perseverance (Participant 5's gym example), not on peer/collective simultaneity, so this is not a duplicate.",
+    "information_that_would_settle_it": "Nothing further is needed; T042 and T044 settle it, as the collective/peer-shift mechanism is stated explicitly and is not asserted by any reference theme or other candidate theme."
+   }
+  }
+ ]
+}

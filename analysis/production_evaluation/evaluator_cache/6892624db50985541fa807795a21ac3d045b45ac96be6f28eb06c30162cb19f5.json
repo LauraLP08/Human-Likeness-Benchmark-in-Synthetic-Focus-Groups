@@ -1,0 +1,279 @@
+{
+ "cache_key": "6892624db50985541fa807795a21ac3d045b45ac96be6f28eb06c30162cb19f5",
+ "computed_utc": "2026-07-31T00:24:58.181194+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/to8xlhi19eohi33n4kb6vuyexr1a1b89ndws",
+ "custom_request_key": "macho_meals_fg2_demoonly_run01",
+ "input": {
+  "side": "synthetic",
+  "fg": "fg2",
+  "condition": "demographics-only",
+  "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg2_demoonly_run01\\comparable_transcript.json",
+  "sha256": "8239d45a6f22a643284c184fca913628b4594e146a438fcd72d601af2ea7907f",
+  "physical_run": "macho_meals_fg2_demoonly_run01",
+  "canonical_replication_index": 1
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "ba6af7cc9bf7f7facba4226b8fc47b754e63a39093fe97bf18b1c4338c40e7e5",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 12457,
+  "candidates_tokens": 1252,
+  "total_tokens": 20805,
+  "thoughts_tokens": 7096,
+  "cached_tokens": null,
+  "raw_text_chars": 4200,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 12457,
+  "candidates_tokens": 1252,
+  "total_tokens": 20805,
+  "thoughts_tokens": 7096,
+  "cached_tokens": null,
+  "raw_text_chars": 4200,
+  "parse_attempt": 1,
+  "headroom_tokens": 15132
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T015",
+      "speaker": "Participant 3",
+      "quote": "Yeah, I think it does actually. Not in a massive way necessarily, but... like, there are certain things you just don't order"
+     },
+     {
+      "turn_id": "T016",
+      "speaker": "Participant 1",
+      "quote": "you know what's acceptable to order with mates and what isn't."
+     },
+     {
+      "turn_id": "T024",
+      "speaker": "Participant 2",
+      "quote": "a big green salad with like, dressing on it, that feels coded as a bit feminine"
+     },
+     {
+      "turn_id": "T045",
+      "speaker": "Participant 5",
+      "quote": "I probably would feel uncomfortable being the one bloke doing something different."
+     }
+    ],
+    "evidence_note": "Participants 1, 2, 3, and 5 all explicitly acknowledge that their gender as men influences their food ordering behaviors to conform to social expectations.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3",
+     "Participant 5"
+    ],
+    "reach": 0.8
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T025",
+      "speaker": "Participant 4",
+      "quote": "And when I'm at home I'll eat whatever my wife's made, so it's not really my choice anyway half the time."
+     }
+    ],
+    "evidence_note": "Participant 4 downplays how much gender affects him day-to-day, but simultaneously describes a highly gendered division of domestic labor where his wife does all the cooking, seemingly without recognizing it.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 4"
+    ],
+    "reach": 0.2
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T027",
+      "speaker": "Participant 4",
+      "quote": "Like, we're just... we eat meat. That's what we do. Chicken, beef, whatever's on offer at Tesco. That's normal for us."
+     },
+     {
+      "turn_id": "T033",
+      "speaker": "Participant 1",
+      "quote": "Like, I eat meat, it's what I've always done."
+     },
+     {
+      "turn_id": "T037",
+      "speaker": "Participant 3",
+      "quote": "I eat meat, it's normal."
+     }
+    ],
+    "evidence_note": "Participants 1, 3, and 4 all describe meat-eating as their standard, normal, or default way of living.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 3",
+     "Participant 4"
+    ],
+    "reach": 0.6
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T029",
+      "speaker": "Participant 4",
+      "quote": "I like eating meat."
+     }
+    ],
+    "evidence_note": "Participant 4 explicitly states his enjoyment and liking of eating meat.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 4"
+    ],
+    "reach": 0.2
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T041",
+      "speaker": "Participant 2",
+      "quote": "And it's always a bit disappointing because it's not quite the same."
+     }
+    ],
+    "evidence_note": "Participant 2 notes that meat substitutes (fake chicken, fake beef) are often disappointing because they do not match the real taste and texture.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2"
+    ],
+    "reach": 0.2
+   },
+   {
+    "subtheme_id": "D",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 10,
+  "verified_quotes": 10,
+  "total_present_codes": 5,
+  "verified_codes": 5,
+  "demoted_codes": 0
+ }
+}

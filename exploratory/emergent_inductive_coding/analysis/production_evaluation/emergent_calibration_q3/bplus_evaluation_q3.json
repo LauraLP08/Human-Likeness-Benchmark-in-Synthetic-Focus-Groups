@@ -1,0 +1,433 @@
+{
+ "built_utc": "2026-08-02T19:30:14.986519+00:00",
+ "classification": "AI_ASSISTED_PROVISIONAL_ADJUDICATION",
+ "scope": "U01-U07 / Q3 only. Nothing here transfers to another question.",
+ "four_dimensions_kept_separate": {
+  "thematic_coverage": "30/44",
+  "granularity": "8 one-to-many, 10 many-to-one",
+  "literal_evidence_attachment": "30/30 machine themes carry at least one verbatim participant quotation from their own unit; 58/58 quotations verified",
+  "substantive_groundedness": "NOT ESTABLISHED by that check. Literality shows a quote was copied correctly, not that the claim it supports is warranted.",
+  "quantity_of_evidence": "NOT COMPARED — one human quote per theme by design vs several machine quotes"
+ },
+ "granularity_audit": {
+  "one_to_many": [
+   {
+    "human_key": "U01::C06",
+    "machine_keys": [
+     "U01::M1",
+     "U01::M4"
+    ],
+    "classification": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "rationale": "the human cluster states that pressure to conform is implicit and normalised; M1 and M4 are two distinct mechanisms of exactly that (meat as default-masculine, meat as performative safe choice). Decomposition, not invention."
+   },
+   {
+    "human_key": "U02::C10",
+    "machine_keys": [
+     "U02::M3",
+     "U02::M5"
+    ],
+    "classification": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "rationale": "the human label itself enumerates several topics (eating disorders, portion sizes, salads); M3 and M5 pick up two of them. The human cluster is deliberately broad."
+   },
+   {
+    "human_key": "U03::C02",
+    "machine_keys": [
+     "U03::M1",
+     "U03::M3"
+    ],
+    "classification": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "rationale": "backlash for stepping outside the norm is carved into the expectation itself (M1) and the anticipatory discomfort enforcing it (M3)."
+   },
+   {
+    "human_key": "U03::C05",
+    "machine_keys": [
+     "U03::M3",
+     "U03::M1"
+    ],
+    "classification": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "rationale": "'being a man is tied to what most men do' maps onto the same pair; the descriptive norm (M1) and its enforcement (M3)."
+   },
+   {
+    "human_key": "U03::C06",
+    "machine_keys": [
+     "U03::M1",
+     "U03::M3"
+    ],
+    "classification": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "rationale": "same broad conformity cluster as U01::C06, same two-mechanism split."
+   },
+   {
+    "human_key": "U05::C06",
+    "machine_keys": [
+     "U05::M1",
+     "U05::M2",
+     "U05::M3"
+    ],
+    "classification": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "rationale": "one broad human cluster against three mechanisms — not caring too much (M1), self-policing (M2), rural amplification (M3). Each is separately evidenced in the unit."
+   },
+   {
+    "human_key": "U06::C02",
+    "machine_keys": [
+     "U06::M1",
+     "U06::M3"
+    ],
+    "classification": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "rationale": "judgment of meat-free men (M1) and judgment as group enforcement (M3) are two facets of the same human claim."
+   },
+   {
+    "human_key": "U07::C06",
+    "machine_keys": [
+     "U07::M5",
+     "U07::M4"
+    ],
+    "classification": "UNCERTAIN",
+    "rationale": "the human cluster is about pressure to conform to masculine behaviour; M4 and M5 are about resistance to dietary change and contentment with current habits. M4 touches identity-threat, which is adjacent, but the claims are not clearly the same. Flagged, not penalised, and the researcher's match is left untouched."
+   }
+  ],
+  "many_to_one": [
+   {
+    "machine_key": "U01::M1",
+    "human_keys": [
+     "U01::C04",
+     "U01::C06"
+    ],
+    "classification": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "rationale": "habit/normality (C04) and implicit pressure (C06) both sit inside 'meat as the default masculine choice'."
+   },
+   {
+    "machine_key": "U01::M4",
+    "human_keys": [
+     "U01::C01",
+     "U01::C06"
+    ],
+    "classification": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "rationale": "'safe choice' (C01) and 'implicit normalised pressure' (C06) are close variants of one claim; one machine theme covering both is a grain difference, not a merge error."
+   },
+   {
+    "machine_key": "U03::M1",
+    "human_keys": [
+     "U03::C02",
+     "U03::C04",
+     "U03::C05",
+     "U03::C06"
+    ],
+    "classification": "POSSIBLE_OVER_MERGING",
+    "rationale": "likewise FOUR human clusters (C02, C04, C05, C06). Together with U03::M3 this makes U03 the clearest over-merging signal in the set."
+   },
+   {
+    "machine_key": "U03::M3",
+    "human_keys": [
+     "U03::C01",
+     "U03::C02",
+     "U03::C05",
+     "U03::C06"
+    ],
+    "classification": "POSSIBLE_OVER_MERGING",
+    "rationale": "FOUR distinct human clusters (C01, C02, C05, C06) collapse into one machine theme. The human coding separated safe-choice, backlash, descriptive norm and implicit pressure; the extractor kept one. Coverage is unaffected — this is a grain finding, for human review."
+   },
+   {
+    "machine_key": "U05::M1",
+    "human_keys": [
+     "U05::C02",
+     "U05::C06"
+    ],
+    "classification": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "rationale": "'not caring too much' covers backlash (C02) and implicit pressure (C06)."
+   },
+   {
+    "machine_key": "U05::M2",
+    "human_keys": [
+     "U05::C01",
+     "U05::C06"
+    ],
+    "classification": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "rationale": "self-policing subsumes both 'safe choice' (C01) and implicit pressure (C06)."
+   },
+   {
+    "machine_key": "U05::M3",
+    "human_keys": [
+     "U05::C06",
+     "U05::C12"
+    ],
+    "classification": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "rationale": "rural amplification maps cleanly onto C12 (city vs small town); C06 is the broad cluster attaching to it as well."
+   },
+   {
+    "machine_key": "U06::M1",
+    "human_keys": [
+     "U06::C02",
+     "U06::C06"
+    ],
+    "classification": "LEGITIMATE_GRANULARITY_DIFFERENCE",
+    "rationale": "judgment of meat-free men covers backlash (C02) and implicit pressure (C06)."
+   },
+   {
+    "machine_key": "U07::M4",
+    "human_keys": [
+     "U07::C02",
+     "U07::C06",
+     "U07::C08"
+    ],
+    "classification": "UNCERTAIN",
+    "rationale": "habits fused with identity, linked to backlash (C02), implicit pressure (C06) and health/belief-based decisions (C08). C08 in particular is a different kind of claim."
+   },
+   {
+    "machine_key": "U07::M5",
+    "human_keys": [
+     "U07::C01",
+     "U07::C06"
+    ],
+    "classification": "UNCERTAIN",
+    "rationale": "'lack of motivation to change when satisfied' against 'safe choice' (C01) and implicit pressure (C06). The link is defensible but the claims are not evidently the same; flagged for the researcher."
+   }
+  ]
+ },
+ "unconfirmed_theme_taxonomy": {
+  "CONFIRMED_UNLINKED_WITH_HUMAN_CANDIDATE": {
+   "U01::M5": [
+    "U01::C02"
+   ],
+   "U03::M2": [
+    "U03::C09"
+   ],
+   "U06::M2": [
+    "U06::C09",
+    "U06::C11"
+   ],
+   "U06::M4": [
+    "U06::C09"
+   ]
+  },
+  "PURE_MACHINE_ONLY": [
+   "U03::M4",
+   "U06::M5"
+  ],
+  "rule": "A = no confirmed match BUT named on a human UNCERTAIN row; a human saw it and related it to her own theme without settling the relation. It must NOT be described as absent from the human reference. B = no confirmed match and no human candidate at all."
+ },
+ "machine_only_queue": [
+  {
+   "machine_key": "U01::M5",
+   "label": "Group conformity rather than gender as the driver of dietary social norms",
+   "taxonomy": "CONFIRMED_UNLINKED_WITH_HUMAN_CANDIDATE",
+   "human_candidate_rows": [
+    "U01::C02"
+   ],
+   "description": "Deviating from common dietary choices is primarily about sticking out in one's social circle rather than expressing or challenging gender roles.",
+   "model_relevance": "secondary",
+   "model_relevance_caveat": "DESCRIPTIVE_MODEL_METADATA_NOT_HUMAN_VALIDATED",
+   "n_evidence_quotes": 1,
+   "verdict": "UNCERTAIN",
+   "rationale": "class A: the researcher named this theme on her UNCERTAIN row U01::C02, so it is NOT absent from the human reference — she saw it and did not settle the relation. Its groundedness is not in doubt ('less about gender and more what's normal in your circle', quoted verbatim); what is unsettled is the correspondence, which is hers to decide, not a novelty question."
+  },
+  {
+   "machine_key": "U03::M2",
+   "label": "Inability to distinguish personal preference from internalized social pressure",
+   "taxonomy": "CONFIRMED_UNLINKED_WITH_HUMAN_CANDIDATE",
+   "human_candidate_rows": [
+    "U03::C09"
+   ],
+   "description": "Social expectations and gender norms are internalized so deeply over time that individuals can no longer differentiate between their genuine personal preferences and the pressure to conform.",
+   "model_relevance": "central",
+   "model_relevance_caveat": "DESCRIPTIVE_MODEL_METADATA_NOT_HUMAN_VALIDATED",
+   "n_evidence_quotes": 3,
+   "verdict": "UNCERTAIN",
+   "rationale": "class A: named on the researcher's UNCERTAIN row U03::C09 (confirmed by MATCHING_AMENDMENT_01), so it is NOT absent from the human reference. Strongly grounded — three participant quotes across three turns that the preference/pressure distinction has collapsed — but the correspondence with her 'just eat what you crave' cluster is unsettled, and that is a human decision."
+  },
+  {
+   "machine_key": "U03::M4",
+   "label": "Urban anonymity does not equate to freedom from internalized dietary expectations",
+   "taxonomy": "PURE_MACHINE_ONLY",
+   "human_candidate_rows": [],
+   "description": "While living in a city eliminates the fear of immediate social judgment or comment regarding dietary choices, individuals still experience internalized pressure to conform to traditional masculine roles.",
+   "model_relevance": "secondary",
+   "model_relevance_caveat": "DESCRIPTIVE_MODEL_METADATA_NOT_HUMAN_VALIDATED",
+   "n_evidence_quotes": 2,
+   "verdict": "VALID_NOVEL_THEME",
+   "rationale": "class B, pure machine-only: no human row named it. Urban anonymity removing external comment while internal pressure persists is quoted twice and is substantively distinct from every human cluster in U03."
+  },
+  {
+   "machine_key": "U06::M2",
+   "label": "Meat-eating as the unquestioned default for men",
+   "taxonomy": "CONFIRMED_UNLINKED_WITH_HUMAN_CANDIDATE",
+   "human_candidate_rows": [
+    "U06::C09",
+    "U06::C11"
+   ],
+   "description": "Eating meat is the unquestioned default choice for men, meaning they are never expected to explain or defend their food choices.",
+   "model_relevance": "central",
+   "model_relevance_caveat": "DESCRIPTIVE_MODEL_METADATA_NOT_HUMAN_VALIDATED",
+   "n_evidence_quotes": 2,
+   "verdict": "UNCERTAIN",
+   "rationale": "class A: named on TWO of the researcher's UNCERTAIN rows (U06::C09 and U06::C11), so it is NOT absent from the human reference. Well grounded ('it's the default, so it doesn't need justifying'); the unsettled question is which of her two clusters it corresponds to."
+  },
+  {
+   "machine_key": "U06::M4",
+   "label": "Indifference diffuses food teasing",
+   "taxonomy": "CONFIRMED_UNLINKED_WITH_HUMAN_CANDIDATE",
+   "human_candidate_rows": [
+    "U06::C09"
+   ],
+   "description": "Teasing and peer pressure over food choices fade away if the individual remains unbothered and refuses to act defensively.",
+   "model_relevance": "secondary",
+   "model_relevance_caveat": "DESCRIPTIVE_MODEL_METADATA_NOT_HUMAN_VALIDATED",
+   "n_evidence_quotes": 2,
+   "verdict": "UNCERTAIN",
+   "rationale": "class A: named on the researcher's UNCERTAIN row U06::C09. Grounded twice over (teasing fades when the target is unbothered), but the correspondence is unsettled and is hers to decide."
+  },
+  {
+   "machine_key": "U06::M5",
+   "label": "Maturity reduces compliance with food stereotypes",
+   "taxonomy": "PURE_MACHINE_ONLY",
+   "human_candidate_rows": [],
+   "description": "As men grow older and more mature, they care less about conforming to group expectations around food and are less affected by judgment.",
+   "model_relevance": "secondary",
+   "model_relevance_caveat": "DESCRIPTIVE_MODEL_METADATA_NOT_HUMAN_VALIDATED",
+   "n_evidence_quotes": 2,
+   "verdict": "VALID_NOVEL_THEME",
+   "rationale": "class B, pure machine-only: no human row named it. Age/maturity reducing compliance is quoted twice and is a different cause from M4's indifference, so it is not a DUPLICATE_MACHINE_THEME."
+  }
+ ],
+ "taxonomy_note": "A theme in CONFIRMED_UNLINKED_WITH_HUMAN_CANDIDATE must NEVER be described as absent from the human reference: the researcher named it while leaving the correspondence UNCERTAIN. Only PURE_MACHINE_ONLY themes have no human candidate at all, and only those are novelty questions.",
+ "machine_only_verdict_counts": {
+  "VALID_NOVEL_THEME": 2,
+  "UNSUPPORTED_OR_SPURIOUS": 0,
+  "DUPLICATE_MACHINE_THEME": 0,
+  "UNCERTAIN": 4
+ },
+ "metrics": {
+  "recall_vs_union_reference": {
+   "numerator_matched_human_instances": 30,
+   "denominator_human_instances": 44,
+   "value": 0.6818181818181818,
+   "note": "UNCERTAIN rows are NOT in the numerator; they are neither correct nor incorrect until resolved"
+  },
+  "strict_precision_vs_union_reference": {
+   "numerator_machine_themes_linked": 24,
+   "denominator_machine_themes": 30,
+   "value": 0.8,
+   "note": "strict: a machine theme not linked to any human instance counts against precision here even if it is later adjudicated VALID_NOVEL_THEME"
+  },
+  "literal_evidence_attachment_rate": {
+   "numerator": 30,
+   "denominator": 30,
+   "value": 1.0,
+   "measures": "each machine theme carries at least one quotation that is verbatim in its own unit and not from the moderator",
+   "does_NOT_measure": "whether the claim is substantively warranted by the extract, whether it corresponds to a human theme, or whether a second model agrees",
+   "note": "Renamed from grounded_theme_rate. A literal quotation is an attachment check, not a validation of the claim."
+  },
+  "provisional_valid_novel_themes": {
+   "numerator": 2,
+   "denominator": 30,
+   "value": 0.06666666666666667
+  },
+  "unsupported_or_spurious_rate": {
+   "numerator": 0,
+   "denominator": 30,
+   "value": 0.0
+  },
+  "duplicate_machine_theme_rate": {
+   "numerator": 0,
+   "denominator": 30,
+   "value": 0.0
+  },
+  "uncertainty_rate_human_rows": {
+   "numerator": 6,
+   "denominator": 44,
+   "value": 0.13636363636363635
+  },
+  "fusion_confirmed": {
+   "numerator": 10,
+   "denominator": 30
+  },
+  "fragmentation_confirmed": {
+   "numerator": 8,
+   "denominator": 44
+  }
+ },
+ "bplus_conditions": {
+  "coverage_benchmark_met": {
+   "required": "recall >= 0.6364 (28/44, the lower coder recall vs the union)",
+   "observed": "30/44 = 0.6818",
+   "met": true
+  },
+  "no_recurrent_severe_unsupported_errors": {
+   "required": "no severe unsupported theme recurring across >=2 units",
+   "observed": "0 unsupported themes in the provisional pass; all 58 quotations are verbatim and none is from the moderator (literal attachment, not substantive groundedness)",
+   "met": true
+  },
+  "complete_adjudication_of_every_machine_only_theme": {
+   "required": "a HUMAN verdict on each machine-only theme",
+   "observed": "6 themes adjudicated, but only as AI_ASSISTED_PROVISIONAL_ADJUDICATION",
+   "met": false,
+   "why_not": "AI-assisted provisional adjudication is not human validation and must not be counted as it"
+  },
+  "explicit_human_review_of_fragmentation_and_fusion": {
+   "required": "a human decision on each granularity case",
+   "observed": "8 one-to-many and 10 many-to-one classified provisionally; 3 remain UNCERTAIN",
+   "met": false
+  }
+ },
+ "bplus_state": "PENDING_LIMITED_REVIEW",
+ "state_rationale": "Recall clears the benchmark and no unsupported theme was found, but a PASS requires all four conditions. Two are outstanding and both need a human, not a model: the machine-only verdicts here are AI_ASSISTED_PROVISIONAL_ADJUDICATION, and the granularity cases have not been reviewed by the researcher. Recall alone does not produce a PASS.",
+ "escalate_to_researcher": {
+  "note": "The only items that genuinely need her. No new workbook, and no re-reading of the 44 rows.",
+  "unresolved_uncertain_rows": [
+   {
+    "human_key": "U01::C02",
+    "reasoning": "Machine key is valid but more broad than the human coding",
+    "candidate_machine_keys": [
+     "U01::M5"
+    ],
+    "invalid_keys_dropped": []
+   },
+   {
+    "human_key": "U02::C09",
+    "reasoning": "It is true the machine key but human coding was more specific, so yes, it's true that it's not determined by gender, but by cravings.",
+    "candidate_machine_keys": [
+     "U02::M1"
+    ],
+    "invalid_keys_dropped": []
+   },
+   {
+    "human_key": "U03::C09",
+    "reasoning": "It is true the machine key but human coding was more specific, so yes, it's true that it's not determined by gender, but by cravings AND could not tell the diference between wanting or being pressured",
+    "candidate_machine_keys": [
+     "U03::M2"
+    ],
+    "invalid_keys_dropped": []
+   },
+   {
+    "human_key": "U04::C09",
+    "reasoning": "It is true the machine key but human coding was more specific, so yes, it's true that it's not determined by gender, but by cravings",
+    "candidate_machine_keys": [
+     "U04::M1"
+    ],
+    "invalid_keys_dropped": []
+   },
+   {
+    "human_key": "U06::C09",
+    "reasoning": "From the human coding meat is also seen as the default for men but also tied to craving it more",
+    "candidate_machine_keys": [
+     "U06::M2",
+     "U06::M4"
+    ],
+    "invalid_keys_dropped": []
+   },
+   {
+    "human_key": "U06::C11",
+    "reasoning": "The machine keys apply but they lack the component of men not overthinking about food choices, or like they can have almost anything",
+    "candidate_machine_keys": [
+     "U06::M3",
+     "U06::M2"
+    ],
+    "invalid_keys_dropped": []
+   }
+  ],
+  "granularity_cases_still_uncertain": [
+   "U07::C06",
+   "U07::M4",
+   "U07::M5"
+  ]
+ }
+}

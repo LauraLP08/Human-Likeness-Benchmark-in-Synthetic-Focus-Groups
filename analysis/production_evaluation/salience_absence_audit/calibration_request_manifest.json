@@ -1,0 +1,293 @@
+{
+ "classification": "ABSENCE_AUDIT_CALIBRATION_REQUEST_MANIFEST",
+ "stage": "STAGE1_CALIBRATION",
+ "contains": "opaque identifiers, hashes and request metadata only",
+ "excludes": "every field that could identify a source document, its origin, or the original coder's decision; this file is not an answer key and a purity check asserts it cannot become one",
+ "n_documents": 14,
+ "n_candidates_per_document": 11,
+ "n_cells_returned": 154,
+ "repetitions_per_request": 2,
+ "repetition_semantics": "two separately keyed stochastic repetitions of an independent cross-model auditor; they share a model, prompt, schema and rendering and differ only in the repetition index, so they measure the stability of one auditor and are not two independent auditors",
+ "documents": [
+  {
+   "blinded_document_id": "DOC_044D944A54",
+   "rendered_sha256": "4d992a9c2ffa057ef237fec107c90ad2307cfbb97b97b56bc38c931b26b72a9d",
+   "candidate_order": [
+    "C.3",
+    "D",
+    "B.4",
+    "A.3",
+    "C.1",
+    "A.2",
+    "B.3",
+    "A.1",
+    "B.2",
+    "B.1",
+    "C.2"
+   ],
+   "n_turns": 104,
+   "n_participants": 5,
+   "prompt_words": 8173
+  },
+  {
+   "blinded_document_id": "DOC_0D65F24445",
+   "rendered_sha256": "da460c9e6e6d35776288060e83b807ef783dc4138aa7e3d02c96ddf80a757557",
+   "candidate_order": [
+    "C.1",
+    "C.2",
+    "B.4",
+    "A.1",
+    "D",
+    "C.3",
+    "B.1",
+    "A.2",
+    "A.3",
+    "B.2",
+    "B.3"
+   ],
+   "n_turns": 49,
+   "n_participants": 5,
+   "prompt_words": 14054
+  },
+  {
+   "blinded_document_id": "DOC_106A064A5F",
+   "rendered_sha256": "64e36f4f652bf747a16ba2554e6898e77fc4a1cdf0929877076f36bcefc50785",
+   "candidate_order": [
+    "B.4",
+    "A.2",
+    "B.2",
+    "A.3",
+    "C.3",
+    "C.2",
+    "A.1",
+    "C.1",
+    "B.3",
+    "B.1",
+    "D"
+   ],
+   "n_turns": 31,
+   "n_participants": 5,
+   "prompt_words": 7350
+  },
+  {
+   "blinded_document_id": "DOC_38E95A714D",
+   "rendered_sha256": "777226ec1364f6b330e428d5b3eb3a67e08714f5fa70257d6cbeb82bc351827f",
+   "candidate_order": [
+    "B.2",
+    "A.2",
+    "C.1",
+    "A.1",
+    "C.2",
+    "A.3",
+    "B.1",
+    "B.4",
+    "D",
+    "B.3",
+    "C.3"
+   ],
+   "n_turns": 29,
+   "n_participants": 4,
+   "prompt_words": 8400
+  },
+  {
+   "blinded_document_id": "DOC_5CABCEADAF",
+   "rendered_sha256": "ef83170524797c854951e992a3f9d1ba6b70e104aab4bc49c031bd0ceadd7007",
+   "candidate_order": [
+    "B.4",
+    "C.1",
+    "C.2",
+    "D",
+    "A.2",
+    "A.3",
+    "C.3",
+    "A.1",
+    "B.1",
+    "B.2",
+    "B.3"
+   ],
+   "n_turns": 32,
+   "n_participants": 5,
+   "prompt_words": 9083
+  },
+  {
+   "blinded_document_id": "DOC_5E7C5B45F7",
+   "rendered_sha256": "ccc54a4c702a7005b2bbefc34a6f46dbd3782e3d0c1fc652d44a591216ad1c36",
+   "candidate_order": [
+    "B.4",
+    "B.2",
+    "D",
+    "C.1",
+    "A.3",
+    "B.3",
+    "C.2",
+    "C.3",
+    "A.1",
+    "B.1",
+    "A.2"
+   ],
+   "n_turns": 43,
+   "n_participants": 5,
+   "prompt_words": 10356
+  },
+  {
+   "blinded_document_id": "DOC_5E8E19FE05",
+   "rendered_sha256": "a6b8617ff9de7dd924dd2c851f48414608effea083f5a6899967e3e555bc9847",
+   "candidate_order": [
+    "B.2",
+    "B.3",
+    "A.1",
+    "A.3",
+    "B.1",
+    "C.1",
+    "A.2",
+    "C.2",
+    "D",
+    "B.4",
+    "C.3"
+   ],
+   "n_turns": 128,
+   "n_participants": 4,
+   "prompt_words": 7085
+  },
+  {
+   "blinded_document_id": "DOC_62191FF7A9",
+   "rendered_sha256": "70a1a35c08a1054f2c79793a5cce541807da72edfceb93240a55a24c51d81f42",
+   "candidate_order": [
+    "C.2",
+    "B.1",
+    "B.3",
+    "A.3",
+    "B.4",
+    "A.1",
+    "D",
+    "C.3",
+    "B.2",
+    "C.1",
+    "A.2"
+   ],
+   "n_turns": 30,
+   "n_participants": 5,
+   "prompt_words": 6606
+  },
+  {
+   "blinded_document_id": "DOC_7360E12D6B",
+   "rendered_sha256": "285ba12325bdde0c5312b42cd5aff730b877f97a494204c9b850f55d96aae9bf",
+   "candidate_order": [
+    "C.1",
+    "B.2",
+    "A.1",
+    "D",
+    "C.3",
+    "B.3",
+    "A.2",
+    "A.3",
+    "C.2",
+    "B.1",
+    "B.4"
+   ],
+   "n_turns": 25,
+   "n_participants": 5,
+   "prompt_words": 6635
+  },
+  {
+   "blinded_document_id": "DOC_7CB3BED8F8",
+   "rendered_sha256": "c0bc70578fb1186bae75c399bb705ed7faf967d71a7677891df3333065fd9902",
+   "candidate_order": [
+    "C.3",
+    "B.4",
+    "A.1",
+    "C.2",
+    "A.3",
+    "B.3",
+    "C.1",
+    "A.2",
+    "B.1",
+    "B.2",
+    "D"
+   ],
+   "n_turns": 33,
+   "n_participants": 5,
+   "prompt_words": 8308
+  },
+  {
+   "blinded_document_id": "DOC_87E9A953B6",
+   "rendered_sha256": "1dc27be41befdfdc3cf320fb9745d457a438a602f86e1fd68e0796876d991973",
+   "candidate_order": [
+    "B.3",
+    "C.3",
+    "A.2",
+    "D",
+    "A.1",
+    "B.2",
+    "A.3",
+    "C.2",
+    "B.1",
+    "B.4",
+    "C.1"
+   ],
+   "n_turns": 64,
+   "n_participants": 5,
+   "prompt_words": 3378
+  },
+  {
+   "blinded_document_id": "DOC_C71426C1B1",
+   "rendered_sha256": "493e6893bcc90ce2370edfccc620a927b2a0840793bbfadc790cb7ff575143da",
+   "candidate_order": [
+    "B.2",
+    "A.3",
+    "D",
+    "B.4",
+    "A.2",
+    "A.1",
+    "C.1",
+    "B.3",
+    "C.3",
+    "C.2",
+    "B.1"
+   ],
+   "n_turns": 33,
+   "n_participants": 5,
+   "prompt_words": 3363
+  },
+  {
+   "blinded_document_id": "DOC_DB7286F644",
+   "rendered_sha256": "2c8a53f760e0dce20199267d4fd919b90cf6f25009251a25878c9028afdb83ae",
+   "candidate_order": [
+    "A.2",
+    "C.2",
+    "D",
+    "B.1",
+    "B.3",
+    "C.3",
+    "C.1",
+    "A.1",
+    "A.3",
+    "B.2",
+    "B.4"
+   ],
+   "n_turns": 52,
+   "n_participants": 5,
+   "prompt_words": 15615
+  },
+  {
+   "blinded_document_id": "DOC_DC66FA1DAE",
+   "rendered_sha256": "888470df4ba3dee3f89531333e58f9584e1b7fb9271e54dbec96ca45105c5b18",
+   "candidate_order": [
+    "B.1",
+    "C.2",
+    "A.2",
+    "B.4",
+    "B.3",
+    "C.1",
+    "B.2",
+    "D",
+    "A.1",
+    "A.3",
+    "C.3"
+   ],
+   "n_turns": 44,
+   "n_participants": 3,
+   "prompt_words": 3862
+  }
+ ]
+}

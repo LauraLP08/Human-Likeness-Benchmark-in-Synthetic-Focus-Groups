@@ -1,0 +1,134 @@
+# The general research aim is retained in the top-level description and moderator_knowledge_brief.
+# This avoids giving the moderator inferred analytical framing at the question level.
+
+# Phase-name mapping convention for Krueger-format guides
+# (discovered when porting guides to the system's SectionPhase enum):
+#
+#   Krueger term     → system SectionPhase value
+#   ─────────────────────────────────────────────
+#   opening          → intro
+#   introductory     → context
+#   transition       → context
+#   key              → main_topic
+#   stimulus task    → stimulus
+#   ending / closing → closing
+#
+# Future guides adapted from Krueger-format interview schedules should
+# follow this mapping. The enum values are defined in core/session_state.py.
+
+guide_id: mindfulness_self_administered_intervention
+
+title: "Self-administered online mindfulness intervention for stress reduction"
+description: |
+  Focus group guide exploring how to formulate a brief, accessible,
+  self-administered online mindfulness intervention for individuals
+  interested in meditation but constrained by limited time and financial
+  resources and seeking stress relief. The proposed intervention is
+  intended to be fully online, use audio tracks for mindfulness exercises,
+  and require a shorter time commitment than traditional 8-week
+  Mindfulness-Based Stress Reduction (MBSR) courses.
+
+topic_domain: "Self-administered online mindfulness intervention, stress reduction, and sham meditation control"
+participant_collective_identity: "Certified mindfulness instructors with between 7 and 15 years of professional experience"
+
+moderator_knowledge_brief: |
+  Explore how to design an online, self-administered mindfulness
+  intervention for the general population experiencing medium to high
+  stress levels while facing time and financial constraints. The discussion
+  should cover adaptation from traditional mindfulness or MBSR-based
+  approaches, key mindfulness components, online delivery, session
+  frequency and duration, audio track structure, participant motivation,
+  and the design of a credible sham meditation control condition.
+
+  Participants are certified mindfulness instructors with between 7 and 15
+  years of professional experience.
+
+  The moderator should keep the discussion exploratory and non-leading. Use
+  the scripted questions as the spine of the session, but listen actively and
+  briefly synthesize participants' contributions when helpful to validate
+  understanding, connect related points, or transition to the next topic. Do
+  not turn participant-generated ideas into pre-planned probes unless those
+  ideas emerge naturally during the live discussion.
+
+sections:
+  - label: "Introduction and instructions"
+    phase: "intro"
+    scripted_question: |
+      Thank you very much for taking the time to participate in this focus
+      group. Today we will discuss how to create an effective
+      self-administered mindfulness intervention for people who are facing
+      time and financial constraints and are seeking stress relief. The idea
+      is to design an intervention that is practical, impactful, accessible,
+      and suitable for people experiencing medium to high levels of stress.
+
+      We will discuss key components for stress reduction, as well as the
+      duration and frequency of the audio mindfulness tracks that may be part
+      of this intervention. If we have time, we will also discuss how to
+      create a balanced control group for the research that matches the
+      mindfulness intervention.
+
+      Please feel free to share your thoughts openly. There are no right or
+      wrong answers. You may not need to answer every question; please answer
+      the questions you feel able to respond to. I will moderate the session,
+      but I will not provide my own answers to these questions.
+
+  - label: "Online adaptation and key mindfulness components"
+    phase: "main_topic"
+    scripted_question: |
+      1. How can we effectively adapt traditional mindfulness practices from
+      MBSR to an online format while ensuring their efficacy? Note that it
+      does not have to be necessarily an adapted version of MBSR; it must be
+      an intervention that can be self-administered and is functional to
+      reduce stress levels of participants.
+
+      2. Can we design a mindfulness protocol centered solely on key
+      mindfulness components, for example acceptance, to maximize impact on
+      stress regulation? Which components should take precedence?
+
+      3. What elements are crucial for the success of an online mindfulness
+      training if we consider stress reduction as the main outcome of the
+      intervention?
+    suggested_probes:
+      - "Would you keep the whole structure of a traditional MBSR protocol in a condensed form, or would you select only some contents?"
+
+  - label: "Frequency, duration, and content"
+    phase: "main_topic"
+    scripted_question: |
+      1. What is the optimal duration and frequency for each online
+      mindfulness session to balance effectiveness and practicality for our
+      target audience of stressed individuals with time constraints?
+
+      2. How should each mindfulness track be structured? Consider an
+      introductory segment, for example providing an overview of mindfulness
+      and/or presenting an attitude like nonjudging, followed by a
+      mindfulness exercise.
+
+      3. How can we motivate participants to integrate mindfulness into their
+      daily routines, considering their time and resource constraints?
+    suggested_probes:
+      - "Should participants meditate every day, or would it be better to practise three times a week?"
+      - "Would the track be entirely the mindfulness exercise, or would it also include a psychoeducational part at the beginning?"
+
+  - label: "Control group and sham meditation"
+    phase: "main_topic"
+    scripted_question: |
+      To establish a balanced control group, that is, a sham meditation
+      condition, it is necessary to create a control condition where
+      individuals believe they are engaging in meditation, yet the components
+      of mindfulness are absent.
+
+      Developing a sham meditation track involves creating an audio session
+      that mimics the appearance of a genuine mindfulness exercise. It should
+      have a comparable word count and comparable instructions to maintain
+      balance with the mindfulness condition, while strategically omitting key
+      mindfulness elements. This sham meditation should convincingly simulate
+      the meditation experience, allowing for a rigorous comparative analysis.
+
+      How would you structure this sham meditation intervention?
+
+  - label: "Closing remarks"
+    phase: "closing"
+    scripted_question: |
+      Thank you very much for participating today. Before we finish, is
+      there anything else you would like to add about the design of the
+      mindfulness intervention, the audio tracks, or the control condition?

@@ -1,0 +1,253 @@
+{
+ "regression_ok": true,
+ "regression_checks": [
+  {
+   "claim": "demoonly FG4 scores zero of six codes, three times running",
+   "source": "pre-registro §2.1",
+   "observed": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "holds": true
+  },
+  {
+   "claim": "FG4 human denominator is 6 (one code = 0.1667)",
+   "source": "pre-registro §2.1",
+   "observed": 6,
+   "holds": true
+  },
+  {
+   "claim": "FG3 human denominator is 10",
+   "source": "derived from the same corpus",
+   "observed": 10,
+   "holds": true
+  },
+  {
+   "claim": "FG3 enriched separates from demoonly with no overlap across replicates",
+   "source": "pre-registro §2.1",
+   "observed": {
+    "enriched": [
+     0.4,
+     0.3,
+     0.4
+    ],
+    "demoonly": [
+     0.1,
+     0.1,
+     0.1
+    ]
+   },
+   "holds": true
+  }
+ ],
+ "equidistance_band_preregistered": 0.01,
+ "primary_fg": "fg3",
+ "table": {
+  "fg3": {
+   "human_codes": 10,
+   "conditions": {
+    "enriched": {
+     "per_replicate": [
+      {
+       "replicate": 1,
+       "run": "macho_meals_fg3_run01",
+       "recall": 0.4,
+       "precision": 1.0,
+       "f1": 0.5714
+      },
+      {
+       "replicate": 2,
+       "run": "macho_meals_fg3_run02",
+       "recall": 0.3,
+       "precision": 1.0,
+       "f1": 0.4615
+      },
+      {
+       "replicate": 3,
+       "run": "macho_meals_fg3_run03",
+       "recall": 0.4,
+       "precision": 1.0,
+       "f1": 0.5714
+      }
+     ],
+     "mean_recall": 0.3667,
+     "mean_precision": 1.0
+    },
+    "demographics-only": {
+     "per_replicate": [
+      {
+       "replicate": 1,
+       "run": "macho_meals_fg3_demoonly_run01",
+       "recall": 0.1,
+       "precision": 1.0,
+       "f1": 0.1818
+      },
+      {
+       "replicate": 2,
+       "run": "macho_meals_fg3_demoonly_run02",
+       "recall": 0.1,
+       "precision": 1.0,
+       "f1": 0.1818
+      },
+      {
+       "replicate": 3,
+       "run": "macho_meals_fg3_demoonly_run03",
+       "recall": 0.1,
+       "precision": 1.0,
+       "f1": 0.1818
+      }
+     ],
+     "mean_recall": 0.1,
+     "mean_precision": 1.0
+    },
+    "twinpop": {
+     "per_replicate": [
+      {
+       "replicate": 1,
+       "run": "macho_meals_fg3_twinpop_run01",
+       "recall": 0.4,
+       "precision": 1.0,
+       "f1": 0.5714
+      },
+      {
+       "replicate": 2,
+       "run": "macho_meals_fg3_twinpop_run02",
+       "recall": 0.3,
+       "precision": 1.0,
+       "f1": 0.4615
+      },
+      {
+       "replicate": 3,
+       "run": "macho_meals_fg3_twinpop_run04",
+       "recall": 0.3,
+       "precision": 1.0,
+       "f1": 0.4615
+      }
+     ],
+     "mean_recall": 0.3333,
+     "mean_precision": 1.0
+    }
+   }
+  },
+  "fg4": {
+   "human_codes": 6,
+   "conditions": {
+    "enriched": {
+     "per_replicate": [
+      {
+       "replicate": 1,
+       "run": "macho_meals_fg4_run01",
+       "recall": 0.1667,
+       "precision": 0.3333,
+       "f1": 0.2222
+      },
+      {
+       "replicate": 2,
+       "run": "macho_meals_fg4_run04",
+       "recall": 0.5,
+       "precision": 0.6,
+       "f1": 0.5455
+      },
+      {
+       "replicate": 3,
+       "run": "macho_meals_fg4_run03",
+       "recall": 0.1667,
+       "precision": 0.3333,
+       "f1": 0.2222
+      }
+     ],
+     "mean_recall": 0.2778,
+     "mean_precision": 0.4222
+    },
+    "demographics-only": {
+     "per_replicate": [
+      {
+       "replicate": 1,
+       "run": "macho_meals_fg4_demoonly_run01",
+       "recall": 0.0,
+       "precision": 0.0,
+       "f1": 0.0
+      },
+      {
+       "replicate": 2,
+       "run": "macho_meals_fg4_demoonly_run02",
+       "recall": 0.0,
+       "precision": 0.0,
+       "f1": 0.0
+      },
+      {
+       "replicate": 3,
+       "run": "macho_meals_fg4_demoonly_run03",
+       "recall": 0.0,
+       "precision": 0.0,
+       "f1": 0.0
+      }
+     ],
+     "mean_recall": 0.0,
+     "mean_precision": 0.0
+    },
+    "twinpop": {
+     "per_replicate": [
+      {
+       "replicate": 1,
+       "run": "macho_meals_fg4_twinpop_run01",
+       "recall": 0.0,
+       "precision": 0.0,
+       "f1": 0.0
+      },
+      {
+       "replicate": 2,
+       "run": "macho_meals_fg4_twinpop_run02",
+       "recall": 0.1667,
+       "precision": 0.3333,
+       "f1": 0.2222
+      },
+      {
+       "replicate": 3,
+       "run": "macho_meals_fg4_twinpop_run03",
+       "recall": 0.1667,
+       "precision": 0.3333,
+       "f1": 0.2222
+      }
+     ],
+     "mean_recall": 0.1111,
+     "mean_precision": 0.2222
+    }
+   }
+  }
+ },
+ "p1_by_fg": {
+  "fg3": {
+   "mean_full": 0.3667,
+   "mean_demoonly": 0.1,
+   "mean_twinpop": 0.3333,
+   "distance_to_full": 0.0333,
+   "distance_to_demoonly": 0.2333,
+   "equidistance_band": 0.01,
+   "explicit_falsifier_twinpop_reaches_or_exceeds_full": false,
+   "verdict": "P1_REFUTED_twinpop_closer_to_full"
+  },
+  "fg4": {
+   "mean_full": 0.2778,
+   "mean_demoonly": 0.0,
+   "mean_twinpop": 0.1111,
+   "distance_to_full": 0.1667,
+   "distance_to_demoonly": 0.1111,
+   "equidistance_band": 0.01,
+   "explicit_falsifier_twinpop_reaches_or_exceeds_full": false,
+   "verdict": "P1_SUPPORTED_twinpop_closer_to_demoonly"
+  }
+ },
+ "p1_primary": {
+  "mean_full": 0.3667,
+  "mean_demoonly": 0.1,
+  "mean_twinpop": 0.3333,
+  "distance_to_full": 0.0333,
+  "distance_to_demoonly": 0.2333,
+  "equidistance_band": 0.01,
+  "explicit_falsifier_twinpop_reaches_or_exceeds_full": false,
+  "verdict": "P1_REFUTED_twinpop_closer_to_full"
+ },
+ "fg4_is_floor_test_only": "El pre-registro asigna a FG4 lectura de SUELO (cero vs no-cero), sin lectura de tamaño. Su veredicto P1 se registra pero no decide."
+}

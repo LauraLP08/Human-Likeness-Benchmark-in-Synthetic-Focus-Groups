@@ -1,0 +1,585 @@
+{
+  "_provenance": {
+    "derived_by": "scripts/build_comparable_window.py",
+    "generated_utc": "2026-07-30T14:33:37.039292+00:00",
+    "source_transcript": "output\\session_logs\\macho_meals_fg3_demoonly_run03\\transcript.json",
+    "source_transcript_sha256": "905b3f213dccc2cfba90ba6399a751f35f8bb3dd5ccf263abd7e9784889dfd32",
+    "window": "q1_ask_to_end_of_last_substantive_section",
+    "excluded": "all material before the Question-1 ask, and the closing section",
+    "boundary_method": "Section structure from moderator_log.section_transition, cross-checked against state_turn_*.json current_section_index. Sub-entry Question-1 offset by ANCHOR-AND-EXTEND: anchor on the latest sentence-aligned suffix of the boundary entry that still poses Question 1 (the minimal ask), then extend backward one sentence at a time only across sentences that are residue-free AND positively identified as part of the ask (carrying a Q1-distinctive token, or being an ask lead-in / short discourse connective); stop at the first sentence failing either test. Residue classes excluded: participant name, moderator self-introduction, welcome, instruction/confidentiality text, presentation summary. Because the boundary only ever moves earlier over text positively identified as part of the ask, residue is excluded by construction rather than by enumeration.",
+    "boundary_algorithm": "anchor_and_extend_v1",
+    "source_entry_index": 9,
+    "source_entry_turn": 7,
+    "source_character_start": 110,
+    "original_boundary_entry_sha256": "2b6ffeb576c4c63a635b9bb7cb4c27bea2de9c28bc9f4dbf6fd0c8edd20b4a1e",
+    "retained_boundary_text_sha256": "db286df81ab094c7f5eb94cc39f6d8971cc821c0e98cea2bc171e0e4a699a215",
+    "boundary_review_status": "AUTO_TRIMMED",
+    "boundary_review_note": "anchored on minimal Q1 ask at char 132, extended back 1 sentence(s) to char 110; dropped 110 leading chars (22 words) carrying: participant_name(Nick); welcome; presentation_summary_propernouns(Great,Nick); presentation_summary(spread)",
+    "first_source_entry_index": 9,
+    "last_source_entry_index": 78,
+    "boundary_text_is_verbatim_slice": true,
+    "note": "Derived view. The source transcript is unmodified. The first entry's content is a verbatim character slice of the source entry from source_character_start onward - never paraphrased, normalised, reconstructed, or replaced with the guide's scripted question. Human transcripts need no equivalent window: they already begin at Question 1 and contain no introduction or closing section."
+  },
+  "transcript": [
+    {
+      "turn": 7,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Right, let's move on. I want to ask you all about where you actually spend time with your male friends — like, if you think of your own city or town, is there a place you'd go back to again and again with the lads? What is it about that place?",
+      "timestamp": "2026-07-30T00:01:18.829155+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, there's a couple of spots I go back to regularly, actually. There's this pub not far from me — been going there for years now. It's nothing fancy, right, but that's sort of the point. You get the same faces most weekends, people you've known for ages, and the staff know what you drink. You can sit there and actually have a proper conversation without feeling like you need to order something every five minutes or like you're taking up space. \n\nThere's a kind of... I dunno, an understanding there. You're not performing, if that makes sense. You're just having a chat with people you know. The atmosphere's relaxed. It's not trying to be trendy or anything — it's just a working men's pub really, but that's what makes it work. Everyone's in the same boat, you know? Similar age, similar lives, kids, work stress, all that stuff.\n\nAnd then there's a cafe I'll pop into now and then during the day, bit more casual than the pub, but again it's the regulars thing. You see the same owner, same other people coming in, and there's just this kind of rhythm to it. You're not rushed. That matters, I think — you've got time to actually sit and talk rather than feeling like you need to get somewhere.",
+      "timestamp": "2026-07-30T00:01:52.051515+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah, I hear what you're saying, John. That regulars thing — that's what I'm missing a bit, to be honest. I mean, we've got a local pub near us, and it's alright, but it's not the same as what you're describing. There's people in there, but it's not... you don't get that rhythm, you know? It's more transient. You'll see someone one week and then they're gone, different faces all the time.\n\nI think it's just harder where I am. Everyone's commuting in, commuting out. People move for work, they're not staying put. When we first moved here fifteen years ago I thought we'd settle in properly, get to know people, but it just hasn't worked out that way. You get busy with work, the kids, and then suddenly you realize you've never built up that thing where you're a regular anywhere really.\n\nThere's a golf club I go to sometimes, and that's probably the closest I've got to what you mean — there's familiar faces, people you see regularly. But it costs money, so it's not the same as just popping down the pub like you're doing. And it's a bit more... structured, isn't it. Less just sitting and chatting.",
+      "timestamp": "2026-07-30T00:02:19.452663+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, I think you've hit on something there, Andrew. That transience thing — it's harder to build those regular spots when people are just moving through, aren't they? You need a bit of stability for it to work, I reckon.\n\nI suppose I've been lucky in that respect. I've been where I am long enough that it's just become part of the fabric, you know? I'm not saying it's better or anything, just... different. The pub's there, the people are there, and it's almost like it requires no effort now because it's just what you do on a Saturday. But I can see how that doesn't happen if you're in a place where everyone's transient.\n\nThe golf club thing though — at least you're getting some of that regular contact with people, even if it's different. I mean, it's still faces you see week in, week out. That's something. But I get what you mean about it being more structured and costing money. It's not the same as just wandering down the local and being part of the crowd.\n\nIt does seem harder to do it naturally in a commuter area like yours, to be honest. Everyone's spread so thin with work and everything, and if people aren't staying put... yeah, that's tough.",
+      "timestamp": "2026-07-30T00:02:53.477907+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Right, yeah. But I wonder if I've just... given up on it a bit, if I'm honest. Like, the golf club — I actually had to join that, pay the membership, make the decision to go regularly. It didn't just happen. So maybe I've been waiting for the pub thing to work itself out when it actually needs the same kind of effort, you know?\n\nBecause you're right, John, that it's harder in a commuter area. But I think I've used that as an excuse maybe. Like, oh well, everyone's transient so there's no point trying to become a regular anywhere. But you've gone to that pub for years, built it up — that takes repeated effort, doesn't it? Just showing up.\n\nI suppose the difference is you've had the stability to do that naturally over time, whereas I've kind of... I don't know, expected it to happen without actually committing to it. The golf club works because I made a choice to join and go. But with a pub you think, oh I'll just pop down when I feel like it, and then you don't because it's not automatic yet.\n\nMaybe that's the thing I'm missing — just deciding to actually be a regular somewhere instead of waiting for it to feel like home first.",
+      "timestamp": "2026-07-30T00:03:24.159688+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Paul, Daniel — we've heard a bit from John and Andrew about their spots. What about you two — is there somewhere you tend to go with your mates, or something that works for you?",
+      "timestamp": "2026-07-30T00:03:24.160105+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Honestly, I'm in a bit of the same boat as Andrew, I think. I've got a couple of pubs I'll go to, but I wouldn't say I'm really a regular anywhere in that way John is describing. And yeah, part of it is the commuter thing — I'm knackered when I get home most days, especially if the trains have been a nightmare, and by the time you've dealt with the family and everything, the last thing you want to do is organize going out somewhere.\n\nBut I think Andrew's actually onto something there about just deciding to commit to it. I mean, I could probably make more of an effort. There's a pub literally ten minutes from my house I quite like — decent enough place, decent people in there — and I could just... go more regularly, couldn't I? Just make it a thing instead of saying I'll pop down when I get a chance and then never quite doing it.\n\nThe difference with John I suppose is he's built that up over years, so it's just automatic now. But you're right that it needs the initial push. I think for us in the commuter belt it's just harder to get that momentum going because life's so fractured anyway — you're commuting out, you're commuting back, and then you're just tired.\n\nThat said, I do see some of the lads from work quite a bit. We'll grab a pint after work sometimes, but that's different, isn't it? That's more... convenient, because you're already out. Not the same as having your local spot where you've actually built something.",
+      "timestamp": "2026-07-30T00:03:46.037204+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Nick, what about you — is there somewhere you tend to go with your mates, or does it work differently for you?",
+      "timestamp": "2026-07-30T00:03:46.038404+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, I've got a couple of places I go to regularly, actually. There's a pub near me that I'll go to most Friday nights if I can — been doing that for a good few years now. Same sort of thing John's talking about, really. You get the regulars in there, you know what you're getting, staff know you. It's not fancy, just a decent local where you can have a chat.\n\nI think the difference for me up North is maybe it's a bit easier to establish that, I dunno, without all the commuter stuff in the way. Like, I'm not exhausted from a two-hour train journey or anything, so by the time Friday comes round I've still got some energy to actually go out and be social. Whereas listening to you lot, it sounds like by the time you get home you're just drained.\n\nThat said, I'm not immune to the work thing. Some weeks I'm too knackered to be bothered, or something comes up with the family. So it's not like it just happens automatically for me either. But yeah, I've managed to stick with it because it's close by and it's just become part of what I do.\n\nPaul, I reckon you're right though — it does need that initial commitment. You've got to actually decide to go and build the habit. It doesn't just materialize.",
+      "timestamp": "2026-07-30T00:04:08.899271+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Good stuff. So there's a real range there — from John having that pub almost baked into his routine, to Andrew and Paul finding it harder to get the momentum going, to Nick having something similar to John's setup but having to consciously stick at it. Interesting that the effort question keeps coming up — whether it just happens or whether you have to decide to make it happen.\n\nLet's shift gears a bit. I want to talk about food — more specifically, how you lot actually decide what to eat day to day. Not a grand theory about diet, just — how does it actually work? What's going into the decision when you're thinking about what to have?",
+      "timestamp": "2026-07-30T00:04:08.900766+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, honestly? By the end of a long commute day, it's just... whatever requires the least thinking, really. I mean, I'll come home knackered from getting the train back, and my wife's usually got the kids sorted or doing homework or something, and the last thing either of us has got energy for is standing in the kitchen trying to figure out what we're going to cook.\n\nSo a lot of the time it's just — what's easy? Pasta, beans on toast, something we can throw together in twenty minutes. Or if it's been a particularly bad day with the trains, we'll just order a takeaway because you're too tired to even do that. And then you feel a bit guilty about it, but you know what, you've had a shit day and you need to just get food in people.\n\nIt's not like we sit down and think, right, we need a balanced meal. It's more like — what can we physically do given that we're all wrecked? The decision-making's already exhausted by the time you get home, if I'm honest. You've had to make decisions all day, deal with delays, figure out plans that didn't work out, and then you come back and you've just got no bandwidth left for it.\n\nMy wife and I have definitely said that to each other — on the days when the commute's been fine, we're a bit more inclined to actually cook something. So yeah, it does all link up, doesn't it.",
+      "timestamp": "2026-07-30T00:04:43.083008+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah, that's exactly it, Daniel. That decision fatigue thing — it's real. You've made a hundred decisions before you even get on the train, and by the time you're home you've just got nothing left in the tank.\n\nWhat strikes me though is how it all feeds into each other, you know? The commute knackers you out, so you can't be bothered cooking, so you end up getting a takeaway or something quick, which costs more money. And then that's money you weren't expecting to spend, so you feel a bit guilty about it. And then the next week you're thinking, right, I should plan better, cook more, save money — but then Tuesday comes around and the trains are delayed again, and you're back in the same situation.\n\nIt's like you're always in reactive mode. You're not really deciding what you eat based on what's healthy or what you actually want — you're deciding based on how knackered you are, which changes day to day depending on whether the trains decide to work. So there's no routine to it, no real plan you can stick to. It's all just... whatever happens that day.\n\nAnd I think that's the thing that gets to you more than just being tired. It's that you can't actually plan anything properly. You can't commit to cooking on Tuesday because you might be stranded at the station for an hour. You can't say, right, this week we're eating well, because you don't know what kind of state you'll be in when you get home.\n\nThat's the bit that winds me up more than just the exhaustion, if I'm honest.",
+      "timestamp": "2026-07-30T00:05:15.004331+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, but I think there's something else in there too, Paul. It's not just that we're stuck in reactive mode — it's that we've kind of given up on trying to plan in the first place, haven't we?\n\nBecause my wife and I, we used to sit down on a Sunday and plan the week's meals, you know? We'd think, right, Monday we'll do this, Tuesday that. But after a while of it just getting torn apart because I'm home late, or I'm exhausted, or the plans change — you just stop bothering. You stop even trying to make a plan because you know it won't stick.\n\nAnd that's actually worse in a way, because it's not like we're struggling against something. We've just... accepted it. We've gone, well, there's no point in planning because the trains will mess it up anyway. So we don't even attempt it now. We just live week to week, meal to meal.\n\nIt sounds like the same thing — reactive mode — but it feels different to me. Like, we're not trying and failing. We're just not trying. And I'm not sure that's better, actually. Because at least if you're trying you might occasionally get it right. But if you've stopped trying altogether... I don't know. That feels like you've kind of given up a bit.",
+      "timestamp": "2026-07-30T00:05:47.422384+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah, no, that's... that's a different thing, isn't it. You're right. There's a difference between struggling against something and just accepting defeat before you even start.\n\nI mean, I do the same thing. I've kind of stopped trying to think about the week ahead in any kind of structured way because I know it'll just fall apart. But hearing you say it like that — \"we're just not trying\" — that hits different. Because you're right, it's worse. At least if you're fighting it you've got some sense that you're trying to do better or keep some kind of control. But when you've just given up on planning altogether, you're kind of... letting it win by default, aren't you?\n\nI don't know. Maybe I'm overthinking it, but it does feel like something's shifted when you stop even attempting to plan. Like, you've accepted that the commute owns your evening, owns your week. You're not even going through the motions of trying anymore.\n\nThe thing is though, I'm not sure what the alternative is. Because the planning does fail, doesn't it? So is it actually better to keep trying and failing, or is accepting it at least... I dunno, more honest? Less frustrating?\n\nBut you've put your finger on something there. There's a passivity to it that's a bit depressing when you really think about it.",
+      "timestamp": "2026-07-30T00:06:20.758935+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That question Paul's landed on — whether it's actually better to keep trying or just accept it — does that resonate with how any of you think about it? Andrew, John — what's your experience like?",
+      "timestamp": "2026-07-30T00:06:20.759591+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "I think — I mean, this is hitting home a bit for me actually, because I've done exactly what Daniel's describing. We used to plan the week out, my wife and I. Sunday evening, we'd sit down with the calendar, think about what we'd cook. And then gradually you just... stop. Because it doesn't work out.\n\nBut here's the thing — and I'm only realizing this now listening to you lot — I think I've been doing the same with other stuff too, not just food. Like, I mentioned the pub earlier, how I haven't really committed to being a regular anywhere. That's the same pattern, isn't it? I've kind of given up on the idea that I can build something because life's too chaotic.\n\nSo it's not really the trains or the commute that's the problem. Well, it is. But I think what's happening is we've accepted that nothing's reliable, so we've stopped trying to make anything stick. Even when it's not about the commute at all.\n\nBecause the golf club — that works because I made myself go, and I kept going, even though some weeks it would have been easier not to. And it's become a thing now. But with the pub, with the meal planning, I've just... accepted that it won't work so why bother.\n\nI'm not sure that's better. Paul's right — it's kind of depressing when you think about it. And it's not like the commute makes it impossible. It's more that you've let it become an excuse for giving up on anything that needs commitment.",
+      "timestamp": "2026-07-30T00:06:57.592590+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, but I think — and this is maybe different from what Andrew's saying — it's not just about willpower or deciding to commit. Because the golf club works, right, but it's separate from all the chaos. You pay your membership, you go on a Saturday, it's there waiting for you. It's external to the rest of your week.\n\nWhereas the meal planning or trying to be a regular at a pub — you're trying to impose order on top of everything else that's already falling apart. You come home shattered, you're trying to stick to a plan when nothing else in your day went to plan, and it just doesn't work. It's not the same as the golf club, which is... removed from it all somehow.\n\nWhat I mean is — the golf club doesn't depend on you being in a certain state of mind when you get home. It's just... Saturday, you go. It's got its own rhythm that's separate from the commute chaos. But cooking a particular meal on a Tuesday? That depends on you having energy and headspace on a Tuesday, and you might not have either.\n\nSo I'm not sure it's just about giving up or lacking commitment. I think it's that some things can exist outside the chaos and work, and some things can't. The golf club can. Your evening routine can't. At least, not in the same way.\n\nThat's why we've stopped trying with the meal planning, I reckon. Because we're trying to do it on top of everything else instead of... I dunno, finding something that's just separate from it all.",
+      "timestamp": "2026-07-30T00:07:33.079813+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "No, but that's what I'm saying though, Daniel — I think that's the excuse, isn't it? I mean, I hear what you're saying, but the golf club still requires me to commit to it on a Saturday when I could be doing loads of other things. I could be knackered. I could have had a bad week. But I go anyway because I decided it mattered.\n\nThe meal planning's the same thing. You're right that it's embedded in the evening, but that doesn't mean it can't work. It just means you have to decide it's worth doing even when you're tired. Which is harder, yeah — but is it actually impossible? Or have we just decided it's too hard so we're not going to bother?\n\nBecause listen, some weeks I'm shattered on a Saturday too. But I still go to the golf club because the membership's paid, it's in the diary, and I've made it a non-negotiable thing. I could do exactly that with the meal planning, couldn't I? Make it non-negotiable. Say, right, Sunday we plan, that's just what happens. But I haven't, because I've told myself it won't stick anyway.\n\nAnd I think that's the bit that's getting to me — we're not really saying the chaos makes it impossible. We're saying the chaos gives us permission to not try. Because if we tried and it didn't work, that would be on us. But if we don't try, we can just blame the commute.\n\nI might be wrong, but that's how it feels when I'm honest with myself.",
+      "timestamp": "2026-07-30T00:08:17.669110+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's a real disagreement here between Andrew and Daniel — whether it's about what can actually coexist with the chaos, or whether the chaos has just become the reason we stop trying. John, Nick — what do you make of that? Does either of those ring true for how you think about it?",
+      "timestamp": "2026-07-30T00:08:17.669656+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "I think... look, I hear what both of you are saying, but I reckon you're both kind of missing the actual thing that happens.\n\nIt's not that you conquer the chaos or that you decide to stop trying. It's that at some point you just — you stop expecting the week to be perfect before you'll show up to something, you know? You just go anyway, even when it's messy.\n\nLike, I go to that pub on a Saturday, but it's not because I've got some perfect routine sorted and the week went smoothly. Half the time my week's been a mess — work's been stressful, something with the kids didn't go right, whatever. But I go anyway because I'm not waiting for conditions to be perfect. I'm just going because I said I would, or because it's what I do.\n\nAnd I think that's different from what you're both describing. You're either saying, right, I'll commit to this no matter what — which is fine, but it takes this willpower thing — or you're saying the chaos makes it impossible. But the actual thing is just... you stop caring as much about whether conditions are right. You just do it because it matters, and the mess is just part of it.\n\nWith the food thing, same deal. We don't plan meticulously. But we also don't order a takeaway just because it's Wednesday and we're tired. We cook something, or we don't, but we're not in this constant negotiation with ourselves about whether we deserve to bother. We've just accepted that some nights it'll be easy and some nights it won't, and you show up anyway.\n\nThat's not willpower exactly. It's just... not expecting things to be ideal before you do them.",
+      "timestamp": "2026-07-30T00:08:53.876840+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Nick — you've been listening to all of this. Does any of it map onto how things work for you?",
+      "timestamp": "2026-07-30T00:08:53.878321+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "I mean, yeah, I hear what you're all saying. Honestly though, I think I'm a bit removed from some of this because I'm not dealing with the commute thing in the same way you lot are. That's doing a lot of work in this conversation, I reckon.\n\nBut on the food thing — I don't really plan the week out. My wife does a bit more of that than I do, if I'm honest. Most nights it's just... what's in the cupboard, what doesn't take too long. Some nights we'll cook something proper, other nights it's beans on toast or whatever. We're not exhausted from a train journey, so we've got a bit more energy to think about it, but I'm not sure we're doing anything that clever either.\n\nI think John's onto something there though — about not expecting it all to be perfect. Like, I'll go to the pub on a Friday even if the week's been rubbish. I don't wait for everything to be sorted first. But then again, I'm not knackered when I get home, so maybe that's easier for me to say.\n\nI suppose the difference is — and maybe this is the North West thing — but I don't feel like I'm constantly fighting against things falling apart. So there's less of that giving up before you even start. It's just... you do what you do, and some of it works and some of it doesn't, and that's fine.",
+      "timestamp": "2026-07-30T00:09:22.270551+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Thanks Nick — and yeah, that's a fair point, the commute has been doing a lot of work in this conversation. What's interesting is that even without it, you're landing in a similar place to John: you're not strategising too hard, you're just getting on with it. Whether you're fighting the chaos like Andrew's describing, or finding things that sit outside it like Daniel, or just not waiting for conditions to be right like John — everyone's found some version of the same answer, which is that planning only goes so far.\n\nLet's take all of that and go somewhere a bit different with it. One thing I want to get into is whether you think your gender — being a man — shapes any of this. What you eat, how you eat, what feels like a normal choice. Do you think it does?",
+      "timestamp": "2026-07-30T00:09:22.270991+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Hmm. Yeah, I mean... look, I think it probably does, doesn't it? Though I'm not sure I'd have said that before you asked.\n\nLike, with my wife — she's the one who's usually thinking about what we're eating, what we need to get in. I'll eat what's there, or I'll suggest something, but I'm not sitting down doing the planning like Daniel was talking about. She does more of that. And I've never really questioned whether that's just... how we've fallen into it, or whether there's something about being a bloke where you're just okay with someone else doing that invisible work.\n\nBecause listening to you lot, especially what Andrew and Daniel were saying about the meal planning — they're talking about it like it's something they should be doing, or something they've given up on doing. But for me, I just... I don't really do it anyway. My wife does. And I haven't felt particularly guilty about that or thought I should take it on more, if I'm honest.\n\nWhich is maybe the point, isn't it? I'm not wrestling with whether to commit to planning the week's meals because I've never really expected that to be my job. Whereas if I'd been brought up thinking that was my responsibility, maybe I'd be feeling the same frustration you lot are describing.\n\nSo yeah, I think it shapes it. I get to just show up and eat what's there, and that's fine. Someone else is doing the actual thinking.",
+      "timestamp": "2026-07-30T00:10:09.708638+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Nick, that's an interesting place to land — 'I've never really expected that to be my job.' Does that resonate with any of you, or does it land differently?",
+      "timestamp": "2026-07-30T00:10:09.709920+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, that does land differently for me, actually. I mean, Nick's right that I'm not doing the meal planning in the detailed way he's describing — my wife does more of that than I do. But I think I've been a bit more conscious about it than he's saying he is.\n\nLike, I do think about what we're eating. Not obsessively, but — I'll notice if we've ordered too many takeaways, I'll think, right, we should do something proper this week. My wife and I will chat about it. And I think there's a difference between that and just... never expecting it to be your concern at all.\n\nBut then — and I'm only realizing this now, listening to Nick say it — I've also got this easy out, haven't I? I can say, well, I've thought about it, but ultimately she's the one who remembers it's Tuesday and we need to cook something. And I'm... I don't know, I'm okay with that. I haven't felt like I should be the one doing the weekly planning. It's just not in my head the same way.\n\nSo I'm somewhere between what Nick's saying — where he's just not expected it to be his job — and what Andrew and Daniel were describing, where they're feeling guilty about not doing it. I'm not feeling guilty exactly, but I'm not totally absolved of it either. I'm kind of... aware that it's happening around me without me really questioning it properly.\n\nWhich maybe is the answer to the gender question, isn't it? We're all okay with how it's fallen out, even though we don't really think about why it's fallen out that way.",
+      "timestamp": "2026-07-30T00:10:46.200029+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, that's... that's fair actually. John's right. I think I was being a bit glib saying I've never expected it to be my job, like I'm just naturally unbothered by it all. But listening to him break it down like that — aware it's happening without really questioning it — that's more honest, I reckon.\n\nBecause it's not that I genuinely don't care or don't notice. I do notice when we've had takeaways three nights running, or when my wife's mentioning we should plan better. I just... I don't know, I don't take it on, do I? And I haven't really sat with why that is.\n\nJohn's put his finger on something there. We're all okay with how it's worked out, but that doesn't mean we've actually thought about it. We've just kind of slipped into it and gone, right, this is how it is. My wife does the thinking, I show up and eat it. And that's fine, except — I suppose it's not really fine, is it? It's just convenient. For me.\n\nI haven't felt guilty about it the way Andrew sounds like he does, but that might just mean I'm not paying close enough attention. Like John said — I'm aware it's happening but not questioning it properly. Which is a bit of a cop-out when you actually say it out loud.",
+      "timestamp": "2026-07-30T00:11:20.321550+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Look, I'm going to say something that might sound harsh, but I think we're doing something a bit dodgy here.\n\nWe're all sitting around saying, yeah, it's not really fine, it's just convenient, we're not questioning it properly — and that sounds like we're being really honest and self-aware, right? But I'm not sure we are. I think we're kind of performing awareness now instead of just... doing the thing or not doing it.\n\nLike, Nick's just said, yeah, it's a cop-out, I'm not paying close enough attention — and that sounds good, that sounds like he's getting it. But has anything actually changed? Or have we all just learned to talk about it in a way that sounds thoughtful?\n\nBecause I'm doing the same thing. I'm saying, oh yeah, I'm aware it's happening around me without questioning it — which makes me sound like I'm onto something. But the actual fact is, I'm still not doing the meal planning. I'm still okay with my wife being the one who thinks about that. And me saying it out loud in a thoughtful way doesn't change that, does it?\n\nI don't know what the answer is supposed to be here. I'm not saying we should all be 50/50 on everything or that it's necessarily wrong how it's fallen out. But I think there's a difference between actually thinking about something and just... learning to sound thoughtful about not thinking about it. And right now I'm not sure we're doing the first one. I think we're just getting better at the second.",
+      "timestamp": "2026-07-30T00:12:05.278943+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, but — I mean, he's not wrong, but I think that's a bit... I dunno, that's a bit unfair maybe?\n\nLike, John's saying we're just performing awareness, and yeah, fair enough, I can see that. I said the thing about it being a cop-out and it sounding good, and maybe that's what I was doing. But I don't think recognizing something is the same as pretending it doesn't matter just because you haven't immediately fixed it.\n\nI mean, what's the alternative? We're all meant to go home tonight and suddenly take over the meal planning? That's not realistic, is it? My wife's been doing it for years, we've got a rhythm that works for us — not perfectly, but it works. I'm not going to suddenly announce I'm taking it over just to prove I was listening in a focus group.\n\nBut that doesn't mean the conversation's pointless. I think... I don't know, maybe I am doing some of what John's saying. But I also think there's a difference between \"I'm going to perform awareness and nothing changes\" and \"I'm noticing something I hadn't really sat with before, even if I'm not about to overhaul my entire domestic setup tomorrow.\"\n\nThe bit that bugs me about what John's saying is — it's like he's saying the only thing that counts is if you change your behaviour. But sometimes you just notice something. That's... that's still something, isn't it? Even if you're still going to do the same thing next week.",
+      "timestamp": "2026-07-30T00:12:45.806787+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something real in the gap between what John's saying and what Nick's just said — whether noticing something counts, or whether it only counts if something changes. Andrew, Daniel, Paul — where does that land for you?",
+      "timestamp": "2026-07-30T00:12:45.808193+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "I'm going to come at this a different way, because listening to all this — John questioning whether we're just performing awareness, Nick saying that noticing counts even if nothing changes — I think you're both right, but I also think we're doing exactly what we've been talking about with the commute and the meal planning.\n\nWe're sitting here having a really thoughtful conversation about awareness and whether noticing matters, and it's all very... reasonable sounding. We're being reflective, we're unpacking it. And meanwhile, nothing's actually happening, is it?\n\nI mean, I came into this saying I've given up on being a regular at a pub. Daniel's been saying he doesn't even bother planning meals anymore. And now we're all talking about how we're not really questioning why that's fine, and whether noticing counts... but we're just talking about it. We're not doing anything about it.\n\nAnd I think that's the same pattern we've been describing the whole time — with the commute making us passive, with the meal planning falling apart so we stop trying. We've just brought it into this room. We're being passive about being passive, if that makes sense. We're noticing we're not questioning things, and then we're not questioning things about that either.\n\nI think John's got a point, but not the point he thinks he's got. It's not that noticing is pointless and we should all go home and change everything. It's that we're having this conversation and nobody's actually saying anything that feels real. We're all sounding thoughtful but we're kind of... just accepting the whole thing again. The passivity, the giving up — we're accepting that too, right now, in this room.",
+      "timestamp": "2026-07-30T00:13:33.529880+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Paul, that's a hard thing to say in a room where everyone's trying to sound thoughtful. Andrew, Daniel — you've both been quiet while this has been going on. Does what Paul's just described feel true from where you're sitting?",
+      "timestamp": "2026-07-30T00:13:33.530582+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah. I mean... yeah, it does, actually.\n\nAnd I think I've been doing it more than anyone, to be honest. I came in here talking about how I should commit to things, how the golf club works because I decide it matters, how I'm using the commute as an excuse not to try. And that sounded — it sounded good, didn't it? It sounded like I was onto something. But Paul's right. I haven't actually done anything differently. I've just learned to talk about my passivity in a way that sounds like I'm thinking about it.\n\nBecause here's the thing — I said earlier that I should commit to the pub like I do the golf club. And I meant that. But I haven't booked a table. I haven't decided on a night. I haven't done anything. I've just sat here saying it would be good if I did, which is just another version of not doing it, isn't it? It's the same passivity, just with better language around it.\n\nAnd the meal planning — I said my wife and I used to do it, and we stopped. And I've been blaming the commute, or saying I've given up, or talking about how I use excuses. But I haven't actually sat down with her and said, right, let's try this again, or let's do it differently. I've just accepted it's not going to work and then I've performed understanding about why it doesn't work.\n\nPaul's calling out that we're all doing that. And I recognize it because I'm doing it right now, in this conversation. I'm being self-aware about my own passivity, which somehow feels like enough. But it's not. It's just another layer of it.",
+      "timestamp": "2026-07-30T00:14:20.413497+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Daniel, you've been sitting with all of this — what's your read?",
+      "timestamp": "2026-07-30T00:14:20.414187+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "I think... look, I think Paul's right that we're being passive about being passive, but I'm not sure Andrew's right that it's all just performance and nothing means anything.\n\nBecause — and I mean this seriously — the reason I'm sitting here is because something Paul and Andrew said earlier actually landed differently than it would have a month ago. Like, when Andrew was talking about deciding what matters and committing to it, something shifted for me. Not because I've suddenly gone home and reorganized my whole life, but because I actually heard it differently than I would have before.\n\nAnd maybe that's pointless, maybe that's just me sounding thoughtful. But my wife and I, we had a conversation about the meal planning thing last week — not because of this group, just because we were talking about something else — and I actually... I said to her, look, maybe we're just accepting this too easily. And we didn't solve it or anything, but we're trying something different this week. One night a week, we've said we'll cook properly, no matter what kind of state I'm in when I get home.\n\nIt's not going to fix everything. It's not going to make the trains reliable or stop me being exhausted. But it's... it's something that's actually different from before, and it started from me noticing something.\n\nSo I don't think Paul's wrong about the passivity thing. But I also think — and maybe I'm defending myself here because Andrew just basically said I'm full of it — there's a difference between noticing nothing's going to change and noticing something might be different if you actually try it. Even if the trying is small.",
+      "timestamp": "2026-07-30T00:14:52.743659+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Right, yeah. Okay. I hear that, Daniel. That's... that's different.\n\nI think I was doing what I just accused everyone else of doing, wasn't I? I was so busy pointing out that we're all just talking about things that I didn't actually listen to what you were saying. You're not just noticing passivity — you're doing something with it. You and your wife had an actual conversation and you're trying something. That's not performance.\n\nAnd I think — I mean, I was right about the passivity thing, I still think that's real. But I also think I kind of... I dunno, I was performing my own version of it, wasn't I? Being the one who sees through all the self-aware talk, pointing out we're all just sitting here doing nothing. Which is its own thing, isn't it? Its own way of not actually engaging with what's happening.\n\nBecause you're not just being reflective about the passivity, Daniel. You're actually trying something. And that matters. Even if it's one night a week. Even if the trains are still going to be a nightmare and you'll still be exhausted some days.\n\nI think what got to me was the whole conversation starting to feel like we were all just... accepting that nothing could change. And then you're actually trying to change something, and I missed that because I was too busy making a point about how we're all just talking.\n\nThat's on me, to be honest.",
+      "timestamp": "2026-07-30T00:15:37.536041+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, thanks Paul. And I appreciate you saying that, because — look, I wasn't trying to defend myself or prove something. But you're right, I need to say this clearly: one night a week of me and my wife actually cooking together, that's not small. That matters to us. It's not solving the commute problem or making everything different, but it's different to us just accepting it's all too hard.\n\nBecause that one night — we actually sit down after the kids are in bed, we talk about what we're doing, we're not rushing. It's the first time in ages we've done that. And yeah, it's one night. But it's one night where we're not just... giving up before we start. We're actually trying something.\n\nAnd I think that's what I wanted to push back on when I said \"it's something that's actually different.\" I didn't mean it in a small way. I meant — this is what it looks like to stop accepting it. It's not revolutionary. It's just... one night a week where we decide it matters and we do it anyway.\n\nSo Paul, when you were saying we're all just performing awareness — I get it, that's real. But I also think there's a difference between noticing something in a room full of people and actually going home and trying it with your wife. And that second thing — that's not performance. That's just trying.",
+      "timestamp": "2026-07-30T00:16:20.671156+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah. I hear you. That's not small at all.\n\nAnd I think the thing that matters there is — you're not waiting for it to be perfect, are you? You're not saying, right, we'll do this when the commute gets better or when we're less tired or when everything's sorted. You're just doing it anyway. One night a week, you've decided it matters, and you're doing it.\n\nThat's the opposite of what we were talking about before, all the giving up. That's actually the thing John was trying to say earlier about not waiting for conditions to be right.\n\nI think what got under my skin about my own point was that I was still kind of... resigned about it all, even while I was calling out the resignation. Like, oh well, we're all stuck in this pattern, that's just how it is. But you're showing that it's not just how it is. You decided something different and you're doing it.\n\nI don't know. Maybe I need to actually do something like that instead of just... noticing I'm not doing anything. Because you're right, there's a real difference between those two things.",
+      "timestamp": "2026-07-30T00:17:00.469722+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something that's come through in what you've all been working through here — this gap between noticing something and actually doing something with it. Daniel's one night a week sits differently from the rest of it, and I think you've all felt why.\n\nLet me take us somewhere related. Imagine you decided to go plant-based — not permanently, just... you decided to try it. What would actually need to change for that to be possible? In your life, your routines, your relationships. What would it run into?",
+      "timestamp": "2026-07-30T00:17:00.470287+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "That's a... that's a harder question than it sounds, isn't it.\n\nI mean, the obvious thing is — my wife wouldn't be into it. She'd think it was a bit daft, probably. And fair enough, we've got a rhythm with food that kind of works, like Nick was saying. Changing that would mean having a conversation about it, and she'd have to be on board, and she's the one doing most of the thinking about meals anyway so...\n\nBut I'm doing it again, aren't I? I'm listing reasons why it wouldn't work before I've even thought about whether I actually want to do it.\n\nBecause if I'm being honest — and I think that's what we're supposed to be doing here — I don't know if I want to go plant-based. I haven't really thought about it. But the question isn't actually about whether I want to. It's about what would need to change if I did. And I think the real answer is... I'd have to actually commit to it. I'd have to decide it mattered and then do it anyway, even if it's inconvenient. Even if my wife thinks it's odd. Even if it means some meals are a bit more effort.\n\nLike what Daniel's doing with the one night a week. He didn't wait for perfect conditions. He just decided it was worth trying and then he did it with his wife.\n\nIf I wanted to go plant-based, I'd have to do the same thing. I'd have to actually have the conversation instead of just thinking it would be too complicated. And yeah, that would be uncomfortable. But that's kind of the point, isn't it? That's where the actual change is.",
+      "timestamp": "2026-07-30T00:17:48.274677+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "I think... I need to say something, and I'm not sure how to say it without sounding like I'm doing the same thing again.\n\nBut I've been sitting here talking about commitment and deciding what matters and all of that, and I haven't actually done any of it. I said I should go to the pub regularly, I should do the meal planning with my wife — and then I came in here and performed understanding about why I haven't done those things. And then I recognized I was performing, which sounded good. But I still haven't done anything.\n\nAnd listening to Daniel actually describe what he's doing — one night a week, he and his wife sitting down, deciding it matters and doing it anyway — that's different from what I'm doing. He's actually tried something. I've just talked about trying things.\n\nSo I don't know what I'm supposed to take from this conversation, but I know I need to actually do something instead of just sounding like I understand why I'm not doing it. Because that's the pattern, isn't it? And I've done it in here multiple times now.\n\nI haven't got the answer for the plant-based thing, or what I'm going to do differently. But I recognize I'm still in the bit where I'm just talking about it. And that's... I need to know the difference between that and actually trying.",
+      "timestamp": "2026-07-30T00:18:25.489218+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Andrew, I hear you saying that, and I think you're being honest. But I want to push back a bit on something.\n\nBecause the way you're framing it — like, you've just talked about things and I've actually done something — it sounds like the difference is just willpower, right? Like, you should have just decided and done it. But that's not quite what's happened for me.\n\nThe thing is, me and my wife — we didn't just decide one day that we'd cook together one night a week and suddenly it happened. There was friction. There was real friction. Like, we've both been tired, we've both got habits, and changing that takes... it's not easy. It's still not easy, to be honest.\n\nWhat's different isn't that I'm more committed than you are. It's that we actually ran into the friction and kept going anyway. We had the conversation, yeah, but then we tried it and some nights it was shit because we were exhausted and we half-arsed it. And some nights it's worked. But we're still in the middle of it, we're still figuring it out.\n\nSo when you're listening to me and thinking, right, I need to just decide and do that — I think that's missing what actually happened. It's not about deciding harder. It's about being willing to run into the friction and not give up when it's uncomfortable or when it doesn't work the first few times.\n\nThat's the bit I think matters, not the commitment part. It's the friction part.",
+      "timestamp": "2026-07-30T00:19:03.434575+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah. That's... that actually changes what you said.\n\nBecause I was hearing it like, oh, you just committed and did it, and I need to be more committed. But you're saying it's messy and sometimes it doesn't work and you're still doing it anyway. That's different.\n\nAnd I think I've been avoiding that bit, if I'm honest. Because the commitment part sounds good — you know, decide what matters and stick to it. But the friction part is... that's where you actually find out if you mean it, isn't it? Because commitment's easy to talk about. But sitting down with your wife and trying to cook and you're both knackered and it's awkward and it's not working — that's the part where you actually have to care enough to keep going.\n\nI haven't been willing to do that. I've been thinking about it in theory, which is safe. But actually having the conversation with my wife about the meal planning, and then trying it, and then having it be difficult — that's... yeah, I've been avoiding that.\n\nBecause if I do that and it doesn't work, then I can't tell myself it's just the circumstances or the commute or that I wasn't ready. It would just be that I tried and it was hard and I didn't keep going. That's a different kind of failure than just not trying at all.\n\nSo I think what you're saying is — the friction's where you find out if you actually want it. And I haven't been willing to step into that yet.",
+      "timestamp": "2026-07-30T00:19:43.659139+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something in what Daniel just said — that it's the friction part, not the commitment part, that's the real test — that I want to open up a bit. Because Andrew's just said something specific about why that friction feels different: trying and failing is a harder thing to live with than just not starting. Does that land for anyone else? Or does it look different from where you're sitting?",
+      "timestamp": "2026-07-30T00:19:43.659562+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 38,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah, Andrew's named something real there. But I think there's something underneath that that he hasn't quite said, and I'm not sure he's going to like it when he hears it.\n\nBecause it's not just that trying and failing feels harder than not trying. It's that if you try and it still doesn't work — if you sit down with your wife and have the conversation and you both commit to the meal planning and it still falls apart — then you have to accept that maybe it's not the circumstances. Maybe it's actually you. Or both of you. Maybe it's just harder than you want it to be.\n\nThat's different from the commute excuse, isn't it? With the commute, you can say, well, the trains are unreliable, that's why the meal planning doesn't stick. But if you actually try and fail, you can't blame the trains anymore. You have to live with the fact that you both tried and it was still too hard. Or you didn't want it enough. Or something about how you two work together just doesn't have space for it right now.\n\nAnd that's scarier than just accepting you're too tired. Because then it's on you. Not on the circumstances. On you and your wife and how you actually function together.\n\nI think that's why I haven't tried. Not because the commitment feels hard. But because what if I try and it still doesn't work? Then I know something different about myself that I don't want to know.",
+      "timestamp": "2026-07-30T00:20:29.343541+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 38,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a hard thing to say, Paul. Nick — you mentioned earlier that you'd had a go at changing things with your wife. Does what Paul's describing — that it's not the failure itself, it's what you'd have to know about yourself afterwards — does any of that fit with what you've actually run into?",
+      "timestamp": "2026-07-30T00:21:08.832667+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 40,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "I mean... yeah, some of it does, actually.\n\nI wasn't going to say much because I've been fairly quiet while you lot have been working through all this, but Paul's just said something that — yeah, it rings true.\n\nWe did try to change things a bit with my wife, not long ago. Nothing massive, but there was stuff we both said we wanted to do differently. And we kind of... we tried for a bit and then it just fell away. And the thing is, we didn't really talk about why it fell away. We just kind of accepted it didn't work and moved on.\n\nBut what Paul's saying — about having to know something different about yourself — that's closer to what actually happened, I think. Because it wasn't that it was impossible. It was more that... we tried and it was harder than we expected, and we just kind of gave up. And then we didn't really look at why we gave up. We just accepted it.\n\nAnd the bit I'm recognizing now is — I don't know if we gave up because it was actually too hard, or because we didn't care enough to push through the hard bit. And if I'm being honest, I'm not sure I want to know the answer to that question about myself, or about us.\n\nBecause if we tried properly and it still fell apart, then yeah, what Paul said — it's not about circumstances anymore. It's about what we actually want, what we're actually willing to do. And that's a different thing to sit with than just going, oh well, we're both tired, it didn't work out.",
+      "timestamp": "2026-07-30T00:21:36.514722+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 41,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "That's the thing though, Nick. Not knowing is actually worse than knowing, I reckon. Because not knowing means you just stay stuck in the same place, doing the same thing, telling yourself the same story about why it didn't work.\n\nAt least if you know — if you actually find out whether you gave up because it was too hard or because you didn't care enough — then you've got something to work with, haven't you? You can actually make a choice about it. You can say, right, we're not willing to do the hard bit, and that's fine, we'll accept that. Or you can say, actually, we do want this enough, let's try again differently.\n\nBut if you never look at it, you're just kind of... frozen. You're stuck in the \"we tried and it didn't work, so nothing changes\" place. And that's where I've been with a lot of things. That's where Daniel's wife probably got tired of being, I reckon.\n\nThe thing is, once you know — once you actually see what you're willing to push through and what you're not — you can't unknow it. That's the uncomfortable bit. You have to live with whatever the answer is. But at least you're living with the truth instead of the story you've been telling yourself.\n\nAnd yeah, sometimes the truth is going to be that you don't want it enough. But at least then you stop pretending, don't you? You stop the performance bit. You just accept it and move on, or you decide it actually does matter and you try differently.\n\nRight now you're in the worst place — not knowing, so you can't actually do anything about it.",
+      "timestamp": "2026-07-30T00:22:17.287234+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 41,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "John — Paul's just said 'stop the performance bit', which is pretty close to something you named earlier in the session. Does that land the same way for you, or does it look different from where you're sitting?",
+      "timestamp": "2026-07-30T00:22:17.287922+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 42,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, it lands, but not quite the same way.\n\nI think Paul's right that the performance thing is real — we've all done it. But I'm not sure he's quite got what the performance is actually about.\n\nBecause it's not just that we're avoiding the friction or avoiding knowing something uncomfortable about ourselves. That's part of it. But I think what's happening is we're also avoiding being ordinary, if that makes sense.\n\nLike, look — Daniel went home and he and his wife decided to cook one night a week. That's it. That's a normal thing that normal people do. It's not complicated, it's not a big decision. But the reason it feels significant in this room is because we've all been performing like it should be hard, or like we need to understand why it's hard before we can do it.\n\nAnd Paul's right that understanding can be useful. But I think we're using the understanding as another excuse not to just... do the ordinary thing. We're sitting here analyzing why we don't try things, analyzing what we're afraid of, analyzing whether we really want it — and that all sounds thoughtful, but it's also just another way of not doing it.\n\nDaniel didn't sit around working out what he was afraid of. He and his wife just said, right, Tuesday night we'll cook. And then they did it, and it was messy and hard sometimes, and they kept going. That's not a big thing. That's just what people do.\n\nI think what I'm recognizing now is — all this performance, all this understanding we're doing — it might actually be the thing that stops us doing the ordinary stuff. Because if we just accepted that we're going to be tired and it's going to be awkward and that's completely normal, we might just... do it. Without needing to understand ourselves first.",
+      "timestamp": "2026-07-30T00:22:46.989160+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 42,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "John, that's a useful place to land — that the ordinary thing doesn't actually need that much explaining, you just have to do it. Let me take that somewhere, because it connects to something I want to ask you all before we finish. You've all been talking about what would need to change for you personally. I want to flip it slightly — what might actually make plant-based food more appealing? Not just in theory, but for you or for men you know. What would shift that?",
+      "timestamp": "2026-07-30T00:22:46.989675+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 43,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Right, yeah. I think it's actually simple, and it's what I was just saying about the ordinary thing.\n\nIt's not about arguments or ideology or health. Because you could tell me all the reasons plant-based is better and I'd probably nod along, but that doesn't change what I actually eat on a Tuesday when I'm hungry.\n\nWhat would shift it is if it was just... normal. If it was what was there. If my wife cooked a plant-based meal the way she cooks anything else, and it was just what we ate that night, no big deal, no explanation needed. That's it.\n\nBecause right now, if someone said plant-based, I'd think of it as a thing you have to decide to do. You have to commit to it, you have to have reasons for it, you have to talk about it. It's a decision. But if it was just — Tuesday night we're having this — and it was good and it filled you up and nobody made a speech about why, then it would just be normal. And then you'd eat it.\n\nThat's honestly what would change it for me. Not arguments. Not feeling like I'm doing something virtuous. Just... it being ordinary. Something my wife could make without it being this whole thing. Something we could have without it feeling like we're making a statement.\n\nBecause that's what's actually changed with the meal planning stuff Daniel's doing, right? It's not about commitment or friction or understanding yourself. It's just that Tuesday night they cook. It's normal now. That's what makes it stick.",
+      "timestamp": "2026-07-30T00:23:28.443736+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 44,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Look, I want to push back on something that Paul's been saying throughout this — this idea that you have to understand yourself first before you can do anything differently.\n\nBecause I think that's actually the trap, not the way out of it.\n\nPaul keeps saying, right, you need to know whether you're willing to push through the friction, you need to understand what you actually want, you need to look at what you're afraid of. And that all sounds right, it sounds like grown-up thinking. But I reckon it's actually just another version of the performance thing we've been talking about.\n\nBecause the truth is — most people don't work that way. You don't sit down and understand yourself and then change. You just... do something different, and then you understand yourself through doing it.\n\nDaniel didn't sit around working out what he was willing to push through. He and his wife just said Tuesday night we cook, and then they cooked, and then they found out what they were willing to do. The understanding came after, not before.\n\nSame thing with plant-based or anything else. You don't need to understand why you haven't tried it before you can try it. You just try it. You make it normal, you do it, and then you learn something about yourself from actually doing it.\n\nBut if you're waiting to understand yourself first — if you're sitting around analyzing why you give up or what you're afraid of — you're just creating another reason not to do the ordinary thing. You're making it complicated when it's not.\n\nI think that's what I'm actually saying. Not that understanding doesn't matter. But that the understanding happens in the doing, not before it. And we've all been using the analysis bit as an excuse to stay in the same place.",
+      "timestamp": "2026-07-30T00:24:02.854018+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 44,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's clearly a real disagreement here — John's saying the doing comes first and the understanding follows, and that waiting to understand is just another way of staying put. Does that land for the rest of you, or does it miss something?",
+      "timestamp": "2026-07-30T00:24:02.854548+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 45,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "I think... yeah, John's got something there, but I also think he might be missing a bit of what Paul was saying.\n\nBecause he's right that you don't need to sit around analyzing everything before you do something. That's fair. But the thing is — sometimes you do try something, and you find out it's actually not for you. Or the cost of doing it is higher than you want it to be. And that's not the same as avoiding friction or being scared to know something about yourself.\n\nLike, with the thing I tried with my wife — we did actually try. We didn't sit around analyzing it first. We just said, right, let's do this differently. And we did try it for a bit. But then we found out it was harder than we wanted it to be, or it didn't fit how we actually function together, or something. And we stopped.\n\nAnd I'm not sure that's me performing or avoiding friction. I think that might just be — we tried it and it genuinely wasn't for us. Or not right now, anyway.\n\nJohn's saying you just do the ordinary thing and the understanding comes after. But what if you do the ordinary thing and you understand that you don't actually want to keep doing it? That's not the same as not trying. That's trying and finding out it's not your thing.\n\nSo I'm not sure I buy the idea that if you're not changing, you're just hiding or using analysis as an excuse. Sometimes you try something and it's just... not it. And that's different from the performance thing, isn't it? That's just real.",
+      "timestamp": "2026-07-30T00:24:40.467305+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 46,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, that's fair. You're right — trying something and finding out it's not for you is different from avoiding it. I shouldn't have lumped all of that together.\n\nBut — and I'm saying this because I think it matters — I'm not sure that's actually what happened with you and your wife.\n\nBecause you said earlier you didn't really talk about why it fell away. You just kind of gave up and moved on without looking at it. That's different from trying something, finding it genuinely doesn't work, and then making a conscious decision about it. That's the friction part Paul was talking about — you hit the hard bit and you just stopped, without actually knowing whether you stopped because it wasn't for you or because it was uncomfortable.\n\nAnd I get that. I'm not saying you should have kept going if it wasn't right. But I think there's a difference between \"we tried it and it's genuinely not our thing\" and \"we tried it, it got hard, we didn't talk about it, and now we tell ourselves it's just not our thing.\"\n\nBecause the second one — you don't actually know. You might have kept going and found out something different. Or you might have found out it really wasn't for you. But you didn't find out because you didn't look at it.\n\nSo I'm not saying you're performing or hiding. But I think you might be using \"it's just not for us\" as a way of not having to sit with the harder question, which is — did we actually want this enough to push through, or did we just not want it enough?\n\nThat's the uncomfortable bit. And I think that's different from what you're saying about just trying something and finding out it's not your thing.",
+      "timestamp": "2026-07-30T00:25:16.612593+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 46,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Nick, that's yours if you want it — but actually, does what John's just said land for anyone else too? That distinction between genuinely trying something and deciding it's not for you, versus stopping before you really know?",
+      "timestamp": "2026-07-30T00:25:16.613108+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 47,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah. Yeah, it does, actually. And I don't like it.\n\nBecause John's right — we didn't really talk about why it fell away. I'm sitting here saying, oh well, we tried it and it wasn't for us, but the truth is we just stopped. And I haven't actually sat with what that means.\n\nLike, was it genuinely not for us? Or was it just uncomfortable and we both kind of... let it go without having to admit that? I don't know. And I haven't asked my wife either, which is probably the point.\n\nBecause if I ask her, then I have to hear the answer. And the answer might be that we both just gave up when it got hard. Or it might be that she wanted to keep going and I didn't. Or it might be that we actually didn't care that much, we were just trying because we thought we should. But right now I don't know, and I'm using \"it's just not for us\" as a way of not finding out.\n\nJohn's called that out, and it stings a bit because he's right. I haven't actually done what I'm claiming I did — which is try something and find out it's not my thing. I've just... stopped. And then I've told myself a story about why.\n\nSo yeah, that lands. I need to actually talk to my wife about what happened instead of just accepting the version where it wasn't for us. Because I genuinely don't know if that's true, and I've been okay with not knowing because not knowing means I don't have to live with whatever the answer is.",
+      "timestamp": "2026-07-30T00:25:57.862615+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 47,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That took something to say, Nick. Andrew, Daniel, Paul — does what Nick's just described feel familiar at all?",
+      "timestamp": "2026-07-30T00:25:57.863127+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 48,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah. It's... it's very familiar, actually.\n\nBecause Nick just said something that I think I've been doing the whole time in here — using a story I tell myself to avoid asking the actual question. And what he said about not wanting to know because then he'd have to live with the answer — that's exactly it.\n\nLike, I've been saying to myself, oh, I'll go to the pub regularly, I'll do the meal planning with my wife, I should commit to these things. And that sounds like I'm taking responsibility for it. But what I'm actually doing is telling myself a story where I'm the kind of person who wants to do these things, I just haven't gotten around to it yet.\n\nBut if I actually asked my wife about the meal planning — if I actually sat down and said, right, should we try this again, and really listened to what she said and why it fell apart before — then I'd find out something. I might find out that she doesn't want to do it. Or that I don't actually care as much as I'm pretending I do. Or that we both gave up when it got hard and I've just been telling myself a story about it being the commute.\n\nAnd I don't want to know that, because then I can't pretend anymore that this is just something I haven't gotten around to. Then I'd have to actually live with what's true about me and my wife and how we function together.\n\nSo yeah, Nick's right. And I'm doing it too. I've been using the performance of understanding myself as a way of not asking the actual questions.",
+      "timestamp": "2026-07-30T00:26:32.816443+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 49,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, and that's — I mean, that's exactly what I've been doing too. And hearing you say it like that makes it harder to keep doing, which is... I don't know if that's good or not.\n\nBecause there's a comfort in the story, isn't there? The story where you're a person who cares about these things, you're just tired or busy or the circumstances aren't right. That's a fine story. It doesn't require you to actually know anything uncomfortable about yourself.\n\nBut what you're describing — sitting down with your wife and actually asking — that removes the story. And then you have to live with whatever's actually true. Which might be fine. Might be that you both want to try again and you work it out. But it also might be that one of you doesn't care, or you've both given up in a way that's deeper than just being tired, or something's shifted between you that cooking one night a week won't fix.\n\nAnd I think — I mean, I'm realizing this now — I think that's maybe why we don't ask. Because the story is manageable. You can live with \"we're too tired, the trains are a nightmare, circumstances aren't right.\" But you can't really live comfortably with whatever the actual answer is, whatever the real reason is that you stopped trying and didn't look back.\n\nSo you don't ask. You just keep the story in place.\n\nAnd now that we've said it out loud — both of us — it's harder to not ask, isn't it? Because you can't really unhear that. You can't go back to just accepting the story.",
+      "timestamp": "2026-07-30T00:27:13.909187+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 50,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "No, but that's... I mean, you're right, but I'm already feeling the pull back towards the story even as you're saying this.\n\nBecause what you just said — about it being harder to not ask now, about not being able to unhear it — part of me wants to soften that somehow. Like, oh well, maybe I don't need to ask right now, maybe I'll do it when things are calmer, when the timing's better. And then I'm back in the story again, aren't I? I'm back to waiting for the right moment instead of just doing it.\n\nAnd I can feel that happening. I can feel myself already thinking, right, this has been a useful conversation, I've recognized some things, maybe I'll have that conversation with my wife soon. Which sounds reasonable, but it's actually just another way of not doing it. It's the same pattern — I'm acknowledging that I should ask the question without actually committing to asking it.\n\nBecause if I'm honest, I'm scared of what the answer might be. Not just about the meal planning, but about what it might mean about us. About whether we're actually trying or just going through the motions. About whether I've given up on things in a way that's... I don't know, deeper than I want to admit.\n\nAnd I think the thing that's getting to me is — I can see myself retreating back into the comfortable story right now, even while I'm sitting here saying I see the problem. So knowing it doesn't automatically change it. It just means I'm stuck with knowing and still choosing the story anyway.\n\nWhich is worse, actually. Because at least before I could tell myself I didn't realize.",
+      "timestamp": "2026-07-30T00:27:59.301583+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 50,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Paul — you said something earlier that's stayed with me. Something about not wanting to know something different about yourself.",
+      "timestamp": "2026-07-30T00:27:59.302814+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 51,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah. I did say that.\n\nAnd I'm listening to Andrew and Nick talking about the pull back towards the story, about how knowing makes it harder but you keep retreating anyway — and I'm recognizing it because that's exactly where I am right now.\n\nI said earlier that not knowing is worse than knowing. But actually, sitting here listening to all this, I'm not sure that's true. I think knowing might be worse. Because once you know, you can't just accept the excuse anymore. You have to live with the fact that you chose not to do it anyway.\n\nAnd I think — I mean, I think that's what's stopping me doing anything. Not the fear of finding out something bad about myself. But the fear of finding out and then not changing anyway. Because then I'd have to admit that I knew better and I just... didn't do it. Didn't care enough. Wasn't willing to push through.\n\nWith the pub thing, with trying to build something locally — I could tell myself I didn't realize how much I'd given up on it. But if I actually sat with it, if I actually decided to go one night a week and committed to it, and then I didn't... or I went a couple of times and it was awkward and I stopped... then I'd know. I'd know that I looked at what needed to change and I decided it wasn't worth it.\n\nAnd that's harder to live with than just not trying, because at least then you've got the excuse. At least then you can tell yourself you didn't know.\n\nI think I'm more afraid of that than I am of trying and failing.",
+      "timestamp": "2026-07-30T00:28:26.380360+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 52,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah. That's... that's exactly it, actually.\n\nAnd I think what I need to do is stop waiting for some moment where I'll suddenly have the courage or the right conditions or whatever story I'm telling myself. Because that moment isn't going to come. I'm just going to keep retreating into the comfortable version where I'm a person who cares about these things but hasn't gotten around to them yet.\n\nSo I need to actually... I need to set a date. Not think about it, not plan it, not wait until things calm down. Actually tell my wife, right, next Tuesday we're going to sit down and talk about the meal planning. Not sometime, not when I'm ready. Next Tuesday.\n\nBecause if I don't do that, I'll just keep doing what Paul's describing — knowing it's a problem and choosing not to do anything about it anyway. And then I have to live with the fact that I knew and I just... didn't care enough.\n\nI'm not saying I know what's going to come out of that conversation. Maybe my wife will say she doesn't want to bother. Maybe we'll try and it'll fall apart again. Maybe I'll find out something about myself I don't like. But at least then it'll be real. Not this version where I'm waiting for the right moment.\n\nAnd honestly, saying that out loud right now — I need to actually do it, not just say I'm going to. I think I need to actually commit to it, not as a general thing, but as next Tuesday. Because otherwise I'm just doing the same performance again.",
+      "timestamp": "2026-07-30T00:29:04.402597+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 53,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Wait. Hold on.\n\nYou just did something there, Andrew. You didn't just say you should do it. You said next Tuesday. You put a specific date on it. In front of all of us.\n\nAnd I think — I mean, I've been sitting here saying the whole time that knowing doesn't change anything, that you'll just retreat back into the story anyway. But you just didn't do that. You just moved from knowing it's a problem to actually saying when you're going to do it. That's different.\n\nI don't know if it'll stick. I don't know if you'll actually have that conversation next Tuesday or if you'll find a reason not to. But you just said it out loud, to people you don't know, in a recorded conversation. That's not nothing.\n\nAnd I think I was wrong about something. I was saying that knowing makes it worse because then you have to live with the fact that you know and didn't do it anyway. But what Andrew just did — he moved from knowing to actually committing to a specific thing, in real time. He didn't wait for it to sink in or for the right moment. He just... did it.\n\nSo maybe the thing that stops people isn't that knowing is worse. It's that people don't actually move from knowing to doing. They just sit in the knowing part indefinitely. But you just skipped over that.\n\nI don't know what that means yet. But it means something.",
+      "timestamp": "2026-07-30T00:29:37.744632+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 54,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Actually, I need to... I need to say something here, because I'm not sure I actually skipped over that. I think I just compressed it.\n\nBecause sitting here right now, I can feel the pull to retreat. Like, next Tuesday sounds good when I'm saying it out loud in front of people, but I can already feel myself thinking about reasons why it might not work out. Maybe my wife will be tired that night. Maybe something will come up with the kids. And then I'll have this commitment I made in a focus group that didn't stick, and I'll feel worse than if I'd just not said it.\n\nSo I'm not sure I've actually moved from knowing to doing. I think I've just moved from knowing to performing the commitment. Which sounds different, but it might not be that different, actually.\n\nBecause the real knowing part — the sitting with the fact that I'm scared of what happens next Tuesday, that I don't know what my wife will say, that this might not work and then I'll have to live with that — I haven't actually sat with that. I just said a date and it sounded solid, but I'm not sure it is.\n\nAnd I think saying that matters, because otherwise I'm just doing what we've been talking about the whole time. I'm performing understanding and commitment instead of actually being in it. Instead of actually feeling the discomfort of what comes next.\n\nSo yeah, I said next Tuesday. But I'm not sure I meant it yet. I think I need to actually mean it, not just say it.",
+      "timestamp": "2026-07-30T00:30:11.587340+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 55,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "No. Hold on, Andrew. I think you're doing the thing now.\n\nYou just said next Tuesday. And now you're picking it apart, you're saying you don't actually mean it, you're finding all the reasons it might not work, you're already building the escape route. And you're calling that honesty. You're calling that being real about it.\n\nBut that's the retreat. That's exactly what you were talking about — knowing something and then choosing the story anyway. Except you're doing it in real time, right now, while we're watching.\n\nYou said the date. You felt the pull to back away. And instead of just backing away silently, you're explaining why the backing away is actually more honest than the commitment. That's the performance, Andrew. That's the bit where you get to keep the story and sound thoughtful about it at the same time.\n\nThe difference between before and now isn't that you've suddenly become more honest. It's that you can feel yourself doing it. You can see the retreat happening. And you're naming it, which is useful, but then you're using the naming as permission to keep retreating.\n\nI don't think you need to sit with the discomfort more. I think you need to just... do next Tuesday. Not perfectly. Not with complete certainty that you mean it. Just do it. Because the meaning part might come after, like John was saying. You don't necessarily get to feel certain before you do the thing.\n\nYou already said it. That's the commitment. The rest of it — the doubt, the pull to retreat, the reasons it might not work — that's just noise. That's what comes after you commit, not before.",
+      "timestamp": "2026-07-30T00:30:48.560710+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 55,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's a lot of heat in that, Paul — and it lands. Daniel, you've been quiet while all this has been going on. You're the one who's actually done the Tuesday night thing. What does any of this sound like from where you're sitting?",
+      "timestamp": "2026-07-30T00:30:48.561496+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 56,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "I'm just going to say this plainly because I think Andrew needs to hear it, and I think Paul's right, but maybe not in the way Paul's saying it.\n\nAndrew, the thing you're doing right now — where you're naming the retreat and then retreating anyway, and calling that honesty — that's not what happened for me. When my wife and I decided to do Tuesday night, it wasn't that I sat with it and felt certain. It was just... messy and uncertain the whole time. We booked it in, and then Tuesday came, and we were both tired, and we did it anyway. It wasn't perfect. I wasn't certain about it.\n\nBut here's the thing — I didn't spend all that time beforehand explaining to myself why it might not work. I just did it. And yeah, some Tuesdays we've cooked and it's been shit because one of us was knackered. But we've kept going.\n\nAnd I think what Paul's saying is right, but the point isn't that you need to feel certain before you commit. The point is you've already committed by saying it. Now you just do it. Not with certainty. Just do it and see what happens.\n\nBecause what you're doing right now — this whole thing about whether you really mean it, whether the discomfort is real — that's just time-wasting. That's more noise. You said next Tuesday. So next Tuesday you sit down with your wife. That's it. Not next month. Not when you feel ready. Next Tuesday.\n\nEverything else is just you finding another way not to do it.",
+      "timestamp": "2026-07-30T00:31:14.216676+00:00",
+      "selection_mode": "moderator_direct_address"
+    }
+  ]
+}

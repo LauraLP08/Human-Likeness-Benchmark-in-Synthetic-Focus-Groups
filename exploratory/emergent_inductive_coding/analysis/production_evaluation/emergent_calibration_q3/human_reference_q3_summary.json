@@ -1,0 +1,202 @@
+{
+ "classification": "PRIMARY_EMERGENT_AUTOMATION_CALIBRATION_Q3",
+ "scope": {
+  "units": [
+   "U01",
+   "U02",
+   "U03",
+   "U04",
+   "U05",
+   "U06",
+   "U07"
+  ],
+  "guide_question": "Q3"
+ },
+ "cluster_identity": "(unit_id, cluster_id)",
+ "centrality_status": "NOT_ASSESSED",
+ "central_reference": "NOT_AVAILABLE — CENTRALITY_NOT_ASSESSED",
+ "not_reported_because_centrality_was_not_assessed": [
+  "central or peripheral clusters",
+  "recall of central themes",
+  "precision of central themes",
+  "coverage of central themes",
+  "differences between central and peripheral themes",
+  "thematic saturation",
+  "any generalisation beyond U01-U07 / Q3"
+ ],
+ "n_clusters_global_identity_pairs": 44,
+ "n_distinct_cluster_id_texts": 16,
+ "n_source_rows": 76,
+ "clusters_per_unit": {
+  "U01": 7,
+  "U02": 6,
+  "U03": 7,
+  "U04": 3,
+  "U05": 7,
+  "U06": 5,
+  "U07": 9
+ },
+ "source_rows_per_unit": {
+  "U01": 12,
+  "U02": 10,
+  "U03": 11,
+  "U04": 7,
+  "U05": 14,
+  "U06": 10,
+  "U07": 12
+ },
+ "distribution_of_rows_per_cluster": {
+  "1": 25,
+  "2": 9,
+  "3": 7,
+  "4": 3
+ },
+ "coders_per_cluster": {
+  "1": 28,
+  "2": 16
+ },
+ "clusters_shared_by_both_coders": 16,
+ "clusters_from_a_single_coder": {
+  "total": 28,
+  "coder_a_only": 12,
+  "coder_b_only": 16
+ },
+ "coder_coverage_vs_union": {
+  "Coder_A": {
+   "numerator": 28,
+   "denominator": 44,
+   "rate": 0.6363636363636364
+  },
+  "Coder_B": {
+   "numerator": 32,
+   "denominator": 44,
+   "rate": 0.7272727272727273
+  }
+ },
+ "b_plus_coverage_benchmark": {
+  "definition": "machine recall vs union_reference must be >= the LOWER of the two coders' own recalls vs the same union_reference",
+  "value": 0.6363636363636364,
+  "numerator": 28,
+  "denominator": 44,
+  "set_by": "Coder_A",
+  "necessary_but_not_sufficient": true,
+  "not_a_human_ceiling": "the union is built FROM both coders, so neither coder's recall against it is a ceiling; it is an empirical coverage benchmark in this sample only"
+ },
+ "possible_thematic_fusion_FLAG_ONLY": [
+  {
+   "human_key": "U05::C01",
+   "n_source_rows": 4,
+   "source_pooled_ids": [
+    "P043",
+    "P046",
+    "P047",
+    "P049"
+   ],
+   "cluster_label": "THE SAFE CHOICE IS TO SETTLE FOR SOCIAL EXPECTATIONS"
+  },
+  {
+   "human_key": "U05::C06",
+   "n_source_rows": 4,
+   "source_pooled_ids": [
+    "P042",
+    "P044",
+    "P053",
+    "P054"
+   ],
+   "cluster_label": "THE PRESSURE TO CONFORM TO MASCULINE BEHAVIORS IS SUBTLE OR IMPLICIT, BUT EXISTS AND CARRIES CERTAIN EXPECTATIONS THAT ARE NORMALISED"
+  },
+  {
+   "human_key": "U06::C02",
+   "n_source_rows": 4,
+   "source_pooled_ids": [
+    "P058",
+    "P061",
+    "P062",
+    "P064"
+   ],
+   "cluster_label": "STEPPING OUTSIDE THE NORM LEADS TO BEING QUESTIONED (AS A BACKLASH) OR A DEMAND TO REAFFIRM MASCULINITY"
+  },
+  {
+   "human_key": "U01::C04",
+   "n_source_rows": 3,
+   "source_pooled_ids": [
+    "P005",
+    "P006",
+    "P011"
+   ],
+   "cluster_label": "EATING MEAT IS A HABIT, WHAT WAS COOKED AT HOME OR THE NORMAL THING TO DO"
+  },
+  {
+   "human_key": "U02::C08",
+   "n_source_rows": 3,
+   "source_pooled_ids": [
+    "P013",
+    "P014",
+    "P019"
+   ],
+   "cluster_label": "EATING DECISIONS MAY BE BASED ON BODY OR HEALTH PERCEPTIONS OR PERSONAL BELIEFS"
+  },
+  {
+   "human_key": "U02::C10",
+   "n_source_rows": 3,
+   "source_pooled_ids": [
+    "P020",
+    "P021",
+    "P022"
+   ],
+   "cluster_label": "GENDER CONNECTED TO SPECIFIC EATING TOPICS (EG. EATING DISORDERS, PORTION SIZES, SALADS, ETC.)"
+  },
+  {
+   "human_key": "U03::C06",
+   "n_source_rows": 3,
+   "source_pooled_ids": [
+    "P023",
+    "P025",
+    "P027"
+   ],
+   "cluster_label": "THE PRESSURE TO CONFORM TO MASCULINE BEHAVIORS IS SUBTLE OR IMPLICIT, BUT EXISTS AND CARRIES CERTAIN EXPECTATIONS THAT ARE NORMALISED"
+  },
+  {
+   "human_key": "U04::C10",
+   "n_source_rows": 3,
+   "source_pooled_ids": [
+    "P034",
+    "P036",
+    "P038"
+   ],
+   "cluster_label": "GENDER CONNECTED TO SPECIFIC EATING TOPICS (EG. EATING DISORDERS, PORTION SIZES, SALADS, ETC.)"
+  },
+  {
+   "human_key": "U06::C06",
+   "n_source_rows": 3,
+   "source_pooled_ids": [
+    "P056",
+    "P059",
+    "P060"
+   ],
+   "cluster_label": "THE PRESSURE TO CONFORM TO MASCULINE BEHAVIORS IS SUBTLE OR IMPLICIT, BUT EXISTS AND CARRIES CERTAIN EXPECTATIONS THAT ARE NORMALISED"
+  },
+  {
+   "human_key": "U07::C13",
+   "n_source_rows": 3,
+   "source_pooled_ids": [
+    "P065",
+    "P068",
+    "P071"
+   ],
+   "cluster_label": "OPT TO IGNORE SOCIAL EXPECTATIONS"
+  }
+ ],
+ "possible_thematic_fragmentation_FLAG_ONLY": [
+  {
+   "unit_id": "U07",
+   "cluster_a": "C01",
+   "cluster_b": "C13",
+   "label_a": "THE SAFE CHOICE IS TO SETTLE FOR SOCIAL EXPECTATIONS",
+   "label_b": "OPT TO IGNORE SOCIAL EXPECTATIONS",
+   "similarity": 0.635
+  }
+ ],
+ "review_flags_from_the_clustering_gate": [],
+ "handling_rule": "Possible fusion and fragmentation are FLAGGED FOR REVIEW and are never corrected automatically."
+}

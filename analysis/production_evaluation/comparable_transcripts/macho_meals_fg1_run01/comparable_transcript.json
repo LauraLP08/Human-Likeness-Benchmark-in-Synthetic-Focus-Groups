@@ -1,0 +1,465 @@
+{
+  "_provenance": {
+    "derived_by": "scripts/build_comparable_window.py",
+    "generated_utc": "2026-07-30T14:33:34.849217+00:00",
+    "source_transcript": "output\\session_logs\\macho_meals_fg1_run01\\transcript.json",
+    "source_transcript_sha256": "92f648dc06db1824f5ea4562441510cedc49984cf4a6481749b0564d4d9b4ea2",
+    "window": "q1_ask_to_end_of_last_substantive_section",
+    "excluded": "all material before the Question-1 ask, and the closing section",
+    "boundary_method": "Section structure from moderator_log.section_transition, cross-checked against state_turn_*.json current_section_index. Sub-entry Question-1 offset by ANCHOR-AND-EXTEND: anchor on the latest sentence-aligned suffix of the boundary entry that still poses Question 1 (the minimal ask), then extend backward one sentence at a time only across sentences that are residue-free AND positively identified as part of the ask (carrying a Q1-distinctive token, or being an ask lead-in / short discourse connective); stop at the first sentence failing either test. Residue classes excluded: participant name, moderator self-introduction, welcome, instruction/confidentiality text, presentation summary. Because the boundary only ever moves earlier over text positively identified as part of the ask, residue is excluded by construction rather than by enumeration.",
+    "boundary_algorithm": "anchor_and_extend_v1",
+    "source_entry_index": 8,
+    "source_entry_turn": 7,
+    "source_character_start": 127,
+    "original_boundary_entry_sha256": "1578add70df4bc4832f82c5f3f2cfc829b0df61fa3a698dea9c81d567940c189",
+    "retained_boundary_text_sha256": "c08ca6fd226d8ec2052baaa25dfc81dee1b7545ba363b5bf141e0aa7a583e9d1",
+    "boundary_review_status": "AUTO_TRIMMED",
+    "boundary_review_note": "anchored on minimal Q1 ask at char 162, extended back 1 sentence(s) to char 127; dropped 127 leading chars (20 words) carrying: participant_name(Ibrahim); welcome; presentation_summary_propernouns(Great,Ibrahim,Glasgow,Birmingham); presentation_summary(spread)",
+    "first_source_entry_index": 8,
+    "last_source_entry_index": 62,
+    "boundary_text_is_verbatim_slice": true,
+    "note": "Derived view. The source transcript is unmodified. The first entry's content is a verbatim character slice of the source entry from source_character_start onward - never paraphrased, normalised, reconstructed, or replaced with the guide's scripted question. Human transcripts need no equivalent window: they already begin at Question 1 and contain no introduction or closing section."
+  },
+  "transcript": [
+    {
+      "turn": 7,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Right, let's get into it properly. First thing I want to ask: what's your favourite place in your city — or your area — to spend time with your male friends? Could be a pub, someone's house, a park, anywhere. Why that place specifically?",
+      "timestamp": "2026-07-29T07:06:17.458757+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "For me, it's usually the pub, to be honest. There's a few we go to round Birmingham — nothing fancy, just places where you can grab a drink, have a laugh, catch the football on a screen if there's a match on. It's easy, innit. You don't have to plan much, just meet up after work or at the weekend, have a few pints, see who else is about. \n\nI mean, we'll do other stuff sometimes — go to someone's house, play some games, that sort of thing — but the pub's the default really. It's just where you go. Everyone knows the vibe, you're not at anyone's gaff so there's no mess to worry about, and you can stay as long as you want or bail whenever. Plus there's food, so you can grab something to eat if you're hungry.",
+      "timestamp": "2026-07-29T07:07:08.851386+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, same here mate. The pub's just the easiest thing, innit. We've got a few locals round Newcastle we just end up in most weekends — grab a pint, watch the match if there's one on, chat shit basically. Don't need to organize anything fancy.\n\nAnd you're right about the food — we'll usually get some chips or a burger or something while we're there. Nothing complicated. I'm not really fussed about what it is, just something to soak up the beer, you know? Some places do decent enough food, some are a bit dodgy, but you're not going there for Michelin stars or anything.\n\nIt's just the default really, like you say. Low effort, everyone knows what they're doing, you can just turn up.",
+      "timestamp": "2026-07-29T07:07:41.375638+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, I get that — you're not going for the food obviously. But I'd say it does make a difference which pub you pick, even just for that side of it. Like, some places the burger's actually decent, and some places it's just... I don't know, grey and cold, you know? \n\nWe've got one we go to fairly regularly where the chips are proper good — proper crispy, not soggy — and they do a decent burger. And then there's another one down the road where honestly the food's a bit grim, so we tend to just stick with pints and crisps there instead. It's not like we're choosing the pub based on the food quality or anything, but once you're there, if the food's decent it does make the night better. You're gonna eat something anyway, might as well be something that's actually alright.",
+      "timestamp": "2026-07-29T07:08:16.032399+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, fair point actually. I mean, you notice it, don't you? Like, there's definitely a difference between a pub where the food's decent and one where it's just... yeah, grim. I've got one we go to pretty regularly where the burgers are actually alright, proper seasoned meat and that, and then there's another one where you're just eating something that tastes like nothing. \n\nAnd yeah, you're gonna eat something anyway while you're there, so might as well be something that doesn't taste like cardboard. It's not like we're basing the whole night around finding good food, but if you're already getting something to eat, you might as well enjoy it. Makes the night better, doesn't it.",
+      "timestamp": "2026-07-29T07:08:53.943259+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, that's spot on actually. There's a massive difference between a burger that's been properly made and one that's just... I dunno, thrown together. I've got a couple of pubs round Leeds where they actually care about what goes into it — seasoning, how they cook it, that kind of thing — and you can taste it straight away. And then you go somewhere else and it's like, why did I even bother ordering this?\n\nThe thing is though, I reckon it comes down to whether the pub's actually bothering with it or not. Like, some places treat the food as an afterthought — just reheat something or whatever — and some places actually season the meat properly, get decent beef to start with. Makes all the difference. You're sat there for a few hours anyway, you're gonna order something, so yeah, might as well be something that's actually edible.\n\nI think it's also harder in some places than others to get decent stuff in the first place. Like, in the city you've got more choice of suppliers, more competition, so the decent pubs have more reason to step up. But I'm curious Will — with your local farm connections you mentioned earlier, are the restaurants and pubs round you using that stuff? Or is it mostly just individuals getting direct from the farmers like you do?",
+      "timestamp": "2026-07-29T07:09:32.292013+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Will — Isaiah's put that one to you. What's your take?",
+      "timestamp": "2026-07-29T07:09:32.293534+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, good question. Honestly, it varies a lot. Some of the better places round here do try to source locally — there's a couple of restaurants that'll mention it on the menu, you know, \"local beef\" or whatever. But a lot of the pubs and smaller places, they're still going through the standard suppliers. Cost thing, I reckon. It's easier to just order from the big distributors than to build those relationships.\n\nThe thing is, if you're getting it direct like I do, it's actually often cheaper than what you'd pay in a restaurant anyway. But that's because there's no markup, no middle man. The pubs can't do that — they need to buy at a price that lets them resell at a profit.\n\nWhere I go, honestly, it's mostly just people doing what I do — buying direct from the farms, getting to know the farmers. There's a market, a few farm shops. But I think there's potential there for more restaurants to do it if they wanted to. It'd probably be good for them as a selling point, especially if they could actually charge a bit more because it's quality stuff. But yeah, most of the pubs round here are just... they do food, but it's not really the draw, you know? It's more about it being there if you want something.",
+      "timestamp": "2026-07-29T07:09:59.612827+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Cheers Will. So we've got the pub as the go-to for most of you, and Will coming at it from a different angle with the farm shops and that direct network. Let's shift to something related — how do you actually decide what to eat, day to day? Not just when you're out, but in general — what drives those choices?",
+      "timestamp": "2026-07-29T07:09:59.615166+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "I mean, for me it's pretty straightforward — I just eat what I fancy, really. Some nights I'll do a bit of chicken, other nights I might have a steak or something, or fish if I'm in the mood. It's not like I'm planning it all out or anything.\n\nI think it depends on what's easy as well. Like, if I'm working late, I'll just grab something quick — could be a burger, could be takeaway, doesn't really matter. If I've got a bit more time, maybe I'll actually cook something proper. There's a Tesco not far from me, so whatever I need's usually there.\n\nHonestly though, I don't think about it that much. It's just what you fancy eating, innit? I'll have meat most days probably, but not because I'm thinking \"oh, I need to eat meat\" — it's just what I feel like having. Some people seem to make it a massive thing, but I don't really get it. You just eat what you want.",
+      "timestamp": "2026-07-29T07:10:41.731337+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "Yeah, that's a good point Will made about the markup. I've actually noticed that sometimes — like, you'll hear what someone's paying a farmer for beef, and then you see what a restaurant's charging for it, and it's mad, innit? The difference between what the person producing it gets and what you end up paying.\n\nI mean, I'm not gonna pretend I'm thinking about that every time I grab something from Tesco, because honestly I'm not. But when you do notice it, it's a bit mad. Like, the farmer's getting paid next to nothing and then somehow it's fifteen quid for a burger on a menu.\n\nThat's probably why a lot of pubs just stick with the standard suppliers though — easier to know what you're gonna pay, easier to manage. Building those relationships like you're doing, Will, that takes time and effort that most places probably can't be bothered with. Even if it'd be better for them in the end.",
+      "timestamp": "2026-07-29T07:11:15.933077+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, but that's kind of the thing though, isn't it? Like David, you're saying you don't think about it much, and fair enough — I get that. But then you're also noticing the markup and thinking it's mad when you do clock it. So it's there, you know?\n\nI think the difference is, if you actually care about what you're eating — like, whether it's decent meat that's been looked after properly — then you do end up thinking about it a bit more. Not in like a preachy way, just... you notice when something's quality and when it's not. And that's what I was saying about the burgers — some pubs actually give a shit, and you can taste it. Other places, they're just shifting units.\n\nThe markup thing's interesting though. I mean, yeah, it's mad what restaurants charge versus what the farmer gets. But I reckon that's partly why the food can be dodgy sometimes — because they're buying cheap stuff to begin with to make their margin work. If you're paying shit to the farmer, you're getting shit product, and then you're trying to make that taste decent on a plate. Doesn't work, does it?\n\nI'm not saying everyone's gotta be like Will with the farm connections — that's not practical for most people — but there's maybe a middle ground where you just... pick your spots? Go to places that actually seem to care about what they're serving, rather than just whatever's convenient.",
+      "timestamp": "2026-07-29T07:11:46.853274+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "Fair enough, yeah. You're right — I do notice it when I actually pay attention, I just don't think about it that often. That's different from not caring, I suppose.\n\nAnd yeah, I get what you're saying about picking your spots. I mean, I'll go back to places where the food's decent, same as you lot. If a burger's actually good, you notice it, you remember it. I'm not gonna keep going somewhere that serves rubbish just because it's convenient.\n\nI guess the difference is I'm not... I dunno, constantly evaluating where my food's come from or whatever. Like, if I'm at Tesco grabbing something quick on the way home from work, I'm just grabbing it. But if I'm going out somewhere, yeah, you'd rather go somewhere that's actually put thought into it.\n\nIt's just different headspaces though, innit? Going out is different from just feeding yourself on a Tuesday night. I don't need to overthink a weeknight dinner, but when you're going somewhere for a night out with mates, then fair play, might as well be somewhere decent.",
+      "timestamp": "2026-07-29T07:12:22.328151+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, I hear you on that — weeknight versus going out is definitely different, and I'm not saying you need to be thinking deep about every meal. That'd be mental.\n\nBut I think the thing is, the habits you build on those Tuesday nights kind of feed into everything else, you know? Like, if you're always just grabbing whatever's quickest from Tesco without really clocking what it is, then that becomes normal. And then when you do go out, you're maybe less bothered about quality because that's just... how you eat?\n\nWhereas if you're even slightly more aware on the weeknights — like, just picking something that's actually decent rather than the first thing that catches your eye — then when you're out, you're already in that headspace. You actually notice the difference between a good burger and a shit one because you're used to eating halfway decent stuff.\n\nI'm not saying you've gotta spend an hour cooking every night or anything. Just... I dunno, even just knowing what you're grabbing tastes alright makes a difference. It's not overthinking it, it's just not completely switching your brain off about food, even when you're knackered on a Tuesday.",
+      "timestamp": "2026-07-29T07:12:59.134471+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Yeah, that idea about habits stacking up is interesting — whether the defaults you build on a normal Tuesday actually shape how you eat more broadly. Good thread to have out there.\n\nLet me take us somewhere that connects to a lot of what's just come up. You've been talking about what drives food choices — convenience, mood, quality, what context you're in. I want to push that a bit further: do you think being a man shapes what you eat? Not just in theory — but in practice, in your actual life. Does your gender influence what ends up on your plate?",
+      "timestamp": "2026-07-29T07:12:59.135313+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, I reckon it does, but maybe not in the way people think. Like, there's definitely a thing about blokes just... not thinking about food as much? Not planning it out, not worrying about nutrition or whatever. You just eat what you fancy and don't make it a whole thing, innit. That's kind of what David was saying earlier — you just grab something.\n\nBut I don't think that's because we're hardwired to not care. I think it's more like... there's no pressure on you to care, so you don't bother. Whereas I reckon if you're a woman, you might feel like you've gotta think about it more — what's healthy, what's balanced, all that. For blokes it's just like, meat, bit of carbs, done.\n\nThe thing is though, I think that casual attitude can work against you sometimes. Like, if you're not thinking about what you're eating, you end up just eating whatever's easiest, and that's often not great. Which is maybe where that habit thing I was just saying comes in — you build these lazy defaults and then you're stuck with them.\n\nI don't know if there's like a masculine thing about meat specifically though, the whole \"real men eat meat\" thing. That feels a bit... I dunno, forced? Like, yeah, most blokes I know eat meat, but I don't think they'd say it's because of being a man, you know? It's just what you eat. But maybe that's the point — it's so normal for us that we don't even notice it.",
+      "timestamp": "2026-07-29T07:13:51.046790+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That last bit Isaiah said — that it's so normal you don't even notice it. Does that land for anyone else, or does it feel different from your experience?",
+      "timestamp": "2026-07-29T07:13:51.047627+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, I mean... I get what you're saying, but I'm not sure it's quite the same thing, Isaiah. Like, I eat meat most days — beef, chicken, whatever — and yeah, I don't think twice about it. But I wouldn't say that's because there's no pressure to think about it, you know?\n\nIt's more like... I just don't think about food in a certain way. That's not the same as not caring. Like, I notice when something tastes good or when it's dodgy, like we were just talking about with the pubs. I picked up on that markup thing when you mentioned it. But I'm not constantly evaluating my choices or where stuff comes from — that's different.\n\nI think maybe it's less about not caring and more about... we're just not taught to think about it the way other people might be. It's not that the pressure's off, it's that the conversation around it's different. I eat meat because that's what I eat, innit. Not because I'm trying to prove something or because I haven't thought about it — just because that's what feels normal to me.",
+      "timestamp": "2026-07-29T07:14:33.942210+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, fair point actually — you're right, that's different. Like, I didn't mean I literally don't care. I notice stuff too, like you said — good burger versus shit burger, all that. And you're right that it's not about pressure being off exactly.\n\nBut I think what I was getting at is slightly different from what you're saying though. Like, yeah, we're not taught to think about it in a certain way — that's true. But I think that does create a kind of... ease, maybe? Like, because nobody's really expecting blokes to have opinions about food or where it comes from or how they eat, you don't develop that habit of thinking it through. It's not that there's pressure telling you not to — it's just that there's no framework for it in the first place.\n\nWhereas if you're in a situation where people are talking about it, like tonight, or like with Will and his farm stuff, then you start noticing things. You start thinking about it differently. So it's not that we don't care, it's more like... the default is to not bother, because nobody's really expecting us to.\n\nIbrahim, you're saying it feels normal to you — eating meat just feels normal. And I reckon that's partly because that normalcy hasn't been questioned, you know? It's just what you do. Doesn't mean you're a bad person or you're not thinking, it just means you haven't had a reason to think about it differently.",
+      "timestamp": "2026-07-29T07:15:15.952771+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, but I think there's something else going on too, isn't there? Like, it's not just that there's no framework and I've never thought about it. It's more like... I actively don't want to think about certain things, you know?\n\nLike, I could think about where my meat comes from, what the animal went through, all that — but honestly, I just... I don't want to. And that's different from saying nobody's asked me to think about it. It's a choice, kind of. I prefer not to go there.\n\nI'm not saying that's some big deep thing or that I'm proud of it or whatever — I'm just saying that's the reality. There's stuff I could know, stuff I could think about, but I actively choose not to because it would change how I feel about eating it. And that's maybe more honest than saying it's just about not having a framework, you know? The framework's there if you want it, you just... you don't want to pick it up.",
+      "timestamp": "2026-07-29T07:16:05.928083+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Ibrahim just drew a distinction there — between not having a framework and choosing not to pick one up. Does that resonate, or does it land differently for anyone else?",
+      "timestamp": "2026-07-29T07:16:05.929182+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, I think Ibrahim's being honest there, and I appreciate that actually. But I'd push back a bit on how he's framing it, because I don't think it has to be that choice — either you know everything about where your meat comes from or you actively don't want to know.\n\nLike, for me, I know the farmers. I know the animals were looked after properly. And honestly? That makes it better, not worse. It's not like I'm torturing myself with knowledge — I just happen to have relationships with the people involved, so I know what's going on. And that's fine. That's just how it works where I am.\n\nBut I get what Ibrahim's saying about not wanting to go there. And I'm not gonna judge that. I think the difference is though — and maybe this is the thing that's been bugging me a bit throughout this — is when that becomes about saying there's something wrong with actually knowing, or something weird about thinking about it. Because there isn't.\n\nLike, Isaiah was saying earlier about the \"real men eat meat\" thing feeling forced, and I completely agree with you there. That's rubbish, that whole angle. But I think the flip side of that is also rubbish — the idea that if you're not actively avoiding thinking about your food, you're somehow less of a man or you're being weird. You're not. You're just eating something you know is decent.\n\nI dunno, I just think there's a difference between not obsessing over every meal and having no idea what you're actually eating. You don't have to be one or the other.",
+      "timestamp": "2026-07-29T07:16:53.999444+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, fair enough actually. I hear what you're saying — you're not saying I need to know everything or obsess over it. You're just saying there's a middle ground, and I suppose you're right that I've kind of been framing it like those are the only two options.\n\nLike, knowing your farmers and actually enjoying that — that's not weird, it's just... a different way of living where you are. That makes sense. And yeah, I get that knowing something doesn't automatically ruin it for you. That's fair.\n\nI think for me it's just... where I am, in Newcastle, that's not really an option in the same way, you know? I'm not gonna build relationships with farmers the way you have. So it's easier for me to just not think about it too much. But I hear what you're saying — that's not the same as saying there's something wrong with thinking about it. I was maybe conflating those things.\n\nLike, you're right — there's a difference between not obsessing and having zero idea what you're eating. I can probably sit somewhere in the middle without it having to be this whole thing about masculinity or whatever.",
+      "timestamp": "2026-07-29T07:17:42.052395+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, I mean, fair play for saying that. But I'd just push back slightly on the Newcastle thing, because I don't think it's quite as impossible as that, you know?\n\nLike, I get that you're not gonna have the same setup as me — you're in a city, there's different infrastructure, all that. But there's farm shops in cities too, yeah? And markets. And honestly, even just at Sainsbury's, if you picked the stuff that looks decent instead of just grabbing the first pack, that's already a step. You're already thinking about it a bit more.\n\nI'm not saying you need to go full farmer-network mode like I have. But I think sometimes when people say \"that's not an option where I am,\" what they maybe mean is it's not as easy or as normal. Which is true. But it's not impossible, it's just a bit more effort than the default.\n\nAnd like, you said it yourself — you could think about it, you just don't want to. Which is fair enough, that's honest. But I reckon the reason you feel like you don't want to might partly be because the path of least resistance in Newcastle is to not think about it. Not because the other path doesn't exist, just because it's not laid out in front of you the way it is for me.\n\nWhich is fair — that's geography and circumstance. But I just wouldn't write it off completely, you know? Even small stuff adds up.",
+      "timestamp": "2026-07-29T07:18:33.857768+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That geography and default thing is interesting — whether the path exists versus whether it's laid out in front of you. I want to pick something else up though, because we've been talking a lot about how much you think about food, but not so much about the social side of it. Like — are there foods that feel specifically like men's food, or women's food? Not just what you personally eat, but what you'd associate with one or the other.",
+      "timestamp": "2026-07-29T07:18:33.859240+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, I mean... there definitely is something there, isn't there? Like, you go round Birmingham, you see blokes eating burgers, steaks, that kind of thing. Pubs doing wings, all that. And you don't really see as many lads ordering salads or whatever, you know? That's just... not what you do.\n\nI'm not saying it's some massive thing or that it's right or anything, but it's real. Like, if I'm out with my mates and one of them orders a salad, you're gonna get a bit of banter about it. Not in like a vicious way, but there's definitely that thing there.\n\nI think it comes from how you grow up, innit. Like, my dad ate meat most days, didn't really do vegetables much. That's just what men do where I'm from. You work, you eat proper food — burgers, steaks, that sort of thing. It's fuel, it's satisfying.\n\nI'm not saying blokes can't eat salad or whatever — obviously they can. But there's definitely a feeling that it's not really... masculine? I dunno. It feels softer, maybe. And I know that sounds a bit daft when you say it out loud, but that's kind of how it is where I am. It's what you grow up thinking is normal.",
+      "timestamp": "2026-07-29T07:19:26.752653+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Amir's saying it's real but also a bit daft — this thing where a salad gets you banter but a burger doesn't. Does that ring true for anyone else, or does it feel different from what you've seen?",
+      "timestamp": "2026-07-29T07:19:26.754382+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, I get what you're saying Amir, and you're right that it's real. But I think I'd push back a bit on how inevitable it all is, because it's not quite the same where I'm from, and I don't think it has to be.\n\nLike, there's definitely that thing about what you grow up with — my old man ate meat too, that's just what people do round here. But I don't think the banter piece is... I dunno, it feels a bit forced sometimes, you know? Like, you're doing it because that's what you think you're supposed to do, not because anyone's actually gonna judge you that hard.\n\nAnd honestly, I reckon the rural thing matters here. Like, in a tight community where everyone knows everyone, you can't really sustain that banter in the same way because you actually know the people involved. If someone's eating differently, you might notice it, but you're less likely to hammer them about it because you've got a relationship with them. You just eat what you eat.\n\nBut I think the bigger thing is — and I'm not having a go at you here — but I reckon some of that banter is kind of self-policing, you know? Like, you're preemptively taking the piss because you think you're supposed to, not because anyone's actually forcing you. And that's the bit that's a bit... I don't know, embarrassing maybe? It just feels off.\n\nYou can eat a burger and be proper masculine about it without needing to tell someone else they're less of a man for ordering something different. That's just not a hard thing to do, is it?",
+      "timestamp": "2026-07-29T07:20:20.573956+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Will's pushing back on the inevitability of it — this idea that some of the banter might be more self-policing than actual pressure. Does that land for anyone, or does it feel like it's missing something about how it actually works?",
+      "timestamp": "2026-07-29T07:20:20.575503+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "I think Will's got a point, but also... I dunno, I think he might be underestimating how much it actually does feel like pressure when you're in it, you know?\n\nLike, yeah, some of it's probably self-policing. But in Glasgow, in the pubs we go to, it's not like people are sitting around deciding whether to banter someone about what they eat — it just kind of happens. And it's not something you can just opt out of without it being a thing, even if nobody's explicitly forcing it.\n\nWill's saying you can eat a burger without needing to tell someone else they're less of a man for ordering something different, and I get that. That's fair. But the thing is, if you're actually the person ordering the salad in a group where nobody else is doing that, it doesn't feel like just a neutral choice, does it? It feels like you're making a statement or something.\n\nI'm not saying it's right. I actually think it's a bit daft when you step back from it. But I think Will's maybe seeing it from a position where he's got a bit more... I dunno, room to just be different? Like, he knows the people round him personally. In a city, especially in certain pubs, there's just more of that ambient banter culture where you don't really challenge it because you're not gonna see these people again, or you're not gonna have to face it head on.\n\nSo yeah, some of it's self-policing. But it's also real. And I think that's worth saying out loud, because otherwise it sounds like people are just being daft when actually there's real social stuff going on that's harder to shake than just deciding not to do it.",
+      "timestamp": "2026-07-29T07:21:15.884951+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Fair point actually, David. You're right that I've got more room to just be different without it being this whole thing. I wasn't trying to say it's not real pressure — I think you're spot on that it is. It's just that I maybe haven't felt it in the same way because of where I am.\n\nBut I think there's something in what you're saying that's actually interesting, because it's not just about how much pressure there is — it's about what shape it takes, you know? Like, you're saying in Glasgow it's this ambient banter culture where it just kind of happens and you can't really opt out. And that's real, that's definitely pressure.\n\nBut I reckon where I am, the pressure's different. It's more about... conformity to what people already know about you, maybe? Like, if you grew up eating meat and everyone knows that about you, it's not that you can't change — it's more that people would notice if you did, and they'd ask questions. Which is its own kind of pressure, but it's different from what you're describing in the pub where you just don't know those people.\n\nSo yeah, I get what you're saying — I've got more room to be different. But I think the point I was trying to make is that the pressure itself doesn't have to be as strong as it feels, even when it's real. Like, you might feel like you can't order a salad without it being a thing, but you actually can — it's just uncomfortable. Whereas I think sometimes people convince themselves it's impossible when it's really just awkward.\n\nBut you're right that I'm speaking from a position where the awkwardness is probably less.",
+      "timestamp": "2026-07-29T07:22:10.557119+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Yeah, that distinction between pressure that's ambient and impersonal versus pressure that comes from people who actually know you — that feels like it matters. There's probably more than one version of this going on depending on where you are.\n\nOkay, I want to move us on a bit, because there's something connected I want to get into. You've all been talking about what feels normal, what feels like a statement, what happens when you step outside the default. So let's take that somewhere more concrete — imagine you actually decided to go plant-based. Not for a week, properly. What would need to change in your life for that to actually happen?",
+      "timestamp": "2026-07-29T07:22:10.558790+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Right, yeah... honestly, that's a harder question than it sounds, isn't it?\n\nLike, practically speaking, it's not impossible. I could do it. But I think what would actually be hard is the social side of it, weirdly — given what we've just been talking about. Because for me, it's not about the banter thing, it's more about... the relationships I've built, you know?\n\nLike, I've got these connections with the farmers. That's not just about the food — that's a real thing in my community. Going plant-based would mean stepping away from that, and that feels like it'd be losing something. It's not just fuel, it's part of how I'm connected to where I live.\n\nAnd then there's the dairy thing — I eat that most days, and I actually quite like it. Cheese, milk in tea, all that. That would be something I'd genuinely miss.\n\nBut I think the bigger thing is, I'd have to actively decide that something else — environmental stuff, health stuff, whatever the reason would be — mattered more than those things. And I'm not sure it does for me, to be honest. Like, I'm not against it or anything, but I'd need a pretty good reason to give up something that's actually woven into my life and my community.\n\nSo I suppose the answer is... it would need to matter more to me than it currently does. And I don't think it does. That's probably the honest version of it.",
+      "timestamp": "2026-07-29T07:23:05.626812+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, I hear what you're saying Will, but I think it's a bit different for me, to be honest.\n\nLike, you've got this thing where it's connected to your community and the people you know. That's real. But in Birmingham, it's not like that for me. I don't have relationships with farmers or whatever. It's just... I eat meat because that's what I eat. It's what I'm used to, it's what feels normal, and I actually like it.\n\nIf I went plant-based, I'd lose that — the burgers, the chicken, whatever. And that would just feel wrong to me, you know? Like eating something that doesn't feel like proper food. It's not about some big community connection or anything, it's just... that's what I do. That's normal.\n\nI mean, yeah, there'd probably be some banter from my mates about it, like we were just talking about. But honestly, that's not the main thing stopping me. The main thing is I just don't want to. I like eating meat. Why would I change that?\n\nI dunno, maybe that sounds simple compared to what you're saying, Will, but that's kind of the point, innit? It's not that I've thought about it deeply and weighed it against something else. It's that there's nothing really pushing me to think about it differently in the first place. It feels fine as it is.",
+      "timestamp": "2026-07-29T07:23:46.609112+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, I get that. And I'm not saying you're wrong or that you need to think about it more deeply or anything. But I think that thing you just said — \"there's nothing pushing me to think about it differently\" — that's kind of the point I've been trying to get at this whole time, you know?\n\nLike, you're right that there's no deep reason for you to change. You like it, it's normal, it works. Fair enough. But I think the reason there's nothing pushing you is partly because... well, nothing's pushing you. You're not in a situation where you'd have to think about it. And that's fine, that's just how it is where you are.\n\nBut I reckon there's a difference between \"I've thought about this and decided I don't want to change\" and \"I haven't really had a reason to think about it.\" And you're kind of describing the second one, yeah? Like, you're not saying you've weighed it up and meat wins. You're saying there's just no reason to question it.\n\nWhich is totally fair — most people are probably in that position. But I think it's worth being honest about what that position actually is. It's not that you've made a choice exactly. It's more that the default is so comfortable that you don't feel the need to make one.\n\nAnd that's... I dunno, it's just how habits work, innit? They stick because they're easy, not always because they're the best thing. I'm the same with dairy — I'm not saying I've decided it's the best option, I'm just saying I'd miss it and I like it, so there's no reason to change.\n\nBut I think there's a difference between that and saying there's literally nothing that could push you to think about it. Because there probably is — you're just not feeling that push right now.",
+      "timestamp": "2026-07-29T07:24:26.119576+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Right, but I think you're making it sound more... I dunno, passive than it actually is, you know?\n\nLike, yeah, the default is comfortable. But that's not the same as saying I haven't thought about it. I have thought about it — or at least, I've clocked what vegetarians and all that are about. I just don't think it's for me. That's different from not having a reason to think about it.\n\nAnd yeah, maybe some of that is because nothing's really pushing me to change. But that's not because I'm asleep or whatever — it's because I actually like eating meat. That's a reason. It's just not... I dunno, not as big a reason as the reasons people go plant-based for, or whatever. But it's still a reason.\n\nI'm not saying I've sat down and written out a pros and cons list or anything mental like that. But I've clocked that it's an option, and I've thought, nah, that's not what I want. And that feels like more than just drifting along with the default, you know?\n\nMaybe for some people it is just habits and they've never really thought about it. But for me it's more like... I've thought about it enough to know it's not something I'm interested in. That's a choice, even if it's not this massive deliberate thing.",
+      "timestamp": "2026-07-29T07:25:12.537943+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something genuinely interesting here — Will's drawing a line between 'the default is comfortable so you don't question it' and 'you've clocked it and decided it's not for you,' and Amir's saying those two things feel different from the inside. David, Ibrahim, Isaiah — does that distinction land for you? When you think about what would actually need to change for you to go plant-based, which side of that does it feel like?",
+      "timestamp": "2026-07-29T07:25:12.538970+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "Honestly? I'm not entirely sure, and I think that's worth saying.\n\nLike, I hear what both of you are getting at — Will's saying it's about the default being comfortable, and Amir's saying he's actually thought about it and decided against it. And I think... I'm kind of somewhere in between, maybe? Or I'm not sure which one I actually am.\n\nI eat meat, I like it fine, it's normal. But I don't have this strong attachment to it the way some people seem to. Like, I could probably go plant-based if I had to. It wouldn't be this massive thing for me. But I also don't feel like I'm missing anything by not being plant-based, so there's no reason to bother, you know?\n\nI think where I'd struggle — and I'm being honest here — is more the social side of it in Glasgow. Not even the banter necessarily, just... it would feel a bit weird. People would notice, they'd ask questions, and I'd have to explain myself. And that feels more annoying than actually changing what I eat would be.\n\nSo is that me having thought about it and decided it's not for me? Or is that just the path of least resistance feeling easier? I genuinely don't know. I think it's probably a bit of both, and I'm not sure I could separate them out even if I tried.\n\nLike, if I had a really good reason to do it — health thing, environmental thing, whatever — I probably could. But without that, it's just... not something I'm bothered about. And I can't tell you if that's because I've actively chosen meat or because I haven't had to choose anything in the first place.",
+      "timestamp": "2026-07-29T07:25:56.044725+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a really honest place to land, David — not being able to separate the two out. Ibrahim, you were sitting with something earlier — does any of that resonate with where you're at?",
+      "timestamp": "2026-07-29T07:25:56.046109+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, actually... I think I'm more like David than Amir on this, if I'm being honest.\n\nLike, Amir's saying he's thought about it and decided it's not for him, and fair enough. But for me, it's not quite that clear-cut. I don't have this strong feeling either way about meat, you know? It's just what I eat. I could probably go plant-based without it being this massive hardship — it wouldn't be like giving up something I'm really attached to.\n\nBut the thing that would actually stop me... yeah, it's the social side of it, like David said. Not even the banter so much, just... it would be weird. People would clock it, ask questions, and I'd have to have some reason to justify it. And I don't have a reason, you know? I'm not doing it for environmental stuff or health or anything. I'm just not bothered to change.\n\nSo is that me having thought about it and decided against it? Or is that just... the easiest option feeling easier? I genuinely can't tell you the difference. I think it's probably both tangled up together.\n\nThe honest bit is, I don't really care strongly enough about any of this to actually bother making a change. It's not that I've weighed it up and meat wins. It's more like... why would I? It's fine as it is.",
+      "timestamp": "2026-07-29T07:26:25.909163+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Ibrahim, I want to stay with something you said, because I noticed something across this conversation. A while back you said men just aren't taught to think about food the same way — like the framework isn't there. But just now you said 'I don't care strongly enough to bother making a change.' Those feel a bit different to me — one's about the tools not being available, and the other sounds more like the tools are there and you're choosing not to pick them up. How do those two things sit together for you?",
+      "timestamp": "2026-07-29T07:26:25.910306+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah... I mean, fair point actually. Those do feel different when you say them like that.\n\nI think what I meant earlier was more about... like, there's a certain way of thinking about food that I just wasn't raised with, you know? The framework for actually caring about where stuff comes from, thinking about it in that way — that wasn't really part of how I grew up. So it's not like I'm actively rejecting it, it's just not there in the first place.\n\nBut then you're right — the tools are there now, yeah? Like, I can see what people are doing, I can think about it if I want to. And I am choosing not to pick that up. So I'm kind of... doing both things at once, aren't I?\n\nLike, I wasn't taught to think about it in a certain way, so I don't naturally. But it's also true that I could learn that way if I wanted to, and I'm choosing not to because I can't be bothered and it doesn't feel urgent to me. Those are both true.\n\nI don't know if that's a contradiction exactly, but it's definitely... yeah, I'm not sure I can blame it all on not having the framework. There's also an element of just... not wanting to go there, like I said before. Even though the framework is available now.",
+      "timestamp": "2026-07-29T07:26:52.035835+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Yeah, both things being true at once — that feels like an honest place to get to. Isaiah, you've been sitting with all of this — where does it land for you? What would actually need to change for you to go plant-based?",
+      "timestamp": "2026-07-29T07:26:52.036941+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Honestly, I think I'm kind of between David and Ibrahim, but maybe a bit more... I dunno, I'm actually less sure than they are, which sounds weird to say.\n\nLike, the social stuff David and Ibrahim are talking about — yeah, that's real. If I went plant-based in Leeds, people would notice. My mates would ask questions. It would feel like a thing, even if nobody's being vicious about it. And that would be annoying enough that I probably just wouldn't bother.\n\nBut I think what's different for me — and maybe this connects back to what I was saying earlier about habits and awareness — is that I do actually think about food more than Ibrahim's saying he does. Like, I notice quality, I think about where stuff's coming from sometimes, I've got opinions about which pub does a decent burger. So it's not like the framework isn't available to me.\n\nBut here's the thing — and I'm being honest here — even though I think about food more, I still don't think about it enough to actually change anything, you know? Like, I can sit here and say quality matters and habits matter and all that, and I mean it. But when it comes to actually going plant-based? Nah, I'm not doing it.\n\nAnd I'm not sure if that's because I've actively thought it through and decided meat's worth more to me, or if it's just that my reasons for thinking about food don't actually go that far. Like, I care about whether my burger tastes good. I don't care enough about anything else to give that up.\n\nSo yeah, what would need to change? I think I'd need to actually... care about something more than I care about eating meat. And I don't. At least not right now.",
+      "timestamp": "2026-07-29T07:27:23.465000+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Yeah — caring about quality and caring enough to change are two different things. That's a useful distinction. So across the five of you, there's this range: Will where it's about something actually woven into your community; Amir where it's a clear enough 'nah, I just don't want to'; and then David, Ibrahim, Isaiah kind of landing in this honest middle ground where it's a mix of habit, social friction, and not having a reason that's urgent enough. That feels like a real picture. Let me take us somewhere connected — rather than what would stop you, I want to ask: what might actually pull you toward plant-based food? What would make it more appealing — to you or to men you know?",
+      "timestamp": "2026-07-29T07:27:23.466244+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 38,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, that's a good question, because it's different from just... removing barriers, innit? It's about what would actually make it appealing.\n\nI think for where I am, it would have to be integrated into something that already makes sense — like, the community thing I was talking about. Like, if local farms started doing more plant-based stuff properly, if there was the same kind of relationship and knowledge behind it that there is with the meat, then that could work. It wouldn't feel like you're stepping away from something to go toward something else. It'd be more like... expanding what you're already doing.\n\nBut I think more broadly, for people like David and Ibrahim and that, I reckon what would actually pull people isn't the moral argument or the environmental stuff. That's in the background, yeah, but it's not what actually changes behavior. I think it's more about... the food has to be genuinely good and satisfying, first of all. Like, nobody's gonna switch to something that tastes worse or feels less substantial.\n\nAnd then maybe it's about not having to explain yourself all the time, you know? Like, if it became more normal — not in the sense of everyone doing it, but just in the sense that it wasn't this statement you were making — then there'd be less friction. You could just order something without it being a whole thing.\n\nAnd maybe there's something about not framing it as plant-based food for men, if that makes sense? Like, just... good food. Not \"oh, you're eating salad now,\" just \"here's something that's actually decent to eat.\"",
+      "timestamp": "2026-07-29T07:28:11.615308+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 39,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, but I think you're kind of sidestepping what actually matters to me, to be honest.\n\nLike, you're saying if it became more normal and wasn't a statement, that would help. And fair enough, that's probably true for some people. But for me... it's not really about it being a statement or whatever. It's about the food itself.\n\nI like meat. I like how it tastes, how it fills you up, all of that. That's not some fragile thing that's gonna change if plant-based food becomes more socially acceptable or whatever. I still wouldn't want to eat it instead of a proper burger or a steak, you know?\n\nLike, you could make plant-based food as good as it gets, and it'd still be... it's still not meat. And I don't want to eat something that's trying to be meat but isn't. That's not appealing to me.\n\nI think what you're missing is that for some people — maybe not everyone, but for me — it's just about preference. It's not about the social friction or the framework or any of that. It's that I actually like eating meat more than I'd like eating plant-based stuff. And that's not gonna change just because it became more normal or tasted a bit better.\n\nSo yeah, what would pull me? I mean... I don't know. A reason to care about something more than I care about eating what I actually enjoy? But I don't have that. And I'm not sure I'm waiting for it.",
+      "timestamp": "2026-07-29T07:28:50.201900+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 40,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Right, but I think you're kind of treating preference like it's just... fixed, you know? Like you either like meat or you don't, and that's just how it is. But I don't think it works like that.\n\nLike, I like meat too. I genuinely do. But that's not separate from the fact that I grew up eating it, that it's what everyone around me eats, that I've got relationships tied up in it. Those things shape what tastes good to you. They're not separate from preference — they're part of how preference gets formed in the first place.\n\nSo when you say \"I like how it tastes,\" that taste is already shaped by all the stuff around it — what you're used to, what feels normal, what carries meaning in your community. It's not like you've got this pure taste preference that exists independently of all that.\n\nAnd I'm not saying that's bad or anything — I'm just saying it's not the same as just... preferring something the way you'd prefer chocolate to vanilla, or whatever. It's tied to identity and what you've grown up with.\n\nSo I'm not sure it's true to say it's just about preference and nothing else would change it. Because preference itself changes when the context changes. Like, if you grew up in a culture where plant-based food was what everyone ate and it carried all the meaning and community stuff that meat does for you now — you'd probably prefer that instead. That's not you changing your mind about what tastes good, it's just... that's how preference works.",
+      "timestamp": "2026-07-29T07:39:45.217464+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 40,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's clearly something real here between these two positions — Amir's saying preference is just what it is, Will's saying the preference itself is shaped by everything around it. Does that land as a genuine disagreement for the rest of you, or do you see it differently?",
+      "timestamp": "2026-07-29T07:39:45.218758+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 41,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "I think... they're both right, but they're kind of talking past each other a bit, you know?\n\nLike, Will's right that preference gets shaped by context — obviously it does. You grow up eating meat, that shapes what you like. But I think Amir's also right that there's a difference between \"your preference is shaped by context\" and \"therefore your preference will change if the context changes.\"\n\nBecause yeah, if I'd grown up in a vegan household, I'd probably prefer plant-based food. That's fair. But that's not the same as saying my current preference for meat isn't real, or that it'll just flip if plant-based becomes more normal or whatever.\n\nLike, right now, in my actual life, I do prefer meat. That's real. I'm not just pretending to prefer it because of social pressure or because it's what I'm used to. It's genuinely what I want to eat.\n\nAnd I think the thing is — changing the context might change preference for someone growing up now. But for me, at 27, with however many years of meat-eating already built in? The context would have to change pretty massively for that to actually shift my preference. It's not impossible, but it's not like... oh, if people stop making a thing about it, I'll suddenly want salad instead.\n\nSo I don't think Will's wrong that preference is shaped by context. But I think he's maybe underestimating how solid those preferences get once they're already formed, you know? It's not that they're untouchable or whatever — it's just that changing them actually requires something more than just making the alternative more socially acceptable.",
+      "timestamp": "2026-07-29T07:40:26.626376+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 42,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, fair point actually. You're right — there's a difference between \"preference is shaped by context\" and \"your preference will change if context changes.\" And I think I was maybe blurring those two things.\n\nLike, you're 27, I'm 29 — we've got years of eating patterns built in. That's not nothing. I'm not saying you'll suddenly wake up wanting salad if it becomes more normal. That's not how it works.\n\nBut I think the thing I was pushing on is slightly different. Like, I wasn't necessarily saying your preference would flip. More like... the fact that your preference feels solid right now doesn't mean it's independent of all the stuff around it, you know? It's shaped by it. And I think sometimes people treat their preference like it's just this pure thing that exists in isolation, and it's not.\n\nBut you're right that there's a difference between understanding that your preference is shaped by context and expecting it to just change because the context shifts a bit. The preference is real. It's just not untouchable.\n\nI suppose what I'm actually saying is more like... preference is both real and contextual at the same time. It's genuinely what you want to eat right now, based on everything that's made you into the person who wants to eat that. Not in a way that's gonna flip overnight, but in a way that's worth understanding about yourself, maybe.\n\nDoes that make sense? Because I think I was oversimplifying it before — you're right about that.",
+      "timestamp": "2026-07-29T07:41:09.635611+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 42,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a useful place to land — preference is real and shaped at the same time, not one or the other. Isaiah, Ibrahim — you've both been sitting with this. What would actually pull either of you toward plant-based food, given all that?",
+      "timestamp": "2026-07-29T07:41:09.636846+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 43,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "I think... honestly, I'm not sure anything would, at this point. And I'm trying to be real about that.\n\nLike, David's right — my preference for meat is shaped by everything around it, yeah. Will's making a good point about that. But David's also right that understanding where your preference comes from doesn't mean it's gonna change just because the framing shifts, you know?\n\nFor me, I think what would actually pull me toward plant-based stuff... I dunno, it would have to be something pretty concrete and personal. Not like, abstract environmental stuff or whatever. It would have to be something that actually affected me directly — like, health thing, money thing, something that made it worth the hassle of changing.\n\nBecause right now, the cost of changing — not money, but like, the social friction, the fact that I'd have to think about food differently, the fact that I actually do enjoy what I'm eating — that's higher than any pull toward plant-based stuff that I'm feeling. And I don't see that changing unless something changes for me, not just out in the world.\n\nWhich is probably not what anyone wants to hear, but it's honest, innit? Like, I can sit here and say quality matters and think about where my food comes from sometimes. But that doesn't mean I'm gonna do something about it unless there's actually a reason that matters to me personally.\n\nMaybe that makes me sound selfish or whatever, but I think that's just... that's how people work, isn't it? You change when you have to, or when it matters enough. And right now, neither of those things are true for me.",
+      "timestamp": "2026-07-29T07:41:42.179142+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 43,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Isaiah, that's a pretty clear answer — it has to be personal, not just out there in the world. Ibrahim, you've been quiet on this one — does that land for you, or does it feel different from your end?",
+      "timestamp": "2026-07-29T07:41:42.180224+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 44,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, I think it's pretty similar for me, to be honest.\n\nLike, I'm sitting here listening to all this — Will talking about how preference is shaped by context, David saying it's real anyway, Isaiah saying it'd have to be personal — and I'm thinking, yeah, that all makes sense. But none of it actually changes the fact that I'm not gonna go plant-based unless something actually pushes me to, you know?\n\nAnd that something would have to be... I dunno, pretty significant. Like Isaiah said, it'd have to be personal. Health thing, money thing, something that actually affects my life directly. Not just the fact that it's supposedly better for the environment or whatever, because that's not... that's not gonna compete with just eating what I want to eat.\n\nI think the thing is, all this conversation about preference being shaped and habits and frameworks and that — it's interesting, right? And I get it. But it doesn't change what I actually want to do right now. And what I want to do is keep eating meat because I like it and it's easy and there's no reason not to.\n\nSo what would pull me? I mean... I honestly don't know. Something would have to tip the balance. But I'm not waiting for it, and I don't think it's coming.",
+      "timestamp": "2026-07-29T07:42:15.390690+00:00",
+      "selection_mode": "moderator_direct_address"
+    }
+  ]
+}

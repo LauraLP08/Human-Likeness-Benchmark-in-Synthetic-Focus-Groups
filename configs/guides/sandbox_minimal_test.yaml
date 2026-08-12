@@ -1,0 +1,66 @@
+# Sandbox guide for INSTRUCTIONS_SANDBOX_MINIMAL_MODERATOR_PILOT.md.
+# 3 main_topic-weighted sections only (no intro/context/closing), reusing
+# the exact three main_topic questions and suggested_probes from
+# configs/guides/macho_meals_plant_based_masculinity_uk.yaml verbatim, for
+# maximum comparability with the already-audited costfix_validation_fg1/fg5
+# data. guide_id/title/description/topic_domain/participant_collective_identity/
+# moderator_knowledge_brief are kept identical to the production guide (same
+# topic) — only the file name and the trimmed section list differ.
+#
+# Section 1 opens with a short duration-framing line ("about 20 minutes")
+# since prompts/sandbox/03_SESSION_OPENING_PROMPT_SANDBOX.md reads the
+# stated duration from this section's scripted_question. At ~112 words/min
+# over ~20 minutes that's ~2,240 words total across 3 sections (~750
+# words/section) — calibrated against costfix_validation_fg1's organic,
+# no-budget-pressure output on these same three sections (4,359 / 6,486 /
+# 4,394 participant words; 22 / 27 / 19 turns) so that budget pressure binds
+# after roughly the 3rd-4th participant turn rather than the 1st.
+
+guide_id: macho_meals_plant_based_masculinity_uk
+
+title: "Macho meals? Traditional masculine norms and animal product consumption in the UK"
+description: |
+  Focus group guide exploring how men in the UK make everyday food
+  choices, how social context, work, hobbies, health, taste and other
+  people shape what they eat, how gender and masculinity may influence
+  food choices, and what would need to change for plant-based foods to
+  become more acceptable or appealing.
+
+topic_domain: "Masculinity, food choice, animal product consumption, and plant-based eating"
+participant_collective_identity: "Men in the UK reflecting on food choices, male friendship, gender norms, and plant-based eating"
+moderator_knowledge_brief: |
+  Explore (1) everyday food decision-making, (2) the social contexts in
+  which men spend time with male friends, (3) the influence of other
+  people, work, hobbies, health, nutrition and taste on food choices,
+  (4) whether participants perceive gender as shaping what they eat,
+  (5) social acceptability and gendered meanings attached to vegetarian,
+  vegan, plant-based, feminine or masculine foods, and (6) what personal,
+  social and practical changes would make plant-based eating more viable
+  or appealing. The discussion should remain exploratory, non-judgmental,
+  and non-leading.
+
+sections:
+  - label: "Gender and food choice"
+    phase: "main_topic"
+    scripted_question: |
+      Hi everyone, thanks for joining. We're going to take about 20 minutes to talk today.
+      Do you think your gender influences what you eat? Tell us more about why or why not.
+    suggested_probes:
+      - "Is it socially acceptable for men to eat vegetarian or vegan foods?"
+      - "Are some foods considered feminine?"
+      - "Are some foods considered masculine?"
+
+  - label: "Imagining a plant-based shift"
+    phase: "main_topic"
+    scripted_question: |
+      Imagine you decided to go plant-based — what would need to change in
+      your life for you to do that?
+    suggested_probes:
+      - "How would your family and friends react to this?"
+      - "How might it change the way you shop or cook?"
+
+  - label: "Making plant-based foods more appealing"
+    phase: "main_topic"
+    scripted_question: |
+      What might make plant-based foods more appealing to you or other men
+      you know?

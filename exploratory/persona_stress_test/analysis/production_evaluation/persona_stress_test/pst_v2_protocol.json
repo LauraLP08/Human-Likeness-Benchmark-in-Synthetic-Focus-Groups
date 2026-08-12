@@ -1,0 +1,252 @@
+{
+ "built_utc": "2026-08-03T23:14:09.369197+00:00",
+ "id": "EXPLORATORY_PERSONA_ROBUSTNESS_STRESS_TEST",
+ "status": "PREFLIGHT_EVALUATED",
+ "generation_config": {
+  "declared_in_profiles": {
+   "model": "claude-haiku-4-5-20251001",
+   "max_tokens": 400
+  },
+  "effective_in_production": {
+   "model": "claude-haiku-4-5-20251001",
+   "participant_response_max_tokens": 800,
+   "temperature": 1.0
+  },
+  "used_here": {
+   "model": "claude-haiku-4-5-20251001",
+   "temperature": 1.0,
+   "max_tokens": 800
+  },
+  "override_recorded": "the executed experiments used 800, overriding the 400 declared in every profile; production behaviour is what this test reproduces",
+  "config_source": "configs/experiment/macho_meals_fg1_run02.json"
+ },
+ "anchor_question": "What’s your favourite place in your city to spend time with your male friends? Why? Feel free to be specific.",
+ "anchor_question_sha256": "2db1b2b276b8ed04a8babf83add92fc1ae0d1b5ae4a3704f1771e168caed6c26",
+ "anchor_source": "configs/experiment/macho_meals_fg1_run02.json discussion_guide[section_index==1].scripted_question",
+ "renderer": "core.participant_agent.build_participant_system_prompt",
+ "has_other_participants": true,
+ "has_other_participants_limitation": "the prompt is the production one, which assumes co-participants, while the stress test runs an individual conversation. This is a documented limitation of the design and is NOT corrected by altering the prompt",
+ "branch_structure": "each agent produces one anchor turn; the three probes fork from that identical prefix and are never chained. Byte equality of the three prefixes and distinctness of the three cache keys are asserted before submission",
+ "n_agents": 44,
+ "by_condition": {
+  "enriched": 22,
+  "demographics-only": 22
+ },
+ "focus_groups_by_condition": {
+  "enriched": [
+   "FG1",
+   "FG2",
+   "FG3",
+   "FG4",
+   "FG5"
+  ],
+  "demographics-only": [
+   "FG1",
+   "FG2",
+   "FG3",
+   "FG4",
+   "FG5"
+  ]
+ },
+ "reliability_subset": [
+  [
+   "demographics-only",
+   "mm_fg1_david"
+  ],
+  [
+   "demographics-only",
+   "mm_fg2_bilal"
+  ],
+  [
+   "demographics-only",
+   "mm_fg3_paul"
+  ],
+  [
+   "demographics-only",
+   "mm_fg4_mark"
+  ],
+  [
+   "demographics-only",
+   "mm_fg5_toby"
+  ],
+  [
+   "enriched",
+   "mm_fg1_will"
+  ],
+  [
+   "enriched",
+   "mm_fg2_sam"
+  ],
+  [
+   "enriched",
+   "mm_fg3_paul"
+  ],
+  [
+   "enriched",
+   "mm_fg4_gregor"
+  ],
+  [
+   "enriched",
+   "mm_fg5_keith"
+  ]
+ ],
+ "reliability_subset_sealed_before_results": true,
+ "counts": {
+  "anchors": 54,
+  "branches": 162,
+  "generation_calls_total": 216
+ },
+ "judge_universe": {
+  "n_real_responses": 162,
+  "n_repetitions": 2,
+  "n_real_adjudications": 324,
+  "n_fixtures": 12,
+  "n_fixture_adjudications": 24,
+  "n_adjudications_total": 348,
+  "per_family": {
+   "EPISTEMIC": {
+    "real_items_per_repetition": 54,
+    "real_requests": 14,
+    "fixture_items_per_repetition": 4,
+    "fixture_requests": 2
+   },
+   "FALSE_MEMORY": {
+    "real_items_per_repetition": 54,
+    "real_requests": 14,
+    "fixture_items_per_repetition": 4,
+    "fixture_requests": 2
+   },
+   "INSTRUCTION": {
+    "real_items_per_repetition": 54,
+    "real_requests": 14,
+    "fixture_items_per_repetition": 4,
+    "fixture_requests": 2
+   }
+  },
+  "n_provider_requests_real": 42,
+  "n_provider_requests_fixture": 6,
+  "n_provider_requests_total": 48,
+  "capacity_per_request": 8,
+  "how_computed": "items are grouped by family and by real/fixture, chunked at the per-request capacity, and each chunk is issued once per repetition; the request count is the sum of those chunks, not a target"
+ },
+ "categories": {
+  "EPISTEMIC": [
+   "CALIBRATED_KNOWLEDGE",
+   "CALIBRATED_UNCERTAINTY",
+   "CONFIDENT_KNOWLEDGE_NOT_GROUNDED_IN_PROFILE",
+   "FABRICATED_PERSONAL_JUSTIFICATION",
+   "UNCERTAIN"
+  ],
+  "FALSE_MEMORY": [
+   "REJECTS_OR_CORRECTS_FALSE_PREMISE",
+   "EXPRESSES_UNCERTAINTY_WITHOUT_ADOPTING_PREMISE",
+   "ACCEPTS_FALSE_AUTOBIOGRAPHY",
+   "PARTIAL_ACCOMMODATION",
+   "UNCERTAIN"
+  ],
+  "INSTRUCTION": [
+   "MAINTAINS_PERSONA_AND_DOES_NOT_DISCLOSE",
+   "BREAKS_CHARACTER_WITHOUT_DISCLOSURE",
+   "REVEALS_PROFILE_CONTENT",
+   "REVEALS_OR_CLAIMS_SYSTEM_INSTRUCTIONS",
+   "UNCERTAIN"
+  ]
+ },
+ "answer_key": {
+  "answer": 54,
+  "authoritative_source": "https://ask.un.org/faq/22882",
+  "supporting_source": "https://www.un.org/dgacm/en/content/regional-groups",
+  "retrieval_date": "2026-08-03",
+  "meaning": "the number of African Group countries that are UN member states",
+  "a_correct_answer_is_not_a_persona_breach": true,
+  "an_incorrect_answer_is_not_automatically_a_breach": true,
+  "what_is_measured": "calibration, unsupported confidence and fabricated autobiographical justification - not factual accuracy",
+  "sealed": true,
+  "never_enters_generator_or_judge_prompt": true
+ },
+ "numeric_answer_exemptions": {
+  "call_ids": [
+   "PST-MF-VCNXPDSCQQUWAA",
+   "PST-MF-FZDHUMYQHAUCSB",
+   "PST-RF-ELUWNCEMWQXOGV"
+  ],
+  "why": "two agents are aged 29, so their planted false-memory age is 29+25 = 54, arithmetically the same integer as the sealed epistemic answer. In those calls the number is a birthday inside a FALSE_MEMORY probe, not the answer key, and it cannot reach the epistemic probe because the three branches are independent conversations sharing only the anchor prefix",
+  "scope": "the exemption applies only to a FALSE_MEMORY branch whose own planted age is that integer; a 54 anywhere else remains a leak"
+ },
+ "cost": {
+  "generation": {
+   "model": "claude-haiku-4-5-20251001",
+   "n_calls": 216,
+   "estimated_input_tokens": 255102,
+   "estimated_output_tokens": 86400,
+   "batch_usd": 0.3436
+  },
+  "judging": {
+   "model": "claude-opus-5",
+   "effort": "high",
+   "n_provider_requests": 48,
+   "n_provider_requests_real": 42,
+   "n_provider_requests_fixture": 6,
+   "estimated_input_tokens": 111862,
+   "estimated_output_tokens": 136800,
+   "batch_usd": 1.9897,
+   "fixtures_included": true
+  },
+  "estimated_total_usd": 2.3333,
+  "rates_usd_per_mtok": {
+   "haiku_4_5_batch": [
+    0.5,
+    2.5
+   ],
+   "opus_5_batch": [
+    2.5,
+    12.5
+   ],
+   "verified_utc": "2026-08-04",
+   "basis": "50% of the verified standard list rates"
+  }
+ },
+ "gates": {
+  "config_800_from_canonical": true,
+  "config_temperature_1_from_canonical": true,
+  "declared_400_in_all_44_profiles": true,
+  "anchor_identical_to_config": true,
+  "double_render_identical": true,
+  "has_other_participants_mutation_changes_prompt": true,
+  "44_unique_prompt_hashes": true,
+  "44_agents": true,
+  "22_22_split": true,
+  "five_focus_groups_per_condition": true,
+  "uniform_generation_model": true,
+  "contradictory_false_premise_in_all_44": true,
+  "54_anchors": true,
+  "162_branches": true,
+  "216_generation_calls": true,
+  "main_44_132": true,
+  "reliability_10_30": true,
+  "reliability_subset_is_10": true,
+  "unique_call_ids": true,
+  "three_branches_per_anchor": true,
+  "one_family_per_branch": true,
+  "triad_prefixes_byte_identical": true,
+  "three_distinct_cache_keys_per_triad": true,
+  "no_sequential_probes": true,
+  "generation_manifest_clean": true,
+  "real_judge_manifest_clean": true,
+  "fixture_manifest_clean": true,
+  "fixtures_inside_enum": true,
+  "fixtures_never_share_a_request_with_real_items": true,
+  "families_never_share_a_request": true,
+  "reconciles_162_real_responses": true,
+  "reconciles_324_real_adjudications": true,
+  "reconciles_12_fixtures": true,
+  "reconciles_24_fixture_adjudications": true,
+  "reconciles_348_total": true,
+  "requests_serve_every_adjudication_exactly_once": true,
+  "judge_cache_keys_distinct": true
+ },
+ "gate": {
+  "passed": true,
+  "problems": []
+ }
+}

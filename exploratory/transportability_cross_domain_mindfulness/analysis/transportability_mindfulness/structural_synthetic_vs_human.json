@@ -1,0 +1,191 @@
+{
+  "record_type": "CROSS_DOMAIN_SYNTHETIC_VS_HUMAN_STRUCTURAL_COMPARISON",
+  "classification": "EXPLORATORY_OUT_OF_DOMAIN_TRANSPORTABILITY_CHECK",
+  "run": "mindfulness_fg1_run01",
+  "no_api_calls": true,
+  "portability_note": "scripts/build_comparable_window.py could not be reused: its run WHITELIST and its Q1_DISTINCTIVE token set are bound to Macho Meals. The algorithm was re-implemented with a mindfulness Q1 token set derived from the guide. Neither original file was modified. This substitution is a measured cost of porting the apparatus.",
+  "q1_token_set_used": [
+    "acceptance",
+    "adapt",
+    "adapted",
+    "components",
+    "efficacy",
+    "format",
+    "mbsr",
+    "mindfulness",
+    "online",
+    "protocol",
+    "traditional"
+  ],
+  "synthetic_window": {
+    "source_transcript_sha256": "1f96750f3054b6d0a27f9e8ec903ea020b5da7a68fc321b00b4e40fad6707331",
+    "boundary_method": "recorded section indices (domain-neutral); sub-entry trim only inside the first retained moderator entry",
+    "boundary_entry_index": 13,
+    "boundary_character_offset": 0,
+    "boundary_detail": {
+      "applied": false
+    },
+    "dropped_prefix_verbatim": "",
+    "dropped_prefix_words": 0,
+    "retained_boundary_text_verbatim": "Yeah, I think MF_P5 is onto something practical there. I've been listening to this whole thread, and honestly, a lot of what's been said tracks with my own experience, but I keep coming back to something about pacing.\n\nWhen I teach MBSR, one thing that happens naturally in the eight weeks is that people learn to actually slow down and notice things. That skill builds. But with a self-administered audio track, especially for someone who's really time-constrained and stressed — they're just going to hit play, right? They're not necessarily going to know what they're looking for yet.\n\nSo yeah, the prompts built into the audio makes sense to me. But I'd say they need to be really stripped down. Not like, \"notice ten different things about your body right now.\" More like what MF_P5 said — specific, actionable. \"Where do you feel tension right now? Just notice it without trying to fix it.\" That kind of thing.\n\nBecause I think there's a risk of the audio becoming another task that feels effortful. And if someone's already maxed out on time and stress, that's actually counterproductive.\n\nThe other thing I'd add — and this builds on what MF_P4 said about the feedback loop — I think for people in that chronic stress zone, fifteen minutes is probably the sweet spot. Not because longer is bad, but because if you can create a reliable, doable practice that someone actually sticks with, the accumulation matters more than the depth of any single session. And fifteen minutes is actually defensible when you're busy. You can tell yourself \"I can find fifteen minutes.\"",
+    "residue_detected_in_retained_text": [],
+    "residue_gate": "PASS",
+    "excluded_intro_entries": 13,
+    "excluded_closing_entries": 8,
+    "closing_section_detected": true,
+    "closing_detection_caveat": null,
+    "included_entries": 42
+  },
+  "section_transitions": {
+    "available": true,
+    "n_entries": 41,
+    "section_transitions": [
+      {
+        "turn": 10,
+        "utterance_head": "That's a useful landing point — stripped-down prompts, fifteen minutes as something people can actually defend to themse"
+      },
+      {
+        "turn": 15,
+        "utterance_head": "That point about the audio just keeping going regardless of where someone's nervous system is — that feels like a real d"
+      },
+      {
+        "turn": 26,
+        "utterance_head": "There's something that feels like genuine resolution there — not that the shame piece disappears, but that the design qu"
+      },
+      {
+        "turn": 38,
+        "utterance_head": "MF_P5 has just offered a way out of the binary MF_P1 and MF_P3 were in — compliance that trains noticing through repetit"
+      },
+      {
+        "turn": 41,
+        "utterance_head": "MF_P4, that's a really useful reframe to end on — shifting the question from whether the audio trains genuine noticing, "
+      }
+    ]
+  },
+  "output_contamination_full_run": {
+    "turns_scanned": 63,
+    "total_hits": 0,
+    "hits": [],
+    "interpretation": "Zero hits means the Macho Meals residue measured in the moderator scaffolding did not propagate into generated text. It does not mean the residue is harmless in general, only that it did not surface here."
+  },
+  "metrics_synthetic_window": {
+    "participant_turns": 28,
+    "moderator_turns": 14,
+    "participant_words": 9401,
+    "total_words": 11212,
+    "words_per_turn_median": 326.5,
+    "words_per_turn_iqr": 36.75,
+    "short_turn_proportion_25w": 0.0,
+    "short_turn_proportion_10w": 0.0,
+    "short_turn_proportion_50w": 0.0,
+    "turn_balance_gini": 0.2143,
+    "word_balance_gini": 0.1963,
+    "moderator_turn_share": 0.3333,
+    "moderator_word_share": 0.1615,
+    "participant_participant_adjacency": 0.3415,
+    "reference_density": 0.0,
+    "reference_density_ambiguous_names_excluded": 0,
+    "reference_density_label_aware": 0.6429,
+    "reference_density_unrepresentable_names": 5,
+    "reference_density_valid": false,
+    "reference_density_labels_collapsed": false,
+    "length_ratio_note": "length_ratio_synthetic_to_human is total_words(synthetic)/total_words(human)",
+    "chain_depth": 2,
+    "chain_depth_max": 5,
+    "chain_depth_n_chains": 14,
+    "_per_speaker_turns": {
+      "mf_p1": 8,
+      "mf_p3": 5,
+      "mf_p5": 5,
+      "mf_p2": 8,
+      "mf_p4": 2
+    },
+    "_per_speaker_words": {
+      "mf_p1": 2648,
+      "mf_p3": 1905,
+      "mf_p5": 1637,
+      "mf_p2": 2459,
+      "mf_p4": 752
+    }
+  },
+  "metrics_synthetic_full_run": {
+    "participant_turns": 40,
+    "moderator_turns": 23,
+    "participant_words": 12796,
+    "total_words": 15602,
+    "words_per_turn_median": 320.0,
+    "words_per_turn_iqr": 60.5,
+    "short_turn_proportion_25w": 0.0,
+    "short_turn_proportion_10w": 0.0,
+    "short_turn_proportion_50w": 0.0,
+    "turn_balance_gini": 0.16,
+    "word_balance_gini": 0.1394,
+    "moderator_turn_share": 0.3651,
+    "moderator_word_share": 0.1798,
+    "participant_participant_adjacency": 0.2903,
+    "reference_density": 0.0,
+    "reference_density_ambiguous_names_excluded": 0,
+    "reference_density_label_aware": 0.6,
+    "reference_density_unrepresentable_names": 5,
+    "reference_density_valid": false,
+    "reference_density_labels_collapsed": false,
+    "length_ratio_note": "length_ratio_synthetic_to_human is total_words(synthetic)/total_words(human)",
+    "chain_depth": 1.8182,
+    "chain_depth_max": 5,
+    "chain_depth_n_chains": 22,
+    "_per_speaker_turns": {
+      "mf_p2": 13,
+      "mf_p4": 6,
+      "mf_p3": 6,
+      "mf_p5": 7,
+      "mf_p1": 8
+    },
+    "_per_speaker_words": {
+      "mf_p2": 3857,
+      "mf_p4": 1858,
+      "mf_p3": 2188,
+      "mf_p5": 2245,
+      "mf_p1": 2648
+    }
+  },
+  "metrics_human_q1_trimmed": {
+    "participant_turns": 48,
+    "moderator_turns": 18,
+    "participant_words": 5425,
+    "total_words": 6671,
+    "words_per_turn_median": 76.5,
+    "words_per_turn_iqr": 111.75,
+    "short_turn_proportion_25w": 0.2083,
+    "short_turn_proportion_10w": 0.0833,
+    "short_turn_proportion_50w": 0.3542,
+    "turn_balance_gini": 0.3167,
+    "word_balance_gini": 0.3615,
+    "moderator_turn_share": 0.2687,
+    "moderator_word_share": 0.1868,
+    "participant_participant_adjacency": 0.4545,
+    "reference_density": 0.0,
+    "reference_density_ambiguous_names_excluded": 0,
+    "reference_density_label_aware": 0.0,
+    "reference_density_unrepresentable_names": 0,
+    "reference_density_valid": false,
+    "reference_density_labels_collapsed": true,
+    "length_ratio_note": "length_ratio_synthetic_to_human is total_words(synthetic)/total_words(human)",
+    "chain_depth": 2.6667,
+    "chain_depth_max": 6,
+    "chain_depth_n_chains": 18,
+    "_per_speaker_turns": {
+      "mindfulness_fg1_speaker_2": 17,
+      "mindfulness_fg1_speaker_3": 6,
+      "mindfulness_fg1_speaker_4": 6,
+      "mindfulness_fg1_speaker_5": 16,
+      "mindfulness_fg1_speaker_6": 3
+    },
+    "_per_speaker_words": {
+      "mindfulness_fg1_speaker_2": 1686,
+      "mindfulness_fg1_speaker_3": 197,
+      "mindfulness_fg1_speaker_4": 997,
+      "mindfulness_fg1_speaker_5": 2052,
+      "mindfulness_fg1_speaker_6": 493
+    }
+  }
+}

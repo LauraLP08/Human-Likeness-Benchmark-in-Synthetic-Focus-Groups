@@ -1,0 +1,982 @@
+{
+ "gate": "phase3_step2",
+ "arm": "twinpop",
+ "frozen_by": "ADENDUM entry 1 (corrected 2026-08-05)",
+ "model": "claude-opus-5",
+ "params": {
+  "effort": "medium",
+  "max_tokens": 4000,
+  "sampling": "none — removed on this model",
+  "fallbacks": "disabled by design"
+ },
+ "prompt_template_sha256": "f09860ca69c36cd235235f37181cffa56d5571203ccaaf99ea602a57b85c8d87",
+ "n_calls": 48,
+ "usage_total": {
+  "input_tokens": 51868,
+  "output_tokens": 22931
+ },
+ "reproducibility": "by archive, not by re-derivation — the API exposes no seed parameter",
+ "name_withheld_from_renderer": true,
+ "results": [
+  {
+   "agent_id": "mm_fg3_andrew",
+   "candidate_index": 1,
+   "branch": "real",
+   "microdata_record_id": "SGI000001359500",
+   "prompt_sha256": "55019e7ee1228aca92f53b30b23e1cb3122fb017e3cf161144aea5e3641eba91",
+   "narrative": {
+    "working_life": "A forty-five-year-old employee working full-time as a manager in logistics, warehousing and transport, within the wholesale and retail trade and motor vehicle repair sector. The role carries supervisory responsibility for a team, placing it in the lower managerial and administrative bracket, and typically involves between thirty-one and forty-eight hours each week. A degree-level qualification underpins the career. The workplace sits between ten and twenty kilometres from home, reached by car or van, with no element of the job carried out remotely.",
+    "home_and_household": "Home is a terraced house in a suburban part of the South East, owned with a mortgage. The household consists of one person aged under sixty-five, living alone, never married and never in a registered civil partnership. There are at least two more bedrooms than the occupancy standard requires, so spare rooms are available for storage, a study or occasional guests. Maintaining the property, keeping up with mortgage payments and managing routine repairs and bills fall entirely to the single occupant.",
+    "week_and_hobbies": "Weekdays follow a settled rhythm shaped by shift patterns and a twenty-minute or so commute by car, with early starts common in transport management. Evenings at home tend to be quiet, given over to television, music, reading or catching up on household admin. Spare rooms allow space for a desk, tools or hobby equipment. Weekends leave room for car maintenance, garden and DIY tasks, driving out to the coast or countryside, and keeping in touch with friends and wider family."
+   },
+   "raw_text": "{\"working_life\":\"A forty-five-year-old employee working full-time as a manager in logistics, warehousing and transport, within the wholesale and retail trade and motor vehicle repair sector. The role carries supervisory responsibility for a team, placing it in the lower managerial and administrative bracket, and typically involves between thirty-one and forty-eight hours each week. A degree-level qualification underpins the career. The workplace sits between ten and twenty kilometres from home, reached by car or van, with no element of the job carried out remotely.\",\"home_and_household\":\"Home is a terraced house in a suburban part of the South East, owned with a mortgage. The household consists of one person aged under sixty-five, living alone, never married and never in a registered civil partnership. There are at least two more bedrooms than the occupancy standard requires, so spare rooms are available for storage, a study or occasional guests. Maintaining the property, keeping up with mortgage payments and managing routine repairs and bills fall entirely to the single occupant.\",\"week_and_hobbies\":\"Weekdays follow a settled rhythm shaped by shift patterns and a twenty-minute or so commute by car, with early starts common in transport management. Evenings at home tend to be quiet, given over to television, music, reading or catching up on household admin. Spare rooms allow space for a desk, tools or hobby equipment. Weekends leave room for car maintenance, garden and DIY tasks, driving out to the coast or countryside, and keeping in touch with friends and wider family.\"}",
+   "sha256": "8fc3abf2e740017a509c985a4aac5d44cace9d7e014acf5c007adc3fb12ebc79",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1112,
+    "output_tokens": 496
+   }
+  },
+  {
+   "agent_id": "mm_fg3_andrew",
+   "candidate_index": 1,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000001359500",
+   "prompt_sha256": "10516f638739d2293dac3a012a20450211facf82d14f6c7a324ca68d4d3cad0d",
+   "narrative": {
+    "working_life": "A forty-five-year-old employee working full-time in a lower managerial and administrative role, holding responsibility for supervising staff as a manager in logistics, warehousing and transport within the wholesale and retail trade, including motor vehicle and motorcycle repair. Weekly hours fall between thirty-one and forty-eight, spent entirely at a workplace rather than at home. A degree-level or higher qualification underpins the position. The commute, made by car or van, covers between ten and twenty kilometres each way across the South East.",
+    "home_and_household": "Home is a terraced house owned with a mortgage, situated in a suburban part of the South East. The household consists of one person aged under sixty-five, living alone and never married or in a registered civil partnership. The property has two or more bedrooms beyond what a single occupant requires, leaving considerable spare room that can be turned over to storage, a study or guest use. Owning rather than renting brings both long-term security and ongoing financial commitment to the mortgage.",
+    "week_and_hobbies": "Weekdays follow a structured pattern shaped by full-time hours and a moderate drive to and from the workplace, leaving evenings relatively short. Spare rooms at home allow space for quiet indoor interests such as reading, music, crafts or working on the house itself. Weekends offer scope for local suburban walks, visiting friends and family, or day trips within the South East by car. Living alone allows considerable flexibility in how free time is arranged, without fixed household obligations."
+   },
+   "raw_text": "{\"working_life\":\"A forty-five-year-old employee working full-time in a lower managerial and administrative role, holding responsibility for supervising staff as a manager in logistics, warehousing and transport within the wholesale and retail trade, including motor vehicle and motorcycle repair. Weekly hours fall between thirty-one and forty-eight, spent entirely at a workplace rather than at home. A degree-level or higher qualification underpins the position. The commute, made by car or van, covers between ten and twenty kilometres each way across the South East.\",\"home_and_household\":\"Home is a terraced house owned with a mortgage, situated in a suburban part of the South East. The household consists of one person aged under sixty-five, living alone and never married or in a registered civil partnership. The property has two or more bedrooms beyond what a single occupant requires, leaving considerable spare room that can be turned over to storage, a study or guest use. Owning rather than renting brings both long-term security and ongoing financial commitment to the mortgage.\",\"week_and_hobbies\":\"Weekdays follow a structured pattern shaped by full-time hours and a moderate drive to and from the workplace, leaving evenings relatively short. Spare rooms at home allow space for quiet indoor interests such as reading, music, crafts or working on the house itself. Weekends offer scope for local suburban walks, visiting friends and family, or day trips within the South East by car. Living alone allows considerable flexibility in how free time is arranged, without fixed household obligations.\"}",
+   "sha256": "c6a8e3cb464885f76237bbb8888d10712fb1d1e49a9a93a53055257c9a119d7f",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1112,
+    "output_tokens": 493
+   }
+  },
+  {
+   "agent_id": "mm_fg3_andrew",
+   "candidate_index": 2,
+   "branch": "real",
+   "microdata_record_id": "SGI000000891043",
+   "prompt_sha256": "e07575a8ac18a3e1e30adbc8f6c3b27b674487b89656b10aed7a233430b2f7a6",
+   "narrative": {
+    "working_life": "At forty-five, he works for himself in the construction and building trades, taking on jobs as a sole trader without employees or anyone to supervise. There is no fixed workplace: contracts take him to different sites across the South East, and he drives a van or car between them. Hours are part-time, generally between sixteen and thirty a week, which suits the rhythm of contract work. His qualifications reach Level 3, gained through A levels or a vocational equivalent, and much of his skill has come from practice on site.",
+    "home_and_household": "Home is a semi-detached house in a suburban part of the South East, owned outright with no mortgage remaining. Five people live there: he and his wife, two dependent children, the younger aged between five and seven, and at least one further adult, so the household spans three or more adults alongside the children. The occupancy rating suggests one spare bedroom beyond what the household strictly requires. Being married, settled in an owned property and free of housing repayments gives the arrangement a degree of stability.",
+    "week_and_hobbies": "The pattern of his week is shaped by part-time hours spread unevenly across jobs, with driving between sites and quotes or paperwork handled from home. Shorter working hours leave room for the school run and for time with the younger child, who is still in the early primary years. Weekends tend to involve practical tasks around the house and garden, small repairs and maintenance that draw on trade skills. Local errands, family outings nearby and occasional time watching sport fill much of the remainder."
+   },
+   "raw_text": "{\"working_life\": \"At forty-five, he works for himself in the construction and building trades, taking on jobs as a sole trader without employees or anyone to supervise. There is no fixed workplace: contracts take him to different sites across the South East, and he drives a van or car between them. Hours are part-time, generally between sixteen and thirty a week, which suits the rhythm of contract work. His qualifications reach Level 3, gained through A levels or a vocational equivalent, and much of his skill has come from practice on site.\", \"home_and_household\": \"Home is a semi-detached house in a suburban part of the South East, owned outright with no mortgage remaining. Five people live there: he and his wife, two dependent children, the younger aged between five and seven, and at least one further adult, so the household spans three or more adults alongside the children. The occupancy rating suggests one spare bedroom beyond what the household strictly requires. Being married, settled in an owned property and free of housing repayments gives the arrangement a degree of stability.\", \"week_and_hobbies\": \"The pattern of his week is shaped by part-time hours spread unevenly across jobs, with driving between sites and quotes or paperwork handled from home. Shorter working hours leave room for the school run and for time with the younger child, who is still in the early primary years. Weekends tend to involve practical tasks around the house and garden, small repairs and maintenance that draw on trade skills. Local errands, family outings nearby and occasional time watching sport fill much of the remainder.\"}",
+   "sha256": "d17833d8fba653623c101dc5e6beba9ade4015aafb975e892be6181f13ba9b40",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1086,
+    "output_tokens": 486
+   }
+  },
+  {
+   "agent_id": "mm_fg3_andrew",
+   "candidate_index": 2,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000000891043",
+   "prompt_sha256": "175b3c137158db8e348581a8350b3d1fe703feb97fa61de912395ae59ff209b0",
+   "narrative": {
+    "working_life": "At forty-five, she works for herself in the construction and building trades, operating as a sole trader without employees and without supervisory responsibility for anyone else. The work is part-time, typically between sixteen and thirty hours a week, and there is no fixed place of work: jobs are taken on at whichever site or property requires attention, reached by driving a car or van. Her highest qualification is at Level 3, two or more A levels or a vocational equivalent, which underpins a practical, skills-based trade.",
+    "home_and_household": "Home is a semi-detached house in a suburban part of the South East, owned outright with no mortgage or rent to meet. Five people live there: three or more adults alongside children, giving a busy but settled arrangement. She is married and living with her husband, and there are two dependent children, the youngest aged between five and seven. The bedroom occupancy rating is plus one, so the property has slightly more bedroom space than the household strictly requires, allowing some flexibility.",
+    "week_and_hobbies": "The working week is shaped around part-time hours and school routines, with time in the van between jobs and quotes, invoices and materials orders handled at the kitchen table. Reduced hours leave room for the school run, homework with a young child, and the shared organisation of a five-person household. Free time tends towards practical, hands-on interests: improving the house and garden, small repair projects, and local errands by car. Weekends often involve trips out with the children and time with the wider household."
+   },
+   "raw_text": "{\"working_life\": \"At forty-five, she works for herself in the construction and building trades, operating as a sole trader without employees and without supervisory responsibility for anyone else. The work is part-time, typically between sixteen and thirty hours a week, and there is no fixed place of work: jobs are taken on at whichever site or property requires attention, reached by driving a car or van. Her highest qualification is at Level 3, two or more A levels or a vocational equivalent, which underpins a practical, skills-based trade.\", \"home_and_household\": \"Home is a semi-detached house in a suburban part of the South East, owned outright with no mortgage or rent to meet. Five people live there: three or more adults alongside children, giving a busy but settled arrangement. She is married and living with her husband, and there are two dependent children, the youngest aged between five and seven. The bedroom occupancy rating is plus one, so the property has slightly more bedroom space than the household strictly requires, allowing some flexibility.\", \"week_and_hobbies\": \"The working week is shaped around part-time hours and school routines, with time in the van between jobs and quotes, invoices and materials orders handled at the kitchen table. Reduced hours leave room for the school run, homework with a young child, and the shared organisation of a five-person household. Free time tends towards practical, hands-on interests: improving the house and garden, small repair projects, and local errands by car. Weekends often involve trips out with the children and time with the wider household.\"}",
+   "sha256": "e35a2ab2020e994a7b9a8fe3806072fc80e792ccbc40668998ae81aecc34c0dc",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1086,
+    "output_tokens": 475
+   }
+  },
+  {
+   "agent_id": "mm_fg3_andrew",
+   "candidate_index": 3,
+   "branch": "real",
+   "microdata_record_id": "SGI000002912432",
+   "prompt_sha256": "9322ee76614ca0c68300a10516588213f77bc5f13d9df3ccba8b31b51002fd5a",
+   "narrative": {
+    "working_life": "A man of forty-five, employed part-time on fifteen hours or fewer each week in housekeeping and related services within the administrative and support services sector. The role is classified as semi-routine, with employee status and no supervisory or management responsibility for others. Work is carried out mainly at or from home, so there is no regular commute and no fixed workplace elsewhere. He holds no formal qualifications, having built up practical competence through experience rather than through study or certification.",
+    "home_and_household": "Home is a flat in a purpose-built block, rented from the council in a suburban part of the South East. Three people share the household: himself, his cohabiting opposite-sex partner, and one dependent child aged under five. He has never married and has never registered a civil partnership. The occupancy rating for bedrooms stands at minus one, indicating one bedroom fewer than the household would ideally require, so space is arranged carefully around the needs of a very young child.",
+    "week_and_hobbies": "With short part-time hours based at home, the week is loosely structured, and much of the remaining time is taken up by the care of a child under five. Days follow local rhythms rather than commuter timetables, with walks around the suburb, visits to nearby parks and play areas, and time spent in the flat with his partner. Leisure tends towards inexpensive and practical pursuits close to home, including television, radio, and small improvements or tidying tasks around the rented flat."
+   },
+   "raw_text": "{\"working_life\": \"A man of forty-five, employed part-time on fifteen hours or fewer each week in housekeeping and related services within the administrative and support services sector. The role is classified as semi-routine, with employee status and no supervisory or management responsibility for others. Work is carried out mainly at or from home, so there is no regular commute and no fixed workplace elsewhere. He holds no formal qualifications, having built up practical competence through experience rather than through study or certification.\", \"home_and_household\": \"Home is a flat in a purpose-built block, rented from the council in a suburban part of the South East. Three people share the household: himself, his cohabiting opposite-sex partner, and one dependent child aged under five. He has never married and has never registered a civil partnership. The occupancy rating for bedrooms stands at minus one, indicating one bedroom fewer than the household would ideally require, so space is arranged carefully around the needs of a very young child.\", \"week_and_hobbies\": \"With short part-time hours based at home, the week is loosely structured, and much of the remaining time is taken up by the care of a child under five. Days follow local rhythms rather than commuter timetables, with walks around the suburb, visits to nearby parks and play areas, and time spent in the flat with his partner. Leisure tends towards inexpensive and practical pursuits close to home, including television, radio, and small improvements or tidying tasks around the rented flat.\"}",
+   "sha256": "adfe06fc87fbab0f0f0f7c588d005ff9a8b372a3d0c0426e7fe1f46ec3787de0",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1063,
+    "output_tokens": 460
+   }
+  },
+  {
+   "agent_id": "mm_fg3_andrew",
+   "candidate_index": 3,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000002912432",
+   "prompt_sha256": "aa97dcabdf5633ad86480e72554ba50ad8e50df8e7a388972df249f28b73b471",
+   "narrative": {
+    "working_life": "At 45, she is employed part-time in housekeeping and related services, working fifteen hours or less each week within the administrative and support services sector. She is an employee rather than self-employed, and holds no supervisory or managerial responsibilities. Her work is based mainly at or from home, so there is no daily commute and no fixed workplace elsewhere. She left education without formal qualifications, and the role is classed as semi-routine, offering steady but limited hours arranged around commitments at home.",
+    "home_and_household": "Home is a flat in a purpose-built block, rented from the council in a suburban part of the South East. Three people share the space: herself, her cohabiting opposite-sex partner, and one dependent child aged under five. She has never married nor registered a civil partnership. The occupancy rating of minus one indicates the flat has one fewer bedroom than the household would ideally need, so space is tight and rooms serve more than one purpose across the day.",
+    "week_and_hobbies": "With short working hours completed from home, much of her week is shaped around a very young child, including trips to nearby parks, the local library and free playgroups within walking distance. Quieter time is spent on television, radio, music and phone calls or messages with family and friends. She takes an interest in the flat itself, keeping things tidy and organised, and occasionally follows craft or home projects. Weekends often mean short local outings with her partner and the child."
+   },
+   "raw_text": "{\"working_life\": \"At 45, she is employed part-time in housekeeping and related services, working fifteen hours or less each week within the administrative and support services sector. She is an employee rather than self-employed, and holds no supervisory or managerial responsibilities. Her work is based mainly at or from home, so there is no daily commute and no fixed workplace elsewhere. She left education without formal qualifications, and the role is classed as semi-routine, offering steady but limited hours arranged around commitments at home.\", \"home_and_household\": \"Home is a flat in a purpose-built block, rented from the council in a suburban part of the South East. Three people share the space: herself, her cohabiting opposite-sex partner, and one dependent child aged under five. She has never married nor registered a civil partnership. The occupancy rating of minus one indicates the flat has one fewer bedroom than the household would ideally need, so space is tight and rooms serve more than one purpose across the day.\", \"week_and_hobbies\": \"With short working hours completed from home, much of her week is shaped around a very young child, including trips to nearby parks, the local library and free playgroups within walking distance. Quieter time is spent on television, radio, music and phone calls or messages with family and friends. She takes an interest in the flat itself, keeping things tidy and organised, and occasionally follows craft or home projects. Weekends often mean short local outings with her partner and the child.\"}",
+   "sha256": "79be7680c5526e83e0bad9de2fff546990343497eb43821f429eedae2830df8c",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1063,
+    "output_tokens": 456
+   }
+  },
+  {
+   "agent_id": "mm_fg3_daniel",
+   "candidate_index": 1,
+   "branch": "real",
+   "microdata_record_id": "SGI000001860765",
+   "prompt_sha256": "3f151f104966a5c6ff2e787e8900fd7d4c0c060be0adba861fc2bb39e351293c",
+   "narrative": {
+    "working_life": "A forty-eight-year-old employee in the construction sector, working in the building finishing trades and classed within routine occupations. Employment is full-time, typically between thirty-one and forty-eight hours a week, with supervisory responsibility for others on site. There is no fixed place of work, so tasks are carried out at whatever property or development is currently contracted, reached by driving a car or van. Skills were gained through an apprenticeship, which remains the highest formal qualification held, and practical experience accumulated over many years on varied jobs.",
+    "home_and_household": "Home is a detached house in a suburban part of the East of England, owned with a mortgage still being repaid. The household consists of two adults, both aged sixty-five or under: a married couple in an opposite-sex partnership, with no dependent children living with them. Recorded as the husband or wife of the household reference person. The property has two or more bedrooms beyond the notional requirement, so there is considerable spare room, including space that can be given over to storage or occasional visitors.",
+    "week_and_hobbies": "Weekdays follow the rhythm of site work, with early starts, driving between locations across the region, and an evening return to the suburban house. Time away from work tends to be spent on maintenance and improvement of the property and garden, alongside vehicle upkeep and occasional projects using trade tools already to hand. Weekends allow for longer drives, visits to relatives and friends, following sport and motoring interests, and quieter evenings at home with a spouse who is also of working age."
+   },
+   "raw_text": "{\"working_life\": \"A forty-eight-year-old employee in the construction sector, working in the building finishing trades and classed within routine occupations. Employment is full-time, typically between thirty-one and forty-eight hours a week, with supervisory responsibility for others on site. There is no fixed place of work, so tasks are carried out at whatever property or development is currently contracted, reached by driving a car or van. Skills were gained through an apprenticeship, which remains the highest formal qualification held, and practical experience accumulated over many years on varied jobs.\", \"home_and_household\": \"Home is a detached house in a suburban part of the East of England, owned with a mortgage still being repaid. The household consists of two adults, both aged sixty-five or under: a married couple in an opposite-sex partnership, with no dependent children living with them. Recorded as the husband or wife of the household reference person. The property has two or more bedrooms beyond the notional requirement, so there is considerable spare room, including space that can be given over to storage or occasional visitors.\", \"week_and_hobbies\": \"Weekdays follow the rhythm of site work, with early starts, driving between locations across the region, and an evening return to the suburban house. Time away from work tends to be spent on maintenance and improvement of the property and garden, alongside vehicle upkeep and occasional projects using trade tools already to hand. Weekends allow for longer drives, visits to relatives and friends, following sport and motoring interests, and quieter evenings at home with a spouse who is also of working age.\"}",
+   "sha256": "648151c6fdcb5f9b6b0f3b6286873c0c3b704cb7480a1ee0dc0330aa83c99496",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1062,
+    "output_tokens": 494
+   }
+  },
+  {
+   "agent_id": "mm_fg3_daniel",
+   "candidate_index": 1,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000001860765",
+   "prompt_sha256": "5564e8d50fbfb5620e441d0a250d6aec906ade55a8103d7f9edefa9f2d9587e7",
+   "narrative": {
+    "working_life": "At 48, she works full-time as an employee in the construction sector, in the building finishing trades, typically putting in between 31 and 48 hours a week. Her role is classed among routine occupations, though she also holds supervisory responsibility for others on site. She qualified through an apprenticeship, which remains her highest formal qualification, and the practical skills gained there underpin her daily work. There is no fixed place of work; jobs shift from one location to another as contracts change.",
+    "home_and_household": "She lives in a suburban part of the East of England, in a detached house that she and her husband are buying with a mortgage. The household consists of just the two of them, both aged 65 or under, with no dependent children. She is recorded as the wife of the household reference person. The property has at least two bedrooms more than the household strictly requires, leaving spare rooms available for storage, guests or other uses, and a degree of space uncommon for two occupants.",
+    "week_and_hobbies": "Weekdays begin early, with a car or van driven to whichever site is current, so mileage and route vary considerably across the year. Full-time hours plus travel leave limited free time midweek, and evenings tend to be quiet and domestic. Weekends allow for practical projects around the detached house and garden, catching up on paperwork connected to supervising a team, and time spent with her husband. Longer breaks are planned around contract schedules rather than fixed holiday periods, and spare rooms occasionally host visiting relatives."
+   },
+   "raw_text": "{\"working_life\": \"At 48, she works full-time as an employee in the construction sector, in the building finishing trades, typically putting in between 31 and 48 hours a week. Her role is classed among routine occupations, though she also holds supervisory responsibility for others on site. She qualified through an apprenticeship, which remains her highest formal qualification, and the practical skills gained there underpin her daily work. There is no fixed place of work; jobs shift from one location to another as contracts change.\", \"home_and_household\": \"She lives in a suburban part of the East of England, in a detached house that she and her husband are buying with a mortgage. The household consists of just the two of them, both aged 65 or under, with no dependent children. She is recorded as the wife of the household reference person. The property has at least two bedrooms more than the household strictly requires, leaving spare rooms available for storage, guests or other uses, and a degree of space uncommon for two occupants.\", \"week_and_hobbies\": \"Weekdays begin early, with a car or van driven to whichever site is current, so mileage and route vary considerably across the year. Full-time hours plus travel leave limited free time midweek, and evenings tend to be quiet and domestic. Weekends allow for practical projects around the detached house and garden, catching up on paperwork connected to supervising a team, and time spent with her husband. Longer breaks are planned around contract schedules rather than fixed holiday periods, and spare rooms occasionally host visiting relatives.\"}",
+   "sha256": "54ddf72b70eb29b0f087c7f6f5fc0795c75e0c2586ad38c23c79b81ead1da67a",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1062,
+    "output_tokens": 479
+   }
+  },
+  {
+   "agent_id": "mm_fg3_daniel",
+   "candidate_index": 2,
+   "branch": "real",
+   "microdata_record_id": "SGI000001576804",
+   "prompt_sha256": "f72b35d7e5ae3d8bcf61910659c368f2a2b3c4bf63c4b8076d5993be8cfd7f52",
+   "narrative": {
+    "working_life": "A 48-year-old man employed full-time as an information technology professional within the financial and insurance sector, working between 31 and 48 hours in a typical week. The role sits in the higher professional bracket and carries supervisory responsibility for a team, so time is split between technical work and overseeing others. Entry to the field came through two or more A levels or a vocational equivalent rather than a degree, with skills built up steadily on the job. All work is carried out mainly at or from home.",
+    "home_and_household": "Home is a detached house or bungalow in a suburban part of the East of England, owned with a mortgage still outstanding. Four people live there: a married opposite-sex couple and their two dependent children, the youngest aged ten or eleven. The property has at least two more bedrooms than the household technically requires, leaving spare rooms that can serve as an office or study space. Both adults share the running of the household, and the mortgage remains a long-term financial commitment.",
+    "week_and_hobbies": "Weekdays follow a home-based rhythm, with no commute and a working day framed by video calls, coding, and checking in with the team he supervises. Evenings and weekends revolve largely around the two children, including school runs, homework, clubs and weekend fixtures. Suburban living allows for gardening, DIY and general upkeep of the house, alongside time spent on technology as a personal interest as well as a profession. Occasional days out and holidays are planned around the school calendar."
+   },
+   "raw_text": "{\"working_life\": \"A 48-year-old man employed full-time as an information technology professional within the financial and insurance sector, working between 31 and 48 hours in a typical week. The role sits in the higher professional bracket and carries supervisory responsibility for a team, so time is split between technical work and overseeing others. Entry to the field came through two or more A levels or a vocational equivalent rather than a degree, with skills built up steadily on the job. All work is carried out mainly at or from home.\", \"home_and_household\": \"Home is a detached house or bungalow in a suburban part of the East of England, owned with a mortgage still outstanding. Four people live there: a married opposite-sex couple and their two dependent children, the youngest aged ten or eleven. The property has at least two more bedrooms than the household technically requires, leaving spare rooms that can serve as an office or study space. Both adults share the running of the household, and the mortgage remains a long-term financial commitment.\", \"week_and_hobbies\": \"Weekdays follow a home-based rhythm, with no commute and a working day framed by video calls, coding, and checking in with the team he supervises. Evenings and weekends revolve largely around the two children, including school runs, homework, clubs and weekend fixtures. Suburban living allows for gardening, DIY and general upkeep of the house, alongside time spent on technology as a personal interest as well as a profession. Occasional days out and holidays are planned around the school calendar.\"}",
+   "sha256": "fc6f3be342d3f44405bc8a76155d1f9a117102631d61dac02daebc48bca89f00",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1076,
+    "output_tokens": 472
+   }
+  },
+  {
+   "agent_id": "mm_fg3_daniel",
+   "candidate_index": 2,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000001576804",
+   "prompt_sha256": "58df0cc0dfcd2510cc64f6195695dfb311b271a30dc95e7bc55c6e2585c48846",
+   "narrative": {
+    "working_life": "A 48-year-old woman employed full time as an information technology professional within the financial and insurance sector, working between 31 and 48 hours across a typical week. The role sits in the higher professional bracket and carries supervisory responsibility for a team, so time is split between technical delivery and overseeing the progress of others. Work is carried out mainly at or from home rather than at an employer's premises, with two or more A levels or a vocational equivalent forming the highest formal qualification behind a career built largely through experience.",
+    "home_and_household": "Home is a detached house or bungalow in a suburban part of the East of England, owned with a mortgage. Four people live there: a married opposite-sex couple and two dependent children, the younger aged ten or eleven. The property has at least two more bedrooms than the household technically requires, leaving spare rooms that can serve as study space, storage or somewhere quiet to work. Being suburban, the setting offers gardens and residential streets while remaining within reach of larger towns and transport links.",
+    "week_and_hobbies": "With no commute, the working week is structured around calls, deadlines and the school timetable of two children, and a spare room doubles as an office that must be closed off at the end of the day. Weekends tend to involve family outings, driving the children to clubs and activities, and maintaining the house and garden. Personal interests lean towards reading, television and keeping technical skills current, alongside occasional trips to the coast or countryside that the region makes reasonably straightforward."
+   },
+   "raw_text": "{\"working_life\": \"A 48-year-old woman employed full time as an information technology professional within the financial and insurance sector, working between 31 and 48 hours across a typical week. The role sits in the higher professional bracket and carries supervisory responsibility for a team, so time is split between technical delivery and overseeing the progress of others. Work is carried out mainly at or from home rather than at an employer's premises, with two or more A levels or a vocational equivalent forming the highest formal qualification behind a career built largely through experience.\", \"home_and_household\": \"Home is a detached house or bungalow in a suburban part of the East of England, owned with a mortgage. Four people live there: a married opposite-sex couple and two dependent children, the younger aged ten or eleven. The property has at least two more bedrooms than the household technically requires, leaving spare rooms that can serve as study space, storage or somewhere quiet to work. Being suburban, the setting offers gardens and residential streets while remaining within reach of larger towns and transport links.\", \"week_and_hobbies\": \"With no commute, the working week is structured around calls, deadlines and the school timetable of two children, and a spare room doubles as an office that must be closed off at the end of the day. Weekends tend to involve family outings, driving the children to clubs and activities, and maintaining the house and garden. Personal interests lean towards reading, television and keeping technical skills current, alongside occasional trips to the coast or countryside that the region makes reasonably straightforward.\"}",
+   "sha256": "f6031d72576232c781e55bc23f5e5ceb5531c2150331a5bf641453e1498fa2ce",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1076,
+    "output_tokens": 484
+   }
+  },
+  {
+   "agent_id": "mm_fg3_daniel",
+   "candidate_index": 3,
+   "branch": "real",
+   "microdata_record_id": "SGI000000933068",
+   "prompt_sha256": "1a184965f1e1afb7ae44201d487606e913677556be1b4d6dbf584aafebfb4d36",
+   "narrative": {
+    "working_life": "A forty-eight-year-old man working for himself in the construction and building trades, without employees, on a full-time basis of roughly thirty-one to forty-eight hours a week. Trained through an apprenticeship, he now takes on jobs directly, quoting, scheduling and overseeing work on site, including directing other trades and subcontractors as projects require. There is no fixed place of work; each contract takes him to a different address, reached by driving a car or van loaded with tools and materials across the East of England.",
+    "home_and_household": "Home is a semi-detached house in a suburban part of the East of England, owned with a mortgage still being repaid. Four people live there: himself, his wife, and their two dependent children, the youngest aged ten or eleven. The occupancy rating indicates one bedroom more than the household strictly needs, giving a little spare space for storage or visitors. Being married, and self-employed, means household finances and the rhythms of the working year are managed jointly around school terms and contract work.",
+    "week_and_hobbies": "Weekdays begin early, with the van loaded and a drive out to whichever site is currently active, and paperwork, invoicing and quoting often fitted in during evenings. Weekends bring maintenance and small improvements to the house and garden, ferrying the children to clubs and matches, and time spent watching them play. Practical hobbies suit him: tinkering in the garage, keeping tools and the van in order, occasional day trips with the family, and catching up with neighbours and former workmates around the suburb."
+   },
+   "raw_text": "{\"working_life\": \"A forty-eight-year-old man working for himself in the construction and building trades, without employees, on a full-time basis of roughly thirty-one to forty-eight hours a week. Trained through an apprenticeship, he now takes on jobs directly, quoting, scheduling and overseeing work on site, including directing other trades and subcontractors as projects require. There is no fixed place of work; each contract takes him to a different address, reached by driving a car or van loaded with tools and materials across the East of England.\", \"home_and_household\": \"Home is a semi-detached house in a suburban part of the East of England, owned with a mortgage still being repaid. Four people live there: himself, his wife, and their two dependent children, the youngest aged ten or eleven. The occupancy rating indicates one bedroom more than the household strictly needs, giving a little spare space for storage or visitors. Being married, and self-employed, means household finances and the rhythms of the working year are managed jointly around school terms and contract work.\", \"week_and_hobbies\": \"Weekdays begin early, with the van loaded and a drive out to whichever site is currently active, and paperwork, invoicing and quoting often fitted in during evenings. Weekends bring maintenance and small improvements to the house and garden, ferrying the children to clubs and matches, and time spent watching them play. Practical hobbies suit him: tinkering in the garage, keeping tools and the van in order, occasional day trips with the family, and catching up with neighbours and former workmates around the suburb.\"}",
+   "sha256": "9dc7dd2a415aa85148117357cd1eba61bd00c75f2284a19bbe3df0895102a065",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1067,
+    "output_tokens": 497
+   }
+  },
+  {
+   "agent_id": "mm_fg3_daniel",
+   "candidate_index": 3,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000000933068",
+   "prompt_sha256": "ad26222ad45ed8d9e28cc9ddab8a2fe6731c239d8ea9cc218888d39b5feb85d1",
+   "narrative": {
+    "working_life": "A self-employed construction and building trades worker of 48, operating on her own account without employees, working full-time at between 31 and 48 hours a week. Her qualification route was an apprenticeship, and she now oversees and coordinates others on site despite having no direct payroll. There is no fixed place of work; jobs are spread across sites in the East of England, reached by driving a car or van. Quoting, scheduling and invoicing are handled between site visits.",
+    "home_and_household": "Home is a semi-detached house in a suburban part of the East of England, owned with a mortgage. Four people live there: herself, her husband, and two dependent children, the youngest aged ten or eleven. The property has one bedroom more than the household strictly requires, giving room for storage of tools, paperwork and school things. Household routines are shaped by school terms and the unpredictable timing of site work, with the van parked outside as a constant fixture.",
+    "week_and_hobbies": "Weekdays begin early, with travel to whichever site is active, and end with school pick-ups or after-school clubs shared with her husband. Evenings often involve paperwork, chasing materials and confirming the next day's arrangements. Weekends are quieter, given over to family time, minor repairs and improvements at home, and occasional trips out locally. Practical hobbies dominate: joinery projects, garden maintenance and keeping the van in order. Contact with trade contacts and neighbours is frequent and largely informal."
+   },
+   "raw_text": "{\"working_life\":\"A self-employed construction and building trades worker of 48, operating on her own account without employees, working full-time at between 31 and 48 hours a week. Her qualification route was an apprenticeship, and she now oversees and coordinates others on site despite having no direct payroll. There is no fixed place of work; jobs are spread across sites in the East of England, reached by driving a car or van. Quoting, scheduling and invoicing are handled between site visits.\",\"home_and_household\":\"Home is a semi-detached house in a suburban part of the East of England, owned with a mortgage. Four people live there: herself, her husband, and two dependent children, the youngest aged ten or eleven. The property has one bedroom more than the household strictly requires, giving room for storage of tools, paperwork and school things. Household routines are shaped by school terms and the unpredictable timing of site work, with the van parked outside as a constant fixture.\",\"week_and_hobbies\":\"Weekdays begin early, with travel to whichever site is active, and end with school pick-ups or after-school clubs shared with her husband. Evenings often involve paperwork, chasing materials and confirming the next day's arrangements. Weekends are quieter, given over to family time, minor repairs and improvements at home, and occasional trips out locally. Practical hobbies dominate: joinery projects, garden maintenance and keeping the van in order. Contact with trade contacts and neighbours is frequent and largely informal.\"}",
+   "sha256": "9b95e57a3e5669932ddf4f189963343d47f12241eae87342f22ef6a75b635688",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1067,
+    "output_tokens": 477
+   }
+  },
+  {
+   "agent_id": "mm_fg3_john",
+   "candidate_index": 1,
+   "branch": "real",
+   "microdata_record_id": "SGI000000090072",
+   "prompt_sha256": "4eefb020041445df9f90c24887e0cdbb69833082c807a4f438646247b72e2655",
+   "narrative": {
+    "working_life": "A self-employed road transport driver in his mid-forties, working full-time on his own account without staff or supervisory duties. His work sits within the transport and storage sector, and he holds no formal qualifications, having built his experience through years behind the wheel. Weeks routinely run to forty-nine hours or more, with schedules shaped by delivery windows and depot timings rather than fixed office hours. He travels to a workplace between ten and twenty kilometres away, driving a van or car there himself.",
+    "home_and_household": "He rents a detached house from a private landlord in a suburban part of the South West. The property is larger than the household strictly requires, with two or more bedrooms spare under standard occupancy measures. Two adults share the home, both aged sixty-five or under, and there are no children living there. He is divorced and not currently living as part of a couple. The arrangement is a private tenancy rather than ownership, giving a settled base without the commitments of a mortgage.",
+    "week_and_hobbies": "Long working hours leave limited free time, and much of the week is structured around early starts and late finishes. Quieter evenings tend to be spent at home, with radio, television and motorsport coverage among the usual distractions. Weekends allow for vehicle maintenance, tinkering in the driveway, and occasional drives out towards the coast or open countryside within reach of the South West suburbs. Contact with the other adult in the household is informal, and social plans are generally arranged around the shifting rota."
+   },
+   "raw_text": "{\"working_life\":\"A self-employed road transport driver in his mid-forties, working full-time on his own account without staff or supervisory duties. His work sits within the transport and storage sector, and he holds no formal qualifications, having built his experience through years behind the wheel. Weeks routinely run to forty-nine hours or more, with schedules shaped by delivery windows and depot timings rather than fixed office hours. He travels to a workplace between ten and twenty kilometres away, driving a van or car there himself.\",\"home_and_household\":\"He rents a detached house from a private landlord in a suburban part of the South West. The property is larger than the household strictly requires, with two or more bedrooms spare under standard occupancy measures. Two adults share the home, both aged sixty-five or under, and there are no children living there. He is divorced and not currently living as part of a couple. The arrangement is a private tenancy rather than ownership, giving a settled base without the commitments of a mortgage.\",\"week_and_hobbies\":\"Long working hours leave limited free time, and much of the week is structured around early starts and late finishes. Quieter evenings tend to be spent at home, with radio, television and motorsport coverage among the usual distractions. Weekends allow for vehicle maintenance, tinkering in the driveway, and occasional drives out towards the coast or open countryside within reach of the South West suburbs. Contact with the other adult in the household is informal, and social plans are generally arranged around the shifting rota.\"}",
+   "sha256": "ade3a8d437f49b0926d92578c41d78d34180f6aa2d7355840e3545b505c84a50",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1067,
+    "output_tokens": 479
+   }
+  },
+  {
+   "agent_id": "mm_fg3_john",
+   "candidate_index": 1,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000000090072",
+   "prompt_sha256": "c44d4c0c093de46fbe3adfe8d311f10d8c2d95b2edfcc47b0d7fbb578f94e6c4",
+   "narrative": {
+    "working_life": "At 45, she works for herself as a road transport driver, operating without employees and with no supervisory duties. The work sits within the transport and storage sector and is firmly full-time, regularly running to forty-nine hours or more across the week. She holds no formal qualifications, having built competence through years behind the wheel and through the practicalities of running a one-person operation: invoicing, scheduling, vehicle upkeep and keeping to delivery windows. Her base is a depot in the wider area rather than any part of her home.",
+    "home_and_household": "Home is a detached house in a suburban part of the South West, rented through a private landlord or letting agency. She shares it with one other adult, also aged 65 or under, and there are no children in the household. With two or more bedrooms spare, the property is larger than the two of them strictly require, which leaves rooms given over to storage and paperwork. Following a divorce, she is not currently living as part of a couple, and the household runs on a straightforward, practical footing.",
+    "week_and_hobbies": "Her week is shaped by long shifts and early starts, with a car or van journey of between ten and twenty kilometres each way to the site she works from. Time off is limited and tends to be spent quietly at home, catching up on rest, admin for the business and small maintenance jobs around the rented house. She follows local radio and the news, keeps in touch with a small circle by phone, and values weekends when the roads and the diary are finally her own."
+   },
+   "raw_text": "{\"working_life\": \"At 45, she works for herself as a road transport driver, operating without employees and with no supervisory duties. The work sits within the transport and storage sector and is firmly full-time, regularly running to forty-nine hours or more across the week. She holds no formal qualifications, having built competence through years behind the wheel and through the practicalities of running a one-person operation: invoicing, scheduling, vehicle upkeep and keeping to delivery windows. Her base is a depot in the wider area rather than any part of her home.\", \"home_and_household\": \"Home is a detached house in a suburban part of the South West, rented through a private landlord or letting agency. She shares it with one other adult, also aged 65 or under, and there are no children in the household. With two or more bedrooms spare, the property is larger than the two of them strictly require, which leaves rooms given over to storage and paperwork. Following a divorce, she is not currently living as part of a couple, and the household runs on a straightforward, practical footing.\", \"week_and_hobbies\": \"Her week is shaped by long shifts and early starts, with a car or van journey of between ten and twenty kilometres each way to the site she works from. Time off is limited and tends to be spent quietly at home, catching up on rest, admin for the business and small maintenance jobs around the rented house. She follows local radio and the news, keeps in touch with a small circle by phone, and values weekends when the roads and the diary are finally her own.\"}",
+   "sha256": "44f8c9b24e80a6dd7fd8653829919fbc8a95d47374133bfa591d28794396f261",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1067,
+    "output_tokens": 469
+   }
+  },
+  {
+   "agent_id": "mm_fg3_john",
+   "candidate_index": 2,
+   "branch": "real",
+   "microdata_record_id": "SGI000000619056",
+   "prompt_sha256": "2155f1258eb80a8075a4af7cb830eb90e52f8198691c2a6110b9f596a5ab4f99",
+   "narrative": {
+    "working_life": "A full-time employee in the wholesale and retail trade, working as a manager in a retail setting with responsibility for supervising staff. The role is demanding, regularly requiring 49 or more hours a week, and is classified within lower managerial and administrative occupations. The workplace lies between ten and twenty kilometres from home, reached by car or van, with no home working involved. Qualifications reach Level 3, with two or more A levels or a vocational equivalent, and progression has come largely through experience on the floor.",
+    "home_and_household": "Home is a terraced house or bungalow in a suburban part of the South West, owned with a mortgage. The household consists of one person aged under 65, living alone, never married and never in a registered civil partnership, and not currently living as part of a couple. There are two or more bedrooms beyond what a single occupant requires, so space is plentiful, with rooms given over to storage or occasional use. A car is kept for the daily journey to and from work.",
+    "week_and_hobbies": "Long shifts shape most of the week, with early starts and late finishes leaving limited free time on weekdays. Days off tend to be spent quietly at home, catching up on household tasks, minor repairs and paperwork, or driving out to the coast and countryside that the region offers. Interests lean towards practical projects around the house, following sport and motoring on television, and keeping in touch with a small circle of friends and relatives who live nearby or within easy driving distance."
+   },
+   "raw_text": "{\"working_life\": \"A full-time employee in the wholesale and retail trade, working as a manager in a retail setting with responsibility for supervising staff. The role is demanding, regularly requiring 49 or more hours a week, and is classified within lower managerial and administrative occupations. The workplace lies between ten and twenty kilometres from home, reached by car or van, with no home working involved. Qualifications reach Level 3, with two or more A levels or a vocational equivalent, and progression has come largely through experience on the floor.\", \"home_and_household\": \"Home is a terraced house or bungalow in a suburban part of the South West, owned with a mortgage. The household consists of one person aged under 65, living alone, never married and never in a registered civil partnership, and not currently living as part of a couple. There are two or more bedrooms beyond what a single occupant requires, so space is plentiful, with rooms given over to storage or occasional use. A car is kept for the daily journey to and from work.\", \"week_and_hobbies\": \"Long shifts shape most of the week, with early starts and late finishes leaving limited free time on weekdays. Days off tend to be spent quietly at home, catching up on household tasks, minor repairs and paperwork, or driving out to the coast and countryside that the region offers. Interests lean towards practical projects around the house, following sport and motoring on television, and keeping in touch with a small circle of friends and relatives who live nearby or within easy driving distance.\"}",
+   "sha256": "5769aa143e87c545eb7ff8cf58fe8ad3cd3b24d30c7f1e9c7bfe195d75342108",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1097,
+    "output_tokens": 473
+   }
+  },
+  {
+   "agent_id": "mm_fg3_john",
+   "candidate_index": 2,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000000619056",
+   "prompt_sha256": "826c557ca8296aca2830963bd221b5bb7932c4b6335225a03b01ca2fb3141149",
+   "narrative": {
+    "working_life": "A forty-five-year-old woman employed full-time in a lower managerial and administrative role, working as a manager in the retail and wholesale sector. The position carries supervisory responsibility for a team, and the working week regularly reaches forty-nine hours or more. She is an employee rather than self-employed, and travels to a fixed workplace between ten and twenty kilometres away, driving a car or van each day. Her highest qualification is at Level 3, comprising two or more A levels or a vocational equivalent.",
+    "home_and_household": "She lives alone in a suburban part of the South West of England, in a terraced house owned with a mortgage. As a one-person household under sixty-five, she has the property entirely to herself, with an occupancy rating showing two or more spare bedrooms beyond requirement. She has never married and has never registered a civil partnership, and is not currently living as part of a couple. Maintaining the mortgage and the upkeep of the house rests solely with her.",
+    "week_and_hobbies": "With very long hours at the workplace, much of her week is structured around commuting by car and managing staff schedules. Free evenings tend to be limited, so time at home is often spent quietly, catching up on household tasks, reading, or watching television. Weekends allow for longer stretches of leisure, including drives out into the surrounding countryside and coastline, occasional trips to see friends or relatives, and gradual work on decorating and improving the spare rooms of the house."
+   },
+   "raw_text": "{\"working_life\":\"A forty-five-year-old woman employed full-time in a lower managerial and administrative role, working as a manager in the retail and wholesale sector. The position carries supervisory responsibility for a team, and the working week regularly reaches forty-nine hours or more. She is an employee rather than self-employed, and travels to a fixed workplace between ten and twenty kilometres away, driving a car or van each day. Her highest qualification is at Level 3, comprising two or more A levels or a vocational equivalent.\",\"home_and_household\":\"She lives alone in a suburban part of the South West of England, in a terraced house owned with a mortgage. As a one-person household under sixty-five, she has the property entirely to herself, with an occupancy rating showing two or more spare bedrooms beyond requirement. She has never married and has never registered a civil partnership, and is not currently living as part of a couple. Maintaining the mortgage and the upkeep of the house rests solely with her.\",\"week_and_hobbies\":\"With very long hours at the workplace, much of her week is structured around commuting by car and managing staff schedules. Free evenings tend to be limited, so time at home is often spent quietly, catching up on household tasks, reading, or watching television. Weekends allow for longer stretches of leisure, including drives out into the surrounding countryside and coastline, occasional trips to see friends or relatives, and gradual work on decorating and improving the spare rooms of the house.\"}",
+   "sha256": "6948c12ff1eb6a1748a6b0e03a8da643c1fd5738793ee0f381c57a85004f78ea",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1097,
+    "output_tokens": 474
+   }
+  },
+  {
+   "agent_id": "mm_fg3_john",
+   "candidate_index": 3,
+   "branch": "real",
+   "microdata_record_id": "SGI000001682756",
+   "prompt_sha256": "b954b403e961caf860dd3f0c7121c500e1de5f9879542996549e3e7833ad7569",
+   "narrative": {
+    "working_life": "At 45, he works full-time as an employee in an information technology role within the information and communication sector, classified among higher professional occupations. The post carries supervisory responsibility, so part of the week involves overseeing colleagues, allocating tasks and reporting on progress alongside technical work. Contracted hours fall between 31 and 48 a week. Entry to the profession came through two or more A levels or a vocational equivalent rather than a degree, with skills built up steadily through practical experience.",
+    "home_and_household": "Home is a semi-detached house in a suburban part of the South West, rented from a private landlord or letting agency. The household consists of two people: himself and a partner of the opposite sex, with whom he cohabits rather than being married or in a civil partnership. There are no children in the family, and both adults are aged 65 or under. The property has two or more bedrooms beyond what the household requires, leaving spare rooms available for storage, guests or a study.",
+    "week_and_hobbies": "The working week is shaped by a daily drive of between 20 and 30 kilometres each way, since the job is based at a workplace rather than at home. That commute, combined with full-time hours and management duties, accounts for much of Monday to Friday. Evenings and weekends are spent around the house and the wider suburban area, with the spare bedrooms giving room for hobby equipment, computing projects or occasional visitors. Time off is largely unstructured, shared with a partner."
+   },
+   "raw_text": "{\"working_life\": \"At 45, he works full-time as an employee in an information technology role within the information and communication sector, classified among higher professional occupations. The post carries supervisory responsibility, so part of the week involves overseeing colleagues, allocating tasks and reporting on progress alongside technical work. Contracted hours fall between 31 and 48 a week. Entry to the profession came through two or more A levels or a vocational equivalent rather than a degree, with skills built up steadily through practical experience.\", \"home_and_household\": \"Home is a semi-detached house in a suburban part of the South West, rented from a private landlord or letting agency. The household consists of two people: himself and a partner of the opposite sex, with whom he cohabits rather than being married or in a civil partnership. There are no children in the family, and both adults are aged 65 or under. The property has two or more bedrooms beyond what the household requires, leaving spare rooms available for storage, guests or a study.\", \"week_and_hobbies\": \"The working week is shaped by a daily drive of between 20 and 30 kilometres each way, since the job is based at a workplace rather than at home. That commute, combined with full-time hours and management duties, accounts for much of Monday to Friday. Evenings and weekends are spent around the house and the wider suburban area, with the spare bedrooms giving room for hobby equipment, computing projects or occasional visitors. Time off is largely unstructured, shared with a partner.\"}",
+   "sha256": "ae55d2a1b68f4cd81d45b424486ace75cd2f65cbe2d132f474e348b5141bfeb3",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1078,
+    "output_tokens": 471
+   }
+  },
+  {
+   "agent_id": "mm_fg3_john",
+   "candidate_index": 3,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000001682756",
+   "prompt_sha256": "a72a95168ceb4c00d3d5164bd56f1b5d3e5a6dc3a3d4682807ba639208d71451",
+   "narrative": {
+    "working_life": "At 45, she works full-time as an information technology professional within the information and communication sector, employed rather than self-employed, and classified among higher professional occupations. Her role includes supervisory responsibility for other staff, so part of the week involves allocating tasks, reviewing progress and supporting colleagues alongside technical work. Weekly hours fall in the thirty-one to forty-eight range. She reached this position through A-level and vocational qualifications and experience gained on the job, rather than a university route, building specialist skills over two decades.",
+    "home_and_household": "She rents a semi-detached house from a private landlord or letting agency in a suburban part of the South West. The household is just two people: herself and her partner, a cohabiting opposite-sex couple, both aged sixty-five or under, with no children living with them. She has never married nor registered a civil partnership. The property has two or more bedrooms above the number the household strictly requires, leaving spare rooms that can serve as a study, storage or space for occasional visitors.",
+    "week_and_hobbies": "Her working days begin with a commute by car, covering somewhere between twenty and thirty kilometres each way to a workplace elsewhere in the region, since her job is not carried out at or from home. That regular driving shapes the rhythm of her week, with earlier starts and evenings that arrive already partly spent. Free time tends to be spent close to home in the suburb, on quiet pursuits, screen-based interests, tidying and improving the rented house, and unhurried weekends with her partner."
+   },
+   "raw_text": "{\"working_life\": \"At 45, she works full-time as an information technology professional within the information and communication sector, employed rather than self-employed, and classified among higher professional occupations. Her role includes supervisory responsibility for other staff, so part of the week involves allocating tasks, reviewing progress and supporting colleagues alongside technical work. Weekly hours fall in the thirty-one to forty-eight range. She reached this position through A-level and vocational qualifications and experience gained on the job, rather than a university route, building specialist skills over two decades.\", \"home_and_household\": \"She rents a semi-detached house from a private landlord or letting agency in a suburban part of the South West. The household is just two people: herself and her partner, a cohabiting opposite-sex couple, both aged sixty-five or under, with no children living with them. She has never married nor registered a civil partnership. The property has two or more bedrooms above the number the household strictly requires, leaving spare rooms that can serve as a study, storage or space for occasional visitors.\", \"week_and_hobbies\": \"Her working days begin with a commute by car, covering somewhere between twenty and thirty kilometres each way to a workplace elsewhere in the region, since her job is not carried out at or from home. That regular driving shapes the rhythm of her week, with earlier starts and evenings that arrive already partly spent. Free time tends to be spent close to home in the suburb, on quiet pursuits, screen-based interests, tidying and improving the rented house, and unhurried weekends with her partner.\"}",
+   "sha256": "e5b5a0cbd7879a9f3297ff61859febca0cef29c4d76280f13487db150e13ac3d",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1078,
+    "output_tokens": 497
+   }
+  },
+  {
+   "agent_id": "mm_fg3_nick",
+   "candidate_index": 1,
+   "branch": "real",
+   "microdata_record_id": "SGI000000635994",
+   "prompt_sha256": "5d66f1a3b764e2d0ab6f0a3ed9f361e5cdadf978998fde5a1c4ac2de73a38cb0",
+   "narrative": {
+    "working_life": "A forty-year-old employee working full-time in an electrical and electronic trade within the information and communication sector, typically between thirty-one and forty-eight hours each week. There is no fixed place of work, so days are spent moving between client premises and installation points rather than a single office or depot. He drives a car or van to reach each assignment, carrying tools and test equipment. He holds no supervisory or management responsibility, instead working to job schedules, and is qualified to degree level or professional equivalent.",
+    "home_and_household": "Home is a semi-detached house in a suburban part of the North West, owned with a mortgage. Three people live there: himself, his wife, and their one dependent child, who is under five. The property has one bedroom more than the household strictly requires, giving a little spare space for storage or a small study area. Being an owner with a loan shapes monthly budgeting, and the household runs as two adults sharing responsibility for a young child alongside full-time paid work.",
+    "week_and_hobbies": "Weekdays follow a driving-based pattern, with early starts and travel time between jobs, so evenings at home tend to be quiet and centred on a very young child's routine. Weekends bring trips to local parks and soft play, visits to relatives, and steady work on the house and garden. Practical interests reflect his trade: tinkering with wiring, audio equipment, computing and home automation projects. He also follows sport on television, reads technical material online, and occasionally studies for further professional certification."
+   },
+   "raw_text": "{\"working_life\": \"A forty-year-old employee working full-time in an electrical and electronic trade within the information and communication sector, typically between thirty-one and forty-eight hours each week. There is no fixed place of work, so days are spent moving between client premises and installation points rather than a single office or depot. He drives a car or van to reach each assignment, carrying tools and test equipment. He holds no supervisory or management responsibility, instead working to job schedules, and is qualified to degree level or professional equivalent.\", \"home_and_household\": \"Home is a semi-detached house in a suburban part of the North West, owned with a mortgage. Three people live there: himself, his wife, and their one dependent child, who is under five. The property has one bedroom more than the household strictly requires, giving a little spare space for storage or a small study area. Being an owner with a loan shapes monthly budgeting, and the household runs as two adults sharing responsibility for a young child alongside full-time paid work.\", \"week_and_hobbies\": \"Weekdays follow a driving-based pattern, with early starts and travel time between jobs, so evenings at home tend to be quiet and centred on a very young child's routine. Weekends bring trips to local parks and soft play, visits to relatives, and steady work on the house and garden. Practical interests reflect his trade: tinkering with wiring, audio equipment, computing and home automation projects. He also follows sport on television, reads technical material online, and occasionally studies for further professional certification.\"}",
+   "sha256": "0f311dc6acbd930d5bbc512172a35173d0bf842ba17ac0d8be21415de3f5367d",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1093,
+    "output_tokens": 480
+   }
+  },
+  {
+   "agent_id": "mm_fg3_nick",
+   "candidate_index": 1,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000000635994",
+   "prompt_sha256": "cb9bca6fa20a7ddee3a161b382a71732fee6657745206f83e88c1cd438a0fc52",
+   "narrative": {
+    "working_life": "A forty-year-old employed full time as an employee in an electrical and electronic trades role within the information and communication sector, typically working between thirty-one and forty-eight hours each week. The post carries no supervisory or management responsibility, and the work has no fixed place, so tasks are carried out across a variety of client sites rather than a single office or depot. Travel between jobs is by car or van. A degree-level qualification underpins the technical side of the role, which sits within intermediate occupations.",
+    "home_and_household": "Home is a semi-detached house in a suburban part of the North West, owned with a mortgage. Three people live there: two married adults in an opposite-sex partnership and one dependent child aged under five. The occupancy rating of plus one indicates a spare bedroom beyond the household's assessed requirement, giving a little room for storage or visitors. Being a two-adult, one-child household, arrangements at home revolve largely around the needs of a very young child alongside two working schedules.",
+    "week_and_hobbies": "The working week is structured around driving to varying locations, so days differ in length and destination, and evenings tend to be given over to a young child's routine and household upkeep. Weekends often involve local parks, soft-play sessions, and visits to and from relatives nearby. Quieter interests include music, streamed drama series, and tinkering with home technology or small repairs, an extension of the practical skills used at work. Occasional weekend outings explore the wider North West countryside and coast."
+   },
+   "raw_text": "{\"working_life\": \"A forty-year-old employed full time as an employee in an electrical and electronic trades role within the information and communication sector, typically working between thirty-one and forty-eight hours each week. The post carries no supervisory or management responsibility, and the work has no fixed place, so tasks are carried out across a variety of client sites rather than a single office or depot. Travel between jobs is by car or van. A degree-level qualification underpins the technical side of the role, which sits within intermediate occupations.\", \"home_and_household\": \"Home is a semi-detached house in a suburban part of the North West, owned with a mortgage. Three people live there: two married adults in an opposite-sex partnership and one dependent child aged under five. The occupancy rating of plus one indicates a spare bedroom beyond the household's assessed requirement, giving a little room for storage or visitors. Being a two-adult, one-child household, arrangements at home revolve largely around the needs of a very young child alongside two working schedules.\", \"week_and_hobbies\": \"The working week is structured around driving to varying locations, so days differ in length and destination, and evenings tend to be given over to a young child's routine and household upkeep. Weekends often involve local parks, soft-play sessions, and visits to and from relatives nearby. Quieter interests include music, streamed drama series, and tinkering with home technology or small repairs, an extension of the practical skills used at work. Occasional weekend outings explore the wider North West countryside and coast.\"}",
+   "sha256": "344781d2f5dcd1ce462959fef09819a8ae11ae30b20b2c379927b9bf0e6ea9d8",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1093,
+    "output_tokens": 482
+   }
+  },
+  {
+   "agent_id": "mm_fg3_nick",
+   "candidate_index": 2,
+   "branch": "real",
+   "microdata_record_id": "SGI000000513106",
+   "prompt_sha256": "ee82aa8d927752f01ffe754636be7784fe29b20de9db8533bcc83db4557b7c61",
+   "narrative": {
+    "working_life": "A forty-year-old man employed full time in a secretarial and related role within the human health and social work sector in the North West. The work is salaried employee work, between thirty-one and forty-eight hours across a standard week, with no supervisory or management responsibility for other staff. Duties centre on records, correspondence, appointment scheduling and administrative support for clinical and care colleagues. Holding a degree-level qualification, he brings more formal education than the post strictly requires, and the job sits in the intermediate occupational band.",
+    "home_and_household": "Home is a terraced house or bungalow in a suburban part of the North West, rented from a private landlord or letting agency rather than owned. The household contains two adults, both aged sixty-five or under, and no children. There are at least two more bedrooms than the household technically needs, so space is not tight and one room is used for storage and quiet desk work. He has never married or registered a civil partnership and is not living as part of a couple.",
+    "week_and_hobbies": "The commute is short, under two kilometres, and covered entirely on foot, so the day begins and ends with a brisk walk through residential streets rather than any wait for transport. Workdays are structured and office based, since the role cannot be carried out from home. Evenings and weekends are quiet and self-directed: reading, listening to music, tinkering with the spare room's shelves, occasional local walks, and keeping in touch with friends and family by phone and message."
+   },
+   "raw_text": "{\"working_life\": \"A forty-year-old man employed full time in a secretarial and related role within the human health and social work sector in the North West. The work is salaried employee work, between thirty-one and forty-eight hours across a standard week, with no supervisory or management responsibility for other staff. Duties centre on records, correspondence, appointment scheduling and administrative support for clinical and care colleagues. Holding a degree-level qualification, he brings more formal education than the post strictly requires, and the job sits in the intermediate occupational band.\", \"home_and_household\": \"Home is a terraced house or bungalow in a suburban part of the North West, rented from a private landlord or letting agency rather than owned. The household contains two adults, both aged sixty-five or under, and no children. There are at least two more bedrooms than the household technically needs, so space is not tight and one room is used for storage and quiet desk work. He has never married or registered a civil partnership and is not living as part of a couple.\", \"week_and_hobbies\": \"The commute is short, under two kilometres, and covered entirely on foot, so the day begins and ends with a brisk walk through residential streets rather than any wait for transport. Workdays are structured and office based, since the role cannot be carried out from home. Evenings and weekends are quiet and self-directed: reading, listening to music, tinkering with the spare room's shelves, occasional local walks, and keeping in touch with friends and family by phone and message.\"}",
+   "sha256": "45be8edc06b4b70f94ff026ab4598d30c2fe41cb601f6901fb8b56d855eaa083",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1079,
+    "output_tokens": 466
+   }
+  },
+  {
+   "agent_id": "mm_fg3_nick",
+   "candidate_index": 2,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000000513106",
+   "prompt_sha256": "2dfde87b7be60522a163dba70f207366481726af2ec62b3ec00dfcb0701f43b6",
+   "narrative": {
+    "working_life": "A forty-year-old employee working full-time in a secretarial and related role within the human health and social work sector in the North West. The post is an intermediate occupation, salaried and without supervisory or managerial responsibility for other staff, involving between thirty-one and forty-eight hours across a standard working week. Duties centre on administration, correspondence, record-keeping, appointment scheduling and supporting colleagues in a busy service setting. A degree-level qualification underpins the work, though the role itself does not require professional registration or line management duties.",
+    "home_and_household": "Home is a terraced house or bungalow in a suburban part of the North West, rented from a private landlord or letting agency. The household contains two adults, both aged sixty-five or under, and no children. With two or more bedrooms spare relative to the number of occupants, there is ample room, and one bedroom serves as storage or a quiet space. She has never married nor registered a civil partnership and is not living as part of a couple, sharing the tenancy on a straightforward arrangement.",
+    "week_and_hobbies": "The workplace lies less than two kilometres away and the journey is made entirely on foot, so no car or ticket is needed and the walk marks the start and end of each weekday. Work is done at a fixed site rather than at home. Evenings and weekends allow time for reading, music, films, tidying and organising the spare room, and keeping in touch with friends and relatives. Local suburban streets, parks and libraries are within easy reach, and short trips further afield break up quieter weeks."
+   },
+   "raw_text": "{\"working_life\":\"A forty-year-old employee working full-time in a secretarial and related role within the human health and social work sector in the North West. The post is an intermediate occupation, salaried and without supervisory or managerial responsibility for other staff, involving between thirty-one and forty-eight hours across a standard working week. Duties centre on administration, correspondence, record-keeping, appointment scheduling and supporting colleagues in a busy service setting. A degree-level qualification underpins the work, though the role itself does not require professional registration or line management duties.\",\"home_and_household\":\"Home is a terraced house or bungalow in a suburban part of the North West, rented from a private landlord or letting agency. The household contains two adults, both aged sixty-five or under, and no children. With two or more bedrooms spare relative to the number of occupants, there is ample room, and one bedroom serves as storage or a quiet space. She has never married nor registered a civil partnership and is not living as part of a couple, sharing the tenancy on a straightforward arrangement.\",\"week_and_hobbies\":\"The workplace lies less than two kilometres away and the journey is made entirely on foot, so no car or ticket is needed and the walk marks the start and end of each weekday. Work is done at a fixed site rather than at home. Evenings and weekends allow time for reading, music, films, tidying and organising the spare room, and keeping in touch with friends and relatives. Local suburban streets, parks and libraries are within easy reach, and short trips further afield break up quieter weeks.\"}",
+   "sha256": "fc9440fb848edca7eee85152c17c02023a74e420c615ab02c33f154d0df5de5a",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1079,
+    "output_tokens": 498
+   }
+  },
+  {
+   "agent_id": "mm_fg3_nick",
+   "candidate_index": 3,
+   "branch": "real",
+   "microdata_record_id": "SGI000000495664",
+   "prompt_sha256": "84e1f0781e1996ec2dd9c46bae7c1df5b0420e56f55070744fa5197d77bd6a2d",
+   "narrative": {
+    "working_life": "At forty, he is currently economically inactive due to long-term sickness or disability, and has not worked at any point in the past twelve months. His background is in construction, where he was employed as an assembler and routine operative, a role classified among routine occupations. He held no supervisory or managerial responsibilities, working instead as one of a team following set procedures. His highest qualification is an apprenticeship, gained through practical training rather than academic study, and he does not presently travel to any workplace.",
+    "home_and_household": "He lives in a semi-detached house in a suburban part of the North West, rented privately through a landlord or letting agency. The household contains two people, both adults aged sixty-five or under, with no children present, and the other occupant is unrelated to him rather than family, making this a shared rather than family arrangement. He has never married and has never registered a civil partnership, and is not living as part of a couple. The property has one bedroom more than the household strictly requires.",
+    "week_and_hobbies": "Without paid work to structure his time, his weeks are shaped largely by his own routines and by the demands of a long-term condition. Days are spent mostly around the house and the surrounding suburban streets, with quieter periods indoors and occasional short trips out when he feels able. Practical interests carried over from his trade background persist, including tinkering with small repairs and mechanical odds and ends. Contact with the other adult in the household, along with television, radio and online browsing, fills much of the remainder."
+   },
+   "raw_text": "{\"working_life\": \"At forty, he is currently economically inactive due to long-term sickness or disability, and has not worked at any point in the past twelve months. His background is in construction, where he was employed as an assembler and routine operative, a role classified among routine occupations. He held no supervisory or managerial responsibilities, working instead as one of a team following set procedures. His highest qualification is an apprenticeship, gained through practical training rather than academic study, and he does not presently travel to any workplace.\", \"home_and_household\": \"He lives in a semi-detached house in a suburban part of the North West, rented privately through a landlord or letting agency. The household contains two people, both adults aged sixty-five or under, with no children present, and the other occupant is unrelated to him rather than family, making this a shared rather than family arrangement. He has never married and has never registered a civil partnership, and is not living as part of a couple. The property has one bedroom more than the household strictly requires.\", \"week_and_hobbies\": \"Without paid work to structure his time, his weeks are shaped largely by his own routines and by the demands of a long-term condition. Days are spent mostly around the house and the surrounding suburban streets, with quieter periods indoors and occasional short trips out when he feels able. Practical interests carried over from his trade background persist, including tinkering with small repairs and mechanical odds and ends. Contact with the other adult in the household, along with television, radio and online browsing, fills much of the remainder.\"}",
+   "sha256": "05a6e3a634832b49663d963394d082d282134a93363d0c2f3dc8ce319c6a23d5",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1018,
+    "output_tokens": 473
+   }
+  },
+  {
+   "agent_id": "mm_fg3_nick",
+   "candidate_index": 3,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000000495664",
+   "prompt_sha256": "7a6a8793d30978ca988ab36f9d5e6f97ea447843f3065091b1f3f3880f743cd5",
+   "narrative": {
+    "working_life": "At forty, she is currently economically inactive, recorded as long-term sick or disabled, and has not worked at any point in the last twelve months. Her background is in routine operative work, most recently as an assembler within the construction sector, always as an employee rather than in any supervisory or managerial capacity. She completed an apprenticeship, which remains her highest qualification and the foundation of her practical skills. With no current job, she makes no regular commute to a workplace.",
+    "home_and_household": "She rents a semi-detached house from a private landlord or letting agency in a suburban part of the North West. The household contains two people, both adults aged sixty-five or under, with no children present. She is recorded as unrelated to the household reference person, sharing the property rather than living as family. The occupancy rating shows one spare bedroom, so the accommodation is not crowded. She has never married and never registered a civil partnership, and is not living as part of a couple.",
+    "week_and_hobbies": "Her weeks are unstructured by paid work, and her long-term condition shapes how much she can take on from one day to the next. Time tends to go on quiet activities at home, such as reading, radio, television and keeping in touch with friends and relatives by phone or online. Practical interests carried over from her apprenticeship show in small repairs and tinkering around the house. Short trips locally, appointments and paperwork account for much of the rest of her routine."
+   },
+   "raw_text": "{\"working_life\": \"At forty, she is currently economically inactive, recorded as long-term sick or disabled, and has not worked at any point in the last twelve months. Her background is in routine operative work, most recently as an assembler within the construction sector, always as an employee rather than in any supervisory or managerial capacity. She completed an apprenticeship, which remains her highest qualification and the foundation of her practical skills. With no current job, she makes no regular commute to a workplace.\", \"home_and_household\": \"She rents a semi-detached house from a private landlord or letting agency in a suburban part of the North West. The household contains two people, both adults aged sixty-five or under, with no children present. She is recorded as unrelated to the household reference person, sharing the property rather than living as family. The occupancy rating shows one spare bedroom, so the accommodation is not crowded. She has never married and never registered a civil partnership, and is not living as part of a couple.\", \"week_and_hobbies\": \"Her weeks are unstructured by paid work, and her long-term condition shapes how much she can take on from one day to the next. Time tends to go on quiet activities at home, such as reading, radio, television and keeping in touch with friends and relatives by phone or online. Practical interests carried over from her apprenticeship show in small repairs and tinkering around the house. Short trips locally, appointments and paperwork account for much of the rest of her routine.\"}",
+   "sha256": "c7424d407949b67976e01ac8167d63ce83848f22e9182bee455d1079e861ed04",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1018,
+    "output_tokens": 455
+   }
+  },
+  {
+   "agent_id": "mm_fg3_paul",
+   "candidate_index": 1,
+   "branch": "real",
+   "microdata_record_id": "SGI000002874314",
+   "prompt_sha256": "9a61993fcebf05a15588ab9bea3bc10498ed3989b5d325b9796056ba94f494e0",
+   "narrative": {
+    "working_life": "A forty-seven-year-old employee working full-time, typically between thirty-one and forty-eight hours a week, in a lower professional and higher technical role. The work sits within human resources, training and vocational guidance, supporting people through recruitment processes, learning programmes and career development. The employing organisation operates in administrative and support service activities. There are no supervisory or management responsibilities attached to the post, and the role is carried out mainly at or from home rather than at a separate workplace. Formal qualifications amount to a small number of GCSE-level or vocational credits.",
+    "home_and_household": "Home is a terraced house in a suburban part of the South East of England, owned with a mortgage still being repaid. The household contains two people: a married couple of opposite sexes, both aged sixty-five or under, with no children living with them and no dependants in the family. The property has at least two more bedrooms than the household requires, so one room can readily serve as a study or workspace. Household responsibilities and running costs are shared between the two adults.",
+    "week_and_hobbies": "Weekdays follow a steady rhythm shaped by working from home, with no commute and a spare room set aside as an office. Breaks are often spent outdoors on local suburban streets and green spaces, and the absence of travelling time leaves room for reading, listening to music and keeping up with practical courses online. Weekends allow for maintenance jobs around the terraced house and garden, occasional day trips within the South East, and quiet time spent with a spouse."
+   },
+   "raw_text": "{\"working_life\":\"A forty-seven-year-old employee working full-time, typically between thirty-one and forty-eight hours a week, in a lower professional and higher technical role. The work sits within human resources, training and vocational guidance, supporting people through recruitment processes, learning programmes and career development. The employing organisation operates in administrative and support service activities. There are no supervisory or management responsibilities attached to the post, and the role is carried out mainly at or from home rather than at a separate workplace. Formal qualifications amount to a small number of GCSE-level or vocational credits.\",\"home_and_household\":\"Home is a terraced house in a suburban part of the South East of England, owned with a mortgage still being repaid. The household contains two people: a married couple of opposite sexes, both aged sixty-five or under, with no children living with them and no dependants in the family. The property has at least two more bedrooms than the household requires, so one room can readily serve as a study or workspace. Household responsibilities and running costs are shared between the two adults.\",\"week_and_hobbies\":\"Weekdays follow a steady rhythm shaped by working from home, with no commute and a spare room set aside as an office. Breaks are often spent outdoors on local suburban streets and green spaces, and the absence of travelling time leaves room for reading, listening to music and keeping up with practical courses online. Weekends allow for maintenance jobs around the terraced house and garden, occasional day trips within the South East, and quiet time spent with a spouse.\"}",
+   "sha256": "30784b9c91228f80bb5dc5bf4d962c0b5a2ba690372669a5d84fe07390312c19",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1104,
+    "output_tokens": 485
+   }
+  },
+  {
+   "agent_id": "mm_fg3_paul",
+   "candidate_index": 1,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000002874314",
+   "prompt_sha256": "1a9e2c15996bdaa33f9152bb3545b35fd8bf6d6b3daffd9b63b5c6ba08d12b10",
+   "narrative": {
+    "working_life": "A 47-year-old employee working full-time, typically between 31 and 48 hours each week, in a lower professional and higher technical role. The post sits within human resources, training and vocational guidance, based in the administrative and support services sector. There are no supervisory or management responsibilities attached, so the focus is on casework, records, coordination and advising individuals rather than directing staff. Formal qualifications extend to one to four GCSEs or a vocational equivalent, with the rest of the expertise built steadily through years of practical experience.",
+    "home_and_household": "Home is a terraced house in a suburban part of the South East, owned with a mortgage still being repaid. The household contains two people: herself and her husband, both aged 65 or under, with no dependent children. She is recorded as the wife of the household reference person. The property has at least two more bedrooms than the couple strictly require, leaving spare rooms that can be used flexibly, including for work. All employment is carried out mainly at or from this address rather than at a separate workplace.",
+    "week_and_hobbies": "Because the working week is spent mainly at home, there is no commute, and the day is shaped by online meetings, calls and paperwork rather than travel. Time saved on journeys tends to go into the house and garden, local errands on foot, and quiet evenings with her husband. Weekends allow for visits to relatives and friends, occasional trips into nearby towns or out to the coast and countryside, reading, television and craft or DIY projects around the spare rooms of the property."
+   },
+   "raw_text": "{\"working_life\": \"A 47-year-old employee working full-time, typically between 31 and 48 hours each week, in a lower professional and higher technical role. The post sits within human resources, training and vocational guidance, based in the administrative and support services sector. There are no supervisory or management responsibilities attached, so the focus is on casework, records, coordination and advising individuals rather than directing staff. Formal qualifications extend to one to four GCSEs or a vocational equivalent, with the rest of the expertise built steadily through years of practical experience.\", \"home_and_household\": \"Home is a terraced house in a suburban part of the South East, owned with a mortgage still being repaid. The household contains two people: herself and her husband, both aged 65 or under, with no dependent children. She is recorded as the wife of the household reference person. The property has at least two more bedrooms than the couple strictly require, leaving spare rooms that can be used flexibly, including for work. All employment is carried out mainly at or from this address rather than at a separate workplace.\", \"week_and_hobbies\": \"Because the working week is spent mainly at home, there is no commute, and the day is shaped by online meetings, calls and paperwork rather than travel. Time saved on journeys tends to go into the house and garden, local errands on foot, and quiet evenings with her husband. Weekends allow for visits to relatives and friends, occasional trips into nearby towns or out to the coast and countryside, reading, television and craft or DIY projects around the spare rooms of the property.\"}",
+   "sha256": "44c12c83eb48f5d8f045370522c05d671b284eb64c5e21d00a102ea1bd26d25f",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1104,
+    "output_tokens": 491
+   }
+  },
+  {
+   "agent_id": "mm_fg3_paul",
+   "candidate_index": 2,
+   "branch": "real",
+   "microdata_record_id": "SGI000002814820",
+   "prompt_sha256": "7331773f64179c1597dd1a6af95971b661e502e606aed71f7f39bca4eb9ff055",
+   "narrative": {
+    "working_life": "At 47, he holds a senior post as a functional manager or director within the information and communication sector, employed full time rather than self-employed. The role sits in the higher managerial and administrative bracket, carrying responsibility for supervising and managing other staff. Weekly hours fall in the range of thirty-one to forty-eight, and the work is carried out mainly at or from home rather than at an employer's premises. His highest formal qualification is at Level 3, two or more A levels or a vocational equivalent, with progression built through experience.",
+    "home_and_household": "He lives in a suburban part of the South East in a terraced house rented from a private landlord or letting agency. The household contains two people: himself and his female partner, with whom he cohabits without having married or registered a civil partnership. Both are aged sixty-five or under and there are no dependent children. He is recorded as the partner of the household reference person. The property has at least two bedrooms more than the household requires, leaving considerable spare room.",
+    "week_and_hobbies": "Because the working week is conducted from the house, the boundary between office hours and personal time is managed deliberately, with a spare bedroom serving as a study. Weekdays involve long stretches at a desk, calls and oversight of a team, so time away from the screen tends to be spent outdoors, walking locally or driving out of the suburbs at weekends. Evenings are quiet and shared with his partner, and interests lean towards technology, music and following sport as a spectator."
+   },
+   "raw_text": "{\"working_life\":\"At 47, he holds a senior post as a functional manager or director within the information and communication sector, employed full time rather than self-employed. The role sits in the higher managerial and administrative bracket, carrying responsibility for supervising and managing other staff. Weekly hours fall in the range of thirty-one to forty-eight, and the work is carried out mainly at or from home rather than at an employer's premises. His highest formal qualification is at Level 3, two or more A levels or a vocational equivalent, with progression built through experience.\",\"home_and_household\":\"He lives in a suburban part of the South East in a terraced house rented from a private landlord or letting agency. The household contains two people: himself and his female partner, with whom he cohabits without having married or registered a civil partnership. Both are aged sixty-five or under and there are no dependent children. He is recorded as the partner of the household reference person. The property has at least two bedrooms more than the household requires, leaving considerable spare room.\",\"week_and_hobbies\":\"Because the working week is conducted from the house, the boundary between office hours and personal time is managed deliberately, with a spare bedroom serving as a study. Weekdays involve long stretches at a desk, calls and oversight of a team, so time away from the screen tends to be spent outdoors, walking locally or driving out of the suburbs at weekends. Evenings are quiet and shared with his partner, and interests lean towards technology, music and following sport as a spectator.\"}",
+   "sha256": "5c3164d7f3f33024a29f4d7e3ad4d6fe4051b62171d8c921c74713713938a5c5",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1089,
+    "output_tokens": 475
+   }
+  },
+  {
+   "agent_id": "mm_fg3_paul",
+   "candidate_index": 2,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000002814820",
+   "prompt_sha256": "63093737937826ea09ea6ac4312c67c55ec5bea0efc31e5eb45c55839ed91635",
+   "narrative": {
+    "working_life": "At 47, she works full-time as a functional manager in the information and communication sector, employed rather than self-employed, and typically putting in between 31 and 48 hours a week. The role sits within higher managerial and administrative work, and includes formal responsibility for supervising and managing other staff. Her highest qualification is at Level 3, two or more A levels or a vocational equivalent, with the rest of her expertise built through years of practical experience and steady progression into a senior position.",
+    "home_and_household": "Home is a terraced house in a suburban part of the South East, rented from a private landlord or letting agency. She shares it with her cohabiting opposite-sex partner, and is recorded as the partner of the household reference person. There are two adults in total, both aged 65 or under, and no children. With two or more bedrooms above what the household requires, there is comfortable spare space, which allows one room to be given over to work rather than doubling up.",
+    "week_and_hobbies": "She works mainly at or from home, so the week has no commute and the boundary between office hours and the rest of the day is something she manages deliberately. Days are structured around video calls, planning and reviewing the work of the team she oversees, with a defined stopping point in the evening. Time away from the desk is spent quietly with her partner, on reading, music, television and occasional walks around the local suburban streets, and weekends are kept largely free of work."
+   },
+   "raw_text": "{\"working_life\": \"At 47, she works full-time as a functional manager in the information and communication sector, employed rather than self-employed, and typically putting in between 31 and 48 hours a week. The role sits within higher managerial and administrative work, and includes formal responsibility for supervising and managing other staff. Her highest qualification is at Level 3, two or more A levels or a vocational equivalent, with the rest of her expertise built through years of practical experience and steady progression into a senior position.\", \"home_and_household\": \"Home is a terraced house in a suburban part of the South East, rented from a private landlord or letting agency. She shares it with her cohabiting opposite-sex partner, and is recorded as the partner of the household reference person. There are two adults in total, both aged 65 or under, and no children. With two or more bedrooms above what the household requires, there is comfortable spare space, which allows one room to be given over to work rather than doubling up.\", \"week_and_hobbies\": \"She works mainly at or from home, so the week has no commute and the boundary between office hours and the rest of the day is something she manages deliberately. Days are structured around video calls, planning and reviewing the work of the team she oversees, with a defined stopping point in the evening. Time away from the desk is spent quietly with her partner, on reading, music, television and occasional walks around the local suburban streets, and weekends are kept largely free of work.\"}",
+   "sha256": "9f726d24a21130d1b0e7ee6d8d647e2e5c156bed81f9852a7e7db94eae10912b",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1089,
+    "output_tokens": 450
+   }
+  },
+  {
+   "agent_id": "mm_fg3_paul",
+   "candidate_index": 3,
+   "branch": "real",
+   "microdata_record_id": "SGI000000280675",
+   "prompt_sha256": "155dbaab667362578074893b2973633224ec91d07062a45475d6ab90f775a8ea",
+   "narrative": {
+    "working_life": "A 47-year-old full-time employee working in the information and communication sector, holding a higher professional role in business and financial project management. The position carries supervisory responsibility for a team, and the working week regularly extends to forty-nine hours or more. All work is carried out at an employer's premises in the UK rather than at home, reached by car or van across a commute of between ten and twenty kilometres. A degree-level qualification underpins the professional track followed since early adulthood.",
+    "home_and_household": "Home is a detached house or bungalow in a suburban part of the South East, owned with a mortgage still being repaid. Three people live there: a married couple in an opposite-sex partnership and their dependent child, who is aged between sixteen and eighteen and now counted among the adults present. The property has at least two more bedrooms than the household requires, leaving spare rooms that can be used for study, storage or occasional guests. The arrangement is settled and long-standing.",
+    "week_and_hobbies": "Weekdays are shaped by long hours and the drive to and from the workplace, so free time is concentrated into evenings and weekends. Typical pursuits include tinkering with technology at home, reading, following sport on television and steady upkeep of the house and garden. Supporting a teenager through examinations and decisions about further study takes up a fair share of attention, including trips out by car. Holidays are planned in advance around annual leave, and quieter weekends are valued after demanding weeks."
+   },
+   "raw_text": "{\"working_life\":\"A 47-year-old full-time employee working in the information and communication sector, holding a higher professional role in business and financial project management. The position carries supervisory responsibility for a team, and the working week regularly extends to forty-nine hours or more. All work is carried out at an employer's premises in the UK rather than at home, reached by car or van across a commute of between ten and twenty kilometres. A degree-level qualification underpins the professional track followed since early adulthood.\",\"home_and_household\":\"Home is a detached house or bungalow in a suburban part of the South East, owned with a mortgage still being repaid. Three people live there: a married couple in an opposite-sex partnership and their dependent child, who is aged between sixteen and eighteen and now counted among the adults present. The property has at least two more bedrooms than the household requires, leaving spare rooms that can be used for study, storage or occasional guests. The arrangement is settled and long-standing.\",\"week_and_hobbies\":\"Weekdays are shaped by long hours and the drive to and from the workplace, so free time is concentrated into evenings and weekends. Typical pursuits include tinkering with technology at home, reading, following sport on television and steady upkeep of the house and garden. Supporting a teenager through examinations and decisions about further study takes up a fair share of attention, including trips out by car. Holidays are planned in advance around annual leave, and quieter weekends are valued after demanding weeks.\"}",
+   "sha256": "a9ca1c5664b48c1ae0fe30b1f60280adc5565c6ba9c5245223a6cc5edf4a9409",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1086,
+    "output_tokens": 471
+   }
+  },
+  {
+   "agent_id": "mm_fg3_paul",
+   "candidate_index": 3,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000000280675",
+   "prompt_sha256": "a3fd250816d2d2d85f60703fbf91f163dd8e98a64c374f490a3cb7411c791e2f",
+   "narrative": {
+    "working_life": "A forty-seven-year-old employee working full time in the information and communication sector, holding a higher professional role in business and financial project management. The week regularly runs to forty-nine hours or more, with responsibility for supervising and managing others as part of the post. Work is carried out in the UK at an employer's premises rather than from home, involving a commute of between ten and twenty kilometres by car or van. A degree-level or higher qualification underpins this professional standing.",
+    "home_and_household": "Home is a detached house in a suburban part of the South East, owned with a mortgage still being repaid. Three people share the property, and with two or more spare bedrooms above requirement there is comfortable space for study, storage and quiet work. She is married and lives with her opposite-sex spouse. One dependent child, aged between sixteen and eighteen, is part of the family, though the household is recorded as three or more adults, reflecting the older age of that young person.",
+    "week_and_hobbies": "Long working hours shape the pattern of the week, with early starts, the drive to and from the workplace, and evenings often spent catching up on correspondence or planning. Weekends bring a slower rhythm: time in the garden, upkeep of the house, reading, and driving to see relatives or friends nearby. Attention is also given to supporting a teenager through examinations and decisions about the next stage of study or training. Occasional short breaks away offer a change of scene."
+   },
+   "raw_text": "{\"working_life\": \"A forty-seven-year-old employee working full time in the information and communication sector, holding a higher professional role in business and financial project management. The week regularly runs to forty-nine hours or more, with responsibility for supervising and managing others as part of the post. Work is carried out in the UK at an employer's premises rather than from home, involving a commute of between ten and twenty kilometres by car or van. A degree-level or higher qualification underpins this professional standing.\", \"home_and_household\": \"Home is a detached house in a suburban part of the South East, owned with a mortgage still being repaid. Three people share the property, and with two or more spare bedrooms above requirement there is comfortable space for study, storage and quiet work. She is married and lives with her opposite-sex spouse. One dependent child, aged between sixteen and eighteen, is part of the family, though the household is recorded as three or more adults, reflecting the older age of that young person.\", \"week_and_hobbies\": \"Long working hours shape the pattern of the week, with early starts, the drive to and from the workplace, and evenings often spent catching up on correspondence or planning. Weekends bring a slower rhythm: time in the garden, upkeep of the house, reading, and driving to see relatives or friends nearby. Attention is also given to supporting a teenager through examinations and decisions about the next stage of study or training. Occasional short breaks away offer a change of scene.\"}",
+   "sha256": "ad4fedb98748c2e64c923f7cf7296474814ead1358430b68bb45d06680be98c9",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1086,
+    "output_tokens": 460
+   }
+  },
+  {
+   "agent_id": "mm_fg4_gregor",
+   "candidate_index": 1,
+   "branch": "real",
+   "microdata_record_id": "SGI000002751191",
+   "prompt_sha256": "6eb75c41c8d0df8cce99dac397326873a8896dda8ac746c8e862c8f0d296bc8f",
+   "narrative": {
+    "working_life": "A 53-year-old employee working full-time in the construction sector, in metal forming, welding and related trades. The role is hands-on and classed as semi-routine, with no supervisory or management responsibilities. Weekly hours are long, at 49 or more, and the work is carried out at sites and premises rather than at home. Each journey to the workplace covers between 20 and 30 kilometres, made by car or van. Qualifications comprise five or more GCSEs or a vocational equivalent, with skills largely built through practical experience on the job.",
+    "home_and_household": "Home is a semi-detached house in an urban part of the North West, owned with a mortgage still being repaid. Three adults live there and no dependent children, with any offspring now counted as non-dependent. Married and living as part of an opposite-sex couple, he is recorded as the husband of the household reference person. The occupancy rating for bedrooms stands at plus one, indicating one more bedroom than the household strictly requires, so the property offers a modest amount of spare space.",
+    "week_and_hobbies": "Weekdays are shaped by early starts and long shifts, with a drive of around half an hour each way absorbing further time. Evenings tend to be quiet and spent at home, with television, radio, music or motoring interests filling the gap before an early night. Practical skills carry over into occasional repairs and improvements around the house and garden, and maintaining the car is a familiar task. Weekends allow more scope for rest, catching up with family, following sport results and local trips by road."
+   },
+   "raw_text": "{\"working_life\": \"A 53-year-old employee working full-time in the construction sector, in metal forming, welding and related trades. The role is hands-on and classed as semi-routine, with no supervisory or management responsibilities. Weekly hours are long, at 49 or more, and the work is carried out at sites and premises rather than at home. Each journey to the workplace covers between 20 and 30 kilometres, made by car or van. Qualifications comprise five or more GCSEs or a vocational equivalent, with skills largely built through practical experience on the job.\", \"home_and_household\": \"Home is a semi-detached house in an urban part of the North West, owned with a mortgage still being repaid. Three adults live there and no dependent children, with any offspring now counted as non-dependent. Married and living as part of an opposite-sex couple, he is recorded as the husband of the household reference person. The occupancy rating for bedrooms stands at plus one, indicating one more bedroom than the household strictly requires, so the property offers a modest amount of spare space.\", \"week_and_hobbies\": \"Weekdays are shaped by early starts and long shifts, with a drive of around half an hour each way absorbing further time. Evenings tend to be quiet and spent at home, with television, radio, music or motoring interests filling the gap before an early night. Practical skills carry over into occasional repairs and improvements around the house and garden, and maintaining the car is a familiar task. Weekends allow more scope for rest, catching up with family, following sport results and local trips by road.\"}",
+   "sha256": "4829ee1211ef084e9d3c903ee8f0a14d4199f8492afd9987627fb58b8229024d",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1083,
+    "output_tokens": 497
+   }
+  },
+  {
+   "agent_id": "mm_fg4_gregor",
+   "candidate_index": 1,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000002751191",
+   "prompt_sha256": "c4c07921fbea1de73f61fe08ec46850fe0b4934bc566f60c97be729f23cc1086",
+   "narrative": {
+    "working_life": "A 53-year-old employee working full-time in the construction sector, in a metal forming, welding and related trade. The role is a semi-routine occupation with no supervisory or management responsibility, and the working week regularly runs to 49 hours or more. Work takes place at sites and premises rather than at home, all within the UK. The daily commute covers between 20 and 30 kilometres each way, driving a car or van from an urban base in the North West.",
+    "home_and_household": "Home is a semi-detached house owned with a mortgage, in an urban part of the North West. Three adults share the property and there are no dependent children, any children in the family now being grown. The household is headed jointly with a spouse, and the recorded relationship to the household reference person is husband or wife, within a married opposite-sex couple. The occupancy rating for bedrooms stands at plus one, indicating one spare bedroom beyond the notional requirement for the people living there.",
+    "week_and_hobbies": "With long hours and a drive of twenty to thirty kilometres in each direction, most weekdays are taken up by work and travel, leaving evenings fairly short. Free time tends to fall at weekends, spent around the house and garden, on practical repairs and maintenance, and catching up with family members and neighbours. Qualifications reach Level 2, five or more GCSEs or a vocational equivalent, with skills largely built through practical trade experience. Driving also serves for visits and errands beyond the immediate area."
+   },
+   "raw_text": "{\"working_life\": \"A 53-year-old employee working full-time in the construction sector, in a metal forming, welding and related trade. The role is a semi-routine occupation with no supervisory or management responsibility, and the working week regularly runs to 49 hours or more. Work takes place at sites and premises rather than at home, all within the UK. The daily commute covers between 20 and 30 kilometres each way, driving a car or van from an urban base in the North West.\", \"home_and_household\": \"Home is a semi-detached house owned with a mortgage, in an urban part of the North West. Three adults share the property and there are no dependent children, any children in the family now being grown. The household is headed jointly with a spouse, and the recorded relationship to the household reference person is husband or wife, within a married opposite-sex couple. The occupancy rating for bedrooms stands at plus one, indicating one spare bedroom beyond the notional requirement for the people living there.\", \"week_and_hobbies\": \"With long hours and a drive of twenty to thirty kilometres in each direction, most weekdays are taken up by work and travel, leaving evenings fairly short. Free time tends to fall at weekends, spent around the house and garden, on practical repairs and maintenance, and catching up with family members and neighbours. Qualifications reach Level 2, five or more GCSEs or a vocational equivalent, with skills largely built through practical trade experience. Driving also serves for visits and errands beyond the immediate area.\"}",
+   "sha256": "b691458be2b6260466ea40c51c62e3aeedc14e1c414d35bc83935c93fa4a4551",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1083,
+    "output_tokens": 479
+   }
+  },
+  {
+   "agent_id": "mm_fg4_gregor",
+   "candidate_index": 2,
+   "branch": "real",
+   "microdata_record_id": "SGI000002758161",
+   "prompt_sha256": "debeff7db2d690766d2ab28cfd5621c311d6e84410c9c000cc52c82815349806",
+   "narrative": {
+    "working_life": "A man of 53 whose working record sits in caring personal services, within the human health and social work sector, always as an employee rather than a supervisor or manager. The role fell into the semi-routine occupational grouping, with no responsibility for directing other staff. He has not been in employment at any point in the last twelve months and is currently economically inactive on grounds of long-term sickness or disability. His highest qualification is at entry or Level 1, covering one to four GCSEs or a vocational equivalent.",
+    "home_and_household": "Home is a flat within a commercial building, of the kind found above a shop or inside an office block or hotel, rented from a private landlord or letting agency in an urban part of the North West. He lives alone, the sole occupant of the household and aged under 65, having been divorced or seen a civil partnership legally dissolved. The property has one bedroom more than the occupancy standard requires, giving a spare room. With no current job, there is no regular commuting journey to a workplace.",
+    "week_and_hobbies": "Days follow an unstructured pattern shaped by long-term ill health rather than a work timetable, with pacing and rest built into most of them. Time indoors goes on television, radio, puzzles and following news and sport, alongside the ordinary administration of a single-person tenancy and appointments connected with his condition. Short local trips on foot or by bus break up the week, using the surrounding urban streets. Contact with a small circle of friends and relatives is kept up largely by phone and messaging."
+   },
+   "raw_text": "{\"working_life\": \"A man of 53 whose working record sits in caring personal services, within the human health and social work sector, always as an employee rather than a supervisor or manager. The role fell into the semi-routine occupational grouping, with no responsibility for directing other staff. He has not been in employment at any point in the last twelve months and is currently economically inactive on grounds of long-term sickness or disability. His highest qualification is at entry or Level 1, covering one to four GCSEs or a vocational equivalent.\", \"home_and_household\": \"Home is a flat within a commercial building, of the kind found above a shop or inside an office block or hotel, rented from a private landlord or letting agency in an urban part of the North West. He lives alone, the sole occupant of the household and aged under 65, having been divorced or seen a civil partnership legally dissolved. The property has one bedroom more than the occupancy standard requires, giving a spare room. With no current job, there is no regular commuting journey to a workplace.\", \"week_and_hobbies\": \"Days follow an unstructured pattern shaped by long-term ill health rather than a work timetable, with pacing and rest built into most of them. Time indoors goes on television, radio, puzzles and following news and sport, alongside the ordinary administration of a single-person tenancy and appointments connected with his condition. Short local trips on foot or by bus break up the week, using the surrounding urban streets. Contact with a small circle of friends and relatives is kept up largely by phone and messaging.\"}",
+   "sha256": "a8c46135f56caec548b07b44087015775dc1b5dc6db2c2d5618dd9d011dd6a11",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1071,
+    "output_tokens": 487
+   }
+  },
+  {
+   "agent_id": "mm_fg4_gregor",
+   "candidate_index": 2,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000002758161",
+   "prompt_sha256": "81baafcf20bb0128679f0eea868838d2bad5ce02ddb22c8bc93ae109bbf907a7",
+   "narrative": {
+    "working_life": "A woman of 53 whose working background lies in caring personal services, employed within the human health and social work sector in a semi-routine role. She held no supervisory or management responsibilities, working as an employee rather than on her own account. She has not been in paid work at any point in the last twelve months and is currently recorded as economically inactive owing to long-term sickness or disability. Her highest qualification is at entry level, covering one to four GCSEs or a vocational equivalent, gained before entering employment.",
+    "home_and_household": "She lives alone in an urban part of the North West, in a flat set within a commercial building of the kind found above a shop or within office premises. The property is rented from a private landlord or letting agency. As a one-person household aged under 65, she has one bedroom more than the standard measure requires, giving a little spare space. She is divorced, the marriage having been legally dissolved, and there are no children or other adults living at the address.",
+    "week_and_hobbies": "With no journey to a workplace to structure the day, her week is shaped largely at home and around the immediate neighbourhood. Being centrally placed above commercial premises means shops, transport links and services are close by, which helps on days when moving about is harder. Quieter indoor pursuits such as reading, television, radio, puzzles and keeping in touch with friends and former colleagues by phone or online fill much of the time, alongside appointments and the practical routines of running a flat alone."
+   },
+   "raw_text": "{\"working_life\": \"A woman of 53 whose working background lies in caring personal services, employed within the human health and social work sector in a semi-routine role. She held no supervisory or management responsibilities, working as an employee rather than on her own account. She has not been in paid work at any point in the last twelve months and is currently recorded as economically inactive owing to long-term sickness or disability. Her highest qualification is at entry level, covering one to four GCSEs or a vocational equivalent, gained before entering employment.\", \"home_and_household\": \"She lives alone in an urban part of the North West, in a flat set within a commercial building of the kind found above a shop or within office premises. The property is rented from a private landlord or letting agency. As a one-person household aged under 65, she has one bedroom more than the standard measure requires, giving a little spare space. She is divorced, the marriage having been legally dissolved, and there are no children or other adults living at the address.\", \"week_and_hobbies\": \"With no journey to a workplace to structure the day, her week is shaped largely at home and around the immediate neighbourhood. Being centrally placed above commercial premises means shops, transport links and services are close by, which helps on days when moving about is harder. Quieter indoor pursuits such as reading, television, radio, puzzles and keeping in touch with friends and former colleagues by phone or online fill much of the time, alongside appointments and the practical routines of running a flat alone.\"}",
+   "sha256": "55e617789b6b3d034a0d81a4515936456999e75dca6ce1fbb4fb8a5f9377fd1b",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1071,
+    "output_tokens": 462
+   }
+  },
+  {
+   "agent_id": "mm_fg4_gregor",
+   "candidate_index": 3,
+   "branch": "real",
+   "microdata_record_id": "SGI000001749911",
+   "prompt_sha256": "9e121b8a13baf38b0a0ad431e4d0589092b49ff7e0420aad6f79dafa80ea3dac",
+   "narrative": {
+    "working_life": "A 53-year-old employed full time as an engineering professional within the wholesale and retail trade sector, which includes the repair of motor vehicles and motor cycles. The role sits in the higher professional category and carries supervisory responsibility for other staff, with typical weeks running to between 31 and 48 hours. Qualifications extend to degree level or above, or a professional equivalent. Work is carried out at a fixed workplace in the United Kingdom rather than at home.",
+    "home_and_household": "Home is a detached house in an urban part of the North West of England, owned outright with no mortgage outstanding. Three people share the property, which has at least two more bedrooms than the household strictly requires, giving considerable spare space. The household consists of a married couple and one dependent child aged between 16 and 18, who is counted among the adults present. The arrangement is settled and long established, with no rent or loan repayments on the property.",
+    "week_and_hobbies": "Weekdays follow a regular pattern shaped by full-time hours and a commute of between five and ten kilometres, undertaken by car or van rather than by public transport. Managing a team adds planning and oversight to the working day. Time away from work is spent largely at home and locally, with the size of the detached property allowing room for practical projects, motoring interests and quiet study. Weekends tend to be family-centred, with a teenager still living at home."
+   },
+   "raw_text": "{\"working_life\":\"A 53-year-old employed full time as an engineering professional within the wholesale and retail trade sector, which includes the repair of motor vehicles and motor cycles. The role sits in the higher professional category and carries supervisory responsibility for other staff, with typical weeks running to between 31 and 48 hours. Qualifications extend to degree level or above, or a professional equivalent. Work is carried out at a fixed workplace in the United Kingdom rather than at home.\",\"home_and_household\":\"Home is a detached house in an urban part of the North West of England, owned outright with no mortgage outstanding. Three people share the property, which has at least two more bedrooms than the household strictly requires, giving considerable spare space. The household consists of a married couple and one dependent child aged between 16 and 18, who is counted among the adults present. The arrangement is settled and long established, with no rent or loan repayments on the property.\",\"week_and_hobbies\":\"Weekdays follow a regular pattern shaped by full-time hours and a commute of between five and ten kilometres, undertaken by car or van rather than by public transport. Managing a team adds planning and oversight to the working day. Time away from work is spent largely at home and locally, with the size of the detached property allowing room for practical projects, motoring interests and quiet study. Weekends tend to be family-centred, with a teenager still living at home.\"}",
+   "sha256": "8252e158c89ed992fb33a2f96cab0af4545bb275b1165d4d8846c534e7a0bf85",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1095,
+    "output_tokens": 448
+   }
+  },
+  {
+   "agent_id": "mm_fg4_gregor",
+   "candidate_index": 3,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000001749911",
+   "prompt_sha256": "8bd985a28fc4c63d5956bbe1b30b0409d40dce7686d3437a2c771077f819720e",
+   "narrative": {
+    "working_life": "A 53-year-old engineering professional employed full time within the wholesale and retail trade sector, in a business connected with the repair of motor vehicles. The role sits in the higher professional bracket and carries supervisory responsibility for other staff, alongside technical work. Weekly hours typically fall between 31 and 48. A degree-level or higher qualification underpins the position. The commute is between five and ten kilometres each way by car, to a fixed workplace in the North West rather than working from home.",
+    "home_and_household": "Home is a detached house in an urban part of the North West, owned outright with no mortgage outstanding. Three people live there: a married couple and one dependent child aged between 16 and 18, who is now counted among the adults in the household. There are at least two more bedrooms than the household strictly requires, so space is not in short supply and rooms can be given over to study, storage or occasional guests. A car or van is kept for daily travel.",
+    "week_and_hobbies": "Weekdays follow a settled rhythm shaped by full-time hours and a short drive to and from the workplace, with some evenings taken up by planning and correspondence linked to supervisory duties. Spare time at weekends tends to go on maintaining the house and garden, practical repairs, reading, and following technical developments related to the profession. There is also support offered to a teenager approaching decisions about further study or work, including trips out and time spent together at home."
+   },
+   "raw_text": "{\"working_life\":\"A 53-year-old engineering professional employed full time within the wholesale and retail trade sector, in a business connected with the repair of motor vehicles. The role sits in the higher professional bracket and carries supervisory responsibility for other staff, alongside technical work. Weekly hours typically fall between 31 and 48. A degree-level or higher qualification underpins the position. The commute is between five and ten kilometres each way by car, to a fixed workplace in the North West rather than working from home.\",\"home_and_household\":\"Home is a detached house in an urban part of the North West, owned outright with no mortgage outstanding. Three people live there: a married couple and one dependent child aged between 16 and 18, who is now counted among the adults in the household. There are at least two more bedrooms than the household strictly requires, so space is not in short supply and rooms can be given over to study, storage or occasional guests. A car or van is kept for daily travel.\",\"week_and_hobbies\":\"Weekdays follow a settled rhythm shaped by full-time hours and a short drive to and from the workplace, with some evenings taken up by planning and correspondence linked to supervisory duties. Spare time at weekends tends to go on maintaining the house and garden, practical repairs, reading, and following technical developments related to the profession. There is also support offered to a teenager approaching decisions about further study or work, including trips out and time spent together at home.\"}",
+   "sha256": "986667d99d04bfa04c2c4a666ef6179a47beab66b4ec73b1e2eac94adca10a17",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1095,
+    "output_tokens": 458
+   }
+  },
+  {
+   "agent_id": "mm_fg4_james",
+   "candidate_index": 1,
+   "branch": "real",
+   "microdata_record_id": "SGI000001277714",
+   "prompt_sha256": "1c5ce2ebec72a7158b651ab90b650da9021d14a451ba5d6a416269076f115680",
+   "narrative": {
+    "working_life": "A full-time employee of fifty, working in the construction and building trades within the manufacturing sector, with a working base at or from home rather than a distant site or plant. Typical weeks run between thirty-one and forty-eight hours, arranged around orders and drawings rather than fixed shifts. There are no supervisory or management duties, and the role sits among routine occupations, though a degree-level qualification was gained earlier. Commuting costs nothing, and the day begins where it ends.",
+    "home_and_household": "Home is a terraced house in a suburban part of the South East, owned with a mortgage still running. Three adults share it: a married couple in an opposite-sex partnership, plus one further adult, with no dependent children, so any offspring are grown. The number of bedrooms matches what the household requires exactly, leaving no spare room and no crowding. Working from the same address means the property serves as both dwelling and workplace, requiring some care over storage, tools and quiet.",
+    "week_and_hobbies": "Without a commute, the week has a fairly settled rhythm: an early start, a defined stretch of hours, and evenings free at home or in the surrounding streets and parks. Practical interests carry over from trade skills, with repairs, joinery and improvements around the terraced house filling weekends. Time is also given to the other adults in the household, occasional trips further into the South East, and quieter pursuits such as radio, reading, motoring or watching sport at the weekend."
+   },
+   "raw_text": "{\"working_life\": \"A full-time employee of fifty, working in the construction and building trades within the manufacturing sector, with a working base at or from home rather than a distant site or plant. Typical weeks run between thirty-one and forty-eight hours, arranged around orders and drawings rather than fixed shifts. There are no supervisory or management duties, and the role sits among routine occupations, though a degree-level qualification was gained earlier. Commuting costs nothing, and the day begins where it ends.\", \"home_and_household\": \"Home is a terraced house in a suburban part of the South East, owned with a mortgage still running. Three adults share it: a married couple in an opposite-sex partnership, plus one further adult, with no dependent children, so any offspring are grown. The number of bedrooms matches what the household requires exactly, leaving no spare room and no crowding. Working from the same address means the property serves as both dwelling and workplace, requiring some care over storage, tools and quiet.\", \"week_and_hobbies\": \"Without a commute, the week has a fairly settled rhythm: an early start, a defined stretch of hours, and evenings free at home or in the surrounding streets and parks. Practical interests carry over from trade skills, with repairs, joinery and improvements around the terraced house filling weekends. Time is also given to the other adults in the household, occasional trips further into the South East, and quieter pursuits such as radio, reading, motoring or watching sport at the weekend.\"}",
+   "sha256": "9ee6ebd79807b88f88bd3a037d6c4686749e33720ccfa9aeb6013a1add952916",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1074,
+    "output_tokens": 561
+   }
+  },
+  {
+   "agent_id": "mm_fg4_james",
+   "candidate_index": 1,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000001277714",
+   "prompt_sha256": "b32c929cb43362d0a138c68cc26397e7a8ae478d6a8e957aa53d2f047ae33cc5",
+   "narrative": {
+    "working_life": "A woman of fifty works full-time as an employee in a construction and building trades role within the manufacturing sector, classified among routine occupations. Her weekly hours fall between thirty-one and forty-eight, and she holds no supervisory or managerial responsibility for other staff. Unusually for the classification, she holds a degree-level or higher qualification. Her base is her own address rather than a site or factory floor, with all work carried out mainly at or from home, so no commuting journey features in her week.",
+    "home_and_household": "Home is a terraced house in a suburban part of the South East, owned with a mortgage still being repaid. Three adults share the property and there are no dependent children, the household being made up of herself, her husband, and one further adult. The number of bedrooms matches the household's requirement exactly, giving an occupancy rating of zero, so space is adequate without being generous. Part of the house doubles as a workspace, since her employment is based entirely at the address.",
+    "week_and_hobbies": "Weekdays follow a settled rhythm, with a full working day carried out at home and no travel time at either end. Evenings and weekends are spent with her husband and the other adult in the household, and around the upkeep of a terraced property that requires steady attention to decorating, repairs and the small garden. Practical, hands-on tasks come easily given her trade background. Reading, radio and local errands on foot fill quieter hours, alongside occasional visits to relatives and friends nearby."
+   },
+   "raw_text": "{\"working_life\": \"A woman of fifty works full-time as an employee in a construction and building trades role within the manufacturing sector, classified among routine occupations. Her weekly hours fall between thirty-one and forty-eight, and she holds no supervisory or managerial responsibility for other staff. Unusually for the classification, she holds a degree-level or higher qualification. Her base is her own address rather than a site or factory floor, with all work carried out mainly at or from home, so no commuting journey features in her week.\", \"home_and_household\": \"Home is a terraced house in a suburban part of the South East, owned with a mortgage still being repaid. Three adults share the property and there are no dependent children, the household being made up of herself, her husband, and one further adult. The number of bedrooms matches the household's requirement exactly, giving an occupancy rating of zero, so space is adequate without being generous. Part of the house doubles as a workspace, since her employment is based entirely at the address.\", \"week_and_hobbies\": \"Weekdays follow a settled rhythm, with a full working day carried out at home and no travel time at either end. Evenings and weekends are spent with her husband and the other adult in the household, and around the upkeep of a terraced property that requires steady attention to decorating, repairs and the small garden. Practical, hands-on tasks come easily given her trade background. Reading, radio and local errands on foot fill quieter hours, alongside occasional visits to relatives and friends nearby.\"}",
+   "sha256": "c1577bcfafeda5c44d6abfccb33d7cb3e9e698332e0a0cef0013a8531f5dc6ef",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1074,
+    "output_tokens": 477
+   }
+  },
+  {
+   "agent_id": "mm_fg4_james",
+   "candidate_index": 2,
+   "branch": "real",
+   "microdata_record_id": "SGI000000265117",
+   "prompt_sha256": "0daa486135c5c871744997990851dfbec3b9b1982827bb6abeaf12d625d14cc6",
+   "narrative": {
+    "working_life": "Now aged fifty and recently retired, he spent his career as an information technology professional within the financial and insurance sector, working as an employee in a higher professional role that included supervisory and management responsibilities for a team. He left paid work within the past twelve months, having built up his position through practical experience and vocational routes rather than a degree, holding two or more A levels or an equivalent Level 3 qualification. With no current commute, his weekdays are no longer shaped by travel to an office.",
+    "home_and_household": "He lives in a semi-detached house in a suburban part of the South East, owned with a mortgage still being repaid. The household consists of just two people: himself and his wife, both aged sixty-five or under, with no dependent children at home. He is recorded as the husband of the household reference person. The property is comfortably larger than the couple require, with two or more bedrooms beyond their needs, leaving spare rooms that can be used for storage, guests or quiet occupation.",
+    "week_and_hobbies": "Without the structure of a working week, his time is largely self-directed, and much of it goes on maintaining the house and garden and keeping on top of household administration. A long background in technology carries over into tinkering with computers, home networking and following developments online. Days often include walking locally, reading, and errands run at quieter times. Evenings and weekends are shared with his wife, and the spare rooms give scope for projects, visiting relatives or simply a place to work undisturbed."
+   },
+   "raw_text": "{\"working_life\": \"Now aged fifty and recently retired, he spent his career as an information technology professional within the financial and insurance sector, working as an employee in a higher professional role that included supervisory and management responsibilities for a team. He left paid work within the past twelve months, having built up his position through practical experience and vocational routes rather than a degree, holding two or more A levels or an equivalent Level 3 qualification. With no current commute, his weekdays are no longer shaped by travel to an office.\", \"home_and_household\": \"He lives in a semi-detached house in a suburban part of the South East, owned with a mortgage still being repaid. The household consists of just two people: himself and his wife, both aged sixty-five or under, with no dependent children at home. He is recorded as the husband of the household reference person. The property is comfortably larger than the couple require, with two or more bedrooms beyond their needs, leaving spare rooms that can be used for storage, guests or quiet occupation.\", \"week_and_hobbies\": \"Without the structure of a working week, his time is largely self-directed, and much of it goes on maintaining the house and garden and keeping on top of household administration. A long background in technology carries over into tinkering with computers, home networking and following developments online. Days often include walking locally, reading, and errands run at quieter times. Evenings and weekends are shared with his wife, and the spare rooms give scope for projects, visiting relatives or simply a place to work undisturbed.\"}",
+   "sha256": "8efc98e504ad47feb8943997cc40ba04db4491b7f32538eb2f713be2cc43511d",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1043,
+    "output_tokens": 470
+   }
+  },
+  {
+   "agent_id": "mm_fg4_james",
+   "candidate_index": 2,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000000265117",
+   "prompt_sha256": "e79f87d7b22da5f2ee1ed4c47bc1aaa9c3079237aea90cb4e8f3eb15bdf03d10",
+   "narrative": {
+    "working_life": "At fifty, she has recently stepped back from paid work, having been employed within the last twelve months and now describing herself as retired. Her career was spent as an information technology professional in the financial and insurance sector, a higher professional role that carried supervisory responsibility for a team. She held employee status rather than working for herself, and her formal qualifications reached Level 3, two or more A levels or a vocational equivalent, with the remainder of her expertise built through long practical experience.",
+    "home_and_household": "She lives in a semi-detached house in a suburban part of the South East, owned with a mortgage still being repaid. The household contains just two people: herself and her husband, to whom she is married and who is recorded as the household reference person. Both adults are aged sixty-five or under and there are no dependent children in the family. The property has at least two more bedrooms than the couple require, leaving considerable spare space across the upstairs rooms.",
+    "week_and_hobbies": "With no daily commute now that she is out of employment, her weeks follow a self-directed rhythm rather than an office timetable. Time is available for reading, gardening in a suburban plot, keeping up with technology news and tinkering with computers at home, and for local errands and errands further afield by car. Spare rooms have been turned to practical use for storage, hobbies and guests. Evenings and weekends are shared with her husband, and contact with wider family and former colleagues continues informally."
+   },
+   "raw_text": "{\"working_life\": \"At fifty, she has recently stepped back from paid work, having been employed within the last twelve months and now describing herself as retired. Her career was spent as an information technology professional in the financial and insurance sector, a higher professional role that carried supervisory responsibility for a team. She held employee status rather than working for herself, and her formal qualifications reached Level 3, two or more A levels or a vocational equivalent, with the remainder of her expertise built through long practical experience.\", \"home_and_household\": \"She lives in a semi-detached house in a suburban part of the South East, owned with a mortgage still being repaid. The household contains just two people: herself and her husband, to whom she is married and who is recorded as the household reference person. Both adults are aged sixty-five or under and there are no dependent children in the family. The property has at least two more bedrooms than the couple require, leaving considerable spare space across the upstairs rooms.\", \"week_and_hobbies\": \"With no daily commute now that she is out of employment, her weeks follow a self-directed rhythm rather than an office timetable. Time is available for reading, gardening in a suburban plot, keeping up with technology news and tinkering with computers at home, and for local errands and errands further afield by car. Spare rooms have been turned to practical use for storage, hobbies and guests. Evenings and weekends are shared with her husband, and contact with wider family and former colleagues continues informally.\"}",
+   "sha256": "a213c6d31261cbcfa51e7bc2810648005570b2f445ded382ccf0305b1c156bd7",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1043,
+    "output_tokens": 461
+   }
+  },
+  {
+   "agent_id": "mm_fg4_james",
+   "candidate_index": 3,
+   "branch": "real",
+   "microdata_record_id": "SGI000000206780",
+   "prompt_sha256": "56fd6a5484b1cb20c04705d427492e5ae63d039df2a91338935fbc5ab3cd7700",
+   "narrative": {
+    "working_life": "A fifty-year-old man employed full time as a finance professional within the financial and insurance sector, working between thirty-one and forty-eight hours in a typical week. The role is an employee position classified among higher professional occupations, though it carries no supervisory or management responsibility for other staff. All work is carried out mainly at or from home, so there is no regular commute. Formal qualifications reach level one, comprising a small number of GCSEs or a vocational equivalent, with expertise built largely through experience.",
+    "home_and_household": "Home is a detached house in a suburban part of the South East of England, owned outright with no mortgage or rent outstanding. The household contains five people in total, made up of three or more adults and no dependent children, any offspring now counted as non-dependent. He is married, living in an opposite-sex couple, and is recorded as the husband of the household reference person. The number of bedrooms matches the household's requirement exactly, giving an occupancy rating of zero and a settled, unpressured arrangement.",
+    "week_and_hobbies": "Weekdays are structured around a home-based desk and screen, with the working day bounded by the same walls as leisure time, which encourages deliberate breaks and walks around the local streets. Evenings and weekends are shared with a full household of adults, involving conversation, television, and the ordinary upkeep of a detached property and its garden. Interests lean towards reading about markets and current affairs, occasional day trips within the South East, and quiet time spent maintaining tools, technology and the house itself."
+   },
+   "raw_text": "{\"working_life\": \"A fifty-year-old man employed full time as a finance professional within the financial and insurance sector, working between thirty-one and forty-eight hours in a typical week. The role is an employee position classified among higher professional occupations, though it carries no supervisory or management responsibility for other staff. All work is carried out mainly at or from home, so there is no regular commute. Formal qualifications reach level one, comprising a small number of GCSEs or a vocational equivalent, with expertise built largely through experience.\", \"home_and_household\": \"Home is a detached house in a suburban part of the South East of England, owned outright with no mortgage or rent outstanding. The household contains five people in total, made up of three or more adults and no dependent children, any offspring now counted as non-dependent. He is married, living in an opposite-sex couple, and is recorded as the husband of the household reference person. The number of bedrooms matches the household's requirement exactly, giving an occupancy rating of zero and a settled, unpressured arrangement.\", \"week_and_hobbies\": \"Weekdays are structured around a home-based desk and screen, with the working day bounded by the same walls as leisure time, which encourages deliberate breaks and walks around the local streets. Evenings and weekends are shared with a full household of adults, involving conversation, television, and the ordinary upkeep of a detached property and its garden. Interests lean towards reading about markets and current affairs, occasional day trips within the South East, and quiet time spent maintaining tools, technology and the house itself.\"}",
+   "sha256": "56cfacc88a64e73e2da75e67c7c89d97a4791e332a62808a0b2cb275a79b0385",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1074,
+    "output_tokens": 497
+   }
+  },
+  {
+   "agent_id": "mm_fg4_james",
+   "candidate_index": 3,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000000206780",
+   "prompt_sha256": "d5e5cd1c7ba8ecdf00da4ea252298906588cc4059d3639635a5975c90acbfa2a",
+   "narrative": {
+    "working_life": "A fifty-year-old woman employed full time as a finance professional within the financial and insurance sector, working between thirty-one and forty-eight hours in a typical week. She is an employee rather than self-employed, and holds no supervisory or management responsibility for other staff. Her role sits within the higher professional occupational group, a position reached through experience and in-house training rather than extended formal study, her highest qualification being between one and four GCSEs or a vocational equivalent. She works mainly at or from home.",
+    "home_and_household": "She lives in a detached house or bungalow in a suburban part of the South East of England, owned outright with no mortgage or loan outstanding. The household contains five people, comprising three or more adults and no children; any offspring in the family are now non-dependent. She is married and living with her opposite-sex spouse, and is recorded as the husband or wife of the household reference person. The number of bedrooms matches the household's requirement exactly, giving an occupancy rating of zero.",
+    "week_and_hobbies": "With no daily commute, her weeks are shaped around a home workspace and the rhythms of a busy household of five adults. Time freed from travelling is often given to the garden and to upkeep of the property, alongside reading, television and following news of markets and money matters that overlap with professional interests. Weekends allow for local walks around the suburb, occasional day trips elsewhere in the South East, and time spent with her spouse and the grown members of the family."
+   },
+   "raw_text": "{\"working_life\": \"A fifty-year-old woman employed full time as a finance professional within the financial and insurance sector, working between thirty-one and forty-eight hours in a typical week. She is an employee rather than self-employed, and holds no supervisory or management responsibility for other staff. Her role sits within the higher professional occupational group, a position reached through experience and in-house training rather than extended formal study, her highest qualification being between one and four GCSEs or a vocational equivalent. She works mainly at or from home.\", \"home_and_household\": \"She lives in a detached house or bungalow in a suburban part of the South East of England, owned outright with no mortgage or loan outstanding. The household contains five people, comprising three or more adults and no children; any offspring in the family are now non-dependent. She is married and living with her opposite-sex spouse, and is recorded as the husband or wife of the household reference person. The number of bedrooms matches the household's requirement exactly, giving an occupancy rating of zero.\", \"week_and_hobbies\": \"With no daily commute, her weeks are shaped around a home workspace and the rhythms of a busy household of five adults. Time freed from travelling is often given to the garden and to upkeep of the property, alongside reading, television and following news of markets and money matters that overlap with professional interests. Weekends allow for local walks around the suburb, occasional day trips elsewhere in the South East, and time spent with her spouse and the grown members of the family.\"}",
+   "sha256": "0296bd5b5b16c56e7f75a8c906b8d2c3dfe630e3b46340a70b8a277730dc5350",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1074,
+    "output_tokens": 474
+   }
+  },
+  {
+   "agent_id": "mm_fg4_mark",
+   "candidate_index": 1,
+   "branch": "real",
+   "microdata_record_id": "SGI000000382232",
+   "prompt_sha256": "28d32a5ceaa7885be233fc7ea0348ed999064e16a83b3e4747b55caa3ca78101",
+   "narrative": {
+    "working_life": "At 52, he works part-time as an employee, putting in fifteen hours or fewer each week as a manager in logistics, warehousing and transport within the wholesale and retail trade sector. The role carries supervisory responsibility for a team, placing him in lower managerial and administrative work. Holding a degree-level or higher qualification, he brings formal training to scheduling, stock movement and staff oversight. His workplace lies less than two kilometres away, and he drives a car or van there rather than working from home.",
+    "home_and_household": "He lives in a detached house or bungalow in a village or rural part of the East of England, owned with a mortgage or loan. The household contains four people: himself, his wife, and two dependent children, the youngest aged between twelve and fifteen, with three or more adults counted in total. He is recorded as the husband of the household reference person. The property has two or more bedrooms beyond what the household requires, giving generous space for everyone under one roof.",
+    "week_and_hobbies": "With short working hours and a very brief commute, his week leaves considerable time outside employment, much of it shaped by two teenage children and their school and activity timetables. Rural life in the East of England lends itself to gardening, walking country lanes, and general upkeep of a detached property and its grounds. The car is useful for longer trips to nearby towns for errands or family outings. Weekends often revolve around household projects, driving family members about, and quieter time at home."
+   },
+   "raw_text": "{\"working_life\":\"At 52, he works part-time as an employee, putting in fifteen hours or fewer each week as a manager in logistics, warehousing and transport within the wholesale and retail trade sector. The role carries supervisory responsibility for a team, placing him in lower managerial and administrative work. Holding a degree-level or higher qualification, he brings formal training to scheduling, stock movement and staff oversight. His workplace lies less than two kilometres away, and he drives a car or van there rather than working from home.\",\"home_and_household\":\"He lives in a detached house or bungalow in a village or rural part of the East of England, owned with a mortgage or loan. The household contains four people: himself, his wife, and two dependent children, the youngest aged between twelve and fifteen, with three or more adults counted in total. He is recorded as the husband of the household reference person. The property has two or more bedrooms beyond what the household requires, giving generous space for everyone under one roof.\",\"week_and_hobbies\":\"With short working hours and a very brief commute, his week leaves considerable time outside employment, much of it shaped by two teenage children and their school and activity timetables. Rural life in the East of England lends itself to gardening, walking country lanes, and general upkeep of a detached property and its grounds. The car is useful for longer trips to nearby towns for errands or family outings. Weekends often revolve around household projects, driving family members about, and quieter time at home.\"}",
+   "sha256": "cc53c22fa9f14234785cb7c37aade190a611f17a090526303c44f68897649ad5",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1136,
+    "output_tokens": 466
+   }
+  },
+  {
+   "agent_id": "mm_fg4_mark",
+   "candidate_index": 1,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000000382232",
+   "prompt_sha256": "913eb3d1066cccf3e62470c873a9fd67f137126e6155726599f02eb08c50549c",
+   "narrative": {
+    "working_life": "At 52, she works as an employee in a lower managerial and administrative role, managing logistics, warehousing and transport for a business in the wholesale and retail trade sector. Her hours are part-time, fifteen or fewer each week, though the post carries supervisory responsibility for other staff. She holds a degree-level or higher qualification, which underpins the planning and coordination her role demands. The workplace is close to home, under two kilometres away, and she drives a car or van there rather than working remotely.",
+    "home_and_household": "She lives in a detached house or bungalow in a village or rural part of the East of England, owned with a mortgage still being repaid. The household contains four people: herself, her husband, and two dependent children, the younger aged between twelve and fifteen. A third adult is also counted among the residents. With an occupancy rating of two or more spare bedrooms, the property offers considerable room, and she is recorded as the wife of the household reference person.",
+    "week_and_hobbies": "With short working hours and a very short commute, her week has a settled rhythm that leaves time for family matters and the running of a sizeable rural property. Weekdays are shaped partly around school-age children and the ferrying that village life often requires, the car being central to most journeys. Quieter interests such as reading, gardening and walks in the surrounding countryside fit easily around her schedule, alongside occasional involvement in local village activities and time spent with her husband and wider household."
+   },
+   "raw_text": "{\"working_life\": \"At 52, she works as an employee in a lower managerial and administrative role, managing logistics, warehousing and transport for a business in the wholesale and retail trade sector. Her hours are part-time, fifteen or fewer each week, though the post carries supervisory responsibility for other staff. She holds a degree-level or higher qualification, which underpins the planning and coordination her role demands. The workplace is close to home, under two kilometres away, and she drives a car or van there rather than working remotely.\", \"home_and_household\": \"She lives in a detached house or bungalow in a village or rural part of the East of England, owned with a mortgage still being repaid. The household contains four people: herself, her husband, and two dependent children, the younger aged between twelve and fifteen. A third adult is also counted among the residents. With an occupancy rating of two or more spare bedrooms, the property offers considerable room, and she is recorded as the wife of the household reference person.\", \"week_and_hobbies\": \"With short working hours and a very short commute, her week has a settled rhythm that leaves time for family matters and the running of a sizeable rural property. Weekdays are shaped partly around school-age children and the ferrying that village life often requires, the car being central to most journeys. Quieter interests such as reading, gardening and walks in the surrounding countryside fit easily around her schedule, alongside occasional involvement in local village activities and time spent with her husband and wider household.\"}",
+   "sha256": "f37eefe91d25df6154637a10e19e6e5db6e9fd43912009d7272d9877d8fec114",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1136,
+    "output_tokens": 469
+   }
+  },
+  {
+   "agent_id": "mm_fg4_mark",
+   "candidate_index": 2,
+   "branch": "real",
+   "microdata_record_id": "SGI000002203539",
+   "prompt_sha256": "d26f95900549c69f87ea02053beb2aa8329e65e68f5f86c408fa3e4fe6451e24",
+   "narrative": {
+    "working_life": "A fifty-two-year-old employee working full-time as a production manager within the construction sector in the East of England. The role sits in the lower managerial and administrative bracket and carries supervisory responsibility for a team, with typical weeks ranging between thirty-one and forty-eight hours. Holding a degree-level or professional equivalent qualification, the work is site- and office-based rather than done from home, requiring a daily drive of between ten and twenty kilometres by car to a fixed workplace elsewhere in the region.",
+    "home_and_household": "Home is a semi-detached house in a village or rural part of the East of England, owned with a mortgage still being repaid. The household consists of one person aged under sixty-five, living alone following separation while remaining legally married. With two or more bedrooms above what a single occupant requires, several rooms serve as storage, a study or space for occasional visitors. Maintaining the property, garden and mortgage commitments falls entirely to one person, alongside the usual bills and upkeep of a rural home.",
+    "week_and_hobbies": "Weekdays follow a settled pattern shaped by early starts, a car journey of some distance and long hours coordinating schedules, materials and staff. Evenings are quiet and unstructured, often given over to paperwork, television or maintenance jobs around the house. Weekends allow for gardening, practical repairs, driving into nearby towns for errands and keeping in touch with family and colleagues by phone. Rural surroundings encourage walks and time outdoors, while the spare rooms occasionally host visitors or serve a longstanding practical hobby."
+   },
+   "raw_text": "{\"working_life\":\"A fifty-two-year-old employee working full-time as a production manager within the construction sector in the East of England. The role sits in the lower managerial and administrative bracket and carries supervisory responsibility for a team, with typical weeks ranging between thirty-one and forty-eight hours. Holding a degree-level or professional equivalent qualification, the work is site- and office-based rather than done from home, requiring a daily drive of between ten and twenty kilometres by car to a fixed workplace elsewhere in the region.\",\"home_and_household\":\"Home is a semi-detached house in a village or rural part of the East of England, owned with a mortgage still being repaid. The household consists of one person aged under sixty-five, living alone following separation while remaining legally married. With two or more bedrooms above what a single occupant requires, several rooms serve as storage, a study or space for occasional visitors. Maintaining the property, garden and mortgage commitments falls entirely to one person, alongside the usual bills and upkeep of a rural home.\",\"week_and_hobbies\":\"Weekdays follow a settled pattern shaped by early starts, a car journey of some distance and long hours coordinating schedules, materials and staff. Evenings are quiet and unstructured, often given over to paperwork, television or maintenance jobs around the house. Weekends allow for gardening, practical repairs, driving into nearby towns for errands and keeping in touch with family and colleagues by phone. Rural surroundings encourage walks and time outdoors, while the spare rooms occasionally host visitors or serve a longstanding practical hobby.\"}",
+   "sha256": "5155be3093bb6df54509878c7fccbab7b7d41a8fe5075e4c015c9ea557bf4664",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1097,
+    "output_tokens": 524
+   }
+  },
+  {
+   "agent_id": "mm_fg4_mark",
+   "candidate_index": 2,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000002203539",
+   "prompt_sha256": "e4874a1ba98806eee565231e2bfce57e8a08171f5ed0888cbd131a4c5a0082e1",
+   "narrative": {
+    "working_life": "A production manager in the construction sector, aged 52, employed full time on a contract of between 31 and 48 hours each week. The role sits within lower managerial and administrative occupations and carries supervisory responsibility for other staff, covering scheduling, site output and quality standards. A degree-level qualification underpins the technical side of the work. The commute runs between ten and twenty kilometres by car from a rural address to a fixed workplace, with no working from home arranged.",
+    "home_and_household": "Home is a semi-detached house in a village in the East of England, owned with a mortgage still being repaid. The household consists of one person under 65, living alone following a separation while remaining legally married. With two or more bedrooms above the notional requirement, there is considerable spare space, some of it given over to storage, a study area and rooms kept for occasional visitors. A car is essential given the rural location and the distance to the workplace.",
+    "week_and_hobbies": "Weekdays are structured around early starts and the drive to and from site, with paperwork and planning often continuing into the evening. Weekends allow slower mornings, upkeep of the house and garden, and small improvement projects that draw on practical knowledge gained at work. Time is also spent on village events, reading, driving out to the coast or countryside, and keeping in contact with friends and relatives by telephone and occasional visits arranged in advance."
+   },
+   "raw_text": "{\"working_life\":\"A production manager in the construction sector, aged 52, employed full time on a contract of between 31 and 48 hours each week. The role sits within lower managerial and administrative occupations and carries supervisory responsibility for other staff, covering scheduling, site output and quality standards. A degree-level qualification underpins the technical side of the work. The commute runs between ten and twenty kilometres by car from a rural address to a fixed workplace, with no working from home arranged.\",\"home_and_household\":\"Home is a semi-detached house in a village in the East of England, owned with a mortgage still being repaid. The household consists of one person under 65, living alone following a separation while remaining legally married. With two or more bedrooms above the notional requirement, there is considerable spare space, some of it given over to storage, a study area and rooms kept for occasional visitors. A car is essential given the rural location and the distance to the workplace.\",\"week_and_hobbies\":\"Weekdays are structured around early starts and the drive to and from site, with paperwork and planning often continuing into the evening. Weekends allow slower mornings, upkeep of the house and garden, and small improvement projects that draw on practical knowledge gained at work. Time is also spent on village events, reading, driving out to the coast or countryside, and keeping in contact with friends and relatives by telephone and occasional visits arranged in advance.\"}",
+   "sha256": "8e399c77f5882efaafec04ba6ebdc7d049d3648ba445bfbdc6c653c9631e2c4d",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1097,
+    "output_tokens": 445
+   }
+  },
+  {
+   "agent_id": "mm_fg4_mark",
+   "candidate_index": 3,
+   "branch": "real",
+   "microdata_record_id": "SGI000002851869",
+   "prompt_sha256": "a18ff5d9d6c2684e407557565b3128606623fee6ec6a9f0f05440bef07f39154",
+   "narrative": {
+    "working_life": "At 52, he works full time as an employee in financial and insurance activities, holding a senior post as a functional manager or director with responsibility for supervising staff. The role sits within higher managerial and administrative work, and the week regularly runs to 49 hours or more. Formal qualifications went no further than a handful of GCSEs or a vocational equivalent, so the position reflects experience built up over decades rather than academic routes. The commute is between ten and twenty kilometres, driven by car to a fixed workplace.",
+    "home_and_household": "Home is a terraced house in a village or rural part of the East of England, owned with a mortgage still being paid down. The household consists of two people: himself and his wife, both aged 65 or under, with no children living in the family. With an occupancy rating of two or more spare bedrooms, there is more space than the couple strictly need, leaving rooms free for storage, visitors or a study. A car is kept for daily journeys, given the distance to the workplace.",
+    "week_and_hobbies": "Long working hours shape most of the week, with early departures by car and late returns leaving weekday evenings short. Weekends are the main stretch of free time, often spent on the house and garden, small repairs, or quiet time at home with his wife. Living rurally, driving is part of ordinary life, whether for errands, visiting relatives or day trips further into the East of England. Interests tend towards practical, low-key pursuits, radio and television, reading, and occasional local events."
+   },
+   "raw_text": "{\"working_life\": \"At 52, he works full time as an employee in financial and insurance activities, holding a senior post as a functional manager or director with responsibility for supervising staff. The role sits within higher managerial and administrative work, and the week regularly runs to 49 hours or more. Formal qualifications went no further than a handful of GCSEs or a vocational equivalent, so the position reflects experience built up over decades rather than academic routes. The commute is between ten and twenty kilometres, driven by car to a fixed workplace.\", \"home_and_household\": \"Home is a terraced house in a village or rural part of the East of England, owned with a mortgage still being paid down. The household consists of two people: himself and his wife, both aged 65 or under, with no children living in the family. With an occupancy rating of two or more spare bedrooms, there is more space than the couple strictly need, leaving rooms free for storage, visitors or a study. A car is kept for daily journeys, given the distance to the workplace.\", \"week_and_hobbies\": \"Long working hours shape most of the week, with early departures by car and late returns leaving weekday evenings short. Weekends are the main stretch of free time, often spent on the house and garden, small repairs, or quiet time at home with his wife. Living rurally, driving is part of ordinary life, whether for errands, visiting relatives or day trips further into the East of England. Interests tend towards practical, low-key pursuits, radio and television, reading, and occasional local events.\"}",
+   "sha256": "45bfe9f5d7f22a9cdc05c0f0e90e5183e47ec0fcd7c3afc8dfa39492de4a0958",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1084,
+    "output_tokens": 479
+   }
+  },
+  {
+   "agent_id": "mm_fg4_mark",
+   "candidate_index": 3,
+   "branch": "inverted",
+   "microdata_record_id": "SGI000002851869",
+   "prompt_sha256": "5a4363a44ab748824fbec97fbb2c7a1a5ed374367fce1f6d262c4ee4c4fd507d",
+   "narrative": {
+    "working_life": "At 52, she works full-time as an employee in the financial and insurance sector, holding a senior post as a functional manager or director with responsibility for supervising staff. The role falls within higher managerial and administrative work, and the hours are long, regularly reaching forty-nine or more each week. Her formal qualifications go no further than a handful of GCSEs or a vocational equivalent, so the position reflects experience and progression built steadily over many years rather than academic credentials.",
+    "home_and_household": "Home is a terraced house or bungalow in a village or rural part of the East of England, owned with a mortgage still being repaid. The household consists of two people: herself and her husband, both aged sixty-five or under, with no children living in the family. There are at least two bedrooms more than the household requires, giving considerable spare capacity. The property is settled and stable, with ongoing mortgage commitments shaping longer-term financial planning for the couple.",
+    "week_and_hobbies": "The working week is structured around a daily commute by car or van, covering somewhere between ten and twenty kilometres each way to a workplace elsewhere in the country rather than a base at home. With very long hours, weekday evenings tend to be short, leaving weekends as the main stretch of free time. Rural surroundings offer quiet walks and gardening close to the door, alongside time spent with her husband, reading, and occasional trips into nearby market towns."
+   },
+   "raw_text": "{\"working_life\": \"At 52, she works full-time as an employee in the financial and insurance sector, holding a senior post as a functional manager or director with responsibility for supervising staff. The role falls within higher managerial and administrative work, and the hours are long, regularly reaching forty-nine or more each week. Her formal qualifications go no further than a handful of GCSEs or a vocational equivalent, so the position reflects experience and progression built steadily over many years rather than academic credentials.\", \"home_and_household\": \"Home is a terraced house or bungalow in a village or rural part of the East of England, owned with a mortgage still being repaid. The household consists of two people: herself and her husband, both aged sixty-five or under, with no children living in the family. There are at least two bedrooms more than the household requires, giving considerable spare capacity. The property is settled and stable, with ongoing mortgage commitments shaping longer-term financial planning for the couple.\", \"week_and_hobbies\": \"The working week is structured around a daily commute by car or van, covering somewhere between ten and twenty kilometres each way to a workplace elsewhere in the country rather than a base at home. With very long hours, weekday evenings tend to be short, leaving weekends as the main stretch of free time. Rural surroundings offer quiet walks and gardening close to the door, alongside time spent with her husband, reading, and occasional trips into nearby market towns.\"}",
+   "sha256": "8444b8aeeda570cee4f85a15580f05356eb98c3ae341f51c388e983fb93d24cb",
+   "stop_reason": "end_turn",
+   "model": "claude-opus-5",
+   "usage": {
+    "input_tokens": 1084,
+    "output_tokens": 459
+   }
+  }
+ ]
+}

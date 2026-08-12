@@ -1,0 +1,3133 @@
+{
+ "built_utc": "2026-08-03T09:09:48.880230+00:00",
+ "classification": "TWO_EVALUATOR_EVIDENCE_COMPARISON",
+ "withdrawal": "the Stage-1 report claimed the original coder's per-code quotations were unavailable and that no direct comparison was possible; that claim is withdrawn — only the aggregated CSVs under results/ had been checked, not the evaluator cache",
+ "changes_stage1_metrics": false,
+ "cache_selection": {
+  "n_selected": 35,
+  "selection_rule": "frozen input sha256, completeness.status == COMPLETE, and presence pattern reproducing the frozen grid; never selection by timestamp",
+  "problems": [],
+  "pass": true
+ },
+ "rejected_records": [
+  {
+   "file": "4033706ded5c46af6753777d24de233e869556ff467cb152b055c48b018212fb.json",
+   "doc_key": "human::fg1",
+   "computed_utc": "2026-07-30T21:35:06.805067+00:00",
+   "reasons": [
+    "completeness None",
+    "presence pattern differs from the frozen grid"
+   ]
+  },
+  {
+   "file": "7067ef66943b4313d855289abab7c1af75774429a14194249aab839d8fc9e367.json",
+   "doc_key": "human::fg1",
+   "computed_utc": "2026-07-30T23:21:07.868101+00:00",
+   "reasons": [
+    "presence pattern differs from the frozen grid"
+   ]
+  }
+ ],
+ "gemini_quotations_total_corpus": 356,
+ "verification_of_63_controls": {
+  "n_controls": 63,
+  "with_quotes": 63,
+  "with_turn": 63,
+  "with_speaker": 63,
+  "n_quotations": 174,
+  "n_projected_into_audit_space": 173
+ },
+ "turn_label_spaces_do_not_align": {
+  "finding": "the original coder's turn labels and the audit's turn ids are different spaces; the difference is +1 for all five human documents but varies within every synthetic document (observed -6 to +14), so it is not a correctable index base",
+  "consequence": "comparison is performed only after projecting each original quotation into audit space by exact normalised text match; turn labels are never compared directly",
+  "n_original_quotations_corpus": 356,
+  "n_uniquely_localisable_corpus": 351,
+  "n_not_uniquely_localisable_corpus": 5
+ },
+ "speaker_reconciliation": {
+  "DOC_044D944A54": {
+   "map": {
+    "Participant 5": "P5",
+    "Participant 1": "P1",
+    "Participant 4": "P4",
+    "Participant 2": "P2",
+    "Participant 3": "P3"
+   },
+   "ambiguous": {},
+   "n_projected": 30,
+   "unlocalised": [],
+   "ambiguous_localisation": []
+  },
+  "DOC_0D65F24445": {
+   "map": {
+    "Participant 4": "P4",
+    "Participant 1": "P1"
+   },
+   "ambiguous": {},
+   "n_projected": 2,
+   "unlocalised": [],
+   "ambiguous_localisation": []
+  },
+  "DOC_106A064A5F": {
+   "map": {
+    "Participant 3": "P3",
+    "Participant 2": "P2",
+    "Participant 4": "P4",
+    "Participant 5": "P5"
+   },
+   "ambiguous": {},
+   "n_projected": 10,
+   "unlocalised": [],
+   "ambiguous_localisation": []
+  },
+  "DOC_38E95A714D": {
+   "map": {
+    "Participant 2": "P2",
+    "Participant 1": "P1",
+    "Participant 4": "P4",
+    "Participant 3": "P3"
+   },
+   "ambiguous": {},
+   "n_projected": 13,
+   "unlocalised": [],
+   "ambiguous_localisation": []
+  },
+  "DOC_5CABCEADAF": {
+   "map": {
+    "Participant 5": "P5",
+    "Participant 1": "P1",
+    "Participant 4": "P4"
+   },
+   "ambiguous": {},
+   "n_projected": 3,
+   "unlocalised": [],
+   "ambiguous_localisation": []
+  },
+  "DOC_5E7C5B45F7": {
+   "map": {
+    "Participant 4": "P4",
+    "Participant 2": "P2",
+    "Participant 3": "P3",
+    "Participant 5": "P5",
+    "Participant 1": "P1"
+   },
+   "ambiguous": {},
+   "n_projected": 15,
+   "unlocalised": [],
+   "ambiguous_localisation": []
+  },
+  "DOC_5E8E19FE05": {
+   "map": {
+    "Participant 1": "P1",
+    "Participant 3": "P3",
+    "Participant 4": "P4",
+    "Participant 2": "P2"
+   },
+   "ambiguous": {},
+   "n_projected": 13,
+   "unlocalised": [],
+   "ambiguous_localisation": []
+  },
+  "DOC_62191FF7A9": {
+   "map": {
+    "Participant 2": "P2",
+    "Participant 5": "P5",
+    "Participant 1": "P1",
+    "Participant 3": "P3",
+    "Participant 4": "P4"
+   },
+   "ambiguous": {},
+   "n_projected": 14,
+   "unlocalised": [
+    {
+     "subtheme_id": "B.4",
+     "original_turn_label": "T020",
+     "original_speaker": "Participant 2",
+     "n_matches": 0,
+     "quote": "I eat meat because I like it and it's practical...",
+     "status": "UNLOCALISED_FOR_CROSS_EVALUATOR_COMPARISON",
+     "note": "excluded from the turn-level cross-evaluator comparison only; not fabricated, not invalid, not absent. The original coder's code and evidence are unchanged."
+    }
+   ],
+   "ambiguous_localisation": []
+  },
+  "DOC_7360E12D6B": {
+   "map": {
+    "Participant 2": "P2",
+    "Participant 3": "P3",
+    "Participant 1": "P1",
+    "Participant 5": "P5"
+   },
+   "ambiguous": {},
+   "n_projected": 10,
+   "unlocalised": [],
+   "ambiguous_localisation": []
+  },
+  "DOC_7CB3BED8F8": {
+   "map": {
+    "Participant 4": "P4",
+    "Participant 5": "P5",
+    "Participant 1": "P1",
+    "Participant 2": "P2",
+    "Participant 3": "P3"
+   },
+   "ambiguous": {},
+   "n_projected": 9,
+   "unlocalised": [],
+   "ambiguous_localisation": []
+  },
+  "DOC_87E9A953B6": {
+   "map": {
+    "Participant 5": "P5",
+    "Participant 2": "P2",
+    "Participant 3": "P3",
+    "Participant 1": "P1",
+    "Participant 4": "P4"
+   },
+   "ambiguous": {},
+   "n_projected": 15,
+   "unlocalised": [],
+   "ambiguous_localisation": []
+  },
+  "DOC_C71426C1B1": {
+   "map": {
+    "Participant 2": "P2",
+    "Participant 5": "P5",
+    "Participant 3": "P3",
+    "Participant 1": "P1",
+    "Participant 4": "P4"
+   },
+   "ambiguous": {},
+   "n_projected": 19,
+   "unlocalised": [],
+   "ambiguous_localisation": []
+  },
+  "DOC_DB7286F644": {
+   "map": {
+    "Participant 5": "P5",
+    "Participant 1": "P1",
+    "Participant 2": "P2",
+    "Participant 3": "P3",
+    "Participant 4": "P4"
+   },
+   "ambiguous": {},
+   "n_projected": 6,
+   "unlocalised": [],
+   "ambiguous_localisation": []
+  },
+  "DOC_DC66FA1DAE": {
+   "map": {
+    "Participant 2": "P2",
+    "Participant 1": "P1",
+    "Participant 3": "P3"
+   },
+   "ambiguous": {},
+   "n_projected": 14,
+   "unlocalised": [],
+   "ambiguous_localisation": []
+  }
+ },
+ "comparison_categories_per_control": {
+  "SAME_TURN_SAME_SPEAKER": 61,
+  "CLAUDE_PRODUCED_NO_GATED_EVIDENCE": 1,
+  "ADJACENT_CODE_DIVERGENCE": 1
+ },
+ "comparison_categories_per_evidence_item": {
+  "DIFFERENT_VALID_EVIDENCE_SAME_SPEAKER": 2,
+  "SAME_TURN_SAME_SPEAKER": 116,
+  "DIFFERENT_VALID_EVIDENCE_DIFFERENT_SPEAKER": 2,
+  "ADJACENT_CODE_DIVERGENCE": 2
+ },
+ "category_note": "per_control is a best match over that cell's evidence items, in the order same-turn-same-speaker, same-turn-different-speaker, adjacent-code divergence, different-valid-evidence; per_evidence_item is the unaggregated distribution",
+ "controls": [
+  {
+   "blinded_document_id": "DOC_044D944A54",
+   "doc_key": "human::fg3",
+   "subtheme_id": "A.1",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 4,
+   "n_projected": 4,
+   "gemini_audit_turns": [
+    "T033",
+    "T043",
+    "T047",
+    "T048"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P4",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T034",
+    "T044",
+    "T048",
+    "T049"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T038",
+     "speaker": "P5",
+     "quote": "I've probably sort of felt, I need to have a steak here or need to have something that sort of shows my, I'm not sure it's my masculinity, but kind of, I feel sort of safer behind choosing something like that rather than, say, a pasta or a salad based dish.",
+     "category": "DIFFERENT_VALID_EVIDENCE_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T033",
+     "speaker": "P5",
+     "quote": "The only thing I've noticed is maybe if I've gone out with a group of, um, let's say quite alpha males, if you like, I've maybe always gone for a meat dish or a steak or something like that. Um, maybe I felt a slight obligation to, to, to go down that route sort of subconsciously.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_044D944A54",
+   "doc_key": "human::fg3",
+   "subtheme_id": "A.2",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 1,
+   "n_projected": 1,
+   "gemini_audit_turns": [
+    "T029"
+   ],
+   "gemini_audit_speakers": [
+    "P3"
+   ],
+   "gemini_original_turn_labels": [
+    "T030"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T029",
+     "speaker": "P3",
+     "quote": "Um, no, for me, I would say it doesn't. I just, over time you get to know what you like, you get to know what you don't like, and try new things, or don't as the case may be. But I can't ever say for once I've stopped to think about what I eat is possibly affected by my gender. No.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T026",
+     "speaker": "P1",
+     "quote": "For me, yeah, gender doesn't influence anything.",
+     "category": "DIFFERENT_VALID_EVIDENCE_DIFFERENT_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_044D944A54",
+   "doc_key": "human::fg3",
+   "subtheme_id": "A.3",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T025",
+    "T047"
+   ],
+   "gemini_audit_speakers": [
+    "P2",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T026",
+    "T048"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T047",
+     "speaker": "P2",
+     "quote": "I don't really think gender comes into it massively for me as a conscious thought, but like the minute we started getting a bit of summer and a bit of sun. Um, I had this idea in my head that I really want to get into offset smoking.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "A.1"
+     ]
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T025",
+     "speaker": "P5",
+     "quote": "I don't think her gender either influences what she cooks",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_044D944A54",
+   "doc_key": "human::fg3",
+   "subtheme_id": "B.2",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 4,
+   "n_projected": 4,
+   "gemini_audit_turns": [
+    "T048",
+    "T059",
+    "T066",
+    "T073"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T049",
+    "T060",
+    "T067",
+    "T074"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T035",
+     "speaker": "P5",
+     "quote": "I maybe felt obliged to go for some kind of manly sort of, you know, meaty dish.",
+     "category": "DIFFERENT_VALID_EVIDENCE_DIFFERENT_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T066",
+     "speaker": "P2",
+     "quote": "Fortunately for me, not an issue because I'll always just go to the meat aisle.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_044D944A54",
+   "doc_key": "human::fg3",
+   "subtheme_id": "B.3",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T051",
+    "T099"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T052",
+    "T100"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T099",
+     "speaker": "P5",
+     "quote": "red meat has got saturated fat. But we need saturated fat in our diet, you know, in a moderate amount. Um, it's full of iron. Um, from the sort of sports community point of view, high protein stuff",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T099",
+     "speaker": "P5",
+     "quote": "red meat has got saturated fat. But we need saturated fat in our diet, you know, in a moderate amount. Um, it's full of iron. Um, from the sort of sports community point of view, high protein stuff",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_044D944A54",
+   "doc_key": "human::fg3",
+   "subtheme_id": "B.4",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 4,
+   "n_projected": 4,
+   "gemini_audit_turns": [
+    "T057",
+    "T059",
+    "T060",
+    "T078"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T058",
+    "T060",
+    "T061",
+    "T079"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T057",
+     "speaker": "P1",
+     "quote": "I would struggle to go completely plant based just cause I like, I like meat too much.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T057",
+     "speaker": "P1",
+     "quote": "I would struggle to go completely plant based just cause I like, I like meat too much. Um, I could definitely restrict, reduce my meat intake and perhaps do every other meal or two or three times a week, but then I would start craving some chicken or, or, or steak",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_044D944A54",
+   "doc_key": "human::fg3",
+   "subtheme_id": "C.1",
+   "parent_theme": "C) 4N justifications against plant-based consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T064",
+    "T065",
+    "T066"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T065",
+    "T066",
+    "T067"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T064",
+     "speaker": "P5",
+     "quote": "but if you look at the ingredients, um, there's quite a lot of additives, uh, that go into these things. So initially might think, oh this is great, this is healthy for me, it's plant based",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T064",
+     "speaker": "P5",
+     "quote": "if you look at the ingredients, um, there's quite a lot of additives, uh, that go into these things. So initially might think, oh this is great, this is healthy for me, it's plant based, um, I'm sort of doing something for my health, but actually when you look at the the nitty gritty and the detail, there's some not great stuff that's been included to make it more palatable.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_044D944A54",
+   "doc_key": "human::fg3",
+   "subtheme_id": "C.2",
+   "parent_theme": "C) 4N justifications against plant-based consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T099",
+    "T102"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T100",
+    "T103"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T099",
+     "speaker": "P5",
+     "quote": "I think if you switched maybe most of the time or full time to plant based diets, would you be missing out on certain nutrients?",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T102",
+     "speaker": "P1",
+     "quote": "Yeah, I'd struggle to get all my protein and, and, um, there's only so many nuts and things like that that I'd want all day and eggs I want to eat.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_044D944A54",
+   "doc_key": "human::fg3",
+   "subtheme_id": "C.3",
+   "parent_theme": "C) 4N justifications against plant-based consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 5,
+   "n_projected": 5,
+   "gemini_audit_turns": [
+    "T059",
+    "T060",
+    "T063",
+    "T067",
+    "T068"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T060",
+    "T061",
+    "T064",
+    "T068",
+    "T069"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T063",
+     "speaker": "P4",
+     "quote": "the specific meat alternative, um, options never taste very nice or they never, you know, something like Quorn instead of beef or whatever, I've always found that they just taste very, really bland. And, um, and part of it, I think it's just an unusual texture, but also they just don't have the taste.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T063",
+     "speaker": "P4",
+     "quote": "I always find that the, the specific meat alternative, um, options never taste very nice or they never, you know, something like Quorn instead of beef or whatever, I've always found that they just taste very, really bland. And, um, and part of it, I think it's just an unusual texture, but also they just don't have the taste.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_044D944A54",
+   "doc_key": "human::fg3",
+   "subtheme_id": "D",
+   "parent_theme": "D) Extreme cases",
+   "auditor_verdict": "AUDITOR_UNRESOLVED",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T057",
+    "T058",
+    "T059"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "gemini_original_turn_labels": [
+    "T058",
+    "T059",
+    "T060"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 2,
+     "turn_id": "T059",
+     "speaker": "P3",
+     "quote": "it'd have to be a pretty seismic life change really, to um, for me to change, um, in terms of what I eat, in terms of go more plant based. And it probably, it would probably be something like say like health, or maybe like a relationship, um, breakup and then a start up, start up with someone new",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_0D65F24445",
+   "doc_key": "macho_meals_fg3_demoonly_run03",
+   "subtheme_id": "A.1",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T023",
+    "T024"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T024",
+    "T026"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T023",
+     "speaker": "P4",
+     "quote": "So yeah, I think it shapes it. I get to just show up and eat what's there, and that's fine. Someone else is doing the actual thinking.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T023",
+     "speaker": "P4",
+     "quote": "I've never really questioned whether that's just... how we've fallen into it, or whether there's something about being a bloke where you're just okay with someone else doing that invisible work.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_106A064A5F",
+   "doc_key": "macho_meals_fg2_demoonly_run03",
+   "subtheme_id": "A.1",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 4,
+   "n_projected": 4,
+   "gemini_audit_turns": [
+    "T019",
+    "T020",
+    "T025",
+    "T036"
+   ],
+   "gemini_audit_speakers": [
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T019",
+    "T021",
+    "T028",
+    "T045"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T019",
+     "speaker": "P3",
+     "quote": "I mean... yeah, I think it probably does, doesn't it. Not in like a big conscious way, but yeah. Like, I wouldn't necessarily sit down and think about it, but if I'm honest, I probably go for certain things more than I would if I was a woman",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T019",
+     "speaker": "P3",
+     "quote": "if I'm honest, I probably go for certain things more than I would if I was a woman, or if I thought about it differently",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_106A064A5F",
+   "doc_key": "macho_meals_fg2_demoonly_run03",
+   "subtheme_id": "B.2",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 4,
+   "n_projected": 4,
+   "gemini_audit_turns": [
+    "T019",
+    "T020",
+    "T026",
+    "T027"
+   ],
+   "gemini_audit_speakers": [
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T019",
+    "T021",
+    "T030",
+    "T032"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T019",
+     "speaker": "P3",
+     "quote": "And when I'm with my mates at the pub, that's definitely a thing. No one's ordering a salad, are they. You'd get ripped for it. So there's that social thing too — what's acceptable, what people expect you to be eating when you're in that group.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T020",
+     "speaker": "P2",
+     "quote": "You'd get a burger, steak, something like that. Proper food.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_106A064A5F",
+   "doc_key": "macho_meals_fg2_demoonly_run03",
+   "subtheme_id": "B.4",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 1,
+   "n_projected": 1,
+   "gemini_audit_turns": [
+    "T032"
+   ],
+   "gemini_audit_speakers": [
+    "P3"
+   ],
+   "gemini_original_turn_labels": [
+    "T039"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T032",
+     "speaker": "P3",
+     "quote": "A burger is... it's a burger. You know what you're getting. It's satisfying.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T032",
+     "speaker": "P3",
+     "quote": "A burger is... it's a burger. You know what you're getting. It's satisfying.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_106A064A5F",
+   "doc_key": "macho_meals_fg2_demoonly_run03",
+   "subtheme_id": "C.3",
+   "parent_theme": "C) 4N justifications against plant-based consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 1,
+   "n_projected": 1,
+   "gemini_audit_turns": [
+    "T032"
+   ],
+   "gemini_audit_speakers": [
+    "P3"
+   ],
+   "gemini_original_turn_labels": [
+    "T039"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T032",
+     "speaker": "P3",
+     "quote": "But a plant-based burger or whatever? It feels like you're making do.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T032",
+     "speaker": "P3",
+     "quote": "But a plant-based burger or whatever? It feels like you're making do.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_38E95A714D",
+   "doc_key": "macho_meals_fg5_run01",
+   "subtheme_id": "A.1",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 4,
+   "n_projected": 4,
+   "gemini_audit_turns": [
+    "T009",
+    "T010",
+    "T016",
+    "T022"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T003",
+    "T004",
+    "T012",
+    "T020"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T009",
+     "speaker": "P2",
+     "quote": "there's this sort of... I don't know, unspoken thing where that's what blokes do, you know?",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T009",
+     "speaker": "P2",
+     "quote": "there's this sort of... I don't know, unspoken thing where that's what blokes do, you know?",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_38E95A714D",
+   "doc_key": "macho_meals_fg5_run01",
+   "subtheme_id": "B.2",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 4,
+   "n_projected": 4,
+   "gemini_audit_turns": [
+    "T012",
+    "T014",
+    "T017",
+    "T018"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T007",
+    "T009",
+    "T013",
+    "T014"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T012",
+     "speaker": "P3",
+     "quote": "That's just what I've always done, growing up around here. You're in farming country, so it's... it's normal, isn't it? You eat what's available, what people around you eat.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T012",
+     "speaker": "P3",
+     "quote": "I eat meat most days — red meat, chicken, fish when I fancy it. That's just what I've always done, growing up around here. You're in farming country, so it's... it's normal, isn't it?",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_38E95A714D",
+   "doc_key": "macho_meals_fg5_run01",
+   "subtheme_id": "B.4",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T031",
+    "T033"
+   ],
+   "gemini_audit_speakers": [
+    "P3",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T034",
+    "T037"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T031",
+     "speaker": "P4",
+     "quote": "You grow up eating your mum's stew, your Sunday roast, whatever. That's comfort food. That's what tastes like home.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T033",
+     "speaker": "P3",
+     "quote": "I eat what I know. Meat, potatoes, veg on the side. That's what I grew up with, that's what I cook, that's what tastes like home.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_38E95A714D",
+   "doc_key": "macho_meals_fg5_run01",
+   "subtheme_id": "C.3",
+   "parent_theme": "C) 4N justifications against plant-based consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T032",
+    "T034",
+    "T035"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T036",
+    "T039",
+    "T041"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T035",
+     "speaker": "P2",
+     "quote": "And then the plant-based stuff — I actually did try it, and honestly, some of it was bland.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T035",
+     "speaker": "P2",
+     "quote": "And then the plant-based stuff — I actually did try it, and honestly, some of it was bland.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_5CABCEADAF",
+   "doc_key": "macho_meals_fg3_demoonly_run02",
+   "subtheme_id": "A.1",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T016",
+    "T017",
+    "T020"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P4",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T015",
+    "T017",
+    "T021"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T016",
+     "speaker": "P5",
+     "quote": "You've got this picture in your head of what you're supposed to be eating as a bloke, and even if nobody's actually saying it, you're kind of policing yourself around it.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T016",
+     "speaker": "P5",
+     "quote": "I wouldn't order a salad at a restaurant with my wife there without feeling a bit self-conscious about it. Or like, I wouldn't eat a yoghurt as a lunch without thinking it looked a bit... I don't know. Soft?",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_5E7C5B45F7",
+   "doc_key": "macho_meals_fg2_run02",
+   "subtheme_id": "A.1",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 5,
+   "n_projected": 5,
+   "gemini_audit_turns": [
+    "T021",
+    "T022",
+    "T025",
+    "T032",
+    "T035"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T021",
+    "T022",
+    "T026",
+    "T037",
+    "T041"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T021",
+     "speaker": "P4",
+     "quote": "I think gender's in there somewhere, even if I'm not actively thinking about it.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T021",
+     "speaker": "P4",
+     "quote": "But there's something there, isn't there? Some part of you that just assumes meat is the thing, especially if you're a bloke. It's hard to explain without sounding a bit daft, but yeah. I think gender's in there somewhere, even if I'm not actively thinking about it.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_5E7C5B45F7",
+   "doc_key": "macho_meals_fg2_run02",
+   "subtheme_id": "A.2",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 1,
+   "n_projected": 1,
+   "gemini_audit_turns": [
+    "T029"
+   ],
+   "gemini_audit_speakers": [
+    "P1"
+   ],
+   "gemini_original_turn_labels": [
+    "T032"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T029",
+     "speaker": "P1",
+     "quote": "But I don't think I feel like it's tied to being a bloke or anything like that. It's just... what I eat. It's convenient, I like it, it's normal to me. I'm not sitting around thinking about my masculinity when I'm having a chicken breast or whatever.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T029",
+     "speaker": "P1",
+     "quote": "But I don't think I feel like it's tied to being a bloke or anything like that. It's just... what I eat. It's convenient, I like it, it's normal to me. I'm not sitting around thinking about my masculinity when I'm having a chicken breast or whatever.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_5E7C5B45F7",
+   "doc_key": "macho_meals_fg2_run02",
+   "subtheme_id": "B.2",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 5,
+   "n_projected": 5,
+   "gemini_audit_turns": [
+    "T014",
+    "T021",
+    "T022",
+    "T045",
+    "T047"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T012",
+    "T021",
+    "T022",
+    "T056",
+    "T060"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T022",
+     "speaker": "P2",
+     "quote": "There's just this assumption that meat is what you do. You're a bloke, you eat meat. It's not like anyone's sitting you down and telling you that explicitly, but it's just... in the air somehow.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T046",
+     "speaker": "P1",
+     "quote": "there's still this marking because meat is the default. You can order meat without anyone noticing. You can't order something else without it being slightly noticed, even if it's subtle.",
+     "category": "DIFFERENT_VALID_EVIDENCE_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_5E7C5B45F7",
+   "doc_key": "macho_meals_fg2_run02",
+   "subtheme_id": "B.4",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T014",
+    "T043"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T012",
+    "T053"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T014",
+     "speaker": "P1",
+     "quote": "It's convenient, it's what I grew up eating, and I enjoy it. I'll have a curry, a steak, some chicken — it's just normal to me.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "B.2"
+     ]
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T014",
+     "speaker": "P1",
+     "quote": "It's convenient, it's what I grew up eating, and I enjoy it. I'll have a curry, a steak, some chicken — it's just normal to me.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "B.2"
+     ]
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_5E7C5B45F7",
+   "doc_key": "macho_meals_fg2_run02",
+   "subtheme_id": "C.3",
+   "parent_theme": "C) 4N justifications against plant-based consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T038",
+    "T039"
+   ],
+   "gemini_audit_speakers": [
+    "P3",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T047",
+    "T048"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T038",
+     "speaker": "P3",
+     "quote": "There's stuff I've tried — veggie burgers, meat alternatives, whatever — and most of it just doesn't hit the same. It tastes like you're eating something because you should, not because you actually want it.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T038",
+     "speaker": "P3",
+     "quote": "There's stuff I've tried — veggie burgers, meat alternatives, whatever — and most of it just doesn't hit the same. It tastes like you're eating something because you should, not because you actually want it.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_5E8E19FE05",
+   "doc_key": "human::fg5",
+   "subtheme_id": "A.1",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T058",
+    "T059"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P3"
+   ],
+   "gemini_original_turn_labels": [
+    "T059",
+    "T060"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T058",
+     "speaker": "P1",
+     "quote": "I think the gender side of it is certainly, from my point of view, men are meat, definitely.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T058",
+     "speaker": "P1",
+     "quote": "I think it's males and meat, you know, if I can put it as, if I can put it like that, it, I think, I think, um, I think women are probably more prone to come off meat a lot easier than men.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_5E8E19FE05",
+   "doc_key": "human::fg5",
+   "subtheme_id": "B.2",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T019",
+    "T020",
+    "T063"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P3",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T020",
+    "T021",
+    "T064"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T020",
+     "speaker": "P3",
+     "quote": "I remember very vividly that every Sunday. It was Sunday roast and Monday was cold meat and, you know, and so it went on.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T020",
+     "speaker": "P3",
+     "quote": "It's what what you, what what was put on the table. You were told to eat. Yeah. And I know that I, I remember very vividly that every Sunday. It was Sunday roast and Monday was cold meat and, you know, and so it went on. Um, so it's, yeah, everybody, I think, was brought up virtually the same",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_5E8E19FE05",
+   "doc_key": "human::fg5",
+   "subtheme_id": "B.3",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T049",
+    "T050"
+   ],
+   "gemini_audit_speakers": [
+    "P2",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T050",
+    "T051"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T049",
+     "speaker": "P4",
+     "quote": "We buy British meat, buy British lamb, uh, support your farmers.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T049",
+     "speaker": "P4",
+     "quote": "a counterpoint to that, of course, is supporting British farmers. Um, cause you know, they live a sort of a very, um, precarious sort of existence.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_5E8E19FE05",
+   "doc_key": "human::fg5",
+   "subtheme_id": "B.4",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T017",
+    "T032",
+    "T063"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P3",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T018",
+    "T033",
+    "T064"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T063",
+     "speaker": "P1",
+     "quote": "I quite like going out and, um, having some ribs because we don't have them at home. So, so it's a treat every now and again.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "B.2"
+     ]
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T017",
+     "speaker": "P4",
+     "quote": "I still love meat, but, um, a little bit of guilt sort of creeps in sometimes.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_5E8E19FE05",
+   "doc_key": "human::fg5",
+   "subtheme_id": "C.3",
+   "parent_theme": "C) 4N justifications against plant-based consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T092",
+    "T116",
+    "T124"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P3",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T093",
+    "T117",
+    "T125"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T116",
+     "speaker": "P3",
+     "quote": "Um, occasionally. I can't get on with them funny enough. I just find the taste very, very bland.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T116",
+     "speaker": "P3",
+     "quote": "Um, occasionally. I can't get on with them funny enough. I just find the taste very, very bland.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_62191FF7A9",
+   "doc_key": "macho_meals_fg2_run01",
+   "subtheme_id": "A.1",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T020",
+    "T021",
+    "T024"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T020",
+    "T021",
+    "T025"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T021",
+     "speaker": "P5",
+     "quote": "So yeah, I reckon gender does influence what I eat.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T021",
+     "speaker": "P5",
+     "quote": "So yeah, I reckon gender does influence what I eat. Not because I'm trying to be more masculine or anything daft like that, but because... the whole thing is gendered, in how it's presented to you growing up.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_62191FF7A9",
+   "doc_key": "macho_meals_fg2_run01",
+   "subtheme_id": "B.1",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_UNRESOLVED",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T022",
+    "T023",
+    "T024"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T022",
+    "T023",
+    "T025"
+   ],
+   "claude_gated_evidence": [],
+   "category": "CLAUDE_PRODUCED_NO_GATED_EVIDENCE"
+  },
+  {
+   "blinded_document_id": "DOC_62191FF7A9",
+   "doc_key": "macho_meals_fg2_run01",
+   "subtheme_id": "B.2",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 5,
+   "n_projected": 5,
+   "gemini_audit_turns": [
+    "T014",
+    "T017",
+    "T019",
+    "T020",
+    "T024"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T012",
+    "T015",
+    "T018",
+    "T020",
+    "T025"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T018",
+     "speaker": "P3",
+     "quote": "your mum's cooking meat, your dad's cooking meat, that's just what dinner is. And then when you're out with mates, everyone's doing the same thing, so it just becomes... that's normal. That's food.",
+     "category": "ADJACENT_CODE_DIVERGENCE",
+     "sibling_codes_at_that_turn": [
+      "B.4"
+     ]
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T018",
+     "speaker": "P3",
+     "quote": "your mum's cooking meat, your dad's cooking meat, that's just what dinner is. And then when you're out with mates, everyone's doing the same thing, so it just becomes... that's normal. That's food.",
+     "category": "ADJACENT_CODE_DIVERGENCE",
+     "sibling_codes_at_that_turn": [
+      "B.4"
+     ]
+    }
+   ],
+   "category": "ADJACENT_CODE_DIVERGENCE"
+  },
+  {
+   "blinded_document_id": "DOC_62191FF7A9",
+   "doc_key": "macho_meals_fg2_run01",
+   "subtheme_id": "B.4",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 4,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T018",
+    "T026",
+    "T034"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P3",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T016",
+    "T020",
+    "T029",
+    "T040"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T034",
+     "speaker": "P4",
+     "quote": "right now I want a burger with meat in it because I like how it tastes, it fills me up, I know what I'm getting",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T034",
+     "speaker": "P4",
+     "quote": "right now I want a burger with meat in it because I like how it tastes, it fills me up, I know what I'm getting",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_7360E12D6B",
+   "doc_key": "macho_meals_fg3_run02",
+   "subtheme_id": "A.1",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T017",
+    "T018",
+    "T031"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "gemini_original_turn_labels": [
+    "T014",
+    "T016",
+    "T035"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T017",
+     "speaker": "P2",
+     "quote": "I think it does, yeah. I mean, not in a way I'm thinking about constantly, but when you step back... there's definitely something there.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T017",
+     "speaker": "P2",
+     "quote": "I think it does, yeah. I mean, not in a way I'm thinking about constantly, but when you step back... there's definitely something there.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_7360E12D6B",
+   "doc_key": "macho_meals_fg3_run02",
+   "subtheme_id": "B.2",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 4,
+   "n_projected": 4,
+   "gemini_audit_turns": [
+    "T017",
+    "T018",
+    "T030",
+    "T031"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T014",
+    "T016",
+    "T033",
+    "T035"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T018",
+     "speaker": "P3",
+     "quote": "Whereas for me, eating meat — nobody cares. Nobody needs to know why, it's just what I do. It's the default, so it doesn't need justifying.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T018",
+     "speaker": "P3",
+     "quote": "Whereas for me, eating meat — nobody cares. Nobody needs to know why, it's just what I do. It's the default, so it doesn't need justifying.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_7360E12D6B",
+   "doc_key": "macho_meals_fg3_run02",
+   "subtheme_id": "B.4",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T011",
+    "T012",
+    "T031"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "gemini_original_turn_labels": [
+    "T005",
+    "T007",
+    "T035"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T031",
+     "speaker": "P1",
+     "quote": "I eat meat because I like it — I notice the quality at the butcher, I prefer a proper steak to something frozen, I enjoy that.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "B.2"
+     ]
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T031",
+     "speaker": "P1",
+     "quote": "I eat meat because I like it — I notice the quality at the butcher, I prefer a proper steak to something frozen, I enjoy that.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "B.2"
+     ]
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_7CB3BED8F8",
+   "doc_key": "macho_meals_fg1_run02",
+   "subtheme_id": "A.1",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T020",
+    "T021"
+   ],
+   "gemini_audit_speakers": [
+    "P4",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T021",
+    "T022"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T020",
+     "speaker": "P4",
+     "quote": "But there's also probably a bit of that masculinity thing baked in there somewhere, even if you're not really thinking about it directly",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T020",
+     "speaker": "P4",
+     "quote": "But there's also probably a bit of that masculinity thing baked in there somewhere, even if you're not really thinking about it directly.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_7CB3BED8F8",
+   "doc_key": "macho_meals_fg1_run02",
+   "subtheme_id": "B.2",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 5,
+   "n_projected": 5,
+   "gemini_audit_turns": [
+    "T015",
+    "T016",
+    "T019",
+    "T020",
+    "T021"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T014",
+    "T015",
+    "T019",
+    "T021",
+    "T022"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T021",
+     "speaker": "P5",
+     "quote": "meat just feels normal, doesn't it? That's just what you eat.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T020",
+     "speaker": "P4",
+     "quote": "when you're deciding what to eat, there's definitely this thing where meat just feels like the normal choice, you know?",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_7CB3BED8F8",
+   "doc_key": "macho_meals_fg1_run02",
+   "subtheme_id": "B.4",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T018",
+    "T019"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2"
+   ],
+   "gemini_original_turn_labels": [
+    "T017",
+    "T019"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T018",
+     "speaker": "P2",
+     "quote": "the meat tastes different when you know the person selling it to you and they actually know what they're talking about. That matters to me.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T018",
+     "speaker": "P2",
+     "quote": "the meat tastes different when you know the person selling it to you and they actually know what they're talking about. That matters to me.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_87E9A953B6",
+   "doc_key": "human::fg1",
+   "subtheme_id": "A.1",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T029",
+    "T031"
+   ],
+   "gemini_audit_speakers": [
+    "P2",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T030",
+    "T032"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T029",
+     "speaker": "P5",
+     "quote": "yeah, basically I do think gender does, because as a male, I guess there are certain things I am meant to take, which ladies might take and I might not take",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T029",
+     "speaker": "P5",
+     "quote": "I'm not going to take, like, sugary stuff, and the like, so I feel gender influences what I do eat.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_87E9A953B6",
+   "doc_key": "human::fg1",
+   "subtheme_id": "A.2",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T023",
+    "T026"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P3"
+   ],
+   "gemini_original_turn_labels": [
+    "T024",
+    "T027"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T023",
+     "speaker": "P3",
+     "quote": "the male just has a free mind about eating things and, uh, they don't really (.), there's not really an influence to the agenda like that",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T026",
+     "speaker": "P1",
+     "quote": "I don't think I've ever made a decision on where to eat on like, any influences, like gender-wise. Um, so I would say no, for where we would eat.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_87E9A953B6",
+   "doc_key": "human::fg1",
+   "subtheme_id": "B.1",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 1,
+   "n_projected": 1,
+   "gemini_audit_turns": [
+    "T048"
+   ],
+   "gemini_audit_speakers": [
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T049"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T048",
+     "speaker": "P4",
+     "quote": "Because, you know, just chicken is, it's made of chicken. Whereas, if I bought a plant based one, it has some random stuff I never heard of",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T048",
+     "speaker": "P4",
+     "quote": "Because, you know, just chicken is, it's made of chicken.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_87E9A953B6",
+   "doc_key": "human::fg1",
+   "subtheme_id": "B.2",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T044",
+    "T045"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2"
+   ],
+   "gemini_original_turn_labels": [
+    "T045",
+    "T046"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T044",
+     "speaker": "P1",
+     "quote": "Certainly like, in Scotland, it's like a proper culture, like eating meat as well, though.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T044",
+     "speaker": "P1",
+     "quote": "Certainly like, in Scotland, it's like a proper culture, like eating meat as well, though.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_87E9A953B6",
+   "doc_key": "human::fg1",
+   "subtheme_id": "B.3",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T036",
+    "T037",
+    "T038"
+   ],
+   "gemini_audit_speakers": [
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T037",
+    "T038",
+    "T039"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T036",
+     "speaker": "P4",
+     "quote": "I'm quite fond of the gym, so I have, like, protein in every meal. So, like, chicken, tuna, beef.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T036",
+     "speaker": "P4",
+     "quote": "I'm quite fond of the gym, so I have, like, protein in every meal. So, like, chicken, tuna, beef.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_87E9A953B6",
+   "doc_key": "human::fg1",
+   "subtheme_id": "B.4",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 1,
+   "n_projected": 1,
+   "gemini_audit_turns": [
+    "T041"
+   ],
+   "gemini_audit_speakers": [
+    "P2"
+   ],
+   "gemini_original_turn_labels": [
+    "T042"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T041",
+     "speaker": "P2",
+     "quote": "but I think if you smelt like bacon cooking it would be oh my god I've got to have that um or sausages or something like that",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T041",
+     "speaker": "P2",
+     "quote": "but I think if you smelt like bacon cooking it would be oh my god I've got to have that um or sausages or something like that",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_87E9A953B6",
+   "doc_key": "human::fg1",
+   "subtheme_id": "C.1",
+   "parent_theme": "C) 4N justifications against plant-based consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T048",
+    "T053"
+   ],
+   "gemini_audit_speakers": [
+    "P2",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T049",
+    "T054"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T048",
+     "speaker": "P4",
+     "quote": "when you look at the label at the back and you see all the, the additives and, like, the preservatives and, you know, all this stuff they added in. It's a bit, um, not demoralising, but it turns you away from buying it because I don't really know what I'm putting inside my body.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T048",
+     "speaker": "P4",
+     "quote": "Whereas, if I bought a plant based one, it has some random stuff I never heard of and I'm not comfortable in putting that in.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_87E9A953B6",
+   "doc_key": "human::fg1",
+   "subtheme_id": "C.3",
+   "parent_theme": "C) 4N justifications against plant-based consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T042",
+    "T053"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2"
+   ],
+   "gemini_original_turn_labels": [
+    "T043",
+    "T054"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T042",
+     "speaker": "P1",
+     "quote": "It's just a bit bland, innit, sometimes? It just doesn't taste right.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T042",
+     "speaker": "P1",
+     "quote": "It's just a bit bland, innit, sometimes? It just doesn't taste right.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_C71426C1B1",
+   "doc_key": "human::fg2",
+   "subtheme_id": "A.2",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 5,
+   "n_projected": 5,
+   "gemini_audit_turns": [
+    "T013",
+    "T014",
+    "T015",
+    "T016",
+    "T017"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T014",
+    "T015",
+    "T016",
+    "T017",
+    "T018"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T013",
+     "speaker": "P2",
+     "quote": "I don't think gender influences what I eat at all.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T013",
+     "speaker": "P2",
+     "quote": "I don't think gender influences what I eat at all. Um, like if there's something I want I'll just have it . There's no such thing as a manly or womanly dish if you ask me, it's just like, it's just food. And like, so it's literally got zero influence",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_C71426C1B1",
+   "doc_key": "human::fg2",
+   "subtheme_id": "A.3",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T014",
+    "T015"
+   ],
+   "gemini_audit_speakers": [
+    "P3",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T015",
+    "T016"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T014",
+     "speaker": "P5",
+     "quote": "rather than what you eat maybe I can say size can affect sometimes, maybe I can eat more. Rather than female difference.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "A.2"
+     ]
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T014",
+     "speaker": "P5",
+     "quote": "Yeah I don't think as well like rather than what you eat maybe I can say size can affect sometimes, maybe I can eat more. Rather than female difference.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "A.2"
+     ]
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_C71426C1B1",
+   "doc_key": "human::fg2",
+   "subtheme_id": "B.2",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T028",
+    "T030"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2"
+   ],
+   "gemini_original_turn_labels": [
+    "T029",
+    "T031"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T028",
+     "speaker": "P1",
+     "quote": "As human beings it's what we've been doing for 1000s of years",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T028",
+     "speaker": "P1",
+     "quote": "stop trying to make me feel bad because I'm eating meat. As human beings it's what we've been doing for 1000s of years",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_C71426C1B1",
+   "doc_key": "human::fg2",
+   "subtheme_id": "B.4",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_UNRESOLVED",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T007",
+    "T030"
+   ],
+   "gemini_audit_speakers": [
+    "P2",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T008",
+    "T031"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T030",
+     "speaker": "P2",
+     "quote": "But to me the mix is actually quite important. Like I really want that versus the other stuff to be honest.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "B.2"
+     ]
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_C71426C1B1",
+   "doc_key": "human::fg2",
+   "subtheme_id": "C.1",
+   "parent_theme": "C) 4N justifications against plant-based consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 4,
+   "n_projected": 4,
+   "gemini_audit_turns": [
+    "T021",
+    "T023",
+    "T024",
+    "T027"
+   ],
+   "gemini_audit_speakers": [
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T022",
+    "T024",
+    "T025",
+    "T028"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T024",
+     "speaker": "P4",
+     "quote": "surely that must be processed in some really odd way",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "C.3"
+     ]
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T024",
+     "speaker": "P4",
+     "quote": "if you think about stuff like plant based cheese, it's like how on earth did you even make that? Like, I don't know I don't understand the processes of manufacturing like to the finer details but do you take the plant and turn it into cheese? Like surely that must be processed in some really odd way",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "C.3"
+     ]
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_C71426C1B1",
+   "doc_key": "human::fg2",
+   "subtheme_id": "C.3",
+   "parent_theme": "C) 4N justifications against plant-based consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T021",
+    "T024",
+    "T032"
+   ],
+   "gemini_audit_speakers": [
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "gemini_original_turn_labels": [
+    "T022",
+    "T025",
+    "T033"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T024",
+     "speaker": "P4",
+     "quote": "they tasted exactly like beef and they cost exactly the same as beef then I'd consider it, but they're a long way off from that at the moment",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "C.1"
+     ]
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T024",
+     "speaker": "P4",
+     "quote": "if you could get like burgers and sausages that are plant based and they tasted exactly like beef and they cost exactly the same as beef then I'd consider it, but they're a long way off from that at the moment",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "C.1"
+     ]
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_C71426C1B1",
+   "doc_key": "human::fg2",
+   "subtheme_id": "D",
+   "parent_theme": "D) Extreme cases",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 1,
+   "n_projected": 1,
+   "gemini_audit_turns": [
+    "T030"
+   ],
+   "gemini_audit_speakers": [
+    "P2"
+   ],
+   "gemini_original_turn_labels": [
+    "T031"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T030",
+     "speaker": "P2",
+     "quote": "Like the only thing that's gonna stop me from consuming meat, is if the government turn around and put the tax way up on it, and it becomes unaffordable",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T030",
+     "speaker": "P2",
+     "quote": "the only thing that's gonna stop me from consuming meat, is if the government turn around and put the tax way up on it, and it becomes unaffordable. But even then it's going to be, I’m probably still going to do my best to go and get it anyway",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_DB7286F644",
+   "doc_key": "macho_meals_fg1_demoonly_run01",
+   "subtheme_id": "A.1",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 5,
+   "n_projected": 5,
+   "gemini_audit_turns": [
+    "T020",
+    "T021",
+    "T026",
+    "T027",
+    "T031"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "gemini_original_turn_labels": [
+    "T025",
+    "T027",
+    "T033",
+    "T034",
+    "T039"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T020",
+     "speaker": "P5",
+     "quote": "So yeah, gender's definitely in there. But it's not just about what you eat — it's about the whole thing of how and where you're allowed to eat, and whether you can do it alone.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T020",
+     "speaker": "P5",
+     "quote": "So yeah, gender's definitely in there. But it's not just about what you eat — it's about the whole thing of how and where you're allowed to eat, and whether you can do it alone.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_DB7286F644",
+   "doc_key": "macho_meals_fg1_demoonly_run01",
+   "subtheme_id": "B.2",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 1,
+   "n_projected": 1,
+   "gemini_audit_turns": [
+    "T026"
+   ],
+   "gemini_audit_speakers": [
+    "P2"
+   ],
+   "gemini_original_turn_labels": [
+    "T033"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T026",
+     "speaker": "P2",
+     "quote": "I can order a curry or a kebab or chips and no one's gonna clock it as weird. That's just normal bloke food, right?",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T026",
+     "speaker": "P2",
+     "quote": "I can order a curry or a kebab or chips and no one's gonna clock it as weird. That's just normal bloke food, right?",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_DC66FA1DAE",
+   "doc_key": "human::fg4",
+   "subtheme_id": "A.2",
+   "parent_theme": "A) Gender does(n't) matter",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T018",
+    "T020",
+    "T021"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "gemini_original_turn_labels": [
+    "T019",
+    "T021",
+    "T022"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T018",
+     "speaker": "P2",
+     "quote": "I don't think so, I don't really understanding how it would.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T018",
+     "speaker": "P2",
+     "quote": "I don't think so, I don't really understanding how it would. I don't think it would make, makes any difference whatsoever. And um, I, I don't understand why it would to anyone.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_DC66FA1DAE",
+   "doc_key": "human::fg4",
+   "subtheme_id": "B.3",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 1,
+   "n_projected": 1,
+   "gemini_audit_turns": [
+    "T034"
+   ],
+   "gemini_audit_speakers": [
+    "P3"
+   ],
+   "gemini_original_turn_labels": [
+    "T035"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T034",
+     "speaker": "P3",
+     "quote": "personally I think, um, protein is a good thing. And meat is a good way of consuming it.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "B.4"
+     ]
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T034",
+     "speaker": "P3",
+     "quote": "But I, personally I think, um, protein is a good thing. And meat is a good way of consuming it.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "B.4"
+     ]
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_DC66FA1DAE",
+   "doc_key": "human::fg4",
+   "subtheme_id": "B.4",
+   "parent_theme": "B) 4N justifications for animal product consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T029",
+    "T034"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P3"
+   ],
+   "gemini_original_turn_labels": [
+    "T030",
+    "T035"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T029",
+     "speaker": "P1",
+     "quote": "It's the processed meats, the kind of the bacons and the salamis and all of that sort of thing, which I absolutely adore.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T034",
+     "speaker": "P3",
+     "quote": "protein is a good thing. And meat is a good way of consuming it. It's great that it tastes really nice.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "B.3"
+     ]
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_DC66FA1DAE",
+   "doc_key": "human::fg4",
+   "subtheme_id": "C.1",
+   "parent_theme": "C) 4N justifications against plant-based consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T026",
+    "T035",
+    "T038"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "gemini_original_turn_labels": [
+    "T027",
+    "T036",
+    "T039"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T035",
+     "speaker": "P1",
+     "quote": "a lot of these plant based and substitute meals are actually, they're loaded with with with sugars and salts and fats",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "C.3"
+     ]
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T035",
+     "speaker": "P1",
+     "quote": "a lot of these plant based and substitute meals are actually, they're loaded with with with sugars and salts and fats that don't actually make them any healthier for me",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": [
+      "C.3"
+     ]
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_DC66FA1DAE",
+   "doc_key": "human::fg4",
+   "subtheme_id": "C.3",
+   "parent_theme": "C) 4N justifications against plant-based consumption",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 2,
+   "n_projected": 2,
+   "gemini_audit_turns": [
+    "T024",
+    "T035"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2"
+   ],
+   "gemini_original_turn_labels": [
+    "T025",
+    "T036"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T024",
+     "speaker": "P2",
+     "quote": "the few times when I have tried plant based versions of particular dishes, they've just, they've just not tasted as good",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T024",
+     "speaker": "P2",
+     "quote": "the few times when I have tried plant based versions of particular dishes, they've just, they've just not tasted as good",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  },
+  {
+   "blinded_document_id": "DOC_DC66FA1DAE",
+   "doc_key": "human::fg4",
+   "subtheme_id": "D",
+   "parent_theme": "D) Extreme cases",
+   "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+   "n_gemini_quotations": 3,
+   "n_projected": 3,
+   "gemini_audit_turns": [
+    "T025",
+    "T026",
+    "T030"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "gemini_original_turn_labels": [
+    "T026",
+    "T027",
+    "T031"
+   ],
+   "claude_gated_evidence": [
+    {
+     "repetition_index": 1,
+     "turn_id": "T026",
+     "speaker": "P3",
+     "quote": "I'd need the doctor to tell me you’ve got six months.",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    },
+    {
+     "repetition_index": 2,
+     "turn_id": "T025",
+     "speaker": "P1",
+     "quote": "It would need to be something quite drastic, I think. It would probably have to be something medical. If I was literally told no, you really need to stop eating, I don't know, red meat. Your blood pressure's blah blah going through the roof, then that sort of dire consequence",
+     "category": "SAME_TURN_SAME_SPEAKER",
+     "sibling_codes_at_that_turn": []
+    }
+   ],
+   "category": "SAME_TURN_SAME_SPEAKER"
+  }
+ ],
+ "adjacent_two_evaluator": {
+  "claude_evidence_at_a_turn_the_original_coder_used_for_a_sibling_code": [
+   {
+    "blinded_document_id": "DOC_62191FF7A9",
+    "doc_key": "macho_meals_fg2_run01",
+    "subtheme_id": "B.2",
+    "parent_theme": "B) 4N justifications for animal product consumption",
+    "auditor_verdict": "AUDITOR_EVIDENCE_FOUND",
+    "n_gemini_quotations": 5,
+    "n_projected": 5,
+    "gemini_audit_turns": [
+     "T014",
+     "T017",
+     "T019",
+     "T020",
+     "T024"
+    ],
+    "gemini_audit_speakers": [
+     "P1",
+     "P2",
+     "P3",
+     "P4",
+     "P5"
+    ],
+    "gemini_original_turn_labels": [
+     "T012",
+     "T015",
+     "T018",
+     "T020",
+     "T025"
+    ],
+    "claude_gated_evidence": [
+     {
+      "repetition_index": 1,
+      "turn_id": "T018",
+      "speaker": "P3",
+      "quote": "your mum's cooking meat, your dad's cooking meat, that's just what dinner is. And then when you're out with mates, everyone's doing the same thing, so it just becomes... that's normal. That's food.",
+      "category": "ADJACENT_CODE_DIVERGENCE",
+      "sibling_codes_at_that_turn": [
+       "B.4"
+      ]
+     },
+     {
+      "repetition_index": 2,
+      "turn_id": "T018",
+      "speaker": "P3",
+      "quote": "your mum's cooking meat, your dad's cooking meat, that's just what dinner is. And then when you're out with mates, everyone's doing the same thing, so it just becomes... that's normal. That's food.",
+      "category": "ADJACENT_CODE_DIVERGENCE",
+      "sibling_codes_at_that_turn": [
+       "B.4"
+      ]
+     }
+    ],
+    "category": "ADJACENT_CODE_DIVERGENCE"
+   }
+  ],
+  "n": 1,
+  "original_coder_same_turn_two_codes_one_family": [
+   {
+    "doc_key": "human::fg3",
+    "audit_turn_id": "T047",
+    "codes": [
+     "A.1",
+     "A.3"
+    ],
+    "parent_theme": "A) Gender does(n't) matter"
+   },
+   {
+    "doc_key": "macho_meals_fg2_run02",
+    "audit_turn_id": "T014",
+    "codes": [
+     "B.2",
+     "B.4"
+    ],
+    "parent_theme": "B) 4N justifications for animal product consumption"
+   },
+   {
+    "doc_key": "human::fg5",
+    "audit_turn_id": "T063",
+    "codes": [
+     "B.2",
+     "B.4"
+    ],
+    "parent_theme": "B) 4N justifications for animal product consumption"
+   },
+   {
+    "doc_key": "macho_meals_fg1_run02",
+    "audit_turn_id": "T019",
+    "codes": [
+     "B.2",
+     "B.4"
+    ],
+    "parent_theme": "B) 4N justifications for animal product consumption"
+   },
+   {
+    "doc_key": "human::fg1",
+    "audit_turn_id": "T053",
+    "codes": [
+     "C.1",
+     "C.3"
+    ],
+    "parent_theme": "C) 4N justifications against plant-based consumption"
+   },
+   {
+    "doc_key": "human::fg2",
+    "audit_turn_id": "T014",
+    "codes": [
+     "A.2",
+     "A.3"
+    ],
+    "parent_theme": "A) Gender does(n't) matter"
+   },
+   {
+    "doc_key": "human::fg2",
+    "audit_turn_id": "T015",
+    "codes": [
+     "A.2",
+     "A.3"
+    ],
+    "parent_theme": "A) Gender does(n't) matter"
+   },
+   {
+    "doc_key": "human::fg2",
+    "audit_turn_id": "T021",
+    "codes": [
+     "C.1",
+     "C.3"
+    ],
+    "parent_theme": "C) 4N justifications against plant-based consumption"
+   },
+   {
+    "doc_key": "human::fg2",
+    "audit_turn_id": "T024",
+    "codes": [
+     "C.1",
+     "C.3"
+    ],
+    "parent_theme": "C) 4N justifications against plant-based consumption"
+   },
+   {
+    "doc_key": "human::fg4",
+    "audit_turn_id": "T034",
+    "codes": [
+     "B.3",
+     "B.4"
+    ],
+    "parent_theme": "B) 4N justifications for animal product consumption"
+   },
+   {
+    "doc_key": "human::fg4",
+    "audit_turn_id": "T035",
+    "codes": [
+     "C.1",
+     "C.3"
+    ],
+    "parent_theme": "C) 4N justifications against plant-based consumption"
+   }
+  ],
+  "n_original_coder_within_family": 11,
+  "interpretive_caution": "the B.2/B.4 pattern suggests potential overlap or legitimate co-occurrence at the B.2/B.4 boundary and therefore requires interpretive caution; it does not establish that either evaluator misclassified the passage"
+ },
+ "undetected_controls_with_original_evidence": [
+  {
+   "subtheme_id": "D",
+   "blinded_document_id": "DOC_044D944A54",
+   "auditor_verdict": "AUDITOR_UNRESOLVED",
+   "n_gemini_quotations": 3,
+   "gemini_audit_turns": [
+    "T057",
+    "T058",
+    "T059"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P3"
+   ]
+  },
+  {
+   "subtheme_id": "B.1",
+   "blinded_document_id": "DOC_62191FF7A9",
+   "auditor_verdict": "AUDITOR_UNRESOLVED",
+   "n_gemini_quotations": 3,
+   "gemini_audit_turns": [
+    "T022",
+    "T023",
+    "T024"
+   ],
+   "gemini_audit_speakers": [
+    "P1",
+    "P2",
+    "P5"
+   ]
+  },
+  {
+   "subtheme_id": "B.4",
+   "blinded_document_id": "DOC_C71426C1B1",
+   "auditor_verdict": "AUDITOR_UNRESOLVED",
+   "n_gemini_quotations": 2,
+   "gemini_audit_turns": [
+    "T007",
+    "T030"
+   ],
+   "gemini_audit_speakers": [
+    "P2",
+    "P5"
+   ]
+  }
+ ],
+ "unlocalised_status_policy": {
+  "label": "UNLOCALISED_FOR_CROSS_EVALUATOR_COMPARISON",
+  "means": "the projection could not place this quotation in the audit rendering",
+  "does_not_mean": [
+   "fabricated",
+   "invalid",
+   "absent from the transcript",
+   "a defect in the original coding"
+  ],
+  "original_code_altered": false
+ }
+}

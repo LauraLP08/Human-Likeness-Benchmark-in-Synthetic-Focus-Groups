@@ -1,0 +1,152 @@
+{
+ "built_utc": "2026-08-03T16:19:47.285245+00:00",
+ "analysis": "LLM_ASSISTED_RETROSPECTIVE_OPEN_THEMATIC_ACCUMULATION",
+ "scenarios_are_not_confidence_intervals": true,
+ "maximum_is_a_construction_ceiling_not_an_estimate": true,
+ "canonical_and_balanced_ids_never_mixed": true,
+ "resolution_counts": {
+  "stable_same": 338,
+  "cross_model_consensus": 102,
+  "unresolved": 86,
+  "resolved_total": 440
+ },
+ "coverage": {
+  "canonical_resolved": "440/526",
+  "canonical_unresolved": "86/526",
+  "balanced_extended": "520/526",
+  "balanced_uncertain_excluded": 6
+ },
+ "orderings": {
+  "Q1_Q2_Q3_Q5": 120,
+  "Q4": 24,
+  "Q4_focus_groups": [
+   "fg1",
+   "fg2",
+   "fg3",
+   "fg4"
+  ],
+  "Q4_synthetic_fg5_outside_curve": true
+ },
+ "unresolved_accumulation": [
+  {
+   "question": 1,
+   "n_orderings": 120,
+   "mean_cumulative_unresolved": [
+    1.6,
+    3.2,
+    4.8,
+    6.4,
+    8
+   ],
+   "total_unresolved": 8,
+   "per_fg": {
+    "fg5": 3,
+    "fg1": 3,
+    "fg2": 1,
+    "fg4": 1
+   }
+  },
+  {
+   "question": 2,
+   "n_orderings": 120,
+   "mean_cumulative_unresolved": [
+    5.2,
+    10.4,
+    15.6,
+    20.8,
+    26
+   ],
+   "total_unresolved": 26,
+   "per_fg": {
+    "fg3": 5,
+    "fg2": 6,
+    "fg1": 4,
+    "fg5": 6,
+    "fg4": 5
+   }
+  },
+  {
+   "question": 3,
+   "n_orderings": 120,
+   "mean_cumulative_unresolved": [
+    4.4,
+    8.8,
+    13.2,
+    17.6,
+    22
+   ],
+   "total_unresolved": 22,
+   "per_fg": {
+    "fg3": 9,
+    "fg5": 7,
+    "fg1": 2,
+    "fg2": 3,
+    "fg4": 1
+   }
+  },
+  {
+   "question": 4,
+   "n_orderings": 24,
+   "mean_cumulative_unresolved": [
+    1.5,
+    3,
+    4.5,
+    6
+   ],
+   "total_unresolved": 6,
+   "per_fg": {
+    "fg2": 2,
+    "fg4": 2,
+    "fg1": 2
+   }
+  },
+  {
+   "question": 5,
+   "n_orderings": 120,
+   "mean_cumulative_unresolved": [
+    4.2,
+    8.4,
+    12.6,
+    16.8,
+    21
+   ],
+   "total_unresolved": 21,
+   "per_fg": {
+    "fg3": 7,
+    "fg2": 4,
+    "fg1": 2,
+    "fg4": 6,
+    "fg5": 2
+   }
+  }
+ ],
+ "unresolved_distribution": {
+  "by_question": {
+   "1": 8,
+   "2": 26,
+   "3": 22,
+   "4": 9,
+   "5": 21
+  },
+  "by_condition": {
+   "demographics-only": 40,
+   "human": 17,
+   "enriched": 29
+  },
+  "by_fg": {
+   "fg5": 21,
+   "fg4": 15,
+   "fg2": 16,
+   "fg1": 13,
+   "fg3": 21
+  },
+  "disagreement_type": {
+   "UNCERTAIN_UNCERTAIN": 44,
+   "cluster_UNCERTAIN": 24,
+   "cluster_cluster_disagreement": 18
+  }
+ },
+ "status": "RETIRED_SUPERSEDED",
+ "superseded_by": "inductive_accumulation_curves_v2.json",
+ "reason": "replicates were pooled before accumulation, so each synthetic curve drew on 15 sessions against the human curve's 5"
+}

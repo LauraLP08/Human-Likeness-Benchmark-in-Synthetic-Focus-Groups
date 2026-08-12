@@ -1,0 +1,209 @@
+{
+  "cache_key": "7a8b407879f882100543f99b522d9cba90d2647876f74070325af7fa6e7cdb78",
+  "run": "macho_meals_fg1_run02",
+  "condition": "enriched",
+  "chunk_index": 0,
+  "target_turn_ids": [
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T006",
+    "T007",
+    "T009",
+    "T011",
+    "T013",
+    "T014",
+    "T015",
+    "T016"
+  ],
+  "shown_turn_ids": [
+    "T000",
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T006",
+    "T007",
+    "T008",
+    "T009",
+    "T010",
+    "T011",
+    "T012",
+    "T013",
+    "T014",
+    "T015",
+    "T016"
+  ],
+  "blinded_transcript_sha256": "6c421997d64c5606c333ce8bec4d2213a3bacedb525f218a437bcb04a851cf33",
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "probe_tag": null,
+  "attempt": 1,
+  "finish_reasons": [
+    "FinishReason.STOP"
+  ],
+  "truncated": false,
+  "parse_error": null,
+  "prompt_tokens": 3933,
+  "candidates_tokens": 1186,
+  "thoughts_tokens": 4079,
+  "codings": [
+    {
+      "turn_id": "T001",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "I'd say for me it's probably just the pub",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T002",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "But it's a bit different where I am, to be honest.",
+          "target_turn_id": "T001"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T003",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "but you're right. In the city you've got that luxury",
+          "target_turn_id": "T002"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T004",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "the anonymity thing you're describing sounds a bit lonely to me",
+          "target_turn_id": "T003"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T006",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "it does sound a bit empty when you put it that way",
+          "target_turn_id": "T004"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "But I also don't think you need to swing all the way to everyone knowing your business",
+          "target_turn_id": "T004"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T007",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "You're right \u2014 Glasgow's not like pure anonymity.",
+          "target_turn_id": "T006"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T009",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "I think what Speaker A said about having a choice resonates with me though.",
+          "target_turn_id": "T007"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T011",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "You've got that choice thing Speaker A mentioned.",
+          "target_turn_id": "T007"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "I'm not sure I feel that disconnect Speaker B was talking about with the city anonymity.",
+          "target_turn_id": "T004"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T013",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "For me it's pretty straightforward, honestly.",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T014",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "Yeah, it's a bit different for me though, I reckon.",
+          "target_turn_id": "T013"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T015",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "but you're right \u2014 I've got it easy, haven't I?",
+          "target_turn_id": "T014"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T016",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Exactly, yeah.",
+          "target_turn_id": "T015"
+        }
+      ],
+      "no_code_reason": null
+    }
+  ],
+  "called_utc": "2026-08-06T17:23:47.975148+00:00"
+}

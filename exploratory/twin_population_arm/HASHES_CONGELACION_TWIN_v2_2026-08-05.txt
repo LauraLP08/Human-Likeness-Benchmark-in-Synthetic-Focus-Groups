@@ -1,0 +1,21 @@
+MANIFIESTO DE CONGELACION v2 - Brazo twin poblacional (FG3+FG4)
+Proyecto: my_qualitative_project / DS03_MACHO_MEALS_UK
+Generado: 2026-08-05
+
+SUSTITUYE al manifiesto del 2026-08-04. Motivo: la entrada 2 del adendum cambio de fuente.
+Se paso de cuatro tablas agregadas de ONS (producto de marginales, que genero personas
+logicamente imposibles) a microdatos individuales SN 9154, donde una fila es una persona
+real y la distribucion conjunta viene dada. El manifiesto anterior sigue siendo valido
+como registro de lo que se congelo entonces; este lo sustituye para lo que rige ahora.
+
+Estado del brazo: FASE 3 en curso. Muestreo hecho (24 registros reales).
+  - ninguna narrativa generada  - ninguna sesion corrida  - cero gasto de API en sesiones
+
+SHA-256:
+
+b3b8c9797c21d25fe5d9deaa6706e894b4c8b9c3962da6fe612508fe5ec5b69b  49043 bytes  PREREGISTRO_BRAZO_TWIN_POBLACIONAL_2026-08-04.md
+1286b2a446737c8030014e32641463a53584a6ac12e054f2d01e65ee7f9f3bf0  19112 bytes  ADENDUM_TWIN_POBLACIONAL_CONGELADO_2026-08-04.md
+
+VERIFICACION: py -c "import hashlib,pathlib,sys;[print(hashlib.sha256(pathlib.Path(f).read_bytes()).hexdigest(),f) for f in sys.argv[1:]]" ARCHIVO.md
+
+ADVERTENCIA: el hash cambia si el archivo se reguarda con finales de linea distintos o con BOM.

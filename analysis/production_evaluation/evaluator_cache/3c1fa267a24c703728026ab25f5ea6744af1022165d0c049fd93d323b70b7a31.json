@@ -1,0 +1,273 @@
+{
+ "cache_key": "3c1fa267a24c703728026ab25f5ea6744af1022165d0c049fd93d323b70b7a31",
+ "computed_utc": "2026-07-31T00:24:58.181194+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/to8xlhi19eohi33n4kb6vuyexr1a1b89ndws",
+ "custom_request_key": "macho_meals_fg4_run04",
+ "input": {
+  "side": "synthetic",
+  "fg": "fg4",
+  "condition": "enriched",
+  "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg4_run04\\comparable_transcript.json",
+  "sha256": "0b3bf6f204628d95b55579f3f3bd9460564bf25d88ea4768f40601623127b9e0",
+  "physical_run": "macho_meals_fg4_run04",
+  "canonical_replication_index": 2
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "e0108d7acae6209731ec6ee9804322ad8d7712fe9cec97694b8293d5cadcc0de",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 13291,
+  "candidates_tokens": 1163,
+  "total_tokens": 23940,
+  "thoughts_tokens": 9486,
+  "cached_tokens": null,
+  "raw_text_chars": 3927,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 13291,
+  "candidates_tokens": 1163,
+  "total_tokens": 23940,
+  "thoughts_tokens": 9486,
+  "cached_tokens": null,
+  "raw_text_chars": 3927,
+  "parse_attempt": 1,
+  "headroom_tokens": 15221
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T017",
+      "speaker": "Participant 1",
+      "quote": "Red meat especially — that's got a bit of masculinity attached to it, whether you like it or not."
+     },
+     {
+      "turn_id": "T018",
+      "speaker": "Participant 2",
+      "quote": "that pressure's definitely there. And it's not just background noise, it shapes how you think about it"
+     }
+    ],
+    "evidence_note": "Participants 1 and 2 both explicitly discuss how being a man and societal expectations of masculinity influence their food choices and make meat-eating feel expected.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2"
+    ],
+    "reach": 0.6666666666666666
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T021",
+      "speaker": "Participant 3",
+      "quote": "Doesn't feel like it's got anything to do with being a bloke about it."
+     }
+    ],
+    "evidence_note": "Participant 3 explicitly rejects the idea that gender influences food choices, stating that eating meat has nothing to do with being a man.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 3"
+    ],
+    "reach": 0.3333333333333333
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T017",
+      "speaker": "Participant 1",
+      "quote": "You see your old man eating it, mates are eating it, and it's just... normal."
+     },
+     {
+      "turn_id": "T011",
+      "speaker": "Participant 2",
+      "quote": "We eat meat most days too — I'll do a roast, bit of chicken midweek, fish when we feel like it. That's just the default."
+     },
+     {
+      "turn_id": "T023",
+      "speaker": "Participant 3",
+      "quote": "I eat meat because I like it and it's normal."
+     }
+    ],
+    "evidence_note": "All three participants describe eating animal products as their default, regular, and socially normal routine.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T019",
+      "speaker": "Participant 1",
+      "quote": "And I'll be honest, I do quite like a steak."
+     },
+     {
+      "turn_id": "T044",
+      "speaker": "Participant 3",
+      "quote": "I genuinely like meat."
+     }
+    ],
+    "evidence_note": "Participants 1 and 3 discuss how much they like and enjoy eating meat.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 3"
+    ],
+    "reach": 0.6666666666666666
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T037",
+      "speaker": "Participant 1",
+      "quote": "not be mucking about with loads of ingredients you've never heard of."
+     }
+    ],
+    "evidence_note": "Participant 1 describes the hassle of dealing with unfamiliar plant-based ingredients that one has never heard of.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1"
+    ],
+    "reach": 0.3333333333333333
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "D",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 9,
+  "verified_quotes": 9,
+  "total_present_codes": 5,
+  "verified_codes": 5,
+  "demoted_codes": 0
+ }
+}

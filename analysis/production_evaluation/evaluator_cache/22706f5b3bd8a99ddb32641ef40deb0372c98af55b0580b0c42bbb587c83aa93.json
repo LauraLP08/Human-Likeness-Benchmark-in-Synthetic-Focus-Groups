@@ -1,0 +1,409 @@
+{
+ "cache_key": "22706f5b3bd8a99ddb32641ef40deb0372c98af55b0580b0c42bbb587c83aa93",
+ "computed_utc": "2026-07-31T00:24:58.181194+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/to8xlhi19eohi33n4kb6vuyexr1a1b89ndws",
+ "custom_request_key": "human_fg3",
+ "input": {
+  "side": "human",
+  "fg": "fg3",
+  "condition": "human",
+  "path": "data\\datasets_transcripts\\standardized\\macho_meals\\fg3\\transcript.json",
+  "sha256": "a82827080834e4ccc56e1a5dba014404681065ed7e79cf3c26c1187705230333",
+  "physical_run": null,
+  "canonical_replication_index": null
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "e0d8a85baea8e5d979719e62dc655c2cdd9ae521fa732a9c60d319d6bb9ee2fc",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 12339,
+  "candidates_tokens": 2470,
+  "total_tokens": 23902,
+  "thoughts_tokens": 9093,
+  "cached_tokens": null,
+  "raw_text_chars": 8868,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 12339,
+  "candidates_tokens": 2470,
+  "total_tokens": 23902,
+  "thoughts_tokens": 9093,
+  "cached_tokens": null,
+  "raw_text_chars": 8868,
+  "parse_attempt": 1,
+  "headroom_tokens": 13914
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 5",
+      "quote": "The only thing I've noticed is maybe if I've gone out with a group of, um, let's say quite alpha males"
+     },
+     {
+      "turn_id": "T044",
+      "speaker": "Participant 1",
+      "quote": "but it probably does occasionally influence."
+     },
+     {
+      "turn_id": "T049",
+      "speaker": "Participant 4",
+      "quote": "Do you think women sometimes find the idea of eating less meat or no meat more palatable than men do?"
+     },
+     {
+      "turn_id": "T048",
+      "speaker": "Participant 2",
+      "quote": "the preparation side of it, I do feel there's quite a cliched masculinity about it."
+     }
+    ],
+    "evidence_note": "Participants acknowledge that gender influences their food choices, such as feeling pressured to order meat in all-male groups, associating barbecuing with masculinity, or noticing gender differences in meat consumption.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 0.8
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T030",
+      "speaker": "Participant 3",
+      "quote": "I can't ever say for once I've stopped to think about what I eat is possibly affected by my gender."
+     }
+    ],
+    "evidence_note": "Participant 3 explicitly rejects the idea that gender could have any association with or influence on his food consumption.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 3"
+    ],
+    "reach": 0.2
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T048",
+      "speaker": "Participant 2",
+      "quote": "it doesn't hit me as being a, a blokey thing."
+     },
+     {
+      "turn_id": "T026",
+      "speaker": "Participant 5",
+      "quote": "I don't think her gender either influences what she cooks."
+     }
+    ],
+    "evidence_note": "Participants 2 and 5 reject the idea of gender influence on their food but subsequently describe highly gendered contexts such as barbecuing as a male hobby or a female partner preparing all meals.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2",
+     "Participant 5"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T049",
+      "speaker": "Participant 4",
+      "quote": "we like to have that meat as part of our, a part of our diet."
+     },
+     {
+      "turn_id": "T067",
+      "speaker": "Participant 2",
+      "quote": "Fortunately for me, not an issue because I'll always just go to the meat aisle."
+     },
+     {
+      "turn_id": "T074",
+      "speaker": "Participant 1",
+      "quote": "But in terms of buying meat, it's one thing I don't want to, um, lessen the quality of my life"
+     },
+     {
+      "turn_id": "T060",
+      "speaker": "Participant 3",
+      "quote": "we're all creatures of habit. And I know what I like now."
+     }
+    ],
+    "evidence_note": "Participants describe eating animal products as their standard habit, social norm, or default baseline when food shopping and ordering.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3",
+     "Participant 4"
+    ],
+    "reach": 0.8
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T052",
+      "speaker": "Participant 1",
+      "quote": "Protein, you're building up the, perhaps if you're going to the gym, you're building up muscles, strength"
+     },
+     {
+      "turn_id": "T100",
+      "speaker": "Participant 5",
+      "quote": "red meat has got saturated fat. But we need saturated fat in our diet, you know, in a moderate amount."
+     }
+    ],
+    "evidence_note": "Participants argue that meat is necessary to obtain key nutrients, build muscle strength, and meet physical requirements for fitness.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 5"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T058",
+      "speaker": "Participant 1",
+      "quote": "I like meat too much."
+     },
+     {
+      "turn_id": "T061",
+      "speaker": "Participant 2",
+      "quote": "I enjoy a burger, I enjoy a steak."
+     },
+     {
+      "turn_id": "T060",
+      "speaker": "Participant 3",
+      "quote": "I enjoy eating meat"
+     },
+     {
+      "turn_id": "T079",
+      "speaker": "Participant 4",
+      "quote": "I love a good steak."
+     }
+    ],
+    "evidence_note": "Every participant explicitly voices their personal enjoyment, fondness, and appreciation of the taste of meat.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3",
+     "Participant 4"
+    ],
+    "reach": 0.8
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T065",
+      "speaker": "Participant 5",
+      "quote": "there's quite a lot of additives, uh, that go into these things."
+     },
+     {
+      "turn_id": "T067",
+      "speaker": "Participant 2",
+      "quote": "But it's what they've pumped into it to kind of get it to that point where it is a viable meat substitute"
+     },
+     {
+      "turn_id": "T066",
+      "speaker": "Participant 1",
+      "quote": "there's some that’ve added so much in to make it tastier"
+     }
+    ],
+    "evidence_note": "Participants discuss plant-based products as highly processed options containing artificial additives, calories, and other substances 'pumped' into them.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 5"
+    ],
+    "reach": 0.6
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T100",
+      "speaker": "Participant 5",
+      "quote": "I think if you switched maybe most of the time or full time to plant based diets, would you be missing out on certain nutrients?"
+     },
+     {
+      "turn_id": "T103",
+      "speaker": "Participant 1",
+      "quote": "I sometimes struggle to get my head around whether it would, you do get everything you need without supplements"
+     }
+    ],
+    "evidence_note": "Participants voice doubts regarding whether plant-based diets are capable of meeting daily nutritional and vitamin requirements without relying on supplements.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 5"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T064",
+      "speaker": "Participant 4",
+      "quote": "the specific meat alternative, um, options never taste very nice"
+     },
+     {
+      "turn_id": "T060",
+      "speaker": "Participant 3",
+      "quote": "the plant based dishes I have tried in the past, I haven't really particularly enjoyed."
+     },
+     {
+      "turn_id": "T061",
+      "speaker": "Participant 2",
+      "quote": "I've tried almond milk, uh, in a coffee, and it's just like, it's just not doing it for me."
+     },
+     {
+      "turn_id": "T068",
+      "speaker": "Participant 1",
+      "quote": "I would never go for, um, meat free sausages or something, because I know I've tried them and for me, almost inedible."
+     },
+     {
+      "turn_id": "T069",
+      "speaker": "Participant 5",
+      "quote": "I think texture is a big part as well."
+     }
+    ],
+    "evidence_note": "All participants share their negative experiences regarding the unpleasant, bland taste or unappealing texture of meat alternatives and plant-based foods.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "D",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T058",
+      "speaker": "Participant 1",
+      "quote": "for me to go completely plant based, it would perhaps have to be my health is at risk for some reason"
+     },
+     {
+      "turn_id": "T059",
+      "speaker": "Participant 2",
+      "quote": "to go completely plant based, it would be something that would have to be forced upon me."
+     },
+     {
+      "turn_id": "T060",
+      "speaker": "Participant 3",
+      "quote": "it probably would have to be something fairly life changing, like a health or a relationship status change"
+     }
+    ],
+    "evidence_note": "Participants detail extreme conditions, such as severe health risks, medical diagnoses, or major life/relationship breakups, that would be required for them to adopt a plant-based diet.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3"
+    ],
+    "reach": 0.6
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 30,
+  "verified_quotes": 30,
+  "total_present_codes": 10,
+  "verified_codes": 10,
+  "demoted_codes": 0
+ }
+}

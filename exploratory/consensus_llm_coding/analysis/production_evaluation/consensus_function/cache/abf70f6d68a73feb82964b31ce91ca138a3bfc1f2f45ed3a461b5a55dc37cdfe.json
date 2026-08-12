@@ -1,0 +1,203 @@
+{
+  "cache_key": "abf70f6d68a73feb82964b31ce91ca138a3bfc1f2f45ed3a461b5a55dc37cdfe",
+  "run": "macho_meals_fg1_run01",
+  "condition": "enriched",
+  "chunk_index": 0,
+  "target_turn_ids": [
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T007",
+    "T009",
+    "T010",
+    "T011",
+    "T012",
+    "T013",
+    "T015"
+  ],
+  "shown_turn_ids": [
+    "T000",
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T006",
+    "T007",
+    "T008",
+    "T009",
+    "T010",
+    "T011",
+    "T012",
+    "T013",
+    "T014",
+    "T015"
+  ],
+  "blinded_transcript_sha256": "fbe54e144019b9391f8b8c8354f9b52edc3637af360a12bef12d5731dc9accde",
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "probe_tag": null,
+  "attempt": 1,
+  "finish_reasons": [
+    "FinishReason.STOP"
+  ],
+  "truncated": false,
+  "parse_error": null,
+  "prompt_tokens": 4147,
+  "candidates_tokens": 881,
+  "thoughts_tokens": 6883,
+  "codings": [
+    {
+      "turn_id": "T001",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "For me, it's usually the pub",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T002",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, same here mate",
+          "target_turn_id": "T001"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T003",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "But I'd say it does make a difference",
+          "target_turn_id": "T002"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T004",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, fair point actually",
+          "target_turn_id": "T003"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T005",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, that's spot on actually",
+          "target_turn_id": "T004"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T007",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "Honestly, it varies a lot",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T009",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "I just eat what I fancy, really",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T010",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "that's a good point Speaker D made",
+          "target_turn_id": "T007"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T011",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "then you do end up thinking about it a bit more",
+          "target_turn_id": "T009"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T012",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Fair enough, yeah. You're right",
+          "target_turn_id": "T011"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T013",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "weeknight versus going out is definitely different",
+          "target_turn_id": "T012"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "the habits you build on those Tuesday nights kind of feed into everything else",
+          "target_turn_id": "T012"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T015",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "That's kind of what Speaker E was saying earlier",
+          "target_turn_id": "T009"
+        }
+      ],
+      "no_code_reason": null
+    }
+  ],
+  "called_utc": "2026-08-06T17:16:17.783308+00:00"
+}

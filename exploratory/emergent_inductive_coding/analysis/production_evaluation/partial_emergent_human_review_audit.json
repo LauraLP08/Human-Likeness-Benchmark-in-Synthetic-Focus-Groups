@@ -1,0 +1,294 @@
+{
+ "audited_utc": "2026-07-31T00:24:04.756533+00:00",
+ "classification": "PARTIAL_EMERGENT_HUMAN_REVIEW",
+ "explicitly_not": "NOT a completed gold standard. The 15-unit gate is NOT applied and NOT forced; the exercise is reported at the size it actually reached.",
+ "read_only": true,
+ "workbooks_modified_by_this_audit": false,
+ "part2_deductive_status": "NOT_CONDUCTED — prior human anchor available; current coder exercise limited to partial emergent review",
+ "part2_released": false,
+ "part2_requested": false,
+ "interpretive_metrics": "WITHHELD — the metrics that required a completed gold standard remain withheld",
+ "agreement_computed": false,
+ "agreement_note": "NOT computed and NOT computable yet. Agreement may only be calculated after a human completes the clustering/adjudication, and then only over U01-U07.",
+ "per_coder": {
+  "Coder_A": {
+   "coder": "Coder_A",
+   "workbook": "analysis\\production_evaluation\\gold_standard_package\\Coder_A_Part1_Emergent.xlsx",
+   "workbook_modified_utc": "2026-07-31T00:13:01.169136+00:00",
+   "units_issued": 15,
+   "units_with_at_least_one_complete_theme": 8,
+   "units_coded": [
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05",
+    "U06",
+    "U07",
+    "U08"
+   ],
+   "units_empty": [
+    "U09",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15"
+   ],
+   "n_units_empty": 7,
+   "complete_themes_total": 43,
+   "complete_themes_per_unit": {
+    "U01": 6,
+    "U02": 4,
+    "U03": 6,
+    "U04": 5,
+    "U05": 8,
+    "U06": 4,
+    "U07": 7,
+    "U08": 3
+   },
+   "partially_completed_rows": [],
+   "n_partially_completed_rows": 0,
+   "quotes_literal_valid": 43,
+   "quotes_literal_invalid": [],
+   "n_quotes_literal_invalid": 0,
+   "overflow_rows_used": 0
+  },
+  "Coder_B": {
+   "coder": "Coder_B",
+   "workbook": "analysis\\production_evaluation\\gold_standard_package\\Coder_B_Part1_Emergent.xlsx",
+   "workbook_modified_utc": "2026-07-31T00:11:24.559385+00:00",
+   "units_issued": 15,
+   "units_with_at_least_one_complete_theme": 6,
+   "units_coded": [
+    "U01",
+    "U02",
+    "U03",
+    "U05",
+    "U06",
+    "U07"
+   ],
+   "units_empty": [
+    "U04",
+    "U08",
+    "U09",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15"
+   ],
+   "n_units_empty": 9,
+   "complete_themes_total": 34,
+   "complete_themes_per_unit": {
+    "U01": 6,
+    "U02": 6,
+    "U03": 5,
+    "U05": 6,
+    "U06": 6,
+    "U07": 5
+   },
+   "partially_completed_rows": [
+    {
+     "unit_id": "U04",
+     "theme_slot": "1",
+     "filled_fields": [
+      "theme_label",
+      "theme_description",
+      "supporting_quote"
+     ],
+     "missing_required": [
+      "relevance"
+     ]
+    },
+    {
+     "unit_id": "U04",
+     "theme_slot": "2",
+     "filled_fields": [
+      "theme_label",
+      "theme_description",
+      "supporting_quote"
+     ],
+     "missing_required": [
+      "relevance"
+     ]
+    }
+   ],
+   "n_partially_completed_rows": 2,
+   "quotes_literal_valid": 34,
+   "quotes_literal_invalid": [],
+   "n_quotes_literal_invalid": 0,
+   "overflow_rows_used": 0
+  }
+ },
+ "overlap": {
+  "units_coded_by_both": [
+   "U01",
+   "U02",
+   "U03",
+   "U05",
+   "U06",
+   "U07"
+  ],
+  "n_units_coded_by_both": 6,
+  "units_only_coder_a": [
+   "U04",
+   "U08"
+  ],
+  "units_only_coder_b": [],
+  "n_only_coder_a": 2,
+  "n_only_coder_b": 0
+ },
+ "units_not_attempted_by_either": [
+  "U09",
+  "U10",
+  "U11",
+  "U12",
+  "U13",
+  "U14",
+  "U15"
+ ],
+ "no_data_invented": "Units neither coder completed are reported as empty. Nothing is imputed for them.",
+ "blind_pooling": {
+  "eligible": true,
+  "scope": [
+   "U01",
+   "U02",
+   "U03",
+   "U04",
+   "U05",
+   "U06",
+   "U07"
+  ],
+  "n_units": 7,
+  "pooled_themes_total": 76,
+  "per_unit": {
+   "U01": 12,
+   "U02": 10,
+   "U03": 11,
+   "U04": 7,
+   "U05": 14,
+   "U06": 10,
+   "U07": 12
+  },
+  "by_coder_in_scope": {
+   "Coder_A": 40,
+   "Coder_B": 36
+  },
+  "authorship_removed": true,
+  "order_randomised": true,
+  "randomisation": "per-unit deterministic shuffle seeded by sha256('partial_emergent::'+unit_id) — reproducible for audit, carries no authorship signal",
+  "sealed_map": "gold_standard_sealed/partial_emergent_pooled_authorship.json",
+  "workbook": "partial_emergent_clustering/Clustering_U01_U07.xlsx"
+ },
+ "scope_confirmed_by_researcher": {
+  "statement": "both coders reviewed exactly the same first seven units, U01-U07",
+  "treated_as": "7 shared units, 2 independent coders, doubly-coded common subset"
+ },
+ "structural_finding_u04": {
+  "what_the_files_show": "Coder B's U04 rows carry theme_label, theme_description and supporting_quote but leave `relevance` blank on both themes. By the completeness rule used here (all four fields) they are PARTIAL, not complete.",
+  "decision": "U04 is retained in the shared set of seven and pooled for clustering, because the substantive content is present. The two rows are marked relevance='(not provided)' in the workbook rather than imputed.",
+  "why_not_dropped": "Dropping U04 would shrink the shared set to six and discard real coded content over one missing field.",
+  "why_not_imputed": "No relevance value is invented for those two themes."
+ },
+ "coder_a_extra_unit": {
+  "unit": "U08",
+  "status": "OUT_OF_SCOPE — coded by Coder A only",
+  "themes": 3,
+  "treatment": "excluded from clustering and from any future agreement computation; one coder alone carries no agreement information"
+ },
+ "units_not_reviewed": {
+  "units": [
+   "U09",
+   "U10",
+   "U11",
+   "U12",
+   "U13",
+   "U14",
+   "U15"
+  ],
+  "status": "NOT_REVIEWED",
+  "explicitly_not": "NOT thematic absences and NOT zeros. Nothing is filled in for them and they must not enter any denominator."
+ },
+ "quote_validation": {
+  "pooled_themes_checked": 76,
+  "literal_valid": 76,
+  "invalid": 0,
+  "note": "every supporting quote is verbatim in its issued unit text"
+ },
+ "downstream_pending_human_adjudication": [
+  "shared vs exclusive theme counts after clustering",
+  "cluster presence matrix by unit and coder",
+  "cumulative new-cluster curve U01->U07",
+  "new CENTRAL clusters per unit",
+  "preliminary saturation assessment (no claim of complete saturation)",
+  "exploratory comparison against the sealed codebook — LAST, after clustering"
+ ],
+ "record_of_scope": {
+  "both_coders_substantively_reviewed": [
+   "U01",
+   "U02",
+   "U03",
+   "U04",
+   "U05",
+   "U06",
+   "U07"
+  ],
+  "statement": "Both coders substantively reviewed U01-U07. The seven units are the doubly-coded common subset.",
+  "coder_b_incomplete_field": {
+   "unit": "U04",
+   "rows_affected": 2,
+   "theme_slots": [
+    "1",
+    "2"
+   ],
+   "field_missing": "relevance",
+   "fields_present": [
+    "theme_label",
+    "theme_description",
+    "supporting_quote"
+   ],
+   "consequence_for_clustering": "U04 ENTERS thematic clustering — the substantive content is present.",
+   "consequence_for_centrality": "The two centrality values for Coder B's U04 themes remain MISSING until Coder B supplies them. They are NOT imputed as central or secondary, and NOT treated as peripheral by default.",
+   "how_it_appears_in_the_workbook": "relevance reads '(not provided)' on pooled rows P034 and P040"
+  },
+  "coder_a_out_of_scope_unit": {
+   "unit": "U08",
+   "coder": "Coder_A",
+   "themes": 3,
+   "status": "OUT_OF_SCOPE",
+   "reason": "coded by one coder only; a single coder's unit carries no agreement information and is excluded from clustering and from any future agreement computation"
+  },
+  "not_reviewed": {
+   "units": [
+    "U09",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15"
+   ],
+   "status": "NOT_REVIEWED",
+   "explicitly_not": "not thematic absences, not zeros, not denominators. Nothing is filled in for them."
+  }
+ },
+ "centrality_missing": {
+  "pooled_ids": [
+   "P034",
+   "P040"
+  ],
+  "unit": "U04",
+  "state": "MISSING",
+  "imputed": false,
+  "resolution": "await Coder B"
+ },
+ "deferred_until_human_clustering_complete": {
+  "agreement": "NOT COMPUTED — free-text labels cannot be compared before clustering",
+  "saturation": "NOT ASSESSED — requires the cumulative cluster curve",
+  "codebook_comparison": "NOT PERFORMED — must follow emergent clustering, not precede it"
+ },
+ "workbooks_modified": false
+}

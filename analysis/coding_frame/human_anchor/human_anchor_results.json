@@ -1,0 +1,375 @@
+{
+  "decision_rule": "validity = agreement/recall/precision vs human on SYNTHETIC transcripts (synth_fg1 primary); combined with Gate-1 reliability (3.5 won)",
+  "transcripts": {
+    "real_fg1": {
+      "human_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3",
+        "D"
+      ],
+      "human_quote_verified": {
+        "A.1": true,
+        "A.2": true,
+        "A.3": true,
+        "B.1": true,
+        "B.2": true,
+        "B.3": true,
+        "B.4": true,
+        "C.1": true,
+        "C.3": true,
+        "D": true
+      },
+      "models": {
+        "gemini-2.5-flash": {
+          "agreement": 0.9091,
+          "recall_vs_human": 0.9,
+          "precision_vs_human": 1.0,
+          "model_present": [
+            "A.1",
+            "A.2",
+            "A.3",
+            "B.1",
+            "B.2",
+            "B.3",
+            "B.4",
+            "C.1",
+            "C.3"
+          ],
+          "human_present": [
+            "A.1",
+            "A.2",
+            "A.3",
+            "B.1",
+            "B.2",
+            "B.3",
+            "B.4",
+            "C.1",
+            "C.3",
+            "D"
+          ],
+          "shared": [
+            "A.1",
+            "A.2",
+            "A.3",
+            "B.1",
+            "B.2",
+            "B.3",
+            "B.4",
+            "C.1",
+            "C.3"
+          ],
+          "model_only": [],
+          "human_only": [
+            "D"
+          ]
+        },
+        "gemini-3.5-flash": {
+          "agreement": 0.9091,
+          "recall_vs_human": 0.9,
+          "precision_vs_human": 1.0,
+          "model_present": [
+            "A.1",
+            "A.2",
+            "A.3",
+            "B.1",
+            "B.2",
+            "B.3",
+            "B.4",
+            "C.1",
+            "C.3"
+          ],
+          "human_present": [
+            "A.1",
+            "A.2",
+            "A.3",
+            "B.1",
+            "B.2",
+            "B.3",
+            "B.4",
+            "C.1",
+            "C.3",
+            "D"
+          ],
+          "shared": [
+            "A.1",
+            "A.2",
+            "A.3",
+            "B.1",
+            "B.2",
+            "B.3",
+            "B.4",
+            "C.1",
+            "C.3"
+          ],
+          "model_only": [],
+          "human_only": [
+            "D"
+          ]
+        }
+      }
+    },
+    "synth_fg1": {
+      "human_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.2",
+        "B.4",
+        "D"
+      ],
+      "human_quote_verified": {
+        "A.1": true,
+        "A.2": true,
+        "A.3": true,
+        "B.2": true,
+        "B.4": true,
+        "D": true
+      },
+      "models": {
+        "gemini-2.5-flash": {
+          "agreement": 0.6364,
+          "recall_vs_human": 1.0,
+          "precision_vs_human": 0.6,
+          "model_present": [
+            "A.1",
+            "A.2",
+            "A.3",
+            "B.1",
+            "B.2",
+            "B.3",
+            "B.4",
+            "C.2",
+            "C.3",
+            "D"
+          ],
+          "human_present": [
+            "A.1",
+            "A.2",
+            "A.3",
+            "B.2",
+            "B.4",
+            "D"
+          ],
+          "shared": [
+            "A.1",
+            "A.2",
+            "A.3",
+            "B.2",
+            "B.4",
+            "D"
+          ],
+          "model_only": [
+            "B.1",
+            "B.3",
+            "C.2",
+            "C.3"
+          ],
+          "human_only": []
+        },
+        "gemini-3.5-flash": {
+          "agreement": 0.8182,
+          "recall_vs_human": 0.6667,
+          "precision_vs_human": 1.0,
+          "model_present": [
+            "A.1",
+            "A.3",
+            "B.2",
+            "B.4"
+          ],
+          "human_present": [
+            "A.1",
+            "A.2",
+            "A.3",
+            "B.2",
+            "B.4",
+            "D"
+          ],
+          "shared": [
+            "A.1",
+            "A.3",
+            "B.2",
+            "B.4"
+          ],
+          "model_only": [],
+          "human_only": [
+            "A.2",
+            "D"
+          ]
+        }
+      }
+    },
+    "synth_fg5": {
+      "human_present": [
+        "A.1",
+        "B.2",
+        "C.1"
+      ],
+      "human_quote_verified": {
+        "A.1": true,
+        "B.2": true,
+        "C.1": true
+      },
+      "models": {
+        "gemini-2.5-flash": {
+          "agreement": 0.5455,
+          "recall_vs_human": 1.0,
+          "precision_vs_human": 0.375,
+          "model_present": [
+            "A.1",
+            "A.3",
+            "B.1",
+            "B.2",
+            "B.3",
+            "B.4",
+            "C.1",
+            "C.2"
+          ],
+          "human_present": [
+            "A.1",
+            "B.2",
+            "C.1"
+          ],
+          "shared": [
+            "A.1",
+            "B.2",
+            "C.1"
+          ],
+          "model_only": [
+            "A.3",
+            "B.1",
+            "B.3",
+            "B.4",
+            "C.2"
+          ],
+          "human_only": []
+        },
+        "gemini-3.5-flash": {
+          "agreement": 0.8182,
+          "recall_vs_human": 0.6667,
+          "precision_vs_human": 0.6667,
+          "model_present": [
+            "A.1",
+            "B.2",
+            "B.4"
+          ],
+          "human_present": [
+            "A.1",
+            "B.2",
+            "C.1"
+          ],
+          "shared": [
+            "A.1",
+            "B.2"
+          ],
+          "model_only": [
+            "B.4"
+          ],
+          "human_only": [
+            "C.1"
+          ]
+        }
+      }
+    }
+  },
+  "synth_fg1_disputed_codes": {
+    "n_disputed": 6,
+    "sided_with_gemini25": 2,
+    "sided_with_gemininext": 4,
+    "sided_with_neither": 0
+  },
+  "calibration_real_fg1": {
+    "gemini-2.5-flash": {
+      "agreement": 0.9091,
+      "recall_vs_human": 0.9,
+      "precision_vs_human": 1.0,
+      "model_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3"
+      ],
+      "human_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3",
+        "D"
+      ],
+      "shared": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3"
+      ],
+      "model_only": [],
+      "human_only": [
+        "D"
+      ]
+    },
+    "gemini-3.5-flash": {
+      "agreement": 0.9091,
+      "recall_vs_human": 0.9,
+      "precision_vs_human": 1.0,
+      "model_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3"
+      ],
+      "human_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3",
+        "D"
+      ],
+      "shared": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3"
+      ],
+      "model_only": [],
+      "human_only": [
+        "D"
+      ]
+    }
+  }
+}

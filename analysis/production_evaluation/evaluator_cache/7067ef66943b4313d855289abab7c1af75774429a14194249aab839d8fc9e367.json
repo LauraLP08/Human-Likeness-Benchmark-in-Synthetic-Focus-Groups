@@ -1,0 +1,333 @@
+{
+ "cache_key": "7067ef66943b4313d855289abab7c1af75774429a14194249aab839d8fc9e367",
+ "computed_utc": "2026-07-30T23:21:07.868101+00:00",
+ "input": {
+  "side": "human",
+  "fg": "fg1",
+  "condition": null,
+  "path": "data\\datasets_transcripts\\standardized\\macho_meals\\fg1\\transcript.json",
+  "sha256": "0770659d52d7b2d021ccea74aec553dd1e9078f040c3452f0df2e2e04aebf62a",
+  "physical_run": null,
+  "canonical_replication_index": null
+ },
+ "effective_request_config": {
+  "execution_mode": "synchronous",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "0cf562ed2d5a2c97ebda55da96d45cc4dd7852f4c0a3117c1a8e40107fca4510",
+ "call_telemetry": {
+  "run_label": "human_fg1",
+  "model": "gemini-3.5-flash",
+  "parse_attempt": 1,
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 5543,
+  "candidates_tokens": 1800,
+  "total_tokens": 14637,
+  "thoughts_tokens": 7294,
+  "cached_tokens": null,
+  "raw_text_chars": 6311
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 5543,
+  "candidates_tokens": 1800,
+  "total_tokens": 14637,
+  "thoughts_tokens": 7294,
+  "cached_tokens": null,
+  "raw_text_chars": 6311,
+  "parse_attempt": 1,
+  "headroom_tokens": 14584
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T030",
+      "speaker": "Participant 5",
+      "quote": "I do think gender does, because as a male, I guess there are certain things I am meant to take, which ladies might take"
+     },
+     {
+      "turn_id": "T032",
+      "speaker": "Participant 2",
+      "quote": "I think if you're with your (.), if you're with, um, your male friends, then if you're out, you do feel like you do need to eat more."
+     }
+    ],
+    "evidence_note": "Participants 5 and 2 both explicitly acknowledge that their gender influences what they eat.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2",
+     "Participant 5"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T024",
+      "speaker": "Participant 3",
+      "quote": "the male just has a free mind about eating things and, uh, they don't really (.), there's not really an influence to the agenda"
+     },
+     {
+      "turn_id": "T027",
+      "speaker": "Participant 1",
+      "quote": "I don't think I've ever made a decision on where to eat on like, any influences, like gender-wise. Um, so I would say no"
+     }
+    ],
+    "evidence_note": "Participants 3 and 1 both explicitly state that they do not believe gender has an influence on what they eat.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 3"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T031",
+      "speaker": "Participant 4",
+      "quote": "I don't think gender influences what I eat. Maybe how much I eat with my like guy friends compared to my girls"
+     }
+    ],
+    "evidence_note": "Participant 4 denies gender influence but immediately goes on to discuss portion size differences between male and female friends without recognizing the gendered nature of his comment.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 4"
+    ],
+    "reach": 0.2
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T049",
+      "speaker": "Participant 4",
+      "quote": "just chicken is, it's made of chicken. Whereas, if I bought a plant based one, it has some random stuff"
+     }
+    ],
+    "evidence_note": "Participant 4 highlights the simple, natural makeup of meat by contrasting single-ingredient chicken with complex, unfamiliar additives in plant-based alternatives.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 4"
+    ],
+    "reach": 0.2
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T045",
+      "speaker": "Participant 1",
+      "quote": "Certainly like, in Scotland, it's like a proper culture, like eating meat as well, though."
+     },
+     {
+      "turn_id": "T046",
+      "speaker": "Participant 2",
+      "quote": "Yeah, I know, like pies, like mince pies and steak pies and all that."
+     }
+    ],
+    "evidence_note": "Participants 1 and 2 describe eating meat as a default cultural norm and social expectation in Scotland.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T037",
+      "speaker": "Participant 4",
+      "quote": "because, um, I'm quite fond of the gym, so I have, like, protein in every meal. So, like, chicken, tuna, beef."
+     },
+     {
+      "turn_id": "T038",
+      "speaker": "Participant 3",
+      "quote": "Because, one, I'm an athlete, I, uh, I go gymming every time, I go training almost every time like that."
+     },
+     {
+      "turn_id": "T039",
+      "speaker": "Participant 5",
+      "quote": "Because basically, I have friends who are gym rats, who love to go to the gym together, who love to do strength training"
+     }
+    ],
+    "evidence_note": "Participants 4, 3, and 5 discuss how consuming animal products is necessary due to their intense fitness, gym, and athletic training routines.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 3",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 0.6
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T042",
+      "speaker": "Participant 2",
+      "quote": "but I think if you smelt like bacon cooking it would be oh my god I've got to have that"
+     }
+    ],
+    "evidence_note": "Participant 2 describes the highly enjoyable smell and appealing taste of meat, specifically bacon and sausages.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2"
+    ],
+    "reach": 0.2
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T049",
+      "speaker": "Participant 4",
+      "quote": "so when you look at the label at the back and you see all the, the additives and, like, the preservatives"
+     },
+     {
+      "turn_id": "T054",
+      "speaker": "Participant 2",
+      "quote": "about the like the actual ingredients. As well, I think that needs to be what's actually going into this."
+     }
+    ],
+    "evidence_note": "Participants 4 and 2 discuss the unnatural nature of plant-based products by referencing unfamiliar, synthetic ingredients, preservatives, and additives.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2",
+     "Participant 4"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T043",
+      "speaker": "Participant 1",
+      "quote": "It's just a bit bland, innit, sometimes? It just doesn't taste right."
+     },
+     {
+      "turn_id": "T054",
+      "speaker": "Participant 2",
+      "quote": "Just trying to make it not so rubbery. I think that's the problem. And make it taste a bit better"
+     }
+    ],
+    "evidence_note": "Participants 1 and 2 express dislike for the bland taste and rubbery texture of plant-based meat alternatives.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "D",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 16,
+  "verified_quotes": 16,
+  "total_present_codes": 9,
+  "verified_codes": 9,
+  "demoted_codes": 0
+ },
+ "cache_key_migrations": [
+  {
+   "migrated_utc": "2026-07-30T23:55:23.051213+00:00",
+   "from": "32ab309ff4705ea8948fac6db17386eb9c727a2200b9d10e6ef1436ec9e77212",
+   "to": "7067ef66943b4313d855289abab7c1af75774429a14194249aab839d8fc9e367",
+   "reason": "execution_mode added to the keyed configuration",
+   "value": "synchronous",
+   "recomputed": false,
+   "proof": "No batch job has ever been submitted by this project (no batch job artifact exists, and the batch capability was only checked at 2026-07-30T23:5x). Every cached entry was therefore produced by a synchronous call. Each artifact also records no batch job reference."
+  }
+ ]
+}

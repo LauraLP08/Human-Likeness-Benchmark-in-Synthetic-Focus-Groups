@@ -1,0 +1,282 @@
+{
+ "retrieved_utc": "2026-07-31T00:07:36.746643+00:00",
+ "job_name": "batches/el0qvaxk3uqnhjiettuewoeb89cw5jgs0d5e",
+ "job_state": "JobState.JOB_STATE_SUCCEEDED",
+ "execution_mode": "batch",
+ "max_output_tokens": 16384,
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "reuses_synchronous_results": false,
+ "n_responses": 3,
+ "results": [
+  {
+   "custom_request_key": "human_fg1",
+   "position": 0,
+   "input_id": "human_fg1",
+   "side": "human",
+   "condition": "human",
+   "fg": "fg1",
+   "canonical_replication_index": null,
+   "physical_run": null,
+   "transcript_sha256": "0770659d52d7b2d021ccea74aec553dd1e9078f040c3452f0df2e2e04aebf62a",
+   "blind_text_sha256": "0cf562ed2d5a2c97ebda55da96d45cc4dd7852f4c0a3117c1a8e40107fca4510",
+   "expected_cache_key": "f824e72f6ce854b9785667669d858662893b36af286d2763ef64ba819839a341",
+   "call_telemetry": {
+    "max_output_tokens_requested": 16384,
+    "finish_reasons": [
+     "FinishReason.STOP"
+    ],
+    "n_candidates": 1,
+    "prompt_tokens": 5543,
+    "candidates_tokens": 1641,
+    "total_tokens": 12027,
+    "thoughts_tokens": 4843,
+    "cached_tokens": null,
+    "raw_text_chars": 5629,
+    "parse_attempt": 1
+   },
+   "completeness": {
+    "status": "COMPLETE",
+    "problems": [],
+    "n_codes_returned": 11,
+    "n_codes_expected": 11,
+    "subtheme_ids_returned": [
+     "A.1",
+     "A.2",
+     "A.3",
+     "B.1",
+     "B.2",
+     "B.3",
+     "B.4",
+     "C.1",
+     "C.2",
+     "C.3",
+     "D"
+    ],
+    "expected_order_preserved": true,
+    "finish_reasons": [
+     "FinishReason.STOP"
+    ],
+    "max_output_tokens_requested": 16384,
+    "prompt_tokens": 5543,
+    "candidates_tokens": 1641,
+    "total_tokens": 12027,
+    "thoughts_tokens": 4843,
+    "cached_tokens": null,
+    "raw_text_chars": 5629,
+    "parse_attempt": 1,
+    "headroom_tokens": 14743
+   },
+   "status": "COMPLETE",
+   "cached_as": "f824e72f6ce854b9785667669d858662893b36af286d2763ef64ba819839a341",
+   "quote_validity": {
+    "total_quotes": 15,
+    "verified_quotes": 15,
+    "total_present_codes": 8,
+    "verified_codes": 8,
+    "demoted_codes": 0
+   }
+  },
+  {
+   "custom_request_key": "enriched_fg1_r2",
+   "position": 1,
+   "input_id": "enriched_fg1_r2",
+   "side": "synthetic",
+   "condition": "enriched",
+   "fg": "fg1",
+   "canonical_replication_index": 2,
+   "physical_run": "macho_meals_fg1_run02",
+   "transcript_sha256": "a9558195b7692927fc500d58be26feb7d4f8915cf7e19b2f9d6dd7b8f3943702",
+   "blind_text_sha256": "7c82a84c28ce0c8c1523a0d761bf2bf63b68b9e71e6fe05e24417b3b74afe2ff",
+   "expected_cache_key": "5482cd47c0f915e28fadd91c27d8c0e015d240e74f76a8701bbf4e1014c7b93e",
+   "call_telemetry": {
+    "max_output_tokens_requested": 16384,
+    "finish_reasons": [
+     "FinishReason.STOP"
+    ],
+    "n_candidates": 1,
+    "prompt_tokens": 12066,
+    "candidates_tokens": 1082,
+    "total_tokens": 19945,
+    "thoughts_tokens": 6797,
+    "cached_tokens": null,
+    "raw_text_chars": 3573,
+    "parse_attempt": 1
+   },
+   "completeness": {
+    "status": "COMPLETE",
+    "problems": [],
+    "n_codes_returned": 11,
+    "n_codes_expected": 11,
+    "subtheme_ids_returned": [
+     "A.1",
+     "A.2",
+     "A.3",
+     "B.1",
+     "B.2",
+     "B.3",
+     "B.4",
+     "C.1",
+     "C.2",
+     "C.3",
+     "D"
+    ],
+    "expected_order_preserved": true,
+    "finish_reasons": [
+     "FinishReason.STOP"
+    ],
+    "max_output_tokens_requested": 16384,
+    "prompt_tokens": 12066,
+    "candidates_tokens": 1082,
+    "total_tokens": 19945,
+    "thoughts_tokens": 6797,
+    "cached_tokens": null,
+    "raw_text_chars": 3573,
+    "parse_attempt": 1,
+    "headroom_tokens": 15302
+   },
+   "status": "COMPLETE",
+   "cached_as": "5482cd47c0f915e28fadd91c27d8c0e015d240e74f76a8701bbf4e1014c7b93e",
+   "quote_validity": {
+    "total_quotes": 9,
+    "verified_quotes": 9,
+    "total_present_codes": 3,
+    "verified_codes": 3,
+    "demoted_codes": 0
+   }
+  },
+  {
+   "custom_request_key": "demographics_only_fg1_r2",
+   "position": 2,
+   "input_id": "demographics_only_fg1_r2",
+   "side": "synthetic",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "canonical_replication_index": 2,
+   "physical_run": "macho_meals_fg1_demoonly_run02",
+   "transcript_sha256": "f5d5dde7a2d15973e5643ff80ded0876ec5c53f5cdeadee4cb69365662b8378d",
+   "blind_text_sha256": "58ad9e7faebe47265ce1eb13712294e93fe1d25f7c2dd047fc121719b4024f5b",
+   "expected_cache_key": "80f75f85a195839cb83ae0a740b7bf5e1c982e6017995fedecf7447b8218ea70",
+   "call_telemetry": {
+    "max_output_tokens_requested": 16384,
+    "finish_reasons": [
+     "FinishReason.STOP"
+    ],
+    "n_candidates": 1,
+    "prompt_tokens": 12875,
+    "candidates_tokens": 1086,
+    "total_tokens": 18709,
+    "thoughts_tokens": 4748,
+    "cached_tokens": null,
+    "raw_text_chars": 3582,
+    "parse_attempt": 1
+   },
+   "completeness": {
+    "status": "COMPLETE",
+    "problems": [],
+    "n_codes_returned": 11,
+    "n_codes_expected": 11,
+    "subtheme_ids_returned": [
+     "A.1",
+     "A.2",
+     "A.3",
+     "B.1",
+     "B.2",
+     "B.3",
+     "B.4",
+     "C.1",
+     "C.2",
+     "C.3",
+     "D"
+    ],
+    "expected_order_preserved": true,
+    "finish_reasons": [
+     "FinishReason.STOP"
+    ],
+    "max_output_tokens_requested": 16384,
+    "prompt_tokens": 12875,
+    "candidates_tokens": 1086,
+    "total_tokens": 18709,
+    "thoughts_tokens": 4748,
+    "cached_tokens": null,
+    "raw_text_chars": 3582,
+    "parse_attempt": 1,
+    "headroom_tokens": 15298
+   },
+   "status": "COMPLETE",
+   "cached_as": "80f75f85a195839cb83ae0a740b7bf5e1c982e6017995fedecf7447b8218ea70",
+   "quote_validity": {
+    "total_quotes": 9,
+    "verified_quotes": 9,
+    "total_present_codes": 4,
+    "verified_codes": 4,
+    "demoted_codes": 0
+   }
+  }
+ ],
+ "decision": "GO_TO_BATCH",
+ "decision_reason": "all three inputs completed via Batch API: 11/11 codes each, FinishReason.STOP, schema valid, 33/33 quotes literal in their cited turns, 0 moderator-sourced, 0 demoted, 0 excluded-content problems",
+ "batch_authorisation": "Corpus batch AUTHORISED and submitted as a separate job. The preflight completed 3 of the 35 frozen inputs (1 human + 2 synthetic), so exactly 32 remained (4 human + 28 synthetic) — NOT 27.",
+ "metrics_fg1_preflight_only": {
+  "scope_warning": "ONE focus group, ONE replicate per condition. These are preflight sanity values, NOT a finding about conditions.",
+  "human_verified_present": [
+   "A.1",
+   "A.2",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.3"
+  ],
+  "enriched": {
+   "present": [
+    "A.1",
+    "B.2",
+    "B.4"
+   ],
+   "shared": 3,
+   "recall": 0.375,
+   "precision": 1.0,
+   "f1_secondary": 0.5455,
+   "salience_rho": 0.5,
+   "salience_n_shared": 3
+  },
+  "demographics_only": {
+   "present": [
+    "A.1",
+    "B.2",
+    "B.4",
+    "C.3"
+   ],
+   "shared": 4,
+   "recall": 0.5,
+   "precision": 1.0,
+   "f1_secondary": 0.6667,
+   "salience_rho": 0.8165,
+   "salience_n_shared": 4
+  },
+  "synthetic_only_not_observed_in_human": {
+   "enriched": [],
+   "demographics_only": []
+  }
+ },
+ "count_correction": {
+  "corrected_utc": "2026-07-31T00:15:00Z",
+  "was": "'the remaining 27 evaluations'",
+  "is": "32 remaining: 4 human + 28 synthetic",
+  "arithmetic": "35 frozen (5 human + 30 synthetic) - 3 preflight-complete = 32",
+  "why_it_was_wrong": "27 came from treating the corpus as 30 synthetic runs and subtracting the 3 preflight inputs, which double-counts: the preflight consumed 2 synthetic AND 1 human, and the 5 human inputs are part of the 35.",
+  "now_derived": "scripts/batch_corpus_manifest.py computes it from frozen_evaluator_inputs.json minus COMPLETE batch cache keys; tests/test_batch_corpus_counts.py asserts the derivation and scans the documents for the stale phrase."
+ }
+}

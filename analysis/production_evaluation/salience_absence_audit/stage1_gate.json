@@ -1,0 +1,60 @@
+{
+ "frozen_before_submission": true,
+ "denominator_rule": "all originally-present quote-verified cells returned by the Stage-1 documents; the 22 designated cases guarantee subtheme coverage and are reported separately, never as the denominator",
+ "n_stage1_documents": 14,
+ "n_cells_returned": 154,
+ "n_original_present_quote_verified": 63,
+ "n_original_gemini_absence": 91,
+ "thresholds": {
+  "THRESHOLD_A": 0.8333,
+  "THRESHOLD_A_derivation": "1/1.20. The audit estimates how many of the 260 absences are contestable. If the auditor detects a fraction s of demonstrably locatable evidence, an observed count C of contested cells implies about C/s contestable absences. A declared tolerance that this inflation may not exceed 20% gives 1/1.20 = 0.8333 on the lower bound. The 20% tolerance is a stipulated choice declared in advance; the threshold follows from it arithmetically. No 0.80 convention is used.",
+  "THRESHOLD_B": 0.5,
+  "THRESHOLD_B_derivation": "a property of the instrument, not of any cell. Below one half the auditor fails to detect more known-localisable positive controls than it detects, and an instrument in that state produces non-detections carrying too little information to license a corroboration label of any kind. Detections are unaffected: a gate-passed quotation is verified against the transcript itself.",
+  "THRESHOLD_B_makes_no_per_cell_claim": "no statement is made about whether any individual AUDITOR_DID_NOT_FIND_EVIDENCE is a miss or a true absence; that would require knowing how many absences are genuinely contestable, which is the unknown this audit exists to bound and cannot assume",
+  "MAX_UNRESOLVED_UPPER_A": 0.2,
+  "interval": "Wilson score, z = 1.96",
+  "interval_status": "operational gate summary, not a confirmatory confidence interval: the 63 positive-control cells are clustered within 14 documents and the 11 assessments in one response are dependent, so this binomial interval is anticonservative and the true interval is wider; it is used only to place a count into a decision band against thresholds stipulated in advance"
+ },
+ "exact_gate": {
+  "band_a_requires": {
+   "detected_on_original_present_at_least": 59,
+   "of": 63,
+   "repetition_agreement_at_least": 138,
+   "of_cells": 154,
+   "unresolved_at_most": 21,
+   "outcome": "PROCEED_WITH_ABSENCE_CORROBORATION",
+   "permits": "ABSENCE_CORROBORATED",
+   "NECESSARY_BUT_NOT_SUFFICIENT": "band A alone does not license ABSENCE_CORROBORATED for any cell; the subtheme eligibility rule must also be satisfied"
+  },
+  "band_b_requires": {
+   "detected_on_original_present_at_least": 40,
+   "of": 63,
+   "repetition_agreement_at_least": 90,
+   "of_cells": 154,
+   "and_band_a_not_met": true,
+   "outcome": "PROCEED_DETECTION_ONLY",
+   "permits_only": "AUDITOR_DID_NOT_FIND_EVIDENCE",
+   "forbids": [
+    "ABSENCE_CORROBORATED"
+   ]
+  },
+  "band_c_otherwise": {
+   "outcome": "STOP_AUDITOR_UNUSABLE",
+   "consequence": "Stage 2 is not submitted; the calibration failure is the reported result and no absence figure is revised"
+  }
+ },
+ "subtheme_eligibility_rule": {
+  "applies_to": "ABSENCE_CORROBORATED",
+  "requires_both": [
+   "the global gate reaches PROCEED_WITH_ABSENCE_CORROBORATION",
+   "the auditor detected the designated ORIGINAL_GEMINI_PRESENT_QUOTE_VERIFIED control for that same subtheme, under the reconciled two-repetition rule"
+  ],
+  "otherwise": "every non-detection for that subtheme remains AUDITOR_DID_NOT_FIND_EVIDENCE, even under a global PROCEED_WITH_ABSENCE_CORROBORATION",
+  "contested_cells_unaffected": "a valid contested absence with gate-passed evidence remains contestable regardless of this rule, because it is verified against the transcript rather than against the auditor",
+  "why": "a global pass shows the auditor works across the codebook, not that it can recognise any particular subtheme; without this rule an auditor blind to one definition would corroborate every absence for that definition",
+  "n_designated_controls": 11,
+  "one_control_per_subtheme": true
+ },
+ "max_achievable_lower_bound_on_designated_present_only": 0.7412,
+ "why_designated_set_is_not_the_denominator": "a flawless 11/11 on the designated present cases yields a Wilson lower bound of 0.7412, below THRESHOLD_A (0.8333); the designated cases guarantee balanced subtheme coverage and are reported separately"
+}

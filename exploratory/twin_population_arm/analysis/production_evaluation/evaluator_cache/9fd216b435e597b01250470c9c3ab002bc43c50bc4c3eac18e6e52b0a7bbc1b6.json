@@ -1,0 +1,245 @@
+{
+ "cache_key": "9fd216b435e597b01250470c9c3ab002bc43c50bc4c3eac18e6e52b0a7bbc1b6",
+ "computed_utc": "2026-08-06T14:00:43.989452+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/8y9ygaa2u591cxfgvtkn8rwxo1cbu429igw1",
+ "custom_request_key": "twinpop_fg4_r3",
+ "input": {
+  "side": "synthetic",
+  "fg": "fg4",
+  "condition": "twinpop",
+  "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg4_twinpop_run03\\comparable_transcript.json",
+  "sha256": "2a08f6a9ec642a71d79e66e9159b547d4cda4fdf10982195c280c4126d55f326",
+  "physical_run": "macho_meals_fg4_twinpop_run03",
+  "canonical_replication_index": 3
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "0d1c96062038b788013567307bcfee82a1695fcd20b1180864c9ebe68719d509",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 8374,
+  "candidates_tokens": 912,
+  "total_tokens": 13746,
+  "thoughts_tokens": 4460,
+  "cached_tokens": null,
+  "raw_text_chars": 3011,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 8374,
+  "candidates_tokens": 912,
+  "total_tokens": 13746,
+  "thoughts_tokens": 4460,
+  "cached_tokens": null,
+  "raw_text_chars": 3011,
+  "parse_attempt": 1,
+  "headroom_tokens": 15472
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T016",
+      "speaker": "Participant 3",
+      "quote": "Yeah, I think it does, a bit. Though maybe not in the way people think."
+     },
+     {
+      "turn_id": "T017",
+      "speaker": "Participant 2",
+      "quote": "There's definitely that thing where you're not supposed to care too much about it, or think about it. You just eat."
+     },
+     {
+      "turn_id": "T021",
+      "speaker": "Participant 1",
+      "quote": "even just doing the cooking feels a bit like... I don't know, like it's not what blokes are supposed to fuss about."
+     }
+    ],
+    "evidence_note": "Participants 1, 2, and 3 all explicitly acknowledge that being a man influences expectations and behaviors around food.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": true,
+    "confidence": "medium",
+    "supporting_quotes": [
+     {
+      "turn_id": "T033",
+      "speaker": "Participant 2",
+      "quote": "if it actually filled you up after a long day — that matters."
+     }
+    ],
+    "evidence_note": "Participant 2 expresses concern that plant-based options might be insufficient to fulfill hunger and satiety needs after physical work.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2"
+    ],
+    "reach": 0.3333333333333333
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T033",
+      "speaker": "Participant 2",
+      "quote": "if plant-based stuff didn't taste like rabbit food"
+     }
+    ],
+    "evidence_note": "Participant 2 uses the term 'rabbit food' to describe the unappealing taste or texture of plant-based products.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2"
+    ],
+    "reach": 0.3333333333333333
+   },
+   {
+    "subtheme_id": "D",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 5,
+  "verified_quotes": 5,
+  "total_present_codes": 3,
+  "verified_codes": 3,
+  "demoted_codes": 0
+ }
+}

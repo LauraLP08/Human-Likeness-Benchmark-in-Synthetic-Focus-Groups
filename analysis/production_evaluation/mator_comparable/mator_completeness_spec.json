@@ -1,0 +1,52 @@
+{
+  "namespace": "_comparable_window",
+  "evidence_class": "AUTOMATIC_PROXY_EXPLORATORY",
+  "api_calls": 0,
+  "definition": "substantive guide sections (1-5) carrying >=1 participant turn / 5",
+  "segmentation": "scripts/tier2b_segmentation.py",
+  "n_units": 35,
+  "units_below_5_of_5": [
+    "fg5"
+  ],
+  "runs_with_displaced_section_labels": [
+    {
+      "run": "macho_meals_fg1_demoonly_run01",
+      "participant_turns_labelled_section_0": 8
+    },
+    {
+      "run": "macho_meals_fg4_demoonly_run01",
+      "participant_turns_labelled_section_0": 5
+    }
+  ],
+  "excluded_from_universe": [
+    {
+      "run": "macho_meals_fg3_twinpop_run01",
+      "reason": "present on disk but not in frozen_evaluator_inputs.json"
+    },
+    {
+      "run": "macho_meals_fg3_twinpop_run02",
+      "reason": "present on disk but not in frozen_evaluator_inputs.json"
+    },
+    {
+      "run": "macho_meals_fg3_twinpop_run03",
+      "reason": "present on disk but not in frozen_evaluator_inputs.json"
+    },
+    {
+      "run": "macho_meals_fg3_twinpop_run04",
+      "reason": "present on disk but not in frozen_evaluator_inputs.json"
+    },
+    {
+      "run": "macho_meals_fg4_twinpop_run01",
+      "reason": "present on disk but not in frozen_evaluator_inputs.json"
+    },
+    {
+      "run": "macho_meals_fg4_twinpop_run02",
+      "reason": "present on disk but not in frozen_evaluator_inputs.json"
+    },
+    {
+      "run": "macho_meals_fg4_twinpop_run03",
+      "reason": "present on disk but not in frozen_evaluator_inputs.json"
+    }
+  ],
+  "automatic_token_cross_check": "BUILT AND REMOVED - see module docstring; it flagged all 35 units and discriminated nothing. mator_completeness_openers.csv is the checkable artefact in its place."
+}

@@ -1,0 +1,31 @@
+{
+  "namespace": "_comparable_window",
+  "evidence_class": "AUTOMATIC_PROXY_EXPLORATORY",
+  "api_calls": 0,
+  "model": "paraphrase-multilingual-mpnet-base-v2",
+  "max_seq_length": 128,
+  "universe": "strict participant-follows-participant response acts",
+  "universe_source": "analysis\\production_evaluation\\consensus_dynamics\\response_acts.csv",
+  "universe_sha256": "028cd205bb2cf567b476cca96d2f4d57718868502c635c26de032cdc7e1ac7b1",
+  "n_acts": 779,
+  "w_by_fg": {
+    "fg1": 38,
+    "fg2": 89,
+    "fg3": 47,
+    "fg4": 47,
+    "fg5": 22
+  },
+  "bridge_rates_vs_the_existing_bridged_layer": {
+    "human": {
+      "bridged_pairs": 322,
+      "strict_pairs": 319,
+      "pct_of_bridged_that_bridge_a_moderator_turn": 0.9
+    },
+    "synthetic": {
+      "bridged_pairs": 773,
+      "strict_pairs": 460,
+      "pct_of_bridged_that_bridge_a_moderator_turn": 40.5
+    }
+  },
+  "n_units": 35
+}

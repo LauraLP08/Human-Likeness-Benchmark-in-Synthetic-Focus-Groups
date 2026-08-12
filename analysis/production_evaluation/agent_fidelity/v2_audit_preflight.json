@@ -1,0 +1,166 @@
+{
+ "built_utc": "2026-08-03T21:58:47.279041+00:00",
+ "id": "AGENT_FIDELITY_AUDIT_V2_PREFLIGHT",
+ "supersedes": "agent_fidelity_audit_packages.json packaging",
+ "model": "claude-opus-5",
+ "effort": "high",
+ "n_repetitions": 2,
+ "evidence_rule": {
+  "full_participant_turn_verbatim": true,
+  "guide_question_included": true,
+  "sentence_aligned_when_reduced": true,
+  "context_window_supplied_separately": true,
+  "never_cuts_a_word": true,
+  "max_quote_words": 220,
+  "hashes": [
+   "source_turn_sha256",
+   "presented_text_sha256"
+  ],
+  "supersedes": "v1 character slice text[start-40:start+220]"
+ },
+ "hyper_exactness": {
+  "n_detector_candidates": 67,
+  "n_random_nondetected_controls": 60,
+  "n_real_items": 127,
+  "n_fixtures": 10,
+  "n_items_total": 137,
+  "by_stratum": {
+   "DETECTOR_PROPOSED_CANDIDATE": {
+    "human": 11,
+    "enriched": 31,
+    "demographics-only": 25
+   },
+   "RANDOM_NONDETECTED_CONTROL_TURNS": {
+    "human": 20,
+    "enriched": 20,
+    "demographics-only": 20
+   }
+  },
+  "n_full_turns_presented": 79,
+  "n_reduced_sentence_aligned": 58,
+  "cost": {
+   "n_items": 137,
+   "n_repetitions": 2,
+   "n_adjudications": 274,
+   "n_provider_requests": 24,
+   "items_per_request": 12,
+   "estimated_input_tokens": 143190,
+   "estimated_output_tokens": 274000,
+   "claude_batch_usd": 3.783,
+   "claude_rate_verified_utc": "2026-08-02",
+   "gemini_cost_status": "NOT_CALCULATED_RATE_NOT_VERIFIED",
+   "announced_request_count_is_len_provider_manifest": true
+  },
+  "repetition_rules": {
+   "agreement_between_repetitions": "CORROBORATED",
+   "disagreement": "UNRESOLVED",
+   "one_repetition_UNCERTAIN": "NOT converted to absence",
+   "non_literal_quote_or_wrong_speaker_or_invalid_turn_id": "GATE_FAILURE",
+   "no_third_call": true,
+   "no_confidence_or_majority_resolution": true
+  },
+  "fixtures_excluded_from_rates": true
+ },
+ "profile_consistency": {
+  "status": "PREPARED_NOT_AUTHORISED",
+  "screener": {
+   "retired_rule": "jaccard < 0.12",
+   "why_retired": "low vocabulary overlap mostly selects pairs about DIFFERENT topics, which is the opposite of a contradiction",
+   "requires": [
+    "evidence of a common topic or referent",
+    "a possible contrast of position"
+   ],
+   "topic_similarity": "word-level TF-IDF cosine within a document",
+   "high_similarity_cutoff": 0.1877,
+   "min_shared_content_terms": 3,
+   "polarity_signals": [
+    "negation",
+    "high frequency",
+    "change marker"
+   ],
+   "embeddings_or_nli": "may propose, never decide",
+   "strata": [
+    "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST",
+    "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST",
+    "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL"
+   ],
+   "no_stratum_is_a_negative": true
+  },
+  "n_screened_pairs": 2611,
+  "balanced_design": {
+   "proposed_per_condition": 20,
+   "controls_per_condition": 20,
+   "total_per_condition": 40
+  },
+  "counts_by_role_and_condition": {
+   "PROPOSED": {
+    "human": 20,
+    "enriched": 20,
+    "demographics-only": 20
+   },
+   "CONTROL": {
+    "human": 20,
+    "enriched": 20,
+    "demographics-only": 20
+   }
+  },
+  "counts_by_stratum_and_condition": {
+   "HIGH_TOPIC_SIMILARITY_WITH_POLARITY_CONTRAST": {
+    "human": 10,
+    "enriched": 10,
+    "demographics-only": 10
+   },
+   "HIGH_TOPIC_SIMILARITY_WITHOUT_POLARITY_CONTRAST": {
+    "human": 10,
+    "enriched": 10,
+    "demographics-only": 10
+   },
+   "LOW_TOPIC_SIMILARITY_RANDOM_CONTROL": {
+    "human": 20,
+    "enriched": 20,
+    "demographics-only": 20
+   }
+  },
+  "topic_tercile_bounds": [
+   0.1216,
+   0.1814
+  ],
+  "shortfalls": [],
+  "balanced": true,
+  "n_real_pairs": 120,
+  "n_fixtures": 8,
+  "n_items_total": 128,
+  "cost": {
+   "n_items": 128,
+   "n_repetitions": 2,
+   "n_adjudications": 256,
+   "n_provider_requests": 26,
+   "items_per_request": 10,
+   "estimated_input_tokens": 245558,
+   "estimated_output_tokens": 307200,
+   "claude_batch_usd": 4.4539,
+   "claude_rate_verified_utc": "2026-08-02",
+   "gemini_cost_status": "NOT_CALCULATED_RATE_NOT_VERIFIED",
+   "announced_request_count_is_len_provider_manifest": true
+  },
+  "fixtures_excluded_from_rates": true
+ },
+ "v1_denominator_correction": {
+  "v1_pilot_proposed_by_condition": {
+   "human": 15,
+   "enriched": 15,
+   "demographics-only": 30
+  },
+  "v1_pilot_controls_by_condition": {
+   "human": 10,
+   "enriched": 17,
+   "demographics-only": 33
+  },
+  "v1_pilot_total_by_condition": {
+   "human": 25,
+   "enriched": 32,
+   "demographics-only": 63
+  },
+  "what_v1_said_wrongly": "the v1 report attributed the imbalance to the controls alone; the proposed pairs were also unbalanced at 15/15/30"
+ }
+}

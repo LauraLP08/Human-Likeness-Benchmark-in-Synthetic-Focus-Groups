@@ -1,0 +1,20 @@
+{
+ "record_type": "POST_RUN_MEASURED_USAGE",
+ "supersedes_for_forecasting": "cross_model_cost_basis.json",
+ "job_id": "msgbatch_01DubjDH8Jgyj5qMhi36kQh8",
+ "estimated_cost_pre_run_usd": 1.22,
+ "actual_input_tokens": 338638,
+ "actual_output_tokens": 75551,
+ "batch_input_rate_per_mtok_usd": 2.5,
+ "batch_output_rate_per_mtok_usd": 12.5,
+ "formula": "(actual_input_tokens / 1e6 * batch_input_rate) + (actual_output_tokens / 1e6 * batch_output_rate)",
+ "worked": "(338638/1e6 x 2.5) + (75551/1e6 x 12.5) = 0.8466 + 0.9444",
+ "calculated_list_batch_cost_usd": 1.79,
+ "estimate_error_usd": 0.57,
+ "estimate_error_pct_of_actual": 31.8,
+ "why_the_estimate_was_low": "the pre-run figure used a ~4-characters-per-token heuristic over the rendered prompts; measured input was ~53% higher than that heuristic predicted",
+ "rate_source": "https://platform.claude.com/docs/en/about-claude/pricing",
+ "rate_verified_utc": "2026-08-02",
+ "IMPORTANT": "This is a cost CALCULATED at the published list Batch rate from measured token counts. It is not necessarily the amount charged to the organisation: negotiated, academic and volume rates are not exposed by any API endpoint. The authoritative figure is whatever the Console bills.",
+ "only_one_current_figure": "cross_model_cost_basis.json is retained as the pre-run estimate and is explicitly NOT a current cost figure."
+}

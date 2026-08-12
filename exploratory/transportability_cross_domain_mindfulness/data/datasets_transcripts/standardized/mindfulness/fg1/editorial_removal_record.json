@@ -1,0 +1,38 @@
+{
+  "record_type": "EDITORIAL_PREAMBLE_REMOVAL",
+  "status": "EDITORIAL_PREAMBLE_REMOVED — RESEARCHER_CONFIRMED_NOT_PART_OF_SPEECH",
+  "researcher_confirmation": "The researcher confirmed that the transcript preserves the original speech. One isolated editorial preamble was removed from the analytical copy and did not form part of the focus-group dialogue.",
+  "retracts": "The earlier SOURCE_INTEGRITY_FLAGS.ai_editing_artefact_detected framing, which treated this line as evidence that the dialogue had been rewritten by a language model. That claim is withdrawn.",
+  "removed_text_verbatim": "Here's the transcript with the spelling mistakes corrected:",
+  "original_location": {
+    "source_file": "Mindfulness_Focus Group Transcript.docx",
+    "non_empty_paragraph_index": 34,
+    "note": "index into the non-empty paragraph sequence of the source .docx"
+  },
+  "source_file_untouched": true,
+  "source_file_sha256": "1fb240a521deccad404089dcd0745de396ffe9ce26173027649bd6bb055fd7ca",
+  "hashes": {
+    "concatenated_paragraph_text_sha256_before": "cd02952aa760dc0c3a83ad681102654114ddd9f6e471639d070671748d6f7017",
+    "concatenated_paragraph_text_sha256_after": "c6de3a7d4c9d6ba9ff4f1a083dde6519bc613100c9f428a2c4a44d5e1c95ac79"
+  },
+  "counts": {
+    "paragraphs_before": 70,
+    "paragraphs_after": 69,
+    "paragraphs_removed": 1,
+    "paragraphs_otherwise_modified": 0,
+    "characters_removed": 59
+  },
+  "scope_of_removal": {
+    "applied_to": [
+      "transcript.json",
+      "clean_transcript.txt",
+      "transcript.txt"
+    ],
+    "deliberately_not_applied_to": [
+      "raw_extracted_transcript.txt"
+    ],
+    "why": "raw_extracted_transcript.txt is the provenance anchor and is kept byte-faithful to the source, so the delta introduced here stays auditable. Analytical measures must be computed on transcript.json / clean_transcript.txt, never on the raw provenance file."
+  },
+  "verification": "PASS",
+  "verification_problems": []
+}

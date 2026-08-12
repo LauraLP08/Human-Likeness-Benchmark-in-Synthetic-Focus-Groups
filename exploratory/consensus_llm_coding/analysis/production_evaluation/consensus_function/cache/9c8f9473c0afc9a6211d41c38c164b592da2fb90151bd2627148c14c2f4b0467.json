@@ -1,0 +1,203 @@
+{
+  "cache_key": "9c8f9473c0afc9a6211d41c38c164b592da2fb90151bd2627148c14c2f4b0467",
+  "run": "macho_meals_fg1_run03",
+  "condition": "enriched",
+  "chunk_index": 0,
+  "target_turn_ids": [
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T007",
+    "T009",
+    "T010",
+    "T011",
+    "T012",
+    "T014",
+    "T015"
+  ],
+  "shown_turn_ids": [
+    "T000",
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T006",
+    "T007",
+    "T008",
+    "T009",
+    "T010",
+    "T011",
+    "T012",
+    "T013",
+    "T014",
+    "T015"
+  ],
+  "blinded_transcript_sha256": "004c67f4b3b80299ccdef837ea3436c46841faabaf1bca63170d2d25f0022d42",
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "probe_tag": null,
+  "attempt": 1,
+  "finish_reasons": [
+    "FinishReason.STOP"
+  ],
+  "truncated": false,
+  "parse_error": null,
+  "prompt_tokens": 4346,
+  "candidates_tokens": 915,
+  "thoughts_tokens": 6466,
+  "codings": [
+    {
+      "turn_id": "T001",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "For me it's probably the pub",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T002",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, that makes sense. Pubs are good for that",
+          "target_turn_id": "T001"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T003",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, that's a good point actually",
+          "target_turn_id": "T002"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T004",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Exactly, yeah. No last orders stress",
+          "target_turn_id": "T003"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T005",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Speaker B's right that there's less structure to it",
+          "target_turn_id": "T004"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T007",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "similar to what Speaker A said",
+          "target_turn_id": "T001"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T009",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "Yeah, for me it's pretty practical",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T010",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "I'd say that's pretty much where I'm at too",
+          "target_turn_id": "T009"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "But I don't think that means it's not deep",
+          "target_turn_id": "T009"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T011",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, fair point actually. I didn't mean it wasn't deep",
+          "target_turn_id": "T010"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T012",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, exactly \u2014 that's kind of what I was getting at.",
+          "target_turn_id": "T011"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T014",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Speaker E's right that the defensiveness thing is a bit embarrassing",
+          "target_turn_id": "T012"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T015",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "I think you might be underselling it a bit actually",
+          "target_turn_id": "T014"
+        }
+      ],
+      "no_code_reason": null
+    }
+  ],
+  "called_utc": "2026-08-06T17:34:10.192777+00:00"
+}

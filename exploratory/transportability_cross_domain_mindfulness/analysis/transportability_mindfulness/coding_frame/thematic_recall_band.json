@@ -1,0 +1,35 @@
+{
+  "record_type": "SUPERSEDED",
+  "superseded_on": "2026-08-04",
+  "superseded_by": "thematic_package_corrected.json -> AI_AUDITED_ASSIGNMENT_SENSITIVITY_ENVELOPE",
+  "why": "This file named the quantity a 'recall band', which invited reading it as a range within which a true recall lies. It is not that. It is an assignment-sensitivity envelope: its upper end is what follows from granting every contested assignment without human adjudication. The file also used a 23-code framing in places where the denominator is 21.",
+  "do_not_cite": true,
+  "retained_for_provenance_only": {
+    "record_type": "THEMATIC_RECALL_BAND_AFTER_QC",
+    "classification": "EXPLORATORY_OUT_OF_DOMAIN_THEMATIC_FIDELITY_CHECK",
+    "why_a_band_not_a_point": "The blind audit disagreed with the primary evaluator on 7 of 22 audited negatives, finding literal gate-passing participant evidence for codes Gemini marked absent. Disagreements are NOT converted by majority and NOT flipped; they are held as UNRESOLVED. A point estimate would present one evaluator's reading as settled when it is not.",
+    "human_reference_denominator": 21,
+    "shared_lower_bound": [
+      "T03_importance_of_consistency"
+    ],
+    "disputed_evaluator_disagreement": [
+      "T01_mind_wandering_awareness",
+      "T02_formal_practice",
+      "T02_informal_practice",
+      "T04_flexibility",
+      "T04_gradual_progression",
+      "T05_difficulties",
+      "T06_frequency"
+    ],
+    "unresolved_single_repetition": [
+      "T10_control_group_design"
+    ],
+    "human_reference_recall_band": [
+      0.0476,
+      0.4286
+    ],
+    "strict_precision": "NOT_ESTIMABLE — the synthetic present-set is itself disputed",
+    "f1": "NOT_COMPUTED — requires two settled denominators",
+    "verdict": "THEMATIC_COMPARISON_NOT_RELIABLE_FOR_POINT_ESTIMATION"
+  }
+}

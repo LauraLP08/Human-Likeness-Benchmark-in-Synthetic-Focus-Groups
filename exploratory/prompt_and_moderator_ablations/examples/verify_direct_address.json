@@ -1,0 +1,73 @@
+{
+  "session_id": "verify_direct_address",
+  "research_objective": "Explore UK men's attitudes toward meat consumption and plant-based diets.",
+  "topic_domain": "Meat consumption and plant-based masculinity",
+  "participant_collective_identity": "Male meat eaters in a UK focus group study on men and meat",
+  "moderator_knowledge_brief": "Focus group on men's attitudes toward meat, masculinity, and plant-based alternatives.",
+  "temperature": 1.0,
+  "participation_mode": "emergent",
+  "inject_participant_intro": false,
+  "participants": [
+    {
+      "agent_payload_path": "agents/macho_meals/mm_fg1_david.json"
+    },
+    {
+      "agent_payload_path": "agents/macho_meals/mm_fg1_isaiah.json"
+    },
+    {
+      "agent_payload_path": "agents/macho_meals/mm_fg2_sam.json"
+    },
+    {
+      "agent_payload_path": "agents/macho_meals/mm_fg1_will.json"
+    }
+  ],
+  "discussion_guide": [
+    {
+      "section_index": 0,
+      "section_label": "Introduction",
+      "section_phase": "intro",
+      "section_purpose": "Warm-up: participants introduce themselves and settle into the group.",
+      "scripted_question": "Welcome everyone. We are here to have a conversation about food, meat, and how food choices relate to being a man. Before we begin, could you each briefly introduce yourselves — just your name, where you're from, and what you had for dinner last night?"
+    },
+    {
+      "section_index": 1,
+      "section_label": "Everyday food choices",
+      "section_phase": "context",
+      "section_purpose": "Establish baseline: how participants actually make food decisions day to day.",
+      "scripted_question": "Thinking about a typical week, how do you decide what to eat? What drives your food choices day to day?",
+      "suggested_probes": [
+        "Is it mostly habit, convenience, or something more deliberate?",
+        "Who does the cooking and shopping in your household?"
+      ]
+    },
+    {
+      "section_index": 2,
+      "section_label": "Meat and masculinity",
+      "section_phase": "main_topic",
+      "section_purpose": "Explore the perceived connection between meat-eating and masculine identity.",
+      "scripted_question": "Some people say that eating meat is connected to being masculine. What do you think about that idea?",
+      "suggested_probes": [
+        "Have you ever felt social pressure about what you eat as a man?",
+        "Would you feel differently ordering a salad vs a steak in front of mates?"
+      ]
+    },
+    {
+      "section_index": 3,
+      "section_label": "Plant-based alternatives",
+      "section_phase": "main_topic",
+      "section_purpose": "Gauge attitudes toward and experience with plant-based meat substitutes.",
+      "scripted_question": "Have any of you tried plant-based meat alternatives? What was that experience like?",
+      "suggested_probes": [
+        "What would make plant-based options more appealing to you?",
+        "Do you think plant-based foods are marketed in a way that appeals to men?"
+      ]
+    },
+    {
+      "section_index": 4,
+      "section_label": "Closing",
+      "section_phase": "closing",
+      "section_purpose": "Wrap up: capture anything participants want to add that was not covered.",
+      "scripted_question": "Before we wrap up, is there anything else about food, meat, or masculinity that we haven't touched on that you'd like to add?"
+    }
+  ]
+}

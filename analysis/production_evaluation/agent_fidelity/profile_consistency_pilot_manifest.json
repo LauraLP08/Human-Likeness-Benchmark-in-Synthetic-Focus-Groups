@@ -1,0 +1,1545 @@
+{
+ "id": "PROFILE_CONSISTENCY_PILOT_MANIFEST",
+ "status": "PREPARED_NOT_SUBMITTED",
+ "n_items": 120,
+ "n_repetitions": 2,
+ "n_adjudications": 240,
+ "gate": {
+  "id": "PROFILE_CONSISTENCY_PILOT_GATE_V1",
+  "fixed_before_any_result_is_seen": true,
+  "no_conventional_threshold_adopted": "0.80 is not used as a default. Each bound below is set by the precision the interpretation needs, not by convention.",
+  "criteria": {
+   "planted_contradiction_recall": {
+    "requirement": "the direct-contradiction validation case returns UNEXPLAINED_CONTRADICTION in BOTH repetitions",
+    "why": "an auditor that misses a contradiction built to be unmissable cannot support any claim about contradictions"
+   },
+   "contradiction_vs_context_separation": {
+    "requirement": "the CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY case is never returned as UNEXPLAINED_CONTRADICTION in either repetition",
+    "why": "the indicator rests entirely on this distinction; confusing the two would inflate contradiction in exactly the direction under study"
+   },
+   "malformed_response_rejection": {
+    "requirement": "all five REJECT validation cases are rejected",
+    "why": "a verdict resting on a misattributed or paraphrased quote is not evidence"
+   },
+   "exact_agreement_between_repetitions": {
+    "detection_only_floor": 0.6,
+    "full_audit_floor": 0.75,
+    "why": "below 0.60 the repetitions disagree on more than a third of items and no rate computed from them would be interpretable; 0.75 is where a five-category judgement becomes stable enough to carry a reported distribution rather than a flag"
+   },
+   "uncertain_rate": {
+    "ceiling": 0.3,
+    "why": "above 0.30 the audit is mostly declining to decide and the remaining categories describe a self-selected subset"
+   },
+   "verbatim_evidence_validity": {
+    "floor": 0.95,
+    "why": "quote verification is mechanical, so anything short of near-perfect means the auditor is reconstructing rather than citing"
+   },
+   "control_behaviour": {
+    "requirement": "the 60 non-proposed controls are adjudicated with the same field completeness as the proposed pairs",
+    "why": "if controls are treated differently, the false-negative estimate they exist to provide is not usable"
+   }
+  },
+  "outcomes": [
+   "AUDITOR_USABLE_FOR_EXPLORATORY_FULL_AUDIT",
+   "AUDITOR_USABLE_FOR_DETECTION_ONLY",
+   "AUDITOR_USABLE_FOR_CORROBORATION_ONLY",
+   "AUDITOR_UNSTABLE_STOP"
+  ],
+  "if_gate_fails": "the remaining 682 pairs are NOT executed and the instability is itself the pilot result",
+  "disagreement_resolution_forbidden": [
+   "model confidence",
+   "modal vote",
+   "a third call",
+   "similarity scores",
+   "unrecorded manual choice"
+  ],
+  "disagreement_resolution_rule": "items where the two repetitions disagree stay UNRESOLVED and are reported as such; they are never collapsed to a single label"
+ },
+ "auditor_validation_cases": [
+  {
+   "case": "DIRECT_CONTRADICTION",
+   "must_return": "UNEXPLAINED_CONTRADICTION",
+   "a": "i never eat meat, i gave it up years ago and i do not miss it at all",
+   "b": "i have a steak most weekends, it is the best part of my week"
+  },
+  {
+   "case": "EXPLAINED_CHANGE",
+   "must_return": "POSITION_CHANGED_WITH_EXPLANATION",
+   "a": "i would never cook plant based food at home, it is not for me",
+   "b": "i said earlier it was not for me, but hearing you all i have changed my mind and i would try cooking it"
+  },
+  {
+   "case": "DIFFERENT_CONTEXTS_NOT_CONTRADICTORY",
+   "must_return": "CONTEXTUALLY_DIFFERENT_NOT_CONTRADICTORY",
+   "a": "when i am out with my mates i will always order the burger",
+   "b": "at home during the week i mostly cook vegetables and pasta"
+  },
+  {
+   "case": "EVIDENCE_FROM_ANOTHER_SPEAKER",
+   "must_return": "REJECT",
+   "reject_reason": "the quoted evidence is attributed to a different participant"
+  },
+  {
+   "case": "NON_LITERAL_QUOTE",
+   "must_return": "REJECT",
+   "reject_reason": "the returned quote is not contiguous verbatim text of the item"
+  },
+  {
+   "case": "UNKNOWN_TURN_ID",
+   "must_return": "REJECT",
+   "reject_reason": "the returned turn id is not one of the two supplied"
+  },
+  {
+   "case": "NO_JUSTIFICATION",
+   "must_return": "REJECT",
+   "reject_reason": "a category was returned with an empty justification"
+  },
+  {
+   "case": "UNCERTAIN_WITHOUT_EXPLANATION",
+   "must_return": "REJECT",
+   "reject_reason": "UNCERTAIN was returned without stating what would resolve it"
+  }
+ ],
+ "requests": [
+  {
+   "custom_id": "PC-R1-001C8EC8D2588D4E",
+   "item_id": "PC-001C8EC8D2588D4E",
+   "repetition_index": 1,
+   "cache_key": "eb39597fc84a3e3e028ec181b38f3e8599d4b9359291b11417413c3d7fc49930"
+  },
+  {
+   "custom_id": "PC-R1-0055949BC2589CF9",
+   "item_id": "PC-0055949BC2589CF9",
+   "repetition_index": 1,
+   "cache_key": "dfd70da82eb6935d58f880bf5b14b4ac1e5e38869862bda5de1f8f0f6cb75791"
+  },
+  {
+   "custom_id": "PC-R1-02C4FD8E3EEACF29",
+   "item_id": "PC-02C4FD8E3EEACF29",
+   "repetition_index": 1,
+   "cache_key": "dfbcddf75a56a243d00b751e8fae547e4fa8ad96eed343edf61f7d7b3e7ce428"
+  },
+  {
+   "custom_id": "PC-R1-02CCBA04BD8C7C4C",
+   "item_id": "PC-02CCBA04BD8C7C4C",
+   "repetition_index": 1,
+   "cache_key": "fa732df06dd391cd67ed11506e875da66e4921a03893661b9dd907d5ad1f0716"
+  },
+  {
+   "custom_id": "PC-R1-02D331D2A9A824B4",
+   "item_id": "PC-02D331D2A9A824B4",
+   "repetition_index": 1,
+   "cache_key": "301f5b6c2e28ee9c3c8b99a505f45b4efddc214efba23b9ef70c585cb0c0ed7b"
+  },
+  {
+   "custom_id": "PC-R1-03CCF02C5A74AAD7",
+   "item_id": "PC-03CCF02C5A74AAD7",
+   "repetition_index": 1,
+   "cache_key": "f238b36147a9887416d48ada55c7b50b361b24bfaea13e49dce7884f359fe603"
+  },
+  {
+   "custom_id": "PC-R1-03FAF96E622C9E99",
+   "item_id": "PC-03FAF96E622C9E99",
+   "repetition_index": 1,
+   "cache_key": "a4b7a62972b5ee5aadeeb70f567afdc95ae6356426a617b5002b1f91a109f3d4"
+  },
+  {
+   "custom_id": "PC-R1-042046E4F3C6E2BA",
+   "item_id": "PC-042046E4F3C6E2BA",
+   "repetition_index": 1,
+   "cache_key": "be32f38e4f299ddaefb48a4bff672710a6690d937a3db8ec6f4f8e607c7584d5"
+  },
+  {
+   "custom_id": "PC-R1-0478FF0BB13A25B7",
+   "item_id": "PC-0478FF0BB13A25B7",
+   "repetition_index": 1,
+   "cache_key": "5ec87b34309dd95afd41abc1d44f3509226273e0de136d195d5aaa5330baaf77"
+  },
+  {
+   "custom_id": "PC-R1-0493215AA6C4BC57",
+   "item_id": "PC-0493215AA6C4BC57",
+   "repetition_index": 1,
+   "cache_key": "1ba103283835b900597af7e27abc5cb78c74b21c791331249eec4e5659b8dd1c"
+  },
+  {
+   "custom_id": "PC-R1-04B2A019A87C4B53",
+   "item_id": "PC-04B2A019A87C4B53",
+   "repetition_index": 1,
+   "cache_key": "06e90d7e842236c5c8209b9f0e83b9e9e22c4846de35ea826d09e6a07cbb6eeb"
+  },
+  {
+   "custom_id": "PC-R1-05292643F8CB797F",
+   "item_id": "PC-05292643F8CB797F",
+   "repetition_index": 1,
+   "cache_key": "3c41dfb4b74eeb3e71e6add4554df9c468fb2b70579eebcd2403faab7b9a1085"
+  },
+  {
+   "custom_id": "PC-R1-054FF93638198D19",
+   "item_id": "PC-054FF93638198D19",
+   "repetition_index": 1,
+   "cache_key": "632115950752c9d1ef537a128911709b8b5e9da57a4ac69a66d7e189a65060d9"
+  },
+  {
+   "custom_id": "PC-R1-05C516244BCB90E2",
+   "item_id": "PC-05C516244BCB90E2",
+   "repetition_index": 1,
+   "cache_key": "516f874615dd833273de7fc976708ab91ff3d27de4513771a93fd6c7b496a931"
+  },
+  {
+   "custom_id": "PC-R1-05DCB05D4E2199A5",
+   "item_id": "PC-05DCB05D4E2199A5",
+   "repetition_index": 1,
+   "cache_key": "ba47d4e5f4318cfda238b17180d4aae27bdaf93f0164ad6d60f1da3814582d4f"
+  },
+  {
+   "custom_id": "PC-R1-05E49A76FA7EDA06",
+   "item_id": "PC-05E49A76FA7EDA06",
+   "repetition_index": 1,
+   "cache_key": "2ce7d41bc51f7ab2b66919d79c54157e49aa134038ec19af15471eb43dc9487e"
+  },
+  {
+   "custom_id": "PC-R1-05EFF15F7AD222EA",
+   "item_id": "PC-05EFF15F7AD222EA",
+   "repetition_index": 1,
+   "cache_key": "a86d4adc02a74401265c214f04090de1453b817dce94c106fc324d2ac476fb69"
+  },
+  {
+   "custom_id": "PC-R1-0611EE221ADB8407",
+   "item_id": "PC-0611EE221ADB8407",
+   "repetition_index": 1,
+   "cache_key": "09d1b30118e6121420358f1b7d67df94159274c82655679798940ccd27572778"
+  },
+  {
+   "custom_id": "PC-R1-062CAC854EA596B2",
+   "item_id": "PC-062CAC854EA596B2",
+   "repetition_index": 1,
+   "cache_key": "67ab95b519bc5250f66377491d3a642bd4a96ec9f2675b994f0ca4c7285e15c4"
+  },
+  {
+   "custom_id": "PC-R1-0729966F7753C0FA",
+   "item_id": "PC-0729966F7753C0FA",
+   "repetition_index": 1,
+   "cache_key": "3e2addac6a5c32b6314a35e6fe5884e7b9f789b19ef359223660409ca948e78d"
+  },
+  {
+   "custom_id": "PC-R1-0802A8FD681194D9",
+   "item_id": "PC-0802A8FD681194D9",
+   "repetition_index": 1,
+   "cache_key": "be826cd5588ea65cff75dec7391e69618d8c4fd6fa0b85a2d2b08b15bf5b928c"
+  },
+  {
+   "custom_id": "PC-R1-08154815DDB0B5AC",
+   "item_id": "PC-08154815DDB0B5AC",
+   "repetition_index": 1,
+   "cache_key": "f1247ca1616dc2a0086ce12ed0095141cb3dbf1efffe814a3d8180bab720af11"
+  },
+  {
+   "custom_id": "PC-R1-082022350FBFBD4A",
+   "item_id": "PC-082022350FBFBD4A",
+   "repetition_index": 1,
+   "cache_key": "fea223e2f02a51186749748eebdbfd4be076b316fb8bb8b211088d6a46d9cd49"
+  },
+  {
+   "custom_id": "PC-R1-083F0FB3B20BC927",
+   "item_id": "PC-083F0FB3B20BC927",
+   "repetition_index": 1,
+   "cache_key": "c6aeb0fc7333bd22fe57aeb4352c60c28d5d78f4533111ed96b7073fe9da2d06"
+  },
+  {
+   "custom_id": "PC-R1-088B708943D98936",
+   "item_id": "PC-088B708943D98936",
+   "repetition_index": 1,
+   "cache_key": "49970ee0d78acbd3d66f127f1c68dfaddef22163cb9ffeb8d774fdc795463f2d"
+  },
+  {
+   "custom_id": "PC-R1-08FB373E094E67F3",
+   "item_id": "PC-08FB373E094E67F3",
+   "repetition_index": 1,
+   "cache_key": "d5c3a1db15aa13614d6adbb9f6eddda063c7dc515ddddc883064b8404d7a9b40"
+  },
+  {
+   "custom_id": "PC-R1-091A2FB3DF2332F3",
+   "item_id": "PC-091A2FB3DF2332F3",
+   "repetition_index": 1,
+   "cache_key": "fc5212162cc0406910f6f5779ce5ff527b45cba8b476b8f1c0d0b598e97e3a9f"
+  },
+  {
+   "custom_id": "PC-R1-0947B3BB182F939E",
+   "item_id": "PC-0947B3BB182F939E",
+   "repetition_index": 1,
+   "cache_key": "b1282dc64aa3d53c007ecdfb2a5a33fc855e97e268f1834db48eff232ac825e6"
+  },
+  {
+   "custom_id": "PC-R1-09C931DEBCE85FEE",
+   "item_id": "PC-09C931DEBCE85FEE",
+   "repetition_index": 1,
+   "cache_key": "18bbc281a5ab060f560bb01996f4d73af73e1b7fce400270c3a6b64e9e5f424e"
+  },
+  {
+   "custom_id": "PC-R1-09CD24660C937893",
+   "item_id": "PC-09CD24660C937893",
+   "repetition_index": 1,
+   "cache_key": "497ba3534d4262eb5db54ffaf71e48f5d5acf308269fcb0d48fe7de1fd23dda8"
+  },
+  {
+   "custom_id": "PC-R1-0B08D13CCE2CAAA5",
+   "item_id": "PC-0B08D13CCE2CAAA5",
+   "repetition_index": 1,
+   "cache_key": "040d91d847443568cea9878b9057ff75d27986f8f13f875ad0cefab3052a426c"
+  },
+  {
+   "custom_id": "PC-R1-0B45E6C1459CEC50",
+   "item_id": "PC-0B45E6C1459CEC50",
+   "repetition_index": 1,
+   "cache_key": "e458b16462e43d8a10a2c124d3846aa82047242a57389037c2aa76f74e7fdb6a"
+  },
+  {
+   "custom_id": "PC-R1-0B6F720C0E26ABA8",
+   "item_id": "PC-0B6F720C0E26ABA8",
+   "repetition_index": 1,
+   "cache_key": "2b44e405be4736aef5f62457d00ebac9ac7461fa592968e3da7dbf88bb0cb5aa"
+  },
+  {
+   "custom_id": "PC-R1-0BEA322F8D680605",
+   "item_id": "PC-0BEA322F8D680605",
+   "repetition_index": 1,
+   "cache_key": "5a1f97ea12a2a42f692ad464055403e1066850cd8e2db28cdd4add98df6c78c6"
+  },
+  {
+   "custom_id": "PC-R1-0C4A75721DB62318",
+   "item_id": "PC-0C4A75721DB62318",
+   "repetition_index": 1,
+   "cache_key": "2fbebf3d9ff35a534ab4f2750ca149180a70294baf0fc38c0f031f85ca92e46c"
+  },
+  {
+   "custom_id": "PC-R1-0CF15484C0D5A009",
+   "item_id": "PC-0CF15484C0D5A009",
+   "repetition_index": 1,
+   "cache_key": "6e06119dfc7911617a4aeda5f7f658db243d60a7b4057bc60647583b21d3e63d"
+  },
+  {
+   "custom_id": "PC-R1-0DE084A4B469DFA1",
+   "item_id": "PC-0DE084A4B469DFA1",
+   "repetition_index": 1,
+   "cache_key": "0cb14318947d97ed2e312285455aeb1819e8f3f93e7a3ddb9244bc3860cc3b88"
+  },
+  {
+   "custom_id": "PC-R1-0E37E3AC58006322",
+   "item_id": "PC-0E37E3AC58006322",
+   "repetition_index": 1,
+   "cache_key": "aa64eb05b5bb844392d0a64fdac5c21f173c99e7f8c6f483a300c6844678cd6d"
+  },
+  {
+   "custom_id": "PC-R1-0EDEF6A902ACF0AE",
+   "item_id": "PC-0EDEF6A902ACF0AE",
+   "repetition_index": 1,
+   "cache_key": "15443eda139843feb8c4133c1cf46e4e56d5326bcc245c9e31046f9baca8085c"
+  },
+  {
+   "custom_id": "PC-R1-0FE6DD0761D1620B",
+   "item_id": "PC-0FE6DD0761D1620B",
+   "repetition_index": 1,
+   "cache_key": "44fadeb309f947cebdbddb8ce30d26490d5c06d17b0dc8b10a4dbb30cb8d1f79"
+  },
+  {
+   "custom_id": "PC-R1-10170B59A028AD42",
+   "item_id": "PC-10170B59A028AD42",
+   "repetition_index": 1,
+   "cache_key": "34a803ecd71a069015b1ded142237d6a7e4c58675fe8368e010cc4817c888297"
+  },
+  {
+   "custom_id": "PC-R1-11C995256F027F42",
+   "item_id": "PC-11C995256F027F42",
+   "repetition_index": 1,
+   "cache_key": "2c495c96738ea9569b2c4b5925cfa08e3ffc906edb7bae58c0f483f52e35eb71"
+  },
+  {
+   "custom_id": "PC-R1-123E6EB8737767E7",
+   "item_id": "PC-123E6EB8737767E7",
+   "repetition_index": 1,
+   "cache_key": "c0099acf185b81de10986dec8e4334e67816c1427d2a510fb89dc6e0cb53d235"
+  },
+  {
+   "custom_id": "PC-R1-12C9D77454F08ED9",
+   "item_id": "PC-12C9D77454F08ED9",
+   "repetition_index": 1,
+   "cache_key": "cab51d6548ef8621d0a9c8b490b10fd93685c7f1a9d28c77fe2ed717c6a3dd41"
+  },
+  {
+   "custom_id": "PC-R1-131C5F8A6951178A",
+   "item_id": "PC-131C5F8A6951178A",
+   "repetition_index": 1,
+   "cache_key": "69c43048c56dac85691df752a613a0a2d291cddff77cd169e3b0c72c52da5cbc"
+  },
+  {
+   "custom_id": "PC-R1-13A03B0BC4D22BAC",
+   "item_id": "PC-13A03B0BC4D22BAC",
+   "repetition_index": 1,
+   "cache_key": "aa1fa95c4d54cf6ec7183aee915efad295d3249a860aa198b40c15cfbeb65d94"
+  },
+  {
+   "custom_id": "PC-R1-13A61759477650E8",
+   "item_id": "PC-13A61759477650E8",
+   "repetition_index": 1,
+   "cache_key": "6790ab5dd73009e6803d5fc5fb165af8b3fed6d8cf4b83681badc725c1b4d9d8"
+  },
+  {
+   "custom_id": "PC-R1-14579951273F3446",
+   "item_id": "PC-14579951273F3446",
+   "repetition_index": 1,
+   "cache_key": "6ffff6b4924c63799c901e137282063ca350bd8e754deceacdc5452364a20638"
+  },
+  {
+   "custom_id": "PC-R1-14F7B6F6EC2CD3D5",
+   "item_id": "PC-14F7B6F6EC2CD3D5",
+   "repetition_index": 1,
+   "cache_key": "b470522eeabd35dedfb182e34dbe8f0679c007f0a4e26037d23fd0941d6dfe22"
+  },
+  {
+   "custom_id": "PC-R1-17C42D22F6C67270",
+   "item_id": "PC-17C42D22F6C67270",
+   "repetition_index": 1,
+   "cache_key": "b0bc1838379470a1b3bb3d5a025a1fb0f6603956ed0e8e2a93c6d6a4f860119e"
+  },
+  {
+   "custom_id": "PC-R1-195DB41756A4BB19",
+   "item_id": "PC-195DB41756A4BB19",
+   "repetition_index": 1,
+   "cache_key": "8a06904e17db27316ee63633f257deee36d3b84d9fd217b43ec7ad4433b79ff1"
+  },
+  {
+   "custom_id": "PC-R1-1B1CB4DF360E313F",
+   "item_id": "PC-1B1CB4DF360E313F",
+   "repetition_index": 1,
+   "cache_key": "d88a00dfe8437e46ad1c4be37c56b581f66412e8024dc425cf7d55bf2a832cf4"
+  },
+  {
+   "custom_id": "PC-R1-1F1702566380B03B",
+   "item_id": "PC-1F1702566380B03B",
+   "repetition_index": 1,
+   "cache_key": "0cc01acec6246f6d9688392bf79961d8a246da1d34516e2cfc200c56409bee34"
+  },
+  {
+   "custom_id": "PC-R1-2071F2DEB35B95E8",
+   "item_id": "PC-2071F2DEB35B95E8",
+   "repetition_index": 1,
+   "cache_key": "9cd0edc0a8ca15c55952745622ddd99db016ca8ec4c68598e44ef3090a553fef"
+  },
+  {
+   "custom_id": "PC-R1-21AD69D7659D0958",
+   "item_id": "PC-21AD69D7659D0958",
+   "repetition_index": 1,
+   "cache_key": "807ee6d1f783c59041c8a35cafc4d7dc0b415edeffb7b23603844664524a87f5"
+  },
+  {
+   "custom_id": "PC-R1-236D69C70D9971A7",
+   "item_id": "PC-236D69C70D9971A7",
+   "repetition_index": 1,
+   "cache_key": "280c175d06f6de22b741d8bce93ac7c855f408a5276c8a631fc157a36f07860f"
+  },
+  {
+   "custom_id": "PC-R1-23D4AFF38F41C9EE",
+   "item_id": "PC-23D4AFF38F41C9EE",
+   "repetition_index": 1,
+   "cache_key": "ed5f8a1608f448b2eea7b5c0869dff70e57d28021044d5206cfc295278ffb97b"
+  },
+  {
+   "custom_id": "PC-R1-26EBE7720D423D23",
+   "item_id": "PC-26EBE7720D423D23",
+   "repetition_index": 1,
+   "cache_key": "fd010f1481e315c07f6d57a9b1ddda3415610faf787aee3dcb15388bd0c2c788"
+  },
+  {
+   "custom_id": "PC-R1-290C8FDEE2C4C986",
+   "item_id": "PC-290C8FDEE2C4C986",
+   "repetition_index": 1,
+   "cache_key": "a5934464bb045be13d333f93382a577b7c8af0eece30d330d91b8eea3e7b27bf"
+  },
+  {
+   "custom_id": "PC-R1-2B5D62EABA3ECBDB",
+   "item_id": "PC-2B5D62EABA3ECBDB",
+   "repetition_index": 1,
+   "cache_key": "60aa42ca201218391d960b3b2a503f55c039b8f49ca34fdf3ed738ef3a4f3042"
+  },
+  {
+   "custom_id": "PC-R1-2D1F1882BB591F47",
+   "item_id": "PC-2D1F1882BB591F47",
+   "repetition_index": 1,
+   "cache_key": "ce4345f82c86340c9af1bf26858a9328db5b34687c720b29a7e72824cbd1ebed"
+  },
+  {
+   "custom_id": "PC-R1-2FEF7641903D51B5",
+   "item_id": "PC-2FEF7641903D51B5",
+   "repetition_index": 1,
+   "cache_key": "04e63ac4d02f7c274fee077fe83dafbf1c083d7924da9ea7f761ef19fb92f302"
+  },
+  {
+   "custom_id": "PC-R1-31409EC1DE682341",
+   "item_id": "PC-31409EC1DE682341",
+   "repetition_index": 1,
+   "cache_key": "ae17d24252c3413a154910aa58eebb177dcf442d241c4e917ec4edc903d591aa"
+  },
+  {
+   "custom_id": "PC-R1-3605CBBD9FFF7196",
+   "item_id": "PC-3605CBBD9FFF7196",
+   "repetition_index": 1,
+   "cache_key": "1eeac568da6ab45960fb912d0a324201e0050cc1865949a32e239be81dce9df8"
+  },
+  {
+   "custom_id": "PC-R1-38E2FFFC194C05CA",
+   "item_id": "PC-38E2FFFC194C05CA",
+   "repetition_index": 1,
+   "cache_key": "f8b84fe7b227174441b79f730e32cb16d9ebd0fd4a7d2dab320039a648415306"
+  },
+  {
+   "custom_id": "PC-R1-39A2B6609B191D07",
+   "item_id": "PC-39A2B6609B191D07",
+   "repetition_index": 1,
+   "cache_key": "7804204423f225c1cb74d1f5eff8745e0341d6583f33753071cfd05822cd7055"
+  },
+  {
+   "custom_id": "PC-R1-3AF3820E4E3828D7",
+   "item_id": "PC-3AF3820E4E3828D7",
+   "repetition_index": 1,
+   "cache_key": "956bdb8ccfe65a287bfd1369ccb88a206f8ec7264c2445ea4260bc465c984644"
+  },
+  {
+   "custom_id": "PC-R1-3B953073DE684E63",
+   "item_id": "PC-3B953073DE684E63",
+   "repetition_index": 1,
+   "cache_key": "13bfe500ae49b464a5b0c4a1be21fde9ed4aa058860e6cdbf395173c3085ad62"
+  },
+  {
+   "custom_id": "PC-R1-3D5B670619C96980",
+   "item_id": "PC-3D5B670619C96980",
+   "repetition_index": 1,
+   "cache_key": "97771034caffbf073aa6dddf77c61542c7f4f6ddca3912a99022fceec8ccf808"
+  },
+  {
+   "custom_id": "PC-R1-3E4555A5D753BCE3",
+   "item_id": "PC-3E4555A5D753BCE3",
+   "repetition_index": 1,
+   "cache_key": "9971546ec879dcc6961e3afbf3274db317da298557e138f2c6c6d2f191cfe089"
+  },
+  {
+   "custom_id": "PC-R1-3E7369ADAE2152D3",
+   "item_id": "PC-3E7369ADAE2152D3",
+   "repetition_index": 1,
+   "cache_key": "04c0a5423baf485f59c91e51054591fcd25f568727bfa52a0cac40a15b66f7a8"
+  },
+  {
+   "custom_id": "PC-R1-3EB26911974DB027",
+   "item_id": "PC-3EB26911974DB027",
+   "repetition_index": 1,
+   "cache_key": "310aeea289fbc705b6606a72347ee143629e0384d90b23f89da5f3b1b632682b"
+  },
+  {
+   "custom_id": "PC-R1-40B6038D21A227E2",
+   "item_id": "PC-40B6038D21A227E2",
+   "repetition_index": 1,
+   "cache_key": "2167d98032c55db73fc23e29e0ecff8e987de8ace7d016f528d81530aadaef52"
+  },
+  {
+   "custom_id": "PC-R1-44B08BDBB45472FA",
+   "item_id": "PC-44B08BDBB45472FA",
+   "repetition_index": 1,
+   "cache_key": "d78406121ea78a65cc2823b39a8a5e5acff6ee863cd42ab69d946b6258c55d18"
+  },
+  {
+   "custom_id": "PC-R1-44C47CF81A45DBC9",
+   "item_id": "PC-44C47CF81A45DBC9",
+   "repetition_index": 1,
+   "cache_key": "d027e8c2467d977ce97b5894ad87bd2ade85f104ffe5fcb31143e45d7471fdff"
+  },
+  {
+   "custom_id": "PC-R1-45765E4621882B92",
+   "item_id": "PC-45765E4621882B92",
+   "repetition_index": 1,
+   "cache_key": "0a7e5d8ab8cffaf04a523f8a261902bc0e20586a3506cbabd7b3eae63dd8c5e4"
+  },
+  {
+   "custom_id": "PC-R1-4D0A732BF2D17A3C",
+   "item_id": "PC-4D0A732BF2D17A3C",
+   "repetition_index": 1,
+   "cache_key": "d8009b817d870988029cd810abec63a2b125ca0466c8b905be36d67e9574a3d2"
+  },
+  {
+   "custom_id": "PC-R1-4F0B93241BFADE15",
+   "item_id": "PC-4F0B93241BFADE15",
+   "repetition_index": 1,
+   "cache_key": "a15c235b62f3745f9e0e9700efd5887b0c0bb390ab105ad87b8eb5f1823d1e21"
+  },
+  {
+   "custom_id": "PC-R1-5445E9785EC4793C",
+   "item_id": "PC-5445E9785EC4793C",
+   "repetition_index": 1,
+   "cache_key": "a237a1e7cd7371bfce9d85a778dc3b2ea117a2dea8c8fdd7b2bbdb492e9e5744"
+  },
+  {
+   "custom_id": "PC-R1-5F898800CB5BE993",
+   "item_id": "PC-5F898800CB5BE993",
+   "repetition_index": 1,
+   "cache_key": "298f93c8f0d2e7ba77d7c3b12bf41e57fd02b4198166b572a24cc85f6bdd314d"
+  },
+  {
+   "custom_id": "PC-R1-627EAD131C118307",
+   "item_id": "PC-627EAD131C118307",
+   "repetition_index": 1,
+   "cache_key": "6e6ac1f6895703516a0fffa14eb89f4ccb8ab6fe7732eeac725fb63cea54be36"
+  },
+  {
+   "custom_id": "PC-R1-65AE92090E24CAF7",
+   "item_id": "PC-65AE92090E24CAF7",
+   "repetition_index": 1,
+   "cache_key": "8927f40f32a2f3107fe78188bc0572eeadc236b6b75e7df2985fb3166347ed20"
+  },
+  {
+   "custom_id": "PC-R1-6F93A063AC67A23A",
+   "item_id": "PC-6F93A063AC67A23A",
+   "repetition_index": 1,
+   "cache_key": "706348c1771b7c89454ae660ac08bc8f023162a16cfbc6b5ab8f257afd4bf665"
+  },
+  {
+   "custom_id": "PC-R1-78595DFE8D7391ED",
+   "item_id": "PC-78595DFE8D7391ED",
+   "repetition_index": 1,
+   "cache_key": "5dc942d69d8e2f5eb3ede0f08cbedf577a8e0e49f736c66081a5629d596bef92"
+  },
+  {
+   "custom_id": "PC-R1-7A985878B42EC8FE",
+   "item_id": "PC-7A985878B42EC8FE",
+   "repetition_index": 1,
+   "cache_key": "482fed07e87a8f67246d8ba7bfa46873ad676bf9d5dc14c94ee17c62c45a9491"
+  },
+  {
+   "custom_id": "PC-R1-8254BB5757C5B32A",
+   "item_id": "PC-8254BB5757C5B32A",
+   "repetition_index": 1,
+   "cache_key": "91aaa34e6244e267345732584bafc28b496b5e18e7070a772dcc279f84b5527d"
+  },
+  {
+   "custom_id": "PC-R1-83DC8946B6F21DEE",
+   "item_id": "PC-83DC8946B6F21DEE",
+   "repetition_index": 1,
+   "cache_key": "6fef360051b22d9c2f2ad55923dd208955be55b62fc398792409b22b1836f6d2"
+  },
+  {
+   "custom_id": "PC-R1-85F1F3D5363A7687",
+   "item_id": "PC-85F1F3D5363A7687",
+   "repetition_index": 1,
+   "cache_key": "9318b8a228b724728d014ce1d742d53ae4ad6e93a8aacf3a74fc5c90cb108845"
+  },
+  {
+   "custom_id": "PC-R1-87356A48B970C3CE",
+   "item_id": "PC-87356A48B970C3CE",
+   "repetition_index": 1,
+   "cache_key": "b462edca21f62d780109cd6f7d3c57bf20ecbcceb4e8a8322ae79128429dfd1c"
+  },
+  {
+   "custom_id": "PC-R1-881D2EC41DCCC07B",
+   "item_id": "PC-881D2EC41DCCC07B",
+   "repetition_index": 1,
+   "cache_key": "8a93a0200a78d78bcb2ee410815a02de5a8f093fa712689fb7daf344b881931d"
+  },
+  {
+   "custom_id": "PC-R1-9B18BC8462066340",
+   "item_id": "PC-9B18BC8462066340",
+   "repetition_index": 1,
+   "cache_key": "995533c9a5ca6aefdf02f92303c4a574847e93a55513c091ad1f8159ea304379"
+  },
+  {
+   "custom_id": "PC-R1-9CB485CCE6FF72C7",
+   "item_id": "PC-9CB485CCE6FF72C7",
+   "repetition_index": 1,
+   "cache_key": "007f235d06c5ceb0e669e5cba6784a2365f4d36ea69feb76668185d57574993b"
+  },
+  {
+   "custom_id": "PC-R1-A261E3BE0219AA68",
+   "item_id": "PC-A261E3BE0219AA68",
+   "repetition_index": 1,
+   "cache_key": "96d0fe1df79e07bc751e76ed226e362a1f651cb9569fa50b41dcae6c0859da7f"
+  },
+  {
+   "custom_id": "PC-R1-A3CB425473A30EEE",
+   "item_id": "PC-A3CB425473A30EEE",
+   "repetition_index": 1,
+   "cache_key": "7c868a971d405ead8153d4de208aaca6301d8aecede78b6f63e5668812a1b9f6"
+  },
+  {
+   "custom_id": "PC-R1-A4CC58A272141BCE",
+   "item_id": "PC-A4CC58A272141BCE",
+   "repetition_index": 1,
+   "cache_key": "4d5eb05f163bc95154baa9f945f9cbc733191efba625efd8e7e2f0f843b8bb8c"
+  },
+  {
+   "custom_id": "PC-R1-A694586DFF86BF27",
+   "item_id": "PC-A694586DFF86BF27",
+   "repetition_index": 1,
+   "cache_key": "971d9a1861bec48e1f88a10feac29020b22c7f06296e0a6c1361302687406664"
+  },
+  {
+   "custom_id": "PC-R1-A7CDF0C9C512C7E0",
+   "item_id": "PC-A7CDF0C9C512C7E0",
+   "repetition_index": 1,
+   "cache_key": "df5e0d38563102f2e22470e70b1562b79f2e183d881357ee681ef41a0a87b554"
+  },
+  {
+   "custom_id": "PC-R1-A870B8260589E471",
+   "item_id": "PC-A870B8260589E471",
+   "repetition_index": 1,
+   "cache_key": "74f7ea484a4852e9457a31c20ec6b935c0a5b4121c1f1e4217b2cabbd63760a3"
+  },
+  {
+   "custom_id": "PC-R1-AEA9771C59F860F0",
+   "item_id": "PC-AEA9771C59F860F0",
+   "repetition_index": 1,
+   "cache_key": "476266e4004c2334a23ce6e4fd06044c4f62d597bcccf5f7be7e6b2f799c9f32"
+  },
+  {
+   "custom_id": "PC-R1-B1611F2AEA1026B7",
+   "item_id": "PC-B1611F2AEA1026B7",
+   "repetition_index": 1,
+   "cache_key": "29a2f2cf9c1e40d00dc89e4492a6a666a6268d77df41cb191eafbd7f8cc99845"
+  },
+  {
+   "custom_id": "PC-R1-BEF9E617A987A3ED",
+   "item_id": "PC-BEF9E617A987A3ED",
+   "repetition_index": 1,
+   "cache_key": "50af7c0b665b8aae06cabe9b6246e32e8ece5a58f812252bac27ddb690fe4dc1"
+  },
+  {
+   "custom_id": "PC-R1-BF8FE0DB81DEA308",
+   "item_id": "PC-BF8FE0DB81DEA308",
+   "repetition_index": 1,
+   "cache_key": "b53aab9831182b188a26c11cddaa8b9c31189efd441ac8822b467f8ffa1cee32"
+  },
+  {
+   "custom_id": "PC-R1-C0FBC65E1003A5EA",
+   "item_id": "PC-C0FBC65E1003A5EA",
+   "repetition_index": 1,
+   "cache_key": "9ecbcb1bd8eb460688c0106defecdacfc7d7d0fdcdb77aca7f3150f7f185953c"
+  },
+  {
+   "custom_id": "PC-R1-C101A91DD8C4F221",
+   "item_id": "PC-C101A91DD8C4F221",
+   "repetition_index": 1,
+   "cache_key": "d3465cf9f6212cd174835b6ad1a1f51e9c91aed70b185e9c2f47186ab5ee24fc"
+  },
+  {
+   "custom_id": "PC-R1-C8D32761FE50ED60",
+   "item_id": "PC-C8D32761FE50ED60",
+   "repetition_index": 1,
+   "cache_key": "b7458903eb11e9107c3a9e9166909310a89ae575aa26061faf0007c2b2307f35"
+  },
+  {
+   "custom_id": "PC-R1-D46116AF56C821DD",
+   "item_id": "PC-D46116AF56C821DD",
+   "repetition_index": 1,
+   "cache_key": "f323e25fe8a82e418977f2686d035bbbaeb3184b7330455f7c9bf3199f04db5a"
+  },
+  {
+   "custom_id": "PC-R1-DB53CB9D5A63913E",
+   "item_id": "PC-DB53CB9D5A63913E",
+   "repetition_index": 1,
+   "cache_key": "e311b353808ec4b70d4d868dd6f7b246ca1995d84ab4fce7b3ff4dfb52903b28"
+  },
+  {
+   "custom_id": "PC-R1-DBA8A8B8BB8C6F7E",
+   "item_id": "PC-DBA8A8B8BB8C6F7E",
+   "repetition_index": 1,
+   "cache_key": "b6331db3b11f2f5396f77caab5b24cbcd89ef1a4f17c5f9fea9931c91249cb50"
+  },
+  {
+   "custom_id": "PC-R1-DC72A47F021C01AE",
+   "item_id": "PC-DC72A47F021C01AE",
+   "repetition_index": 1,
+   "cache_key": "973508a0cc6c7f21eb059ca7689c71766be00d07b02d30255f50822ab4de6550"
+  },
+  {
+   "custom_id": "PC-R1-E3B813D08FBAD341",
+   "item_id": "PC-E3B813D08FBAD341",
+   "repetition_index": 1,
+   "cache_key": "985b6977a9346776698b1c020323b779981a1c8e8eeeaeab8f8c175dddca1c3b"
+  },
+  {
+   "custom_id": "PC-R1-EADD8FDE5A4BFB36",
+   "item_id": "PC-EADD8FDE5A4BFB36",
+   "repetition_index": 1,
+   "cache_key": "9c7e3f7b7fdf8c9544d02ca2d7dd0342bbb772e82b3a6d715f6ecec8f01a929f"
+  },
+  {
+   "custom_id": "PC-R1-EB9D5FE694BE8E7F",
+   "item_id": "PC-EB9D5FE694BE8E7F",
+   "repetition_index": 1,
+   "cache_key": "a5bb460d4e9191515d5bdaede586011d0aa8e2bad276e9771cef7392b6129b21"
+  },
+  {
+   "custom_id": "PC-R1-EE6A758A1A39EE3D",
+   "item_id": "PC-EE6A758A1A39EE3D",
+   "repetition_index": 1,
+   "cache_key": "f04eb6265c820337942db7b2fa6dc36590768fd90aec6660e2177bf68581638e"
+  },
+  {
+   "custom_id": "PC-R1-EEB68EF92D278F0F",
+   "item_id": "PC-EEB68EF92D278F0F",
+   "repetition_index": 1,
+   "cache_key": "e997a7d21446484f33e6692721c27f5b5b011e46473f27cdeb31b1efd41080c2"
+  },
+  {
+   "custom_id": "PC-R1-F0607D692E11842B",
+   "item_id": "PC-F0607D692E11842B",
+   "repetition_index": 1,
+   "cache_key": "764ce88aaea4715b46b5e2b0ca612a1cca75cb757355d72f04034f5694f6eaed"
+  },
+  {
+   "custom_id": "PC-R1-F18C253219F35F5E",
+   "item_id": "PC-F18C253219F35F5E",
+   "repetition_index": 1,
+   "cache_key": "8a1d99dbf97d2df1e1d7858af2d86a01a48480069b2831eb5a71339813c26baa"
+  },
+  {
+   "custom_id": "PC-R1-F54A0D44B7F3CFF0",
+   "item_id": "PC-F54A0D44B7F3CFF0",
+   "repetition_index": 1,
+   "cache_key": "76bc834efac4375c5e295f33cf0705ad6ad7e9004ca66781f1194cc1a5ff63d3"
+  },
+  {
+   "custom_id": "PC-R1-F5FA9EEB5D8314AB",
+   "item_id": "PC-F5FA9EEB5D8314AB",
+   "repetition_index": 1,
+   "cache_key": "703644d6ff767888135d30767a693c85fad9c6867423f9ba6f8bf5e31b637b8f"
+  },
+  {
+   "custom_id": "PC-R1-FDAB01A47C79C51C",
+   "item_id": "PC-FDAB01A47C79C51C",
+   "repetition_index": 1,
+   "cache_key": "23627fd03aa972aac4ad4bfbf0742bcf7472aa2d51d11a881f72f5c8ec533e27"
+  },
+  {
+   "custom_id": "PC-R1-FDDA434D94495A5B",
+   "item_id": "PC-FDDA434D94495A5B",
+   "repetition_index": 1,
+   "cache_key": "d419276435208d5bf6474beea763e6c19d12f7513b39d6f5e3747d69c708ab58"
+  },
+  {
+   "custom_id": "PC-R2-001C8EC8D2588D4E",
+   "item_id": "PC-001C8EC8D2588D4E",
+   "repetition_index": 2,
+   "cache_key": "0db6e4ac1b97220b88ba16ab29c5fa1eeaf78bd1a8a99523d241c1f6e92c94d0"
+  },
+  {
+   "custom_id": "PC-R2-0055949BC2589CF9",
+   "item_id": "PC-0055949BC2589CF9",
+   "repetition_index": 2,
+   "cache_key": "101a6a3bb8cdb5cf518c0a565d1e48bb153a874826ef52b79782429151560050"
+  },
+  {
+   "custom_id": "PC-R2-02C4FD8E3EEACF29",
+   "item_id": "PC-02C4FD8E3EEACF29",
+   "repetition_index": 2,
+   "cache_key": "d070e808d2f4bcb5f95d4df9b951eb19050a5c3c97eb682f254446cb46efb80b"
+  },
+  {
+   "custom_id": "PC-R2-02CCBA04BD8C7C4C",
+   "item_id": "PC-02CCBA04BD8C7C4C",
+   "repetition_index": 2,
+   "cache_key": "7c53b460509910276e851b66b77b6544f17946135bf8b8778d99205dcd08f8a7"
+  },
+  {
+   "custom_id": "PC-R2-02D331D2A9A824B4",
+   "item_id": "PC-02D331D2A9A824B4",
+   "repetition_index": 2,
+   "cache_key": "a8779713505fbb7886d07de103a8714e955db1c73dcec1209e30ea69643a29eb"
+  },
+  {
+   "custom_id": "PC-R2-03CCF02C5A74AAD7",
+   "item_id": "PC-03CCF02C5A74AAD7",
+   "repetition_index": 2,
+   "cache_key": "2963624d3617326109ff8d1725217ef99693a1acbd23cd103cb8107f75489751"
+  },
+  {
+   "custom_id": "PC-R2-03FAF96E622C9E99",
+   "item_id": "PC-03FAF96E622C9E99",
+   "repetition_index": 2,
+   "cache_key": "939541d843913c1d6f5d1c74d9577235c986e8842bfe8d95d563ec40a83edd1f"
+  },
+  {
+   "custom_id": "PC-R2-042046E4F3C6E2BA",
+   "item_id": "PC-042046E4F3C6E2BA",
+   "repetition_index": 2,
+   "cache_key": "f2b6dc8eeacc4397ff8c33f273cbb9eafa6b6f636922676875bd10b822283711"
+  },
+  {
+   "custom_id": "PC-R2-0478FF0BB13A25B7",
+   "item_id": "PC-0478FF0BB13A25B7",
+   "repetition_index": 2,
+   "cache_key": "a023ad6a560a7430728c7d7abfc3f11e2779a16fa626ce5150c7056230c9d893"
+  },
+  {
+   "custom_id": "PC-R2-0493215AA6C4BC57",
+   "item_id": "PC-0493215AA6C4BC57",
+   "repetition_index": 2,
+   "cache_key": "87243d95645c843c143b5db81aa39af16fddb769373989162915377100816e8a"
+  },
+  {
+   "custom_id": "PC-R2-04B2A019A87C4B53",
+   "item_id": "PC-04B2A019A87C4B53",
+   "repetition_index": 2,
+   "cache_key": "e7858fb8a11eae1a1f457452a6f115d48ad0a9a82303b64b12c0cd5a88e985c2"
+  },
+  {
+   "custom_id": "PC-R2-05292643F8CB797F",
+   "item_id": "PC-05292643F8CB797F",
+   "repetition_index": 2,
+   "cache_key": "907c9bab0efcd279cb28d8394fdcaaacd59b17deff4e9124148e774cf0718a96"
+  },
+  {
+   "custom_id": "PC-R2-054FF93638198D19",
+   "item_id": "PC-054FF93638198D19",
+   "repetition_index": 2,
+   "cache_key": "e95ba151021560a5ef9e3e532cc5607c1121f8aea49fc07886167389460bd1ec"
+  },
+  {
+   "custom_id": "PC-R2-05C516244BCB90E2",
+   "item_id": "PC-05C516244BCB90E2",
+   "repetition_index": 2,
+   "cache_key": "a9685dcc4b614046826085ea3a498f04406fba2407a4693680e4acf1804289d9"
+  },
+  {
+   "custom_id": "PC-R2-05DCB05D4E2199A5",
+   "item_id": "PC-05DCB05D4E2199A5",
+   "repetition_index": 2,
+   "cache_key": "dd1b49f16789b2af26f2032d12af153cb8b9b9921fc710f7cfe63d3bb6e7a73c"
+  },
+  {
+   "custom_id": "PC-R2-05E49A76FA7EDA06",
+   "item_id": "PC-05E49A76FA7EDA06",
+   "repetition_index": 2,
+   "cache_key": "896bd2a045e25bdabcde5241056f148ecebc6917a8d3ef5e3d30a8c17bd5659a"
+  },
+  {
+   "custom_id": "PC-R2-05EFF15F7AD222EA",
+   "item_id": "PC-05EFF15F7AD222EA",
+   "repetition_index": 2,
+   "cache_key": "4f737b635063c7fecac39fdfe67c8ea64aae85f874709ee203d5acc9b68dcd21"
+  },
+  {
+   "custom_id": "PC-R2-0611EE221ADB8407",
+   "item_id": "PC-0611EE221ADB8407",
+   "repetition_index": 2,
+   "cache_key": "834510c96cd77438139ed8ac94705027eb6bf07e86549094265d868b90f8a7c4"
+  },
+  {
+   "custom_id": "PC-R2-062CAC854EA596B2",
+   "item_id": "PC-062CAC854EA596B2",
+   "repetition_index": 2,
+   "cache_key": "a20eaff377f203b4d98d588c2ded08968b3778b184ac16dfcd7d823c2489fafa"
+  },
+  {
+   "custom_id": "PC-R2-0729966F7753C0FA",
+   "item_id": "PC-0729966F7753C0FA",
+   "repetition_index": 2,
+   "cache_key": "7e69bf32ac54e18c8e39fb8a1abff739181c89984b5721b334d8f6a0a58102ad"
+  },
+  {
+   "custom_id": "PC-R2-0802A8FD681194D9",
+   "item_id": "PC-0802A8FD681194D9",
+   "repetition_index": 2,
+   "cache_key": "aee03100c2d9a13f7b139f958cb3d1dcf7ad29ed2d96954539cd137921f735c1"
+  },
+  {
+   "custom_id": "PC-R2-08154815DDB0B5AC",
+   "item_id": "PC-08154815DDB0B5AC",
+   "repetition_index": 2,
+   "cache_key": "587b8be7300ec2ff9875ad16b49eb4f333f28c8e0d54f55e611b2e9aa12d3774"
+  },
+  {
+   "custom_id": "PC-R2-082022350FBFBD4A",
+   "item_id": "PC-082022350FBFBD4A",
+   "repetition_index": 2,
+   "cache_key": "1c5f4e0ef8709a60fb20a1fc1749aaf20b4d4152cb8f2b748e20e89bb63a06e9"
+  },
+  {
+   "custom_id": "PC-R2-083F0FB3B20BC927",
+   "item_id": "PC-083F0FB3B20BC927",
+   "repetition_index": 2,
+   "cache_key": "fdf0af184c54b183e95ab859afd11712e0526e782f8ca08d74a20d705ee5060b"
+  },
+  {
+   "custom_id": "PC-R2-088B708943D98936",
+   "item_id": "PC-088B708943D98936",
+   "repetition_index": 2,
+   "cache_key": "7cbefbe2301b5cb8afbf5a49136dd82a5901fc178570afbefb08de919126c03a"
+  },
+  {
+   "custom_id": "PC-R2-08FB373E094E67F3",
+   "item_id": "PC-08FB373E094E67F3",
+   "repetition_index": 2,
+   "cache_key": "8bd6c7d02f58e6337c3c3c5cffa29acdef1d8e39ab1913f69d88154d2ded9f0b"
+  },
+  {
+   "custom_id": "PC-R2-091A2FB3DF2332F3",
+   "item_id": "PC-091A2FB3DF2332F3",
+   "repetition_index": 2,
+   "cache_key": "885b18f1b6e980da0b3f431b087cb93f0b3b4e7cd25c7ee60270fee13aab989e"
+  },
+  {
+   "custom_id": "PC-R2-0947B3BB182F939E",
+   "item_id": "PC-0947B3BB182F939E",
+   "repetition_index": 2,
+   "cache_key": "9a90b24ab1227fc94789ccf1be49946abd7261163f866b57c679d9abf441a4f0"
+  },
+  {
+   "custom_id": "PC-R2-09C931DEBCE85FEE",
+   "item_id": "PC-09C931DEBCE85FEE",
+   "repetition_index": 2,
+   "cache_key": "ec60984d38ad0f6f1bb1b9b58eaddfbfa219e5c82c2aae4f29f26bbab0449c9d"
+  },
+  {
+   "custom_id": "PC-R2-09CD24660C937893",
+   "item_id": "PC-09CD24660C937893",
+   "repetition_index": 2,
+   "cache_key": "c04f25833ed5a945eb7dd411cb034104bac904e0177c833ac03f2b22c5734a15"
+  },
+  {
+   "custom_id": "PC-R2-0B08D13CCE2CAAA5",
+   "item_id": "PC-0B08D13CCE2CAAA5",
+   "repetition_index": 2,
+   "cache_key": "eb84d93ba87e68312b9f9b7fcd0120835944e67549a422f5effa6837dcb5e788"
+  },
+  {
+   "custom_id": "PC-R2-0B45E6C1459CEC50",
+   "item_id": "PC-0B45E6C1459CEC50",
+   "repetition_index": 2,
+   "cache_key": "0933543e2be3be65b445608fda7caf89feae21556d983e68a29729a67f5d727a"
+  },
+  {
+   "custom_id": "PC-R2-0B6F720C0E26ABA8",
+   "item_id": "PC-0B6F720C0E26ABA8",
+   "repetition_index": 2,
+   "cache_key": "d6ef2e66850c0b68831a43b3cdb5c528e25490f49e0ac9a123a6d474415a91df"
+  },
+  {
+   "custom_id": "PC-R2-0BEA322F8D680605",
+   "item_id": "PC-0BEA322F8D680605",
+   "repetition_index": 2,
+   "cache_key": "3139c064b1c41110a9e8d34452fb116b49d7928277c112c583b04d31624efe12"
+  },
+  {
+   "custom_id": "PC-R2-0C4A75721DB62318",
+   "item_id": "PC-0C4A75721DB62318",
+   "repetition_index": 2,
+   "cache_key": "a953558504e63e27c09d3161e61716913bfac09395b4ef43cf2a5e737c5050c2"
+  },
+  {
+   "custom_id": "PC-R2-0CF15484C0D5A009",
+   "item_id": "PC-0CF15484C0D5A009",
+   "repetition_index": 2,
+   "cache_key": "76c92af373a77773ebbae8d782c5483b0e8e0054a5d730708654dfd5fd562062"
+  },
+  {
+   "custom_id": "PC-R2-0DE084A4B469DFA1",
+   "item_id": "PC-0DE084A4B469DFA1",
+   "repetition_index": 2,
+   "cache_key": "84c48c1c675e3640e096cf6f5fc93a335636fef802d17cd1b2ba4447e341e4fb"
+  },
+  {
+   "custom_id": "PC-R2-0E37E3AC58006322",
+   "item_id": "PC-0E37E3AC58006322",
+   "repetition_index": 2,
+   "cache_key": "54bfabfb6f861a12d4d5f5993f3b730f5dff015a43b2aa10bbea65d98cf80812"
+  },
+  {
+   "custom_id": "PC-R2-0EDEF6A902ACF0AE",
+   "item_id": "PC-0EDEF6A902ACF0AE",
+   "repetition_index": 2,
+   "cache_key": "d387bcbc1bdb11c5147ca3bcab1174f60fc884e0a148c967abb8e3091382d51e"
+  },
+  {
+   "custom_id": "PC-R2-0FE6DD0761D1620B",
+   "item_id": "PC-0FE6DD0761D1620B",
+   "repetition_index": 2,
+   "cache_key": "3039acb19c10910c1aaf589d547659d90e5dce100b44c00ff2f4b5a1d8097d72"
+  },
+  {
+   "custom_id": "PC-R2-10170B59A028AD42",
+   "item_id": "PC-10170B59A028AD42",
+   "repetition_index": 2,
+   "cache_key": "28d1ef65915a64f0ecf957368bb5a2f350bb746dd52a92dd0c3dde7041850e79"
+  },
+  {
+   "custom_id": "PC-R2-11C995256F027F42",
+   "item_id": "PC-11C995256F027F42",
+   "repetition_index": 2,
+   "cache_key": "3c2dc9c05e893b70728e70e9436171ed42256a81d97c1bd2bc32657a2620f24d"
+  },
+  {
+   "custom_id": "PC-R2-123E6EB8737767E7",
+   "item_id": "PC-123E6EB8737767E7",
+   "repetition_index": 2,
+   "cache_key": "959a9a8d66bbbb4b783f7eb972602f257f1d2d310cc95852fae961eac0ce51bc"
+  },
+  {
+   "custom_id": "PC-R2-12C9D77454F08ED9",
+   "item_id": "PC-12C9D77454F08ED9",
+   "repetition_index": 2,
+   "cache_key": "e537c9e6a3c418f0cea40515509fbfbc020161d84c1d08a3cb67bd8240178a04"
+  },
+  {
+   "custom_id": "PC-R2-131C5F8A6951178A",
+   "item_id": "PC-131C5F8A6951178A",
+   "repetition_index": 2,
+   "cache_key": "b57a20dfc8d11c5fc9b5742ccad34d2efc46e4af0fb5533b4fa670a6568c4fe8"
+  },
+  {
+   "custom_id": "PC-R2-13A03B0BC4D22BAC",
+   "item_id": "PC-13A03B0BC4D22BAC",
+   "repetition_index": 2,
+   "cache_key": "917ff24108333ef18c8afd1294469e8a216ff0830df9ce28a590df0521c1b77a"
+  },
+  {
+   "custom_id": "PC-R2-13A61759477650E8",
+   "item_id": "PC-13A61759477650E8",
+   "repetition_index": 2,
+   "cache_key": "6f3fe4d3f95f3e7e05431bb9009faba9566b8037eccce489cbaa606b7880aef2"
+  },
+  {
+   "custom_id": "PC-R2-14579951273F3446",
+   "item_id": "PC-14579951273F3446",
+   "repetition_index": 2,
+   "cache_key": "958019ef249403bbe7b23f57eaa1da68f151ec122a93b62adb0849a4b054a1d3"
+  },
+  {
+   "custom_id": "PC-R2-14F7B6F6EC2CD3D5",
+   "item_id": "PC-14F7B6F6EC2CD3D5",
+   "repetition_index": 2,
+   "cache_key": "2913716df1e23700b923a7dd9151ca48e1456f86cbd3fcaf2c69e327f9c539bc"
+  },
+  {
+   "custom_id": "PC-R2-17C42D22F6C67270",
+   "item_id": "PC-17C42D22F6C67270",
+   "repetition_index": 2,
+   "cache_key": "90a96f253bcfdf654382cff047762010c985345378a9656803b88d81e60bc2ee"
+  },
+  {
+   "custom_id": "PC-R2-195DB41756A4BB19",
+   "item_id": "PC-195DB41756A4BB19",
+   "repetition_index": 2,
+   "cache_key": "a366e73d4366af4732297e4c76e482f0b9dbed370bdde751c2ad67de472da09c"
+  },
+  {
+   "custom_id": "PC-R2-1B1CB4DF360E313F",
+   "item_id": "PC-1B1CB4DF360E313F",
+   "repetition_index": 2,
+   "cache_key": "a4c8639b5aa2c0a2bdead763833f16288c80842099cea585cecfdcb9d8575ee7"
+  },
+  {
+   "custom_id": "PC-R2-1F1702566380B03B",
+   "item_id": "PC-1F1702566380B03B",
+   "repetition_index": 2,
+   "cache_key": "e4b4bd102a2e6d16897579037033733e6247f0da402bc40cfbb5d034ed543f07"
+  },
+  {
+   "custom_id": "PC-R2-2071F2DEB35B95E8",
+   "item_id": "PC-2071F2DEB35B95E8",
+   "repetition_index": 2,
+   "cache_key": "315fd0fc976644297108839556bf60f00faea0e577da0be9f17b455e42ae9207"
+  },
+  {
+   "custom_id": "PC-R2-21AD69D7659D0958",
+   "item_id": "PC-21AD69D7659D0958",
+   "repetition_index": 2,
+   "cache_key": "56066e2ff9a7669739ef3f62a2c3f4c9f47c0e7e69028ca949c3ad63eca658d6"
+  },
+  {
+   "custom_id": "PC-R2-236D69C70D9971A7",
+   "item_id": "PC-236D69C70D9971A7",
+   "repetition_index": 2,
+   "cache_key": "a7d2164949b27f8520a738d44f10225f1df45abf3d866bd687d4752df3e0da5a"
+  },
+  {
+   "custom_id": "PC-R2-23D4AFF38F41C9EE",
+   "item_id": "PC-23D4AFF38F41C9EE",
+   "repetition_index": 2,
+   "cache_key": "23741ae828b5aef59c82459205b0ee7e6316239dba66c0944cd72f69f15f1fff"
+  },
+  {
+   "custom_id": "PC-R2-26EBE7720D423D23",
+   "item_id": "PC-26EBE7720D423D23",
+   "repetition_index": 2,
+   "cache_key": "91a5aa1e20d2ebabbc9ab0817809e68cd3fad63bc848c8a447059f01c83cd730"
+  },
+  {
+   "custom_id": "PC-R2-290C8FDEE2C4C986",
+   "item_id": "PC-290C8FDEE2C4C986",
+   "repetition_index": 2,
+   "cache_key": "9ee2b3b170212ca7dd5205d16113d1fb9258f12a447a80bf72df37d0c5aed8b0"
+  },
+  {
+   "custom_id": "PC-R2-2B5D62EABA3ECBDB",
+   "item_id": "PC-2B5D62EABA3ECBDB",
+   "repetition_index": 2,
+   "cache_key": "c178a11a3a82975a7f410fc28e388689d6f357233da89f5ae6a9422c83373007"
+  },
+  {
+   "custom_id": "PC-R2-2D1F1882BB591F47",
+   "item_id": "PC-2D1F1882BB591F47",
+   "repetition_index": 2,
+   "cache_key": "2da283e0262a99a511647eed8b644a69e92d6b6936f4eabee28949566eee807f"
+  },
+  {
+   "custom_id": "PC-R2-2FEF7641903D51B5",
+   "item_id": "PC-2FEF7641903D51B5",
+   "repetition_index": 2,
+   "cache_key": "4a7e1e645b68728e6eb83ecf75ea83395f8f8bd5e31bae3a73c500449c0a245e"
+  },
+  {
+   "custom_id": "PC-R2-31409EC1DE682341",
+   "item_id": "PC-31409EC1DE682341",
+   "repetition_index": 2,
+   "cache_key": "75f295befcbb9305cf19222e0277142d6e635a51b161a4792be761979c4c1193"
+  },
+  {
+   "custom_id": "PC-R2-3605CBBD9FFF7196",
+   "item_id": "PC-3605CBBD9FFF7196",
+   "repetition_index": 2,
+   "cache_key": "76313d2b6fdb8bb991c74a691fe5cfd27eae3dc54d31e6ef92fc8c629e976f95"
+  },
+  {
+   "custom_id": "PC-R2-38E2FFFC194C05CA",
+   "item_id": "PC-38E2FFFC194C05CA",
+   "repetition_index": 2,
+   "cache_key": "30f9d55b28cc72049e2e1290843b0ae7d210672468d21f3b6576107906d086ac"
+  },
+  {
+   "custom_id": "PC-R2-39A2B6609B191D07",
+   "item_id": "PC-39A2B6609B191D07",
+   "repetition_index": 2,
+   "cache_key": "1757bbf8770e1ad6a860a6ce4ee894f465d8fb37501da461d3281926c287bed4"
+  },
+  {
+   "custom_id": "PC-R2-3AF3820E4E3828D7",
+   "item_id": "PC-3AF3820E4E3828D7",
+   "repetition_index": 2,
+   "cache_key": "099735a008e262c181d39f08122242b6b0a624fecab3967be6ce3745ef17aa7f"
+  },
+  {
+   "custom_id": "PC-R2-3B953073DE684E63",
+   "item_id": "PC-3B953073DE684E63",
+   "repetition_index": 2,
+   "cache_key": "bfa9a32c9e5b3d5f0161730de380e78d5445a9ec3e4478872232ab0abc6f6994"
+  },
+  {
+   "custom_id": "PC-R2-3D5B670619C96980",
+   "item_id": "PC-3D5B670619C96980",
+   "repetition_index": 2,
+   "cache_key": "7b6a8e58c45fea5e1075ef092243bfad4d96d03c868fc50900932017b2bfecb9"
+  },
+  {
+   "custom_id": "PC-R2-3E4555A5D753BCE3",
+   "item_id": "PC-3E4555A5D753BCE3",
+   "repetition_index": 2,
+   "cache_key": "381ae4fe7e9d2409f4169f614965c77b9eba502d6d3eed3aaf6f4474976c5ce8"
+  },
+  {
+   "custom_id": "PC-R2-3E7369ADAE2152D3",
+   "item_id": "PC-3E7369ADAE2152D3",
+   "repetition_index": 2,
+   "cache_key": "301b3bc688ddd9435d95e234ab1006104b2017800269651f0af0a4d0393e4c48"
+  },
+  {
+   "custom_id": "PC-R2-3EB26911974DB027",
+   "item_id": "PC-3EB26911974DB027",
+   "repetition_index": 2,
+   "cache_key": "b306024f9e80a7b9e98c922fa2c8884cbdd110103abcb0fd0dc902eb32f7d03e"
+  },
+  {
+   "custom_id": "PC-R2-40B6038D21A227E2",
+   "item_id": "PC-40B6038D21A227E2",
+   "repetition_index": 2,
+   "cache_key": "168f927c105cc116dd16f4944b9ce1db67a8d278d901b7a3843c098633c4c460"
+  },
+  {
+   "custom_id": "PC-R2-44B08BDBB45472FA",
+   "item_id": "PC-44B08BDBB45472FA",
+   "repetition_index": 2,
+   "cache_key": "fde2a26c78985dd2040761c7e9e9c98c2064253812a3ee3e8639bf4d9d8c9f61"
+  },
+  {
+   "custom_id": "PC-R2-44C47CF81A45DBC9",
+   "item_id": "PC-44C47CF81A45DBC9",
+   "repetition_index": 2,
+   "cache_key": "79637c2a1895ff42939a69fa2bff1a577486cd2d5406683db021a4c89b0dc677"
+  },
+  {
+   "custom_id": "PC-R2-45765E4621882B92",
+   "item_id": "PC-45765E4621882B92",
+   "repetition_index": 2,
+   "cache_key": "d35966408d7fabb15f18d6dfa08d369270eceb886a2629e473afb869176ce423"
+  },
+  {
+   "custom_id": "PC-R2-4D0A732BF2D17A3C",
+   "item_id": "PC-4D0A732BF2D17A3C",
+   "repetition_index": 2,
+   "cache_key": "9808e591fc256cb6dc1f130dc61eddaa3d33efd1df26e75a9938fb4c9fcfbf2e"
+  },
+  {
+   "custom_id": "PC-R2-4F0B93241BFADE15",
+   "item_id": "PC-4F0B93241BFADE15",
+   "repetition_index": 2,
+   "cache_key": "9d67b9a09179d39545b24d3ea2b7872212b4b3a3cbe35a615c1742569b7b6f2c"
+  },
+  {
+   "custom_id": "PC-R2-5445E9785EC4793C",
+   "item_id": "PC-5445E9785EC4793C",
+   "repetition_index": 2,
+   "cache_key": "1bc6256ef3e731179ca72fd8c0d10b651d4590047062e3252c78110dce26ecaa"
+  },
+  {
+   "custom_id": "PC-R2-5F898800CB5BE993",
+   "item_id": "PC-5F898800CB5BE993",
+   "repetition_index": 2,
+   "cache_key": "6f49ed4350dbab5d7b6b49b0a11cd9d1e2eb95c16aefb068e01235146929e562"
+  },
+  {
+   "custom_id": "PC-R2-627EAD131C118307",
+   "item_id": "PC-627EAD131C118307",
+   "repetition_index": 2,
+   "cache_key": "910c156895d89d84a1acdffff17fc122d1ad67935cb2a620fbc3eac7d320e462"
+  },
+  {
+   "custom_id": "PC-R2-65AE92090E24CAF7",
+   "item_id": "PC-65AE92090E24CAF7",
+   "repetition_index": 2,
+   "cache_key": "30c10e525419809ad66a5205e30a9ae50139cac045c7da687ca056411a6f5c45"
+  },
+  {
+   "custom_id": "PC-R2-6F93A063AC67A23A",
+   "item_id": "PC-6F93A063AC67A23A",
+   "repetition_index": 2,
+   "cache_key": "dbd9cdbc50b833e2b026eed7b3e39a3aa45b2baf7cd7808141d333660aadbd18"
+  },
+  {
+   "custom_id": "PC-R2-78595DFE8D7391ED",
+   "item_id": "PC-78595DFE8D7391ED",
+   "repetition_index": 2,
+   "cache_key": "46804cc29e4151c5f7a0f459288b311fd83dcac6bb6d19527e4a72f804917047"
+  },
+  {
+   "custom_id": "PC-R2-7A985878B42EC8FE",
+   "item_id": "PC-7A985878B42EC8FE",
+   "repetition_index": 2,
+   "cache_key": "90ad1c789b532fed5e13bc19df43d44f685673dec5f182af8c8ec9f4437f6a9c"
+  },
+  {
+   "custom_id": "PC-R2-8254BB5757C5B32A",
+   "item_id": "PC-8254BB5757C5B32A",
+   "repetition_index": 2,
+   "cache_key": "406d611591e60724d98eca631e774053ee4410c347f04c18f144f2715ee76702"
+  },
+  {
+   "custom_id": "PC-R2-83DC8946B6F21DEE",
+   "item_id": "PC-83DC8946B6F21DEE",
+   "repetition_index": 2,
+   "cache_key": "13d2a07dbf4f2e23403dd08447e7ec37106a82d10dcff77eaba05a7c8e2f97a1"
+  },
+  {
+   "custom_id": "PC-R2-85F1F3D5363A7687",
+   "item_id": "PC-85F1F3D5363A7687",
+   "repetition_index": 2,
+   "cache_key": "16cb6053263c2f88ff691226e00e682bdffea996d5e5d759728ff60d33d5690d"
+  },
+  {
+   "custom_id": "PC-R2-87356A48B970C3CE",
+   "item_id": "PC-87356A48B970C3CE",
+   "repetition_index": 2,
+   "cache_key": "ffaa129f5c6718249732d91035d4be0ab9ec7e4769b6cc910c995dfffc3a4023"
+  },
+  {
+   "custom_id": "PC-R2-881D2EC41DCCC07B",
+   "item_id": "PC-881D2EC41DCCC07B",
+   "repetition_index": 2,
+   "cache_key": "46b3d374cf94e86e4a59f99c4768b70b7200655f83373a6bacc077d1289465d3"
+  },
+  {
+   "custom_id": "PC-R2-9B18BC8462066340",
+   "item_id": "PC-9B18BC8462066340",
+   "repetition_index": 2,
+   "cache_key": "fddafb6665ea4d1ae3e9d419f6dafca2e07b4eeeeb2179a52639a1fa499a571c"
+  },
+  {
+   "custom_id": "PC-R2-9CB485CCE6FF72C7",
+   "item_id": "PC-9CB485CCE6FF72C7",
+   "repetition_index": 2,
+   "cache_key": "33d19cfca5e0d5165cd1018c17a52ea40e83723e89128e3fa56fddd81759e86e"
+  },
+  {
+   "custom_id": "PC-R2-A261E3BE0219AA68",
+   "item_id": "PC-A261E3BE0219AA68",
+   "repetition_index": 2,
+   "cache_key": "d2c080e9d49138760f198e69d3508c97d7b8609dfd25935ee93ba652537007e1"
+  },
+  {
+   "custom_id": "PC-R2-A3CB425473A30EEE",
+   "item_id": "PC-A3CB425473A30EEE",
+   "repetition_index": 2,
+   "cache_key": "80d9567f942da68119acafb7d18079496f7040e77c6484d6e10bee88ab1aa61d"
+  },
+  {
+   "custom_id": "PC-R2-A4CC58A272141BCE",
+   "item_id": "PC-A4CC58A272141BCE",
+   "repetition_index": 2,
+   "cache_key": "efd456e211780da66d2741c6b4599d4c8edbf783629ff000c1dceda4650a05bb"
+  },
+  {
+   "custom_id": "PC-R2-A694586DFF86BF27",
+   "item_id": "PC-A694586DFF86BF27",
+   "repetition_index": 2,
+   "cache_key": "71cd04f75a758e57ac854de11dcf8000f0fcb07370dc0358769cae1c562ef4b0"
+  },
+  {
+   "custom_id": "PC-R2-A7CDF0C9C512C7E0",
+   "item_id": "PC-A7CDF0C9C512C7E0",
+   "repetition_index": 2,
+   "cache_key": "266f1725500935f535fc4b57de15becbc24ddafc3bcbcdfa0df1c5de27fba52b"
+  },
+  {
+   "custom_id": "PC-R2-A870B8260589E471",
+   "item_id": "PC-A870B8260589E471",
+   "repetition_index": 2,
+   "cache_key": "548aa233c71f3555715d8a0518a9986539340012b70ce6f0df5368e3cf0313fc"
+  },
+  {
+   "custom_id": "PC-R2-AEA9771C59F860F0",
+   "item_id": "PC-AEA9771C59F860F0",
+   "repetition_index": 2,
+   "cache_key": "a5cf9634982c2c07768e59ea1e6373eb4c288267c4b4ce78fe7960bd5c4820e4"
+  },
+  {
+   "custom_id": "PC-R2-B1611F2AEA1026B7",
+   "item_id": "PC-B1611F2AEA1026B7",
+   "repetition_index": 2,
+   "cache_key": "c9d8c7d73686ee6462fc6944fd27130d55deeb55739a0adc5182a5826a02bcdf"
+  },
+  {
+   "custom_id": "PC-R2-BEF9E617A987A3ED",
+   "item_id": "PC-BEF9E617A987A3ED",
+   "repetition_index": 2,
+   "cache_key": "6512a5f9ab5142473b5d6da7b53329520f1c58d286bebcd466493bfff21b154c"
+  },
+  {
+   "custom_id": "PC-R2-BF8FE0DB81DEA308",
+   "item_id": "PC-BF8FE0DB81DEA308",
+   "repetition_index": 2,
+   "cache_key": "2e8483a45705906bcc5fa2aa93269a608c46603fd23d8b573313af4cef9d10d4"
+  },
+  {
+   "custom_id": "PC-R2-C0FBC65E1003A5EA",
+   "item_id": "PC-C0FBC65E1003A5EA",
+   "repetition_index": 2,
+   "cache_key": "ee2dd0afcd14cc06892691c6f84fac3cd4c0756cabe55bd1a6cf8a3ea216530b"
+  },
+  {
+   "custom_id": "PC-R2-C101A91DD8C4F221",
+   "item_id": "PC-C101A91DD8C4F221",
+   "repetition_index": 2,
+   "cache_key": "57343de4140bda8cc62fc4f94122fb7320a2e43343dd1ca39238f24e3dc5cdc2"
+  },
+  {
+   "custom_id": "PC-R2-C8D32761FE50ED60",
+   "item_id": "PC-C8D32761FE50ED60",
+   "repetition_index": 2,
+   "cache_key": "89f3343ecb1c523006b973bb9aaea54bff4431a9f79048791c4915dc6337fd6a"
+  },
+  {
+   "custom_id": "PC-R2-D46116AF56C821DD",
+   "item_id": "PC-D46116AF56C821DD",
+   "repetition_index": 2,
+   "cache_key": "fc5c74993564fb6a1f9f1ee38d63a19d177a3360426acc85162e9b6e780f522a"
+  },
+  {
+   "custom_id": "PC-R2-DB53CB9D5A63913E",
+   "item_id": "PC-DB53CB9D5A63913E",
+   "repetition_index": 2,
+   "cache_key": "52083765a2cc76f41babf066746af5f898e4adc51db2bc82e1a635ab0280800a"
+  },
+  {
+   "custom_id": "PC-R2-DBA8A8B8BB8C6F7E",
+   "item_id": "PC-DBA8A8B8BB8C6F7E",
+   "repetition_index": 2,
+   "cache_key": "99abfc31f56e1ab7b7b48cd924fdf265d9d7efad5579452cfeadabfc4015ddac"
+  },
+  {
+   "custom_id": "PC-R2-DC72A47F021C01AE",
+   "item_id": "PC-DC72A47F021C01AE",
+   "repetition_index": 2,
+   "cache_key": "078000e3d37327d0f78678956dc72303ad53306c4088dc10004c2961933da5cc"
+  },
+  {
+   "custom_id": "PC-R2-E3B813D08FBAD341",
+   "item_id": "PC-E3B813D08FBAD341",
+   "repetition_index": 2,
+   "cache_key": "ff1db3727a239a5be541f1d715eeab1bf78257bfb81c967c83c8cfddadaee4b9"
+  },
+  {
+   "custom_id": "PC-R2-EADD8FDE5A4BFB36",
+   "item_id": "PC-EADD8FDE5A4BFB36",
+   "repetition_index": 2,
+   "cache_key": "a9bf640402a95d7ecdaf3e72492a60e7421eb44450bbc2d0f5517d6bb44498e3"
+  },
+  {
+   "custom_id": "PC-R2-EB9D5FE694BE8E7F",
+   "item_id": "PC-EB9D5FE694BE8E7F",
+   "repetition_index": 2,
+   "cache_key": "9a84e059d0fa2a0697c7991428e842cb58d3f11626dbe28aa39e6d2f22135a0e"
+  },
+  {
+   "custom_id": "PC-R2-EE6A758A1A39EE3D",
+   "item_id": "PC-EE6A758A1A39EE3D",
+   "repetition_index": 2,
+   "cache_key": "ea8b15c0e1de8c06e5fcb28a8fff51cdaaf3508eab697de45f7f697373500d95"
+  },
+  {
+   "custom_id": "PC-R2-EEB68EF92D278F0F",
+   "item_id": "PC-EEB68EF92D278F0F",
+   "repetition_index": 2,
+   "cache_key": "c5a16d59a7ea959f44d3fad6b1be6214c3bdff8e30474cf619255faa0dae8bcd"
+  },
+  {
+   "custom_id": "PC-R2-F0607D692E11842B",
+   "item_id": "PC-F0607D692E11842B",
+   "repetition_index": 2,
+   "cache_key": "a316a3565f560c1b337ba528a965b6abbc3cf9e96e594ff0b271becf15a2371e"
+  },
+  {
+   "custom_id": "PC-R2-F18C253219F35F5E",
+   "item_id": "PC-F18C253219F35F5E",
+   "repetition_index": 2,
+   "cache_key": "7546121943b11cf8f7488e08414992324eb884bd84215c2eacfbeabeb9959171"
+  },
+  {
+   "custom_id": "PC-R2-F54A0D44B7F3CFF0",
+   "item_id": "PC-F54A0D44B7F3CFF0",
+   "repetition_index": 2,
+   "cache_key": "23b8baaff6bc4281c0e07dfd5042198b9b94bd199a12cc950a5554e189613e99"
+  },
+  {
+   "custom_id": "PC-R2-F5FA9EEB5D8314AB",
+   "item_id": "PC-F5FA9EEB5D8314AB",
+   "repetition_index": 2,
+   "cache_key": "cd01b552d027954b719e00b0511c7e63dd160d83cbe45f15a6a6ab4e6096c0f6"
+  },
+  {
+   "custom_id": "PC-R2-FDAB01A47C79C51C",
+   "item_id": "PC-FDAB01A47C79C51C",
+   "repetition_index": 2,
+   "cache_key": "280a6a617b679521d5a551a4946b8b7975cbd8d2f7b4220d8d2b60f11f7f52cf"
+  },
+  {
+   "custom_id": "PC-R2-FDDA434D94495A5B",
+   "item_id": "PC-FDDA434D94495A5B",
+   "repetition_index": 2,
+   "cache_key": "dbeee20ae3e187e17ddcba57c53fc3924a6078a67d6e5ca0f292d9e47ad1cade"
+  }
+ ]
+}

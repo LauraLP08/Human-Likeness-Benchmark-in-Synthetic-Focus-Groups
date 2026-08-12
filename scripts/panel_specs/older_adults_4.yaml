@@ -1,0 +1,13 @@
+name: older_adults_4
+size: 4
+description: |
+  4-person panel of older adults (50+), gender-balanced. Pair with
+  young_adults_4 for age-cohort comparisons on the same guide.
+filters:
+  # Actual Twin-2K-500 buckets: "50-64" and "65+" (not "45-59"/"60+" as originally assumed)
+  age_bucket: ["50-64", "65+"]
+quotas:
+  gender:
+    Male: 2
+    Female: 2
+seed: 42

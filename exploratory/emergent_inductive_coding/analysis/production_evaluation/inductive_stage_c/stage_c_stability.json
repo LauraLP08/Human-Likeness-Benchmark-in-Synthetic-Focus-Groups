@@ -1,0 +1,930 @@
+{
+ "scored_utc": "2026-08-03T15:36:47.176050+00:00",
+ "stage": "C_ASSIGNMENT_STABILITY",
+ "scorer": "HARDENED_V2",
+ "taxonomy_hash_verification": {
+  "rows": [
+   {
+    "question": "1",
+    "recomputed": "53715d71c8a5e67187c947f1ebfae5863b5ba75a3aa52a0959a2681d0597474f",
+    "frozen": "53715d71c8a5e67187c947f1ebfae5863b5ba75a3aa52a0959a2681d0597474f",
+    "in_stage_c_requests": [
+     "53715d71c8a5e67187c947f1ebfae5863b5ba75a3aa52a0959a2681d0597474f"
+    ],
+    "matches_frozen": true,
+    "matches_requests": true,
+    "n_clusters": 18
+   },
+   {
+    "question": "2",
+    "recomputed": "d76c7142b36303698331746752de968ce02a634e4cc0e1bb006f4aa0c9839e5b",
+    "frozen": "d76c7142b36303698331746752de968ce02a634e4cc0e1bb006f4aa0c9839e5b",
+    "in_stage_c_requests": [
+     "d76c7142b36303698331746752de968ce02a634e4cc0e1bb006f4aa0c9839e5b"
+    ],
+    "matches_frozen": true,
+    "matches_requests": true,
+    "n_clusters": 18
+   },
+   {
+    "question": "3",
+    "recomputed": "9cfe66b8b2660385f712e489f2c96e0760bf830e264f025a6d75b82b4427f3e4",
+    "frozen": "9cfe66b8b2660385f712e489f2c96e0760bf830e264f025a6d75b82b4427f3e4",
+    "in_stage_c_requests": [
+     "9cfe66b8b2660385f712e489f2c96e0760bf830e264f025a6d75b82b4427f3e4"
+    ],
+    "matches_frozen": true,
+    "matches_requests": true,
+    "n_clusters": 15
+   },
+   {
+    "question": "4",
+    "recomputed": "04d3e1c90f1b40f9a9866c2e5f44ad5aa61b990c41c9e8c00b2f74fc122c4cd7",
+    "frozen": "04d3e1c90f1b40f9a9866c2e5f44ad5aa61b990c41c9e8c00b2f74fc122c4cd7",
+    "in_stage_c_requests": [
+     "04d3e1c90f1b40f9a9866c2e5f44ad5aa61b990c41c9e8c00b2f74fc122c4cd7"
+    ],
+    "matches_frozen": true,
+    "matches_requests": true,
+    "n_clusters": 21
+   },
+   {
+    "question": "5",
+    "recomputed": "82df524fe53ccfa0ce2d9c15bdc4a4d9bd3e0f6c844a5fc62a7034b2349af997",
+    "frozen": "82df524fe53ccfa0ce2d9c15bdc4a4d9bd3e0f6c844a5fc62a7034b2349af997",
+    "in_stage_c_requests": [
+     "82df524fe53ccfa0ce2d9c15bdc4a4d9bd3e0f6c844a5fc62a7034b2349af997"
+    ],
+    "matches_frozen": true,
+    "matches_requests": true,
+    "n_clusters": 16
+   }
+  ],
+  "problems": [],
+  "pass": true
+ },
+ "completeness_gate": {
+  "n_valid_responses": 10,
+  "questions_complete": 5,
+  "n_raw_theme_ids_covered": 526,
+  "n_with_exactly_two_assignments": 526,
+  "n_unknown": 0,
+  "n_omitted": 0,
+  "n_quarantined_calls": 0,
+  "quarantine": [],
+  "problems": [],
+  "pass": true,
+  "rule": "a quarantined call may be documented, but it must never leave a partial corpus that a later stage treats as complete"
+ },
+ "final_assignment_chosen_here": false,
+ "stage_b_overwritten": false,
+ "modal_assignment_used": false,
+ "similarity_used_for_decisions": false,
+ "total": {
+  "n_themes": 526,
+  "reps_agree": 490,
+  "reps_agree_rate": 0.9316,
+  "both_reps_agree_with_stage_b": 428,
+  "resolves_a_stage_b_uncertain": 51,
+  "new_uncertain": 0,
+  "STABLE_SAME_AS_STAGE_B": 338,
+  "STABLE_DIFFERENT_FROM_STAGE_B": 62,
+  "UNSTABLE": 36,
+  "UNRESOLVED": 90
+ },
+ "per_question": {
+  "1": {
+   "n_themes": 95,
+   "reps_agree": 85,
+   "reps_agree_rate": 0.8947,
+   "both_reps_agree_with_stage_b": 83,
+   "resolves_a_stage_b_uncertain": 1,
+   "new_uncertain": 0,
+   "STABLE_SAME_AS_STAGE_B": 67,
+   "STABLE_DIFFERENT_FROM_STAGE_B": 2,
+   "UNSTABLE": 10,
+   "UNRESOLVED": 16
+  },
+  "2": {
+   "n_themes": 103,
+   "reps_agree": 101,
+   "reps_agree_rate": 0.9806,
+   "both_reps_agree_with_stage_b": 91,
+   "resolves_a_stage_b_uncertain": 9,
+   "new_uncertain": 0,
+   "STABLE_SAME_AS_STAGE_B": 61,
+   "STABLE_DIFFERENT_FROM_STAGE_B": 10,
+   "UNSTABLE": 2,
+   "UNRESOLVED": 30
+  },
+  "3": {
+   "n_themes": 107,
+   "reps_agree": 98,
+   "reps_agree_rate": 0.9159,
+   "both_reps_agree_with_stage_b": 92,
+   "resolves_a_stage_b_uncertain": 4,
+   "new_uncertain": 0,
+   "STABLE_SAME_AS_STAGE_B": 66,
+   "STABLE_DIFFERENT_FROM_STAGE_B": 6,
+   "UNSTABLE": 9,
+   "UNRESOLVED": 26
+  },
+  "4": {
+   "n_themes": 105,
+   "reps_agree": 98,
+   "reps_agree_rate": 0.9333,
+   "both_reps_agree_with_stage_b": 84,
+   "resolves_a_stage_b_uncertain": 7,
+   "new_uncertain": 0,
+   "STABLE_SAME_AS_STAGE_B": 80,
+   "STABLE_DIFFERENT_FROM_STAGE_B": 14,
+   "UNSTABLE": 7,
+   "UNRESOLVED": 4
+  },
+  "5": {
+   "n_themes": 116,
+   "reps_agree": 108,
+   "reps_agree_rate": 0.931,
+   "both_reps_agree_with_stage_b": 78,
+   "resolves_a_stage_b_uncertain": 30,
+   "new_uncertain": 0,
+   "STABLE_SAME_AS_STAGE_B": 64,
+   "STABLE_DIFFERENT_FROM_STAGE_B": 30,
+   "UNSTABLE": 8,
+   "UNRESOLVED": 14
+  }
+ },
+ "stage_d_input": {
+  "n_cases": 188,
+  "deduplicated": true,
+  "covers": [
+   "UNSTABLE",
+   "UNRESOLVED",
+   "STABLE_DIFFERENT_FROM_STAGE_B"
+  ],
+  "by_status": {
+   "UNSTABLE": 36,
+   "UNRESOLVED": 90,
+   "STABLE_DIFFERENT_FROM_STAGE_B": 62
+  },
+  "cases": [
+   {
+    "question": 1,
+    "raw_theme_id": "RT_140E6FDA0337"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_15312ED66D3E"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_1754C8F029DF"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_1EC81A4D55B2"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_20C897D0BDC7"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_3FF94C3AD9EC"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_47CD42C535C1"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_496F334B9AC7"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_4B1168CD9045"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_59D8A63A4816"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_616B6110C912"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_6971B2424910"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_74059AFD2CD5"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_77E016308586"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_78D1F8AEE997"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_92B0B1E9DA88"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_9727BE7C78E5"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_ACAB180BAD6A"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_AD2E041FE45C"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_AEE7CD4DC282"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_B7CC86817DA9"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_C305DEBD83B2"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_C8564A9EEC69"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_C90B256DCA4F"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_D5426D0BFC4F"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_D62CBACBC57F"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_F5DDFEA3150F"
+   },
+   {
+    "question": 1,
+    "raw_theme_id": "RT_FF053B2769E8"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_0DEFBB646DF3"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_11BEC7AB36E5"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_1EA8715F4833"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_21C9B140D767"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_27B50AFE5E8F"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_2B4D81299A2D"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_3A1C975136F1"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_3B07C47B55A1"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_43D0AFB1E329"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_43D3909355E1"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_555EA8AB162F"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_691F5E9DF0ED"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_6A9D838E8BE7"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_6C9C0E72DF3A"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_7161F3C25FD4"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_73479808C64C"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_7D82237853D7"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_84731CE8E5EA"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_868E97BA4F16"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_8787ADFE5BAB"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_8D2CED3DFCFA"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_91DD1EFDCF67"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_93552C1A29B6"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_A85F0536533B"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_AA7C56D47AD2"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_ADA54A864358"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_AFFAAFAE9082"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_B71ED9DF7853"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_BF9F30A9CBD7"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_C1640729BE50"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_C69B6F22B333"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_C8F87DCF4B63"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_D7E58783202B"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_DBE288BF810F"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_DE267D8C5009"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_E35609B43814"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_E6EAD8C89355"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_F15DA63D4AB8"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_F667293F406B"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_F835CD4184D0"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_F870E036A83E"
+   },
+   {
+    "question": 2,
+    "raw_theme_id": "RT_FDA56130F0E3"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_0085A1684032"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_02520CEBD7F5"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_0DDE8A17FF80"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_1C4BF57BCD6C"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_1F8B25783568"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_2381CCCAE689"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_26E278878FDE"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_2F8FD893A2EE"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_329CC71A649C"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_38B4D706D622"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_3AFBBE68D09E"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_3B8BFC14E391"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_3E3944EC6FF1"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_43DB2B9BB4B6"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_451F57F7A487"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_4E5BF59807AD"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_52C3488C9A62"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_57C4B0B5936A"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_68230138F3ED"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_794C17F27D97"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_807E41C123E6"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_8639EBE239BE"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_886006CBEE7D"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_9117DEF27560"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_936FCCF376E2"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_A0DA7A5A873B"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_A1EA1F6DAF84"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_A9B4A9BBCBA6"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_B13D5037E828"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_B17D98D60A44"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_B324102EF35A"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_B79F6814014F"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_B96D1F4F51DD"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_BAFB0E2F22F6"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_C4A8753FE989"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_D1F4032B0B4F"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_DA9F6BB46C7D"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_E62569EB24BB"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_E6C3C7A354BA"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_FBC4505680CA"
+   },
+   {
+    "question": 3,
+    "raw_theme_id": "RT_FE8DB70CC2BA"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_007A664F2BFD"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_02D79392471E"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_046C3854A641"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_1DE3D2964CB3"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_3019B22C5373"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_3D0959BB6B11"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_417DCA72C550"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_42C8C2032B1B"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_45A9C05857A2"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_4AC68448A4D2"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_4B6A3F7E54AF"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_67B60681D977"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_78CF9F6CD480"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_888610B58CF8"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_8DE3CAACFBCB"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_9097A6A07379"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_99B476DD98D0"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_9EA1D08F7406"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_A4885E4A1893"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_A5CDD83C69A9"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_A66EC7A46836"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_BA9506951710"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_BEBD4D65D139"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_D79FC282BD61"
+   },
+   {
+    "question": 4,
+    "raw_theme_id": "RT_FF19ED857E41"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_014976EEFFAD"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_042EF5CA830C"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_04E46D749D07"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_0668F23FE84F"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_0F82C63CF627"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_1149D9B895DE"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_11BA810B6876"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_11BB8BD63F6A"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_1377DDD16A4C"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_13A0555A36B0"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_1529F9A16610"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_1E9F1218EB96"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_1FB94B8D2E81"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_210A1348A360"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_2D297F9964EA"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_2EF35D53F0D5"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_2F5CF790A868"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_333006BF766B"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_4302645040BE"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_4C46C090346F"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_503780388364"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_63734E96A638"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_66DC641D852F"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_7775D5B59070"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_787EDC828C99"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_7A14AE78E836"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_849858467CB8"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_85741A9F5CC6"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_8677482EDA56"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_8825B01AAA56"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_8A5CF0FA1761"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_98A331FFC982"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_99843F1412DF"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_9C52D84AB168"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_A10FBC40712A"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_AAB381345B84"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_AFD5FC44FDAA"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_B3A743E3D833"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_B5BD923133AB"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_C634F25B10DB"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_D15C9203947E"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_D349E75418A0"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_D6D3D73271EC"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_E0AD8A326895"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_E20252D91998"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_ED9E336D1375"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_F1FE2C20842C"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_F42C8CE0D4DD"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_F4DBEDA5A869"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_F93E85B410BA"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_F9BB6FFA615E"
+   },
+   {
+    "question": 5,
+    "raw_theme_id": "RT_FA33AB398E37"
+   }
+  ]
+ },
+ "measured_usage": {
+  "input_tokens": 77024,
+  "output_tokens": 41960
+ },
+ "gemini_cost_status": "NOT_CALCULATED_RATE_NOT_VERIFIED"
+}

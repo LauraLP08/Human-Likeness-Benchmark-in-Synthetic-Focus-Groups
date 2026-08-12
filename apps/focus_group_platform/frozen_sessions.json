@@ -1,0 +1,470 @@
+{
+ "version": "1.1.0",
+ "generated_utc": "2026-08-04T16:03:10.698701+00:00",
+ "note": "Explicit protection list. output/session_logs/ is NOT frozen as a root - the architecture writes new sessions there. See ADR-006. The 30 acceptance runs are read from the frozen results CSV, not inferred from a naming pattern: fg4 and fg5 enriched use run01/run03/run04.",
+ "acceptance_source": "analysis/production_evaluation/results/structural_interaction_metrics_long.csv#physical_run",
+ "entries": [
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg1_demoonly_run01",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg1_demoonly_run02",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg1_demoonly_run03",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg1_run01",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg1_run02",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg1_run03",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg2_demoonly_run01",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg2_demoonly_run02",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg2_demoonly_run03",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg2_run01",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg2_run02",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg2_run03",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg3_demoonly_run01",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg3_demoonly_run02",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg3_demoonly_run03",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg3_run01",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg3_run02",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg3_run03",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg4_demoonly_run01",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg4_demoonly_run02",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg4_demoonly_run03",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg4_run01",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg4_run03",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg4_run04",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg5_demoonly_run01",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg5_demoonly_run02",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg5_demoonly_run03",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg5_run01",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg5_run03",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "analysis/production_evaluation/comparable_transcripts/macho_meals_fg5_run04",
+   "kind": "comparable_window",
+   "acceptance": true,
+   "reason": "frozen comparable window; the artefact of record, read never derived"
+  },
+  {
+   "path": "data/datasets_transcripts/standardized/macho_meals/fg1",
+   "kind": "human_transcript_set",
+   "acceptance": true,
+   "reason": "standardized human transcript; the comparison referent"
+  },
+  {
+   "path": "data/datasets_transcripts/standardized/macho_meals/fg2",
+   "kind": "human_transcript_set",
+   "acceptance": true,
+   "reason": "standardized human transcript; the comparison referent"
+  },
+  {
+   "path": "data/datasets_transcripts/standardized/macho_meals/fg3",
+   "kind": "human_transcript_set",
+   "acceptance": true,
+   "reason": "standardized human transcript; the comparison referent"
+  },
+  {
+   "path": "data/datasets_transcripts/standardized/macho_meals/fg4",
+   "kind": "human_transcript_set",
+   "acceptance": true,
+   "reason": "standardized human transcript; the comparison referent"
+  },
+  {
+   "path": "data/datasets_transcripts/standardized/macho_meals/fg5",
+   "kind": "human_transcript_set",
+   "acceptance": true,
+   "reason": "standardized human transcript; the comparison referent"
+  },
+  {
+   "path": "output/session_logs/macho_meals_emergent_full_run_01",
+   "kind": "synthetic_session",
+   "acceptance": false,
+   "reason": "non-canonical Macho Meals run retained as project history; protected but not read by the acceptance test"
+  },
+  {
+   "path": "output/session_logs/macho_meals_emergent_full_run_02",
+   "kind": "synthetic_session",
+   "acceptance": false,
+   "reason": "non-canonical Macho Meals run retained as project history; protected but not read by the acceptance test"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg1_demoonly_run01",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg1_demoonly_run02",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg1_demoonly_run03",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg1_run01",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg1_run01__failed_auth_attempt",
+   "kind": "synthetic_session",
+   "acceptance": false,
+   "reason": "non-canonical Macho Meals run retained as project history; protected but not read by the acceptance test"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg1_run01_killed_2026-07-27",
+   "kind": "synthetic_session",
+   "acceptance": false,
+   "reason": "non-canonical Macho Meals run retained as project history; protected but not read by the acceptance test"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg1_run01_nobudget_2026-07-27",
+   "kind": "synthetic_session",
+   "acceptance": false,
+   "reason": "non-canonical Macho Meals run retained as project history; protected but not read by the acceptance test"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg1_run01_partial_2026-07-26",
+   "kind": "synthetic_session",
+   "acceptance": false,
+   "reason": "non-canonical Macho Meals run retained as project history; protected but not read by the acceptance test"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg1_run01_presynthesisfix_pilot_2026-07-28",
+   "kind": "synthetic_session",
+   "acceptance": false,
+   "reason": "non-canonical Macho Meals run retained as project history; protected but not read by the acceptance test"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg1_run02",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg1_run03",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg2_demoonly_run01",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg2_demoonly_run02",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg2_demoonly_run03",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg2_run01",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg2_run02",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg2_run03",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg3_demoonly_run01",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg3_demoonly_run02",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg3_demoonly_run03",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg3_run01",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg3_run02",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg3_run03",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg4_demoonly_run01",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg4_demoonly_run02",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg4_demoonly_run03",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg4_run01",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg4_run02",
+   "kind": "synthetic_session",
+   "acceptance": false,
+   "reason": "non-canonical Macho Meals run retained as project history; protected but not read by the acceptance test"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg4_run03",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg4_run04",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg5_demoonly_run01",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg5_demoonly_run02",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg5_demoonly_run03",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg5_run01",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg5_run02",
+   "kind": "synthetic_session",
+   "acceptance": false,
+   "reason": "non-canonical Macho Meals run retained as project history; protected but not read by the acceptance test"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg5_run03",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_fg5_run04",
+   "kind": "synthetic_session",
+   "acceptance": true,
+   "reason": "one of the 30 canonical Macho Meals evaluation runs, read from the frozen results CSV physical_run column"
+  },
+  {
+   "path": "output/session_logs/macho_meals_test_001",
+   "kind": "synthetic_session",
+   "acceptance": false,
+   "reason": "non-canonical Macho Meals run retained as project history; protected but not read by the acceptance test"
+  },
+  {
+   "path": "output/session_logs/macho_meals_validation_run",
+   "kind": "synthetic_session",
+   "acceptance": false,
+   "reason": "non-canonical Macho Meals run retained as project history; protected but not read by the acceptance test"
+  },
+  {
+   "path": "output/session_logs/macho_meals_validation_run_01",
+   "kind": "synthetic_session",
+   "acceptance": false,
+   "reason": "non-canonical Macho Meals run retained as project history; protected but not read by the acceptance test"
+  }
+ ]
+}

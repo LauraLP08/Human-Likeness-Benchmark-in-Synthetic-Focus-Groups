@@ -1,0 +1,101 @@
+[
+  {
+    "metric_diagnostic": "Artifact completeness",
+    "green_rule": "All present",
+    "amber_rule": "N/A",
+    "red_rule": "Any missing",
+    "rationale": "Need basic files",
+    "limitation": "Checks presence not validity",
+    "empirically_validated": false
+  },
+  {
+    "metric_diagnostic": "Observable conversation structure",
+    "green_rule": "Turn count > 20, >1 participants",
+    "amber_rule": "Low turn count",
+    "red_rule": "No turns or no participants",
+    "rationale": "Basic structure check",
+    "limitation": "Quantity not quality",
+    "empirically_validated": false
+  },
+  {
+    "metric_diagnostic": "Moderator footprint",
+    "green_rule": "Word share 0.1-0.4",
+    "amber_rule": ">0.4 or <0.05",
+    "red_rule": ">0.6 or 0",
+    "rationale": "Moderator shouldn't dominate",
+    "limitation": "Word count is a crude proxy",
+    "empirically_validated": false
+  },
+  {
+    "metric_diagnostic": "Participant-to-participant uptake",
+    "green_rule": "Edge density > 0.1",
+    "amber_rule": "0 < x <= 0.1",
+    "red_rule": "0 or missing",
+    "rationale": "Focus groups must have cross-talk",
+    "limitation": "Quantity not depth",
+    "empirically_validated": false
+  },
+  {
+    "metric_diagnostic": "Participation balance",
+    "green_rule": "Gini < 0.4",
+    "amber_rule": "Gini >= 0.4 or Gini < 0.05",
+    "red_rule": "Gini > 0.6",
+    "rationale": "Avoid total dominance by one agent",
+    "limitation": "Proxy only",
+    "empirically_validated": false
+  },
+  {
+    "metric_diagnostic": "Over-consensus",
+    "green_rule": "Disagreement markers > 0",
+    "amber_rule": "0 markers",
+    "red_rule": "N/A",
+    "rationale": "Check for echo chambers",
+    "limitation": "Keyword proxy only",
+    "empirically_validated": false
+  },
+  {
+    "metric_diagnostic": "Repetition",
+    "green_rule": "Low duplicates",
+    "amber_rule": "Moderate duplicates",
+    "red_rule": "High duplicates",
+    "rationale": "Check for loop collapse",
+    "limitation": "Exact match proxy only",
+    "empirically_validated": false
+  },
+  {
+    "metric_diagnostic": "Specificity",
+    "green_rule": "Richness proxies > 0",
+    "amber_rule": "0 proxies",
+    "red_rule": "N/A",
+    "rationale": "Avoid generic responses",
+    "limitation": "Proxy only",
+    "empirically_validated": false
+  },
+  {
+    "metric_diagnostic": "Speaker distinguishability",
+    "green_rule": "Std dev of lengths > 0",
+    "amber_rule": "Near 0 variance",
+    "red_rule": "N/A",
+    "rationale": "Agents should vary",
+    "limitation": "Length variance proxy",
+    "empirically_validated": false
+  },
+  {
+    "metric_diagnostic": "Process metric availability",
+    "green_rule": "All core metrics present",
+    "amber_rule": "N/A",
+    "red_rule": "Missing core metrics",
+    "rationale": "Required for later stages",
+    "limitation": "Presence only",
+    "empirically_validated": false
+  },
+  {
+    "metric_diagnostic": "Claim boundary compliance",
+    "green_rule": "Report meets constraints",
+    "amber_rule": "N/A",
+    "red_rule": "N/A",
+    "rationale": "Policy",
+    "limitation": "N/A",
+    "empirically_validated": false
+  }
+]

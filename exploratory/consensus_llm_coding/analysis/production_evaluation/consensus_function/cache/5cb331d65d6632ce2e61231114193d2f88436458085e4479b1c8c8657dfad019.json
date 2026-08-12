@@ -1,0 +1,184 @@
+{
+  "cache_key": "5cb331d65d6632ce2e61231114193d2f88436458085e4479b1c8c8657dfad019",
+  "run": "fg1_human",
+  "condition": "human",
+  "chunk_index": 0,
+  "target_turn_ids": [
+    "T001",
+    "T003",
+    "T004",
+    "T005",
+    "T006",
+    "T007",
+    "T008",
+    "T009",
+    "T010",
+    "T011",
+    "T012",
+    "T013"
+  ],
+  "shown_turn_ids": [
+    "T000",
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T006",
+    "T007",
+    "T008",
+    "T009",
+    "T010",
+    "T011",
+    "T012",
+    "T013"
+  ],
+  "blinded_transcript_sha256": "beae7ee5b433aca8b336ec12a02f3f7420d6dd416168aeefbc11368cf99d312f",
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "probe_tag": null,
+  "attempt": 1,
+  "finish_reasons": [
+    "FinishReason.STOP"
+  ],
+  "truncated": false,
+  "parse_error": null,
+  "prompt_tokens": 1458,
+  "candidates_tokens": 775,
+  "thoughts_tokens": 2369,
+  "codings": [
+    {
+      "turn_id": "T001",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "there's a really nice property called Old Town House",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T003",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "It's a pub. It's on like a rooftop",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T004",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "there's a place called the Goody Goose",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T005",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Just the, just the classics, cheap food",
+          "target_turn_id": "T004"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T006",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, basically, yeah.",
+          "target_turn_id": "T005"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T007",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "we'll go to parks and",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T008",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "It just kind of depends what everyone's feeling",
+          "target_turn_id": "T007"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T009",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, that's just depending on",
+          "target_turn_id": "T008"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T010",
+      "labels": [],
+      "no_code_reason": "procedural"
+    },
+    {
+      "turn_id": "T011",
+      "labels": [],
+      "no_code_reason": "procedural"
+    },
+    {
+      "turn_id": "T012",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "my favourite place in the city is a place called Driving Simulator",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T013",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "my favourite place in the city is, um, Old Trafford",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    }
+  ],
+  "called_utc": "2026-08-06T17:16:44.533987+00:00"
+}

@@ -1,0 +1,489 @@
+{
+  "_provenance": {
+    "derived_by": "scripts/build_comparable_window.py",
+    "generated_utc": "2026-07-30T14:33:35.889293+00:00",
+    "source_transcript": "output\\session_logs\\macho_meals_fg5_run03\\transcript.json",
+    "source_transcript_sha256": "5eac32723e2126536b5391cc9caa0e2e49a75590f3552a86bf5ae2f96db09c49",
+    "window": "q1_ask_to_end_of_last_substantive_section",
+    "excluded": "all material before the Question-1 ask, and the closing section",
+    "boundary_method": "Section structure from moderator_log.section_transition, cross-checked against state_turn_*.json current_section_index. Sub-entry Question-1 offset by ANCHOR-AND-EXTEND: anchor on the latest sentence-aligned suffix of the boundary entry that still poses Question 1 (the minimal ask), then extend backward one sentence at a time only across sentences that are residue-free AND positively identified as part of the ask (carrying a Q1-distinctive token, or being an ask lead-in / short discourse connective); stop at the first sentence failing either test. Residue classes excluded: participant name, moderator self-introduction, welcome, instruction/confidentiality text, presentation summary. Because the boundary only ever moves earlier over text positively identified as part of the ask, residue is excluded by construction rather than by enumeration.",
+    "boundary_algorithm": "anchor_and_extend_v1",
+    "source_entry_index": 8,
+    "source_entry_turn": 7,
+    "source_character_start": 139,
+    "original_boundary_entry_sha256": "360e49bfbc91e1f64c77a4c68b23a9f09c96131e4f20d39155a4a626756e08f0",
+    "retained_boundary_text_sha256": "6f53c23dde48bf9f5556ee14a035a889b45e6e259776dd5a2adfc6a5dbded15d",
+    "boundary_review_status": "AUTO_TRIMMED",
+    "boundary_review_note": "anchored on minimal Q1 ask at char 165, extended back 1 sentence(s) to char 139; dropped 139 leading chars (24 words) carrying: participant_name(Fletcher,Keith,Patrick,Toby); presentation_summary_propernouns(Great,Keith,Fletcher,Toby)",
+    "first_source_entry_index": 8,
+    "last_source_entry_index": 65,
+    "boundary_text_is_verbatim_slice": true,
+    "note": "Derived view. The source transcript is unmodified. The first entry's content is a verbatim character slice of the source entry from source_character_start onward - never paraphrased, normalised, reconstructed, or replaced with the guide's scripted question. Human transcripts need no equivalent window: they already begin at Question 1 and contain no introduction or closing section."
+  },
+  "transcript": [
+    {
+      "turn": 7,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Right, let's get into it. Thinking about the places you spend time with your male friends — is there a particular spot, pub, club, wherever it might be, that you'd call your favourite? What is it about that place?",
+      "timestamp": "2026-07-29T19:10:40.854887+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Well, there's a pub I've been going to for... must be getting on for thirty years now. Just down the road from where I live. Same faces most of the time, you know? Not trying to be anything fancy. Good pint, decent food — they do a nice steak and ale pie, that sort of thing. You can have a chat without having to shout over music. \n\nI suppose that's what matters at my age — you want somewhere you can actually talk to people, have a laugh. Don't need all the bells and whistles. It's just... familiar, isn't it? You know what you're getting. The landlord knows your name. That's worth something, I reckon.",
+      "timestamp": "2026-07-29T19:11:11.382127+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, I know exactly what you mean, Keith. I've got a place like that too — been going there for years. Same crowd mostly, landlord knows what you drink before you sit down. It's comfortable, you know? You don't have to think about it.\n\nThough I'll be honest, I'm finding as I've got older it's become a bit more than just convenience for me. It's almost... I don't know, it matters more now? The familiarity. Knowing the people. My wife passed a few years back, and I think places like that have become more important. It's not just about the pint or the pie, it's about being around people who know you, where you don't have to explain yourself or make small talk with strangers. There's something quite valuable in that when you're on your own.\n\nI still pop into the supermarket most of the time, same as Keith says — easier when you're doing your shopping. But there's something different about going to someone who's been doing it for years. They remember what you like, they talk to you properly. At my age, that matters more than it probably did when I was younger and just wanted to grab something quick.",
+      "timestamp": "2026-07-29T19:11:39.986332+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Yeah, that's... that's a fair point, Patrick. I hadn't quite thought of it that way, but you're right. It does change what those places mean to you, doesn't it?\n\nI'm still married, thankfully, but I know what you mean about the familiarity mattering more as you get older. There's a comfort in it. You're not performing, if that makes sense — you're just... there. Known. My wife's not one for the pub much these days, so I'll go down of an evening and it's nice to see the same people, have a proper conversation. Not everyone's got that, I suppose. \n\nAnd you're right about the butcher too, now that you mention it. It's not just about the meat — though the quality does make a difference. It's the interaction, isn't it? Someone who actually cares about what they're selling, who knows you. Bit different from scanning something at a self-checkout in the supermarket.",
+      "timestamp": "2026-07-29T19:12:14.109944+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, that's it exactly — not performing. That's a good way to put it. You've nailed it there, Keith.\n\nAnd I think that's what changes, doesn't it? When you're younger, you're still sort of... proving something, maybe without even realizing it. But at this stage, you just want to be comfortable. You want to know where you stand. The places where you can be yourself without having to put on a show — they become more valuable.\n\nIt's the same with the butcher, the pub, anywhere really. It's not flashy, it's not about impressing anyone. It's just... real. People knowing you, remembering what you like. There's a peace in that. I think we probably underestimate how much we need that as we get older.",
+      "timestamp": "2026-07-29T19:12:46.015418+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That idea of not having to prove anything, just being... known — that's come through from a few of you now. Fletcher, Toby — we haven't heard from you yet on this one. What about you two — is there a place like that for you?",
+      "timestamp": "2026-07-29T19:12:46.015799+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Aye, I've got a spot I go to. Nothing fancy — just a local pub, been going there for years. Same folk mostly. You're right, Patrick, about not having to perform. That rings true. You just... sit down, you know who's going to be there, what you're getting. Nobody's expecting you to be anything other than what you are.\n\nI suppose living out here, it's a bit different though. There's fewer places to choose from, so the ones that matter tend to matter more. You can't just drift between five different pubs trying to find your crowd — you've got what you've got, and you make the best of it. But that's not a bad thing, really. It makes you appreciate it more, I think.",
+      "timestamp": "2026-07-29T19:13:03.903348+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Toby, what about you?",
+      "timestamp": "2026-07-29T19:13:03.903615+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, I've got a local spot too — nothing fancy, like Fletcher says. Been going there for years now. It's just... comfortable. You know the people, they know you. You don't have to explain yourself or put on any kind of act.\n\nWhat strikes me though, listening to you all talk about this, is that it's not really about the place itself, is it? It's about being somewhere you're accepted as you are. And I think that matters more than people realize. \n\nI will say though — and maybe this is just me — but I do think there's sometimes too much fuss made about... I don't know, proving yourself, showing what you're made of. Especially for men. You get to a certain age and you realize a lot of that business when you're younger, all that posturing, it's a bit of a waste of time, really. Keith's right about just wanting to be comfortable and known. That's what actually matters.",
+      "timestamp": "2026-07-29T19:13:24.385306+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Sounds like there's a common thread here — familiar places, people who know you, no need to perform. Right, let's shift to something a bit more everyday. How do you decide what to eat? Day to day — what actually goes into that decision for you?",
+      "timestamp": "2026-07-29T19:13:24.386472+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "For me, it's quite practical really. I know what I like — I eat meat most days, fish once a week or so. But honestly, a lot of it comes down to what's available locally and what I know is decent quality. I'll go to the butcher if I've got time, and he'll tell me what's good that week, what he's got in. That shapes what I cook. Same with the farm shop — you go in and see what's there, what looks fresh.\n\nIt's different from how a lot of people do it, I think. You're not working from some meal plan you've decided on in advance. You're working with what you know is good and what's actually there. And there's something about that — knowing where it comes from, knowing the person selling it to you — that makes a difference to how you feel about eating it.\n\nI suppose it's a bit like the pub thing we were just talking about, really. You're not performing some ideal version of your diet. You're just eating what makes sense where you are, what you know and trust. Simpler that way.",
+      "timestamp": "2026-07-29T19:13:59.069759+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "That's spot on what I do as well. Out here, you don't really have much choice — you work with what's available, what the local shops have got, what the butcher's got that week. But like you say, that's not a bad thing at all. It forces you to actually know who you're buying from, what they're selling you. You can't just mindlessly pick something off a shelf because there's only so many shelves to pick from.\n\nIt's practical, but it's also... I don't know, it feels more straightforward somehow. You're not agonizing over choices or worrying if you're doing the right thing. You just eat what's there, what you know is decent. Simple as that. And because you've got fewer options, you tend to stick with the same suppliers, so you build that relationship without really thinking about it. It just happens naturally when that's all that's available to you.",
+      "timestamp": "2026-07-29T19:14:26.271772+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, absolutely. Though I'll be honest, I do worry sometimes that even that's changing. The butcher I go to — he's getting on a bit now, you know? And I'm not sure what happens when he retires. There's not exactly a queue of young people wanting to take over a butcher's shop in a rural area. The farm shop's doing alright, but how long before even that becomes unviable?\n\nYou're right that it forces you to know your suppliers, but the thing is, those suppliers are becoming harder to find. More and more people round here are just going to the supermarket because it's easier, and then the local places struggle. It's a bit of a vicious circle, isn't it?\n\nSo yeah, I do what you're saying — work with what's available, know who I'm buying from. But I'm also aware that what's available now might not be available in five or ten years if things keep going the way they're going. Makes you appreciate it more, I suppose, but it's also a bit... frustrating, really. You want those places to stick around.",
+      "timestamp": "2026-07-29T19:14:55.938018+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Yeah, you've hit on something real there, Toby. It's not just about preference — it's actually happening. My local butcher, he's been there for... must be getting on for forty years now. Good bloke, knows his trade inside out. But he's in his seventies, and I genuinely don't know what happens when he decides to pack it in. His kids aren't interested in taking it on. And you're right, there's no one else stepping up to do it.\n\nIt's a shame because once they're gone, they're gone. The supermarket's convenient, sure, but it's not the same. And then you're stuck with whatever's on the shelf, most of which has been sitting there for who knows how long before you buy it.\n\nI think about it sometimes, to be honest. Not in a doom-and-gloom way, but just... the reality of it. You can't force younger people to want to work in a butcher's shop if they don't. The economics probably don't work for them the way it used to. So it just gradually disappears, and you're left with less choice, not more.",
+      "timestamp": "2026-07-29T19:15:39.349733+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That anxiety about losing those places is coming through clearly from both of you. Before we lose that thread entirely — Keith, Patrick, I'm curious how you'd answer the same basic question: when you're deciding what to eat day to day, what's actually driving that?",
+      "timestamp": "2026-07-29T19:15:39.350056+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Well, I'll be honest with you — I'm mostly doing what Keith probably does. Supermarket, weekly shop, grab what I need. It's easier, especially when you're on your own. You know what you're getting, it's there, you don't have to think about it too much.\n\nBut listening to Toby and Fletcher talk about their butchers and knowing where things come from... I mean, I get it. I really do. And we've had the same butcher round near us for years — decent bloke, knows his stuff. I used to go there more regularly, but honestly, these days I find myself just popping into Tesco because it's quicker when I'm doing the shopping anyway.\n\nThe thing that frustrates me though — and Toby's touched on it — is that I've watched those places disappear around here too. We've lost a couple of good local shops in the past ten years or so. And I know I'm part of the problem, aren't I? I say I value it, I say it matters, but then I go to the supermarket because it's convenient. Can't really complain about them closing down if you're not supporting them yourself.\n\nIt's a bit of a contradiction, I suppose. You want those places to stick around, you want that quality and that relationship with the person selling to you. But most of the time, convenience wins out. That's just the reality of it for me.",
+      "timestamp": "2026-07-29T19:16:16.127634+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Patrick, that's a really honest account of it — knowing what you value and watching yourself do the opposite anyway. Keith, we haven't heard from you yet on this one — when you're deciding what to eat day to day, what's shaping that for you?",
+      "timestamp": "2026-07-29T19:16:16.129040+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Yeah, it's... pretty similar to what Patrick's saying, really. Weekly shop, supermarket mostly. Quick and easy, that's the honest answer. I don't go to the butcher as often as I probably should, even though I know he's good. Life's busy, you're in a rush, the supermarket's right there.\n\nThough I will say — and maybe this is just me getting older — but I do notice the difference when I do make the effort. The meat tastes better, you feel a bit better about it knowing where it's come from. But does that stop me from just grabbing something off the shelf most of the time? Not really, no.\n\nPatrick's right about it being a contradiction. I mean, I can see what Fletcher and Toby are getting at, about losing those places and it being a shame. And it probably is. But day to day, convenience just wins out. You're tired, you've got other things on your mind. You don't want to add another stop to your routine.\n\nI'm not sure what the answer is to that, to be honest.",
+      "timestamp": "2026-07-29T19:16:38.953686+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So across all four of you there's a pretty consistent thread — you know what you value, you know what feels right, and then most of the time the supermarket wins anyway. That tension between what you'd like to do and what you actually do is worth holding onto. Let's move into something a bit different. I want to ask whether you think your gender — being a man — has any influence on what you eat. What do you reckon?",
+      "timestamp": "2026-07-29T19:16:38.954745+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "That's an interesting question, actually. I haven't really thought about it in those terms before.\n\nI mean, there's definitely this thing about meat and masculinity, isn't there? You grow up with a certain... I don't know, expectation maybe. Meat on the plate, that's what a proper meal looks like. And I suppose some of that sticks with you, even if you don't really think about why.\n\nBut honestly, at my age, I think that's become a bit of a outdated idea. I eat meat because I like it, not because I'm trying to prove anything to anyone. And I notice some of the younger men — my grandsons and their friends — they're not bothered about all that. Some of them eat vegetarian sometimes, or they're just focused on what tastes good or what's healthy. There's no fuss about it.\n\nSo do I think my gender influences what I eat? Maybe a bit, in the sense that I grew up with certain ideas about what a meal should look like. But I don't think it's the main thing anymore, if I'm honest. It's more about habit and what I enjoy. The whole business of men needing to eat meat to be... I don't know, properly male — that feels a bit silly to me now. Life's too short to worry about all that nonsense.",
+      "timestamp": "2026-07-29T19:17:16.961123+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "I'd agree with Patrick on that, actually. I mean, yeah, there's definitely that thing — you grow up with it, the idea that a proper meal's got meat on it. But I think that's... it's a bit of an old story, isn't it? And honestly, it bothers me when I see it still being pushed, especially with younger blokes.\n\nI don't know, I just think it's nonsense, really. The whole business of needing to eat meat to be a proper man. It's outdated. And I've noticed — same as Patrick says — that younger men just don't seem as bothered about it. They eat what they want, and that seems healthier to me, mentally, I mean. Less of this constant thing about proving yourself.\n\nThe thing that does wind me up though is when you get people making a fuss about vegetarians or vegans, like they're somehow threatening or it's all some kind of statement. I had a mate once who wouldn't eat anything without meat in it, talked about vegetarians like they were weird. And I just thought, why does it matter so much? Let people eat what they want. It's not that deep.\n\nSo yeah, gender probably did influence what I ate when I was younger — you don't really question it, do you? It's just what you do. But I don't feel strongly attached to it now. I eat meat because I like it and that's what's available to me, not because I'm trying to be masculine about it.",
+      "timestamp": "2026-07-29T19:17:59.568613+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Right, yeah — I hear you on that. And I agree, let people eat what they want. But I think there's something a bit more going on than just... indifference, you know?\n\nThe thing that gets me is the way some people react to vegetarians or vegans — like Toby says, they talk about them like they're a threat or something. It's not just \"oh, they eat differently,\" it's almost like... defensive. Aggressive sometimes. And that bothers me because it ties back to what we're saying about masculinity and all that proving yourself business.\n\nIf you're genuinely not bothered about it — if it genuinely doesn't matter — then why get wound up? Why mock someone for their choices? The fact that people do, that suggests there's still something underneath all that, doesn't it? Some anxiety about what eating meat means, what it says about you.\n\nAnd honestly, I find that a bit embarrassing. I'm seventy-three, I've seen a lot of changes, and I just think... we should be past all that. You eat what you want, someone else eats something different, and you get on with your life. The fact that some blokes still feel the need to make a big thing about it — to prove their masculinity through what's on their plate — it feels a bit small to me, if I'm being frank.\n\nI don't think Toby's wrong about it being an old story. But I think in some circles, it's still very much alive.",
+      "timestamp": "2026-07-29T19:18:39.998633+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, but I think there's a difference between what Patrick's describing and just... not thinking about it at all, you know?\n\nLike, I get what he's saying about the defensive stuff — that does happen, and it is a bit sad when it does. But I also think some blokes just aren't thinking about it deeply enough to be anxious about it. They eat meat, they don't really question why, and when a vegetarian comes up in conversation they just sort of... shrug. Not defensive, not aggressive — just genuinely not bothered. That's not anxiety, that's just apathy.\n\nThe aggressive stuff Patrick's talking about — the mocking, the making a fuss — yeah, that does suggest something's going on underneath. That's the stuff that bothers me. But I reckon a lot of men are just in the middle somewhere. They don't care either way, they're not thinking about what it says about them. They just eat their dinner.\n\nI think the problem isn't so much that men are all secretly anxious about their masculinity — it's more that some people, maybe in certain circles or backgrounds, still think it matters. And they're loud about it. That's the annoying bit. But I wouldn't say that's most blokes, honestly.",
+      "timestamp": "2026-07-29T19:19:14.969411+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher, you've been listening to all of this — what's your take?",
+      "timestamp": "2026-07-29T19:19:14.971080+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "I think you've both got a point, to be fair. Patrick's right that there's still some of that stuff about, and it is a bit embarrassing when you see it. The defensive thing, the mocking — yeah, that does suggest something's going on.\n\nBut Toby's also right that not everyone's thinking about it that deeply. I eat meat, I don't really think about whether it makes me more or less of a man. It's just... what I eat. I like it. That's the lot of it for me. No great philosophy to it.\n\nWhere I'd push back a bit though — and I don't mean this at anyone here — is when I see people making out like vegetarianism is some kind of threat to society or something. It's daft, isn't it? If someone wants to eat vegetables, let them eat vegetables. It doesn't affect me. But you do see it sometimes, this almost... I don't know, cultural anxiety about it, like it's all some big statement or challenge to how things should be. And that bothers me more than I'd expect it to, if I'm honest. Because it feels like nonsense. \n\nSo I agree with both of you — it's a bit of an old story, and most of us aren't thinking about it too hard. But when people do make a fuss about it, when they get wound up about what other folk are eating, that's when it feels a bit much to me.",
+      "timestamp": "2026-07-29T19:19:54.764317+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Keith, you've been quiet on this one — what's your take?",
+      "timestamp": "2026-07-29T19:19:54.765498+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Yeah, I... I don't know, I think it's a bit of both, isn't it? \n\nPatrick's got a point about the defensiveness — you do see it sometimes, blokes getting a bit worked up about it all. And that is a bit embarrassing, I'll grant you that. But I also think Toby's right that most people just aren't thinking about it that hard. They eat what they eat and that's that.\n\nFor me, honestly, I don't think about whether eating meat makes me more of a man or anything like that. That's not why I eat it. I just... eat it because I like it. Same as I like other things.\n\nThe thing that does wind me up a bit — and I'm not trying to have a go at anyone — but sometimes you do get the sense that vegetarianism's become a bit of a... I don't know, a statement, maybe? And that bothers me more than I'd expect. It feels like there's something almost preachy about it sometimes, like people are trying to say something about how the rest of us should be living. And I'm not sure I like that.\n\nBut that's probably more about how it's presented sometimes than the thing itself, you know? If someone just wants to eat vegetables, fair enough. But when it feels like there's a judgment in it... that's when it gets to me a bit.",
+      "timestamp": "2026-07-29T19:20:41.045508+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So across the four of you there's a pretty consistent thread — you all eat meat because you like it, not because it says something about you as men, and when you see people getting wound up about vegetarians or vegans, that feels a bit embarrassing or out of proportion. I'll take that at face value. But here's what I want to push on a bit: you're all describing how you think about it in the abstract. What I'm less sure about is what actually happens in a specific moment. Say you're out with a group of mates — a pub lunch, a barbecue, somewhere like that — and you order something with no meat in it, or you turn down the steak. Does any of that feel different in company than it would on your own at home?",
+      "timestamp": "2026-07-29T19:20:41.047488+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Well, I... look, I don't really order vegetarian stuff when I'm out, to be honest. That's just not what I do. But that's not because I'm worried what people will think — it's more that I just... I go out for a pint and a meal, I eat what I fancy, which is usually meat. That's what appeals to me.\n\nBut if I'm being truthful, and someone ordered something without meat, I probably wouldn't think much of it. Depends on the person, I suppose. If it was just someone eating what they felt like eating, fair enough. But if it felt like they were... making a point about it, you know, drawing attention to it, then yeah, that would get my back up a bit.\n\nI'm not saying I'd give them a hard time about it or anything. I'm not like that. But I think I'd notice it differently than if they just ordered a burger like everyone else. There's something about the deliberateness of it that would register, if that makes sense.\n\nI don't know if that's right or wrong, but that's what it is for me.",
+      "timestamp": "2026-07-29T19:21:27.274756+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Keith, that word 'deliberateness' — can you say a bit more about what you mean by it? Because you've also changed what you eat over the years. Has anyone ever read that as you making a point?",
+      "timestamp": "2026-07-29T19:21:27.275402+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "No, well... that's different, isn't it? I mean, I eat less meat than I used to, but that's just... life, innit? You get older, your habits change. You're not thinking about it the same way. It's not like I've gone vegetarian or made some big announcement about it.\n\nWhat I mean by deliberateness is more like... when someone's very conscious about it, you know? Very aware that they're doing something different. They'll make a point of ordering the salad or whatever, and there's almost a... I don't know, a statement to it. Like they're saying something by doing it.\n\nWhereas if I just happened to eat less meat because that's what I felt like having that day, that's just eating. That's not making a point. There's a difference, I think, between just changing what you do and making a show of changing what you do.\n\nMaybe that's not fair of me, but that's where the feeling comes from.",
+      "timestamp": "2026-07-29T19:22:02.612674+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That distinction Keith's drawing — between just eating differently and making a show of eating differently — I think that's doing a lot of work here. And I want to test it with all of you. Because what Keith's describing, and what a few of you have touched on, is that the problem isn't the food choice itself — it's the visibility of it, the intention behind it. But here's what I'm not sure about: how do you tell the difference from the outside? If someone orders a salad at the pub, you don't actually know whether they've spent a lot of time thinking about it or whether they just fancied a salad that day. So is it the deliberateness that's actually bothering you — or is it just that the choice stands out?",
+      "timestamp": "2026-07-29T19:22:02.613258+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "I think you've caught something there, actually. Because out here, in a small community, you do notice everything. Everyone knows what everyone else is doing — what you eat, where you shop, what you're about. It's just how it works.\n\nAnd I think what Keith's describing, the feeling of someone making a point — sometimes that's real, yeah. But sometimes it's just that they stand out because they're different, and you're reading intention into it that might not be there. You see someone order something without meat, and because it's unusual, you assume there's a statement being made. But they might just fancy a salad, like you say.\n\nThe thing is, in a rural place especially, if you do something even slightly different from what everyone else is doing, people notice. And they wonder about it. So there's always going to be that sense of visibility, of standing out. Which maybe makes you more likely to read it as deliberate, even if it's not.\n\nI don't know if I'd notice it the same way in a city or somewhere bigger where people are just doing their own thing anyway. But here, yeah, you'd notice. And I think that says something about us, maybe, rather than about the person making the choice.",
+      "timestamp": "2026-07-29T19:22:40.187016+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher's just shifted something there — he's saying the issue might be less about what the person ordering the salad intends, and more about how we're reading it. That 'it says something about us' bit. Does that land for anyone else?",
+      "timestamp": "2026-07-29T19:22:40.187368+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, but I think Fletcher's being a bit generous there, if I'm honest. Because it's not just about how we're reading it — it's actual pressure, isn't it? In a place like ours, if you're doing something different, you're not just standing out. You're under a kind of... scrutiny. People notice, they talk, and that has real consequences for the person doing the thing that's different.\n\nI mean, Fletcher's right that you notice everything in a small community. But that noticing isn't neutral. If someone regularly orders something without meat, or they're known to be vegetarian, that gets talked about. It becomes a thing about them. And that's not just us reading intention into it — that's us creating actual social pressure around the choice.\n\nSo when Keith talks about someone making a deliberate choice, I think what he's picking up on is partly that visibility, but it's not just the visibility. It's that in a rural place, being different gets marked. You're aware you're being watched. And that changes how you act, doesn't it? You might eat something different on your own, but in the pub with everyone there, you think twice because you know it'll be noticed and talked about.\n\nThat's real, I think. It's not just about our interpretation of their intention. It's about how the community actually functions — about what's acceptable and what stands out. And yeah, that does say something about us. But it also says something about the actual constraints people feel when they're doing something different.",
+      "timestamp": "2026-07-29T19:23:22.102654+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "You're right that there's real pressure, Toby. That's fair. But I'm wondering if we're maybe conflating two different things here.\n\nThere's noticing — yeah, people notice things in a small place, they talk about them. That's just how communities work. But there's a difference between that and actual hostility, isn't there? Between people knowing what you eat and people actually giving you a hard time about it.\n\nI've seen both happen, and I'm not sure we're always clear about which one we're doing. Sometimes the pressure is real and it's worth calling out. But sometimes I think we — and I include myself in this — we notice someone doing something different, and we assume there's going to be judgment or talk, and maybe there isn't. Or maybe there's just... interest. Not malice.\n\nWhat I'm trying to say is, I think I've maybe been too quick to excuse my own behavior by saying \"well, that's just how small places work.\" Because yeah, we notice things. But that doesn't mean we have to make a fuss about it or make someone feel bad. Just because everyone knows what everyone's doing doesn't mean we have to comment on it or act like it's strange.\n\nSo Toby's right that there's real pressure. But I think some of that pressure is us putting it there, you know? Not the community itself, but what we choose to do with what we notice.",
+      "timestamp": "2026-07-29T19:23:58.772082+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, you're right about that. And I appreciate Fletcher saying it, because I've done it myself — noticed someone doing something different and then either commented on it or just... let it register as odd in a way that probably made them feel uncomfortable. Not deliberately trying to give them a hard time, but just treating it like it was worth remarking on.\n\nI've caught myself doing that, actually. Someone orders something without meat, or I hear they've gone vegetarian, and there's this little moment where I note it as unusual, maybe mention it to someone else. And I tell myself I'm not being hostile about it, I'm just noticing. But Fletcher's right — that's still choosing to make something of it, isn't it? Just because I notice doesn't mean I have to do anything with that noticing.\n\nThe thing is, when you live in a small place like we do, you do get used to having opinions about what everyone's doing. That's just the texture of it. But that doesn't mean you have to be part of the pressure. You could just... not comment. Just let people eat what they want without treating it like it's something to discuss.\n\nI think I've been a bit too ready to say \"well, that's just how it is out here\" when maybe the honest answer is I could behave differently and I choose not to. That's more on me than on the community.",
+      "timestamp": "2026-07-29T19:24:42.558158+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "I want to stay with what Fletcher and Toby have just said for a second — because both of you have moved from talking about other people's behaviour to talking about your own, and that's a different thing. That bit about choosing what to do with what you notice — I think that's going to stay with me. Let's carry that with us into the next question, because I want to get into something a bit more practical now. Imagine for a moment that you actually decided to go plant-based — not as an idea, but genuinely, in your own life. What would need to change for that to be real? Not just in terms of food, but everything around it.",
+      "timestamp": "2026-07-29T19:24:42.558912+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "That's... a different question, isn't it? When you make it actual instead of theoretical.\n\nLook, I'm seventy-three. I live on my own. My routines are what they are. Going plant-based wouldn't just be about food — it would be about everything. The pub I go to, right, they do a steak pie. That's what I have. What do I do, suddenly order something different every week? I'd have to think about what to order. I'd have to explain myself probably, or at least be aware I'm doing something different.\n\nAnd the butcher — we talked about this earlier. If I'm not buying meat from him anymore, what's the point of going there? That relationship, that familiarity, it's built on something. You change that, you've changed the whole thing.\n\nMy daughter, when she visits, she'd probably notice. Ask questions. Not in a hostile way, but... it would be different. And I'd feel like I'd have to justify it, wouldn't I? Because at my age, if you change something that fundamental about how you eat, it means something. Whether I want it to or not.\n\nPlus, honestly, I like meat. I'm not pretending I don't. And at seventy-three, you don't really want to be rebuilding your whole life around food, learning new recipes, thinking about what goes together. That's... that's a lot of effort for something you're not actually convinced about.\n\nSo yeah. That's what would need to change. My whole routine, my habits, probably how people see me. And I'm not sure I want that disruption.",
+      "timestamp": "2026-07-29T19:25:38.476376+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a lot there, Patrick — the pub order, the butcher, your daughter noticing. It sounds like it's not really about the food on its own. What do the rest of you make of that? Is it the same for you — that going plant-based would change things well beyond what's actually on the plate?",
+      "timestamp": "2026-07-29T19:25:38.477482+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Yeah, I mean... Patrick's touched on something I recognize, if I'm being honest.\n\nIt's not just the food, is it? It's the whole thing that goes with it. My wife, she does the cooking most of the time. If I suddenly said I was going plant-based, that changes what she's doing. It's an extra thing to think about, extra shopping, extra effort. She's not going to want that, and I can't blame her.\n\nAnd like Patrick says, at the pub — my mates would notice. And maybe they'd be fine with it, but... I'd feel it. I'd feel like I was doing something that needed explaining. And honestly, I'm not sure I want to be that person, you know? The bloke who's decided to go plant-based. Because suddenly it does mean something, doesn't it? It becomes a thing about you.\n\nBut I think what's coming through for me, listening to all this, is that a lot of my irritation about people being \"deliberate\" about it — maybe that's actually me being defensive about the fact that if I changed, I'd have to own it. Right now I can just eat what I eat. But if I went the other way, I'd have to live with people knowing I'd made a choice. That's different. That's visible.\n\nAnd maybe that's what's really bothering me about it. Not that they're making a statement, but that I'd have to make one too.",
+      "timestamp": "2026-07-29T19:26:22.154046+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Keith, that last bit — 'I'd have to make one too' — that's worth sitting with. Fletcher, Toby, does that land for you? Is the visibility of the choice part of what makes it feel like a lot?",
+      "timestamp": "2026-07-29T19:26:22.155195+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Yeah, Keith's named something real there. Because you're right — if you just eat meat, nobody thinks twice about it. It's normal, invisible. But if you change it, suddenly you're visible. You're the bloke who's made a choice. And in a place like this, that gets noticed and talked about.\n\nFor me personally, I don't think I'd struggle with it the way Keith's describing. I'm not that attached to meat one way or the other — I eat it because it's what's there, what I'm used to. I could probably go without it fine enough. But I can see exactly what he means about the visibility being the hard part.\n\nBecause here's the thing — and maybe this is worth saying out loud — I think that's actually what a lot of this comes down to. Not the food itself, but that changing it makes you visible in a way that's uncomfortable. You're no longer just doing what everyone does. And in a small community, that matters in a way it maybe shouldn't.\n\nBut the flip side is, Keith's right that we've got to own that, don't we? If we're uncomfortable with people noticing when we do something different, maybe we shouldn't be making such a fuss when other people do. That's a bit of a double standard, isn't it?\n\nI think if I was going to change how I ate, I wouldn't be that bothered about people noticing. But I also know that's easier for me to say than it might be for someone else in a smaller, tighter community than mine. The pressure's real.",
+      "timestamp": "2026-07-29T19:26:54.059917+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Yeah, Fletcher's right. That is a double standard, and I... I need to own that a bit more, don't I?\n\nBecause I've been sitting here talking about people being \"deliberate\" and making a statement, but what I'm really doing is noticing when they're visible and then treating that visibility like it's their problem. Like they're doing something wrong by standing out. But if I changed, I'd be visible too, and I'd hate it. So I'm basically saying it's fine to notice and comment on it when it's someone else, but I wouldn't want that done to me.\n\nThat's not great, is it? \n\nI think what Fletcher's saying is that the real problem isn't what people eat — it's that we've decided that certain choices need to be remarked on and others don't. Meat eating's invisible because it's normal. Going plant-based is visible because it's different. And then we pile onto the visibility and pretend it's something about the choice itself, when really it's just about whether it fits what we're used to.\n\nI don't know if that changes how I'd actually behave if someone went vegetarian. Probably not. But yeah, it does feel a bit off to be uncomfortable with being noticed while also being the one doing the noticing.",
+      "timestamp": "2026-07-29T19:27:35.131065+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Keith, you just said 'if I changed, I'd be visible too, and I'd hate it.' But you have changed, haven't you — you said earlier you're already eating differently from the others here. What actually made that happen for you?",
+      "timestamp": "2026-07-29T19:27:35.132570+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "I... well, that's different though, isn't it? I'm not eating less meat because I decided to go flexitarian or made some big plan about it. It's just... happened. Life changed. You get older, your appetite changes, you don't fancy a big steak like you used to. Your wife's cooking differently, you're eating what's there. It's gradual. Nobody's really noticed, or if they have they haven't said anything about it.\n\nIt's not the same as someone going vegetarian. That's deliberate. That's a choice you're announcing, whether you mean to or not. What I've done is just... drift a bit. It's not visible the same way because there's no decision behind it, at least not one I've made consciously.\n\nBut actually... I mean, hearing myself say that, it does sound a bit thin, doesn't it? Because I am eating less meat. That is a change. And maybe the reason nobody's remarked on it is just because it's gradual enough that it doesn't register as a statement. It just looks like aging.\n\nSo I suppose the honest answer is I changed because life changed, not because I decided anything. But if someone had to choose, properly choose to eat differently, that would feel like something. And maybe that's the real difference for me — the deliberateness of having to own the decision, rather than just letting it happen to you.",
+      "timestamp": "2026-07-29T19:28:10.392751+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Toby, you've been quiet through this bit — what's your take on what Keith's just described? That distinction between something changing gradually without you quite deciding it, versus making a choice you'd have to own?",
+      "timestamp": "2026-07-29T19:28:10.393347+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "I think Keith's being honest about something real there, but... I don't know. I'm not sure the distinction holds up as well as it sounds, if I'm being truthful.\n\nBecause Keith has changed what he eats. That's a fact. And whether he decided it consciously or whether it just happened because life shifted around him — it's still a change. He's still eating differently. And the reason nobody's remarked on it, like he says, is probably just that it's gradual enough it doesn't register as a statement. It slides under the radar because it looks like aging, like natural drift.\n\nBut that's almost... I don't know, that's almost worse, isn't it? Because what that means is the thing that makes people uncomfortable isn't actually the choice itself. It's the visibility of owning the choice. As long as you can frame it as something that just happened to you — life changed, your appetite changed — then it's fine. But the minute you have to say \"I decided this,\" suddenly it becomes a thing.\n\nAnd I think that says something about what we're actually uncomfortable with. It's not really about the food. It's about people making choices that are visible and deliberate, that can't be hidden under the story of \"that's just how things turned out.\"\n\nWhich is... yeah. That bothers me a bit, actually. Because that means we're all kind of complicit in this system where you can change, but only if you don't admit to changing. Only if you let it look accidental.",
+      "timestamp": "2026-07-29T19:28:42.133789+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Toby, that's a sharp way of putting it — you can change, but only if you don't admit to changing. That seems to capture something the whole group has been circling: it's not the food that's the problem, it's having to own the choice in front of other people. That's a real finding. Let's carry that into the last stretch, because it leads somewhere useful — what might actually make plant-based food more appealing, to you or to men you know? Not just whether you'd do it, but what would have to shift to make it feel less like a statement?",
+      "timestamp": "2026-07-29T19:28:42.135134+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 38,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "I think Toby's right, and that's uncomfortable to admit. We've basically built a system where you can only change if nobody notices you're changing. And that's... that's a bit cowardly, isn't it?\n\nLook, what would make plant-based feel less like a statement? Honestly? It would need to be normal. Not rare enough that people remark on it. If half the blokes down the pub were ordering something without meat — or a quarter of them — then it wouldn't be a statement anymore. It would just be what some people eat.\n\nThe other thing would be if there was no moral weight to it. Right now, if you go plant-based, people assume it means something about what you think of the rest of us. That you're making a judgment. But if it was just... food preference, like liking fish instead of beef — nobody cares about that. You could go and say I'm having the vegetarian option this week and nobody would bat an eye.\n\nBut I'll be honest with you — and this is the bit I'm less comfortable with — part of the reason that hasn't happened yet is because of blokes like me. Because we've made it feel like a statement. We've treated it like it means something when it probably doesn't. And we've made it invisible to change gradually, acceptable to drift, but not acceptable to choose.\n\nSo if I'm being asked what would need to shift, part of it's the culture around meat-eating having to be this big identity thing. And part of that is on us to change. Not to make a fuss about it. To just... let people eat what they want without reading something into it.\n\nI'm not sure I'm there yet, if I'm being truthful. But sitting here listening to all this, I can see it.",
+      "timestamp": "2026-07-29T19:29:40.131804+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 38,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Patrick, that phrase — 'blokes like me' — that's a significant thing to say out loud. What do the rest of you make of that? Is that something you recognise in yourselves, or does it sit differently?",
+      "timestamp": "2026-07-29T19:29:40.133620+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 39,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, I recognize it. And I think Patrick's being brave saying it out loud, because it is uncomfortable.\n\nBut I also think — and I want to be honest about this — it's not just about deciding to stop making a fuss, you know? Like, it's not enough for Patrick to just say \"I won't comment on it anymore\" and then everything changes. Because this isn't just cultural in some abstract way. It's built into how these places actually work.\n\nI've been part of that. I live here, I know these people, I'm in those conversations. And when someone does something different, yeah, we notice and we talk. But it's not like we can just collectively decide to stop doing that. Because the pressure comes from lots of small moments — not just one person being deliberately hostile, but all of us noticing, all of us treating it as noteworthy, all of us letting it register as unusual.\n\nAnd I've done that. I've been the one who notices, who mentions it to someone else, who treats it like it's worth remarking on. Not maliciously, but just... I've enforced that invisibility. I've made it so that changing quietly is acceptable but choosing openly isn't.\n\nSo yeah, I recognize it in myself. And it bothers me, because it's not something I can just decide to stop doing in isolation. It's woven into how we all interact here. And I'm part of that weaving.",
+      "timestamp": "2026-07-29T19:30:14.354230+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 40,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, I hear what you're saying, Toby. And it's true — you can't just decide on your own and have it change everything. But... \n\nI mean, I've just sat here saying I see it, I understand the problem. But you're right to point that out, because next week I'll probably go down to the pub and if someone orders something without meat, I'll still register it as different. I might not say anything about it, but I'll notice it. And that noticing, that's still part of the thing, isn't it?\n\nThat's the uncomfortable bit. Because knowing what's happening doesn't automatically stop you from doing it. I can understand intellectually that we've built this system where you can only change if it looks accidental, but that doesn't mean I won't go home and tell my daughter, \"so-and-so's gone vegetarian now,\" like it's worth mentioning. Like it's interesting because it's unusual.\n\nAnd Toby's right — it's all of us doing that together that makes it stick. It's not one person being a bully about it. It's just... the way the conversation goes. The way we all treat certain choices as noteworthy and others as invisible.\n\nI don't know what to do with that, to be honest. I can see it clearly now after sitting here talking about it. But seeing it and actually changing how I behave are two different things. That's the real work, isn't it? And that's harder.",
+      "timestamp": "2026-07-29T19:30:51.667017+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 41,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah. That's the hard bit. And I appreciate Patrick saying that, because it's true — you can understand it and still do it.\n\nAnd I think what he's saying is important because... I don't know, I can sit here and talk about the structure and how we all enforce it. But when it comes down to it, what does that actually mean for someone? If they want to eat differently, they have to live with all of us noticing. With their choice being registered as noteworthy. With maybe being talked about in a way that makes them feel conspicuous.\n\nThat's real. That's not abstract. That's a cost that someone pays when we all do that together, even casually, even without meaning harm.\n\nAnd I don't have a great answer for it. I can see it now, sitting here, but I also know what Patrick means — next week I'll probably still do it. I'll notice, I might mention it. The machinery will just keep going because we're all part of it and we can't really opt out individually.\n\nBut maybe the thing is just to be aware of that cost, you know? To at least know what we're doing when we do it. Not to pretend it's neutral or that we're just noticing. We're enforcing something. And maybe if we're conscious of that, at least some of the time we might... I don't know, choose differently. Not all the time, but sometimes.\n\nThat feels like the best I can offer, if I'm being honest.",
+      "timestamp": "2026-07-29T19:31:41.611372+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 41,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher, you've been sitting with all of this — what's your take on it?",
+      "timestamp": "2026-07-29T19:31:41.612734+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 42,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "I think you've all said something true there, and it's worth sitting with. Patrick and Toby are right — seeing it doesn't automatically change how you behave. That's the honest part, and I respect that they've said it.\n\nBut I do think there's something in what Toby said at the end there, about being aware of the cost. Because that's maybe where it has to start, isn't it? Not pretending you're going to suddenly stop noticing or stop talking. But at least knowing what you're doing when you do it.\n\nFor me, I think the difference might be that I'm not as caught up in it as some of you are. Maybe that's easier to say out here in the sticks — there's fewer people watching, fewer conversations happening in the same circles. But I also just... I'm not that bothered about it either way. Someone eats meat, someone doesn't. It's not a thing for me. And maybe that means I'm less likely to make it a thing, just by accident of temperament.\n\nBut the thing I'd say is this — and I mean it — the fact that you've all sat here and named it, said it out loud, acknowledged what's happening and what it costs someone else, that matters. That's not nothing. Even if nothing changes next week in the pub, the fact that you can see it and you're uncomfortable with it, that's where it starts. You can't change what you don't see.\n\nAnd I think in small places especially, people do notice when the conversation shifts, when someone's thinking differently about something. It's slow, but it happens.",
+      "timestamp": "2026-07-29T19:32:07.636697+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 42,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Keith — you've actually done some of the changing that these three are talking about. Does any of this land differently for you, sitting where you sit?",
+      "timestamp": "2026-07-29T19:32:07.637936+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 43,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "I... yeah, it does land differently, I suppose.\n\nBecause I've done it without admitting I've done it, haven't I? That's what I'm hearing. I've changed what I eat, but I've let it look like it just happened, like aging or like my wife changed the cooking. And that's allowed me to avoid being visible about it. Avoid the whole thing.\n\nAnd listening to Patrick and Toby talk about what that costs someone else — someone who actually decides and owns it — that's... it's made me feel a bit uncomfortable, if I'm honest.\n\nBecause I could've gone either way. I could've kept eating the way I always did. But something shifted, and I went with it, and now I'm eating less meat. And I've been able to do that without it being a thing, without anyone giving me a hard time about it, because it just looks like I'm getting older. And meanwhile I'm the one sitting here being bothered by people who actually make the choice visible.\n\nThat's not great, is it?\n\nI don't know if that changes anything next week. I probably will still notice if someone orders something without meat. That's just how my brain works. But I think Fletcher's right — at least I can see what's happening now. I can see that I've had it both ways. I've been allowed to change invisibly, and I'm uncomfortable with people who won't or can't do it that way.\n\nThat's something to sit with.",
+      "timestamp": "2026-07-29T20:27:46.783228+00:00",
+      "selection_mode": "moderator_direct_address"
+    }
+  ]
+}

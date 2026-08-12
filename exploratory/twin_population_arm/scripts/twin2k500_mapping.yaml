@@ -1,0 +1,56 @@
+# Twin-2K-500 → Appendix B agent JSON mapping
+#
+# This file is the single source of truth for the ETL transformation.
+# Edit it (do not edit twin2k500_etl.py) to change which QIDs populate which fields.
+#
+# Demographics: one QID per schema field. The ETL stores the SelectedText
+# (for multiple-choice) or the raw Value (for numeric / text entry).
+#
+# Psychological profile: each dimension aggregates a list of QIDs into a
+# mean score on a 1-to-scale_max scale. List any reverse-scored items
+# under reverse_scored.
+#
+# Leave a section empty (or commented out) if you do not have a confident
+# QID assignment yet. Empty sections are skipped, not errored.
+#
+# QID assignments confirmed from twin2k500_inspect_output.txt (2026-06-10):
+#
+#   QID11  [MC] Region (South, Northeast, Midwest, West, etc.)
+#   QID12  [MC] Sex assigned at birth → maps to "gender" in Appendix B
+#   QID13  [MC] Age bracket (e.g. "18-29") — stored as text; _to_int defaults to 0
+#   QID14  [MC] Education level
+#   QID17  [MC] Marital status (NOT urbanicity — "Which of these best describes you?")
+#   QID21  [MC] Household income bracket
+#
+#   QID25  [Matrix] Big Five personality items (44 sub-rows, 1-5 scale) — returns array;
+#                   NOT directly usable with the single-value aggregation path.
+#   QID26  [Matrix] Big Five personality items (18 sub-rows, 1-5 scale) — same issue.
+#   QID29  [Matrix] Schwartz values (24 sub-rows, 1-9 scale) — returns array; same issue.
+#   QID35  [Matrix] Agreement statements (12 sub-rows, 1-5 scale) — same issue.
+#
+#   NOTE: Matrix QIDs return a list of values. The ETL aggregates single floats only.
+#   Psychological profile dimensions require sub-item-level QID mapping (not available
+#   in this dataset's structure). Leave commented out until a sub-item index approach
+#   is implemented.
+
+demographics:
+  region: "QID11"        # MC — "Which part of the United States do you currently live in?"
+  gender: "QID12"        # MC — "What is the sex that you were assigned at birth?" → Male/Female/Other
+  age: "QID13"           # MC — age bracket text (e.g. "18-29"); _to_int defaults to 0
+  # education: "QID14"   # MC — education level; no direct Appendix B field
+  # income: "QID21"      # MC — household income bracket; no direct Appendix B field
+  # urbanicity:          # No urbanicity QID found in Demographics block (QID17 = marital status)
+
+psychological_profile:
+  # personality:
+  #   openness:
+  #     qids: []         # Requires sub-item index into QID25/QID26 matrix — not yet mapped
+  #     reverse_scored: []
+  #     scale_max: 5
+  #   conscientiousness:
+  #     qids: []
+  #     scale_max: 5
+  # values:
+  #   benevolence:
+  #     qids: []         # Requires sub-item index into QID29 matrix (Schwartz 24-item, 1-9)
+  #     scale_max: 9

@@ -1,0 +1,13 @@
+dimension,metric_used,mapping_status,stage6c_value,stage6d_value,stage6e_value,stage6f_value,expected_direction,observed_direction,classification,reason
+internal over-validation reduction,internal_overvalidation_entries_total,MAPPED_EXACT,19,19,19,11,down,calculated_by_logic,IMPROVED_AS_EXPECTED,Metric decreased
+visible over-validation,visible_overvalidation_hits,MAPPED_EXACT,1,5,0,0,down,calculated_by_logic,IMPROVED_AS_EXPECTED,Metric decreased
+named-speaker targeting mismatch,strict_target_count,MAPPED_EXACT,1,4,3,0,down,calculated_by_logic,IMPROVED_AS_EXPECTED,Metric decreased
+participant-to-participant interaction,participant_to_participant_edge_density,MAPPED_EXACT,0.9166666666666666,1.0,0.9166666666666666,0.5,up,calculated_by_logic,STILL_PROBLEMATIC,Metric regressed
+moderator word share,moderator_word_share,MAPPED_EXACT,0.12026850643296662,0.1927986906710311,0.13171993349344172,0.10472972972972973,down,calculated_by_logic,IMPROVED_AS_EXPECTED,Metric decreased
+participation balance,gini_words,MAPPED_EXACT,0.1048113607432073,0.0671127331684569,0.1608510638267855,0.15188679244695225,down,calculated_by_logic,STILL_PROBLEMATIC,Metric regressed or remained high
+turn length / long monologue rate,max_consecutive_participant_turns,MAPPED_EXACT,5,2,5,5,down,calculated_by_logic,STABLE,No change
+topic tethering,section_transition_count,MAPPED_EXACT,1,1,1,0,up,calculated_by_logic,STILL_PROBLEMATIC,Metric regressed
+section coverage,sections_completed,MAPPED_EXACT,1,1,1,0,up,calculated_by_logic,STILL_PROBLEMATIC,Metric regressed
+concreteness / abstraction,participant_lexical_diversity_range,MAPPED_EXACT,0.10348061554718974,0.044929381593929174,0.13375079264426126,0.18697786762582375,none,calculated_by_logic,NOT_COMPARABLE_TO_HUMAN,N/A
+repair/self-correction markers,total_repairs,MAPPED_EXACT,6,3,6,4,up,calculated_by_logic,STILL_PROBLEMATIC,Metric regressed
+synthetic-only metrics that remain important even without human comparison,internal_overvalidation_entries_total,MAPPED_EXACT,19,19,19,11,down,calculated_by_logic,IMPROVED_AS_EXPECTED,Metric decreased

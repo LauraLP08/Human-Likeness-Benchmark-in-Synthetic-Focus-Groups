@@ -1,0 +1,603 @@
+{
+  "namespace": "CONSENSUS_FUNCTION_LLM_EXPLORATORY",
+  "status": "LLM_CODED_HUMAN_VALIDATION_REQUIRED",
+  "generated_utc": "2026-08-06T18:10:18.477121+00:00",
+  "fg": "fg1",
+  "denominator": "participant turns only; moderator turns excluded (counts below)",
+  "moderator_turns_excluded": {
+    "fg1_human": 6,
+    "macho_meals_fg1_run01": 18,
+    "macho_meals_fg1_run02": 15,
+    "macho_meals_fg1_run03": 16,
+    "macho_meals_fg1_demoonly_run01": 22,
+    "macho_meals_fg1_demoonly_run02": 17,
+    "macho_meals_fg1_demoonly_run03": 15
+  },
+  "cells_are_not_exclusive": "agreement_only / disagreement_only / mixed / no_code are mutually exclusive; challenge_any, neutral_elaboration_any and relational_any overlap with them. Percentages do not sum to 100 by design.",
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "by_condition": {
+    "human": {
+      "n_participant_turns": 58,
+      "mean_words_per_turn": 48.1,
+      "mean_clauses_per_turn": 5.1,
+      "agreement_only": "27.6% (16/58)",
+      "disagreement_only": "1.7% (1/58)",
+      "mixed_agree_and_disagree": "0.0% (0/58)",
+      "challenge_any": "0.0% (0/58)",
+      "neutral_elaboration_any": "51.7% (30/58)",
+      "neutral_only": "48.3% (28/58)",
+      "relational_any": "29.3% (17/58)",
+      "no_code_applicable": "19.0% (11/58)",
+      "labels_per_100_clauses": 15.82,
+      "turns_with_an_evidence_failure": "3.4% (2/58)",
+      "turns_with_a_normalized_quote": "0.0% (0/58)"
+    },
+    "enriched": {
+      "n_participant_turns": 103,
+      "mean_words_per_turn": 232.2,
+      "mean_clauses_per_turn": 23.9,
+      "agreement_only": "45.6% (47/103)",
+      "disagreement_only": "17.5% (18/103)",
+      "mixed_agree_and_disagree": "18.4% (19/103)",
+      "challenge_any": "1.9% (2/103)",
+      "neutral_elaboration_any": "16.5% (17/103)",
+      "neutral_only": "15.5% (16/103)",
+      "relational_any": "83.5% (86/103)",
+      "no_code_applicable": "0.0% (0/103)",
+      "labels_per_100_clauses": 4.99,
+      "turns_with_an_evidence_failure": "1.0% (1/103)",
+      "turns_with_a_normalized_quote": "0.0% (0/103)"
+    },
+    "demographics-only": {
+      "n_participant_turns": 125,
+      "mean_words_per_turn": 232.2,
+      "mean_clauses_per_turn": 24.2,
+      "agreement_only": "44.0% (55/125)",
+      "disagreement_only": "20.8% (26/125)",
+      "mixed_agree_and_disagree": "18.4% (23/125)",
+      "challenge_any": "1.6% (2/125)",
+      "neutral_elaboration_any": "35.2% (44/125)",
+      "neutral_only": "15.2% (19/125)",
+      "relational_any": "84.8% (106/125)",
+      "no_code_applicable": "0.0% (0/125)",
+      "labels_per_100_clauses": 5.76,
+      "turns_with_an_evidence_failure": "0.0% (0/125)",
+      "turns_with_a_normalized_quote": "0.0% (0/125)"
+    }
+  },
+  "by_run": {
+    "fg1_human": {
+      "n_participant_turns": 58,
+      "mean_words_per_turn": 48.1,
+      "mean_clauses_per_turn": 5.1,
+      "agreement_only": "27.6% (16/58)",
+      "disagreement_only": "1.7% (1/58)",
+      "mixed_agree_and_disagree": "0.0% (0/58)",
+      "challenge_any": "0.0% (0/58)",
+      "neutral_elaboration_any": "51.7% (30/58)",
+      "neutral_only": "48.3% (28/58)",
+      "relational_any": "29.3% (17/58)",
+      "no_code_applicable": "19.0% (11/58)",
+      "labels_per_100_clauses": 15.82,
+      "turns_with_an_evidence_failure": "3.4% (2/58)",
+      "turns_with_a_normalized_quote": "0.0% (0/58)"
+    },
+    "macho_meals_fg1_run01": {
+      "n_participant_turns": 37,
+      "mean_words_per_turn": 229.0,
+      "mean_clauses_per_turn": 23.7,
+      "agreement_only": "43.2% (16/37)",
+      "disagreement_only": "21.6% (8/37)",
+      "mixed_agree_and_disagree": "13.5% (5/37)",
+      "challenge_any": "0.0% (0/37)",
+      "neutral_elaboration_any": "21.6% (8/37)",
+      "neutral_only": "21.6% (8/37)",
+      "relational_any": "78.4% (29/37)",
+      "no_code_applicable": "0.0% (0/37)",
+      "labels_per_100_clauses": 4.79,
+      "turns_with_an_evidence_failure": "0.0% (0/37)",
+      "turns_with_a_normalized_quote": "0.0% (0/37)"
+    },
+    "macho_meals_fg1_run02": {
+      "n_participant_turns": 32,
+      "mean_words_per_turn": 224.4,
+      "mean_clauses_per_turn": 23.8,
+      "agreement_only": "31.2% (10/32)",
+      "disagreement_only": "21.9% (7/32)",
+      "mixed_agree_and_disagree": "25.0% (8/32)",
+      "challenge_any": "6.2% (2/32)",
+      "neutral_elaboration_any": "15.6% (5/32)",
+      "neutral_only": "12.5% (4/32)",
+      "relational_any": "84.4% (27/32)",
+      "no_code_applicable": "0.0% (0/32)",
+      "labels_per_100_clauses": 5.37,
+      "turns_with_an_evidence_failure": "3.1% (1/32)",
+      "turns_with_a_normalized_quote": "0.0% (0/32)"
+    },
+    "macho_meals_fg1_run03": {
+      "n_participant_turns": 34,
+      "mean_words_per_turn": 243.1,
+      "mean_clauses_per_turn": 24.3,
+      "agreement_only": "61.8% (21/34)",
+      "disagreement_only": "8.8% (3/34)",
+      "mixed_agree_and_disagree": "17.6% (6/34)",
+      "challenge_any": "0.0% (0/34)",
+      "neutral_elaboration_any": "11.8% (4/34)",
+      "neutral_only": "11.8% (4/34)",
+      "relational_any": "88.2% (30/34)",
+      "no_code_applicable": "0.0% (0/34)",
+      "labels_per_100_clauses": 4.84,
+      "turns_with_an_evidence_failure": "0.0% (0/34)",
+      "turns_with_a_normalized_quote": "0.0% (0/34)"
+    },
+    "macho_meals_fg1_demoonly_run01": {
+      "n_participant_turns": 51,
+      "mean_words_per_turn": 270.4,
+      "mean_clauses_per_turn": 28.2,
+      "agreement_only": "39.2% (20/51)",
+      "disagreement_only": "19.6% (10/51)",
+      "mixed_agree_and_disagree": "21.6% (11/51)",
+      "challenge_any": "2.0% (1/51)",
+      "neutral_elaboration_any": "60.8% (31/51)",
+      "neutral_only": "17.6% (9/51)",
+      "relational_any": "82.4% (42/51)",
+      "no_code_applicable": "0.0% (0/51)",
+      "labels_per_100_clauses": 5.91,
+      "turns_with_an_evidence_failure": "0.0% (0/51)",
+      "turns_with_a_normalized_quote": "0.0% (0/51)"
+    },
+    "macho_meals_fg1_demoonly_run02": {
+      "n_participant_turns": 35,
+      "mean_words_per_turn": 204.4,
+      "mean_clauses_per_turn": 21.6,
+      "agreement_only": "48.6% (17/35)",
+      "disagreement_only": "20.0% (7/35)",
+      "mixed_agree_and_disagree": "14.3% (5/35)",
+      "challenge_any": "2.9% (1/35)",
+      "neutral_elaboration_any": "14.3% (5/35)",
+      "neutral_only": "14.3% (5/35)",
+      "relational_any": "85.7% (30/35)",
+      "no_code_applicable": "0.0% (0/35)",
+      "labels_per_100_clauses": 5.28,
+      "turns_with_an_evidence_failure": "0.0% (0/35)",
+      "turns_with_a_normalized_quote": "0.0% (0/35)"
+    },
+    "macho_meals_fg1_demoonly_run03": {
+      "n_participant_turns": 39,
+      "mean_words_per_turn": 207.3,
+      "mean_clauses_per_turn": 21.2,
+      "agreement_only": "46.2% (18/39)",
+      "disagreement_only": "23.1% (9/39)",
+      "mixed_agree_and_disagree": "17.9% (7/39)",
+      "challenge_any": "0.0% (0/39)",
+      "neutral_elaboration_any": "20.5% (8/39)",
+      "neutral_only": "12.8% (5/39)",
+      "relational_any": "87.2% (34/39)",
+      "no_code_applicable": "0.0% (0/39)",
+      "labels_per_100_clauses": 5.93,
+      "turns_with_an_evidence_failure": "0.0% (0/39)",
+      "turns_with_a_normalized_quote": "0.0% (0/39)"
+    }
+  },
+  "repeatability_probe": {
+    "run": "macho_meals_fg1_run01",
+    "chunk_index": 0,
+    "n_turns": 12,
+    "n_observations": 4,
+    "extra_calls": 3,
+    "turns_identical_across_all_observations": 10,
+    "pct_turns_identical": 83.3,
+    "mean_pairwise_jaccard_vs_baseline": 0.917,
+    "per_turn": {
+      "T001": [
+        [
+          "neutral_elaboration"
+        ],
+        [
+          "neutral_elaboration"
+        ],
+        [
+          "neutral_elaboration"
+        ],
+        [
+          "neutral_elaboration"
+        ]
+      ],
+      "T002": [
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ]
+      ],
+      "T003": [
+        [
+          "disagreement"
+        ],
+        [
+          "agreement",
+          "disagreement"
+        ],
+        [
+          "agreement",
+          "disagreement"
+        ],
+        [
+          "agreement",
+          "disagreement"
+        ]
+      ],
+      "T004": [
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ]
+      ],
+      "T005": [
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ]
+      ],
+      "T007": [
+        [
+          "neutral_elaboration"
+        ],
+        [
+          "neutral_elaboration"
+        ],
+        [
+          "neutral_elaboration"
+        ],
+        [
+          "neutral_elaboration"
+        ]
+      ],
+      "T009": [
+        [
+          "neutral_elaboration"
+        ],
+        [
+          "neutral_elaboration"
+        ],
+        [
+          "neutral_elaboration"
+        ],
+        [
+          "neutral_elaboration"
+        ]
+      ],
+      "T010": [
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ]
+      ],
+      "T011": [
+        [
+          "disagreement"
+        ],
+        [
+          "agreement",
+          "disagreement"
+        ],
+        [
+          "agreement",
+          "disagreement"
+        ],
+        [
+          "agreement",
+          "disagreement"
+        ]
+      ],
+      "T012": [
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ]
+      ],
+      "T013": [
+        [
+          "agreement",
+          "disagreement"
+        ],
+        [
+          "agreement",
+          "disagreement"
+        ],
+        [
+          "agreement",
+          "disagreement"
+        ],
+        [
+          "agreement",
+          "disagreement"
+        ]
+      ],
+      "T015": [
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ],
+        [
+          "agreement"
+        ]
+      ]
+    }
+  },
+  "api_calls": [
+    {
+      "run": "fg1_human",
+      "chunk_index": 0,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 1458,
+      "candidates_tokens": 775
+    },
+    {
+      "run": "fg1_human",
+      "chunk_index": 1,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 1795,
+      "candidates_tokens": 687
+    },
+    {
+      "run": "fg1_human",
+      "chunk_index": 2,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 2027,
+      "candidates_tokens": 858
+    },
+    {
+      "run": "fg1_human",
+      "chunk_index": 3,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 2476,
+      "candidates_tokens": 1262
+    },
+    {
+      "run": "fg1_human",
+      "chunk_index": 4,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 1623,
+      "candidates_tokens": 633
+    },
+    {
+      "run": "macho_meals_fg1_run01",
+      "chunk_index": 0,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 4147,
+      "candidates_tokens": 881
+    },
+    {
+      "run": "macho_meals_fg1_run01",
+      "chunk_index": 1,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 5782,
+      "candidates_tokens": 1254
+    },
+    {
+      "run": "macho_meals_fg1_run01",
+      "chunk_index": 2,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 6693,
+      "candidates_tokens": 1168
+    },
+    {
+      "run": "macho_meals_fg1_run01",
+      "chunk_index": 3,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 1485,
+      "candidates_tokens": 101
+    },
+    {
+      "run": "macho_meals_fg1_run02",
+      "chunk_index": 0,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 3933,
+      "candidates_tokens": 1186
+    },
+    {
+      "run": "macho_meals_fg1_run02",
+      "chunk_index": 1,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 5777,
+      "candidates_tokens": 1273
+    },
+    {
+      "run": "macho_meals_fg1_run02",
+      "chunk_index": 2,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 4547,
+      "candidates_tokens": 1141
+    },
+    {
+      "run": "macho_meals_fg1_run03",
+      "chunk_index": 0,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 4346,
+      "candidates_tokens": 915
+    },
+    {
+      "run": "macho_meals_fg1_run03",
+      "chunk_index": 1,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 6632,
+      "candidates_tokens": 1378
+    },
+    {
+      "run": "macho_meals_fg1_run03",
+      "chunk_index": 2,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 5592,
+      "candidates_tokens": 871
+    },
+    {
+      "run": "macho_meals_fg1_demoonly_run01",
+      "chunk_index": 0,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 4466,
+      "candidates_tokens": 1513
+    },
+    {
+      "run": "macho_meals_fg1_demoonly_run01",
+      "chunk_index": 1,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 6690,
+      "candidates_tokens": 1995
+    },
+    {
+      "run": "macho_meals_fg1_demoonly_run01",
+      "chunk_index": 2,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 7238,
+      "candidates_tokens": 1489
+    },
+    {
+      "run": "macho_meals_fg1_demoonly_run01",
+      "chunk_index": 3,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 7364,
+      "candidates_tokens": 962
+    },
+    {
+      "run": "macho_meals_fg1_demoonly_run01",
+      "chunk_index": 4,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 3424,
+      "candidates_tokens": 289
+    },
+    {
+      "run": "macho_meals_fg1_demoonly_run02",
+      "chunk_index": 0,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 3889,
+      "candidates_tokens": 1344
+    },
+    {
+      "run": "macho_meals_fg1_demoonly_run02",
+      "chunk_index": 1,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 5581,
+      "candidates_tokens": 930
+    },
+    {
+      "run": "macho_meals_fg1_demoonly_run02",
+      "chunk_index": 2,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 6020,
+      "candidates_tokens": 1036
+    },
+    {
+      "run": "macho_meals_fg1_demoonly_run03",
+      "chunk_index": 0,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 3760,
+      "candidates_tokens": 1255
+    },
+    {
+      "run": "macho_meals_fg1_demoonly_run03",
+      "chunk_index": 1,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 5146,
+      "candidates_tokens": 1324
+    },
+    {
+      "run": "macho_meals_fg1_demoonly_run03",
+      "chunk_index": 2,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 5772,
+      "candidates_tokens": 1100
+    },
+    {
+      "run": "macho_meals_fg1_demoonly_run03",
+      "chunk_index": 3,
+      "truncated": false,
+      "parse_error": null,
+      "prompt_tokens": 2654,
+      "candidates_tokens": 356
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+ "cache_key": "82dce974c72f74abcb7e036afdc982b97feb389847b1495c979c4d6f36851596",
+ "computed_utc": "2026-07-31T00:24:58.181194+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/to8xlhi19eohi33n4kb6vuyexr1a1b89ndws",
+ "custom_request_key": "macho_meals_fg2_run02",
+ "input": {
+  "side": "synthetic",
+  "fg": "fg2",
+  "condition": "enriched",
+  "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg2_run02\\comparable_transcript.json",
+  "sha256": "2d46968f884dfc9e6b089fa880725737378194948cc96653b3e10848573339d5",
+  "physical_run": "macho_meals_fg2_run02",
+  "canonical_replication_index": 2
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "781bbdf9646238fd9e7be9292089893c3b1bdaaf51d4437350cb41643db46d5f",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 14912,
+  "candidates_tokens": 1485,
+  "total_tokens": 22841,
+  "thoughts_tokens": 6444,
+  "cached_tokens": null,
+  "raw_text_chars": 5176,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 14912,
+  "candidates_tokens": 1485,
+  "total_tokens": 22841,
+  "thoughts_tokens": 6444,
+  "cached_tokens": null,
+  "raw_text_chars": 5176,
+  "parse_attempt": 1,
+  "headroom_tokens": 14899
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T021",
+      "speaker": "Participant 4",
+      "quote": "I think gender's in there somewhere, even if I'm not actively thinking about it."
+     },
+     {
+      "turn_id": "T022",
+      "speaker": "Participant 2",
+      "quote": "There's just this assumption that meat is what you do. You're a bloke, you eat meat."
+     },
+     {
+      "turn_id": "T026",
+      "speaker": "Participant 3",
+      "quote": "It's about masculinity, identity — all that stuff. Not just avoiding conflict or whatever."
+     },
+     {
+      "turn_id": "T037",
+      "speaker": "Participant 5",
+      "quote": "And that's wrapped up with the whole masculinity thing Henry was talking about, even if we're not saying it explicitly."
+     },
+     {
+      "turn_id": "T041",
+      "speaker": "Participant 1",
+      "quote": "I wouldn't order something vegetarian in front of my mates either."
+     }
+    ],
+    "evidence_note": "Participants explicitly connect food choices, such as eating meat and avoiding vegetarian items, to male gender identity and social expectations among male friends.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T032",
+      "speaker": "Participant 1",
+      "quote": "I don't think I feel like it's tied to being a bloke or anything like that."
+     }
+    ],
+    "evidence_note": "Participant 1 initially reports seeing no personal connection or association between his food choices and his gender identity.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1"
+    ],
+    "reach": 0.2
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T012",
+      "speaker": "Participant 1",
+      "quote": "I'll have a curry, a steak, some chicken — it's just normal to me."
+     },
+     {
+      "turn_id": "T021",
+      "speaker": "Participant 4",
+      "quote": "when I'm at the supermarket or ordering something, red meat or chicken feels normal to me"
+     },
+     {
+      "turn_id": "T022",
+      "speaker": "Participant 2",
+      "quote": "There's just this assumption that meat is what you do."
+     },
+     {
+      "turn_id": "T060",
+      "speaker": "Participant 3",
+      "quote": "The marking only exists because meat is the thing you don't have to think about."
+     },
+     {
+      "turn_id": "T056",
+      "speaker": "Participant 5",
+      "quote": "meat is unremarkable. You can order it without thinking about it, without anyone noticing, without it meaning anything."
+     }
+    ],
+    "evidence_note": "Participants describe eating animal products like chicken and red meat as default, automatic, and socially unremarkable.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T012",
+      "speaker": "Participant 1",
+      "quote": "It's convenient, it's what I grew up eating, and I enjoy it."
+     },
+     {
+      "turn_id": "T053",
+      "speaker": "Participant 4",
+      "quote": "the meat options are just better. They're designed to be appealing."
+     }
+    ],
+    "evidence_note": "Participants discuss enjoying meat and finding meat-based options to be more appealing and satisfying.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 4"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T047",
+      "speaker": "Participant 3",
+      "quote": "veggie burgers, meat alternatives, whatever — and most of it just doesn't hit the same."
+     },
+     {
+      "turn_id": "T048",
+      "speaker": "Participant 4",
+      "quote": "The taste thing is real for me too."
+     }
+    ],
+    "evidence_note": "Participants express dissatisfaction with the taste and quality of plant-based options, noting they often taste worse or do not satisfy like meat does.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 3",
+     "Participant 4"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "D",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 15,
+  "verified_quotes": 15,
+  "total_present_codes": 5,
+  "verified_codes": 5,
+  "demoted_codes": 0
+ }
+}

@@ -1,0 +1,560 @@
+{
+ "built_utc": "2026-08-03T12:35:08.082891+00:00",
+ "analysis": "LLM_ASSISTED_RETROSPECTIVE_OPEN_THEMATIC_ACCUMULATION",
+ "no_api_calls": true,
+ "derived_from": "inductive_inventory.build() — no call count is hard-coded",
+ "corpus": {
+  "n_documents": 35,
+  "n_units": 174,
+  "total_words": 272280,
+  "mean_words_per_unit": 1565
+ },
+ "segmentation": {
+  "source": "final/inductive_segments.json",
+  "real_per_question_words": {
+   "1": 30132,
+   "2": 39514,
+   "3": 64575,
+   "4": 69851,
+   "5": 68208
+  },
+  "real_per_question_mean_words": {
+   "1": 861,
+   "2": 1129,
+   "3": 1845,
+   "4": 2054,
+   "5": 1949
+  },
+  "even_split_would_have_said": 1565,
+  "estimated_by_even_split": false,
+  "all_documents_reconcile": true,
+  "boundary_ambiguity_runs": 0
+ },
+ "expected_raw_themes": {
+  "total": 925,
+  "per_question": {
+   "1": 142,
+   "2": 159,
+   "3": 204,
+   "4": 211,
+   "5": 210
+  },
+  "basis": "mean of word-based (3.60/1k words) and unit-based (5.0/unit)"
+ },
+ "balanced_subsample": {
+  "rule": "all human raw themes for the question, plus an equal number drawn deterministically by content hash from each synthetic condition",
+  "per_question": {
+   "1": 51,
+   "2": 61,
+   "3": 70,
+   "4": 59,
+   "5": 65
+  },
+  "human_themes_per_question": {
+   "1": 17,
+   "2": 20,
+   "3": 23,
+   "4": 20,
+   "5": 22
+  }
+ },
+ "stage_f_cells": {
+  "n_cells": 45,
+  "cells": [
+   {
+    "question": 1,
+    "condition": "demographics-only",
+    "length_tercile": 1,
+    "unit_id": "demographics-only::fg1::R2::Q1",
+    "total_words": 746
+   },
+   {
+    "question": 1,
+    "condition": "demographics-only",
+    "length_tercile": 2,
+    "unit_id": "demographics-only::fg2::R3::Q1",
+    "total_words": 1054
+   },
+   {
+    "question": 1,
+    "condition": "demographics-only",
+    "length_tercile": 3,
+    "unit_id": "demographics-only::fg1::R1::Q1",
+    "total_words": 1329
+   },
+   {
+    "question": 1,
+    "condition": "enriched",
+    "length_tercile": 1,
+    "unit_id": "enriched::fg1::R3::Q1",
+    "total_words": 718
+   },
+   {
+    "question": 1,
+    "condition": "enriched",
+    "length_tercile": 2,
+    "unit_id": "enriched::fg2::R1::Q1",
+    "total_words": 797
+   },
+   {
+    "question": 1,
+    "condition": "enriched",
+    "length_tercile": 3,
+    "unit_id": "enriched::fg1::R1::Q1",
+    "total_words": 809
+   },
+   {
+    "question": 1,
+    "condition": "human",
+    "length_tercile": 1,
+    "unit_id": "human::fg2::Q1",
+    "total_words": 397
+   },
+   {
+    "question": 1,
+    "condition": "human",
+    "length_tercile": 2,
+    "unit_id": "human::fg1::Q1",
+    "total_words": 414
+   },
+   {
+    "question": 1,
+    "condition": "human",
+    "length_tercile": 3,
+    "unit_id": "human::fg5::Q1",
+    "total_words": 1004
+   },
+   {
+    "question": 2,
+    "condition": "demographics-only",
+    "length_tercile": 1,
+    "unit_id": "demographics-only::fg2::R1::Q2",
+    "total_words": 775
+   },
+   {
+    "question": 2,
+    "condition": "demographics-only",
+    "length_tercile": 2,
+    "unit_id": "demographics-only::fg1::R2::Q2",
+    "total_words": 963
+   },
+   {
+    "question": 2,
+    "condition": "demographics-only",
+    "length_tercile": 3,
+    "unit_id": "demographics-only::fg1::R1::Q2",
+    "total_words": 2687
+   },
+   {
+    "question": 2,
+    "condition": "enriched",
+    "length_tercile": 1,
+    "unit_id": "enriched::fg1::R3::Q2",
+    "total_words": 896
+   },
+   {
+    "question": 2,
+    "condition": "enriched",
+    "length_tercile": 2,
+    "unit_id": "enriched::fg1::R1::Q2",
+    "total_words": 1039
+   },
+   {
+    "question": 2,
+    "condition": "enriched",
+    "length_tercile": 3,
+    "unit_id": "enriched::fg2::R2::Q2",
+    "total_words": 1173
+   },
+   {
+    "question": 2,
+    "condition": "human",
+    "length_tercile": 1,
+    "unit_id": "human::fg1::Q2",
+    "total_words": 333
+   },
+   {
+    "question": 2,
+    "condition": "human",
+    "length_tercile": 2,
+    "unit_id": "human::fg3::Q2",
+    "total_words": 887
+   },
+   {
+    "question": 2,
+    "condition": "human",
+    "length_tercile": 3,
+    "unit_id": "human::fg5::Q2",
+    "total_words": 2070
+   },
+   {
+    "question": 3,
+    "condition": "demographics-only",
+    "length_tercile": 1,
+    "unit_id": "demographics-only::fg1::R3::Q3",
+    "total_words": 1378
+   },
+   {
+    "question": 3,
+    "condition": "demographics-only",
+    "length_tercile": 2,
+    "unit_id": "demographics-only::fg2::R1::Q3",
+    "total_words": 1890
+   },
+   {
+    "question": 3,
+    "condition": "demographics-only",
+    "length_tercile": 3,
+    "unit_id": "demographics-only::fg1::R1::Q3",
+    "total_words": 4883
+   },
+   {
+    "question": 3,
+    "condition": "enriched",
+    "length_tercile": 1,
+    "unit_id": "enriched::fg1::R2::Q3",
+    "total_words": 1516
+   },
+   {
+    "question": 3,
+    "condition": "enriched",
+    "length_tercile": 2,
+    "unit_id": "enriched::fg2::R2::Q3",
+    "total_words": 2170
+   },
+   {
+    "question": 3,
+    "condition": "enriched",
+    "length_tercile": 3,
+    "unit_id": "enriched::fg1::R1::Q3",
+    "total_words": 2875
+   },
+   {
+    "question": 3,
+    "condition": "human",
+    "length_tercile": 1,
+    "unit_id": "human::fg1::Q3",
+    "total_words": 481
+   },
+   {
+    "question": 3,
+    "condition": "human",
+    "length_tercile": 2,
+    "unit_id": "human::fg3::Q3",
+    "total_words": 2385
+   },
+   {
+    "question": 3,
+    "condition": "human",
+    "length_tercile": 3,
+    "unit_id": "human::fg5::Q3",
+    "total_words": 2418
+   },
+   {
+    "question": 4,
+    "condition": "demographics-only",
+    "length_tercile": 1,
+    "unit_id": "demographics-only::fg1::R3::Q4",
+    "total_words": 1738
+   },
+   {
+    "question": 4,
+    "condition": "demographics-only",
+    "length_tercile": 2,
+    "unit_id": "demographics-only::fg2::R1::Q4",
+    "total_words": 2287
+   },
+   {
+    "question": 4,
+    "condition": "demographics-only",
+    "length_tercile": 3,
+    "unit_id": "demographics-only::fg1::R1::Q4",
+    "total_words": 3882
+   },
+   {
+    "question": 4,
+    "condition": "enriched",
+    "length_tercile": 1,
+    "unit_id": "enriched::fg1::R2::Q4",
+    "total_words": 1385
+   },
+   {
+    "question": 4,
+    "condition": "enriched",
+    "length_tercile": 2,
+    "unit_id": "enriched::fg1::R3::Q4",
+    "total_words": 2170
+   },
+   {
+    "question": 4,
+    "condition": "enriched",
+    "length_tercile": 3,
+    "unit_id": "enriched::fg1::R1::Q4",
+    "total_words": 2399
+   },
+   {
+    "question": 4,
+    "condition": "human",
+    "length_tercile": 1,
+    "unit_id": "human::fg1::Q4",
+    "total_words": 752
+   },
+   {
+    "question": 4,
+    "condition": "human",
+    "length_tercile": 2,
+    "unit_id": "human::fg4::Q4",
+    "total_words": 1047
+   },
+   {
+    "question": 4,
+    "condition": "human",
+    "length_tercile": 3,
+    "unit_id": "human::fg3::Q4",
+    "total_words": 2524
+   },
+   {
+    "question": 5,
+    "condition": "demographics-only",
+    "length_tercile": 1,
+    "unit_id": "demographics-only::fg2::R3::Q5",
+    "total_words": 1428
+   },
+   {
+    "question": 5,
+    "condition": "demographics-only",
+    "length_tercile": 2,
+    "unit_id": "demographics-only::fg1::R1::Q5",
+    "total_words": 2047
+   },
+   {
+    "question": 5,
+    "condition": "demographics-only",
+    "length_tercile": 3,
+    "unit_id": "demographics-only::fg1::R3::Q5",
+    "total_words": 2659
+   },
+   {
+    "question": 5,
+    "condition": "enriched",
+    "length_tercile": 1,
+    "unit_id": "enriched::fg4::R1::Q5",
+    "total_words": 1476
+   },
+   {
+    "question": 5,
+    "condition": "enriched",
+    "length_tercile": 2,
+    "unit_id": "enriched::fg1::R1::Q5",
+    "total_words": 2136
+   },
+   {
+    "question": 5,
+    "condition": "enriched",
+    "length_tercile": 3,
+    "unit_id": "enriched::fg1::R2::Q5",
+    "total_words": 2383
+   },
+   {
+    "question": 5,
+    "condition": "human",
+    "length_tercile": 1,
+    "unit_id": "human::fg1::Q5",
+    "total_words": 936
+   },
+   {
+    "question": 5,
+    "condition": "human",
+    "length_tercile": 2,
+    "unit_id": "human::fg4::Q5",
+    "total_words": 967
+   },
+   {
+    "question": 5,
+    "condition": "human",
+    "length_tercile": 3,
+    "unit_id": "human::fg3::Q5",
+    "total_words": 1436
+   }
+  ],
+  "rule": "question x condition x length tercile, one unit each"
+ },
+ "stages": [
+  {
+   "stage": "A_EXTRACTION",
+   "model": "gemini",
+   "calls": 174,
+   "input_tokens": 457703,
+   "output_tokens": 198435,
+   "derivation": "one call per question x document unit; calls = len(inventory.units)"
+  },
+  {
+   "stage": "B_CANONICAL_TAXONOMY",
+   "model": "gemini",
+   "calls": 5,
+   "input_tokens": 70757,
+   "output_tokens": 33152,
+   "derivation": "one canonical taxonomy per question; calls = n_questions"
+  },
+  {
+   "stage": "C_REASSIGNMENT_AUDITS",
+   "model": "gemini",
+   "calls": 10,
+   "input_tokens": 174515,
+   "output_tokens": 33304,
+   "derivation": "2 audits per question against the frozen canonical taxonomy"
+  },
+  {
+   "stage": "D_UNSTABLE_ADJUDICATION",
+   "model": "claude",
+   "calls": 278,
+   "input_tokens": 834000,
+   "output_tokens": 83400,
+   "derivation": "15% of 925 themes x 2 repetitions"
+  },
+  {
+   "stage": "E1_BALANCED_TAXONOMY_CONSTRUCTION",
+   "model": "gemini",
+   "calls": 5,
+   "input_tokens": 27462,
+   "output_tokens": 22019,
+   "derivation": "sees ONLY the balanced subsample; output taxonomy is frozen and hash-keyed"
+  },
+  {
+   "stage": "E2_FULL_REASSIGNMENT_TO_BALANCED_TAXONOMY",
+   "model": "gemini",
+   "calls": 5,
+   "input_tokens": 87257,
+   "output_tokens": 16652,
+   "derivation": "ALL raw themes assigned against the frozen E1 taxonomy; E1 is never revised"
+  },
+  {
+   "stage": "E3_BALANCED_NEW_CLUSTER_CONSOLIDATION",
+   "model": "gemini",
+   "calls": 5,
+   "input_tokens": 27680,
+   "output_tokens": 8832,
+   "derivation": "consolidates the E2 NEW_CLUSTER themes among themselves into BALANCED_TAXONOMY_EXTENDED_V1; E1 is never overwritten"
+  },
+  {
+   "stage": "F1_INSTABILITY_REEXTRACTION",
+   "model": "gemini",
+   "calls": 45,
+   "input_tokens": 120593,
+   "output_tokens": 51830,
+   "derivation": "5 questions x 3 corpora x 3 length terciles, one unit each"
+  },
+  {
+   "stage": "F2_PASS2_ASSIGNMENT_TO_CANONICAL_TAXONOMY",
+   "model": "gemini",
+   "calls": 5,
+   "input_tokens": 39414,
+   "output_tokens": 4349,
+   "derivation": "pass-2 themes assigned DIRECTLY against the canonical taxonomy; no nearest-neighbour matching decides anything"
+  }
+ ],
+ "by_model": {
+  "gemini": {
+   "calls": 254,
+   "input_tokens": 1005381,
+   "output_tokens": 368573
+  },
+  "claude": {
+   "calls": 278,
+   "input_tokens": 834000,
+   "output_tokens": 83400
+  }
+ },
+ "claude_cost_usd": 3.13,
+ "claude_rate": {
+  "input_per_mtok": 2.5,
+  "output_per_mtok": 12.5,
+  "source": "verified list Batch rate, 2026-08-02"
+ },
+ "gemini_cost_usd": null,
+ "gemini_cost_status": "NOT_CALCULATED_RATE_NOT_VERIFIED",
+ "totals": {
+  "calls": 532,
+  "input_tokens": 1839381,
+  "output_tokens": 451973
+ },
+ "largest_prompt_tokens": 19251,
+ "context_headroom_vs_200k": 0.9037,
+ "budget_class": "PLANNING_ESTIMATE",
+ "phased_budget": {
+  "PHASE_A_MANIFEST": {
+   "status": "EXACT",
+   "calls": 174,
+   "basis": "one per segmented unit; 174 is a count, not an estimate"
+  },
+  "POST_A_REPLAN": {
+   "status": "DEFERRED",
+   "recomputes": [
+    "B",
+    "C",
+    "E1",
+    "E2",
+    "E3",
+    "F1",
+    "F2"
+   ],
+   "trigger": "only once the real raw themes exist",
+   "why": "every downstream size depends on the observed theme count"
+  },
+  "POST_C_STAGE_D_MANIFEST": {
+   "status": "DEFERRED",
+   "recomputes": [
+    "D"
+   ],
+   "trigger": "only once Stage C has produced observed instability",
+   "why": "Stage D volume is the number of OBSERVED unstable cases; the scenario share below is a hypothesis, never a measurement"
+  }
+ },
+ "stage_d_scenarios": {
+  "5pct": {
+   "unstable_cases": 46,
+   "claude_calls": 92,
+   "claude_cost_usd": 1.04
+  },
+  "15pct": {
+   "unstable_cases": 139,
+   "claude_calls": 278,
+   "claude_cost_usd": 3.13
+  },
+  "30pct": {
+   "unstable_cases": 278,
+   "claude_calls": 556,
+   "claude_cost_usd": 6.25
+  }
+ },
+ "planning_assumptions": {
+  "clusters_per_question": 55,
+  "unstable_share_PLANNING_ONLY": 0.15,
+  "unstable_scenarios": [
+   0.05,
+   0.15,
+   0.3
+  ],
+  "new_cluster_share_PLANNING_ONLY": 0.08,
+  "stage_d_repetitions": 2,
+  "tokens_per_theme_read": 70,
+  "tokens_per_theme_written": 214.5
+ },
+ "status": "SUPERSEDED_BY_POST_A_REPLAN_V2",
+ "superseded_utc": "2026-08-03",
+ "superseded_reason": "expected_raw_themes assumed 925 themes; Phase A observed 526. Every B-F figure derived from 925 is withdrawn.",
+ "replaced_by": "inductive_stage_b/post_a_replan_v2.json",
+ "withdrawn_figure": {
+  "expected_raw_themes_total": 925
+ },
+ "observed_replacement": {
+  "total": 526,
+  "per_question": {
+   "1": 95,
+   "2": 103,
+   "3": 107,
+   "4": 105,
+   "5": 116
+  }
+ }
+}

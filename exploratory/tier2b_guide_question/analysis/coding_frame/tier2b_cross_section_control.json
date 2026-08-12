@@ -1,0 +1,311 @@
+{
+  "date": "2026-07-29",
+  "evaluator": "gemini-2.5-flash",
+  "evaluator_config": {
+    "model": "gemini-2.5-flash",
+    "key_env": "GEMINI_API_KEY_25",
+    "temperature": 0.0,
+    "thinking_level": null
+  },
+  "themes_source": "C:\\Users\\JLARA\\Documents\\Dissertation\\my_qualitative_project\\analysis\\coding_frame\\tier2b_human_ceiling_fg1_fg2_fg3.json",
+  "no_extraction_performed": true,
+  "read_only": true,
+  "recall_is_control_not_fidelity": "The two sides of every pair answer different guide questions by construction. Recall here measures only how readily the matcher pairs two theme sets; it is not a fidelity measure.",
+  "related_topic_note": "Guide sections 4 and 5 are both about plant-based eating, so pairs spanning them are labelled related_topic and reported as an intermediate rung rather than as unrelated-topic controls.",
+  "cross_pairs": [
+    {
+      "cell": "same_group_diff_question",
+      "group_a": "fg1",
+      "section_a": 2,
+      "group_b": "fg1",
+      "section_b": 4,
+      "topic_relation": "unrelated_topic",
+      "section_a_label": "Everyday food decision-making",
+      "section_b_label": "Imagining a plant-based shift",
+      "a_themes": 3,
+      "b_themes": 4,
+      "matched": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "matched_pairs": [],
+      "disagreements": []
+    },
+    {
+      "cell": "same_group_diff_question",
+      "group_a": "fg2",
+      "section_a": 1,
+      "group_b": "fg2",
+      "section_b": 3,
+      "topic_relation": "unrelated_topic",
+      "section_a_label": "Opening discussion: male friendship and place",
+      "section_b_label": "Gender and food choice",
+      "a_themes": 3,
+      "b_themes": 3,
+      "matched": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "matched_pairs": [],
+      "disagreements": []
+    },
+    {
+      "cell": "same_group_diff_question",
+      "group_a": "fg3",
+      "section_a": 3,
+      "group_b": "fg3",
+      "section_b": 5,
+      "topic_relation": "unrelated_topic",
+      "section_a_label": "Gender and food choice",
+      "section_b_label": "Making plant-based foods more appealing",
+      "a_themes": 5,
+      "b_themes": 3,
+      "matched": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "matched_pairs": [],
+      "disagreements": []
+    },
+    {
+      "cell": "diff_group_diff_question",
+      "group_a": "fg1",
+      "section_a": 2,
+      "group_b": "fg2",
+      "section_b": 4,
+      "topic_relation": "unrelated_topic",
+      "section_a_label": "Everyday food decision-making",
+      "section_b_label": "Imagining a plant-based shift",
+      "a_themes": 3,
+      "b_themes": 4,
+      "matched": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "matched_pairs": [],
+      "disagreements": []
+    },
+    {
+      "cell": "diff_group_diff_question",
+      "group_a": "fg1",
+      "section_a": 3,
+      "group_b": "fg3",
+      "section_b": 5,
+      "topic_relation": "unrelated_topic",
+      "section_a_label": "Gender and food choice",
+      "section_b_label": "Making plant-based foods more appealing",
+      "a_themes": 3,
+      "b_themes": 3,
+      "matched": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "matched_pairs": [],
+      "disagreements": []
+    },
+    {
+      "cell": "diff_group_diff_question",
+      "group_a": "fg2",
+      "section_a": 1,
+      "group_b": "fg3",
+      "section_b": 4,
+      "topic_relation": "unrelated_topic",
+      "section_a_label": "Opening discussion: male friendship and place",
+      "section_b_label": "Imagining a plant-based shift",
+      "a_themes": 3,
+      "b_themes": 5,
+      "matched": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "matched_pairs": [],
+      "disagreements": []
+    },
+    {
+      "cell": "diff_group_diff_question",
+      "group_a": "fg1",
+      "section_a": 1,
+      "group_b": "fg3",
+      "section_b": 3,
+      "topic_relation": "unrelated_topic",
+      "section_a_label": "Opening discussion: male friendship and place",
+      "section_b_label": "Gender and food choice",
+      "a_themes": 3,
+      "b_themes": 5,
+      "matched": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "matched_pairs": [],
+      "disagreements": []
+    },
+    {
+      "cell": "diff_group_diff_question",
+      "group_a": "fg1",
+      "section_a": 5,
+      "group_b": "fg2",
+      "section_b": 2,
+      "topic_relation": "unrelated_topic",
+      "section_a_label": "Making plant-based foods more appealing",
+      "section_b_label": "Everyday food decision-making",
+      "a_themes": 5,
+      "b_themes": 4,
+      "matched": 2,
+      "recall": 0.4,
+      "precision": 0.5,
+      "matched_pairs": [
+        {
+          "a_theme": "Health Benefits and Nutritional Value",
+          "a_definition": "This theme captures participants' recognition of the potential health advantages of plant-based foods, such as lower calories and benefits for blood sugar regulation and weight management.",
+          "b_theme": "Menu and Dietary Restrictions",
+          "b_definition": "This theme reflects how participants' food choices are influenced by available menu options and personal dietary restrictions or preferences.",
+          "embedding_similarity": 0.564
+        },
+        {
+          "a_theme": "Taste and Texture Improvement",
+          "a_definition": "This theme captures participants' desire for plant-based foods to have better flavor, more substantial texture, and overall improved palatability to be more appealing.",
+          "b_theme": "Comfort and Enjoyment from Food",
+          "b_definition": "This theme highlights the importance participants place on food being enjoyable and providing comfort, often leading them to choose familiar or easy-to-make dishes.",
+          "embedding_similarity": 0.636
+        }
+      ],
+      "disagreements": []
+    },
+    {
+      "cell": "diff_group_related_question",
+      "group_a": "fg1",
+      "section_a": 4,
+      "group_b": "fg2",
+      "section_b": 5,
+      "topic_relation": "related_topic",
+      "section_a_label": "Imagining a plant-based shift",
+      "section_b_label": "Making plant-based foods more appealing",
+      "a_themes": 4,
+      "b_themes": 5,
+      "matched": 1,
+      "recall": 0.25,
+      "precision": 0.2,
+      "matched_pairs": [
+        {
+          "a_theme": "Challenges with taste and food substitutes",
+          "a_definition": "This theme captures participants' skepticism and dissatisfaction regarding the taste and quality of plant-based meat substitutes and the perceived blandness of plant-based meals.",
+          "b_theme": "Taste and texture as key factors",
+          "b_definition": "Participants emphasize that the taste and texture of plant-based alternatives are crucial for their appeal and willingness to switch from meat.",
+          "embedding_similarity": 0.769
+        }
+      ],
+      "disagreements": [
+        {
+          "type": "gemini_no_embed_high",
+          "ri": 2,
+          "si": 1,
+          "sim": 0.685,
+          "reason": "R2 focuses on dissatisfaction with the taste and quality of existing substitutes; S1 is about the preference for plant-based foods to have their own distinct identity rather than imitating meat.",
+          "a_theme": "Challenges with taste and food substitutes",
+          "b_theme": "Authenticity and acceptance of plant-based identity"
+        }
+      ]
+    },
+    {
+      "cell": "diff_group_related_question",
+      "group_a": "fg2",
+      "section_a": 4,
+      "group_b": "fg3",
+      "section_b": 5,
+      "topic_relation": "related_topic",
+      "section_a_label": "Imagining a plant-based shift",
+      "section_b_label": "Making plant-based foods more appealing",
+      "a_themes": 4,
+      "b_themes": 3,
+      "matched": 3,
+      "recall": 0.75,
+      "precision": 1.0,
+      "matched_pairs": [
+        {
+          "a_theme": "High cost of plant-based alternatives",
+          "a_definition": "Participants identify the higher price point of plant-based products as a significant barrier to adoption, especially given current economic conditions.",
+          "b_theme": "Cost and Affordability",
+          "b_definition": "This theme reflects participants' consideration of price as a significant factor in the appeal and adoption of plant-based foods, especially in the current economic climate.",
+          "embedding_similarity": 0.786
+        },
+        {
+          "a_theme": "Unsatisfying taste and texture",
+          "a_definition": "Participants indicate that plant-based alternatives often fail to replicate the taste and texture of traditional meat and dairy products, leading to dissatisfaction.",
+          "b_theme": "Mimicking Meat Taste and Texture",
+          "b_definition": "This theme captures participants' desire for plant-based foods to closely replicate the taste, texture, and overall experience of eating meat, or to be entirely distinct.",
+          "embedding_similarity": 0.688
+        },
+        {
+          "a_theme": "Lack of clarity on ingredients and processing",
+          "a_definition": "Participants express concern and confusion regarding the ingredients and manufacturing processes of plant-based alternatives, leading to distrust.",
+          "b_theme": "Nutritional Value and Health Concerns",
+          "b_definition": "This theme highlights participants' concerns about whether plant-based diets can provide all necessary nutrients, particularly protein, without supplements.",
+          "embedding_similarity": 0.503
+        }
+      ],
+      "disagreements": []
+    }
+  ],
+  "cells": {
+    "same_group_diff_question": {
+      "n_pairs": 3,
+      "mean_recall": 0.0,
+      "mean_precision": 0.0,
+      "total_matched": 0,
+      "recall_range": [
+        0.0,
+        0.0
+      ]
+    },
+    "diff_group_diff_question": {
+      "n_pairs": 5,
+      "mean_recall": 0.08,
+      "mean_precision": 0.1,
+      "total_matched": 2,
+      "recall_range": [
+        0.0,
+        0.4
+      ]
+    },
+    "diff_group_related_question": {
+      "n_pairs": 2,
+      "mean_recall": 0.5,
+      "mean_precision": 0.6,
+      "total_matched": 4,
+      "recall_range": [
+        0.25,
+        0.75
+      ]
+    }
+  },
+  "known_figures": [
+    {
+      "comparison": "Same text, re-extracted (pilot stability)",
+      "condition": "same group, same question",
+      "mean_recall": 0.964
+    },
+    {
+      "comparison": "real FG1 ↔ real FG2 (human ceiling)",
+      "condition": "diff group, same question",
+      "mean_recall": 0.57
+    },
+    {
+      "comparison": "real FG1 ↔ real FG3 (human ceiling)",
+      "condition": "diff group, same question",
+      "mean_recall": 0.437
+    },
+    {
+      "comparison": "real FG2 ↔ real FG3 (human ceiling)",
+      "condition": "diff group, same question",
+      "mean_recall": 0.413
+    },
+    {
+      "comparison": "real FG1 ↔ synth FG1 run01 (matched)",
+      "condition": "synthetic, same question",
+      "mean_recall": 0.213
+    },
+    {
+      "comparison": "real FG1 ↔ synth FG5 run01 (mismatched)",
+      "condition": "synthetic, same question",
+      "mean_recall": 0.447
+    },
+    {
+      "comparison": "real FG1 ↔ synth FG5 run03 (mismatched)",
+      "condition": "synthetic, same question",
+      "mean_recall": 0.183
+    }
+  ]
+}

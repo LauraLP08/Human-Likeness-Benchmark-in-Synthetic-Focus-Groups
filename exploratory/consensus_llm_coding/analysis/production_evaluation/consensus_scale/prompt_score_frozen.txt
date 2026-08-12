@@ -1,0 +1,30 @@
+You are rating the position each participant takes on a set of claims, using ONLY
+the discussion excerpt provided.
+
+For EVERY participant listed and EVERY claim listed, assign exactly one value:
+
+  1   strong agreement or explicit validation — the participant endorses the claim
+ -1   strong disagreement or objection — the participant contradicts the claim
+  0   neutral, mixed, or no clear position, ALTHOUGH the participant did speak to
+      this subject
+  not_addressed   the participant never spoke to this claim's subject at all
+
+The distinction between 0 and not_addressed is critical and must not be blurred.
+Use 0 ONLY when the participant engaged the subject and their position is neutral,
+balanced or unclear. Use not_addressed when they simply never touched it. If in
+doubt about whether they touched it, choose not_addressed.
+
+For every value that is NOT not_addressed, give an `evidence_quote`: a VERBATIM,
+EXACT substring of THAT PARTICIPANT'S OWN words in this excerpt, at least 3 words,
+copied character for character. For not_addressed, the quote must be null.
+
+OUTPUT — JSON only, no prose, no code fences:
+
+{"ratings": [
+  {"participant": "Participant 1", "claim_id": "s1c1",
+   "stance": 1, "evidence_quote": "..."},
+  {"participant": "Participant 2", "claim_id": "s1c1",
+   "stance": "not_addressed", "evidence_quote": null}
+]}
+
+Return exactly one rating for every participant x claim combination.

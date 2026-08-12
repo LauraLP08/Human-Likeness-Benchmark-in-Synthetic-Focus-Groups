@@ -1,0 +1,49 @@
+{
+ "scored_utc": "2026-08-03T16:11:27.172729+00:00",
+ "stage": "D_CROSS_MODEL_ADJUDICATION",
+ "repair": "TECHNICAL_TRUNCATION_REPAIR",
+ "gate_pass": true,
+ "gate_problems": [],
+ "n_requests_total": 10,
+ "n_requests_repaired": 6,
+ "n_requests_reused": 4,
+ "n_evaluations": 376,
+ "n_cases": 188,
+ "resolution_counts": {
+  "CROSS_MODEL_UNRESOLVED": 86,
+  "CROSS_MODEL_CONSENSUS_ASSIGNMENT": 102
+ },
+ "per_question": {
+  "1": {
+   "CROSS_MODEL_UNRESOLVED": 8,
+   "CROSS_MODEL_CONSENSUS_ASSIGNMENT": 20
+  },
+  "2": {
+   "CROSS_MODEL_CONSENSUS_ASSIGNMENT": 16,
+   "CROSS_MODEL_UNRESOLVED": 26
+  },
+  "3": {
+   "CROSS_MODEL_UNRESOLVED": 22,
+   "CROSS_MODEL_CONSENSUS_ASSIGNMENT": 19
+  },
+  "4": {
+   "CROSS_MODEL_CONSENSUS_ASSIGNMENT": 16,
+   "CROSS_MODEL_UNRESOLVED": 9
+  },
+  "5": {
+   "CROSS_MODEL_UNRESOLVED": 21,
+   "CROSS_MODEL_CONSENSUS_ASSIGNMENT": 31
+  }
+ },
+ "tie_breaking_by_confidence_or_mode": false,
+ "cross_model_consensus_is_not_human_validation": true,
+ "quarantine": [],
+ "usage_original_batch": {
+  "input_tokens": 57106,
+  "output_tokens": 77667
+ },
+ "usage_repair_batch": {
+  "input_tokens": 37596,
+  "output_tokens": 65917
+ }
+}

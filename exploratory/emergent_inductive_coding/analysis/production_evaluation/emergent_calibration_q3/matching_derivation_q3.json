@@ -1,0 +1,953 @@
+{
+ "derived_utc": "2026-08-02T18:41:50.017465+00:00",
+ "workbook": "Emergent_Matching_Q3_RESEARCHER_V2.xlsx",
+ "interpretation_applied": {
+  "status": "NO_LONGER_APPLIED — resolved by MATCHING_AMENDMENT_01",
+  "rule": "INVALID_CANDIDATE_KEY_ON_AN_UNCERTAIN_ROW_IS_DROPPED",
+  "row": "U03::C09",
+  "as_written": "U02::M2",
+  "why_droppable_without_a_substantive_choice": "the row is UNCERTAIN; candidate keys are optional there and count for nothing, so excluding an invalid one changes no match, no recall figure, no queue entry and no fusion/fragmentation finding",
+  "likely_intent_recorded_but_NOT_used": "U03::M2 — same local id, wrong unit prefix; her reasoning clause 'could not tell the difference between wanting or being pressured' corresponds to U03::M2, and the sibling rows U02::C09 and U04::C09 both use their own unit's key. NOT substituted: confirm in one line.",
+  "effect_on_results": "none — the row remains UNCERTAIN and unresolved either way"
+ },
+ "invalid_candidate_keys_dropped": [],
+ "n_human_instances": 44,
+ "n_machine_themes": 30,
+ "rows": [
+  {
+   "unit_id": "U01",
+   "human_key": "U01::C01",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U01::M4"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U01",
+   "human_key": "U01::C02",
+   "decision": "UNCERTAIN",
+   "confirmed_machine_keys": [],
+   "candidate_machine_keys": [
+    "U01::M5"
+   ],
+   "relation": "unresolved",
+   "reasoning": "Machine key is valid but more broad than the human coding"
+  },
+  {
+   "unit_id": "U01",
+   "human_key": "U01::C03",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U01::M3"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U01",
+   "human_key": "U01::C04",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U01::M1"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U01",
+   "human_key": "U01::C05",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U01::M2"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U01",
+   "human_key": "U01::C06",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U01::M1",
+    "U01::M4"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_many",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U01",
+   "human_key": "U01::C07",
+   "decision": "NO_MATCH_HUMAN_ONLY",
+   "confirmed_machine_keys": [],
+   "candidate_machine_keys": [],
+   "relation": "no_match_human_only",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U02",
+   "human_key": "U02::C03",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U02::M1"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U02",
+   "human_key": "U02::C04",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U02::M2"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U02",
+   "human_key": "U02::C07",
+   "decision": "NO_MATCH_HUMAN_ONLY",
+   "confirmed_machine_keys": [],
+   "candidate_machine_keys": [],
+   "relation": "no_match_human_only",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U02",
+   "human_key": "U02::C08",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U02::M4"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U02",
+   "human_key": "U02::C09",
+   "decision": "UNCERTAIN",
+   "confirmed_machine_keys": [],
+   "candidate_machine_keys": [
+    "U02::M1"
+   ],
+   "relation": "unresolved",
+   "reasoning": "It is true the machine key but human coding was more specific, so yes, it's true that it's not determined by gender, but by cravings."
+  },
+  {
+   "unit_id": "U02",
+   "human_key": "U02::C10",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U02::M3",
+    "U02::M5"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_many",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U03",
+   "human_key": "U03::C01",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U03::M3"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U03",
+   "human_key": "U03::C02",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U03::M1",
+    "U03::M3"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_many",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U03",
+   "human_key": "U03::C04",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U03::M1"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U03",
+   "human_key": "U03::C05",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U03::M3",
+    "U03::M1"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_many",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U03",
+   "human_key": "U03::C06",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U03::M1",
+    "U03::M3"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_many",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U03",
+   "human_key": "U03::C09",
+   "decision": "UNCERTAIN",
+   "confirmed_machine_keys": [],
+   "candidate_machine_keys": [
+    "U03::M2"
+   ],
+   "relation": "unresolved",
+   "reasoning": "It is true the machine key but human coding was more specific, so yes, it's true that it's not determined by gender, but by cravings AND could not tell the diference between wanting or being pressured"
+  },
+  {
+   "unit_id": "U03",
+   "human_key": "U03::C11",
+   "decision": "NO_MATCH_HUMAN_ONLY",
+   "confirmed_machine_keys": [],
+   "candidate_machine_keys": [],
+   "relation": "no_match_human_only",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U04",
+   "human_key": "U04::C03",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U04::M1"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U04",
+   "human_key": "U04::C09",
+   "decision": "UNCERTAIN",
+   "confirmed_machine_keys": [],
+   "candidate_machine_keys": [
+    "U04::M1"
+   ],
+   "relation": "unresolved",
+   "reasoning": "It is true the machine key but human coding was more specific, so yes, it's true that it's not determined by gender, but by cravings"
+  },
+  {
+   "unit_id": "U04",
+   "human_key": "U04::C10",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U04::M2"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U05",
+   "human_key": "U05::C01",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U05::M2"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U05",
+   "human_key": "U05::C02",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U05::M1"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U05",
+   "human_key": "U05::C06",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U05::M1",
+    "U05::M2",
+    "U05::M3"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_many",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U05",
+   "human_key": "U05::C07",
+   "decision": "NO_MATCH_HUMAN_ONLY",
+   "confirmed_machine_keys": [],
+   "candidate_machine_keys": [],
+   "relation": "no_match_human_only",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U05",
+   "human_key": "U05::C10",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U05::M4"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U05",
+   "human_key": "U05::C11",
+   "decision": "NO_MATCH_HUMAN_ONLY",
+   "confirmed_machine_keys": [],
+   "candidate_machine_keys": [],
+   "relation": "no_match_human_only",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U05",
+   "human_key": "U05::C12",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U05::M3"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U06",
+   "human_key": "U06::C02",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U06::M1",
+    "U06::M3"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_many",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U06",
+   "human_key": "U06::C06",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U06::M1"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U06",
+   "human_key": "U06::C09",
+   "decision": "UNCERTAIN",
+   "confirmed_machine_keys": [],
+   "candidate_machine_keys": [
+    "U06::M2",
+    "U06::M4"
+   ],
+   "relation": "unresolved",
+   "reasoning": "From the human coding meat is also seen as the default for men but also tied to craving it more"
+  },
+  {
+   "unit_id": "U06",
+   "human_key": "U06::C11",
+   "decision": "UNCERTAIN",
+   "confirmed_machine_keys": [],
+   "candidate_machine_keys": [
+    "U06::M3",
+    "U06::M2"
+   ],
+   "relation": "unresolved",
+   "reasoning": "The machine keys apply but they lack the component of men not overthinking about food choices, or like they can have almost anything"
+  },
+  {
+   "unit_id": "U06",
+   "human_key": "U06::C16",
+   "decision": "NO_MATCH_HUMAN_ONLY",
+   "confirmed_machine_keys": [],
+   "candidate_machine_keys": [],
+   "relation": "no_match_human_only",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U07",
+   "human_key": "U07::C01",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U07::M5"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U07",
+   "human_key": "U07::C02",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U07::M4"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U07",
+   "human_key": "U07::C04",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U07::M2"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U07",
+   "human_key": "U07::C06",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U07::M5",
+    "U07::M4"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_many",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U07",
+   "human_key": "U07::C08",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U07::M4"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U07",
+   "human_key": "U07::C11",
+   "decision": "NO_MATCH_HUMAN_ONLY",
+   "confirmed_machine_keys": [],
+   "candidate_machine_keys": [],
+   "relation": "no_match_human_only",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U07",
+   "human_key": "U07::C13",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U07::M3"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U07",
+   "human_key": "U07::C14",
+   "decision": "NO_MATCH_HUMAN_ONLY",
+   "confirmed_machine_keys": [],
+   "candidate_machine_keys": [],
+   "relation": "no_match_human_only",
+   "reasoning": ""
+  },
+  {
+   "unit_id": "U07",
+   "human_key": "U07::C15",
+   "decision": "MATCHED",
+   "confirmed_machine_keys": [
+    "U07::M1"
+   ],
+   "candidate_machine_keys": [],
+   "relation": "one_to_one",
+   "reasoning": ""
+  }
+ ],
+ "confirmed_links": {
+  "U01::M1": [
+   "U01::C04",
+   "U01::C06"
+  ],
+  "U01::M2": [
+   "U01::C05"
+  ],
+  "U01::M3": [
+   "U01::C03"
+  ],
+  "U01::M4": [
+   "U01::C01",
+   "U01::C06"
+  ],
+  "U02::M1": [
+   "U02::C03"
+  ],
+  "U02::M2": [
+   "U02::C04"
+  ],
+  "U02::M3": [
+   "U02::C10"
+  ],
+  "U02::M4": [
+   "U02::C08"
+  ],
+  "U02::M5": [
+   "U02::C10"
+  ],
+  "U03::M1": [
+   "U03::C02",
+   "U03::C04",
+   "U03::C05",
+   "U03::C06"
+  ],
+  "U03::M3": [
+   "U03::C01",
+   "U03::C02",
+   "U03::C05",
+   "U03::C06"
+  ],
+  "U04::M1": [
+   "U04::C03"
+  ],
+  "U04::M2": [
+   "U04::C10"
+  ],
+  "U05::M1": [
+   "U05::C02",
+   "U05::C06"
+  ],
+  "U05::M2": [
+   "U05::C01",
+   "U05::C06"
+  ],
+  "U05::M3": [
+   "U05::C06",
+   "U05::C12"
+  ],
+  "U05::M4": [
+   "U05::C10"
+  ],
+  "U06::M1": [
+   "U06::C02",
+   "U06::C06"
+  ],
+  "U06::M3": [
+   "U06::C02"
+  ],
+  "U07::M1": [
+   "U07::C15"
+  ],
+  "U07::M2": [
+   "U07::C04"
+  ],
+  "U07::M3": [
+   "U07::C13"
+  ],
+  "U07::M4": [
+   "U07::C02",
+   "U07::C06",
+   "U07::C08"
+  ],
+  "U07::M5": [
+   "U07::C01",
+   "U07::C06"
+  ]
+ },
+ "candidate_uncertain_links": {
+  "U01::M5": [
+   "U01::C02"
+  ],
+  "U02::M1": [
+   "U02::C09"
+  ],
+  "U03::M2": [
+   "U03::C09"
+  ],
+  "U04::M1": [
+   "U04::C09"
+  ],
+  "U06::M2": [
+   "U06::C09",
+   "U06::C11"
+  ],
+  "U06::M3": [
+   "U06::C11"
+  ],
+  "U06::M4": [
+   "U06::C09"
+  ]
+ },
+ "human_only_instances": [
+  "U01::C07",
+  "U02::C07",
+  "U03::C11",
+  "U05::C07",
+  "U05::C11",
+  "U06::C16",
+  "U07::C11",
+  "U07::C14"
+ ],
+ "machine_themes_linked": [
+  "U01::M1",
+  "U01::M2",
+  "U01::M3",
+  "U01::M4",
+  "U02::M1",
+  "U02::M2",
+  "U02::M3",
+  "U02::M4",
+  "U02::M5",
+  "U03::M1",
+  "U03::M3",
+  "U04::M1",
+  "U04::M2",
+  "U05::M1",
+  "U05::M2",
+  "U05::M3",
+  "U05::M4",
+  "U06::M1",
+  "U06::M3",
+  "U07::M1",
+  "U07::M2",
+  "U07::M3",
+  "U07::M4",
+  "U07::M5"
+ ],
+ "machine_themes_unlinked": [
+  "U01::M5",
+  "U03::M2",
+  "U03::M4",
+  "U06::M2",
+  "U06::M4",
+  "U06::M5"
+ ],
+ "unconfirmed_theme_taxonomy": {
+  "CONFIRMED_UNLINKED_WITH_HUMAN_CANDIDATE": {
+   "U01::M5": [
+    "U01::C02"
+   ],
+   "U03::M2": [
+    "U03::C09"
+   ],
+   "U06::M2": [
+    "U06::C09",
+    "U06::C11"
+   ],
+   "U06::M4": [
+    "U06::C09"
+   ]
+  },
+  "PURE_MACHINE_ONLY": [
+   "U03::M4",
+   "U06::M5"
+  ],
+  "rule": "A = no confirmed match BUT named on a human UNCERTAIN row; a human saw it and related it to her own theme without settling the relation. It must NOT be described as absent from the human reference. B = no confirmed match and no human candidate at all."
+ },
+ "uncertain_rows": [
+  {
+   "unit_id": "U01",
+   "human_key": "U01::C02",
+   "candidate_machine_keys": [
+    "U01::M5"
+   ],
+   "invalid_keys_dropped": [],
+   "reasoning": "Machine key is valid but more broad than the human coding"
+  },
+  {
+   "unit_id": "U02",
+   "human_key": "U02::C09",
+   "candidate_machine_keys": [
+    "U02::M1"
+   ],
+   "invalid_keys_dropped": [],
+   "reasoning": "It is true the machine key but human coding was more specific, so yes, it's true that it's not determined by gender, but by cravings."
+  },
+  {
+   "unit_id": "U03",
+   "human_key": "U03::C09",
+   "candidate_machine_keys": [
+    "U03::M2"
+   ],
+   "invalid_keys_dropped": [],
+   "reasoning": "It is true the machine key but human coding was more specific, so yes, it's true that it's not determined by gender, but by cravings AND could not tell the diference between wanting or being pressured"
+  },
+  {
+   "unit_id": "U04",
+   "human_key": "U04::C09",
+   "candidate_machine_keys": [
+    "U04::M1"
+   ],
+   "invalid_keys_dropped": [],
+   "reasoning": "It is true the machine key but human coding was more specific, so yes, it's true that it's not determined by gender, but by cravings"
+  },
+  {
+   "unit_id": "U06",
+   "human_key": "U06::C09",
+   "candidate_machine_keys": [
+    "U06::M2",
+    "U06::M4"
+   ],
+   "invalid_keys_dropped": [],
+   "reasoning": "From the human coding meat is also seen as the default for men but also tied to craving it more"
+  },
+  {
+   "unit_id": "U06",
+   "human_key": "U06::C11",
+   "candidate_machine_keys": [
+    "U06::M3",
+    "U06::M2"
+   ],
+   "invalid_keys_dropped": [],
+   "reasoning": "The machine keys apply but they lack the component of men not overthinking about food choices, or like they can have almost anything"
+  }
+ ],
+ "possible_fusion_one_machine_many_human": {
+  "U01::M4": [
+   "U01::C01",
+   "U01::C06"
+  ],
+  "U01::M1": [
+   "U01::C04",
+   "U01::C06"
+  ],
+  "U03::M3": [
+   "U03::C01",
+   "U03::C02",
+   "U03::C05",
+   "U03::C06"
+  ],
+  "U03::M1": [
+   "U03::C02",
+   "U03::C04",
+   "U03::C05",
+   "U03::C06"
+  ],
+  "U05::M2": [
+   "U05::C01",
+   "U05::C06"
+  ],
+  "U05::M1": [
+   "U05::C02",
+   "U05::C06"
+  ],
+  "U05::M3": [
+   "U05::C06",
+   "U05::C12"
+  ],
+  "U06::M1": [
+   "U06::C02",
+   "U06::C06"
+  ],
+  "U07::M5": [
+   "U07::C01",
+   "U07::C06"
+  ],
+  "U07::M4": [
+   "U07::C02",
+   "U07::C06",
+   "U07::C08"
+  ]
+ },
+ "possible_fragmentation_one_human_many_machine": {
+  "U01::C06": [
+   "U01::M1",
+   "U01::M4"
+  ],
+  "U02::C10": [
+   "U02::M3",
+   "U02::M5"
+  ],
+  "U03::C02": [
+   "U03::M1",
+   "U03::M3"
+  ],
+  "U03::C05": [
+   "U03::M3",
+   "U03::M1"
+  ],
+  "U03::C06": [
+   "U03::M1",
+   "U03::M3"
+  ],
+  "U05::C06": [
+   "U05::M1",
+   "U05::M2",
+   "U05::M3"
+  ],
+  "U06::C02": [
+   "U06::M1",
+   "U06::M3"
+  ],
+  "U07::C06": [
+   "U07::M5",
+   "U07::M4"
+  ]
+ },
+ "coverage": {
+  "recall_vs_union_reference": {
+   "numerator_matched_human_instances": 30,
+   "denominator_human_instances": 44,
+   "value": 0.6818181818181818,
+   "note": "UNCERTAIN rows are NOT in the numerator; they are neither correct nor incorrect until resolved"
+  },
+  "strict_precision_vs_union_reference": {
+   "numerator_machine_themes_linked": 24,
+   "denominator_machine_themes": 30,
+   "value": 0.8,
+   "note": "strict: a machine theme not linked to any human instance counts against precision here even if it is later adjudicated VALID_NOVEL_THEME"
+  },
+  "human_only": {
+   "count": 8,
+   "denominator": 44
+  },
+  "uncertain": {
+   "count": 6,
+   "denominator": 44
+  }
+ },
+ "per_unit": {
+  "U01": {
+   "n_human": 7,
+   "matched": 5,
+   "human_only": 1,
+   "uncertain": 1,
+   "n_machine": 5,
+   "machine_linked": 4,
+   "recall": {
+    "numerator": 5,
+    "denominator": 7
+   },
+   "precision": {
+    "numerator": 4,
+    "denominator": 5
+   }
+  },
+  "U02": {
+   "n_human": 6,
+   "matched": 4,
+   "human_only": 1,
+   "uncertain": 1,
+   "n_machine": 5,
+   "machine_linked": 5,
+   "recall": {
+    "numerator": 4,
+    "denominator": 6
+   },
+   "precision": {
+    "numerator": 5,
+    "denominator": 5
+   }
+  },
+  "U03": {
+   "n_human": 7,
+   "matched": 5,
+   "human_only": 1,
+   "uncertain": 1,
+   "n_machine": 4,
+   "machine_linked": 2,
+   "recall": {
+    "numerator": 5,
+    "denominator": 7
+   },
+   "precision": {
+    "numerator": 2,
+    "denominator": 4
+   }
+  },
+  "U04": {
+   "n_human": 3,
+   "matched": 2,
+   "human_only": 0,
+   "uncertain": 1,
+   "n_machine": 2,
+   "machine_linked": 2,
+   "recall": {
+    "numerator": 2,
+    "denominator": 3
+   },
+   "precision": {
+    "numerator": 2,
+    "denominator": 2
+   }
+  },
+  "U05": {
+   "n_human": 7,
+   "matched": 5,
+   "human_only": 2,
+   "uncertain": 0,
+   "n_machine": 4,
+   "machine_linked": 4,
+   "recall": {
+    "numerator": 5,
+    "denominator": 7
+   },
+   "precision": {
+    "numerator": 4,
+    "denominator": 4
+   }
+  },
+  "U06": {
+   "n_human": 5,
+   "matched": 2,
+   "human_only": 1,
+   "uncertain": 2,
+   "n_machine": 5,
+   "machine_linked": 2,
+   "recall": {
+    "numerator": 2,
+    "denominator": 5
+   },
+   "precision": {
+    "numerator": 2,
+    "denominator": 5
+   }
+  },
+  "U07": {
+   "n_human": 9,
+   "matched": 7,
+   "human_only": 2,
+   "uncertain": 0,
+   "n_machine": 5,
+   "machine_linked": 5,
+   "recall": {
+    "numerator": 7,
+    "denominator": 9
+   },
+   "precision": {
+    "numerator": 5,
+    "denominator": 5
+   }
+  }
+ },
+ "metrics_exclude_quote_counts": "Human coding asked for ONE representative quote per theme; the extractor could supply several. No metric here uses quote number, density or coverage. Quotes are used only for groundedness."
+}

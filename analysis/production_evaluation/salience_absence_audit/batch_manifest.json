@@ -1,0 +1,1322 @@
+{
+ "built_utc": "2026-08-03T08:35:16.931525+00:00",
+ "classification": "BLINDED_CROSS_MODEL_ABSENCE_AUDIT",
+ "status": "PRE_SUBMISSION_NO_API_CALL_MADE",
+ "purpose": "determine whether an independent model finds transcript-grounded evidence contradicting an absence decision",
+ "is_not": [
+  "a new thematic analysis",
+  "proof of absolute absence",
+  "a replacement for the original coding"
+ ],
+ "auditor": {
+  "model": "claude-opus-5",
+  "execution_mode": "batch",
+  "effort": "high",
+  "structured_output": "output_config.format json_schema",
+  "temperature_transmitted": false,
+  "top_p_transmitted": false,
+  "top_k_transmitted": false,
+  "repetitions_per_request": 2,
+  "repetition_semantics": "two separately keyed stochastic repetitions of an independent cross-model auditor; they share a model, prompt, schema and rendering and differ only in the repetition index, so they measure the stability of one auditor and are not two independent auditors",
+  "cross_model_independence": "claude-opus-5 is independent of Gemini, which produced the original coding; that is the independence this design claims",
+  "max_output_tokens": 8192,
+  "max_output_tokens_record": {
+   "parameter": "max_output_tokens",
+   "value": 8192,
+   "record_type": "POST_FREEZE_CONFIGURATION_COMPLETION",
+   "absent_from_pre_submission_manifest": true,
+   "adopted_from": "the existing project cross-model audit configuration, scripts/cross_model_audit_q3.py MAX_OUTPUT_TOKENS",
+   "invented_for_this_audit": false,
+   "chosen_from_stage1_results": false,
+   "transmitted_on_all_28_stage1_requests": true,
+   "stage1_end_turn_responses": "28/28",
+   "stage1_truncated_responses": 0,
+   "stage1_complete_11_code_outputs": "28/28",
+   "frozen_prospectively_for_stage_2": true,
+   "may_be_retuned_on_stage1_results": false,
+   "why_not_retuned": "measured Stage-1 output was 399 tokens per assessment, about 4,390 per response, well inside the ceiling; retuning a frozen parameter to fit observed behaviour would tune the instrument on its own calibration data"
+  }
+ },
+ "auditor_rationale": "the original deductive coder was Gemini, so Gemini cannot supply independent cross-model evidence",
+ "stage1_gate": {
+  "frozen_before_submission": true,
+  "denominator_rule": "all originally-present quote-verified cells returned by the Stage-1 documents; the 22 designated cases guarantee subtheme coverage and are reported separately, never as the denominator",
+  "n_stage1_documents": 14,
+  "n_cells_returned": 154,
+  "n_original_present_quote_verified": 63,
+  "n_original_gemini_absence": 91,
+  "thresholds": {
+   "THRESHOLD_A": 0.8333,
+   "THRESHOLD_A_derivation": "1/1.20. The audit estimates how many of the 260 absences are contestable. If the auditor detects a fraction s of demonstrably locatable evidence, an observed count C of contested cells implies about C/s contestable absences. A declared tolerance that this inflation may not exceed 20% gives 1/1.20 = 0.8333 on the lower bound. The 20% tolerance is a stipulated choice declared in advance; the threshold follows from it arithmetically. No 0.80 convention is used.",
+   "THRESHOLD_B": 0.5,
+   "THRESHOLD_B_derivation": "a property of the instrument, not of any cell. Below one half the auditor fails to detect more known-localisable positive controls than it detects, and an instrument in that state produces non-detections carrying too little information to license a corroboration label of any kind. Detections are unaffected: a gate-passed quotation is verified against the transcript itself.",
+   "THRESHOLD_B_makes_no_per_cell_claim": "no statement is made about whether any individual AUDITOR_DID_NOT_FIND_EVIDENCE is a miss or a true absence; that would require knowing how many absences are genuinely contestable, which is the unknown this audit exists to bound and cannot assume",
+   "MAX_UNRESOLVED_UPPER_A": 0.2,
+   "interval": "Wilson score, z = 1.96",
+   "interval_status": "operational gate summary, not a confirmatory confidence interval: the 63 positive-control cells are clustered within 14 documents and the 11 assessments in one response are dependent, so this binomial interval is anticonservative and the true interval is wider; it is used only to place a count into a decision band against thresholds stipulated in advance"
+  },
+  "exact_gate": {
+   "band_a_requires": {
+    "detected_on_original_present_at_least": 59,
+    "of": 63,
+    "repetition_agreement_at_least": 138,
+    "of_cells": 154,
+    "unresolved_at_most": 21,
+    "outcome": "PROCEED_WITH_ABSENCE_CORROBORATION",
+    "permits": "ABSENCE_CORROBORATED",
+    "NECESSARY_BUT_NOT_SUFFICIENT": "band A alone does not license ABSENCE_CORROBORATED for any cell; the subtheme eligibility rule must also be satisfied"
+   },
+   "band_b_requires": {
+    "detected_on_original_present_at_least": 40,
+    "of": 63,
+    "repetition_agreement_at_least": 90,
+    "of_cells": 154,
+    "and_band_a_not_met": true,
+    "outcome": "PROCEED_DETECTION_ONLY",
+    "permits_only": "AUDITOR_DID_NOT_FIND_EVIDENCE",
+    "forbids": [
+     "ABSENCE_CORROBORATED"
+    ]
+   },
+   "band_c_otherwise": {
+    "outcome": "STOP_AUDITOR_UNUSABLE",
+    "consequence": "Stage 2 is not submitted; the calibration failure is the reported result and no absence figure is revised"
+   }
+  },
+  "subtheme_eligibility_rule": {
+   "applies_to": "ABSENCE_CORROBORATED",
+   "requires_both": [
+    "the global gate reaches PROCEED_WITH_ABSENCE_CORROBORATION",
+    "the auditor detected the designated ORIGINAL_GEMINI_PRESENT_QUOTE_VERIFIED control for that same subtheme, under the reconciled two-repetition rule"
+   ],
+   "otherwise": "every non-detection for that subtheme remains AUDITOR_DID_NOT_FIND_EVIDENCE, even under a global PROCEED_WITH_ABSENCE_CORROBORATION",
+   "contested_cells_unaffected": "a valid contested absence with gate-passed evidence remains contestable regardless of this rule, because it is verified against the transcript rather than against the auditor",
+   "why": "a global pass shows the auditor works across the codebook, not that it can recognise any particular subtheme; without this rule an auditor blind to one definition would corroborate every absence for that definition",
+   "n_designated_controls": 11,
+   "one_control_per_subtheme": true
+  },
+  "max_achievable_lower_bound_on_designated_present_only": 0.7412,
+  "why_designated_set_is_not_the_denominator": "a flawless 11/11 on the designated present cases yields a Wilson lower bound of 0.7412, below THRESHOLD_A (0.8333); the designated cases guarantee balanced subtheme coverage and are reported separately"
+ },
+ "universe": {
+  "n_documents": 35,
+  "n_subthemes": 11,
+  "n_cells": 385,
+  "n_verified_present": 125,
+  "n_absence_decisions_derived": 260,
+  "derivation": "35 documents x 11 subthemes - 125 verified-present instances = 260",
+  "hard_coded": false,
+  "reconciliation_rule": "every figure recomputed from results/thematic_code_presence_long.csv at build time; a mismatch aborts the build"
+ },
+ "request_shape": {
+  "candidates_per_request": 11,
+  "rule": "the full codebook is sent for every document",
+  "why": "sending only the absent codes would give every production request an all-absent structural signature and a candidate count varying from 1 to 10, while calibration requests carried a mixture",
+  "present_cells_become": "a concurrence control, 125 cells"
+ },
+ "prompt_sha256": "4bd14676d258911368374e29fab59e5c3fa49133217a90e5cd06be3455271c13",
+ "schema_sha256": "a851069d1c8379b21dc141840f9c749989dd227cff2d949757f141df70abf98e",
+ "cache_key_inputs": [
+  "classification",
+  "stage",
+  "blinded_document_id",
+  "rendered_document_sha256",
+  "candidate_code_set_sha256",
+  "prompt_sha256",
+  "schema_sha256",
+  "model",
+  "effort",
+  "execution_mode",
+  "repetition_index"
+ ],
+ "cache_key_collisions": 0,
+ "blinding": {
+  "check": "SPLIT",
+  "scaffold_rule": "full forbidden list over the system prompt, wrapper and candidate blocks",
+  "verbatim_rule": "hard provenance leaks only inside transcript text, which cannot be altered without destroying what is audited",
+  "scaffold_terms_checked": 37,
+  "hard_leak_terms_checked": 14,
+  "scaffold_failures": [],
+  "verbatim_leak_failures": [],
+  "opaque_document_ids": true,
+  "speakers_pseudonymised": "P1..Pn; the moderator is labelled Moderator",
+  "sealed_files": [
+   "sealed/sealed_document_mapping.json",
+   "sealed/calibration_reference_SEALED.json"
+  ],
+  "request_builder_reads_sealed_files": false,
+  "request_builder_note": "build_requests() consumes the public manifest and the render store only; it has no parameter, no import and no path by which a sealed file could be read",
+  "not_transmitted": [
+   "provenance",
+   "condition",
+   "focus-group identity",
+   "replication index",
+   "original coder decisions",
+   "original status of calibration cells",
+   "existing reach, recall, precision or hierarchy results"
+  ],
+  "candidate_order": "randomised deterministically per document",
+  "residual_risk": "participant first names occasionally occur inside utterances; they identify no condition and the auditor holds no reference set against which to match them"
+ },
+ "token_model": {
+  "input_tokens_per_word": 1.7502,
+  "input_tokens_fixed_per_request": 1620,
+  "r_squared": 0.9989,
+  "fitted_over_words": [
+   1135,
+   3387
+  ],
+  "source_job": "msgbatch_01RgXvJrPHyUZfaTimUzw1Bf",
+  "n_observations": 121,
+  "caveat": "this audit's prompts are roughly 8,300 words, well beyond the fitted range of 1,135-3,387, so the per-word slope is extrapolated; the fixed intercept also absorbs a response schema of a different size from the one used here. These are estimates with a stated band, not measurements.",
+  "estimate_band_pct": 20
+ },
+ "rates": {
+  "input_per_mtok_usd": 2.5,
+  "output_per_mtok_usd": 12.5,
+  "verified_utc": "2026-08-02",
+  "IMPORTANT": "cost CALCULATED at published list Batch rates from estimated token counts; not necessarily the amount charged. No Gemini rate is quoted anywhere in this audit because none has been verified."
+ },
+ "stage_1_calibration": {
+  "n_documents": 14,
+  "n_requests": 28,
+  "n_assessments": 308,
+  "n_absence_cells": 91,
+  "n_present_control_cells": 63,
+  "estimated_input_tokens": 438342,
+  "estimated_output_tokens": 64680,
+  "estimated_input_tokens_band": [
+   350674,
+   526010
+  ],
+  "calculated_list_batch_cost_usd": 1.9,
+  "calculated_list_batch_cost_band_usd": [
+   1.52,
+   2.29
+  ]
+ },
+ "stage_2_incremental": {
+  "n_documents": 21,
+  "n_requests": 42,
+  "n_assessments": 462,
+  "n_absence_cells": 169,
+  "n_present_control_cells": 62,
+  "estimated_input_tokens": 708556,
+  "estimated_output_tokens": 97020,
+  "estimated_input_tokens_band": [
+   566845,
+   850267
+  ],
+  "calculated_list_batch_cost_usd": 2.98,
+  "calculated_list_batch_cost_band_usd": [
+   2.39,
+   3.58
+  ]
+ },
+ "total_corpus": {
+  "n_documents": 35,
+  "n_requests": 70,
+  "n_assessments": 770,
+  "n_absence_cells": 260,
+  "n_present_control_cells": 125,
+  "estimated_input_tokens": 1146898,
+  "estimated_output_tokens": 161700,
+  "estimated_input_tokens_band": [
+   917518,
+   1376278
+  ],
+  "calculated_list_batch_cost_usd": 4.89,
+  "calculated_list_batch_cost_band_usd": [
+   3.91,
+   5.87
+  ]
+ },
+ "stage_2_note": "Stage 1 documents are not re-sent. Their requests would be byte-identical, so the cache key matches and the stored result is reused.",
+ "requests": [
+  {
+   "blinded_document_id": "DOC_87E9A953B6",
+   "stage": "STAGE1_CALIBRATION",
+   "n_candidates": 11,
+   "candidate_order": [
+    "B.3",
+    "C.3",
+    "A.2",
+    "D",
+    "A.1",
+    "B.2",
+    "A.3",
+    "C.2",
+    "B.1",
+    "B.4",
+    "C.1"
+   ],
+   "n_turns": 64,
+   "n_participants": 5,
+   "prompt_words": 3378,
+   "prompt_chars": 18300,
+   "rendered_sha256": "1dc27be41befdfdc3cf320fb9745d457a438a602f86e1fd68e0796876d991973",
+   "source_sha256": "0770659d52d7b2d021ccea74aec553dd1e9078f040c3452f0df2e2e04aebf62a",
+   "estimated_input_tokens": 7532,
+   "cache_keys": {
+    "1": "81405b1461537e280e3e57021d7156d79b72bdd0e0e2fffbc4ac331cab7badb2",
+    "2": "60af9670ad8732f6633f1d84c546727f53e0e200f407fcd118c6c5848cc644fe"
+   },
+   "n_absence_cells": 3,
+   "n_present_control_cells": 8
+  },
+  {
+   "blinded_document_id": "DOC_C71426C1B1",
+   "stage": "STAGE1_CALIBRATION",
+   "n_candidates": 11,
+   "candidate_order": [
+    "B.2",
+    "A.3",
+    "D",
+    "B.4",
+    "A.2",
+    "A.1",
+    "C.1",
+    "B.3",
+    "C.3",
+    "C.2",
+    "B.1"
+   ],
+   "n_turns": 33,
+   "n_participants": 5,
+   "prompt_words": 3363,
+   "prompt_chars": 18194,
+   "rendered_sha256": "493e6893bcc90ce2370edfccc620a927b2a0840793bbfadc790cb7ff575143da",
+   "source_sha256": "3e7a13fe70f828c190bf8dc3f58ac405c9460c4751f78331915b52668d13eb4d",
+   "estimated_input_tokens": 7506,
+   "cache_keys": {
+    "1": "a412b88ed9f79f6198303bc2f30b9699714fbc164a382be9e1346f8335445d52",
+    "2": "dda80dbf2fe026ebba35ad39a601553e1de0c30e77025b20bd268033359ed898"
+   },
+   "n_absence_cells": 4,
+   "n_present_control_cells": 7
+  },
+  {
+   "blinded_document_id": "DOC_044D944A54",
+   "stage": "STAGE1_CALIBRATION",
+   "n_candidates": 11,
+   "candidate_order": [
+    "C.3",
+    "D",
+    "B.4",
+    "A.3",
+    "C.1",
+    "A.2",
+    "B.3",
+    "A.1",
+    "B.2",
+    "B.1",
+    "C.2"
+   ],
+   "n_turns": 104,
+   "n_participants": 5,
+   "prompt_words": 8173,
+   "prompt_chars": 43006,
+   "rendered_sha256": "4d992a9c2ffa057ef237fec107c90ad2307cfbb97b97b56bc38c931b26b72a9d",
+   "source_sha256": "a82827080834e4ccc56e1a5dba014404681065ed7e79cf3c26c1187705230333",
+   "estimated_input_tokens": 15924,
+   "cache_keys": {
+    "1": "22c098b52b13554631c76fcea55a42990f6323075617f578b3cafbbdd8627182",
+    "2": "90cfe3ab32a4dc4644fbca0ce597af877e5e3b58d6c553b6475123775886d3bc"
+   },
+   "n_absence_cells": 1,
+   "n_present_control_cells": 10
+  },
+  {
+   "blinded_document_id": "DOC_DC66FA1DAE",
+   "stage": "STAGE1_CALIBRATION",
+   "n_candidates": 11,
+   "candidate_order": [
+    "B.1",
+    "C.2",
+    "A.2",
+    "B.4",
+    "B.3",
+    "C.1",
+    "B.2",
+    "D",
+    "A.1",
+    "A.3",
+    "C.3"
+   ],
+   "n_turns": 44,
+   "n_participants": 3,
+   "prompt_words": 3862,
+   "prompt_chars": 20599,
+   "rendered_sha256": "888470df4ba3dee3f89531333e58f9584e1b7fb9271e54dbec96ca45105c5b18",
+   "source_sha256": "2b8517ebef1009349ad4848239297f2e9836dffda7be66a99852bec32ec87e54",
+   "estimated_input_tokens": 8379,
+   "cache_keys": {
+    "1": "7c1b134393cc3ebcb4ca576d29e1d7be542ef46e6faf20fb55be1d61ff231aa1",
+    "2": "58b812af5ded18b51685f20fcc550990743bc5c3a7370f5cf7973802b24129bb"
+   },
+   "n_absence_cells": 5,
+   "n_present_control_cells": 6
+  },
+  {
+   "blinded_document_id": "DOC_5E8E19FE05",
+   "stage": "STAGE1_CALIBRATION",
+   "n_candidates": 11,
+   "candidate_order": [
+    "B.2",
+    "B.3",
+    "A.1",
+    "A.3",
+    "B.1",
+    "C.1",
+    "A.2",
+    "C.2",
+    "D",
+    "B.4",
+    "C.3"
+   ],
+   "n_turns": 128,
+   "n_participants": 4,
+   "prompt_words": 7085,
+   "prompt_chars": 37156,
+   "rendered_sha256": "a6b8617ff9de7dd924dd2c851f48414608effea083f5a6899967e3e555bc9847",
+   "source_sha256": "4f0b0a04f435d369f99b844017e5869ecf1b9d78dfa0e0d55e1ead59bdea44ae",
+   "estimated_input_tokens": 14020,
+   "cache_keys": {
+    "1": "4efa36282c2fbadbc8c24604baaa3b96511fd54c28cbb21d42734ef1fcf24b1a",
+    "2": "d0ec7eab366d81f983acdcf92417c76fcdf1f00a1c17862af7c288afc3fa944c"
+   },
+   "n_absence_cells": 6,
+   "n_present_control_cells": 5
+  },
+  {
+   "blinded_document_id": "DOC_4DA8BC4582",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "D",
+    "B.3",
+    "A.1",
+    "C.2",
+    "B.2",
+    "B.1",
+    "C.1",
+    "A.3",
+    "C.3",
+    "B.4",
+    "A.2"
+   ],
+   "n_turns": 38,
+   "n_participants": 5,
+   "prompt_words": 9923,
+   "prompt_chars": 55354,
+   "rendered_sha256": "d633037d5fe656cf140ad320ce7f77f04104598330f41a42a851240e53290185",
+   "source_sha256": "43ebff26d04867f0552723313779e03a56fa7f377e2295267ff0929a2814ce97",
+   "estimated_input_tokens": 18987,
+   "cache_keys": {
+    "1": "81c3dca1c847b77481468c8e318988e067d33de80d3ff75c674784835536573d",
+    "2": "73651433457902cc1eef0ff1f3c05751ab90176c47c32ee865519998d2d161d8"
+   },
+   "n_absence_cells": 8,
+   "n_present_control_cells": 3
+  },
+  {
+   "blinded_document_id": "DOC_7CB3BED8F8",
+   "stage": "STAGE1_CALIBRATION",
+   "n_candidates": 11,
+   "candidate_order": [
+    "C.3",
+    "B.4",
+    "A.1",
+    "C.2",
+    "A.3",
+    "B.3",
+    "C.1",
+    "A.2",
+    "B.1",
+    "B.2",
+    "D"
+   ],
+   "n_turns": 33,
+   "n_participants": 5,
+   "prompt_words": 8308,
+   "prompt_chars": 47264,
+   "rendered_sha256": "c0bc70578fb1186bae75c399bb705ed7faf967d71a7677891df3333065fd9902",
+   "source_sha256": "a9558195b7692927fc500d58be26feb7d4f8915cf7e19b2f9d6dd7b8f3943702",
+   "estimated_input_tokens": 16161,
+   "cache_keys": {
+    "1": "e5b2c3b29f8818b4c751e9c837aa6bc18d40a51b13a608e2018f68a052006a47",
+    "2": "431343654a2f154bbbbffc707c762dd8388d99c9e3fdd771ccefcbe2d1ff9504"
+   },
+   "n_absence_cells": 8,
+   "n_present_control_cells": 3
+  },
+  {
+   "blinded_document_id": "DOC_89A4B9DB12",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "C.1",
+    "C.2",
+    "A.1",
+    "C.3",
+    "A.2",
+    "B.2",
+    "B.3",
+    "D",
+    "B.1",
+    "A.3",
+    "B.4"
+   ],
+   "n_turns": 35,
+   "n_participants": 5,
+   "prompt_words": 9484,
+   "prompt_chars": 52483,
+   "rendered_sha256": "f4886b2f662e1fd84b3960f84a4a19830514e62bae09d4fc4f0f33c96b9440b6",
+   "source_sha256": "f34368ba6433e7c8d671c20afd498154610af0082165c139a5aaeed468eb2cdf",
+   "estimated_input_tokens": 18219,
+   "cache_keys": {
+    "1": "d14bd81fede589bdb7afcf2c6c4313fe913027dbb9236ef28174b8fcc314f14b",
+    "2": "bad42573cabe77fff7ba45fe71a5ded7d383e534caac9c12c7d97448deb94932"
+   },
+   "n_absence_cells": 8,
+   "n_present_control_cells": 3
+  },
+  {
+   "blinded_document_id": "DOC_62191FF7A9",
+   "stage": "STAGE1_CALIBRATION",
+   "n_candidates": 11,
+   "candidate_order": [
+    "C.2",
+    "B.1",
+    "B.3",
+    "A.3",
+    "B.4",
+    "A.1",
+    "D",
+    "C.3",
+    "B.2",
+    "C.1",
+    "A.2"
+   ],
+   "n_turns": 30,
+   "n_participants": 5,
+   "prompt_words": 6606,
+   "prompt_chars": 36945,
+   "rendered_sha256": "70a1a35c08a1054f2c79793a5cce541807da72edfceb93240a55a24c51d81f42",
+   "source_sha256": "5ad57d9fa59331a425cf06fbfeb1d16b80a0dbc07ab05e250072322da74e6c28",
+   "estimated_input_tokens": 13182,
+   "cache_keys": {
+    "1": "698ed84b360b3f7ee187b17d6629b75bdbfb64d4e2508e11d15997f5d2047391",
+    "2": "429cb8427dee7de7831c76145db05f995a8d26e482311103960ebdbeeb11c55a"
+   },
+   "n_absence_cells": 7,
+   "n_present_control_cells": 4
+  },
+  {
+   "blinded_document_id": "DOC_5E7C5B45F7",
+   "stage": "STAGE1_CALIBRATION",
+   "n_candidates": 11,
+   "candidate_order": [
+    "B.4",
+    "B.2",
+    "D",
+    "C.1",
+    "A.3",
+    "B.3",
+    "C.2",
+    "C.3",
+    "A.1",
+    "B.1",
+    "A.2"
+   ],
+   "n_turns": 43,
+   "n_participants": 5,
+   "prompt_words": 10356,
+   "prompt_chars": 58269,
+   "rendered_sha256": "ccc54a4c702a7005b2bbefc34a6f46dbd3782e3d0c1fc652d44a591216ad1c36",
+   "source_sha256": "2d46968f884dfc9e6b089fa880725737378194948cc96653b3e10848573339d5",
+   "estimated_input_tokens": 19745,
+   "cache_keys": {
+    "1": "eb85e7818e368ab624318cd416deb3f35f25234d89f20e050dbc938080b9ce44",
+    "2": "5d3dc6f4823b2017bcb68af785cc981d4b8caeafe4bc7e7f6db130d76ddd7afc"
+   },
+   "n_absence_cells": 6,
+   "n_present_control_cells": 5
+  },
+  {
+   "blinded_document_id": "DOC_9EF98FE857",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "B.4",
+    "B.1",
+    "D",
+    "A.1",
+    "A.3",
+    "C.3",
+    "B.3",
+    "C.2",
+    "A.2",
+    "B.2",
+    "C.1"
+   ],
+   "n_turns": 36,
+   "n_participants": 5,
+   "prompt_words": 9142,
+   "prompt_chars": 51602,
+   "rendered_sha256": "b0b928df5fc1ab5d1eef6047b17dd4c976e06848a894d5469c0aba9bee472b02",
+   "source_sha256": "6e2af29cdd259c55516845e8f8919497859a569734e5702b5092e747999836f9",
+   "estimated_input_tokens": 17620,
+   "cache_keys": {
+    "1": "5d44655e2d4c8965871f0c154d583eaf30216f8d26a0f44c5feec7516019c548",
+    "2": "c7a54e61bc72d2d352f101bbe806a809f3d35082bb866377c013e18550ae8cac"
+   },
+   "n_absence_cells": 9,
+   "n_present_control_cells": 2
+  },
+  {
+   "blinded_document_id": "DOC_5B321817D0",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "B.1",
+    "A.3",
+    "A.2",
+    "C.1",
+    "C.2",
+    "B.4",
+    "B.2",
+    "B.3",
+    "C.3",
+    "A.1",
+    "D"
+   ],
+   "n_turns": 32,
+   "n_participants": 5,
+   "prompt_words": 10353,
+   "prompt_chars": 57006,
+   "rendered_sha256": "0e7e975995655cb6f5c4683188bfeb0449071ac535e00c67a5fca6de554a95ee",
+   "source_sha256": "35d22075e4823baeafef6632bad40f41b24f371aa625c5a27e62026b2cf2bfd0",
+   "estimated_input_tokens": 19740,
+   "cache_keys": {
+    "1": "714de69ea33a11b722da7fdb9ebd411a7e717ea0885f69fafd6936ace4de4d40",
+    "2": "affd8ebd9f59db648d8a2a39be31c6a232cc3a3f2cccb7f2ceb4d2164d577fb2"
+   },
+   "n_absence_cells": 7,
+   "n_present_control_cells": 4
+  },
+  {
+   "blinded_document_id": "DOC_7360E12D6B",
+   "stage": "STAGE1_CALIBRATION",
+   "n_candidates": 11,
+   "candidate_order": [
+    "C.1",
+    "B.2",
+    "A.1",
+    "D",
+    "C.3",
+    "B.3",
+    "A.2",
+    "A.3",
+    "C.2",
+    "B.1",
+    "B.4"
+   ],
+   "n_turns": 25,
+   "n_participants": 5,
+   "prompt_words": 6635,
+   "prompt_chars": 36921,
+   "rendered_sha256": "285ba12325bdde0c5312b42cd5aff730b877f97a494204c9b850f55d96aae9bf",
+   "source_sha256": "edc8df5c197c5beb0d552b8d226929e493c3e1652e3726fd9e78622763104c92",
+   "estimated_input_tokens": 13233,
+   "cache_keys": {
+    "1": "c0ae1c27790aff665a1f29d1df161c0f3c2f3391dbbfad3f7cf6b4a149657c65",
+    "2": "29d1850af953c8b941494e846715da38f40313fcafc7939a59757ae5a4fc3bfb"
+   },
+   "n_absence_cells": 8,
+   "n_present_control_cells": 3
+  },
+  {
+   "blinded_document_id": "DOC_F577441639",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "B.1",
+    "D",
+    "A.1",
+    "A.2",
+    "C.2",
+    "B.2",
+    "B.3",
+    "A.3",
+    "C.1",
+    "C.3",
+    "B.4"
+   ],
+   "n_turns": 35,
+   "n_participants": 5,
+   "prompt_words": 9259,
+   "prompt_chars": 51281,
+   "rendered_sha256": "7de9ec13d661f103d6e2c4118c52fe6db44fb405aa48d37dccdd7d952458b2e0",
+   "source_sha256": "1cc065e485a75e5ac6ffb329bd2b89f532e20e96c0ccd33e89073b6612acbf10",
+   "estimated_input_tokens": 17825,
+   "cache_keys": {
+    "1": "62e9e80c20ae42c4b7dcc31e46c61e22b54578b5d50a867b774deefc445a4cb2",
+    "2": "26fe3fd4ec337eefbb1510a9f49764cc0c4829333bb448caac2eac456dadc343"
+   },
+   "n_absence_cells": 7,
+   "n_present_control_cells": 4
+  },
+  {
+   "blinded_document_id": "DOC_7A9976B196",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "D",
+    "C.3",
+    "A.2",
+    "C.1",
+    "B.4",
+    "B.1",
+    "C.2",
+    "A.1",
+    "B.3",
+    "B.2",
+    "A.3"
+   ],
+   "n_turns": 26,
+   "n_participants": 3,
+   "prompt_words": 6210,
+   "prompt_chars": 34467,
+   "rendered_sha256": "8d8e85557297f616417f1d23e307fb91c033a0924fe5f4b77502de65e5b77e3a",
+   "source_sha256": "768c02e900e43996f160e9a5572c46f2254c4d5530555d72136533354c607c3f",
+   "estimated_input_tokens": 12489,
+   "cache_keys": {
+    "1": "e571e2d35b498200e0fe9eb8ae70fb18d2a00e0cccbabe775461b1143c401799",
+    "2": "fa6eed8615cfdf29d33b1c91307c96d9a3e0623962f05c16599fc62ab45c7fd4"
+   },
+   "n_absence_cells": 8,
+   "n_present_control_cells": 3
+  },
+  {
+   "blinded_document_id": "DOC_81B366A05D",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "A.1",
+    "C.1",
+    "D",
+    "B.1",
+    "B.2",
+    "B.3",
+    "A.2",
+    "C.3",
+    "A.3",
+    "C.2",
+    "B.4"
+   ],
+   "n_turns": 33,
+   "n_participants": 3,
+   "prompt_words": 9210,
+   "prompt_chars": 50780,
+   "rendered_sha256": "f71fd7c42b62023ef7a17cc52a9c7441a8f335509c802d4fdb3bc50c9abc9da8",
+   "source_sha256": "0b3bf6f204628d95b55579f3f3bd9460564bf25d88ea4768f40601623127b9e0",
+   "estimated_input_tokens": 17739,
+   "cache_keys": {
+    "1": "f9c21d0919a4165136bebed0466ef1fe61f4f83cd63b89653ef6dd8828a810df",
+    "2": "14e4351ad046a369fd1d35461d9971ab50f0c91f26f7f4c7549221aa8342f3a6"
+   },
+   "n_absence_cells": 6,
+   "n_present_control_cells": 5
+  },
+  {
+   "blinded_document_id": "DOC_E2AEC0969D",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "A.3",
+    "C.2",
+    "B.3",
+    "A.1",
+    "B.4",
+    "B.1",
+    "D",
+    "C.1",
+    "A.2",
+    "B.2",
+    "C.3"
+   ],
+   "n_turns": 32,
+   "n_participants": 3,
+   "prompt_words": 8098,
+   "prompt_chars": 45145,
+   "rendered_sha256": "5c3c50a22b5e70931a8aa67a8799d6a6eada557382e8c5bd789b2a43449563f1",
+   "source_sha256": "944d9f0fcf3db6c267bdae829ed8208c6a74a7070e5cfdb4b12482fd7255ee0c",
+   "estimated_input_tokens": 15793,
+   "cache_keys": {
+    "1": "f23398f4a683ce6879937edd9cb6c8fba73517f68d576ba88c0cb974cb011d74",
+    "2": "227fcf7d48d13f3f08c8176374616b39bbebff3767848cccc3af28c38b5bc440"
+   },
+   "n_absence_cells": 8,
+   "n_present_control_cells": 3
+  },
+  {
+   "blinded_document_id": "DOC_38E95A714D",
+   "stage": "STAGE1_CALIBRATION",
+   "n_candidates": 11,
+   "candidate_order": [
+    "B.2",
+    "A.2",
+    "C.1",
+    "A.1",
+    "C.2",
+    "A.3",
+    "B.1",
+    "B.4",
+    "D",
+    "B.3",
+    "C.3"
+   ],
+   "n_turns": 29,
+   "n_participants": 4,
+   "prompt_words": 8400,
+   "prompt_chars": 46354,
+   "rendered_sha256": "777226ec1364f6b330e428d5b3eb3a67e08714f5fa70257d6cbeb82bc351827f",
+   "source_sha256": "9fdb5a807e52330eb3cb0aed0e9871e3f1f9a6fca7c99184d851badbe4fec5ce",
+   "estimated_input_tokens": 16322,
+   "cache_keys": {
+    "1": "91e2ca28db9602ec18d1f49efbde18c8f68fd54ba36b443142b557e23fa5c287",
+    "2": "2411816953472a740beffda0816493547ca73480211e62a224a7e77d2374ed57"
+   },
+   "n_absence_cells": 7,
+   "n_present_control_cells": 4
+  },
+  {
+   "blinded_document_id": "DOC_1E2FD20F40",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "C.3",
+    "B.1",
+    "C.1",
+    "A.2",
+    "C.2",
+    "D",
+    "B.4",
+    "A.1",
+    "A.3",
+    "B.2",
+    "B.3"
+   ],
+   "n_turns": 37,
+   "n_participants": 4,
+   "prompt_words": 9307,
+   "prompt_chars": 51753,
+   "rendered_sha256": "9e09d6b669a509b5b84890cb2d9e4f5fc63eb521cc75b0d57aecc38ee3a69cf9",
+   "source_sha256": "3ae78f408e5e92b64551363a22e99524f2733faedd188adddb1c6d51c2ebf590",
+   "estimated_input_tokens": 17909,
+   "cache_keys": {
+    "1": "1e0dffddf3ec6ae44d3ad17d708ddf521fcabae4fde039d72e096211c56dc9ba",
+    "2": "9bf8338e0c7b5704a418aba4963fcd01bf025ce4ee3a7600f92651dfedd1cd56"
+   },
+   "n_absence_cells": 7,
+   "n_present_control_cells": 4
+  },
+  {
+   "blinded_document_id": "DOC_754D3677B3",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "A.3",
+    "C.1",
+    "D",
+    "B.2",
+    "A.1",
+    "B.3",
+    "C.2",
+    "C.3",
+    "B.4",
+    "B.1",
+    "A.2"
+   ],
+   "n_turns": 33,
+   "n_participants": 4,
+   "prompt_words": 9326,
+   "prompt_chars": 51635,
+   "rendered_sha256": "1f549adfb05f5b2da16d1c3711a393427f7050ce60079059d8834ea3da7bd4e5",
+   "source_sha256": "41385e8e8a755d371cf897a41ee093849ed204a262c7a3617357999884c5dae7",
+   "estimated_input_tokens": 17942,
+   "cache_keys": {
+    "1": "f1c3b9f63676bf177f38745c7f096924f72b2dc9e27901c82abea597d6ce86d4",
+    "2": "27b5c2826c95350ed21ac124c93c13eb5750b19e4d91ae9a3dfb173eca90aea8"
+   },
+   "n_absence_cells": 9,
+   "n_present_control_cells": 2
+  },
+  {
+   "blinded_document_id": "DOC_DB7286F644",
+   "stage": "STAGE1_CALIBRATION",
+   "n_candidates": 11,
+   "candidate_order": [
+    "A.2",
+    "C.2",
+    "D",
+    "B.1",
+    "B.3",
+    "C.3",
+    "C.1",
+    "A.1",
+    "A.3",
+    "B.2",
+    "B.4"
+   ],
+   "n_turns": 52,
+   "n_participants": 5,
+   "prompt_words": 15615,
+   "prompt_chars": 87802,
+   "rendered_sha256": "2c8a53f760e0dce20199267d4fd919b90cf6f25009251a25878c9028afdb83ae",
+   "source_sha256": "a68930e5b8cf7b283eb7d5d97a0e9915dbabf301cd91e5f9be810a156522a9cc",
+   "estimated_input_tokens": 28949,
+   "cache_keys": {
+    "1": "fe9b843f22668802502cdf01d442834984e5c0f28456d0b48eac89950b1b5635",
+    "2": "fe2b369c6f9c22592c4ce9a1fdf1d3ed6be27a306027caa3de3dc4141f7861cd"
+   },
+   "n_absence_cells": 9,
+   "n_present_control_cells": 2
+  },
+  {
+   "blinded_document_id": "DOC_6F95E07A1D",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "A.1",
+    "C.3",
+    "B.3",
+    "C.2",
+    "B.4",
+    "A.2",
+    "A.3",
+    "D",
+    "B.2",
+    "C.1",
+    "B.1"
+   ],
+   "n_turns": 39,
+   "n_participants": 5,
+   "prompt_words": 8856,
+   "prompt_chars": 49521,
+   "rendered_sha256": "7d7bb892c71f712295794efc9643bb356a0569d4a7805957285d32f0ac57c9d0",
+   "source_sha256": "f5d5dde7a2d15973e5643ff80ded0876ec5c53f5cdeadee4cb69365662b8378d",
+   "estimated_input_tokens": 17120,
+   "cache_keys": {
+    "1": "8b5ea75913096ee70334bf084adbf427cb950733ac19b9962932fd1b312d0b92",
+    "2": "4eed29b205b46d5198c1b85b0da85a4cf46bb897775b636e38446870ce1e45cd"
+   },
+   "n_absence_cells": 7,
+   "n_present_control_cells": 4
+  },
+  {
+   "blinded_document_id": "DOC_9E002A7AA2",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "A.2",
+    "B.1",
+    "C.1",
+    "C.2",
+    "D",
+    "A.1",
+    "B.4",
+    "A.3",
+    "B.3",
+    "C.3",
+    "B.2"
+   ],
+   "n_turns": 40,
+   "n_participants": 5,
+   "prompt_words": 9161,
+   "prompt_chars": 51231,
+   "rendered_sha256": "02806a028cc621cf388208e2d7e2dd67d570a1079de8805e99978ac94b9e54ab",
+   "source_sha256": "20d7c034cb0c39a873a15fe6edd2b2fc601181b61c729b30f2a1e5d0c6ce3366",
+   "estimated_input_tokens": 17654,
+   "cache_keys": {
+    "1": "ee94e2032a80cd4bc57a81ec286631a8018bc80a59f86021ccc6c54a479e27e1",
+    "2": "8fd3e0a78d71eed782e11e7180cdb9b5d98eb279e4b5d6ad971fa846b5ec65f8"
+   },
+   "n_absence_cells": 9,
+   "n_present_control_cells": 2
+  },
+  {
+   "blinded_document_id": "DOC_42299FC42C",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "A.1",
+    "B.2",
+    "D",
+    "C.1",
+    "A.3",
+    "C.3",
+    "A.2",
+    "B.3",
+    "C.2",
+    "B.4",
+    "B.1"
+   ],
+   "n_turns": 37,
+   "n_participants": 5,
+   "prompt_words": 8475,
+   "prompt_chars": 46738,
+   "rendered_sha256": "aa64dc7b403423af6a3a9a50efccb66ce31c2aab83dca37281f922b9e886a771",
+   "source_sha256": "8239d45a6f22a643284c184fca913628b4594e146a438fcd72d601af2ea7907f",
+   "estimated_input_tokens": 16453,
+   "cache_keys": {
+    "1": "0b7f9aaa99bb21023a7a6c276b640507c925c062887ca86ba34bfe41e625c12d",
+    "2": "3e5517d1ced3870cbeb88c49aee2f3ff71f880826f1c3d972bd26f16c9800a2d"
+   },
+   "n_absence_cells": 6,
+   "n_present_control_cells": 5
+  },
+  {
+   "blinded_document_id": "DOC_5690876521",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "D",
+    "A.3",
+    "B.3",
+    "C.1",
+    "B.1",
+    "B.2",
+    "B.4",
+    "A.2",
+    "C.2",
+    "C.3",
+    "A.1"
+   ],
+   "n_turns": 39,
+   "n_participants": 5,
+   "prompt_words": 10299,
+   "prompt_chars": 57950,
+   "rendered_sha256": "5a010fa235862d952d3f3893fb5b51e7584d65160e8fb34a688243e8e8f3351b",
+   "source_sha256": "a4ab58a1d9584fd5f94cd6a394ebfd87f704787753628b50f3dcda97decbfe53",
+   "estimated_input_tokens": 19645,
+   "cache_keys": {
+    "1": "e7609f71e699d8db17ae94530a00ee71b2e0bfeb2fc607c77f9df4ff47bde174",
+    "2": "ad19d0aafb7ee10ef30c5911cc47d6a2cfa2dcd936abbe58a9caf5cf064cff41"
+   },
+   "n_absence_cells": 9,
+   "n_present_control_cells": 2
+  },
+  {
+   "blinded_document_id": "DOC_106A064A5F",
+   "stage": "STAGE1_CALIBRATION",
+   "n_candidates": 11,
+   "candidate_order": [
+    "B.4",
+    "A.2",
+    "B.2",
+    "A.3",
+    "C.3",
+    "C.2",
+    "A.1",
+    "C.1",
+    "B.3",
+    "B.1",
+    "D"
+   ],
+   "n_turns": 31,
+   "n_participants": 5,
+   "prompt_words": 7350,
+   "prompt_chars": 41412,
+   "rendered_sha256": "64e36f4f652bf747a16ba2554e6898e77fc4a1cdf0929877076f36bcefc50785",
+   "source_sha256": "42bfd1fc761d29698d391810f5bb044d96f6bb117128472199977e249e75bf98",
+   "estimated_input_tokens": 14484,
+   "cache_keys": {
+    "1": "f15bc1e866cfb11cec9fed6a8b946f96088e014036e06c1779548e70e0bc668f",
+    "2": "a889dbf509ed85a56f4de726d5705bbfd4933bf037f455dff28a0e8d8d513941"
+   },
+   "n_absence_cells": 7,
+   "n_present_control_cells": 4
+  },
+  {
+   "blinded_document_id": "DOC_6596D7C9AE",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "A.1",
+    "C.1",
+    "B.3",
+    "C.2",
+    "B.2",
+    "C.3",
+    "B.1",
+    "A.2",
+    "B.4",
+    "A.3",
+    "D"
+   ],
+   "n_turns": 28,
+   "n_participants": 5,
+   "prompt_words": 8879,
+   "prompt_chars": 48710,
+   "rendered_sha256": "48348513eb4152672ef7b8d591efdc81c79bbaec5596690d9ce08e1c8f105fba",
+   "source_sha256": "fef00722213e704c7c543188c927f731ec1ff2c8949d1282523a431836d2fed3",
+   "estimated_input_tokens": 17160,
+   "cache_keys": {
+    "1": "839fed3e46027bb3b4f011e4ef71654a2ffd5a750865c733543ccc14abb3aa82",
+    "2": "d994350f4ce42c9b4ff29e02ddb1ad72aeefbd59907fc5c8290d5efc4f1fe631"
+   },
+   "n_absence_cells": 10,
+   "n_present_control_cells": 1
+  },
+  {
+   "blinded_document_id": "DOC_5CABCEADAF",
+   "stage": "STAGE1_CALIBRATION",
+   "n_candidates": 11,
+   "candidate_order": [
+    "B.4",
+    "C.1",
+    "C.2",
+    "D",
+    "A.2",
+    "A.3",
+    "C.3",
+    "A.1",
+    "B.1",
+    "B.2",
+    "B.3"
+   ],
+   "n_turns": 32,
+   "n_participants": 5,
+   "prompt_words": 9083,
+   "prompt_chars": 50408,
+   "rendered_sha256": "ef83170524797c854951e992a3f9d1ba6b70e104aab4bc49c031bd0ceadd7007",
+   "source_sha256": "93a20322ae455e3a26eb0da0c9b5e955425769946d1ceea99e76b4b4ffc255d0",
+   "estimated_input_tokens": 17517,
+   "cache_keys": {
+    "1": "1e582bb07b735d396d2f1790fe21716dbe8992b42dcff034c816ea7cacb2bdae",
+    "2": "3b44ebb4a4a561806279f8bcd43eef8087460d9325f2ba9b68e423cffaaea7c5"
+   },
+   "n_absence_cells": 10,
+   "n_present_control_cells": 1
+  },
+  {
+   "blinded_document_id": "DOC_0D65F24445",
+   "stage": "STAGE1_CALIBRATION",
+   "n_candidates": 11,
+   "candidate_order": [
+    "C.1",
+    "C.2",
+    "B.4",
+    "A.1",
+    "D",
+    "C.3",
+    "B.1",
+    "A.2",
+    "A.3",
+    "B.2",
+    "B.3"
+   ],
+   "n_turns": 49,
+   "n_participants": 5,
+   "prompt_words": 14054,
+   "prompt_chars": 77012,
+   "rendered_sha256": "da460c9e6e6d35776288060e83b807ef783dc4138aa7e3d02c96ddf80a757557",
+   "source_sha256": "a2a5952c1ff318ce803b27c70306167f7bff65775d431f0346a040ee648ff764",
+   "estimated_input_tokens": 26217,
+   "cache_keys": {
+    "1": "791e28b3a111fd741b5996b3f0ce3508fc71c4f6aa168766bbd36e4a955fc402",
+    "2": "d216e3f6839734762792e99dd10866dfce8739edf7ef07097c77c020a05ad099"
+   },
+   "n_absence_cells": 10,
+   "n_present_control_cells": 1
+  },
+  {
+   "blinded_document_id": "DOC_5C40E6DDF2",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "D",
+    "C.3",
+    "C.1",
+    "C.2",
+    "A.1",
+    "B.1",
+    "A.2",
+    "B.2",
+    "B.3",
+    "B.4",
+    "A.3"
+   ],
+   "n_turns": 28,
+   "n_participants": 3,
+   "prompt_words": 7564,
+   "prompt_chars": 41767,
+   "rendered_sha256": "bca63dab748a24be375013606d7964c7cc516e18c56386be5f48e698e4f76030",
+   "source_sha256": "06f822e83a75ceb952c56f981cbb024d170d1b445e8e179b7a5256c5b907b69f",
+   "estimated_input_tokens": 14859,
+   "cache_keys": {
+    "1": "657a4818bf5e7a251111e9297fa535e6a40775fac9035bd910b3922a91de9688",
+    "2": "7d63c593eaac2c229d0dde14cae2129f551b3330da9c3164d9d3f1125dda3159"
+   },
+   "n_absence_cells": 10,
+   "n_present_control_cells": 1
+  },
+  {
+   "blinded_document_id": "DOC_C3FDCC095D",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "B.1",
+    "B.3",
+    "B.4",
+    "A.2",
+    "C.2",
+    "C.1",
+    "A.1",
+    "A.3",
+    "C.3",
+    "B.2",
+    "D"
+   ],
+   "n_turns": 27,
+   "n_participants": 3,
+   "prompt_words": 6516,
+   "prompt_chars": 35704,
+   "rendered_sha256": "3f520a097592352e3020644df33b26d58eceb2ec1b39e876758e144d10196c25",
+   "source_sha256": "8cac8cec15b494fff2f355c64d703a88ebda4b40ded72da7e90e13aa6b6ac3e5",
+   "estimated_input_tokens": 13024,
+   "cache_keys": {
+    "1": "fc668969e3d02d204164b649df375393927fdf35464168b89083fef15684c48f",
+    "2": "e489b5faeb62c152be6a64a6e54393247b632819e426492bfc1f987812e1b835"
+   },
+   "n_absence_cells": 9,
+   "n_present_control_cells": 2
+  },
+  {
+   "blinded_document_id": "DOC_F81D5D763A",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "D",
+    "A.1",
+    "B.3",
+    "B.1",
+    "B.2",
+    "A.2",
+    "C.3",
+    "C.2",
+    "C.1",
+    "B.4",
+    "A.3"
+   ],
+   "n_turns": 28,
+   "n_participants": 3,
+   "prompt_words": 7852,
+   "prompt_chars": 43426,
+   "rendered_sha256": "f0fc073f5784a9e25f663840cbb81915cfa5c71db1e6c2dbe6d2e80076072343",
+   "source_sha256": "c85d760a501d359d184d541489d25f5ab310188a69871f059ca93f15e528e300",
+   "estimated_input_tokens": 15363,
+   "cache_keys": {
+    "1": "90c92c937571731972e9e9071634d784e53e36ff964ce8841685ba48aafe9fe9",
+    "2": "9fc3cce733a09ede208f01f8d2afb2f20caaeb477baf2333e24c971007292bfb"
+   },
+   "n_absence_cells": 9,
+   "n_present_control_cells": 2
+  },
+  {
+   "blinded_document_id": "DOC_6FA268A3B9",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "D",
+    "A.1",
+    "B.2",
+    "B.1",
+    "B.3",
+    "A.2",
+    "B.4",
+    "C.2",
+    "C.3",
+    "A.3",
+    "C.1"
+   ],
+   "n_turns": 31,
+   "n_participants": 4,
+   "prompt_words": 7937,
+   "prompt_chars": 43470,
+   "rendered_sha256": "cb8c9496af9c935d24c854099eeb884ccbd9b0690be9d66de8f60fd9e445a148",
+   "source_sha256": "7eb57c73126286306edc4e0daf33a879796aa5ca59a3fb031e73123e86f790a2",
+   "estimated_input_tokens": 15511,
+   "cache_keys": {
+    "1": "ca564dfca51221d79ca943c716606ec58b908552ea70bad9ec771487bcf022d1",
+    "2": "2c624c83340055021ac1679c1477971a08d0cf8466a4a81929b8953ec8f1d383"
+   },
+   "n_absence_cells": 6,
+   "n_present_control_cells": 5
+  },
+  {
+   "blinded_document_id": "DOC_774165119D",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "B.2",
+    "C.3",
+    "B.3",
+    "A.3",
+    "C.2",
+    "A.1",
+    "B.4",
+    "D",
+    "A.2",
+    "B.1",
+    "C.1"
+   ],
+   "n_turns": 33,
+   "n_participants": 4,
+   "prompt_words": 9284,
+   "prompt_chars": 51570,
+   "rendered_sha256": "aaf86b370ded79668a467f070e417010f2ab060041ea11a60ae0a4af1e93c8ad",
+   "source_sha256": "ce56edb75a341b496d457137f43d36e495b699f5fb567db9ebca0ff1bf91c790",
+   "estimated_input_tokens": 17869,
+   "cache_keys": {
+    "1": "8c8b4f1a4b561188902fec47cfb6db7e9aee5f0dd290f6e36db159dbdab1dcf5",
+    "2": "9999e1fd5f7324b30f630edc41a37ea436e14b76c63e3129f9a7dd5765ca3342"
+   },
+   "n_absence_cells": 8,
+   "n_present_control_cells": 3
+  },
+  {
+   "blinded_document_id": "DOC_DDEB141600",
+   "stage": "STAGE2_COMPLETE",
+   "n_candidates": 11,
+   "candidate_order": [
+    "A.2",
+    "A.1",
+    "C.1",
+    "C.3",
+    "D",
+    "B.2",
+    "C.2",
+    "B.3",
+    "B.4",
+    "A.3",
+    "B.1"
+   ],
+   "n_turns": 26,
+   "n_participants": 4,
+   "prompt_words": 7849,
+   "prompt_chars": 43027,
+   "rendered_sha256": "9f5411a48dbab1dd233d2be525390cec2f24a910930c7ce1c8c137347cfc5dec",
+   "source_sha256": "e0fb98bd11bf10eff2ec3812d8ffb985b6a91714d28f9f9c5a4fcfe3c7277e6c",
+   "estimated_input_tokens": 15357,
+   "cache_keys": {
+    "1": "ea03e72e55b8acd12f7286002399ea9d9b0524d41ac670c955978d1160226d38",
+    "2": "cc6c283d615b0388dab1794a8e40f68f0e429984b7e72c2696fdc21220501e20"
+   },
+   "n_absence_cells": 9,
+   "n_present_control_cells": 2
+  }
+ ]
+}

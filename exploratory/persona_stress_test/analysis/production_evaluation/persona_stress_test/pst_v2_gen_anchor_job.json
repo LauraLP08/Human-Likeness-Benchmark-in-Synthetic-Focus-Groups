@@ -1,0 +1,556 @@
+{
+ "created_utc": "2026-08-03T23:17:35.138349+00:00",
+ "job_id": "msgbatch_011uvgiC11eKWyTj5JkLe1RF",
+ "stage": "GENERATION_ANCHOR",
+ "processing_status": "in_progress",
+ "n_requests": 54,
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 800,
+ "temperature": 1.0,
+ "retrieval_rule": "by custom_id only, never by response position",
+ "custom_ids": [
+  "PST-MA-JAWYKOMKMHZYHD",
+  "PST-MA-KAOJMOUMHJYLEC",
+  "PST-MA-TRPCJGFQMLSLRB",
+  "PST-MA-JHMZGQPUUFKJBU",
+  "PST-MA-VCNXPDSCQQUWAA",
+  "PST-MA-AEGIIUJDRIGJTP",
+  "PST-MA-FATAVOXNXTMVGT",
+  "PST-MA-CIWTDYSQHMLRLV",
+  "PST-MA-GVFQBCVJOXDSMH",
+  "PST-MA-AKRDIWHNOBMBQE",
+  "PST-MA-SBELSDMMBTVCZI",
+  "PST-MA-CUWWLMICPESUFP",
+  "PST-MA-KEBSUNRBQBTZNF",
+  "PST-MA-GYHRRFFXWLRUAZ",
+  "PST-MA-GGWWZQUUWRNOYY",
+  "PST-MA-IBBFOGVFUNJTED",
+  "PST-MA-NDSUKDJJLHRCXS",
+  "PST-MA-ZDCBOZZJTGNPJH",
+  "PST-MA-SUIDFQUXDQHWCE",
+  "PST-MA-IIYDDVWKGBEUJC",
+  "PST-MA-OTIVXPIZZDGRBA",
+  "PST-MA-JONTEBNTYDNVNE",
+  "PST-MA-CAUNGYZAZLZIJR",
+  "PST-MA-TADCTEUDMLRQXE",
+  "PST-MA-MVENPIPGTHDUKT",
+  "PST-MA-KZAMCZZLYIIUMJ",
+  "PST-MA-FZDHUMYQHAUCSB",
+  "PST-MA-UBWUTBDOFDKVRW",
+  "PST-MA-FQSKJKGUILASLL",
+  "PST-MA-NGBAISILQCSBMF",
+  "PST-MA-VJANNJBYLBKLPC",
+  "PST-MA-CHODTKQAXSLCQL",
+  "PST-MA-HTTNYUZTGETVYL",
+  "PST-MA-SMWNZIGEGLSJKE",
+  "PST-MA-OUKSEBMCLYOLQG",
+  "PST-MA-XYIZEWRDUXEPMN",
+  "PST-MA-NQFWHWEIGWIREN",
+  "PST-MA-TRQBHPXBVJKWUE",
+  "PST-MA-EAYWFXJYPJVDHN",
+  "PST-MA-GINSVBCXLKUNRN",
+  "PST-MA-XDRJSAOPNQUMKZ",
+  "PST-MA-BTPHBCVMZZMIYC",
+  "PST-MA-SQLFKCUUUMPMMX",
+  "PST-MA-BJIATAEDNWLEQS",
+  "PST-RA-ELUWNCEMWQXOGV",
+  "PST-RA-SRBWPXMEHTNUFI",
+  "PST-RA-TAOEZPOSOOEXHL",
+  "PST-RA-VPGYNCDWEAXZKL",
+  "PST-RA-YHFPDFVIJSDKDM",
+  "PST-RA-VCHKQQVKBCORUQ",
+  "PST-RA-WPFENHJBHEKIKC",
+  "PST-RA-ISXYXKNBGHDPRK",
+  "PST-RA-OAFVLURDQXNUPR",
+  "PST-RA-GYGNKACTBTNSFQ"
+ ],
+ "call_index": {
+  "PST-MA-JAWYKOMKMHZYHD": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "4ed967797a6d0a878c8aafa33b5e07205489e9dce724a78bf6fdab7f7e455041",
+   "cache_key": null
+  },
+  "PST-MA-KAOJMOUMHJYLEC": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "1ec1f22cd2e9354d4e84598ce8dae6910ab97dd086c72824ed15b84b47d40aaa",
+   "cache_key": null
+  },
+  "PST-MA-TRPCJGFQMLSLRB": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "e92d95ce7d90553951e6bcf5ffadd358d7ab2d8a58890d6d482990ce64a49fa4",
+   "cache_key": null
+  },
+  "PST-MA-JHMZGQPUUFKJBU": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "8cf66dae77c1a43276db2efe0be23b7dc71dae66e4317505f052366aed19bc21",
+   "cache_key": null
+  },
+  "PST-MA-VCNXPDSCQQUWAA": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "109de6857ac42ab39cfb41f9847a95288dd00d406af70f039ce53db3455bdd5d",
+   "cache_key": null
+  },
+  "PST-MA-AEGIIUJDRIGJTP": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "52cbcbd0f50df5a71fe07907fddc48ee9610d4630d0e0809ec3f0ac273990b86",
+   "cache_key": null
+  },
+  "PST-MA-FATAVOXNXTMVGT": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "7b8cd3b30393ea517e11a346ad2581c6304a46819b10d67d85fd9e083dd676fd",
+   "cache_key": null
+  },
+  "PST-MA-CIWTDYSQHMLRLV": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "7ad42530e9bc644a2a8ae7206e117ae382a4f039f9454dbf91d2fdeba3e25ade",
+   "cache_key": null
+  },
+  "PST-MA-GVFQBCVJOXDSMH": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "05137c4510b608b23f530a0d3738e61cdfeeb892126359a7c56da0e23693ef30",
+   "cache_key": null
+  },
+  "PST-MA-AKRDIWHNOBMBQE": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "8647e3b8edfbbdaf550a345ee0f2127695d100f215b073efaa879cbdf3a89bad",
+   "cache_key": null
+  },
+  "PST-MA-SBELSDMMBTVCZI": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "e8f2805d733efddbf9834e271bd3560485db6c65929a14ad8053e6c4904977d3",
+   "cache_key": null
+  },
+  "PST-MA-CUWWLMICPESUFP": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "c6a2dd4fd40d98409b1a6f6da3a5fd83d53ff5425b91d56bac350039c59b0ff8",
+   "cache_key": null
+  },
+  "PST-MA-KEBSUNRBQBTZNF": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "b8036a95834c6a02779ba1540e8dbd43e61d891862c68e1480fec0a920ad8072",
+   "cache_key": null
+  },
+  "PST-MA-GYHRRFFXWLRUAZ": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "d26cd25e91a64db71f8c5e7c5a0fb565c3f74ff779e2e4f4927fd7a037de8f57",
+   "cache_key": null
+  },
+  "PST-MA-GGWWZQUUWRNOYY": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "2879a76065e00ca7f8668231171f02976fdfb6f164c7db7a4528ba26e7a89167",
+   "cache_key": null
+  },
+  "PST-MA-IBBFOGVFUNJTED": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "ea553929d88a72d2286b65141dcdbb9c2b425a01e4efb43e79d97200cffbcc26",
+   "cache_key": null
+  },
+  "PST-MA-NDSUKDJJLHRCXS": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "b2710750c8c19fd5446ee436e91d8e21302f9fa1320eef61db7f7a5e602bb34d",
+   "cache_key": null
+  },
+  "PST-MA-ZDCBOZZJTGNPJH": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "b43d92bd09cd37a17c4b7027f777020be5fd7b9a5ae37324b913c5c0488d7f39",
+   "cache_key": null
+  },
+  "PST-MA-SUIDFQUXDQHWCE": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "3eb46ecc2630fb8418983c5d62861b03e1a3a0330ca77abf9d9e52f4b970d266",
+   "cache_key": null
+  },
+  "PST-MA-IIYDDVWKGBEUJC": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "1a075ff49d1ea53ffa85c7cdc28697b89c8bee840feb5319c47bfc869ad20176",
+   "cache_key": null
+  },
+  "PST-MA-OTIVXPIZZDGRBA": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "0ec04da29617b40494abb2eb0e3f1ff6a9491176db0d68e77563a27b67baeb6c",
+   "cache_key": null
+  },
+  "PST-MA-JONTEBNTYDNVNE": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "df2412fb676d577c7602c7cf6eb442e72e656ceb6028859c4e716252ce917e0f",
+   "cache_key": null
+  },
+  "PST-MA-CAUNGYZAZLZIJR": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "f62bd450fb88ec7f47dd51b2ddc87593284f22ee0a68b242a72fece2fb4c7799",
+   "cache_key": null
+  },
+  "PST-MA-TADCTEUDMLRQXE": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "591586c286954f009d99e095843bec85ac1853226a3ce06b6af67a39d6068398",
+   "cache_key": null
+  },
+  "PST-MA-MVENPIPGTHDUKT": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "3d6cf68a88590d6a46dc8b52ee218e3a2d49f086161d4103970ad23996d20095",
+   "cache_key": null
+  },
+  "PST-MA-KZAMCZZLYIIUMJ": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "564bad485455102ff88df1264bf5a9532a54a8457d8bfae1a25dd4324e116394",
+   "cache_key": null
+  },
+  "PST-MA-FZDHUMYQHAUCSB": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "0c299364dc5cf96fe08858af6e1b02fd76cb3f1d2704c4f5bc343a2021eb157a",
+   "cache_key": null
+  },
+  "PST-MA-UBWUTBDOFDKVRW": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "9a35cbd45426a5e20943473f052534a01d6fa7110204af2fabc262e2730a3656",
+   "cache_key": null
+  },
+  "PST-MA-FQSKJKGUILASLL": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "c06de6ca284452a7c127e4511dcd16b37eac91e3c238b13f2adec09d6579f394",
+   "cache_key": null
+  },
+  "PST-MA-NGBAISILQCSBMF": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "e5e18940488b0ac39595023c6fed1f2997d09956f8103ddc9d4ea64e156e57ba",
+   "cache_key": null
+  },
+  "PST-MA-VJANNJBYLBKLPC": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "53749f6d752b9bc2e2db82de483db4f799f3db02ba026cc0a374840c8b9367bf",
+   "cache_key": null
+  },
+  "PST-MA-CHODTKQAXSLCQL": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "2310b182b251d85b3b84136f2ce5de4c7d44f102485f1935f7f41092344366e5",
+   "cache_key": null
+  },
+  "PST-MA-HTTNYUZTGETVYL": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "f538f64c8fce3fee58534dd2d064a3e9020216a2b1f33a54e3d6847d018e22e1",
+   "cache_key": null
+  },
+  "PST-MA-SMWNZIGEGLSJKE": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "2303c6662eef709d5839b689f0a04b4f00ec7c9e3a06488758f16818069f6cef",
+   "cache_key": null
+  },
+  "PST-MA-OUKSEBMCLYOLQG": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "b6d00ee877b7ecd4af9bef3771f7d19f8b368f58d747d54ff2ecd75271885e4a",
+   "cache_key": null
+  },
+  "PST-MA-XYIZEWRDUXEPMN": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "3b19ea630d9200e9907e736612840e6276ecc57654c93c74831dd29b244dedb8",
+   "cache_key": null
+  },
+  "PST-MA-NQFWHWEIGWIREN": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "cae37a8598f2dbfd36c3298e0aca1e576fa0182522ebaf136ec4f0b2e08d88aa",
+   "cache_key": null
+  },
+  "PST-MA-TRQBHPXBVJKWUE": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "be2a4c174b4c0c5a2103b7b774c7ac46c7c6f34e076a1e769883a253052190db",
+   "cache_key": null
+  },
+  "PST-MA-EAYWFXJYPJVDHN": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "328e83f402cf8bcfebaa8961132c17f57a1b30a03d47a19c80ee813eb635ce46",
+   "cache_key": null
+  },
+  "PST-MA-GINSVBCXLKUNRN": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "9b1a9755f6a57d9d4c793a2e6f950543c754aa150631f59da262657c899bd25c",
+   "cache_key": null
+  },
+  "PST-MA-XDRJSAOPNQUMKZ": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "ee398f36ce0d5bf721abed8735a4c2132f61cd20ea3c4973d93d83b09679b24f",
+   "cache_key": null
+  },
+  "PST-MA-BTPHBCVMZZMIYC": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "1e98a76d8eab42be71aa6bde41eb817498068400d329336a139d009cb0e16cf1",
+   "cache_key": null
+  },
+  "PST-MA-SQLFKCUUUMPMMX": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "ea626861e7a16b129c40c17b78151bd405b3e2a14ff883981d35655e2bce8e80",
+   "cache_key": null
+  },
+  "PST-MA-BJIATAEDNWLEQS": {
+   "kind": "ANCHOR",
+   "pass": "MAIN",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "0966975320d95197ba42f80df3a5feaba3a9ebae53cd4037d6fed8dd66d1e105",
+   "cache_key": null
+  },
+  "PST-RA-ELUWNCEMWQXOGV": {
+   "kind": "ANCHOR",
+   "pass": "RELIABILITY",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "109de6857ac42ab39cfb41f9847a95288dd00d406af70f039ce53db3455bdd5d",
+   "cache_key": null
+  },
+  "PST-RA-SRBWPXMEHTNUFI": {
+   "kind": "ANCHOR",
+   "pass": "RELIABILITY",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "8647e3b8edfbbdaf550a345ee0f2127695d100f215b073efaa879cbdf3a89bad",
+   "cache_key": null
+  },
+  "PST-RA-TAOEZPOSOOEXHL": {
+   "kind": "ANCHOR",
+   "pass": "RELIABILITY",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "2879a76065e00ca7f8668231171f02976fdfb6f164c7db7a4528ba26e7a89167",
+   "cache_key": null
+  },
+  "PST-RA-VPGYNCDWEAXZKL": {
+   "kind": "ANCHOR",
+   "pass": "RELIABILITY",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "ea553929d88a72d2286b65141dcdbb9c2b425a01e4efb43e79d97200cffbcc26",
+   "cache_key": null
+  },
+  "PST-RA-YHFPDFVIJSDKDM": {
+   "kind": "ANCHOR",
+   "pass": "RELIABILITY",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "1a075ff49d1ea53ffa85c7cdc28697b89c8bee840feb5319c47bfc869ad20176",
+   "cache_key": null
+  },
+  "PST-RA-VCHKQQVKBCORUQ": {
+   "kind": "ANCHOR",
+   "pass": "RELIABILITY",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "591586c286954f009d99e095843bec85ac1853226a3ce06b6af67a39d6068398",
+   "cache_key": null
+  },
+  "PST-RA-WPFENHJBHEKIKC": {
+   "kind": "ANCHOR",
+   "pass": "RELIABILITY",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "9a35cbd45426a5e20943473f052534a01d6fa7110204af2fabc262e2730a3656",
+   "cache_key": null
+  },
+  "PST-RA-ISXYXKNBGHDPRK": {
+   "kind": "ANCHOR",
+   "pass": "RELIABILITY",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "cae37a8598f2dbfd36c3298e0aca1e576fa0182522ebaf136ec4f0b2e08d88aa",
+   "cache_key": null
+  },
+  "PST-RA-OAFVLURDQXNUPR": {
+   "kind": "ANCHOR",
+   "pass": "RELIABILITY",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "9b1a9755f6a57d9d4c793a2e6f950543c754aa150631f59da262657c899bd25c",
+   "cache_key": null
+  },
+  "PST-RA-GYGNKACTBTNSFQ": {
+   "kind": "ANCHOR",
+   "pass": "RELIABILITY",
+   "anchor_id": null,
+   "probe_family": null,
+   "probe_text": null,
+   "prompt_sha256": "0966975320d95197ba42f80df3a5feaba3a9ebae53cd4037d6fed8dd66d1e105",
+   "cache_key": null
+  }
+ },
+ "wave": "A_ANCHORS"
+}

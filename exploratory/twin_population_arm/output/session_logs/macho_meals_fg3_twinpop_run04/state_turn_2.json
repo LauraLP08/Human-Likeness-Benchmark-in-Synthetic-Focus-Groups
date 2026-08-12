@@ -1,0 +1,615 @@
+{
+  "schema_version": 3,
+  "session_meta": {
+    "id": "macho_meals_fg3_twinpop_run04",
+    "research_objective": "Focus group guide exploring how men in the UK make everyday food\nchoices, how social context, work, hobbies, health, taste and other\npeople shape what they eat, how gender and masculinity may influence\nfood choices, and what would need to change for plant-based foods to\nbecome more acceptable or appealing.\n",
+    "topic_domain": "Masculinity, food choice, animal product consumption, and plant-based eating",
+    "participant_collective_identity": "Men in the UK reflecting on food choices, male friendship, gender norms, and plant-based eating",
+    "moderator_knowledge_brief": "Explore (1) everyday food decision-making, (2) the social contexts in\nwhich men spend time with male friends, (3) the influence of other\npeople, work, hobbies, health, nutrition and taste on food choices,\n(4) whether participants perceive gender as shaping what they eat,\n(5) social acceptability and gendered meanings attached to vegetarian,\nvegan, plant-based, feminine or masculine foods, and (6) what personal,\nsocial and practical changes would make plant-based eating more viable\nor appealing. The discussion should remain exploratory, non-judgmental,\nand non-leading.\n",
+    "researcher_notes": "",
+    "temperature": 1.0,
+    "participant_response_max_tokens": 800,
+    "participation_mode": "emergent",
+    "moderator_model": "claude-sonnet-4-6",
+    "initial_session_plan": {
+      "thematisation_approach": "I will frame participants as men reflecting on their own everyday lives \u2014 what they eat, where they spend time, and who they spend it with. No academic or identity-political framing will be introduced. The collective identity is simply 'men talking about food and everyday life in the UK today', kept grounded and ordinary so participants feel safe speaking frankly rather than performing an identity or answering a thesis.",
+      "priority_research_areas": [
+        "Gender and food choice (Section 3): The highest sensitivity area. Participants may default to 'no, gender doesn't affect what I eat' as a socially progressive performance, or conversely perform traditional masculinity. Behavioural grounding \u2014 specific situations, specific meals, specific social contexts \u2014 will be essential to get past the rehearsed answer.",
+        "Social context and judgment from peers: Across multiple sections, the role of other men's expectations and social judgment on what participants eat is likely to be underreported. Probing references to 'what mates would think' or embarrassment/pride around food will be important.",
+        "Plant-based shift (Sections 4 and 5): Risk of vague, hypothetical, or socially acceptable answers ('I'd need it to taste the same'). Need to push toward specific concrete barriers and real past moments \u2014 meals, occasions, relationships \u2014 not abstract preferences.",
+        "Consensus risk across the group: Five suburban British men in the 40\u201348 age bracket may converge quickly into a mutually reinforcing narrative (e.g., 'meat is normal, plant-based is fine but not for us'). Active dissent-inviting and sharpening moves will be needed if this hardens prematurely."
+      ],
+      "participant_notes": [
+        {
+          "participant_id": "mm_fg3_andrew",
+          "anticipated_role": "Unknown profile depth \u2014 suburban South East, 45. No specific signals. May lean toward considered, measured responses. Monitor for whether he defers to group consensus or holds independent positions.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg3_daniel",
+          "anticipated_role": "48, East of England, suburban. Oldest in the group. May carry more settled food habits and be less likely to self-examine them. Watch for dismissiveness around gender framing \u2014 probe gently if he deflects.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg3_john",
+          "anticipated_role": "45, South West, suburban. No specific signals. South West location may carry rural or outdoor-lifestyle associations worth noting if he references food in that context.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg3_nick",
+          "anticipated_role": "40, North West, suburban. Youngest in the group. May be slightly more open to challenging norms or may feel more self-conscious about expressing traditional views. Worth monitoring whether he adjusts his positions based on the room.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg3_paul",
+          "anticipated_role": "47, South East, suburban. Geographically similar to Andrew \u2014 watch for whether they form an informal alliance or echo chamber. No profile-specific signals beyond that.",
+          "initial_attention_flag": null
+        }
+      ],
+      "known_risk_conditions": [
+        "Social desirability on gender question: Men aged 40\u201348 are likely aware of public discourse around masculinity and may give progressive-sounding answers that don't reflect their actual behaviour or feelings. Use behavioural anchoring ('can you think of a specific time...') rather than attitude questions.",
+        "Rapid consensus on plant-based barriers: The group may quickly agree on taste, cost, or convenience as barriers to plant-based eating, producing shallow unanimity. Plan a sharpening hypothetical if this happens (e.g., 'what if taste and price were identical?').",
+        "Under-disclosure on peer judgment: Men are less likely to spontaneously name embarrassment or social pressure from peers as a food influence. This will need indirect probing \u2014 through situations, places, and social occasions \u2014 rather than direct questions about peer pressure.",
+        "Topic drift in Section 1 (male friendship/place): This section exists to warm up the group and surface social contexts. Risk of it becoming a travel log or pub-anecdote session. Keep it moving once a couple of good social contexts have emerged.",
+        "Potential early dominance: Without demographic differentiation, one or two participants may set a tone in Sections 1\u20132 that others then follow into Sections 3\u20135. Monitor and reactivate quieter voices before the main topic sections begin."
+      ],
+      "directivity_plan": "Sections 0\u20131: Very light touch. Let participants settle, find their voice, and build rapport. Minimal probing; warm, brief acknowledgements. Section 2 (everyday food decisions): Light to moderate \u2014 use it to surface concrete habits and social contexts that will be useful in later probing. Section 3 (gender and food): Push harder here. Use behavioural grounding early; challenge easy deflections; invite dissent if consensus forms. This is the section most likely to produce socially performed answers. Sections 4\u20135 (plant-based): Moderate to firm. Push past abstract barriers toward specific, lived moments. Use sharpening hypotheticals if the discussion stays at the level of generality. Section 6 (closing): Light. Let participants add anything unprompted, acknowledge the session genuinely, and close warmly without reopening exhausted threads.",
+      "time_budget": {
+        "total_minutes": 45,
+        "total_word_budget": 4500,
+        "budget_rationale": "Main topic sections (3, 4, 5) receive roughly 60% of total word budget combined, as they carry the core research questions. Context sections (1, 2) receive a moderate share \u2014 enough to surface meaningful material that will support later probing without becoming ends in themselves. Intro and closing sections receive the smallest shares. Section 3 receives the largest single allocation because it is the most sensitive and most likely to need probe depth and dissent management.",
+        "per_section": [
+          {
+            "section_index": 0,
+            "section_label": "Introduction and instructions",
+            "section_phase": "intro",
+            "word_budget": 200,
+            "turn_budget": 6
+          },
+          {
+            "section_index": 1,
+            "section_label": "Opening discussion: male friendship and place",
+            "section_phase": "context",
+            "word_budget": 500,
+            "turn_budget": 10
+          },
+          {
+            "section_index": 2,
+            "section_label": "Everyday food decision-making",
+            "section_phase": "context",
+            "word_budget": 600,
+            "turn_budget": 12
+          },
+          {
+            "section_index": 3,
+            "section_label": "Gender and food choice",
+            "section_phase": "main_topic",
+            "word_budget": 1000,
+            "turn_budget": 20
+          },
+          {
+            "section_index": 4,
+            "section_label": "Imagining a plant-based shift",
+            "section_phase": "main_topic",
+            "word_budget": 900,
+            "turn_budget": 18
+          },
+          {
+            "section_index": 5,
+            "section_label": "Making plant-based foods more appealing",
+            "section_phase": "main_topic",
+            "word_budget": 900,
+            "turn_budget": 18
+          },
+          {
+            "section_index": 6,
+            "section_label": "Closing remarks",
+            "section_phase": "closing",
+            "word_budget": 200,
+            "turn_budget": 6
+          }
+        ]
+      }
+    },
+    "current_section_index": 0,
+    "section_phase": "intro",
+    "current_question_index": 1,
+    "total_turns": 2,
+    "session_started_at": "2026-08-06T07:54:03.432335Z",
+    "inject_participant_intro": false,
+    "run_label": "twinpop_run04",
+    "participant_episodic_depth": "since_last_n",
+    "participant_episodic_since_last_n": 20,
+    "participant_episodic_recent_k": 6,
+    "moderator_reflection_enabled": true,
+    "moderator_restraint_prompt": true,
+    "moderator_context_mode": "summarized",
+    "engagement_own_history_token_budget": 1500,
+    "moderator_prompt_override": "sandbox/01_MODERATOR_SYSTEM_PROMPT_MINIMAL.md",
+    "moderator_opening_prompt_override": null,
+    "time_budget_tracking_enabled": true
+  },
+  "discussion_guide": [
+    {
+      "section_index": 0,
+      "section_label": "Introduction and instructions",
+      "section_phase": "intro",
+      "section_purpose": "Section 0: Introduction and instructions",
+      "scripted_question": "Hi everyone, thanks so much for joining the focus group today. We\u2019re\ngoing to take about 45 minutes to talk about your food choices and\nopinions, and this will be recorded for research purposes. Try not to\noverthink the questions, and simply speak freely. There are no right\nor wrong answers. Please be respectful of your fellow focus group\nmembers, and keep your responses relatively brief to allow time for\neveryone to speak. But remember that this is a conversation, not an\ninterview, so you can jump in when you have something to say and you\ndon\u2019t have to take turns answering each question, but you can if you\nwant to. Okay great, let\u2019s start by going around and saying your name\nand where in the UK you\u2019re coming from today.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 1,
+      "section_label": "Opening discussion: male friendship and place",
+      "section_phase": "context",
+      "section_purpose": "Section 1: Opening discussion: male friendship and place",
+      "scripted_question": "What\u2019s your favourite place in your city to spend time with your male\nfriends? Why? Feel free to be specific.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 2,
+      "section_label": "Everyday food decision-making",
+      "section_phase": "context",
+      "section_purpose": "Section 2: Everyday food decision-making",
+      "scripted_question": "How do you decide what to eat?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": [
+        "Do other people influence what you eat? If so, tell us more about how.",
+        "Do your work or hobbies influence what foods you eat? Tell us more about how.",
+        "How important is health and nutrition?",
+        "How important is taste?"
+      ]
+    },
+    {
+      "section_index": 3,
+      "section_label": "Gender and food choice",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 3: Gender and food choice",
+      "scripted_question": "Do you think your gender influences what you eat? Tell us more about\nwhy or why not.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": [
+        "Is it socially acceptable for men to eat vegetarian or vegan foods?",
+        "Are some foods considered feminine?",
+        "Are some foods considered masculine?"
+      ]
+    },
+    {
+      "section_index": 4,
+      "section_label": "Imagining a plant-based shift",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 4: Imagining a plant-based shift",
+      "scripted_question": "Imagine you decided to go plant-based \u2014 what would need to change in\nyour life for you to do that?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": [
+        "How would your family and friends react to this?",
+        "How might it change the way you shop or cook?"
+      ]
+    },
+    {
+      "section_index": 5,
+      "section_label": "Making plant-based foods more appealing",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 5: Making plant-based foods more appealing",
+      "scripted_question": "What might make plant-based foods more appealing to you or other men\nyou know?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 6,
+      "section_label": "Closing remarks",
+      "section_phase": "closing",
+      "section_purpose": "Section 6: Closing remarks",
+      "scripted_question": "Okay everyone, that\u2019s our time. Thanks so much for participating\ntoday. Before we finish, is there anything else you would like to add\nabout food choices, gender, masculinity, or plant-based eating?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": []
+    }
+  ],
+  "participants": {
+    "mm_fg3_andrew": {
+      "id": "mm_fg3_andrew",
+      "name": "Andrew",
+      "profile_summary": "Andrew, 45, Male. Suburban, South East, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_andrew",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared",
+          "persona.background.working_life": "rendered_from_census_microdata_sn9154",
+          "persona.background.home_and_household": "rendered_from_census_microdata_sn9154",
+          "persona.background.week_and_hobbies": "rendered_from_census_microdata_sn9154"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Andrew",
+            "age": 45,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "South East",
+              "country": "UK"
+            }
+          },
+          "background": {
+            "working_life": "A forty-five-year-old employee working full-time as a manager in logistics, warehousing and transport, within the wholesale and retail trade and motor vehicle repair sector. The role carries supervisory responsibility for a team, placing it in the lower managerial and administrative bracket, and typically involves between thirty-one and forty-eight hours each week. A degree-level qualification underpins the career. The workplace sits between ten and twenty kilometres from home, reached by car or van, with no element of the job carried out remotely.",
+            "home_and_household": "Home is a terraced house in a suburban part of the South East, owned with a mortgage. The household consists of one person aged under sixty-five, living alone, never married and never in a registered civil partnership. There are at least two more bedrooms than the occupancy standard requires, so spare rooms are available for storage, a study or occasional guests. Maintaining the property, keeping up with mortgage payments and managing routine repairs and bills fall entirely to the single occupant.",
+            "week_and_hobbies": "Weekdays follow a settled rhythm shaped by shift patterns and a twenty-minute or so commute by car, with early starts common in transport management. Evenings at home tend to be quiet, given over to television, music, reading or catching up on household admin. Spare rooms allow space for a desk, tools or hobby equipment. Weekends leave room for car maintenance, garden and DIY tasks, driving out to the coast or countryside, and keeping in touch with friends and wider family."
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        }
+      },
+      "turn_count": 0,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg3_daniel": {
+      "id": "mm_fg3_daniel",
+      "name": "Daniel",
+      "profile_summary": "Daniel, 48, Male. Suburban, East of England, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_daniel",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared",
+          "persona.background.working_life": "rendered_from_census_microdata_sn9154",
+          "persona.background.home_and_household": "rendered_from_census_microdata_sn9154",
+          "persona.background.week_and_hobbies": "rendered_from_census_microdata_sn9154"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Daniel",
+            "age": 48,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "East of England",
+              "country": "UK"
+            }
+          },
+          "background": {
+            "working_life": "A forty-eight-year-old employee in the construction sector, working in the building finishing trades and classed within routine occupations. Employment is full-time, typically between thirty-one and forty-eight hours a week, with supervisory responsibility for others on site. There is no fixed place of work, so tasks are carried out at whatever property or development is currently contracted, reached by driving a car or van. Skills were gained through an apprenticeship, which remains the highest formal qualification held, and practical experience accumulated over many years on varied jobs.",
+            "home_and_household": "Home is a detached house in a suburban part of the East of England, owned with a mortgage still being repaid. The household consists of two adults, both aged sixty-five or under: a married couple in an opposite-sex partnership, with no dependent children living with them. Recorded as the husband or wife of the household reference person. The property has two or more bedrooms beyond the notional requirement, so there is considerable spare room, including space that can be given over to storage or occasional visitors.",
+            "week_and_hobbies": "Weekdays follow the rhythm of site work, with early starts, driving between locations across the region, and an evening return to the suburban house. Time away from work tends to be spent on maintenance and improvement of the property and garden, alongside vehicle upkeep and occasional projects using trade tools already to hand. Weekends allow for longer drives, visits to relatives and friends, following sport and motoring interests, and quieter evenings at home with a spouse who is also of working age."
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        }
+      },
+      "turn_count": 1,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg3_john": {
+      "id": "mm_fg3_john",
+      "name": "John",
+      "profile_summary": "John, 45, Male. Suburban, South West, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_john",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared",
+          "persona.background.working_life": "rendered_from_census_microdata_sn9154",
+          "persona.background.home_and_household": "rendered_from_census_microdata_sn9154",
+          "persona.background.week_and_hobbies": "rendered_from_census_microdata_sn9154"
+        },
+        "persona": {
+          "demographics": {
+            "name": "John",
+            "age": 45,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "South West",
+              "country": "UK"
+            }
+          },
+          "background": {
+            "working_life": "A self-employed road transport driver in his mid-forties, working full-time on his own account without staff or supervisory duties. His work sits within the transport and storage sector, and he holds no formal qualifications, having built his experience through years behind the wheel. Weeks routinely run to forty-nine hours or more, with schedules shaped by delivery windows and depot timings rather than fixed office hours. He travels to a workplace between ten and twenty kilometres away, driving a van or car there himself.",
+            "home_and_household": "He rents a detached house from a private landlord in a suburban part of the South West. The property is larger than the household strictly requires, with two or more bedrooms spare under standard occupancy measures. Two adults share the home, both aged sixty-five or under, and there are no children living there. He is divorced and not currently living as part of a couple. The arrangement is a private tenancy rather than ownership, giving a settled base without the commitments of a mortgage.",
+            "week_and_hobbies": "Long working hours leave limited free time, and much of the week is structured around early starts and late finishes. Quieter evenings tend to be spent at home, with radio, television and motorsport coverage among the usual distractions. Weekends allow for vehicle maintenance, tinkering in the driveway, and occasional drives out towards the coast or open countryside within reach of the South West suburbs. Contact with the other adult in the household is informal, and social plans are generally arranged around the shifting rota."
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        }
+      },
+      "turn_count": 0,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg3_nick": {
+      "id": "mm_fg3_nick",
+      "name": "Nick",
+      "profile_summary": "Nick, 40, Male. Suburban, North West, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_nick",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared",
+          "persona.background.working_life": "rendered_from_census_microdata_sn9154",
+          "persona.background.home_and_household": "rendered_from_census_microdata_sn9154",
+          "persona.background.week_and_hobbies": "rendered_from_census_microdata_sn9154"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Nick",
+            "age": 40,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "North West",
+              "country": "UK"
+            }
+          },
+          "background": {
+            "working_life": "A forty-year-old employee working full-time in an electrical and electronic trade within the information and communication sector, typically between thirty-one and forty-eight hours each week. There is no fixed place of work, so days are spent moving between client premises and installation points rather than a single office or depot. He drives a car or van to reach each assignment, carrying tools and test equipment. He holds no supervisory or management responsibility, instead working to job schedules, and is qualified to degree level or professional equivalent.",
+            "home_and_household": "Home is a semi-detached house in a suburban part of the North West, owned with a mortgage. Three people live there: himself, his wife, and their one dependent child, who is under five. The property has one bedroom more than the household strictly requires, giving a little spare space for storage or a small study area. Being an owner with a loan shapes monthly budgeting, and the household runs as two adults sharing responsibility for a young child alongside full-time paid work.",
+            "week_and_hobbies": "Weekdays follow a driving-based pattern, with early starts and travel time between jobs, so evenings at home tend to be quiet and centred on a very young child's routine. Weekends bring trips to local parks and soft play, visits to relatives, and steady work on the house and garden. Practical interests reflect his trade: tinkering with wiring, audio equipment, computing and home automation projects. He also follows sport on television, reads technical material online, and occasionally studies for further professional certification."
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        }
+      },
+      "turn_count": 0,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg3_paul": {
+      "id": "mm_fg3_paul",
+      "name": "Paul",
+      "profile_summary": "Paul, 47, Male. Suburban, South East, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_paul",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared",
+          "persona.background.working_life": "rendered_from_census_microdata_sn9154",
+          "persona.background.home_and_household": "rendered_from_census_microdata_sn9154",
+          "persona.background.week_and_hobbies": "rendered_from_census_microdata_sn9154"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Paul",
+            "age": 47,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "South East",
+              "country": "UK"
+            }
+          },
+          "background": {
+            "working_life": "A forty-seven-year-old employee working full-time, typically between thirty-one and forty-eight hours a week, in a lower professional and higher technical role. The work sits within human resources, training and vocational guidance, supporting people through recruitment processes, learning programmes and career development. The employing organisation operates in administrative and support service activities. There are no supervisory or management responsibilities attached to the post, and the role is carried out mainly at or from home rather than at a separate workplace. Formal qualifications amount to a small number of GCSE-level or vocational credits.",
+            "home_and_household": "Home is a terraced house in a suburban part of the South East of England, owned with a mortgage still being repaid. The household contains two people: a married couple of opposite sexes, both aged sixty-five or under, with no children living with them and no dependants in the family. The property has at least two more bedrooms than the household requires, so one room can readily serve as a study or workspace. Household responsibilities and running costs are shared between the two adults.",
+            "week_and_hobbies": "Weekdays follow a steady rhythm shaped by working from home, with no commute and a spare room set aside as an office. Breaks are often spent outdoors on local suburban streets and green spaces, and the absence of travelling time leaves room for reading, listening to music and keeping up with practical courses online. Weekends allow for maintenance jobs around the terraced house and garden, occasional day trips within the South East, and quiet time spent with a spouse."
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        }
+      },
+      "turn_count": 0,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    }
+  },
+  "group_state": {
+    "participation_balance": {
+      "mm_fg3_andrew": 0.0,
+      "mm_fg3_daniel": 1.0,
+      "mm_fg3_john": 0.0,
+      "mm_fg3_nick": 0.0,
+      "mm_fg3_paul": 0.0
+    },
+    "silent_participants": [],
+    "consensus_risk": 0.0,
+    "dominant_voices": [
+      "mm_fg3_daniel"
+    ],
+    "unresolved_tensions": [],
+    "group_has_agreed_easily_on": [],
+    "section_turn_counts": {
+      "mm_fg3_daniel": 1
+    },
+    "section_word_counts": {
+      "MODERATOR": 188,
+      "mm_fg3_daniel": 42
+    },
+    "completed_section_turn_counts": {},
+    "completed_section_word_counts": {},
+    "consecutive_silent_turns": 1,
+    "consecutive_participant_turns": 1,
+    "last_speaker_id": "mm_fg3_daniel",
+    "last_engagement_round": [
+      {
+        "participant_id": "mm_fg3_andrew",
+        "wants_to_speak": true,
+        "urgency": 0.8,
+        "hook": "I haven't introduced myself yet - it's the opening round where everyone is saying their name and where they're from",
+        "addressed_to": null,
+        "intent": "respond"
+      },
+      {
+        "participant_id": "mm_fg3_daniel",
+        "wants_to_speak": true,
+        "urgency": 0.8,
+        "hook": "It's my turn to introduce myself in the round-robin - moderator has asked everyone to say their name and where they're from, and I haven't spoken yet",
+        "addressed_to": null,
+        "intent": "respond"
+      },
+      {
+        "participant_id": "mm_fg3_john",
+        "wants_to_speak": true,
+        "urgency": 0.8,
+        "hook": "The moderator has just asked everyone to introduce themselves by name and where they're from. I haven't spoken yet and this is a direct invitation for me to contribute. It's my turn in the round-robin.",
+        "addressed_to": null,
+        "intent": "respond"
+      },
+      {
+        "participant_id": "mm_fg3_nick",
+        "wants_to_speak": true,
+        "urgency": 0.8,
+        "hook": "I should introduce myself as the moderator has just asked everyone to go around and say their name and where they're from",
+        "addressed_to": null,
+        "intent": "respond"
+      },
+      {
+        "participant_id": "mm_fg3_paul",
+        "wants_to_speak": true,
+        "urgency": 0.8,
+        "hook": "Need to introduce myself as requested \u2014 moderator has asked everyone to go around and say their name and where they're from",
+        "addressed_to": null,
+        "intent": "respond"
+      }
+    ],
+    "section_summaries": [],
+    "moderator_turn_share_overall": 0.5,
+    "moderator_turn_share_recent": 0.5
+  },
+  "moderator_log": [
+    {
+      "turn": 0,
+      "timestamp": "2026-08-06T07:54:51.388040Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Session is initialising. No data yet. This decision covers the opening utterance only. Opening utterance must establish the collective framing, the ground rules, and the psychological safety conditions before any substantive question is posed.",
+      "action": "ask_initial_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Hi everyone, welcome and thanks so much for joining today \u2014 really glad you're all here. I'm the moderator for this session. We've got about 45 minutes together, and the whole thing will be recorded for research purposes, so just bear that in mind. Before we get going, a couple of quick things: there are no right or wrong answers here \u2014 genuinely, I'm not looking for any particular response, and I'm not going to be jumping in to agree or disagree with what you say. What matters is what you actually think and what you've actually experienced, not what sounds like the right thing to say. It's also meant to be a conversation, so if someone says something that connects with your experience, or you want to push back on something, please just jump in \u2014 you don't have to wait to be asked. And equally, if something doesn't apply to you, that's fine to say too. Try not to overthink it \u2014 just speak as you would normally. Okay, let's get started. Why don't we go around briefly and say your name and where in the UK you're coming from today.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": null
+    },
+    {
+      "turn": 2,
+      "timestamp": "2026-08-06T07:55:10.934174Z",
+      "trigger": null,
+      "situation_assessment": "Daniel has introduced himself \u2014 name, location, living situation, occupation. Clean, brief, appropriate for the intro round. We've had one participant introduction so far (turn 2 is Daniel; turn 0 was the moderator). All five participants are waiting to introduce themselves. The section is nearly at its word budget (188/200) but only 0/6 turns used \u2014 the word count reflects my opening monologue, not participant turns. The introductions round is ongoing and the other four participants still need to speak. This is a natural flow moment \u2014 no intervention needed, let the remaining participants introduce themselves.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    }
+  ],
+  "transcript": [
+    {
+      "turn": 0,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Hi everyone, welcome and thanks so much for joining today \u2014 really glad you're all here. I'm the moderator for this session. We've got about 45 minutes together, and the whole thing will be recorded for research purposes, so just bear that in mind. Before we get going, a couple of quick things: there are no right or wrong answers here \u2014 genuinely, I'm not looking for any particular response, and I'm not going to be jumping in to agree or disagree with what you say. What matters is what you actually think and what you've actually experienced, not what sounds like the right thing to say. It's also meant to be a conversation, so if someone says something that connects with your experience, or you want to push back on something, please just jump in \u2014 you don't have to wait to be asked. And equally, if something doesn't apply to you, that's fine to say too. Try not to overthink it \u2014 just speak as you would normally. Okay, let's get started. Why don't we go around briefly and say your name and where in the UK you're coming from today.",
+      "timestamp": "2026-08-06T07:54:51.388105+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 2,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "I'm Daniel. I'm from just outside Norwich, in Norfolk \u2014 suburban area, East of England. Been there a good while now with my wife. I work in construction, so I'm out on sites most days across the region, but that's where I'm based.",
+      "timestamp": "2026-08-06T07:55:10.933902+00:00",
+      "selection_mode": "voluntary"
+    }
+  ]
+}

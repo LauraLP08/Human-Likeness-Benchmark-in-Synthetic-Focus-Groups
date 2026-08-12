@@ -1,0 +1,1745 @@
+{
+  "schema_version": 3,
+  "session_meta": {
+    "id": "macho_meals_fg5_demoonly_run01",
+    "research_objective": "Focus group guide exploring how men in the UK make everyday food\nchoices, how social context, work, hobbies, health, taste and other\npeople shape what they eat, how gender and masculinity may influence\nfood choices, and what would need to change for plant-based foods to\nbecome more acceptable or appealing.\n",
+    "topic_domain": "Masculinity, food choice, animal product consumption, and plant-based eating",
+    "participant_collective_identity": "Men in the UK reflecting on food choices, male friendship, gender norms, and plant-based eating",
+    "moderator_knowledge_brief": "Explore (1) everyday food decision-making, (2) the social contexts in\nwhich men spend time with male friends, (3) the influence of other\npeople, work, hobbies, health, nutrition and taste on food choices,\n(4) whether participants perceive gender as shaping what they eat,\n(5) social acceptability and gendered meanings attached to vegetarian,\nvegan, plant-based, feminine or masculine foods, and (6) what personal,\nsocial and practical changes would make plant-based eating more viable\nor appealing. The discussion should remain exploratory, non-judgmental,\nand non-leading.\n",
+    "researcher_notes": "",
+    "temperature": 1.0,
+    "participant_response_max_tokens": 800,
+    "participation_mode": "emergent",
+    "moderator_model": "claude-sonnet-4-6",
+    "initial_session_plan": {
+      "thematisation_approach": "I will frame these participants as men reflecting on their own everyday lives \u2014 the places they go, the food they eat, the company they keep \u2014 rather than as representatives of a gender category or a research subject. The collective identity is grounded in the concrete and the personal: their actual habits, preferences, and experiences. I will avoid academic or activist language entirely, keeping the register conversational and low-stakes.",
+      "priority_research_areas": [
+        "Gender and food choice (Section 3): This is the most sensitive and socially loaded area. Men in this age group may produce highly rehearsed or defensively dismissive responses ('I just eat what I want'). Behavioural grounding and concrete example-seeking will be essential. Consensus risk is high \u2014 the group may rapidly converge on a shared 'gender doesn't matter' position that forecloses richer material.",
+        "Plant-based eating acceptability (Sections 4 and 5): Social desirability works in two directions here \u2014 some participants may perform open-mindedness they don't feel; others may perform resistance they don't entirely hold. Both require probing for specific past moments rather than general opinions. The masculinity\u2013meat association literature suggests this group may hold implicit links that direct questioning won't surface.",
+        "Social context of food choice (Section 2): This section establishes baseline decision-making patterns that will anchor later gender and plant-based probes. If this section is too thin, later probes will lack purchase. Need to push for specificity \u2014 meals, occasions, companions \u2014 not abstract rules.",
+        "Male friendship and place (Section 1): Ostensibly light, but it establishes relational trust and often surfaces incidental data about food, alcohol, and social ritual that is analytically significant later. Worth a light follow-up probe if something rich appears, but should not be exhausted."
+      ],
+      "participant_notes": [
+        {
+          "participant_id": "mm_fg5_fletcher",
+          "anticipated_role": "Fletcher (64, rural Scotland) may bring a distinctly regional and outdoors-inflected perspective on food and masculinity \u2014 farming, game, local produce are plausible reference points. Rural Scottish male norms around food and sociality may differ from the suburban English majority of this group. Worth watching for whether he self-identifies as different or aligns with the group.",
+          "initial_attention_flag": "Potential outlier voice \u2014 if he feels culturally distant from the others, he may disengage. Warm engagement early on will help."
+        },
+        {
+          "participant_id": "mm_fg5_keith",
+          "anticipated_role": "Keith (72, suburban North West) \u2014 oldest member by cohort alongside Patrick and Toby. May hold more traditional food attitudes aligned with postwar British working-class or lower-middle-class norms. Could be a strong voice on 'proper meals' and meat-centredness, or conversely a surprising pragmatist. Watch for dominance tendencies in older male group dynamics.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg5_patrick",
+          "anticipated_role": "Patrick (73, suburban South East) \u2014 South East suburban context may index slightly more exposure to food trends, including plant-based options, than the other participants. At 73 the oldest, may be reflective and measured in tone. Could serve as a reference point for health-motivated food changes given age.",
+          "initial_attention_flag": "Age may raise health salience \u2014 watch for whether he foregrounds health as his primary food frame, which could shape his responses to plant-based sections."
+        },
+        {
+          "participant_id": "mm_fg5_toby",
+          "anticipated_role": "Toby (68, rural South West) \u2014 rural South West context suggests possible smallholder, farming, or food-production adjacency. May have strong views on provenance, 'natural' food, and traditional rural masculinity. Could be an interesting counterpoint to plant-based framing if he associates it with urban or progressive culture.",
+          "initial_attention_flag": "Possible source of strong opinions on plant-based eating \u2014 worth watching for early signals of entrenchment or openness."
+        }
+      ],
+      "known_risk_conditions": [
+        "Social desirability on gender: Men in this age cohort may reflexively deny that gender shapes their food choices, either from genuine belief or from not wanting to appear old-fashioned. Plan behavioural grounding in Section 3 \u2014 ask for specific meal occasions, social settings, or moments of hesitation rather than abstract attitudes.",
+        "Premature consensus on plant-based rejection: This group profile makes early, firm collective dismissal of plant-based eating a likely scenario. Have a sharpening or hypothetical move ready (e.g. a health scenario, a cost scenario, or a practical accessibility probe) to force differentiation.",
+        "Polite agreement culture in older male groups: Men of this age in group settings may default to agreeable, non-confrontational responses, particularly with strangers. Watch for thin agreement and be ready to use invite_dissent before consensus hardens.",
+        "Topic may activate identity threat: Questions about gendered food norms can feel implicitly accusatory for some participants (as if the question implies they should eat differently). Frame all gender-related questions as descriptive and curious, never normative.",
+        "Homogeneous age and gender profile: All four participants are men aged 64\u201373. This reduces natural diversity and increases consensus risk throughout. Will need to work harder to surface intra-group differences."
+      ],
+      "directivity_plan": "Sections 0\u20131: Light touch. Let participants warm up, establish rapport with each other, and settle into the format. Only probe in the intro or context sections if something genuinely rich appears. Section 2: Moderate directivity \u2014 push for specific meals, occasions, and decision moments rather than accepting abstract rules. This builds the behavioural vocabulary for later sections. Sections 3\u20135: Maximum directivity within the philosophical contract. Use behavioural grounding, contradiction-surfacing, and dissent-inviting actively. These sections carry the research and are where thin, socially performed answers are most likely. Section 6: Very light \u2014 a brief, warm close. Do not reopen topics unless a participant volunteers something significant.",
+      "time_budget": {
+        "total_minutes": 45,
+        "total_word_budget": 4500,
+        "budget_rationale": "Main topic sections (3, 4, 5) are weighted most heavily as they carry the core research questions. Context sections (1, 2) are weighted moderately \u2014 Section 2 slightly more because it establishes the behavioural baseline for later probing. Intro and closing are minimal. The three main topic sections together receive roughly 60% of the total word budget.",
+        "per_section": [
+          {
+            "section_index": 0,
+            "section_label": "Introduction and instructions",
+            "section_phase": "intro",
+            "word_budget": 250,
+            "turn_budget": 5
+          },
+          {
+            "section_index": 1,
+            "section_label": "Opening discussion: male friendship and place",
+            "section_phase": "context",
+            "word_budget": 550,
+            "turn_budget": 10
+          },
+          {
+            "section_index": 2,
+            "section_label": "Everyday food decision-making",
+            "section_phase": "context",
+            "word_budget": 700,
+            "turn_budget": 12
+          },
+          {
+            "section_index": 3,
+            "section_label": "Gender and food choice",
+            "section_phase": "main_topic",
+            "word_budget": 900,
+            "turn_budget": 15
+          },
+          {
+            "section_index": 4,
+            "section_label": "Imagining a plant-based shift",
+            "section_phase": "main_topic",
+            "word_budget": 900,
+            "turn_budget": 15
+          },
+          {
+            "section_index": 5,
+            "section_label": "Making plant-based foods more appealing",
+            "section_phase": "main_topic",
+            "word_budget": 850,
+            "turn_budget": 14
+          },
+          {
+            "section_index": 6,
+            "section_label": "Closing remarks",
+            "section_phase": "closing",
+            "word_budget": 150,
+            "turn_budget": 4
+          }
+        ]
+      }
+    },
+    "current_section_index": 6,
+    "section_phase": "closing",
+    "current_question_index": 0,
+    "total_turns": 36,
+    "session_started_at": "2026-07-29T22:34:59.694653Z",
+    "inject_participant_intro": false,
+    "run_label": "demoonly_run01",
+    "participant_episodic_depth": "since_last_n",
+    "participant_episodic_since_last_n": 20,
+    "participant_episodic_recent_k": 6,
+    "moderator_reflection_enabled": true,
+    "moderator_restraint_prompt": true,
+    "moderator_context_mode": "summarized",
+    "engagement_own_history_token_budget": 1500,
+    "moderator_prompt_override": "sandbox/01_MODERATOR_SYSTEM_PROMPT_MINIMAL.md",
+    "moderator_opening_prompt_override": null,
+    "time_budget_tracking_enabled": true
+  },
+  "discussion_guide": [
+    {
+      "section_index": 0,
+      "section_label": "Introduction and instructions",
+      "section_phase": "intro",
+      "section_purpose": "Section 0: Introduction and instructions",
+      "scripted_question": "Hi everyone, thanks so much for joining the focus group today. We\u2019re\ngoing to take about 45 minutes to talk about your food choices and\nopinions, and this will be recorded for research purposes. Try not to\noverthink the questions, and simply speak freely. There are no right\nor wrong answers. Please be respectful of your fellow focus group\nmembers, and keep your responses relatively brief to allow time for\neveryone to speak. But remember that this is a conversation, not an\ninterview, so you can jump in when you have something to say and you\ndon\u2019t have to take turns answering each question, but you can if you\nwant to. Okay great, let\u2019s start by going around and saying your name\nand where in the UK you\u2019re coming from today.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 1,
+      "section_label": "Opening discussion: male friendship and place",
+      "section_phase": "context",
+      "section_purpose": "Section 1: Opening discussion: male friendship and place",
+      "scripted_question": "What\u2019s your favourite place in your city to spend time with your male\nfriends? Why? Feel free to be specific.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 2,
+      "section_label": "Everyday food decision-making",
+      "section_phase": "context",
+      "section_purpose": "Section 2: Everyday food decision-making",
+      "scripted_question": "How do you decide what to eat?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "Do other people influence what you eat? If so, tell us more about how.",
+        "Do your work or hobbies influence what foods you eat? Tell us more about how.",
+        "How important is health and nutrition?",
+        "How important is taste?"
+      ]
+    },
+    {
+      "section_index": 3,
+      "section_label": "Gender and food choice",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 3: Gender and food choice",
+      "scripted_question": "Do you think your gender influences what you eat? Tell us more about\nwhy or why not.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "Is it socially acceptable for men to eat vegetarian or vegan foods?",
+        "Are some foods considered feminine?",
+        "Are some foods considered masculine?"
+      ]
+    },
+    {
+      "section_index": 4,
+      "section_label": "Imagining a plant-based shift",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 4: Imagining a plant-based shift",
+      "scripted_question": "Imagine you decided to go plant-based \u2014 what would need to change in\nyour life for you to do that?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "How would your family and friends react to this?",
+        "How might it change the way you shop or cook?"
+      ]
+    },
+    {
+      "section_index": 5,
+      "section_label": "Making plant-based foods more appealing",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 5: Making plant-based foods more appealing",
+      "scripted_question": "What might make plant-based foods more appealing to you or other men\nyou know?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 6,
+      "section_label": "Closing remarks",
+      "section_phase": "closing",
+      "section_purpose": "Section 6: Closing remarks",
+      "scripted_question": "Okay everyone, that\u2019s our time. Thanks so much for participating\ntoday. Before we finish, is there anything else you would like to add\nabout food choices, gender, masculinity, or plant-based eating?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    }
+  ],
+  "participants": {
+    "mm_fg5_fletcher": {
+      "id": "mm_fg5_fletcher",
+      "name": "Fletcher",
+      "profile_summary": "Fletcher, 64, Male. Village or Rural, Scotland, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg5_fletcher",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Fletcher",
+            "age": 64,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Village or Rural",
+              "region": "Scotland",
+              "country": "UK"
+            }
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG5"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Similar to the up to everybody else really, male friends definitely it will be a pub. The older we get, the the quieter that pub needs to be. We can't be doing loud music in pubs anymore. And again, like Toby said, living in a rural place, we've got a few country pubs which are lovely, expensive but lovely.\nAnd, um, I suppose like a traditional kind of, um, British pub meal is what we tend to go for.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 12,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg5_keith": {
+      "id": "mm_fg5_keith",
+      "name": "Keith",
+      "profile_summary": "Keith, 72, Male. Suburban, North West, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg5_keith",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Keith",
+            "age": 72,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "North West",
+              "country": "UK"
+            }
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG5"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Well, I like to go to Wetherspoons too, Patrick.\nIt's just that I got some, I used to live down South. Um, well in Somerset, funny enough, Bridgewater and, um, made a lot, a lot of friends. I worked for the, the, the local council and, um, many of them come up for a holiday every year.\nSo yeah, we like to go around the city and always spend up our times in, um, in Wetherspoon. It's cheap, cheerful, good food and needs to say the company's good.\nGood.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 7,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg5_patrick": {
+      "id": "mm_fg5_patrick",
+      "name": "Patrick",
+      "profile_summary": "Patrick, 73, Male. Suburban, South East, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg5_patrick",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Patrick",
+            "age": 73,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "South East",
+              "country": "UK"
+            }
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG5"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Being the fact that I live in Milton Keynes, it's a, um, you probably know it's a fairly new city. Um, I've lived, um, in a place called Bletchley. Um, for, um, on the outskirts of Milton Keynes. for quite a number of years. So the city has grown. Um, I've got a number of, um, sort of male friends that I've worked with and we meet up in, um, probably every, every couple of months, every six weeks, couple of months.\nAnd I suppose I hate to say, but our favourite place tends to be a Wetherspoons. Um, we tend to meet in a pub and, uh, we just, uh, We just tend to go for a, a curry, um, we sort of meet up, chat about old times and, uh, we've got quite a bit in common, all of us. So, um, yeah, that's what we tend to do. We tend to go for a few beers, nothing, nothing too much, tend to go for a few beers and then we just end up going for a curry.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 8,
+      "emotional_signal": "said 'I'm probably being a bit stubborn about it, if I'm honest' \u2014 self-critical, slightly concessive affect",
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg5_toby": {
+      "id": "mm_fg5_toby",
+      "name": "Toby",
+      "profile_summary": "Toby, 68, Male. Village or Rural, South West, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg5_toby",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Toby",
+            "age": 68,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Village or Rural",
+              "region": "South West",
+              "country": "UK"
+            }
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG5"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Uh, I'll leave that up to the wife. She's like, she decides what I eat. But if like, we're going out, we go down to the local pub.\nAnd because I'm rural as well, we've got lots of farms round here, so we, uh. We're lucky (.) enough to get sort of a freebies lots of freebies, which is good.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 8,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    }
+  },
+  "group_state": {
+    "participation_balance": {
+      "mm_fg5_fletcher": 0.343,
+      "mm_fg5_keith": 0.2,
+      "mm_fg5_patrick": 0.229,
+      "mm_fg5_toby": 0.229
+    },
+    "silent_participants": [],
+    "consensus_risk": 0.55,
+    "dominant_voices": [
+      "mm_fg5_fletcher"
+    ],
+    "unresolved_tensions": [],
+    "group_has_agreed_easily_on": [
+      "Task-based socialising (helping with DIY, fixing things, working in the garage) as a shared mode of male friendship, across both rural and suburban contexts.",
+      "Pub as shallow vs deep framing is not absolute \u2014 depends on who you're with and history together (Patrick nuancing Fletcher's earlier claim).",
+      "Fridge-led pragmatism and anti-waste as primary food decision driver (Patrick and Toby now both affirming this).",
+      "Appetite reduction with age as a shared experience shaping what they buy and eat.",
+      "Wife/partner as primary food memory and planning function, even where retired men are cooking more.",
+      "Wife/partner holds the mental map of the fridge and food planning, even when retired men are cooking more \u2014 described independently by both Patrick and Toby with similar specificity.",
+      "Rural remoteness from shops as a driver of fridge-led, anti-waste food decision-making \u2014 confirmed now across Fletcher, Toby, and Patrick.",
+      "Retirement as a shift toward doing more cooking, but wife retaining the planning/inventory role \u2014 confirmed independently by Patrick, Toby, and now Fletcher.",
+      "Men can be actively engaged in cooking and thinking about what goes into a meal, but the longer-term planning and inventory role sits differently \u2014 with wives \u2014 across the group.",
+      "Planning-horizon role is gendered (wife holds the bigger picture); day-to-day cooking engagement is not \u2014 confirmed independently now by Fletcher, Keith, and Patrick with specific examples.",
+      "Toby confirms the cooking-engagement vs. planning-horizon distinction, consistent with Fletcher, Keith, and Patrick.",
+      "Role division attributed to habit and how things 'worked out' rather than explicitly to gender \u2014 Toby's framing slightly diverges from Fletcher's but lands in similar territory.",
+      "Rural remoteness creates a genuinely higher planning complexity for plant-based eating \u2014 not just a willingness problem \u2014 confirmed now by both Fletcher and Keith.",
+      "Toby confirms the planning-burden framing: going plant-based would land heavily on the person already doing the planning, especially in a rural context with limited flexibility.",
+      "Fiddly perception is a real barrier, but some plant-based or reduced-meat meals are not actually fiddly \u2014 the perception can be corrected by direct experience of a decent, simple meal.",
+      "Fiddliness perception may be based on assumption rather than experience \u2014 Patrick now explicitly acknowledges this, consistent with Toby's lived example.",
+      "Low-stakes, unmarked exposure \u2014 someone making you something decent without a production \u2014 is the mechanism that shifts attitudes toward plant-based food, more than planning advice or logistics arguments."
+    ],
+    "section_turn_counts": {
+      "mm_fg5_fletcher": 1
+    },
+    "section_word_counts": {
+      "MODERATOR": 198,
+      "mm_fg5_fletcher": 229
+    },
+    "completed_section_turn_counts": {
+      "0": {
+        "mm_fg5_keith": 1,
+        "mm_fg5_patrick": 1,
+        "mm_fg5_toby": 1,
+        "mm_fg5_fletcher": 1
+      },
+      "1": {
+        "mm_fg5_fletcher": 3,
+        "mm_fg5_toby": 1,
+        "mm_fg5_keith": 1,
+        "mm_fg5_patrick": 1
+      },
+      "2": {
+        "mm_fg5_patrick": 2,
+        "mm_fg5_toby": 2,
+        "mm_fg5_fletcher": 1
+      },
+      "3": {
+        "mm_fg5_fletcher": 1,
+        "mm_fg5_keith": 2,
+        "mm_fg5_patrick": 1,
+        "mm_fg5_toby": 1
+      },
+      "4": {
+        "mm_fg5_fletcher": 5,
+        "mm_fg5_keith": 3,
+        "mm_fg5_patrick": 1,
+        "mm_fg5_toby": 1
+      },
+      "5": {
+        "mm_fg5_patrick": 2,
+        "mm_fg5_toby": 2
+      }
+    },
+    "completed_section_word_counts": {
+      "0": {
+        "MODERATOR": 158,
+        "mm_fg5_keith": 49,
+        "mm_fg5_patrick": 68,
+        "mm_fg5_toby": 99,
+        "mm_fg5_fletcher": 109
+      },
+      "1": {
+        "MODERATOR": 109,
+        "mm_fg5_fletcher": 509,
+        "mm_fg5_toby": 189,
+        "mm_fg5_keith": 223,
+        "mm_fg5_patrick": 189
+      },
+      "2": {
+        "MODERATOR": 73,
+        "mm_fg5_patrick": 499,
+        "mm_fg5_toby": 428,
+        "mm_fg5_fletcher": 194
+      },
+      "3": {
+        "MODERATOR": 217,
+        "mm_fg5_fletcher": 199,
+        "mm_fg5_keith": 431,
+        "mm_fg5_patrick": 243,
+        "mm_fg5_toby": 242
+      },
+      "4": {
+        "MODERATOR": 205,
+        "mm_fg5_fletcher": 1148,
+        "mm_fg5_keith": 694,
+        "mm_fg5_patrick": 288,
+        "mm_fg5_toby": 265
+      },
+      "5": {
+        "MODERATOR": 114,
+        "mm_fg5_patrick": 486,
+        "mm_fg5_toby": 460
+      }
+    },
+    "consecutive_silent_turns": 0,
+    "consecutive_participant_turns": 0,
+    "last_speaker_id": "MODERATOR",
+    "last_engagement_round": [
+      {
+        "participant_id": "mm_fg5_fletcher",
+        "wants_to_speak": true,
+        "urgency": 0.7,
+        "hook": "Toby's just said something important about trying things without making a big deal of it \u2014 that's the bit that actually matters. But he's missed what I've been saying all along. It's not just about Patrick trying a lentil stew in his kitchen. It's about the whole ecosystem around it being different out here. Toby can have his wife make something, no bother, because they've got the safety net. I need to name that plainly before we finish.",
+        "addressed_to": "Toby",
+        "intent": "challenge"
+      },
+      {
+        "participant_id": "mm_fg5_keith",
+        "wants_to_speak": true,
+        "urgency": 0.65,
+        "hook": "Toby's just said something that's landed with me - about his wife just making the tea without making a big deal of it, and that being what actually shifted things. That's real. And I think there's something there about how we talk about these things that matters more than the logistics or the planning.",
+        "addressed_to": "Toby",
+        "intent": "affirm_and_elaborate"
+      },
+      {
+        "participant_id": "mm_fg5_patrick",
+        "wants_to_speak": true,
+        "urgency": 0.65,
+        "hook": "Toby's made a really good point about just trying something without fanfare, and it's made me think about my wife again \u2014 about how she used to do that with me, early on. Just made different things, didn't announce it. And I've realised something I haven't quite said yet: part of why I'm open to it now, even if hesitantly, is because she's already been doing that groundwork for years. Not pushing it on me, just... quietly changing things. That takes patience that I didn't fully appreciate before.",
+        "addressed_to": "Toby",
+        "intent": "affirm_and_elaborate"
+      },
+      {
+        "participant_id": "mm_fg5_toby",
+        "wants_to_speak": true,
+        "urgency": 0.65,
+        "hook": "Patrick's just admitted he's been going on assumptions rather than experience, and the moderator's asking for final thoughts. There's something about the gender and responsibility angle that's been sitting with me \u2014 about how my wife ended up with all the planning, and what that actually means. I haven't quite articulated what I'm realizing about that, and it feels relevant to wrap up on.",
+        "addressed_to": null,
+        "intent": "affirm_and_elaborate"
+      }
+    ],
+    "section_summaries": [
+      {
+        "section_index": 0,
+        "section_label": "Introduction and instructions",
+        "discussion_summary": "This section was purely introductory \u2014 participants oriented themselves to the format, geography, and group dynamic rather than engaging with substantive themes. The dominant tone was reassurance: more experienced participants (Toby, Fletcher) normalised the focus group setting for newcomers (Keith, Patrick). An implicit value around authenticity \u2014 saying what you actually think rather than what's expected \u2014 emerged organically and was reinforced by the moderator as a framing principle before the first substantive question.",
+        "strategy_summary": "The approach here was minimal intervention: let the group self-organise through introductions and allow natural rapport-building before directing attention to the first topic. Toby and Fletcher's unprompted reassurances to Keith and Patrick did the settling work more effectively than moderator guidance could have. Closing the section by echoing Fletcher's authenticity point and pivoting cleanly to the first question worked as a light bridge \u2014 though with only four participants, no quieter voices needed drawing out yet."
+      },
+      {
+        "section_index": 1,
+        "section_label": "Opening discussion: male friendship and place",
+        "discussion_summary": "This section centred on how geography shapes the texture and intentionality of male socialising. A productive tension emerged between rural participants' 'deliberate' sociality \u2014 distance forcing commitment and depth \u2014 and suburban casualness. Across all contexts, task-based socialising (fixing, building, helping) surfaced as a distinct and valued mode: conversation as by-product of shared work rather than its purpose. Fletcher's implicit claim that effort and mutual usefulness deepen friendship went largely unchallenged.",
+        "strategy_summary": "The main intervention was drawing Patrick in after he'd stayed quiet through an extended Fletcher-Toby-Keith exchange. The timing was right \u2014 the rural/suburban contrast had crystallised enough for Patrick's middling position to add genuine texture rather than just echo. The section closed itself naturally, so the pivot to food felt clean rather than forced. No strong tensions were left unresolved, though Fletcher's depth-versus-casualness provocation could have been pushed harder."
+      },
+      {
+        "section_index": 2,
+        "section_label": "Everyday food decision-making",
+        "discussion_summary": "This section centred on the practical logic of food provisioning in retirement \u2014 using what's available, avoiding waste, adapting to reduced appetite \u2014 with geography (rural scarcity) and life-stage (more time at home) operating as reinforcing pressures. Beneath the practical surface, a consistent domestic labour pattern emerged: wives hold the 'mental load' of food planning while husbands describe their own involvement as incidental. This was stated without friction or critical distance by all three participants.",
+        "strategy_summary": "Keith had been absent from this exchange \u2014 Patrick and Toby converged rapidly into mutual agreement, risking a two-person echo chamber. Drawing Fletcher in mid-section was the right call and confirmed rather than complicated the emerging pattern, which itself became useful data. The section closed with a direct pivot to gender and food, capitalising on the unexamined domestic-labour thread. The risk is that the earlier convergence went too unchallenged \u2014 the wife-as-planner framing deserved a light probe before moving on."
+      },
+      {
+        "section_index": 3,
+        "section_label": "Gender and food choice",
+        "discussion_summary": "This section refined the domestic-labour pattern from the previous section: gender shapes not passivity toward food but the 'mental load' of longer-view planning \u2014 knowing what's in the cupboard, what's going off, what to buy. All four participants distinguished this from the cooking moment itself, which felt gender-neutral and skill-based. Retirement was consistently cited as shifting men toward more active cooking without transferring the planning role. Toby's reframe \u2014 habituated roles rather than masculinity per se \u2014 introduced a mild complication that went largely unresolved.",
+        "strategy_summary": "The section opened with Fletcher's framing, which risked consensus too quickly. Drawing Keith in produced genuine pushback and sharpened a useful cooking/planning distinction that structured the rest of the exchange. Routing Patrick and Toby through that distinction rather than starting fresh worked efficiently. The section closed naturally, so the pivot to plant-based hypothetical felt clean. The main missed opportunity: Toby's 'she's just better at it' naturalisation deserved a light probe rather than being folded into the transition."
+      },
+      {
+        "section_index": 4,
+        "section_label": "Imagining a plant-based shift",
+        "discussion_summary": "This section used a plant-based hypothetical to surface three interlocking themes: geographic constraint as a genuine multiplier of dietary change difficulty; the domestic labour question from earlier sections made explicit \u2014 whether it is fair, not just possible, to load new complexity onto whoever already carries the planning burden; and retirement as a structural variable that either enables or forecloses men's capacity to engage with that burden themselves.",
+        "strategy_summary": "Three moderator interventions were needed to bring Toby and Patrick into what had become a sustained Fletcher-Keith exchange. The timing was right \u2014 Fletcher's fairness reframe at turn 28 gave Patrick something to push back against, producing the section's most generative moment. Toby remained harder to draw out and ultimately aligned with Fletcher rather than adding texture. The pivot away from logistics toward appeal was a clean close, though Fletcher's 'is it fair' thread could have been held open slightly longer."
+      },
+      {
+        "section_index": 5,
+        "section_label": "Making plant-based foods more appealing",
+        "discussion_summary": "This section reframed the barriers to plant-based eating around perceived versus actual complexity. The dominant theme was experiential unfamiliarity as the real obstacle \u2014 not logistics or planning, but never having tried something and therefore overestimating its difficulty. Toby's lentil stew example introduced a distinct mechanism: quiet, unremarkable exposure ('just making the tea') as more effective than persuasion or planning frameworks. This shifted the section's register from structural constraint toward the social conditions of first encounter.",
+        "strategy_summary": "The pivot from Patrick's 'fiddly' observation to a group probe worked \u2014 it gave Toby room to introduce lived counter-evidence, which Patrick then genuinely engaged with rather than deflecting. The two-person exchange that followed was generative and self-sustaining, so holding back was the right call. Fletcher and Keith went unheard in this section, which is a mild gap, though the closing invitation to final remarks opens that space. No strong moderator errors, but Fletcher's earlier 'fairness' thread was quietly abandoned."
+      },
+      {
+        "section_index": 6,
+        "section_label": "Closing remarks",
+        "discussion_summary": "This section returned Fletcher's 'fairness' thread to the foreground as a closing statement rather than a new theme. Its function was more consolidating than generative: Fletcher synthesised the planning-load argument across the session's earlier sections, explicitly linking rural constraint, domestic labour, and the limits of experiential exposure as a change mechanism. The section added little new content but gave the fairness framing a conclusive register it had previously lacked.",
+        "strategy_summary": "The moderator's move was to let Fletcher's unsolicited synthesis land without interruption, then use it as a natural session close rather than reopening threads. Framing Fletcher's point as something 'that's run through the whole conversation' retrospectively validated the planning-load theme as a through-line. The open invitation for final remarks was a clean low-pressure close. The risk: Fletcher's monologue went unchallenged and the other three participants were effectively silenced at the section's only moment."
+      }
+    ],
+    "moderator_turn_share_overall": 0.5,
+    "moderator_turn_share_recent": 0.6
+  },
+  "moderator_log": [
+    {
+      "turn": 0,
+      "timestamp": "2026-07-29T22:35:51.736675Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Session is initialising. No data yet. This decision covers the opening utterance only. Opening utterance must establish the collective framing, the ground rules, and the psychological safety conditions before any substantive question is posed. The group is four older British men who have not met each other \u2014 the welcome needs to be warm and genuinely conversational, not procedural, to lower any defensiveness about the topic domain.",
+      "action": "ask_initial_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Hi everyone, and welcome \u2014 really glad you could all make it today. My name's Alex, and I'll be facilitating our conversation. We've got about 45 minutes together, and it's going to be recorded for research purposes, so just bear that in mind.\n\nThe main thing I want to say before we get going is that this is genuinely a conversation \u2014 not a quiz, not an interview where I'm looking for particular answers. Whatever you actually think, feel, or do is exactly what's useful here. You might find yourselves agreeing with each other, you might find you see things completely differently \u2014 both of those are fine, and honestly both are interesting. If something someone else says connects with your own experience, just jump in. You don't need to wait to be asked.\n\nOkay, let's get started. Let's go around and if everyone could just say your name and where in the UK you're coming from today, that would be great.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": null
+    },
+    {
+      "turn": 2,
+      "timestamp": "2026-07-29T22:36:06.408302Z",
+      "trigger": null,
+      "situation_assessment": "Keith has introduced himself warmly and briefly \u2014 exactly what the intro section calls for. He noted it's his first focus group and signalled openness. There are still three participants (Fletcher, Patrick, Toby) who haven't spoken yet. The priority is letting the round of introductions complete naturally. No depth probe needed here \u2014 this is a routine intro moment. The right call is to observe and let the next participant(s) introduce themselves without moderator interruption.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 3,
+      "timestamp": "2026-07-29T22:36:22.054358Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Patrick has introduced himself briefly and warmly, mirroring Keith's tone. Two participants remain who haven't spoken \u2014 Fletcher and Toby. The intro round is still in progress and the right move is to let it complete naturally. Patrick's contribution adds nothing that warrants a probe at this stage. The section is nearly at its word budget (207/250), and the intro purpose is just rapport-building. Observing is correct here.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "timestamp": "2026-07-29T22:36:43.474502Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Toby has introduced himself warmly and added genuine value by reassuring Keith and Patrick about the format \u2014 exactly the kind of peer-to-peer dynamic that builds group comfort. Fletcher is the only participant who hasn't spoken yet. The intro round is nearly complete; the natural next move is to let Fletcher introduce himself. Toby's reassurance to the group is a nice moment but doesn't warrant a probe \u2014 it's intro-appropriate and the section is already over its word budget. The only missing piece is Fletcher. Given he has urgency 0.6 and wants to speak, the best move is to observe and let him introduce himself naturally.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Once Fletcher introduces himself, the intro round will be complete and the section purpose fulfilled. Should transition to Section 1 promptly given the word budget is already exceeded.",
+        "condition": "Fletcher completes his introduction."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 5,
+      "timestamp": "2026-07-29T22:37:06.109134Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Fletcher has now introduced himself, completing the round of introductions. The intro section is well over its word budget (374/250). All four participants have spoken. The section purpose \u2014 establishing comfort and getting everyone talking \u2014 has been fulfilled. Fletcher's comment about saying what you actually think rather than what people want to hear is a nice framing, but this is intro register and doesn't warrant a probe. The queued next action from the previous turn (section_transition once Fletcher introduces himself) is now triggered. Time to move to Section 1.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Great, good to have you all here \u2014 Fletcher, Toby, Patrick, Keith. And Fletcher, I think that's exactly the spirit of it \u2014 just saying what you actually think.\n\nRight, let's get into it. First thing I'd love to hear about is where you actually spend time with your male friends \u2014 the places that come to mind. Your favourite spot, wherever that is \u2014 pub, club, someone's shed, a park, anywhere. What comes to mind, and what is it about that place that makes it the one?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "timestamp": "2026-07-29T22:37:34.685175Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Fletcher has answered the opening question clearly and with good specificity \u2014 the local pub, familiar faces, football crowd, and crucially the rural detail about deliberate effort required to socialise. That 'more deliberate than that' framing is analytically interesting and distinguishes his experience from what urban participants might say. However, this is the first answer to Section 1 and three other participants haven't yet responded to the guide question. The right move is to let the discussion open up naturally \u2014 the other three have high urgency to speak and this is a group question, not a one-on-one. No probe is needed on Fletcher yet; his answer has sufficient specificity for a context section. Observing will allow the others to respond.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "timestamp": "2026-07-29T22:37:57.156984Z",
+      "trigger": null,
+      "situation_assessment": "Toby has directly built on Fletcher's answer, confirming the 'deliberate effort' framing and adding a distinct detail: much of his socialising happens at a mate's house \u2014 kitchen or garage \u2014 tied to practical activity (helping with something, working on something). This is a genuinely new element. The section has only used 1/10 turns and 229/550 words. Keith and Patrick haven't spoken yet and both had high urgency to contribute. The natural group dynamic is for them to respond \u2014 both signalled they wanted to affirm and elaborate on Fletcher's point from their suburban contexts. No moderator intervention is needed; the group is working through the question productively and the other two participants are ready to speak. Observing is the right call.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "timestamp": "2026-07-29T22:38:23.065383Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Fletcher has built on Toby's point about garage/home socialising, adding the specific detail about task-based socialising \u2014 fixing things, mending fences, 'getting something done' while chatting. This is a third consecutive participant turn (Fletcher, Toby, Fletcher) developing the same theme of rural male friendship being activity-centred and deliberate rather than casual. The content is genuinely useful for the research baseline \u2014 the task-as-social-glue pattern is distinct and worth noting. However, Keith and Patrick have not yet spoken in this section, and both signalled high urgency to contribute from their suburban contexts. The section has used 418/550 words across only 2 participant turns (both rural), with the urban/suburban perspectives entirely absent. The group is not stalled \u2014 it's actively developing \u2014 but two voices are unheard and the rural framing is now dominating. The right move is to continue observing: Keith and Patrick are ready to speak and the conversation is flowing. Intervening now would interrupt a natural dynamic. Let the group self-regulate.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg5_keith",
+        "rationale": "Keith and Patrick have not spoken in Section 1. If they do not self-select after this turn, a light warm invitation will be needed before the section becomes too word-heavy to accommodate their perspectives.",
+        "condition": "Neither Keith nor Patrick speaks in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "timestamp": "2026-07-29T22:38:50.279801Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Keith has just contributed in his own voice, without moderator prompting \u2014 he self-selected naturally. His response is genuinely additive: he confirms the rural/suburban contrast, acknowledges the rural 'event' framing, but then complicates it by noting that even in suburban contexts, task-based socialising at a mate's house (the Dave/DIY detail) is also present. That suburban-also-does-task-based-socialising nuance is new and useful. The section is now at 574/550 words \u2014 over budget \u2014 and three of four participants have contributed. Patrick has not yet spoken. The section's guide question has been substantially answered: we have rural (Fletcher, Toby) and suburban (Keith) perspectives on place, with a shared theme of task-based socialising emerging across both. The section's analytical ground is well-covered. Patrick has signalled urgency to speak (0.65) and a genuinely different perspective to add. The right move is to observe \u2014 Patrick is primed to self-select, and intervening now would be unnecessary. If he doesn't take the floor, a light reactivation before transitioning would be appropriate. The section is over word budget and I should be ready to move to Section 2 soon.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 1 is over word budget and three of four participants have spoken. If Patrick self-selects, let him contribute, then transition. If Patrick does not self-select in the next turn, use reactivate_silent briefly before transitioning to Section 2.",
+        "condition": "Patrick speaks or one more participant turn occurs without Patrick speaking."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "timestamp": "2026-07-29T22:39:19.154175Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Fletcher has pushed back thoughtfully on Keith's 'spoiled' framing, arguing that the deliberateness required in rural socialising actually deepens it \u2014 the planning creates commitment, the task-based context creates natural conversation. He's also coined a compelling phrase: 'you're actually useful to each other,' framing task-based male friendship as mutual practical support rather than mere sociability. This is analytically rich for the research baseline. However, Section 1 is now at 797/550 words \u2014 well over budget \u2014 and the guide question (favourite place to spend time with male friends) has been thoroughly answered by three of the four participants. The rural vs suburban contrast is well-mapped; the task-as-social-glue theme has been established with good specificity across Fletcher, Toby, and Keith. Patrick is the only participant who hasn't spoken in this section. The mandatory intervention trigger fires here. The right move is not to probe deeper into what Fletcher just said \u2014 that would push the section further over budget and leave Patrick out entirely. The right move is a brief, warm reactivation of Patrick that also allows a natural transition momentum. I'll give Patrick a light, genuine opening to add his own perspective, then transition to Section 2.",
+      "action": "reactivate_silent",
+      "target": "mm_fg5_patrick",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 1 is significantly over word budget and has been thoroughly explored. After Patrick responds, transition to Section 2 without further deepening.",
+        "condition": "Patrick responds, or immediately if he defers."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Patrick, you've been listening to all of this \u2014 does any of it ring true from your end, or does it feel different where you are?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "timestamp": "2026-07-29T22:39:39.330385Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Patrick has now contributed \u2014 all four participants have spoken in Section 1. His response is a useful synthesis point: he positions himself 'in between' the rural and suburban poles, validates Fletcher's depth-through-task framing, but adds a nuance (pub isn't inherently shallow; it depends on history and who you're with). This is new and genuinely adds something. The section guide question has now been thoroughly answered across all four participants, with good geographic range and two distinct themes (casual vs deliberate, pub vs task-based) well-mapped. The section is at 1030/550 words \u2014 nearly double the budget. The queued next action from the previous moderator turn was section_transition after Patrick responds. That condition is now met. No further probing is warranted; transitioning to Section 2 is the right move.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "That makes sense \u2014 a bit of both. Right, we've got a nice spread there: pubs, garages, mates' kitchens, varying degrees of planning depending on where you live. Let's move on to something a bit more everyday. How do you actually decide what to eat \u2014 day to day, week to week? What goes into that?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 12,
+      "timestamp": "2026-07-29T22:40:18.098166Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Patrick has just opened Section 2 with a rich, unprompted response. He covers: retirement shifting food temporality (more time, more variability), fridge-led pragmatism ('what hasn't been used yet'), anti-waste as a driver, age-related appetite changes, and a rejection of formal meal-planning. This is the first response to the section's guide question and it's substantively useful \u2014 it maps a specific, contextualised decision-making pattern. However, it's only one voice, and the other three participants haven't yet responded to the guide question at all. The section's purpose is to map the range of behaviours across the group. Patrick has set a good tone and given others something to react to or diverge from. The right move is to let the group respond naturally \u2014 either to Patrick's specific framing or by offering their own contrasting patterns. Three other participants (Fletcher, Keith, Toby) are yet to speak on this question. Consecutive participant turns is 0, meaning Patrick just spoke after me. I should observe and let others self-select in response to Patrick, or briefly redirect to the group if no one jumps in. Given the natural quality of Patrick's answer and that it creates clear openings for others to agree or diverge (e.g. working vs retired, different household configurations, different anti-waste attitudes), I'll redirect to the group to invite others in \u2014 this is the opening move and I want to hear from everyone before probing any one response. Actually, Patrick's response is self-contained and inviting enough that others may naturally respond. But given consecutive_participant_turns is 0 and I just spoke, I should give the floor back to the group without forcing it. I'll redirect briefly to open it to others \u2014 a light ask_initial... no, the question is already open. The right move is actually to observe and let the group respond to Patrick's opening. If no one speaks, I can redirect. Patrick's response was the first to the guide question, the conversation is just beginning, and intervening now would over-control. Observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "redirect_to_group",
+        "target": "group",
+        "rationale": "Patrick has opened with a specific, contextualised answer. If no one self-selects to respond or offer their own pattern in the next turn, a light redirect to the group will open it to the others.",
+        "condition": "No participant speaks in the next turn after Patrick's response."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 13,
+      "timestamp": "2026-07-29T22:40:48.041345Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Toby has responded to Patrick's opening, affirming the fridge-led pragmatism and anti-waste framing, and adding a rural-specific rationale (can't nip to shops spontaneously). His response is substantively similar to Patrick's \u2014 both agree on: working with what's in the fridge, anti-waste as a driver, appetite reduction with age, and informal rather than planned eating. This is early convergence on a fairly narrow picture of food decision-making. Fletcher and Keith have not yet spoken in this section. The section has only used 301 words across 1 turn, so we're early. The guide question covers a broader terrain than just fridge pragmatism \u2014 it has suggested probes around other people's influence, work/hobbies, health/nutrition, and taste. None of these have been touched yet. Two voices haven't been heard. The right move is to observe and let Fletcher or Keith self-select \u2014 both were flagged as wanting to speak in the last engagement round. Fletcher wants to elaborate on the retirement/rhythm-of-life angle; Keith wants to add on appetite and retirement rhythm too. If I intervene now I'd be cutting off natural group flow. The conversation is flowing, the section is early, and two participants are ready to speak. Observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "redirect_to_group",
+        "target": "group",
+        "rationale": "If Fletcher and Keith don't self-select after Toby's turn, open the question to the group more explicitly \u2014 particularly to draw out the other suggested probe areas (other people's influence, work/hobbies, health, taste) which haven't been touched yet.",
+        "condition": "Neither Fletcher nor Keith speaks in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "timestamp": "2026-07-29T22:41:19.422373Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Patrick has now spoken twice in this section, adding a useful layer about retirement shifting household roles \u2014 he's now doing more cooking, but his wife still holds the 'head for it' in terms of knowing what needs using. This is a natural extension of the fridge-pragmatism theme but introduces a new element: domestic food roles and who actually drives decisions. Toby mentioned his wife does most of the cooking; Patrick says he's doing more than before but defers to her memory/planning. This pattern \u2014 wives as de facto food managers even in retirement \u2014 could be analytically significant and has appeared twice. However, Fletcher and Keith still haven't spoken in this section at all, and the guide question has barely been explored beyond fridge-pragmatism and appetite change. The suggested probes on other people's influence, work/hobbies, health, and taste haven't been touched. At 503 words with only 2 participant turns, we have material from only half the group. The right move is to observe and let Fletcher or Keith self-select \u2014 both were flagged as wanting to speak. Fletcher wanted to elaborate on the intention/purpose angle; Keith wanted to affirm and add on shopping differently with age. Intervening now would cut that off. The section still has 197 words of budget and 10 turns remaining. Patrick's response is naturally addressed to Toby, which leaves an opening for Fletcher or Keith. I should observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "redirect_to_group",
+        "target": "group",
+        "rationale": "Fletcher and Keith have not spoken in this section. If neither self-selects after Patrick's response, open explicitly to the group \u2014 particularly drawing in Fletcher or Keith \u2014 and introduce one of the unexplored probe areas (other people's influence, work/hobbies, health, taste) to broaden the discussion beyond fridge-pragmatism.",
+        "condition": "Neither Fletcher nor Keith speaks in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "timestamp": "2026-07-29T22:41:58.336174Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Toby has just echoed Patrick's domestic food-role framing almost exactly \u2014 wife as the one who 'knows' what's in the fridge, who plans, who holds the mental load \u2014 and has done so in rich, specific language ('I'll open the fridge and I just see a fridge'). This is the third consecutive turn building on the same theme (Patrick turn 14, now Toby turn 15), and it represents genuine convergence rather than surface agreement \u2014 both are offering specific, personal accounts. However, this convergence is narrowing the picture. The section's guide question is 'How do you decide what to eat?' with suggested probes covering other people's influence, work/hobbies, health/nutrition, and taste. We have strong coverage of: fridge-led pragmatism, anti-waste, appetite change with age, and wives-as-food-planners. We have almost no coverage of: health/nutrition, taste, work/hobbies, or whether other people (beyond wives) influence choices. More critically, Fletcher and Keith have not spoken in this section at all \u2014 3 turns in, 755 words spent, and only two voices have contributed. The section is over its word budget but still within its turn budget. Fletcher and Keith are both flagged as wanting to speak. The wives-as-planners theme has been well covered \u2014 there's a point of diminishing return in continuing to develop it. The right move is to let Fletcher or Keith self-select now. The last engagement round shows all three of the silent participants (Fletcher, Keith, and at urgency 0.8 Toby, who has now spoken) wanted to contribute. Fletcher and Keith still haven't. If I intervene to probe Toby or Patrick further, I crowd out Fletcher and Keith further. But if I intervene to reactivate Fletcher or Keith, I risk cutting off natural flow \u2014 though there IS no natural flow happening right now; the pattern is Patrick and Toby talking to each other, and the other two are being frozen out. Given this section is over its word budget, the convergence on a narrow theme, and two participants completely silent, the right move is a light redirect that opens the floor to Fletcher and Keith \u2014 ideally drawing in one of them by tying it to something unexplored (e.g. health, or whether their pattern is the same). I'll use reactivate_silent targeting Fletcher, who has the higher urgency and the rural angle that might bring a different perspective. Actually, given the section is over budget, I should consider transitioning \u2014 but taste, health, and influence of others are still uncovered, and those are important for the later sections. A brief redirect to bring in Fletcher or Keith on one of the unexplored angles is better than a full transition that leaves the baseline thin.",
+      "action": "reactivate_silent",
+      "target": "mm_fg5_fletcher",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section is over word budget. Once Fletcher and Keith have spoken, the section's baseline is sufficient to move into the gender and food choice section. The key unexplored probes (health, taste) can be referenced briefly in passing or picked up as they become relevant in later sections.",
+        "condition": "Fletcher and Keith have both contributed at least once in this section."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Fletcher, I'm curious whether any of this sounds familiar from your end \u2014 or whether it works differently for you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "timestamp": "2026-07-29T22:42:24.790814Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Fletcher has now spoken in this section, echoing Patrick and Toby almost exactly \u2014 same fridge-led pragmatism, same anti-waste rationale, same rural constraint (can't nip to shops), same wife-as-planner dynamic, same retirement shift toward doing more cooking. His response adds no new angles and explicitly closes down with 'don't really think about it much beyond that.' This is now four consecutive turns of strong convergence on a very narrow picture of food decision-making. Keith is still completely silent in this section. The section is significantly over its word budget (1000/700). However, the guide question has suggested probes that remain entirely untouched: health/nutrition, taste, and the influence of work or hobbies. These are not peripheral \u2014 they feed directly into the gender and food sections that follow. The question is whether to bring Keith in to potentially add a different perspective, or to transition. Keith is the oldest, most experienced in the group on life stage, and may have a different food decision framing \u2014 but the convergence is strong enough that he may simply echo the others. Given the section is 43% over word budget and the convergence is solid, the most valuable move is a light transition that acknowledges the shared picture but gestures toward taste and health as themes \u2014 both to give Keith a moment and to bridge into the gender/food section. Actually, the cleanest move is to transition now: taste and health will naturally surface in later sections as the discussion gets more specific about food choices and gendered meanings. Continuing to develop this section risks exhausting the terrain before the main topics. I'll use a brief section_transition that names the shared thread and opens the gender question cleanly.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "So there's a pretty consistent thread across all of you \u2014 working with what's there, not wasting things, and your wife holding that mental picture of the fridge even when you're both involved in the cooking. That's a useful picture to have. I want to shift us onto something a bit different now. I'm curious about whether being a man shapes what you eat \u2014 or whether you think it does. Does your gender influence what ends up on your plate?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 17,
+      "timestamp": "2026-07-29T22:43:04.958664Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Fletcher has just opened Section 3 with a substantive and specific answer. He's affirming that gender does shape his food choices, but framing it not as overt gender ideology ('I'm not sitting there thinking, that's a woman's food') but as structural habit \u2014 men eat what appears, women do the planning and thinking. He's explicitly extending the wife-as-planner thread from Section 2 into the gender domain, which is analytically useful. The key claim is: being a man means being less aware of, and less interested in, the planning and nutrition side of food. That's a meaningful and probing-worthy position \u2014 it naturalises a gendered division of food labour without critically examining it. However, this is the opening turn of a main topic section. Fletcher has answered the guide question directly. Three other participants haven't yet \u2014 including Keith, who hasn't contributed to this section or the previous one. The right move at this point is NOT to immediately probe Fletcher, but to open the question to the group so others can respond. All four participants were flagged as wanting to speak. Patrick in particular noted the domestic-labour thread as worth unpicking. Toby wanted to distinguish preferences from planning. Keith had a view forming. The guide question needs group-level responses before I start drilling into any one person. The consensus risk is moderate \u2014 Fletcher's framing could easily become the dominant one if I probe him immediately rather than opening it out. I should redirect to group to invite the others' responses, particularly since this is a main topic section where divergence matters.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg5_toby",
+        "rationale": "Toby flagged wanting to distinguish between who does the planning and what he personally prefers to eat \u2014 that's a potentially different angle from Fletcher's 'men just eat what appears' framing. If the group converges on Fletcher's structural account without anyone distinguishing preferences from roles, probe Toby on this.",
+        "condition": "No participant raises the distinction between food preferences and food planning roles in their response."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Fletcher, thanks \u2014 that's a clear way of putting it. Does that land with the rest of you? Is that how it feels \u2014 that being a man shapes it more in terms of who's thinking about it than what you actually want on the plate?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "timestamp": "2026-07-29T22:43:37.401773Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "Keith has just delivered the first genuine pushback of Section 3 \u2014 and it's substantive. He's not rejecting Fletcher's account wholesale but drawing a distinction: the planning/mental-load role may still be gendered, but the act of cooking and caring about food quality is not. His framing ('being a proper cook, not just a man') explicitly separates competence and engagement from gender identity. This is analytically significant \u2014 it complicates the emerging consensus that men are passive eaters shaped by gendered divisions of labour. It also introduces a generational/life-stage nuance: the passivity Fletcher described may have been true when working, but retirement has changed it. This is a genuinely different voice and it has landed in the room. The right move is not to probe Keith immediately \u2014 he has made his point clearly and with specificity. The more valuable move is to let the other participants respond, particularly Fletcher (who is the implicit target of the challenge) and Patrick and Toby who haven't yet weighed in on this specific distinction. All four were flagged as wanting to speak. The group is now doing exactly what it should be doing in a main topic section: producing differentiated, specific positions. Observing or briefly redirecting to let the others respond is the right call. Consensus risk has dropped \u2014 Keith's challenge is genuine. I should redirect to group to let this tension breathe, particularly inviting Fletcher to respond since he was implicitly challenged. But I should resist the urge to over-frame it \u2014 just a light pass back to the group.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg5_fletcher",
+        "rationale": "Fletcher's original position has been directly challenged \u2014 he may want to respond, or may concede the point. Worth a direct probe if he doesn't self-select after the redirect.",
+        "condition": "Fletcher does not respond voluntarily after the group redirect."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Keith, so you're drawing a distinction there \u2014 it's not that men are just passive about food, it's more that the planning role sits differently. Fletcher, does that match your experience, or do you see it differently?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "timestamp": "2026-07-29T22:44:11.494916Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Fletcher has just revised his earlier position in response to Keith's challenge \u2014 conceding that 'men are just passive eaters' was 'too harsh' while preserving the core distinction: who holds the 'bigger picture' of food planning is still gendered in his household. This is a genuinely productive move \u2014 Fletcher is doing real intellectual work, not just capitulating. He's landed on a more nuanced framing: men can be engaged when cooking, but the planning horizon sits differently. Keith and Fletcher have now had a substantive exchange. Patrick and Toby have not yet spoken in this section at all. This is a significant participation imbalance in a main topic section. Both were flagged as wanting to speak \u2014 Patrick specifically wanted to challenge the framing around 'responsibility not sitting on you the same way,' and Toby wanted to distinguish preferences from planning roles. The group has converged on a refined version of the wife-as-planner thesis, but it's been a two-person conversation so far. Before this hardening consensus goes unchallenged, the right move is to open it to Patrick and Toby. The current framing \u2014 that gendered food difference is about planning horizon, not cooking competence \u2014 is interesting but untested across the whole group. Patrick in particular had a sharper version of this distinction in mind. I should open to the group, not probe Fletcher or Keith further.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg5_patrick",
+        "rationale": "Patrick had a specific version of the planning-responsibility distinction he wanted to articulate \u2014 'my wife knows what's in the fridge in her bones, I know what's there when I open it.' If he doesn't self-select after the group redirect, draw him in directly.",
+        "condition": "Patrick does not speak in the next turn."
+      },
+      "intervention_mode": "speak",
+      "utterance": "So there's a distinction emerging here between the cooking moment and the bigger picture \u2014 the longer view of what's in the cupboard, what needs using. Patrick, Toby \u2014 does that track with how it works for you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "timestamp": "2026-07-29T22:44:47.255895Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Patrick has just confirmed and sharpened the Fletcher/Keith distinction with a vivid, concrete image: 'she'll open the fridge and within about two seconds she's working out the next three or four meals from what's in there. I'll open it and just see... ingredients.' That's analytically rich and specific. Three of the four participants (Fletcher, Keith, Patrick) have now answered the main guide question in Section 3, all converging on a similar 'planning role is gendered, cooking act is not' framing. The section has used 825/900 words and 3/15 turns \u2014 the word budget is nearly spent. Toby has not yet spoken in this section. That's a significant gap: he was flagged as a potential source of strong and possibly divergent opinions on food and gender norms, and he was flagged as wanting to distinguish preferences from planning roles. However, the current consensus is real and internally consistent \u2014 three independent accounts of the same distinction, each with good specificity. Before moving on, Toby should be brought in. His answer may confirm or complicate the emerging framing. Beyond Toby's contribution, the section should also be nudged toward the suggested probe questions around socially acceptable and gendered foods (feminine/masculine food labelling) \u2014 that territory hasn't been touched at all yet. But word budget is nearly gone. The priority is: (1) get Toby's voice in this section, (2) if he adds something interesting, note it \u2014 but do not extend deeply into suggested probes given the word budget. The section is close to exhausted on the planning/cooking distinction thread; the feminine/masculine food framing is a separate and important sub-topic but will likely need to be handled efficiently or carried lightly into Section 4. Decision: bring Toby in now with a light invitation \u2014 not a full redirect, not a big probe. Just a warm pass to him since he's the only one who hasn't spoken here. Keep it brief. The section needs his voice before transitioning.",
+      "action": "reactivate_silent",
+      "target": "mm_fg5_toby",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 3 word budget is effectively spent after Toby speaks. The planning/cooking distinction has been well-covered by three participants. The feminine/masculine food labelling sub-topic can be introduced as a framing question at the start of Section 4 or handled briefly before transition if Toby's response naturally raises it.",
+        "condition": "After Toby responds, the section word budget will be at or over limit."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Toby, you've been quiet on this one \u2014 does that distinction ring true for you, or does it work differently in your house?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "timestamp": "2026-07-29T22:45:11.873452Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Toby has now spoken, completing the round on the guide question. His answer largely confirms the group consensus \u2014 planning role is gendered by habit/role division, cooking act is not \u2014 but he adds a notable nuance: he explicitly resists the 'man thing' framing, attributing the division to 'how it's worked out' rather than gender per se. This is analytically interesting and slightly different from Fletcher's earlier framing (which more readily attributed it to being a man). The section is now over word budget (1090/900) and all four participants have answered the main guide question. However, the suggested sub-probes \u2014 socially acceptable foods, feminine/masculine food labelling \u2014 have not been touched at all. These are important research questions in their own right and can't simply be skipped. Given the word budget is already spent and session time is very tight (~40 of 45 minutes elapsed), the right move is a clean section transition that briefly acknowledges what's been covered, and pivots quickly toward Section 4. The feminine/masculine food labelling territory can be woven into Section 4's opening or handled as a brief bridge question if it naturally arises \u2014 but I should not open a new sub-topic in this already over-budget section. Toby's reframing ('not about being a man, just roles') is interesting but not so divergent from the group that it requires immediate probing \u2014 it actually adds texture rather than genuine contradiction. The queued next action from the previous turn was section_transition after Toby speaks. That condition is now met.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "So there's something consistent coming through there \u2014 the cooking itself isn't particularly gendered, but the longer-view planning role has settled differently, and for most of you that's landed with your wives. Toby's point that it's more about how things worked out than about being a man is interesting too. Let me take that somewhere. Imagine for a moment that you decided to go fully plant-based \u2014 no meat, no fish, dairy maybe out too. What would actually need to change in your life for that to be a realistic thing? Not whether you'd want to \u2014 just what would have to shift.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 22,
+      "timestamp": "2026-07-29T22:45:48.303338Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Fletcher has opened Section 4 with a substantive answer to the guide question \u2014 what would need to change to go plant-based. He's covered logistics (rural shopping constraints), nutrition knowledge, planning load, and cooking engagement. It's a coherent, grounded response that maps well onto the planning/cooking distinction the group has already established. He's essentially saying: the planning side is the hard part, and someone would have to take that on seriously. This is analytically consistent with Section 3 but now applied to the hypothetical shift. The section has only used 100 words and 0 tracked participant turns \u2014 three participants (Keith, Patrick, Toby) have not yet responded. All three were flagged as wanting to speak on this question, with distinctive angles: Keith (wife would have to teach him), Patrick (wife tried it briefly, changed the whole dynamic), Toby (rural logistics bite harder with plant-based). Fletcher has given a solid first response. The right move now is to let others react without my intervention \u2014 they're engaged and want to speak. The discussion does not need me. I should observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "timestamp": "2026-07-29T22:46:23.342903Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Keith has directly challenged Fletcher's framing \u2014 'you're making it sound harder than it actually is' \u2014 and backed it with a specific, lived example: his wife's health-motivated shift to less meat, the practical swaps they made (tofu, chickpeas, lentil stew), and the suburban advantage of more varied shops. His account is genuinely different from Fletcher's in register and conclusion: where Fletcher emphasised expert planning and serious commitment, Keith is saying it's just 'swapping things around a bit.' This is productive disagreement with real analytical content \u2014 it maps onto a class/geography dimension (rural scarcity vs. suburban access) and a complexity dimension (deep learning required vs. incremental adjustment). Two participants have now answered the guide question with substantively different positions. Patrick and Toby have not yet spoken in this section, and both were flagged as having distinctive angles: Patrick's wife had a brief plant-based stint that changed the whole dynamic; Toby sees rural logistics biting harder with plant-based. The conversation is live and moving well \u2014 Keith has just challenged Fletcher, and the group has genuine momentum. The right move is to let this breathe. Patrick and Toby are both engaged (noted as wanting to speak in last_engagement_round) and should self-select in without my interference. The section has used only 354 of 900 words. There is no reason to intervene.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "timestamp": "2026-07-29T22:46:53.586546Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Fletcher and Keith have now exchanged two substantive turns directly with each other on the guide question \u2014 what would need to change to go plant-based. The disagreement is productive and analytically valuable: Fletcher's 'rural scarcity requires rigorous planning' vs Keith's 'suburban flexibility makes it gradual and low-stakes.' Fletcher has now refined his position: it's not about difficulty per se, it's about the absence of margin for error. This is a genuine and specific distinction \u2014 not a personality clash but a structural one rooted in geography and logistics. Patrick and Toby have not yet spoken in this section. Both were flagged as wanting to speak with distinctive angles: Patrick's wife had a brief plant-based stint that changed the whole dynamic; Toby shares Fletcher's rural context but may see it differently. The Fletcher-Keith exchange is still live and could continue, but Patrick and Toby have been silent through two turns of what is now becoming a bilateral debate. The section has 296 words of budget remaining and 13 turns. The guide question is not yet fully answered from the group's perspective \u2014 two voices are absent. The right move is to let Patrick and Toby self-select in rather than intervening. The conversation has genuine momentum, the debate is substantive, and both Patrick and Toby were flagged as urgently wanting to speak (0.65 and 0.7 urgency). I should observe and let them enter.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg5_patrick",
+        "rationale": "Patrick and Toby have both been silent through three turns of the Fletcher-Keith exchange. If neither self-selects in the next turn, a light invitation to Patrick or Toby is warranted \u2014 particularly Toby, who shares Fletcher's rural context and may complicate or support his framing.",
+        "condition": "Neither Patrick nor Toby speaks in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "timestamp": "2026-07-29T22:47:26.208663Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Keith has now made a second substantive challenge to Fletcher \u2014 moving from 'it's not that hard' to 'it's about willingness, not geography.' This is analytically important: he's shifted the frame from logistics to motivation, essentially arguing that Fletcher's difficulty framing is really a motivation framing in disguise. This is a genuine and productive complication. Fletcher has spoken three turns in a row in this section; Keith has spoken twice. Patrick and Toby have not spoken at all in Section 4 despite both being flagged as wanting to contribute with distinctive angles. The section word budget is essentially spent (851/900) \u2014 but the section has only used 3 of 15 turn slots, and Patrick and Toby are completely absent. The word budget has been consumed by Fletcher and Keith's bilateral exchange. The research question \u2014 what would need to change to go plant-based \u2014 still needs Patrick's voice (wife had a brief plant-based stint) and Toby's (shares rural context with Fletcher but may see it differently). The right move is NOT to probe further into the Fletcher-Keith debate, which is becoming slightly circular. The motivation-vs-logistics distinction Keith has just drawn is useful as a pivot \u2014 I can briefly name it and open it to Toby and Patrick, who have their own material to add. The section transition to Section 5 should follow shortly after Patrick and Toby have had a turn. A redirect_to_group is appropriate here \u2014 echo Keith's 'willingness to engage' framing and explicitly open it to Toby and Patrick without singling either one out.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 4 word budget is spent and the core question has been substantively addressed once Patrick and Toby have had a chance to speak. Transition to Section 5 after their contributions.",
+        "condition": "Patrick and Toby have both had a chance to respond to this prompt."
+      },
+      "intervention_mode": "speak",
+      "utterance": "There's something interesting there \u2014 Keith, you're drawing a distinction between the practical constraints and whether someone actually wants to make the change. Toby, Patrick \u2014 you haven't had a chance to weigh in on this yet. What would need to shift for either of you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 26,
+      "timestamp": "2026-07-29T22:48:01.186079Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Fletcher is still pressing his structural/logistics argument against Keith's motivation framing. This is the third consecutive exchange between just Fletcher and Keith \u2014 it has real analytical value (geography as constraint vs. willingness as constraint), but it is becoming slightly circular. The core distinction is now well-established and doesn't need more rounds between these two. The section is significantly over its word budget (1141/900) and Patrick and Toby still haven't spoken despite my direct invitation last turn. My previous utterance explicitly named Toby and Patrick and asked what would need to shift for them \u2014 yet Fletcher jumped back in before either could respond. The right move is to observe and let Patrick or Toby take the floor as invited. My prompt is already out there. Intervening again would crowd out the space I just created.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg5_toby",
+        "rationale": "Toby and Patrick were directly invited last turn but Fletcher pre-empted them. If neither speaks in this turn, a warm and direct pass to Toby is warranted \u2014 he shares Fletcher's rural context and may either complicate or support the logistics framing from his own experience.",
+        "condition": "Neither Patrick nor Toby speaks in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "timestamp": "2026-07-29T22:48:32.997471Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Keith has just conceded Fletcher's point about margin for error \u2014 fully and specifically. This is a genuine resolution of the logistics-vs-willingness debate: Keith now acknowledges both dimensions are real. The Fletcher-Keith exchange has reached a natural resting point. The section is significantly over its word budget (1348/900) and Patrick and Toby have still not spoken in Section 4 despite being directly invited last turn. My queued next action was a section transition after Patrick and Toby have had a chance to speak. The right move now is to give them that chance \u2014 briefly and warmly \u2014 before moving to Section 5. But I've already intervened once explicitly inviting them. If I speak again to invite them, I risk crowding the space again. I should observe and see if Toby or Patrick now self-selects in \u2014 Keith's concession creates a natural pause that should open the floor to them. The conversation has shifted to a quieter register, which is a good moment for quieter voices to enter. Fletcher's dominance pattern (36% of participation) combined with this natural lull makes this an observe moment \u2014 let the silence work.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg5_toby",
+        "rationale": "Toby and Patrick have been silent through the entire Section 4 exchange. If neither self-selects in this turn, a warm direct pass to Toby is warranted \u2014 he shares Fletcher's rural context and may either complicate or support the logistics framing from his own experience. Patrick's wife had a brief plant-based stint which would be directly relevant.",
+        "condition": "Neither Patrick nor Toby speaks in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "timestamp": "2026-07-29T22:49:09.075095Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Fletcher has moved the conversation to a genuinely new and analytically significant place: from 'is it logistically possible?' to 'is it fair to ask someone to do it?' This is a shift from practical constraint to moral economy of domestic labour \u2014 and it's rich material. He's naming the asymmetry explicitly: his wife carries the load already, and adding plant-based transition would add to her burden, not his. This is directly relevant to the research objective (what would need to change) and also surfaces something latent throughout the session \u2014 that the barrier to plant-based eating may not be the man's willingness or taste preferences, but the gendered distribution of the planning and cooking labour itself. This is a significant finding. However, Fletcher has now spoken four consecutive turns in Section 4 and Patrick and Toby have not spoken at all in this section despite being directly invited. The section is significantly over word budget (1546/900). The fairness framing Fletcher has just introduced is strong enough to open to the group \u2014 Patrick and Toby may have genuinely different takes (Patrick's wife did a brief plant-based stint; Toby is rural like Fletcher but may frame it differently). The queued next action from last turn was to reactivate Toby if neither spoke. That condition has now been met twice over. I need to give Patrick and Toby the floor \u2014 but without losing Fletcher's fairness framing, which is the most analytically interesting thing said in this section. A redirect_to_group that picks up Fletcher's 'is it fair to ask' point and opens it to the group is the right move. Keep it brief \u2014 the section is over budget and I need to get Patrick and Toby in before transitioning to Section 5.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 4 is significantly over word budget and the core question has been substantively addressed. Once Patrick and Toby have had a chance to respond, transition to Section 5.",
+        "condition": "Patrick and/or Toby have responded to this prompt."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Fletcher's just shifted the question a bit \u2014 from whether it's possible to whether it's actually fair to put that on someone who's already doing everything. Toby, Patrick \u2014 does that land for you? Is that part of how you'd think about it?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 29,
+      "timestamp": "2026-07-29T22:49:49.021242Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Patrick has just made a genuinely significant contribution \u2014 the first time anyone in the group has explicitly said 'I could learn to do the planning side myself.' This directly challenges the structural fatalism that has dominated the Fletcher-Keith exchange and introduces a new variable: retirement as an opportunity to redistribute domestic cognitive labour, not just cooking labour. This is directly relevant to the research objective (what would need to change) and adds something new to the section rather than repeating earlier ground. Toby has still not spoken in Section 4. The section is massively over word budget (1808/900) and approaching the session time limit. Patrick's contribution creates a natural break \u2014 it ends on a direct address to Fletcher ('you could start doing more of the planning side yourself'). This is an invitation for the group to respond to each other. The right move is to observe and let Fletcher (or Toby) respond to Patrick's challenge. Patrick has addressed Fletcher directly, so there's a good chance Fletcher will respond, and there's also space for Toby to enter. I should not intervene \u2014 the group is doing real work and my utterance is already in the transcript inviting exactly this kind of response. One more observe turn is warranted. If Toby still hasn't spoken after the next turn, I should do a very brief transition that picks up Patrick's reframing and carries it into Section 5.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 4 is at double its word budget and the core question has been substantively addressed from multiple angles \u2014 logistics, willingness, fairness, and now redistribution of planning labour. Patrick's reframe (you could learn it yourself) is a strong note to carry into Section 5. After one more participant exchange, transition to Section 5 whether or not Toby has spoken, and give Toby early opportunity in Section 5.",
+        "condition": "After the next participant turn, transition regardless of who speaks."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "timestamp": "2026-07-29T22:50:23.057805Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Fletcher has just made a genuinely important distinction: Patrick's argument about learning the planning role assumes retirement-level time and headspace, which Fletcher doesn't have. This is a real and specific complication of Patrick's point \u2014 not a deflection, but a genuine structural difference in their situations. The conversation is still producing new material: we've moved from logistics \u2192 fairness \u2192 who has the capacity to redistribute labour. This is analytically rich territory. However, Section 4 is massively over budget (2096/900 words) and Toby has still not spoken in this section at all. Fletcher and Patrick are doing real work, but Toby's silence is becoming a genuine gap. The last_engagement_round shows Toby wanted to speak to challenge Patrick on exactly this fairness/capacity point \u2014 his hook was 'Patrick's missing something real here.' This is the moment to give Toby the floor without cutting off the thread. The exchange between Fletcher and Patrick has reached a natural pause \u2014 Fletcher has had the last word and Patrick is the obvious next respondent, but I've already been observing/speaking around this loop. Toby's entry at this point would add fresh texture rather than repeating. A brief reactivate_silent targeting Toby is warranted \u2014 warm, tied to the thread, not calling out his silence. I'll frame it as curiosity about whether his situation maps differently onto what Fletcher and Patrick are describing, since his rural context parallels Fletcher's but his domestic situation may differ.",
+      "action": "reactivate_silent",
+      "target": "mm_fg5_toby",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 4 is at more than double its word budget and the core question has been addressed from multiple angles. After Toby's contribution, transition to Section 5 regardless of whether further discussion continues.",
+        "condition": "After Toby responds."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Toby \u2014 you've been quiet through this bit. Does any of that land for you, or does your situation look different?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "timestamp": "2026-07-29T22:50:50.014996Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Toby has now responded and his contribution is substantively in line with Fletcher's position \u2014 rural constraints, extra burden on the person already doing the planning, not something they've actively considered. He adds the retirement/working distinction (agreeing with both Patrick and Fletcher on different points) and confirms the 'it would land heavy on the person doing the planning' framing. This is useful data but doesn't add much new beyond confirming the pattern. The queued next action from turn 30 has now been satisfied: Toby has spoken. Section 4 is massively over budget (2335/900 words, 9/15 turns, and estimated elapsed time is already past the 45-minute total). The core question \u2014 'what would need to change to go plant-based?' \u2014 has been addressed from multiple angles: logistics, willingness, fairness, redistribution of labour, rural vs suburban constraint, retirement vs working. The section has been exhausted. I need to transition to Section 5 now. Toby's closing line \u2014 'it would land pretty heavy on the person who's already doing the planning' \u2014 is a clean note to pick up and carry into Section 5 ('what would make plant-based foods more appealing to you or other men you know?'). That section can pick up the thread of what might make it feel less like a burden and more like something worth doing. The transition should be brief, acknowledge what's been produced without over-summarising, and open Section 5 with a question that connects thematically.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "That's a really consistent thread across all four of you \u2014 the idea that making a shift like that would fall on whoever's already carrying the planning load, and that that's not a small ask. Let's take that somewhere slightly different. Rather than the logistics of making it work \u2014 what might actually make plant-based food feel more appealing or worth the effort? Whether that's for yourselves, or for men you know.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 32,
+      "timestamp": "2026-07-29T22:51:30.062646Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Patrick has just given a substantive and multi-threaded response to Section 5's guide question \u2014 what would make plant-based foods more appealing. He's named three distinct things: (1) he'd need a health scare or doctor's orders as genuine motivation; (2) general environmental/ethical arguments don't move him at his age given established habits and tastes; (3) plant-based food looks 'fiddly' \u2014 specialist ingredients, long recipes, uncertain taste. The last point is the most concrete and researchable, and he ends on a genuinely open note: 'if someone had shown me something that looked good and tasted good, not too much messing, I might think differently.' That's a real and specific conditional. The group hasn't responded to this yet. Fletcher, Keith, and Toby all indicated they wanted to speak to the Section 5 question \u2014 their hooks in the last_engagement_round suggest they all have something to add (Keith specifically wanted to speak to what actually draws people to make changes; Toby wanted to introduce a new angle about motivation). Patrick's response is rich enough that it could either be probed (especially the 'fiddly' perception \u2014 is that based on experience or assumption?) or redirected to the group to get the others' versions. Given consensus risk is low, the group is fresh on a new section, and three participants haven't yet spoken, the stronger move is to redirect to the group \u2014 Patrick has given them something concrete to respond to, and the 'fiddly' / 'looked good and tasted good' framing is something the others will likely have views on. I should not probe Patrick immediately; let the group develop the thread first.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg5_keith",
+        "rationale": "Keith mentioned wanting to speak to what actually draws people to make changes, from his own experience with meat reduction. If he doesn't volunteer in the next turn, worth drawing him in specifically.",
+        "condition": "Keith does not speak in the next participant turn."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Patrick's put his finger on something there \u2014 that 'fiddly' idea, and the sense that you'd want something that looks decent and doesn't take forever. Do any of you recognise that? Or is it a different thing that would actually shift the needle for you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "timestamp": "2026-07-29T22:52:02.607057Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Toby has just made a substantively rich contribution to Section 5's guide question. He's done two things Patrick hadn't: (1) offered a concrete personal example \u2014 his wife's lentil stew \u2014 that challenges the 'fiddly' perception from lived experience, and (2) identified the mechanism by which attitudes shift: you have to actually taste something decent first, and most people won't try unless there's a specific reason. This is a genuinely different angle from Patrick's \u2014 Patrick said 'if someone had shown me something that looked good and tasted good, I might think differently'; Toby is essentially saying that's exactly what happened to him, and it worked. That's a productive tension: Patrick is describing a conditional he hasn't experienced; Toby is describing the aftermath of experiencing it. The group hasn't yet had Fletcher or Keith respond to the section's guide question. Fletcher's engagement round hook was about the 'fiddly' perception and wanting something straightforward \u2014 directly relevant. Keith had a counter-example from his own kitchen. Both have something to add. The section is still early (392/850 words, 1/14 turns \u2014 though session time is over budget overall). The conversation is live and productive. Toby's contribution is a natural turn-point \u2014 he's ended on a clear note ('that's just food, really') and essentially agreed with Patrick while complicating the fiddly claim. The next natural step is to let Fletcher or Keith respond \u2014 they're both primed and the conversation doesn't need moderator intervention to continue. This is an observe moment.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg5_fletcher",
+        "rationale": "Fletcher hasn't spoken in Section 5 yet and his engagement round hook suggests he has a specific take on the practicality/simplicity question. If he doesn't volunteer in the next turn, worth drawing him in \u2014 particularly on whether Toby's 'it's just food' framing maps onto his rural context.",
+        "condition": "Fletcher does not speak in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 34,
+      "timestamp": "2026-07-29T22:52:38.203779Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Patrick has just done something analytically significant: he's publicly revised his position in real time. He came in saying plant-based looked 'fiddly' and he wasn't motivated to change; Toby's concrete example \u2014 a lentil stew, no bother \u2014 led Patrick to acknowledge he was 'imagining the difficulty rather than knowing it.' He ends with a genuine insight: 'people need to have tried it and realised it's not a bother before they'd want to do it again.' That's a specific and researchable claim about the mechanism of attitude change \u2014 not just 'exposure works' but 'low-production, unmarked experience works.' This is the most generative exchange in Section 5 so far. Fletcher and Keith have not yet spoken in this section. Fletcher's engagement hook was about practical simplicity in a rural context; Keith had a counter-example from his own kitchen and wanted to speak to what actually draws people toward change. Both are directly relevant to what Patrick just said. The section has used 641/850 words and 2/14 turns \u2014 plenty of room remaining and the conversation is live. The group is not in premature consensus; Patrick has actually moved, which is real, and that movement is now available for Fletcher and Keith to respond to. The right move is to observe \u2014 Patrick ended his turn clearly, the exchange is still open, and Fletcher or Keith are primed to respond voluntarily. Intervening now would cut across a conversation that is already doing the work.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg5_fletcher",
+        "rationale": "Fletcher and Keith haven't spoken in Section 5 yet. If neither volunteers after Patrick's turn, Fletcher's take on the 'unmarked meal' mechanism Patrick described is particularly worth drawing out \u2014 his rural context and direct-experience-as-the-entry-point thread from Section 4 is directly relevant.",
+        "condition": "Neither Fletcher nor Keith speaks in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 35,
+      "timestamp": "2026-07-29T22:53:14.073001Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Toby has just distilled the section's emerging insight into its clearest form yet: the mechanism that shifts attitudes is low-stakes, unmarked exposure \u2014 someone making you a decent meal without fanfare, and you realising you don't mind it. This is analytically useful and directly answers the guide question. Patrick and Toby have now both converged on this 'unmarked exposure' mechanism. Fletcher and Keith have not spoken at all in Section 5. The section word budget is essentially exhausted (849/850 words) but only 3/14 turns have been used \u2014 that budget asymmetry suggests the section has been word-heavy but turn-light, meaning the remaining turns are available and there's still research value in hearing from Fletcher and Keith, who have distinct perspectives (rural constraint, direct experience with meat reduction) that could complicate or enrich the Patrick-Toby synthesis. However, the word budget being spent is a real signal that I should be moving toward closure rather than opening new threads. The smart move is a brief section_transition that acknowledges what's been produced without over-summarising, then moves to the closing section \u2014 unless I can get something genuinely different from Fletcher or Keith in a single, tight exchange. Given the budget state, the cleaner call is section_transition. The Patrick-Toby convergence is itself a finding, and the closing section gives the group a last opportunity to add anything they feel is missing.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "That's a really clear way of putting it, Toby \u2014 just someone making the tea, no big deal, and you find out you don't mind it. That feels like a different kind of answer from all the planning and logistics we've been talking about.\n\nWe're coming up to the end of our time, so I want to make sure everyone gets a last word. Before we finish \u2014 is there anything any of you want to add, or something that's come up in the conversation that you feel hasn't quite been said yet? About food, gender, masculinity, plant-based eating \u2014 anything at all.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 36,
+      "timestamp": "2026-07-29T22:53:55.398626Z",
+      "trigger": "section_complete",
+      "situation_assessment": "We're in the closing section. Fletcher has just made a substantive and analytically sharp contribution \u2014 returning to the fairness/planning-burden thread he'd been carrying since Section 4, now framed explicitly as a condition for change rather than just a structural obstacle. This is a strong note to close on: it reframes the whole conversation, names men's planning-load as the real lever, and directly addresses Patrick. It's also the first time Fletcher has spoken in Section 5, so it lands with some weight. The closing section guide question has been posed (implicitly by the section_transition that ended Section 5), and what Fletcher has just said is exactly the kind of final remark the guide question invites. Keith, Toby, and Patrick have their hooks queued \u2014 they want to respond. There's real energy here. The question is whether to let the group run for one more round before closing. Given we're in closing phase, the word budget is essentially used (100/150), and session time is well over the 45-minute mark, I should not let this open into a full new exchange. But Fletcher's point is the strongest analytical contribution in this section and deserves acknowledgement. The right move is a warm, brief close \u2014 acknowledge what Fletcher has said, note that it's a fitting note to end on, and give the group a last moment to add anything they haven't said. This keeps faith with the closing section's purpose without reopening the full discussion.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Fletcher, that feels like a really honest note to end on \u2014 that the planning load is the thing, not just the cooking. That's something that's run through the whole conversation today.\n\nOkay, we've covered a lot of ground \u2014 your friendships and how they work, how you think about food day to day, what gender does and doesn't shape, and what it would actually take to eat differently. Before I let you go, is there anything any of you feel you didn't get to say \u2014 about food, gender, plant-based eating, any of it? Anything that's been sitting with you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    }
+  ],
+  "transcript": [
+    {
+      "turn": 0,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Hi everyone, and welcome \u2014 really glad you could all make it today. My name's Alex, and I'll be facilitating our conversation. We've got about 45 minutes together, and it's going to be recorded for research purposes, so just bear that in mind.\n\nThe main thing I want to say before we get going is that this is genuinely a conversation \u2014 not a quiz, not an interview where I'm looking for particular answers. Whatever you actually think, feel, or do is exactly what's useful here. You might find yourselves agreeing with each other, you might find you see things completely differently \u2014 both of those are fine, and honestly both are interesting. If something someone else says connects with your own experience, just jump in. You don't need to wait to be asked.\n\nOkay, let's get started. Let's go around and if everyone could just say your name and where in the UK you're coming from today, that would be great.",
+      "timestamp": "2026-07-29T22:35:51.736725+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 2,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Yeah, hi everyone. I'm Keith, I'm from the North West \u2014 just outside Manchester actually, in the suburbs. I'm 72, retired now. First time doing one of these focus groups, so I'm not entirely sure what to expect, but I'm happy to be here and have a chat. Seems straightforward enough.",
+      "timestamp": "2026-07-29T22:36:06.408070+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 3,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Right, yeah. I'm Patrick, I'm 73, and I'm down in the South East \u2014 suburban area. And like Keith here, I'm retired as well, so I know what you mean about not knowing what to expect. Only my second time doing something like this actually, so it's all a bit new to me still. But I'm looking forward to it. Seems like a relaxed sort of thing, so that's good.",
+      "timestamp": "2026-07-29T22:36:22.053557+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, hi everyone. I'm Toby, 68, from down here in the South West \u2014 rural bit actually, nowhere near a town. I've done a few of these groups before so I know the ropes a bit.\n\nKeith, Patrick, honestly there's nothing to worry about. Alex here is right \u2014 it's just a chat really. Nobody's testing you on anything. You just say what you think. I found the first one a bit odd, I'll be honest, sitting round with strangers talking into a recorder, but after five minutes you forget about it and it's just normal conversation. So don't stress about it.",
+      "timestamp": "2026-07-29T22:36:43.474092+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Right, yeah, I'm Fletcher. I'm 64, up here in rural Scotland \u2014 proper rural, you know, not on anyone's doorstep. I've done a couple of these before as well, so I know what Toby means about it becoming normal after a bit.\n\nI'll be honest, the recording thing still gets to me a wee bit, but you're right, Toby, you forget about it. I think the main thing is just to say what you actually think rather than what you think people want to hear. That's the whole point of it, isn't it?\n\nGood to have some other folk here who've done this before. Makes it feel a bit less formal.",
+      "timestamp": "2026-07-29T22:37:06.108296+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Great, good to have you all here \u2014 Fletcher, Toby, Patrick, Keith. And Fletcher, I think that's exactly the spirit of it \u2014 just saying what you actually think.\n\nRight, let's get into it. First thing I'd love to hear about is where you actually spend time with your male friends \u2014 the places that come to mind. Your favourite spot, wherever that is \u2014 pub, club, someone's shed, a park, anywhere. What comes to mind, and what is it about that place that makes it the one?",
+      "timestamp": "2026-07-29T22:37:06.109309+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Well, for me it's mostly the pub, to be honest. There's one about twenty minutes away \u2014 it's nothing fancy, just a proper local. That's where you see the same faces, you know? Folk you've known for years. We'll sit there of an evening, have a pint, a chat. It's reliable, that's the thing. You know who you're going to bump into.\n\nAnd then there's the football \u2014 I go down to watch when I can. That's another one where you're with the same crowd week in, week out.\n\nBut if I'm being honest, out where I am, you don't have loads of options for just popping somewhere casual. You've got to make a bit of effort to get anywhere, so when you do go out, you make it count. You're not just wandering down the street to meet someone. It's more deliberate than that, I'd say.",
+      "timestamp": "2026-07-29T22:37:34.683687+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, that's exactly it, Fletcher. You've hit on something there. Out where I am it's the same \u2014 you can't just nip down to the pub round the corner because there isn't one round the corner. So when you do meet up with someone, there's a bit more intention to it, you know? You've actually planned it rather than it just happening.\n\nFor me it's either down the local, which is a good fifteen, twenty minutes drive, or honestly a lot of it happens at someone's place. Someone's kitchen or garage. We'll have a cup of tea, work on something, have a chat. That's actually where quite a bit of the socialising happens out here \u2014 you end up at a mate's house because you're already going in that direction or you've arranged to help them with something.\n\nThe pub's nice when you go, but Fletcher's right \u2014 it's more of an event. You get yourself ready for it, make the drive. Not like you can just pop in for half an hour between other things. And that does change how you do it, I reckon. Makes it feel a bit different.",
+      "timestamp": "2026-07-29T22:37:57.156023+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Yeah, that's it exactly. You've got it there, Toby. A lot of my time with folk is actually doing something \u2014 I'll go round to help someone fix something on their place, mend a fence, sort out the boiler, whatever it is. And you're having a blether while you're doing it, cup of tea going. That's when you actually have proper conversations, I find.\n\nIt's not like you're sitting down thinking, right, now I'm going to socialise. You're just... getting on with something and talking. And honestly, that suits me fine. You get something done and you've had company. Two birds with one stone, you know?\n\nThe garage thing Toby mentioned \u2014 yeah, that happens too. Folk tinker about with cars or whatever they're working on, and you'll drift over, see what they're up to. It's more natural than just sitting in a pub making conversation. You've got something to focus on besides just talking at each other.",
+      "timestamp": "2026-07-29T22:38:23.064955+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Yeah, well it's a bit different where I am. I mean, I'm suburban, so I've got options, haven't I. There's pubs within walking distance, a couple of them. I'll meet mates down the local \u2014 it's just round the corner basically, five minutes walk. That's the main one for us. We just sort of... go when we fancy it, really. Don't have to plan it too much.\n\nBut what you're saying about the intention thing, Fletcher \u2014 I get that, I do. Out where you are you've got to make more of an effort. We're a bit spoiled, I suppose. We can just say, oh, fancy a pint, and off we go. \n\nThough I will say, even in the suburbs you do end up at someone's house quite a bit. My mate Dave, he's always got something on the go \u2014 bit of DIY, garden work, that sort of thing. I'll pop over, we'll have a cup of tea, help him out with whatever it is. That's the same as what you're describing, Toby. You're doing something and chatting at the same time. That's quite nice, actually. More relaxed than just sitting making small talk.\n\nBut yeah, the difference is we've got the pub right there if we want it. We can be a bit more casual about it. Not everything has to be an event.",
+      "timestamp": "2026-07-29T22:38:50.278737+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Right, but see, that's the thing though \u2014 being casual about it isn't necessarily better, is it? I mean, you can pop down the pub whenever you fancy, but does that mean you see people deeper, you know what I mean?\n\nWhen you have to plan it, when you've got to make the effort to drive twenty minutes, you're actually committed to it. You're going to sit there for a couple of hours, have a proper night. You're not just popping in for twenty minutes because you're bored. You've got time to actually talk about things.\n\nAnd the work thing \u2014 what you said about Dave, Keith \u2014 that's it. That's where real conversation happens, I think. You're doing something with your hands, you're not just staring at each other across a table trying to fill the silence. The chat just flows naturally because you're focused on the job.\n\nOut here, a lot of your friendships are built that way. You help someone with their place, they help you with yours. There's a purpose to it beyond just passing the time. Maybe that sounds a bit... I don't know, but I reckon there's something in it. You're not just mates who go to the pub, you're actually useful to each other.",
+      "timestamp": "2026-07-29T22:39:19.153391+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Patrick, you've been listening to all of this \u2014 does any of it ring true from your end, or does it feel different where you are?",
+      "timestamp": "2026-07-29T22:39:19.154269+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Well, I'm somewhere in between, aren't I really. I've got the pubs nearby like Keith \u2014 couple within reasonable walking distance \u2014 so I can be a bit casual about it. But I'm not as spoiled for choice as he is, and we're not as isolated as you two are out there.\n\nWhat strikes me though is what Fletcher's saying about the intention and the depth of it. I think he's onto something. I do find when I'm round at a mate's helping with something \u2014 I've got a friend who's always got a project on \u2014 that's when you actually have a conversation. You're not just sat there thinking what do we talk about next. It just happens naturally while you're getting your hands dirty.\n\nBut I wouldn't say the pub is shallow, exactly. It depends who you're with and how long you've known them. With the right lads, you can still have a proper chat down the pub. You're just not forced into it the way you are when you're working on something together.\n\nI suppose we get a bit of both down here. That's probably the main difference for me.",
+      "timestamp": "2026-07-29T22:39:39.329505+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That makes sense \u2014 a bit of both. Right, we've got a nice spread there: pubs, garages, mates' kitchens, varying degrees of planning depending on where you live. Let's move on to something a bit more everyday. How do you actually decide what to eat \u2014 day to day, week to week? What goes into that?",
+      "timestamp": "2026-07-29T22:39:39.330492+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Well, it's changed a lot since I retired, I'll be honest. When I was working, you didn't really think about it much \u2014 you'd grab something at lunch, cook something quick in the evening, or you'd already planned ahead because you knew what your week looked like. Now it's different.\n\nI find I've got more time to think about what I'm eating, which sounds like a good thing, but it also means you can be a bit more... I don't know, leisurely about it. Some days I'll think, right, I'll make a proper stew, take my time with it. Other days I can't be bothered and I'll just have beans on toast or something.\n\nWhat actually drives it for me is what's in the fridge, to be honest. My wife and I, we'll do a shop at the weekend, but then during the week it's just \u2014 what haven't we used yet? We don't like waste. So if there's veg that needs eating, that's what you'll have. If there's a bit of meat in there, you'll work round that.\n\nAnd your appetite changes a bit at our age, doesn't it? You don't need the same amount as you did. So a tin of soup and a sandwich might be lunch, where you'd have wanted something more substantial years ago. That changes what you're buying, what you're planning for.\n\nI'm not one of these meal-planning people with a spreadsheet or anything like that. It's more just practical, day by day.",
+      "timestamp": "2026-07-29T22:40:18.096911+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "That's exactly how it works out here too, Patrick. You can't just nip to the shops whenever you fancy, so you've got to be a bit more thoughtful about what you've got in. And yeah, not wasting things \u2014 that's a big one.\n\nI find it's the same as what you're saying, really. You plan your big shop, and then during the week you're working with what you've got. If there's potatoes in the cupboard and veg in the fridge, that's what you're having. My wife does most of the cooking, but we both know it's not about having exactly what you fancy \u2014 it's about using what's there before it goes off.\n\nAnd you're right about the appetite thing. You don't need as much as you used to. I'll have a bit of cheese and bread for lunch, maybe some cold meat from a few days before. That does you fine. You're not thinking about three-course meals or anything like that at our age.\n\nI suppose living out here, you get into that habit anyway because you can't be spontaneous about shopping. You've got to think a bit ahead. Makes you less wasteful, I reckon. You're not buying things just because they're there.",
+      "timestamp": "2026-07-29T22:40:48.040229+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, that's fair enough. Though I'd say with us it's a bit more mixed. My wife does tend to do most of the cooking still, if I'm honest, but since I've retired I'm doing more of it than I used to. When you're at work all day, you just come home and she's got the tea on, don't you. Now I'm around, I'll do a bit more. Nothing fancy, but I'll make a dinner couple of times a week, or I'll prep something if she's going out.\n\nIt's one of those things that changes when you retire, I reckon. You've got the time, so you end up doing a bit more around the house generally. Cooking, tidying, whatever. It's not like a big discussion about it \u2014 you just sort of slip into it because you're there.\n\nBut you're right, Toby, about the planning side of things. That's the practical thing that runs it all. Whether it's one of you cooking or both of you, you've still got to work with what's in the house. You can't be nipping out to Tesco's every other day at our age \u2014 that's a waste of time and money. So you plan the shop, you use what you've got, and you move on.\n\nThe wife's probably better at remembering what needs eating though, I'll admit that. She's got the head for it. I'm more just \u2014 what's for tea tonight \u2014 and she'll say, well, we've got that chicken that needs doing, or we need to use those carrots.",
+      "timestamp": "2026-07-29T22:41:19.421510+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, that's much the same here. My wife does most of the cooking still, but I'm doing more than I used to now that I'm not working. You just fall into it, don't you \u2014 you're there, you might as well do something useful.\n\nBut what you said about her remembering what needs eating \u2014 that's it exactly. She's got that... I don't know what you'd call it, that sense of what's in there and what's going off. I'll open the fridge and I just see a fridge, you know? She'll open it and she knows there's three days' worth of veg that needs using, or the milk's getting near the end. It's just there in her head somehow.\n\nI do the shopping with her most times now, but honestly I could be looking at the same things and not register half of it the way she does. She's the one who knows what we need, what we've got, what's going to work together. I'm more just... carrying the bags, I suppose.\n\nNot that I'm complaining about it or anything. That's just how it's worked out over the years. But it does mean she's got that responsibility, the planning bit. Even if I'm the one cooking on a given night, she's already thought through what that should be. It's a different kind of work, that thinking ahead bit.",
+      "timestamp": "2026-07-29T22:41:58.335173+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher, I'm curious whether any of this sounds familiar from your end \u2014 or whether it works differently for you?",
+      "timestamp": "2026-07-29T22:41:58.336278+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Yeah, it's pretty much the same setup for us, to be honest. My wife does most of the cooking still, and like you say, Toby, she's the one who's got it all in her head \u2014 what needs using, what's going off. I couldn't tell you half of what's in the cupboard if you asked me.\n\nThough I do more of the cooking now than I did when I was working, same as Patrick. Just because you're there, you might as well. And out here it's the same thing \u2014 you can't just pop to the shops whenever, so you've got to work with what you've got. Big shop at the weekend, then you're using what's there through the week.\n\nThe waste thing Toby mentioned \u2014 that's real out here. You're not throwing things away because you couldn't be bothered with them. You use what you've got because it costs money to replace it and you can't just nip out. It's practical, that's all.\n\nDon't really think about it much beyond that, to be honest. You eat what's there, you don't go hungry, and you don't waste things. That's the long and short of it for us.",
+      "timestamp": "2026-07-29T22:42:24.789791+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So there's a pretty consistent thread across all of you \u2014 working with what's there, not wasting things, and your wife holding that mental picture of the fridge even when you're both involved in the cooking. That's a useful picture to have. I want to shift us onto something a bit different now. I'm curious about whether being a man shapes what you eat \u2014 or whether you think it does. Does your gender influence what ends up on your plate?",
+      "timestamp": "2026-07-29T22:42:24.790942+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Well, I'd say yes, it probably does, though maybe not in the way you might think. I mean, I'm not sitting there thinking, oh, that's a woman's food, I won't eat it. It's not that daft.\n\nBut I think \u2014 at least out where I am \u2014 there's an expectation that your wife's doing the cooking, and you're just... eating what she makes. And if you're doing it, you're doing meat and potatoes type stuff, aren't you? That's what comes naturally to you. You're not thinking about making a nice salad or whatever. You want something that fills you up.\n\nAnd the shopping side of it \u2014 like Toby said, he's just carrying the bags. That's probably true for most of us. The woman's doing the planning, the thinking about nutrition, whether you've had enough vegetables, all that. We're just... eating what appears.\n\nI don't think it's a big dramatic thing, but yeah, I reckon being a man probably does shape it. You're less aware of what goes into the planning of it, less interested in it maybe. You just want your dinner. That's the reality of it, I think. Not everyone's the same, but that's how it's been for me anyway.",
+      "timestamp": "2026-07-29T22:43:04.957004+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher, thanks \u2014 that's a clear way of putting it. Does that land with the rest of you? Is that how it feels \u2014 that being a man shapes it more in terms of who's thinking about it than what you actually want on the plate?",
+      "timestamp": "2026-07-29T22:43:04.958858+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Well, I'd push back on that a bit, to be honest. I mean, Fletcher's right that my wife does most of the planning and thinking ahead \u2014 that's just how it's worked out for us. But I wouldn't say I'm just eating what appears without thinking about it.\n\nSince I retired, I've been doing more of the cooking, like we said. And I'm not just doing meat and potatoes because that's what men eat. I'll make a stir-fry, I'll do a decent curry, whatever. I'm thinking about what goes into it, whether we've had enough veg. It's not rocket science, but it's not nothing either.\n\nI think maybe that's changed a bit since we were younger, hasn't it? When Fletcher was working and I was working, yeah, maybe you just came home and ate what was there without thinking. But I've been doing this for years now \u2014 thinking about what we're eating, making sure there's a bit of variety. That's just... being a proper cook, not just a man. It's a skill, really.\n\nSo I wouldn't say being a man shapes what I eat so much that I'm just passive about it. I care what's good to eat and what's not. Maybe not in the same way my wife does it \u2014 she's got the longer view on planning \u2014 but when it comes to actually making something, I'm not just throwing meat on a plate because I'm a bloke.",
+      "timestamp": "2026-07-29T22:43:37.401293+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Keith, so you're drawing a distinction there \u2014 it's not that men are just passive about food, it's more that the planning role sits differently. Fletcher, does that match your experience, or do you see it differently?",
+      "timestamp": "2026-07-29T22:43:37.401826+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Well, yeah, that's fair enough what Keith's saying. I mean, I do think about what I'm eating when I'm making it. I'm not a complete numpty about it. But the planning bit \u2014 that's different, isn't it. That's the longer-term thing, knowing what's in the cupboard, what needs using, thinking ahead to next week. That's more my wife's domain, and honestly, I'm not sure I'd be as good at that as she is.\n\nWhen I'm cooking something, I'll think about it \u2014 make sure it's decent, not just chuck anything together. But the big picture stuff, the knowing what we've got and what we need \u2014 that's her. And maybe that is partly a man and woman thing, at least how it's worked out for us. But Keith's right that it's shifted a bit since we retired. You're doing more, you're thinking more about it. It's not like when you were working and you just came home expecting it all to be sorted.\n\nSo I wouldn't say men are just passive eaters, no. That was maybe too harsh what I said. But there's still that difference in who's holding the bigger picture of it all, you know?",
+      "timestamp": "2026-07-29T22:44:11.493813+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So there's a distinction emerging here between the cooking moment and the bigger picture \u2014 the longer view of what's in the cupboard, what needs using. Patrick, Toby \u2014 does that track with how it works for you?",
+      "timestamp": "2026-07-29T22:44:11.495335+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, it does, actually. There's a real difference between those two things, isn't there. When I'm making the dinner, I'm thinking \u2014 right, that needs a bit more seasoning, or we should have some veg with this, or whatever. I'm engaged with it. But the bigger strategic thing, like Fletcher said \u2014 knowing what's going off, what we need to buy next week, whether we're short on anything \u2014 that's my wife's head space. She's holding all that.\n\nAnd I think Keith's right that it's changed since we retired. When I was working, I'd just come home and eat. Now I'm here, I'm doing more of the actual cooking, and yeah, you do think more about it. You can't help but. But that doesn't mean I'm suddenly thinking ahead the way she does. That's a different skill entirely.\n\nWhat I notice is \u2014 she'll open the fridge and within about two seconds she's working out the next three or four meals from what's in there. I'll open it and just see... I don't know, ingredients. I'm not joining the dots the way she is. That's the bit I reckon is probably more about how we've been brought up, how our roles worked out. The day-to-day cooking bit \u2014 that's just cooking, isn't it. But the holding it all together bit, that's something else.\n\nSo no, I don't think men are just passive about eating. But there's definitely something in what Fletcher said about the planning side being different.",
+      "timestamp": "2026-07-29T22:44:47.255501+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Toby, you've been quiet on this one \u2014 does that distinction ring true for you, or does it work differently in your house?",
+      "timestamp": "2026-07-29T22:44:47.255933+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, it's the same for us, that's fair. I do a bit of cooking now, and when I'm doing it I'm thinking about it \u2014 making sure it's decent, not just slapping something on a plate. But the bigger planning thing, that's her. She knows what needs eating, what we're short on, all that. I'm just... not thinking about it the same way.\n\nI don't know if it's about being a man exactly, though. I think it's more just \u2014 that's how it's worked out over the years. She's been the one doing it, so she's got into that habit of looking ahead. I'm the one who does other things around the place \u2014 outside work mostly, fixing things. We've just fallen into different roles, really.\n\nKeith's right that it's changed a bit since I stopped work. I'm doing more, thinking more about the actual cooking. But that big picture thing Patrick was talking about \u2014 the knowing what's going off in three days' time \u2014 no, I'm not doing that. And honestly, I'm not sure I would be even if I tried. She's just better at it. That's just how her mind works.\n\nI wouldn't say it's about men being passive or stupid about food or anything like that. It's just \u2014 different responsibilities, different things you're paying attention to. And out here especially, you can't afford to be too sloppy about it because you can't just pop to the shop if you've messed up your planning.",
+      "timestamp": "2026-07-29T22:45:11.873069+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So there's something consistent coming through there \u2014 the cooking itself isn't particularly gendered, but the longer-view planning role has settled differently, and for most of you that's landed with your wives. Toby's point that it's more about how things worked out than about being a man is interesting too. Let me take that somewhere. Imagine for a moment that you decided to go fully plant-based \u2014 no meat, no fish, dairy maybe out too. What would actually need to change in your life for that to be a realistic thing? Not whether you'd want to \u2014 just what would have to shift.",
+      "timestamp": "2026-07-29T22:45:11.873495+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Well, out here, that would be quite a shift, I'll tell you that much. You'd need someone who actually knows what they're doing with it \u2014 someone who's thought about it properly, worked out the planning. That's the thing. You can't just decide to go plant-based and then wing it. You'd need to know what you're eating, what nutrition you're getting, how to shop differently.\n\nAnd shopping would be different, wouldn't it. You'd need to know what to buy, where to get it. Out where I am, your options are limited. You can't just nip to a fancy supermarket with all the specialist stuff. You'd have to plan your big shop very carefully, make sure you've got what you need for the week. And if you got it wrong, you'd be stuck because you can't just pop out and grab something else.\n\nIt would also mean \u2014 and this is the thing \u2014 whoever's doing the planning would need to take that on properly. Because like we've been saying, that's the bit that actually matters. Someone would have to learn about plant-based nutrition, what works, how to make it work on what you can actually get. That's not nothing.\n\nAnd the cooking side \u2014 you'd need to be interested in it, really. You can't just do the same old thing with different ingredients. You'd have to actually engage with it, learn how to do it properly.\n\nSo yeah, it could work, but it would mean someone taking it seriously. Not just deciding it and hoping for the best.",
+      "timestamp": "2026-07-29T22:45:48.301950+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "I think you're making it sound harder than it actually is, though, Fletcher. My wife wanted to cut back on meat a couple of years back \u2014 for her health, really. And yeah, we've done that. It wasn't like we had to completely overhaul everything or have someone who's an expert on it.\n\nI mean, you just use what you'd normally use \u2014 veg, pulses, that sort of thing. We still do meat some nights, but we do more without it now. And honestly, it's not that complicated. A decent stir-fry with tofu or chickpeas, a lentil stew \u2014 that's not rocket science. You don't need some specialist knowledge to work it out.\n\nAnd in the suburbs where I am, it's probably easier than out where you are, I'll grant you that. We've got more shops, more variety. But even so, you're not starting from scratch every time. You're just... swapping things around a bit.\n\nThe planning side \u2014 yeah, that would be something to think about. But it's not like you need a completely different brain for it. You just think about it when you're doing your shop, same as you would anything else. What proteins are you using, what veg, that kind of thing. My wife worked it out without too much bother, and she's not some nutrition expert or anything.\n\nSo I wouldn't say someone would have to take it deadly seriously or learn all about plant-based nutrition. You'd just... do it, really. Like any other change in what you're eating.",
+      "timestamp": "2026-07-29T22:46:23.340831+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Yeah, but that's the difference though, Keith, isn't it. You've got shops. You can just decide to do it and then you can adjust as you go along because you've got options. If you fancy trying tofu one week and it doesn't work, you can try something else the next week. You can pop out if you need to.\n\nOut here, you don't get that luxury. You've got one big shop a week, maybe. So if you decide to go plant-based and you get it wrong \u2014 you buy the wrong things, you run out of something you need \u2014 you're stuck. You can't just nip to the shops on a Wednesday because you fancy trying something different.\n\nAnd yeah, lentil stew, that's fine. But if you're doing it properly out here, you need to know \u2014 right, for this week I need these beans, these lentils, this much veg, and it all needs to work together so nothing goes off. That's more thinking than just swapping meat for chickpeas one night.\n\nIt's not that it couldn't be done. But it's not the same as what you've done in the suburbs. You've got more room for error, more flexibility. Out here you'd have to plan it properly from the start, because you can't just adjust as you go. Someone would have to really sit down and work it out \u2014 what's actually available, what can you store, what actually works.\n\nSo no, I don't think it's the same level of difficulty.",
+      "timestamp": "2026-07-29T22:46:53.586075+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Fair enough, you've got a point about the shopping constraints \u2014 that's real enough. But I'm not sure that's the whole thing, Fletcher.\n\nI mean, yeah, we can pop to the shops easier. But that's not why we actually did it. My wife didn't decide to cut back on meat because she thought, oh well, if it goes wrong I can just nip to Tesco. She decided it because she actually wanted to do it \u2014 for her health, because she cared about it. And then she just... got on with it. Worked out what would work, planned the shop, didn't waste things.\n\nYou could do the same out there. You'd just have to actually want to do it. Plan it properly like you're saying \u2014 but that's not harder, that's just the same planning your wife does anyway for the normal shop. It's just different things in the list.\n\nWhat I'm hearing a bit is \u2014 well, it would be difficult, so why bother. But that's different from saying the suburbs makes it easy. I think it's more about whether you're actually willing to engage with it, you know? My wife was willing to engage with it, so she did.\n\nOut where you are, you'd need someone who was willing to do the same \u2014 sit down and think it through properly. And yeah, you'd have less flexibility. But the difficulty isn't really about the shops. It's about whether someone's actually going to take it seriously and work it out.",
+      "timestamp": "2026-07-29T22:47:26.208276+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something interesting there \u2014 Keith, you're drawing a distinction between the practical constraints and whether someone actually wants to make the change. Toby, Patrick \u2014 you haven't had a chance to weigh in on this yet. What would need to shift for either of you?",
+      "timestamp": "2026-07-29T22:47:26.208705+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "No, Keith, I hear what you're saying, but you're not quite getting it. It's not just about willingness. It's the actual constraint that's different.\n\nYour wife could sit down and plan a plant-based week, right. But if she got it wrong \u2014 if she miscalculated, or something she was counting on wasn't available, or she just didn't fancy what she'd planned \u2014 she's got a safety net. She can adjust. She's got shops to go to.\n\nOut here, when I'm planning the shop, I'm already working within tight margins because I can't just pop out mid-week. So if my wife decided to go plant-based, she wouldn't just be planning a plant-based week \u2014 she'd be planning a plant-based week that also has to account for the fact that there's no flexibility in it. No margin for error. Everything has to work perfectly or we're eating nothing.\n\nThat's not the same as your wife's situation. That's just a harder problem to solve, full stop. It's not about willingness \u2014 it's about the actual complexity being higher when you've got no backup plan.\n\nAnd yeah, she could work it out. But it would take more thinking, more planning, more contingency. That's just the reality of where I am. It's not the same thing.",
+      "timestamp": "2026-07-29T22:48:01.185731+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Yeah, all right, you're right about that. I wasn't... yeah, I see what you mean. The margin for error thing \u2014 that's real. When you've only got one shop a week, you can't just adjust halfway through. You have to get it right the first time, and you've got to think about what happens if something doesn't work out.\n\nThat's a fair point. It's not just about willingness, it's about the actual problem being more complicated when you can't just nip out. You're already working tighter margins with your planning anyway, and adding something new into that \u2014 something you don't know much about yet \u2014 that does make it harder.\n\nMy wife could mess up and just grab something else. You couldn't. So yeah, it would take more planning, more thinking it through before you even started. That's a different kind of difficulty.\n\nI suppose what I'm saying is \u2014 it's doable, but you'd need someone who was really willing to put the work in upfront, because there's no room to learn as you go. Whereas we've got more flexibility to experiment a bit. But that doesn't make what you're doing harder any less real, does it. It just is harder.",
+      "timestamp": "2026-07-29T22:48:32.996395+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Yeah, well \u2014 and this is the thing, Keith \u2014 it's doable, but is it fair to ask someone to do it? That's the question, really.\n\nMy wife's already managing the whole lot. She's planning the shop, doing most of the cooking, thinking about what we've got and what we need. She's already stretched doing that. And now if we're saying, right, let's go plant-based, that means she's got to learn a whole new thing on top of that, plan it perfectly because there's no room for mistakes, and do it all while she's already managing everything else.\n\nIt's not just about whether it's possible. It's about whether it's reasonable to ask of someone who's already carrying that load. That's different from Keith's wife deciding she wants to cut back on meat for her own health. That was her choice, her motivation. She was willing because it mattered to her.\n\nBut out here, if it's just \u2014 well, it's possible if you put the work in \u2014 that's asking a lot of someone who's already doing a lot. There's a difference between something being doable and something being realistic to actually ask of someone in that situation.\n\nSo yeah, I'm not saying it couldn't happen. I'm saying the weight of it would be on one person, and that person's already stretched. That's the real constraint.",
+      "timestamp": "2026-07-29T22:49:09.074710+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher's just shifted the question a bit \u2014 from whether it's possible to whether it's actually fair to put that on someone who's already doing everything. Toby, Patrick \u2014 does that land for you? Is that part of how you'd think about it?",
+      "timestamp": "2026-07-29T22:49:09.075150+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, Fletcher's got a point about the fairness of it, that's real. I mean, you can see where he's coming from \u2014 his wife's already got all that in her head, all that planning, and asking her to take on something completely new on top of that, with no room for error... that's not nothing.\n\nBut I want to push back a bit on the helplessness of it, if I'm honest. Because what I've noticed since I retired is \u2014 you don't have to just accept that it all sits on one person. You can actually learn it yourself. I know my wife's got the system in her head, the way she does it. But I've started paying more attention to what she's doing, how she thinks about it. And I could learn it if I wanted to.\n\nSo if we decided to go plant-based \u2014 which we haven't, by the way \u2014 I wouldn't just be asking her to work it out and do it. We'd both have to think about it. I'd have to engage with the planning side, not just the cooking. Learn what needs to go in the cupboard, what the constraints are, what we can actually get.\n\nThat's what's changed for me since I retired, really. I've had the time and the headspace to actually pay attention to how my wife manages the whole thing. And I could take some of that on if something changed. I'm not great at it yet, but I could do it.\n\nSo Fletcher, I hear you on the fairness thing. But I don't think it has to stay that way. You could start doing more of the planning side yourself. It's not like she's got some magical ability you can't learn.",
+      "timestamp": "2026-07-29T22:49:49.019982+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Right, but Patrick, you're retired. You've got the time. That's the thing you're not quite seeing there.\n\nI'm not retired. I'm still working. So when I come home, I haven't got the headspace my wife has because she's been here all day thinking about it. And yeah, I could learn it \u2014 I'm not saying I couldn't \u2014 but I'd have to find the time and energy to do that on top of everything else I'm doing.\n\nYour wife's been doing this for years, decades probably. It's just second nature to her now. She doesn't have to think hard about it anymore \u2014 it's just there. For me to get to that point, I'd have to actively engage with something new while I'm still working, still tired at the end of the day.\n\nIt's not about ability. It's about \u2014 I've got different constraints than you do. You've got the luxury of time now that you're retired. You can sit down and learn how your wife does it, pay attention, take some of it on. That's great, and good on you for doing it. But most people out here aren't retired. Most working people don't have that headspace free.\n\nSo yeah, theoretically I could learn it. But the reality of my life right now \u2014 that's different from your situation. That's all I'm saying.",
+      "timestamp": "2026-07-29T22:50:23.056410+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Toby \u2014 you've been quiet through this bit. Does any of that land for you, or does your situation look different?",
+      "timestamp": "2026-07-29T22:50:23.057946+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, I hear Fletcher on the time thing. I'm retired now, so I'm in a different position than he is. But I'd say \u2014 it's not really something we've thought about doing, plant-based. It's not come up for us.\n\nWhat Patrick's saying though, about learning how your wife does it \u2014 that rings true. Since I've stopped work, I do pay more attention to how she manages it all. Not that I've taken it on completely or anything, but I'm more aware of it. How she's thinking about things, what she's got in mind for the week. It's different when you're not rushing off to work every day.\n\nBut Fletcher's right as well that it's different if you're still working. You don't have the space in your head for it, do you. You come home knackered, you just want your tea on the table. That's fair enough.\n\nAs for actually going plant-based \u2014 I don't know. It's not something we'd consider really. We eat meat, we use what we've got. It works for us. If my wife wanted to do it, she could work it out, but it would be a lot of extra thinking on top of what she's already doing. And out here, like Fletcher said, you'd need to get it right because you can't just adjust as you go. That's a lot to ask someone to sort out and learn all at once.\n\nSo I suppose I'm with Fletcher on that \u2014 it's not that it's impossible, but it's not straightforward either. And it would land pretty heavy on the person who's already doing the planning.",
+      "timestamp": "2026-07-29T22:50:50.013934+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a really consistent thread across all four of you \u2014 the idea that making a shift like that would fall on whoever's already carrying the planning load, and that that's not a small ask. Let's take that somewhere slightly different. Rather than the logistics of making it work \u2014 what might actually make plant-based food feel more appealing or worth the effort? Whether that's for yourselves, or for men you know.",
+      "timestamp": "2026-07-29T22:50:50.015103+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Well, I think Fletcher's got me fair and square on that one, actually. I wasn't thinking about the working-person angle. That's a different thing entirely from where I'm sat.\n\nBut to answer your question \u2014 what would make it appealing... I'm not sure it would, to be honest. Not for me anyway. I eat meat because I like it, because that's what I've always eaten. I don't have a strong reason to change that. My wife wanted to cut back for health reasons, so we did a bit of that. But going fully plant-based? I'd need something more than just \u2014 well, you could do it if you put the effort in.\n\nI suppose if there was a health scare or something \u2014 doctor says you've got to change what you eat \u2014 then yeah, you'd make it work. You'd have to. But just for the sake of it, or because it's the right thing environmentally or whatever, I'm not sure most of us would be that motivated. Not at our age, anyway. You've got your habits, your tastes. That's hard to shift.\n\nThe other thing is \u2014 and maybe this is just me \u2014 but a lot of plant-based stuff I've seen looks a bit... fiddly. All these specialist ingredients, recipes that take forever. When you're my age, you want something straightforward that you know how it's going to taste. You don't want to be messing about trying to make something taste nice when you could just have a decent bit of chicken.\n\nSo I don't know. Maybe if someone had shown me something that looked good and tasted good, not too much messing, I might think differently. But that hasn't happened, so...",
+      "timestamp": "2026-07-29T22:51:30.062132+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Patrick's put his finger on something there \u2014 that 'fiddly' idea, and the sense that you'd want something that looks decent and doesn't take forever. Do any of you recognise that? Or is it a different thing that would actually shift the needle for you?",
+      "timestamp": "2026-07-29T22:51:30.062692+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Well, that's the thing, Patrick \u2014 I'd have said the same until we actually started doing some of it, really. Not plant-based exactly, but different things. You know, we cut back on how much red meat we were eating a few years back. Nothing dramatic, just... different things in the week.\n\nAnd what surprised me was \u2014 it wasn't as fiddly as I thought it would be. My wife made a stew with lentils and veg, nothing fancy, took no longer than a normal stew. Tasted fine. And then we had a proper fish dinner another night. It wasn't like we were suddenly spending hours in the kitchen messing with specialist ingredients or anything like that.\n\nThe thing is, you don't discover that unless you actually try it, do you. And most of us won't try it unless there's a reason \u2014 health or cost or whatever. But once you've actually eaten something and thought, oh, that's all right, that wasn't any bother \u2014 it changes how you think about it a bit.\n\nSo I reckon Patrick's right that fiddly stuff puts people off. But some of it isn't actually fiddly at all. You just don't know that until someone makes you a decent meal and you realise it's not the palaver you thought it was.\n\nOut here especially, everything's got to be practical. If something takes forever or needs five different specialist shops, nobody's going to bother. But a straightforward stew with different things in it? That works. That's just... food, really.",
+      "timestamp": "2026-07-29T22:52:02.606635+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, fair point, Toby. You're right \u2014 I haven't actually tried much of it, so I'm just going on what I think it's like, aren't I. That's a bit daft really.\n\nAnd you're saying it wasn't complicated when your wife made it, so maybe I'm just... imagining the difficulty rather than knowing it. A lentil stew doesn't sound fancy. Sounds like exactly the kind of thing you'd make any other night.\n\nI suppose the thing is \u2014 if someone just made it for you without it being a big production, you'd probably not even notice you were eating something different. Whereas if it's presented as this special thing you have to learn about and plan for and get right, then yeah, it sounds like a faff.\n\nBut you've actually done it, and it wasn't. So I'm probably being a bit stubborn about it, if I'm honest.\n\nI don't know if that means we'd go that direction or not. But you're right that I don't actually know what it's like until you do it. And maybe that's the thing \u2014 people need to have tried it and realised it's not a bother before they'd want to do it again. Not just be told it could work if they put the effort in.",
+      "timestamp": "2026-07-29T22:52:38.203308+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, that's it exactly, Patrick. It's not about being stubborn \u2014 it's just how it works, isn't it. You don't know what something's like until you've actually had it.\n\nAnd honestly, that's probably the bit that matters more than anything we've been saying. Because you can tell someone all day long that it's doable, that you plan it, that it's not fiddly. But if they haven't tasted a decent lentil stew or whatever, why would they bother? They don't know if they'd even like it.\n\nMy wife \u2014 she just made it because she wanted to try it, or thought we should eat a bit differently. Didn't make a song and dance about it. Just made the tea. And I ate it and thought, well, that's fine. That's all it took really. Once you've done that, you think differently about it next time.\n\nSo maybe that's what would actually shift it for most people \u2014 not Fletcher's planning constraints or the logistics of it, but just... someone making you something decent without it being a big deal, and you realising it's all right. After that, you're more willing to do it again.\n\nThat's different from all the other stuff we've been talking about. That's just \u2014 trying something and finding out you don't mind it.",
+      "timestamp": "2026-07-29T22:53:14.071884+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a really clear way of putting it, Toby \u2014 just someone making the tea, no big deal, and you find out you don't mind it. That feels like a different kind of answer from all the planning and logistics we've been talking about.\n\nWe're coming up to the end of our time, so I want to make sure everyone gets a last word. Before we finish \u2014 is there anything any of you want to add, or something that's come up in the conversation that you feel hasn't quite been said yet? About food, gender, masculinity, plant-based eating \u2014 anything at all.",
+      "timestamp": "2026-07-29T22:53:14.073150+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Yeah, I think there's something that's got a bit lost in all this, and it matters. Because we've talked a lot about the logistics of it, the planning, whether it's doable. And Toby's right \u2014 if someone just makes you something decent, you might find you don't mind it.\n\nBut what I want to say is \u2014 that only works if the person doing the making isn't already stretched. And out here, a lot of the women are. They're managing a household with no shops round the corner, they're doing the thinking ahead, they're carrying all that. So yeah, someone could make a lentil stew. But what I'm saying is \u2014 when you're asking that person to also learn something new, plan something new, get it right every time because there's no margin for error... that's asking a lot.\n\nPatrick, you've got the time now to learn how your wife does things. That's brilliant. But most men still working don't. And most women \u2014 whether their husbands are retired or not \u2014 they're still the ones holding it all. So if we're talking about what would actually shift things, it's not just about trying a decent meal. It's about men being willing to actually take on some of that planning load, the thinking ahead bit. Not just the cooking.\n\nThat's what would make it fair, I think. That's what would actually make a difference.",
+      "timestamp": "2026-07-29T22:53:55.397265+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher, that feels like a really honest note to end on \u2014 that the planning load is the thing, not just the cooking. That's something that's run through the whole conversation today.\n\nOkay, we've covered a lot of ground \u2014 your friendships and how they work, how you think about food day to day, what gender does and doesn't shape, and what it would actually take to eat differently. Before I let you go, is there anything any of you feel you didn't get to say \u2014 about food, gender, plant-based eating, any of it? Anything that's been sitting with you?",
+      "timestamp": "2026-07-29T22:53:55.398754+00:00",
+      "selection_mode": "moderator_intervention"
+    }
+  ]
+}

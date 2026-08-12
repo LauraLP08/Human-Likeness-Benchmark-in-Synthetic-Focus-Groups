@@ -1,0 +1,36 @@
+{
+ "gate": "G1 controls",
+ "all_controls_correct": true,
+ "controls": [
+  {
+   "name": "negative: clean twinpop payload",
+   "expected": "PASS",
+   "observed": "PASS",
+   "correct": true
+  },
+  {
+   "name": "positive: smuggled simulation_config.notes",
+   "expected": "FAIL",
+   "observed": "FAIL",
+   "correct": true
+  },
+  {
+   "name": "positive: two identity lines reordered",
+   "expected": "FAIL",
+   "observed": "FAIL",
+   "correct": true
+  },
+  {
+   "name": "positive: identity line duplicated",
+   "expected": "FAIL",
+   "observed": "FAIL",
+   "correct": true
+  },
+  {
+   "name": "positive: background prose altered",
+   "expected": "FAIL",
+   "observed": "FAIL",
+   "correct": true
+  }
+ ]
+}

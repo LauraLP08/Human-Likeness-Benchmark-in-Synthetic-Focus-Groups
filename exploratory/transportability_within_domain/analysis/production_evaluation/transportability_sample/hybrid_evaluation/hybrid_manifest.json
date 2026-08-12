@@ -1,0 +1,179 @@
+{
+ "frozen_utc": "2026-08-02T20:00:14.514107+00:00",
+ "classification": "EXPLORATORY_OUT_OF_Q3_TRANSPORTABILITY_CHECK",
+ "not_a_validation": "exploratory only; never pooled numerically with U01-U07/Q3 and never a formal validation",
+ "scope": {
+  "units": [
+   "S01",
+   "S02",
+   "S03",
+   "S04",
+   "S05",
+   "S06"
+  ],
+  "questions": [
+   "Q1",
+   "Q2",
+   "Q4",
+   "Q5"
+  ],
+  "question_of_unit": {
+   "S01": "Q1",
+   "S03": "Q1",
+   "S05": "Q2",
+   "S02": "Q4",
+   "S04": "Q4",
+   "S06": "Q5"
+  },
+  "human_themes_per_unit": {
+   "S01": 4,
+   "S02": 3,
+   "S03": 2,
+   "S04": 1,
+   "S05": 4,
+   "S06": 4
+  },
+  "n_human_themes": 18,
+  "reporting": "results are reported per unit and per question; any six-unit summary is descriptive only and must keep the per-question values visible"
+ },
+ "analytic_units": {
+  "human": "(blind_unit_id, human_theme_id)",
+  "machine": "(blind_unit_id, machine_theme_id)",
+  "rule": "a local id is never used without its blind_unit_id"
+ },
+ "gemini": {
+  "model": "gemini-3.5-flash",
+  "execution_mode": "batch",
+  "prompt_sha256": "4424eec734ce7c057c805fdc9885ad10f62c335302c4f7392e4ed8914b9b5608",
+  "response_schema_sha256": "eed4e1b03b546b03fac59d7f2a9e2474a1c0b02de16a64658bdba4004d50ed95",
+  "effective_config": {
+   "task": "emergent_extraction",
+   "execution_mode": "batch",
+   "model": "gemini-3.5-flash",
+   "response_mime_type": "application/json",
+   "response_schema_transmitted": true,
+   "response_schema_sha256": "eed4e1b03b546b03fac59d7f2a9e2474a1c0b02de16a64658bdba4004d50ed95",
+   "max_output_tokens": 16384,
+   "temperature_transmitted": false,
+   "temperature": null,
+   "thinking_config_transmitted": false,
+   "thinking_config": null,
+   "thinking_level_effective": "model_default_unpinned",
+   "schema_version": "emergent_theme_v1",
+   "scope": "S01-S06 supplementary transportability"
+  },
+  "identical_to_q3": true,
+  "human_coding_shown_to_model": false,
+  "cache_keys": {
+   "S01": "bc90663e8d3c6865a55159e97d1ef530d3096476ee17d3dad8e6d3f20658d18a",
+   "S02": "b8b30fc5f30eb48122886dc35162e97ae196c21c9fceefd5da2c190cd1d41a4c",
+   "S03": "1a3e3e1d304c39e90c7bb764b43b3e153f5b7dad25d95325e527cf0080fb85d0",
+   "S04": "1f8d65286d77ca0d115e8c91802f099ffb47ea2d999c7ac89b43a4a4147cd36f",
+   "S05": "48a8588c0bbf5a0dc78a23d28a77c72d8b976972f310f3acc7c0bda6e3b75bd4",
+   "S06": "3cc546a86a87a6b835d3be5d759a7ee05f31b4afb048b1d96e7948b8b3af990f"
+  }
+ },
+ "claude_audit": {
+  "model": "claude-opus-5",
+  "execution_mode": "batch",
+  "effort": "high",
+  "max_output_tokens": 8192,
+  "structured_output": "json_schema",
+  "repetitions_per_case": 2,
+  "cache_key_includes_repetition_index": true,
+  "blinding": "sides labelled REFERENCE / CANDIDATE; opaque unit labels; no model names, no Q3 results, no benchmark, no experimental condition, no provenance",
+  "prompt_sha256": {
+   "A_PAIRWISE_CORRESPONDENCE": "287b242f82bfcfc84a7b233f92ae5d4cb54ad1cb942a08474e02abf3f4916222",
+   "B_CANDIDATE_GROUNDEDNESS": "ca4abce1ca0488b1ea3b89f54f288f62abc622da49274e40eeff5c8d44dc9029",
+   "C_UNMATCHED_CANDIDATE_STATUS": "456e1df3e4d3a9eba6f843782497a9b90a229f1f9715a23d8f8fd098e965a085",
+   "D_GRANULARITY": "bb30c6b5dfdc1545043b27c2bf4d71356e6a739c1be359ccc8ec340fb23c9c2f"
+  },
+  "status": "USABLE_FOR_CORROBORATION_ONLY"
+ },
+ "decision_rules": {
+  "correspondence_accepted": [
+   "SAME_SUBSTANTIVE_THEME",
+   "PARTIAL_OVERLAP_REFERENCE_MORE_SPECIFIC",
+   "PARTIAL_OVERLAP_CANDIDATE_MORE_SPECIFIC"
+  ],
+  "correspondence_rejected_from_numerators": [
+   "RELATED_BUT_DISTINCT",
+   "NO_CORRESPONDENCE"
+  ],
+  "HYBRID_CONFIRMED_MATCH": [
+   "both repetitions give an accepted correspondence category",
+   "neither repetition is LOW confidence",
+   "every cited quotation is literally verifiable in the unit",
+   "no quotation is from the moderator",
+   "no unknown ids",
+   "no contradiction between the repetitions"
+  ],
+  "HYBRID_UNRESOLVED": "any disagreement, invalid evidence, LOW confidence or conceptually ambiguous case. Counted as neither a match nor a confirmed error.",
+  "HYBRID_CORROBORATED_NOVEL": "both repetitions VALID_NOVEL_THEME, confidence not LOW, evidence valid",
+  "HYBRID_UNRESOLVED_MACHINE_ONLY": "any other machine-only outcome",
+  "claude_cannot_declare_human_validated": true
+ },
+ "granularity": {
+  "derived": [
+   "one human theme -> several machine themes = possible fragmentation",
+   "one machine theme -> several human themes = possible fusion"
+  ],
+  "categories": [
+   "LEGITIMATE_GRANULARITY_DIFFERENCE",
+   "POSSIBLE_OVER_FRAGMENTATION",
+   "POSSIBLE_OVER_MERGING",
+   "SUBSTANTIVE_MISMATCH",
+   "UNCERTAIN"
+  ],
+  "reported_corroborated_only_when": "both repetitions agree and evidence passes",
+  "never_alters_numerators_automatically": true
+ },
+ "final_classification_rule": {
+  "evaluated_in_order": [
+   {
+    "class": "UNRESOLVED_DUE_TO_HYBRID_UNCERTAINTY",
+    "when": "unresolved human themes > 40% of 18, OR the mean per-question lower-upper band width > 0.35 — the check cannot say anything"
+   },
+   {
+    "class": "DESCRIPTIVELY_LOWER_THAN_Q3",
+    "when": "in at least 3 of the 4 questions the UPPER bound is still below the Q3 recall of 0.6818 — even the optimistic reading falls short"
+   },
+   {
+    "class": "DESCRIPTIVELY_COMPATIBLE_WITH_Q3",
+    "when": "in every question the band [lower, upper] reaches or exceeds 0.6818, AND no unsupported/spurious theme is corroborated in >= 2 units"
+   },
+   {
+    "class": "MIXED_OUTSIDE_Q3_PERFORMANCE",
+    "when": "otherwise"
+   }
+  ],
+  "explicitly_not": "The choice never depends on whether a single pooled average exceeds 0.6818. Per-question results, band width, unresolved share and recurrent unsupported themes all enter.",
+  "n_caveat": "Per-question denominators are 6 (Q1), 4 (Q2), 4 (Q4), 4 (Q5). These are far too small for any inferential reading; a single theme moves a question by 0.17-0.25.",
+  "no_pass_fail": "No PASS/FAIL is issued under any branch."
+ },
+ "q3_reference_for_description_only": {
+  "recall": 0.6818,
+  "strict_precision": 0.8,
+  "note": "descriptive comparison only; never a test, never pooled"
+ },
+ "input_validation": {
+  "n_units": 6,
+  "n_human_themes": 18,
+  "per_unit": {
+   "S01": 4,
+   "S02": 3,
+   "S03": 2,
+   "S04": 1,
+   "S05": 4,
+   "S06": 4
+  },
+  "problems": [],
+  "pass": true
+ },
+ "protections": [
+  "no human workbook is modified",
+  "supplementary_human_reference.json is read-only",
+  "no human task is created",
+  "no model, prompt or configuration is substituted"
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "cache_key": "e393143b48a5c24dacbeb9694815249f173e76221bed0579cf579bec20aedac8",
+ "computed_utc": "2026-08-06T14:00:43.989452+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/8y9ygaa2u591cxfgvtkn8rwxo1cbu429igw1",
+ "custom_request_key": "twinpop_fg3_r2",
+ "input": {
+  "side": "synthetic",
+  "fg": "fg3",
+  "condition": "twinpop",
+  "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg3_twinpop_run02\\comparable_transcript.json",
+  "sha256": "67a8232ad4a857c0e8045bcdddbfaaa8a86c7478446c7609ec3d6664e4c388c5",
+  "physical_run": "macho_meals_fg3_twinpop_run02",
+  "canonical_replication_index": 2
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "4f0a5fc9f13ffd4499c9069c6b643b2a99fafff189aa689452065c932d77af2c",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 17953,
+  "candidates_tokens": 1157,
+  "total_tokens": 25574,
+  "thoughts_tokens": 6464,
+  "cached_tokens": null,
+  "raw_text_chars": 3794,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "OUTPUT_TRUNCATED_OR_INCOMPLETE",
+  "problems": [
+   "JSON did not parse/validate after parse retries: JSONDecodeError: Extra data: line 125 column 1 (char 3793)",
+   "no parsed result object to inspect"
+  ],
+  "n_codes_returned": 0,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [],
+  "expected_order_preserved": false,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 17953,
+  "candidates_tokens": 1157,
+  "total_tokens": 25574,
+  "thoughts_tokens": 6464,
+  "cached_tokens": null,
+  "raw_text_chars": 3794,
+  "parse_attempt": 1,
+  "headroom_tokens": 15227
+ },
+ "tier1": null,
+ "quote_validity": null
+}

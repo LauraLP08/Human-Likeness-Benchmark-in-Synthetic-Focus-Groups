@@ -1,0 +1,385 @@
+{
+  "_provenance": {
+    "derived_by": "scripts/build_comparable_window.py",
+    "generated_utc": "2026-07-30T14:33:37.321599+00:00",
+    "source_transcript": "output\\session_logs\\macho_meals_fg5_demoonly_run01\\transcript.json",
+    "source_transcript_sha256": "f39c5c10eecc023f851f782ab278e8a20af19712a9452785e407924203793b00",
+    "window": "q1_ask_to_end_of_last_substantive_section",
+    "excluded": "all material before the Question-1 ask, and the closing section",
+    "boundary_method": "Section structure from moderator_log.section_transition, cross-checked against state_turn_*.json current_section_index. Sub-entry Question-1 offset by ANCHOR-AND-EXTEND: anchor on the latest sentence-aligned suffix of the boundary entry that still poses Question 1 (the minimal ask), then extend backward one sentence at a time only across sentences that are residue-free AND positively identified as part of the ask (carrying a Q1-distinctive token, or being an ask lead-in / short discourse connective); stop at the first sentence failing either test. Residue classes excluded: participant name, moderator self-introduction, welcome, instruction/confidentiality text, presentation summary. Because the boundary only ever moves earlier over text positively identified as part of the ask, residue is excluded by construction rather than by enumeration.",
+    "boundary_algorithm": "anchor_and_extend_v1",
+    "source_entry_index": 5,
+    "source_entry_turn": 5,
+    "source_character_start": 161,
+    "original_boundary_entry_sha256": "48a7c57e937a852b8c44d9d23149e40dd3754dc4954d37f9ba3b2ddc38b89d1d",
+    "retained_boundary_text_sha256": "0a4f033cd94cd658a42647910ea2d0bf4c77efc927fe16a97f23c389c1464a97",
+    "boundary_review_status": "AUTO_TRIMMED",
+    "boundary_review_note": "anchored on minimal Q1 ask at char 310, extended back 2 sentence(s) to char 161; dropped 161 leading chars (29 words) carrying: participant_name(Fletcher,Keith,Patrick,Toby); welcome; presentation_summary_propernouns(Great,Fletcher,Toby,Patrick)",
+    "first_source_entry_index": 5,
+    "last_source_entry_index": 49,
+    "boundary_text_is_verbatim_slice": true,
+    "note": "Derived view. The source transcript is unmodified. The first entry's content is a verbatim character slice of the source entry from source_character_start onward - never paraphrased, normalised, reconstructed, or replaced with the guide's scripted question. Human transcripts need no equivalent window: they already begin at Question 1 and contain no introduction or closing section."
+  },
+  "transcript": [
+    {
+      "turn": 5,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Right, let's get into it. First thing I'd love to hear about is where you actually spend time with your male friends — the places that come to mind. Your favourite spot, wherever that is — pub, club, someone's shed, a park, anywhere. What comes to mind, and what is it about that place that makes it the one?",
+      "timestamp": "2026-07-29T22:37:06.109309+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Well, for me it's mostly the pub, to be honest. There's one about twenty minutes away — it's nothing fancy, just a proper local. That's where you see the same faces, you know? Folk you've known for years. We'll sit there of an evening, have a pint, a chat. It's reliable, that's the thing. You know who you're going to bump into.\n\nAnd then there's the football — I go down to watch when I can. That's another one where you're with the same crowd week in, week out.\n\nBut if I'm being honest, out where I am, you don't have loads of options for just popping somewhere casual. You've got to make a bit of effort to get anywhere, so when you do go out, you make it count. You're not just wandering down the street to meet someone. It's more deliberate than that, I'd say.",
+      "timestamp": "2026-07-29T22:37:34.683687+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, that's exactly it, Fletcher. You've hit on something there. Out where I am it's the same — you can't just nip down to the pub round the corner because there isn't one round the corner. So when you do meet up with someone, there's a bit more intention to it, you know? You've actually planned it rather than it just happening.\n\nFor me it's either down the local, which is a good fifteen, twenty minutes drive, or honestly a lot of it happens at someone's place. Someone's kitchen or garage. We'll have a cup of tea, work on something, have a chat. That's actually where quite a bit of the socialising happens out here — you end up at a mate's house because you're already going in that direction or you've arranged to help them with something.\n\nThe pub's nice when you go, but Fletcher's right — it's more of an event. You get yourself ready for it, make the drive. Not like you can just pop in for half an hour between other things. And that does change how you do it, I reckon. Makes it feel a bit different.",
+      "timestamp": "2026-07-29T22:37:57.156023+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Yeah, that's it exactly. You've got it there, Toby. A lot of my time with folk is actually doing something — I'll go round to help someone fix something on their place, mend a fence, sort out the boiler, whatever it is. And you're having a blether while you're doing it, cup of tea going. That's when you actually have proper conversations, I find.\n\nIt's not like you're sitting down thinking, right, now I'm going to socialise. You're just... getting on with something and talking. And honestly, that suits me fine. You get something done and you've had company. Two birds with one stone, you know?\n\nThe garage thing Toby mentioned — yeah, that happens too. Folk tinker about with cars or whatever they're working on, and you'll drift over, see what they're up to. It's more natural than just sitting in a pub making conversation. You've got something to focus on besides just talking at each other.",
+      "timestamp": "2026-07-29T22:38:23.064955+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Yeah, well it's a bit different where I am. I mean, I'm suburban, so I've got options, haven't I. There's pubs within walking distance, a couple of them. I'll meet mates down the local — it's just round the corner basically, five minutes walk. That's the main one for us. We just sort of... go when we fancy it, really. Don't have to plan it too much.\n\nBut what you're saying about the intention thing, Fletcher — I get that, I do. Out where you are you've got to make more of an effort. We're a bit spoiled, I suppose. We can just say, oh, fancy a pint, and off we go. \n\nThough I will say, even in the suburbs you do end up at someone's house quite a bit. My mate Dave, he's always got something on the go — bit of DIY, garden work, that sort of thing. I'll pop over, we'll have a cup of tea, help him out with whatever it is. That's the same as what you're describing, Toby. You're doing something and chatting at the same time. That's quite nice, actually. More relaxed than just sitting making small talk.\n\nBut yeah, the difference is we've got the pub right there if we want it. We can be a bit more casual about it. Not everything has to be an event.",
+      "timestamp": "2026-07-29T22:38:50.278737+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Right, but see, that's the thing though — being casual about it isn't necessarily better, is it? I mean, you can pop down the pub whenever you fancy, but does that mean you see people deeper, you know what I mean?\n\nWhen you have to plan it, when you've got to make the effort to drive twenty minutes, you're actually committed to it. You're going to sit there for a couple of hours, have a proper night. You're not just popping in for twenty minutes because you're bored. You've got time to actually talk about things.\n\nAnd the work thing — what you said about Dave, Keith — that's it. That's where real conversation happens, I think. You're doing something with your hands, you're not just staring at each other across a table trying to fill the silence. The chat just flows naturally because you're focused on the job.\n\nOut here, a lot of your friendships are built that way. You help someone with their place, they help you with yours. There's a purpose to it beyond just passing the time. Maybe that sounds a bit... I don't know, but I reckon there's something in it. You're not just mates who go to the pub, you're actually useful to each other.",
+      "timestamp": "2026-07-29T22:39:19.153391+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Patrick, you've been listening to all of this — does any of it ring true from your end, or does it feel different where you are?",
+      "timestamp": "2026-07-29T22:39:19.154269+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Well, I'm somewhere in between, aren't I really. I've got the pubs nearby like Keith — couple within reasonable walking distance — so I can be a bit casual about it. But I'm not as spoiled for choice as he is, and we're not as isolated as you two are out there.\n\nWhat strikes me though is what Fletcher's saying about the intention and the depth of it. I think he's onto something. I do find when I'm round at a mate's helping with something — I've got a friend who's always got a project on — that's when you actually have a conversation. You're not just sat there thinking what do we talk about next. It just happens naturally while you're getting your hands dirty.\n\nBut I wouldn't say the pub is shallow, exactly. It depends who you're with and how long you've known them. With the right lads, you can still have a proper chat down the pub. You're just not forced into it the way you are when you're working on something together.\n\nI suppose we get a bit of both down here. That's probably the main difference for me.",
+      "timestamp": "2026-07-29T22:39:39.329505+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That makes sense — a bit of both. Right, we've got a nice spread there: pubs, garages, mates' kitchens, varying degrees of planning depending on where you live. Let's move on to something a bit more everyday. How do you actually decide what to eat — day to day, week to week? What goes into that?",
+      "timestamp": "2026-07-29T22:39:39.330492+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Well, it's changed a lot since I retired, I'll be honest. When I was working, you didn't really think about it much — you'd grab something at lunch, cook something quick in the evening, or you'd already planned ahead because you knew what your week looked like. Now it's different.\n\nI find I've got more time to think about what I'm eating, which sounds like a good thing, but it also means you can be a bit more... I don't know, leisurely about it. Some days I'll think, right, I'll make a proper stew, take my time with it. Other days I can't be bothered and I'll just have beans on toast or something.\n\nWhat actually drives it for me is what's in the fridge, to be honest. My wife and I, we'll do a shop at the weekend, but then during the week it's just — what haven't we used yet? We don't like waste. So if there's veg that needs eating, that's what you'll have. If there's a bit of meat in there, you'll work round that.\n\nAnd your appetite changes a bit at our age, doesn't it? You don't need the same amount as you did. So a tin of soup and a sandwich might be lunch, where you'd have wanted something more substantial years ago. That changes what you're buying, what you're planning for.\n\nI'm not one of these meal-planning people with a spreadsheet or anything like that. It's more just practical, day by day.",
+      "timestamp": "2026-07-29T22:40:18.096911+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "That's exactly how it works out here too, Patrick. You can't just nip to the shops whenever you fancy, so you've got to be a bit more thoughtful about what you've got in. And yeah, not wasting things — that's a big one.\n\nI find it's the same as what you're saying, really. You plan your big shop, and then during the week you're working with what you've got. If there's potatoes in the cupboard and veg in the fridge, that's what you're having. My wife does most of the cooking, but we both know it's not about having exactly what you fancy — it's about using what's there before it goes off.\n\nAnd you're right about the appetite thing. You don't need as much as you used to. I'll have a bit of cheese and bread for lunch, maybe some cold meat from a few days before. That does you fine. You're not thinking about three-course meals or anything like that at our age.\n\nI suppose living out here, you get into that habit anyway because you can't be spontaneous about shopping. You've got to think a bit ahead. Makes you less wasteful, I reckon. You're not buying things just because they're there.",
+      "timestamp": "2026-07-29T22:40:48.040229+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, that's fair enough. Though I'd say with us it's a bit more mixed. My wife does tend to do most of the cooking still, if I'm honest, but since I've retired I'm doing more of it than I used to. When you're at work all day, you just come home and she's got the tea on, don't you. Now I'm around, I'll do a bit more. Nothing fancy, but I'll make a dinner couple of times a week, or I'll prep something if she's going out.\n\nIt's one of those things that changes when you retire, I reckon. You've got the time, so you end up doing a bit more around the house generally. Cooking, tidying, whatever. It's not like a big discussion about it — you just sort of slip into it because you're there.\n\nBut you're right, Toby, about the planning side of things. That's the practical thing that runs it all. Whether it's one of you cooking or both of you, you've still got to work with what's in the house. You can't be nipping out to Tesco's every other day at our age — that's a waste of time and money. So you plan the shop, you use what you've got, and you move on.\n\nThe wife's probably better at remembering what needs eating though, I'll admit that. She's got the head for it. I'm more just — what's for tea tonight — and she'll say, well, we've got that chicken that needs doing, or we need to use those carrots.",
+      "timestamp": "2026-07-29T22:41:19.421510+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, that's much the same here. My wife does most of the cooking still, but I'm doing more than I used to now that I'm not working. You just fall into it, don't you — you're there, you might as well do something useful.\n\nBut what you said about her remembering what needs eating — that's it exactly. She's got that... I don't know what you'd call it, that sense of what's in there and what's going off. I'll open the fridge and I just see a fridge, you know? She'll open it and she knows there's three days' worth of veg that needs using, or the milk's getting near the end. It's just there in her head somehow.\n\nI do the shopping with her most times now, but honestly I could be looking at the same things and not register half of it the way she does. She's the one who knows what we need, what we've got, what's going to work together. I'm more just... carrying the bags, I suppose.\n\nNot that I'm complaining about it or anything. That's just how it's worked out over the years. But it does mean she's got that responsibility, the planning bit. Even if I'm the one cooking on a given night, she's already thought through what that should be. It's a different kind of work, that thinking ahead bit.",
+      "timestamp": "2026-07-29T22:41:58.335173+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher, I'm curious whether any of this sounds familiar from your end — or whether it works differently for you?",
+      "timestamp": "2026-07-29T22:41:58.336278+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Yeah, it's pretty much the same setup for us, to be honest. My wife does most of the cooking still, and like you say, Toby, she's the one who's got it all in her head — what needs using, what's going off. I couldn't tell you half of what's in the cupboard if you asked me.\n\nThough I do more of the cooking now than I did when I was working, same as Patrick. Just because you're there, you might as well. And out here it's the same thing — you can't just pop to the shops whenever, so you've got to work with what you've got. Big shop at the weekend, then you're using what's there through the week.\n\nThe waste thing Toby mentioned — that's real out here. You're not throwing things away because you couldn't be bothered with them. You use what you've got because it costs money to replace it and you can't just nip out. It's practical, that's all.\n\nDon't really think about it much beyond that, to be honest. You eat what's there, you don't go hungry, and you don't waste things. That's the long and short of it for us.",
+      "timestamp": "2026-07-29T22:42:24.789791+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So there's a pretty consistent thread across all of you — working with what's there, not wasting things, and your wife holding that mental picture of the fridge even when you're both involved in the cooking. That's a useful picture to have. I want to shift us onto something a bit different now. I'm curious about whether being a man shapes what you eat — or whether you think it does. Does your gender influence what ends up on your plate?",
+      "timestamp": "2026-07-29T22:42:24.790942+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Well, I'd say yes, it probably does, though maybe not in the way you might think. I mean, I'm not sitting there thinking, oh, that's a woman's food, I won't eat it. It's not that daft.\n\nBut I think — at least out where I am — there's an expectation that your wife's doing the cooking, and you're just... eating what she makes. And if you're doing it, you're doing meat and potatoes type stuff, aren't you? That's what comes naturally to you. You're not thinking about making a nice salad or whatever. You want something that fills you up.\n\nAnd the shopping side of it — like Toby said, he's just carrying the bags. That's probably true for most of us. The woman's doing the planning, the thinking about nutrition, whether you've had enough vegetables, all that. We're just... eating what appears.\n\nI don't think it's a big dramatic thing, but yeah, I reckon being a man probably does shape it. You're less aware of what goes into the planning of it, less interested in it maybe. You just want your dinner. That's the reality of it, I think. Not everyone's the same, but that's how it's been for me anyway.",
+      "timestamp": "2026-07-29T22:43:04.957004+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher, thanks — that's a clear way of putting it. Does that land with the rest of you? Is that how it feels — that being a man shapes it more in terms of who's thinking about it than what you actually want on the plate?",
+      "timestamp": "2026-07-29T22:43:04.958858+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Well, I'd push back on that a bit, to be honest. I mean, Fletcher's right that my wife does most of the planning and thinking ahead — that's just how it's worked out for us. But I wouldn't say I'm just eating what appears without thinking about it.\n\nSince I retired, I've been doing more of the cooking, like we said. And I'm not just doing meat and potatoes because that's what men eat. I'll make a stir-fry, I'll do a decent curry, whatever. I'm thinking about what goes into it, whether we've had enough veg. It's not rocket science, but it's not nothing either.\n\nI think maybe that's changed a bit since we were younger, hasn't it? When Fletcher was working and I was working, yeah, maybe you just came home and ate what was there without thinking. But I've been doing this for years now — thinking about what we're eating, making sure there's a bit of variety. That's just... being a proper cook, not just a man. It's a skill, really.\n\nSo I wouldn't say being a man shapes what I eat so much that I'm just passive about it. I care what's good to eat and what's not. Maybe not in the same way my wife does it — she's got the longer view on planning — but when it comes to actually making something, I'm not just throwing meat on a plate because I'm a bloke.",
+      "timestamp": "2026-07-29T22:43:37.401293+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Keith, so you're drawing a distinction there — it's not that men are just passive about food, it's more that the planning role sits differently. Fletcher, does that match your experience, or do you see it differently?",
+      "timestamp": "2026-07-29T22:43:37.401826+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Well, yeah, that's fair enough what Keith's saying. I mean, I do think about what I'm eating when I'm making it. I'm not a complete numpty about it. But the planning bit — that's different, isn't it. That's the longer-term thing, knowing what's in the cupboard, what needs using, thinking ahead to next week. That's more my wife's domain, and honestly, I'm not sure I'd be as good at that as she is.\n\nWhen I'm cooking something, I'll think about it — make sure it's decent, not just chuck anything together. But the big picture stuff, the knowing what we've got and what we need — that's her. And maybe that is partly a man and woman thing, at least how it's worked out for us. But Keith's right that it's shifted a bit since we retired. You're doing more, you're thinking more about it. It's not like when you were working and you just came home expecting it all to be sorted.\n\nSo I wouldn't say men are just passive eaters, no. That was maybe too harsh what I said. But there's still that difference in who's holding the bigger picture of it all, you know?",
+      "timestamp": "2026-07-29T22:44:11.493813+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So there's a distinction emerging here between the cooking moment and the bigger picture — the longer view of what's in the cupboard, what needs using. Patrick, Toby — does that track with how it works for you?",
+      "timestamp": "2026-07-29T22:44:11.495335+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, it does, actually. There's a real difference between those two things, isn't there. When I'm making the dinner, I'm thinking — right, that needs a bit more seasoning, or we should have some veg with this, or whatever. I'm engaged with it. But the bigger strategic thing, like Fletcher said — knowing what's going off, what we need to buy next week, whether we're short on anything — that's my wife's head space. She's holding all that.\n\nAnd I think Keith's right that it's changed since we retired. When I was working, I'd just come home and eat. Now I'm here, I'm doing more of the actual cooking, and yeah, you do think more about it. You can't help but. But that doesn't mean I'm suddenly thinking ahead the way she does. That's a different skill entirely.\n\nWhat I notice is — she'll open the fridge and within about two seconds she's working out the next three or four meals from what's in there. I'll open it and just see... I don't know, ingredients. I'm not joining the dots the way she is. That's the bit I reckon is probably more about how we've been brought up, how our roles worked out. The day-to-day cooking bit — that's just cooking, isn't it. But the holding it all together bit, that's something else.\n\nSo no, I don't think men are just passive about eating. But there's definitely something in what Fletcher said about the planning side being different.",
+      "timestamp": "2026-07-29T22:44:47.255501+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Toby, you've been quiet on this one — does that distinction ring true for you, or does it work differently in your house?",
+      "timestamp": "2026-07-29T22:44:47.255933+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, it's the same for us, that's fair. I do a bit of cooking now, and when I'm doing it I'm thinking about it — making sure it's decent, not just slapping something on a plate. But the bigger planning thing, that's her. She knows what needs eating, what we're short on, all that. I'm just... not thinking about it the same way.\n\nI don't know if it's about being a man exactly, though. I think it's more just — that's how it's worked out over the years. She's been the one doing it, so she's got into that habit of looking ahead. I'm the one who does other things around the place — outside work mostly, fixing things. We've just fallen into different roles, really.\n\nKeith's right that it's changed a bit since I stopped work. I'm doing more, thinking more about the actual cooking. But that big picture thing Patrick was talking about — the knowing what's going off in three days' time — no, I'm not doing that. And honestly, I'm not sure I would be even if I tried. She's just better at it. That's just how her mind works.\n\nI wouldn't say it's about men being passive or stupid about food or anything like that. It's just — different responsibilities, different things you're paying attention to. And out here especially, you can't afford to be too sloppy about it because you can't just pop to the shop if you've messed up your planning.",
+      "timestamp": "2026-07-29T22:45:11.873069+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So there's something consistent coming through there — the cooking itself isn't particularly gendered, but the longer-view planning role has settled differently, and for most of you that's landed with your wives. Toby's point that it's more about how things worked out than about being a man is interesting too. Let me take that somewhere. Imagine for a moment that you decided to go fully plant-based — no meat, no fish, dairy maybe out too. What would actually need to change in your life for that to be a realistic thing? Not whether you'd want to — just what would have to shift.",
+      "timestamp": "2026-07-29T22:45:11.873495+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Well, out here, that would be quite a shift, I'll tell you that much. You'd need someone who actually knows what they're doing with it — someone who's thought about it properly, worked out the planning. That's the thing. You can't just decide to go plant-based and then wing it. You'd need to know what you're eating, what nutrition you're getting, how to shop differently.\n\nAnd shopping would be different, wouldn't it. You'd need to know what to buy, where to get it. Out where I am, your options are limited. You can't just nip to a fancy supermarket with all the specialist stuff. You'd have to plan your big shop very carefully, make sure you've got what you need for the week. And if you got it wrong, you'd be stuck because you can't just pop out and grab something else.\n\nIt would also mean — and this is the thing — whoever's doing the planning would need to take that on properly. Because like we've been saying, that's the bit that actually matters. Someone would have to learn about plant-based nutrition, what works, how to make it work on what you can actually get. That's not nothing.\n\nAnd the cooking side — you'd need to be interested in it, really. You can't just do the same old thing with different ingredients. You'd have to actually engage with it, learn how to do it properly.\n\nSo yeah, it could work, but it would mean someone taking it seriously. Not just deciding it and hoping for the best.",
+      "timestamp": "2026-07-29T22:45:48.301950+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "I think you're making it sound harder than it actually is, though, Fletcher. My wife wanted to cut back on meat a couple of years back — for her health, really. And yeah, we've done that. It wasn't like we had to completely overhaul everything or have someone who's an expert on it.\n\nI mean, you just use what you'd normally use — veg, pulses, that sort of thing. We still do meat some nights, but we do more without it now. And honestly, it's not that complicated. A decent stir-fry with tofu or chickpeas, a lentil stew — that's not rocket science. You don't need some specialist knowledge to work it out.\n\nAnd in the suburbs where I am, it's probably easier than out where you are, I'll grant you that. We've got more shops, more variety. But even so, you're not starting from scratch every time. You're just... swapping things around a bit.\n\nThe planning side — yeah, that would be something to think about. But it's not like you need a completely different brain for it. You just think about it when you're doing your shop, same as you would anything else. What proteins are you using, what veg, that kind of thing. My wife worked it out without too much bother, and she's not some nutrition expert or anything.\n\nSo I wouldn't say someone would have to take it deadly seriously or learn all about plant-based nutrition. You'd just... do it, really. Like any other change in what you're eating.",
+      "timestamp": "2026-07-29T22:46:23.340831+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Yeah, but that's the difference though, Keith, isn't it. You've got shops. You can just decide to do it and then you can adjust as you go along because you've got options. If you fancy trying tofu one week and it doesn't work, you can try something else the next week. You can pop out if you need to.\n\nOut here, you don't get that luxury. You've got one big shop a week, maybe. So if you decide to go plant-based and you get it wrong — you buy the wrong things, you run out of something you need — you're stuck. You can't just nip to the shops on a Wednesday because you fancy trying something different.\n\nAnd yeah, lentil stew, that's fine. But if you're doing it properly out here, you need to know — right, for this week I need these beans, these lentils, this much veg, and it all needs to work together so nothing goes off. That's more thinking than just swapping meat for chickpeas one night.\n\nIt's not that it couldn't be done. But it's not the same as what you've done in the suburbs. You've got more room for error, more flexibility. Out here you'd have to plan it properly from the start, because you can't just adjust as you go. Someone would have to really sit down and work it out — what's actually available, what can you store, what actually works.\n\nSo no, I don't think it's the same level of difficulty.",
+      "timestamp": "2026-07-29T22:46:53.586075+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Fair enough, you've got a point about the shopping constraints — that's real enough. But I'm not sure that's the whole thing, Fletcher.\n\nI mean, yeah, we can pop to the shops easier. But that's not why we actually did it. My wife didn't decide to cut back on meat because she thought, oh well, if it goes wrong I can just nip to Tesco. She decided it because she actually wanted to do it — for her health, because she cared about it. And then she just... got on with it. Worked out what would work, planned the shop, didn't waste things.\n\nYou could do the same out there. You'd just have to actually want to do it. Plan it properly like you're saying — but that's not harder, that's just the same planning your wife does anyway for the normal shop. It's just different things in the list.\n\nWhat I'm hearing a bit is — well, it would be difficult, so why bother. But that's different from saying the suburbs makes it easy. I think it's more about whether you're actually willing to engage with it, you know? My wife was willing to engage with it, so she did.\n\nOut where you are, you'd need someone who was willing to do the same — sit down and think it through properly. And yeah, you'd have less flexibility. But the difficulty isn't really about the shops. It's about whether someone's actually going to take it seriously and work it out.",
+      "timestamp": "2026-07-29T22:47:26.208276+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something interesting there — Keith, you're drawing a distinction between the practical constraints and whether someone actually wants to make the change. Toby, Patrick — you haven't had a chance to weigh in on this yet. What would need to shift for either of you?",
+      "timestamp": "2026-07-29T22:47:26.208705+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "No, Keith, I hear what you're saying, but you're not quite getting it. It's not just about willingness. It's the actual constraint that's different.\n\nYour wife could sit down and plan a plant-based week, right. But if she got it wrong — if she miscalculated, or something she was counting on wasn't available, or she just didn't fancy what she'd planned — she's got a safety net. She can adjust. She's got shops to go to.\n\nOut here, when I'm planning the shop, I'm already working within tight margins because I can't just pop out mid-week. So if my wife decided to go plant-based, she wouldn't just be planning a plant-based week — she'd be planning a plant-based week that also has to account for the fact that there's no flexibility in it. No margin for error. Everything has to work perfectly or we're eating nothing.\n\nThat's not the same as your wife's situation. That's just a harder problem to solve, full stop. It's not about willingness — it's about the actual complexity being higher when you've got no backup plan.\n\nAnd yeah, she could work it out. But it would take more thinking, more planning, more contingency. That's just the reality of where I am. It's not the same thing.",
+      "timestamp": "2026-07-29T22:48:01.185731+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Yeah, all right, you're right about that. I wasn't... yeah, I see what you mean. The margin for error thing — that's real. When you've only got one shop a week, you can't just adjust halfway through. You have to get it right the first time, and you've got to think about what happens if something doesn't work out.\n\nThat's a fair point. It's not just about willingness, it's about the actual problem being more complicated when you can't just nip out. You're already working tighter margins with your planning anyway, and adding something new into that — something you don't know much about yet — that does make it harder.\n\nMy wife could mess up and just grab something else. You couldn't. So yeah, it would take more planning, more thinking it through before you even started. That's a different kind of difficulty.\n\nI suppose what I'm saying is — it's doable, but you'd need someone who was really willing to put the work in upfront, because there's no room to learn as you go. Whereas we've got more flexibility to experiment a bit. But that doesn't make what you're doing harder any less real, does it. It just is harder.",
+      "timestamp": "2026-07-29T22:48:32.996395+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Yeah, well — and this is the thing, Keith — it's doable, but is it fair to ask someone to do it? That's the question, really.\n\nMy wife's already managing the whole lot. She's planning the shop, doing most of the cooking, thinking about what we've got and what we need. She's already stretched doing that. And now if we're saying, right, let's go plant-based, that means she's got to learn a whole new thing on top of that, plan it perfectly because there's no room for mistakes, and do it all while she's already managing everything else.\n\nIt's not just about whether it's possible. It's about whether it's reasonable to ask of someone who's already carrying that load. That's different from Keith's wife deciding she wants to cut back on meat for her own health. That was her choice, her motivation. She was willing because it mattered to her.\n\nBut out here, if it's just — well, it's possible if you put the work in — that's asking a lot of someone who's already doing a lot. There's a difference between something being doable and something being realistic to actually ask of someone in that situation.\n\nSo yeah, I'm not saying it couldn't happen. I'm saying the weight of it would be on one person, and that person's already stretched. That's the real constraint.",
+      "timestamp": "2026-07-29T22:49:09.074710+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher's just shifted the question a bit — from whether it's possible to whether it's actually fair to put that on someone who's already doing everything. Toby, Patrick — does that land for you? Is that part of how you'd think about it?",
+      "timestamp": "2026-07-29T22:49:09.075150+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, Fletcher's got a point about the fairness of it, that's real. I mean, you can see where he's coming from — his wife's already got all that in her head, all that planning, and asking her to take on something completely new on top of that, with no room for error... that's not nothing.\n\nBut I want to push back a bit on the helplessness of it, if I'm honest. Because what I've noticed since I retired is — you don't have to just accept that it all sits on one person. You can actually learn it yourself. I know my wife's got the system in her head, the way she does it. But I've started paying more attention to what she's doing, how she thinks about it. And I could learn it if I wanted to.\n\nSo if we decided to go plant-based — which we haven't, by the way — I wouldn't just be asking her to work it out and do it. We'd both have to think about it. I'd have to engage with the planning side, not just the cooking. Learn what needs to go in the cupboard, what the constraints are, what we can actually get.\n\nThat's what's changed for me since I retired, really. I've had the time and the headspace to actually pay attention to how my wife manages the whole thing. And I could take some of that on if something changed. I'm not great at it yet, but I could do it.\n\nSo Fletcher, I hear you on the fairness thing. But I don't think it has to stay that way. You could start doing more of the planning side yourself. It's not like she's got some magical ability you can't learn.",
+      "timestamp": "2026-07-29T22:49:49.019982+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Right, but Patrick, you're retired. You've got the time. That's the thing you're not quite seeing there.\n\nI'm not retired. I'm still working. So when I come home, I haven't got the headspace my wife has because she's been here all day thinking about it. And yeah, I could learn it — I'm not saying I couldn't — but I'd have to find the time and energy to do that on top of everything else I'm doing.\n\nYour wife's been doing this for years, decades probably. It's just second nature to her now. She doesn't have to think hard about it anymore — it's just there. For me to get to that point, I'd have to actively engage with something new while I'm still working, still tired at the end of the day.\n\nIt's not about ability. It's about — I've got different constraints than you do. You've got the luxury of time now that you're retired. You can sit down and learn how your wife does it, pay attention, take some of it on. That's great, and good on you for doing it. But most people out here aren't retired. Most working people don't have that headspace free.\n\nSo yeah, theoretically I could learn it. But the reality of my life right now — that's different from your situation. That's all I'm saying.",
+      "timestamp": "2026-07-29T22:50:23.056410+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Toby — you've been quiet through this bit. Does any of that land for you, or does your situation look different?",
+      "timestamp": "2026-07-29T22:50:23.057946+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, I hear Fletcher on the time thing. I'm retired now, so I'm in a different position than he is. But I'd say — it's not really something we've thought about doing, plant-based. It's not come up for us.\n\nWhat Patrick's saying though, about learning how your wife does it — that rings true. Since I've stopped work, I do pay more attention to how she manages it all. Not that I've taken it on completely or anything, but I'm more aware of it. How she's thinking about things, what she's got in mind for the week. It's different when you're not rushing off to work every day.\n\nBut Fletcher's right as well that it's different if you're still working. You don't have the space in your head for it, do you. You come home knackered, you just want your tea on the table. That's fair enough.\n\nAs for actually going plant-based — I don't know. It's not something we'd consider really. We eat meat, we use what we've got. It works for us. If my wife wanted to do it, she could work it out, but it would be a lot of extra thinking on top of what she's already doing. And out here, like Fletcher said, you'd need to get it right because you can't just adjust as you go. That's a lot to ask someone to sort out and learn all at once.\n\nSo I suppose I'm with Fletcher on that — it's not that it's impossible, but it's not straightforward either. And it would land pretty heavy on the person who's already doing the planning.",
+      "timestamp": "2026-07-29T22:50:50.013934+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a really consistent thread across all four of you — the idea that making a shift like that would fall on whoever's already carrying the planning load, and that that's not a small ask. Let's take that somewhere slightly different. Rather than the logistics of making it work — what might actually make plant-based food feel more appealing or worth the effort? Whether that's for yourselves, or for men you know.",
+      "timestamp": "2026-07-29T22:50:50.015103+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Well, I think Fletcher's got me fair and square on that one, actually. I wasn't thinking about the working-person angle. That's a different thing entirely from where I'm sat.\n\nBut to answer your question — what would make it appealing... I'm not sure it would, to be honest. Not for me anyway. I eat meat because I like it, because that's what I've always eaten. I don't have a strong reason to change that. My wife wanted to cut back for health reasons, so we did a bit of that. But going fully plant-based? I'd need something more than just — well, you could do it if you put the effort in.\n\nI suppose if there was a health scare or something — doctor says you've got to change what you eat — then yeah, you'd make it work. You'd have to. But just for the sake of it, or because it's the right thing environmentally or whatever, I'm not sure most of us would be that motivated. Not at our age, anyway. You've got your habits, your tastes. That's hard to shift.\n\nThe other thing is — and maybe this is just me — but a lot of plant-based stuff I've seen looks a bit... fiddly. All these specialist ingredients, recipes that take forever. When you're my age, you want something straightforward that you know how it's going to taste. You don't want to be messing about trying to make something taste nice when you could just have a decent bit of chicken.\n\nSo I don't know. Maybe if someone had shown me something that looked good and tasted good, not too much messing, I might think differently. But that hasn't happened, so...",
+      "timestamp": "2026-07-29T22:51:30.062132+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Patrick's put his finger on something there — that 'fiddly' idea, and the sense that you'd want something that looks decent and doesn't take forever. Do any of you recognise that? Or is it a different thing that would actually shift the needle for you?",
+      "timestamp": "2026-07-29T22:51:30.062692+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Well, that's the thing, Patrick — I'd have said the same until we actually started doing some of it, really. Not plant-based exactly, but different things. You know, we cut back on how much red meat we were eating a few years back. Nothing dramatic, just... different things in the week.\n\nAnd what surprised me was — it wasn't as fiddly as I thought it would be. My wife made a stew with lentils and veg, nothing fancy, took no longer than a normal stew. Tasted fine. And then we had a proper fish dinner another night. It wasn't like we were suddenly spending hours in the kitchen messing with specialist ingredients or anything like that.\n\nThe thing is, you don't discover that unless you actually try it, do you. And most of us won't try it unless there's a reason — health or cost or whatever. But once you've actually eaten something and thought, oh, that's all right, that wasn't any bother — it changes how you think about it a bit.\n\nSo I reckon Patrick's right that fiddly stuff puts people off. But some of it isn't actually fiddly at all. You just don't know that until someone makes you a decent meal and you realise it's not the palaver you thought it was.\n\nOut here especially, everything's got to be practical. If something takes forever or needs five different specialist shops, nobody's going to bother. But a straightforward stew with different things in it? That works. That's just... food, really.",
+      "timestamp": "2026-07-29T22:52:02.606635+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, fair point, Toby. You're right — I haven't actually tried much of it, so I'm just going on what I think it's like, aren't I. That's a bit daft really.\n\nAnd you're saying it wasn't complicated when your wife made it, so maybe I'm just... imagining the difficulty rather than knowing it. A lentil stew doesn't sound fancy. Sounds like exactly the kind of thing you'd make any other night.\n\nI suppose the thing is — if someone just made it for you without it being a big production, you'd probably not even notice you were eating something different. Whereas if it's presented as this special thing you have to learn about and plan for and get right, then yeah, it sounds like a faff.\n\nBut you've actually done it, and it wasn't. So I'm probably being a bit stubborn about it, if I'm honest.\n\nI don't know if that means we'd go that direction or not. But you're right that I don't actually know what it's like until you do it. And maybe that's the thing — people need to have tried it and realised it's not a bother before they'd want to do it again. Not just be told it could work if they put the effort in.",
+      "timestamp": "2026-07-29T22:52:38.203308+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, that's it exactly, Patrick. It's not about being stubborn — it's just how it works, isn't it. You don't know what something's like until you've actually had it.\n\nAnd honestly, that's probably the bit that matters more than anything we've been saying. Because you can tell someone all day long that it's doable, that you plan it, that it's not fiddly. But if they haven't tasted a decent lentil stew or whatever, why would they bother? They don't know if they'd even like it.\n\nMy wife — she just made it because she wanted to try it, or thought we should eat a bit differently. Didn't make a song and dance about it. Just made the tea. And I ate it and thought, well, that's fine. That's all it took really. Once you've done that, you think differently about it next time.\n\nSo maybe that's what would actually shift it for most people — not Fletcher's planning constraints or the logistics of it, but just... someone making you something decent without it being a big deal, and you realising it's all right. After that, you're more willing to do it again.\n\nThat's different from all the other stuff we've been talking about. That's just — trying something and finding out you don't mind it.",
+      "timestamp": "2026-07-29T22:53:14.071884+00:00",
+      "selection_mode": "voluntary"
+    }
+  ]
+}

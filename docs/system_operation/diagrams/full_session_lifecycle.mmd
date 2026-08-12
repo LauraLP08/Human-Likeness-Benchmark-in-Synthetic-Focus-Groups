@@ -1,0 +1,22 @@
+graph TD
+    A[Launch Session] --> B[Load Config & Guide]
+    B --> C[Load Participant JSONs]
+    C --> D[Initialize SessionState]
+    D --> E[Render Opening Moderator Prompt]
+    E --> F[API: Moderator Opening]
+    F --> G[Parse Response & Mutate State]
+    G --> H[Save Transcript & State Snapshot]
+    
+    H --> I{Guide Complete?}
+    I -- No --> J[Emergent Loop Round]
+    J --> K[Assess Engagement All Participants]
+    K --> L[Select Speaker based on Urgency]
+    L -- "Speaker Volunteers" --> M[API: Participant Response]
+    L -- "Nobody Volunteers" --> N[API: Moderator Silence Intervention]
+    M --> O[Render Moderator Prompt with TriggerEvent]
+    N --> O
+    O --> P[API: Moderator Assessment]
+    P --> Q[Parse Response & Mutate State]
+    Q --> R[Save Transcript & State Snapshot]
+    R --> I
+    I -- Yes --> S[End Session]

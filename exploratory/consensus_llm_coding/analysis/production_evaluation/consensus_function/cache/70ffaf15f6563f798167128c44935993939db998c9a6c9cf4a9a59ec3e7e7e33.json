@@ -1,0 +1,214 @@
+{
+  "cache_key": "70ffaf15f6563f798167128c44935993939db998c9a6c9cf4a9a59ec3e7e7e33",
+  "run": "macho_meals_fg1_demoonly_run03",
+  "condition": "demographics-only",
+  "chunk_index": 0,
+  "target_turn_ids": [
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T007",
+    "T009",
+    "T010",
+    "T012",
+    "T013",
+    "T015",
+    "T016"
+  ],
+  "shown_turn_ids": [
+    "T000",
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T006",
+    "T007",
+    "T008",
+    "T009",
+    "T010",
+    "T011",
+    "T012",
+    "T013",
+    "T014",
+    "T015",
+    "T016"
+  ],
+  "blinded_transcript_sha256": "fde347ccad248d5b705498648806075585e051453dcb69859a4f2a1a03c2c7ab",
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "probe_tag": null,
+  "attempt": 1,
+  "finish_reasons": [
+    "FinishReason.STOP"
+  ],
+  "truncated": false,
+  "parse_error": null,
+  "prompt_tokens": 3760,
+  "candidates_tokens": 1255,
+  "thoughts_tokens": 5185,
+  "codings": [
+    {
+      "turn_id": "T001",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "Honestly, it's probably just... round town, innit.",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T002",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, that's pretty much it for me too, man.",
+          "target_turn_id": "T001"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T003",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, that's true.",
+          "target_turn_id": "T002"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T004",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, I hear that.",
+          "target_turn_id": "T003"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "But like... I dunno, sometimes I think you get a bit stuck in it, you know?",
+          "target_turn_id": "T003"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T005",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "But if you're happy with your lot and you're just chilling, why force it?",
+          "target_turn_id": "T004"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T007",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "I think I'm probably closer to what Speaker B's saying, if I'm being real.",
+          "target_turn_id": "T004"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "But I reckon in a couple of years he might feel different.",
+          "target_turn_id": "T005"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T009",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "I'd actually push back a bit on how Speaker C's framing that, to be honest.",
+          "target_turn_id": "T007"
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "I think what Speaker A's saying has got a point too",
+          "target_turn_id": "T005"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T010",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "I think you're kind of... I dunno, dressing it up a bit.",
+          "target_turn_id": "T009"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T012",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "I think Speaker D's actually saying something different though, not just dressing it up.",
+          "target_turn_id": "T010"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T013",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, cheers Speaker A \u2014 that's exactly what I meant.",
+          "target_turn_id": "T012"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T015",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "I mean, food-wise it's probably a bit different because you can't just... pop somewhere",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T016",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, that makes sense.",
+          "target_turn_id": "T015"
+        }
+      ],
+      "no_code_reason": null
+    }
+  ],
+  "called_utc": "2026-08-06T17:57:11.924516+00:00"
+}

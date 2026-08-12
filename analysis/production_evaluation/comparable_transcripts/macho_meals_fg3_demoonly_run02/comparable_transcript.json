@@ -1,0 +1,409 @@
+{
+  "_provenance": {
+    "derived_by": "scripts/build_comparable_window.py",
+    "generated_utc": "2026-07-30T14:33:36.900921+00:00",
+    "source_transcript": "output\\session_logs\\macho_meals_fg3_demoonly_run02\\transcript.json",
+    "source_transcript_sha256": "63c5554cfebe4a92be25e24b129688f3b0c2a53b4db190a1fd1f0a7692080975",
+    "window": "q1_ask_to_end_of_last_substantive_section",
+    "excluded": "all material before the Question-1 ask, and the closing section",
+    "boundary_method": "Section structure from moderator_log.section_transition, cross-checked against state_turn_*.json current_section_index. Sub-entry Question-1 offset by ANCHOR-AND-EXTEND: anchor on the latest sentence-aligned suffix of the boundary entry that still poses Question 1 (the minimal ask), then extend backward one sentence at a time only across sentences that are residue-free AND positively identified as part of the ask (carrying a Q1-distinctive token, or being an ask lead-in / short discourse connective); stop at the first sentence failing either test. Residue classes excluded: participant name, moderator self-introduction, welcome, instruction/confidentiality text, presentation summary. Because the boundary only ever moves earlier over text positively identified as part of the ask, residue is excluded by construction rather than by enumeration.",
+    "boundary_algorithm": "anchor_and_extend_v1",
+    "source_entry_index": 6,
+    "source_entry_turn": 6,
+    "source_character_start": 220,
+    "original_boundary_entry_sha256": "19d4e48e80eb6a7f9f83580b6821f609c910e329fd2bcb46b6cb7e5fae66f3c5",
+    "retained_boundary_text_sha256": "3d40efbd17b505226c9ed671293487068ac3f88999e5a481b6f28c0eb8e3a301",
+    "boundary_review_status": "AUTO_TRIMMED",
+    "boundary_review_note": "anchored on minimal Q1 ask at char 248, extended back 1 sentence(s) to char 220; dropped 220 leading chars (40 words) carrying: participant_name(Andrew); presentation_summary_propernouns(Andrew,Instagram,That,South); presentation_summary(spread)",
+    "first_source_entry_index": 6,
+    "last_source_entry_index": 53,
+    "boundary_text_is_verbatim_slice": true,
+    "note": "Derived view. The source transcript is unmodified. The first entry's content is a verbatim character slice of the source entry from source_character_start onward - never paraphrased, normalised, reconstructed, or replaced with the guide's scripted question. Human transcripts need no equivalent window: they already begin at Question 1 and contain no introduction or closing section."
+  },
+  "transcript": [
+    {
+      "turn": 6,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Let's get into it properly. First question: what's your favourite place in your city or town to spend time with your male friends? And feel free to be as specific as you like — actual places, not just 'the pub' in the abstract.",
+      "timestamp": "2026-07-30T00:00:55.987769+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, Andrew's right about that. It's real life, isn't it. You do feel a bit daft sometimes saying \"nothing exciting\" when actually you're just... living.\n\nAs for places, I mean, there's the pub obviously — we've got a couple of decent ones near me, there's the King's Head which is alright for a Friday after work, bit of a local crowd. But honestly, we probably spend more time just round someone's house or at the football. I get down to Norwich City fairly regular with a mate or two, which is — well, that's where I genuinely feel like I'm doing something different from the usual routine. Getting out of the house, you know? The ground's not fancy or anything, but you're with your mates and there's something happening.\n\nAnd then there's the garden sometimes, if the weather's decent. Just sitting out with a beer, talking rubbish. That sounds daft when you say it like that, but that's... that's what it is. It's the ordinary stuff, like Andrew said. Not Instagram-worthy, but it's where you actually are.",
+      "timestamp": "2026-07-30T00:01:26.534278+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, I get that, Daniel. It's the same round here, to be honest. We've got a few pubs we'll go to — there's one called the Travellers down near where I am, decent enough crowd on a Friday, nothing fancy. But you're right, it's more often than not just someone's house or the garden when it's not raining, which round here is... well, most of the time, isn't it.\n\nAnd the football thing — yeah, I'm into that as well. United games mostly, whether I'm actually at Old Trafford or down the pub watching it. That's definitely different from the everyday, you know? You're actually thinking about something else for a bit, you've got your mates there, there's some energy to it. Even if it's frustrating as hell half the time with how they're playing.\n\nBut like you said, it's the garden thing, the sitting around — that's where a lot of it happens. Just crack open a few beers, talk about work or whatever's going on, maybe a bit of banter about who's managing worse that week. Nobody's dressing it up to be anything other than what it is, and that's fine. That's just... life, really.",
+      "timestamp": "2026-07-30T00:01:51.022078+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, the football thing — I know exactly what you mean about it being frustrating, though. Sometimes you're sat there and United are playing poorly or your lot are losing, and you think, well, this is supposed to be the escape, isn't it? And instead you're just wound up. But that's part of it too, I suppose.\n\nWhat you said about the garden though — I don't think that's just talking rubbish, actually. I mean, it is, obviously, on the surface. But there's something else happening there, isn't there? Like, you're not thinking about work deadlines or what needs doing round the house or any of that. You're just... there. With the same blokes you've known for years, probably. You say things you wouldn't say at work, you can have a laugh without it mattering if it lands wrong.\n\nI think people undersell that a bit. They go oh, we just sat in the garden talking rubbish, like that means nothing happened. But that's where the real conversation happens, you know? Where you actually find out how your mate's getting on with something, or you're just comfortable enough to be a bit vulnerable without making a big deal of it. It's not exciting but it's... it's important. That's the bit that keeps you sane, I reckon.",
+      "timestamp": "2026-07-30T00:02:19.733967+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "That's exactly it, Daniel. You've hit on something there. It's not about it being exciting or interesting to talk about afterwards — it's just... it matters, doesn't it? You can't do that at work, you can't really do it with your family in the same way. There's no agenda to it.\n\nI've got three mates I've known since school, and we'll sit out in someone's garden on a summer evening — which admittedly doesn't happen that often round here — and you do say things. One of them's going through a rough patch with his missus at the moment, and you talk about it properly, but it's not some deep therapy session either, you know? You just... you're there. You're listening. And then someone'll crack a joke and it lightens it again.\n\nThat's the thing people don't get when they're talking about what men do or where we go. It's not about the place, really. It's about that permission to just be normal with someone. Not performing, not having to be the bloke at work or the dad at home. And yeah, that's what keeps you going, I think. Without that, you'd just be grinding through, wouldn't you?",
+      "timestamp": "2026-07-30T00:02:52.048184+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah. Yeah, that's it exactly. Permission to be normal. That's a good way of putting it.\n\nI mean, at my age — I'm 48 now — you notice it more. When you're younger you just do it without thinking about it, don't you? But now I'm aware of how much I actually need that. Not in a dramatic way, but just... I can feel the difference in myself if I've not had it for a while. You get a bit tighter, a bit more on guard.\n\nWith work, you've got to be competent, professional, whatever. At home with the family there's all the stuff that needs managing — I've got a grown-up kid and my wife's got her own things going on, and you're just... you're performing that role. And it's not fake, but it's not relaxed either.\n\nBut with your mates, the ones you've known a long time, you don't have to explain yourself. You just are. And that's rare, isn't it? Actually rare. I think as you get older you realise how much you need those moments to just not be thinking about what you're supposed to be doing or saying. Just sitting there with someone who knows you and doesn't need you to be anything in particular.\n\nThat's not nothing. That's actually what it's about.",
+      "timestamp": "2026-07-30T00:03:25.886660+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Daniel, that's a good place to pause — that thing about noticing it more as you get older, the difference when you've not had it for a while. Let's carry some of that into the next thing I want to ask about. Andrew, John, Paul — we'll hear more from you as we go. \n\nSo shifting gears slightly: when it comes to food — what do you actually eat day to day, and how do you decide what that's going to be? Not the special occasions, just the ordinary week.",
+      "timestamp": "2026-07-30T00:03:25.887765+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah, so that thing Daniel said about permission to be normal — I'm 45, so I'm right there with him on that. You do start to notice it, don't you.\n\nOn the food thing — I mean, it's tied up with all that, really. During the week it's just whatever's quick, isn't it. My wife does most of the planning, to be honest, so it's her deciding what we're having, and I'll either help cook it or not depending on what's happening that evening. Lot of midweek meals are just... pasta, stir-fry, something with chicken. Nothing fancy.\n\nBut the thing is — and maybe this connects to what you lot were saying about the garden — there's a difference between eating at the table with my kids and just cramming something down while you're checking your phone or whatever. Because when you're actually sat down with people, even if it's just the family and you're having an ordinary Tuesday night dinner, you can actually talk. There's no agenda to it, like you said, Nick. You're just there.\n\nWeekend's a bit different — we'll have mates round sometimes, or head to the pub for a proper meal with the family. And that feels like a thing, you know? It matters. It's not about the food being special, it's just... you're doing it together without any rush.\n\nDoes that make sense or am I going off on one?",
+      "timestamp": "2026-07-30T00:04:09.973187+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That makes complete sense, Andrew — that distinction between just getting food down and actually being sat there together. How do others decide what's for dinner in your households — is it a similar thing, or does it work differently?",
+      "timestamp": "2026-07-30T00:04:09.974415+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, well — in my house it's my wife who does the planning, same as Andrew really. She'll decide what we're having, sort out the shopping, all that. I mean, I'll cook sometimes if she's busy or whatever, but the actual deciding part, that's her territory.\n\nBut I think what you're touching on — and Daniel kind of got at this earlier — there's something about who's got that control, isn't there. Not in a dramatic way, but just... she decides what we're eating, when we're eating it, whether it's a proper sit-down thing or whether we're just grabbing something. And I go along with it mostly because, well, she's better at planning that stuff than I am. She knows what we've got in, what's sensible, all that.\n\nBut there's times when I think, I'd like to just... decide. Not even to eat something different necessarily, just to have made the decision, you know? It's a small thing, but it matters. You notice it when you're round a mate's house and he's just said right, we're having this tonight, and that's it. Nobody's consulted him, he's just... decided.\n\nNot that it's a big argument at home or anything. It just works that way. But yeah, when you start thinking about it like we have been — about being normal, not performing — you realise there's bits of everyday life where you're not quite that either.",
+      "timestamp": "2026-07-30T00:04:43.025903+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah, I hear that, John. It's... it's a bit like that at mine as well, to be honest. My wife does most of the deciding on what we're eating, and I've kind of settled into that over the years. Twenty years, you just fall into patterns, don't you.\n\nBut what you're saying — about wanting to just decide — that's exactly it. It's not about the food, is it. It's just that small thing of having made a choice and nobody's questioning it or you're not fitting it around what someone else has already planned. You do notice it more when you're at a mate's place and he's just cracked open what he fancied without running it past anyone first.\n\nAt home, there's always this bit of checking in, isn't there. Like, have we got that in? Does that work with what she was thinking? And it's sensible, all that planning — I get it. But there's definitely times I think, I'd just like to have picked something and that be the end of it. No negotiation.\n\nIt's small, but it adds up. You're managing around other people's needs and preferences all the time, and then you realise you've got less and less space where you're just... doing what you want without thinking about it first.",
+      "timestamp": "2026-07-30T00:05:26.482488+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That phrase — 'less and less space' — I think a few of you have landed on something similar there. Andrew, John, Paul, you're all describing a version of the same structure. Daniel, Nick — is that how it works in your households, or does it look different?",
+      "timestamp": "2026-07-30T00:05:26.483562+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Look, I don't think you should just accept that, to be honest. I mean, I get it — you fall into patterns, life's busy, fair enough. But there's a difference between compromise and just... checking out of your own decisions, isn't there?\n\nAt mine, yeah, my wife does a lot of the planning. But it's not like I've handed over the right to decide anything. Sometimes I'll just say right, I'm making tea tonight, and that's what we're having. And she'll work around it or she won't, but the point is I still get to choose. I'm not asking permission to eat something.\n\nAnd I think — maybe this is harsh — but I think if you're sat there thinking you'd like to just pick something without checking in, maybe that's worth having a conversation about? Not in a big dramatic way, but just... you're adults, aren't you? You should both be able to decide things without it being this whole thing.\n\nBecause what John said earlier, about not performing — that's good when you're with your mates. But you shouldn't have to perform at home either. You shouldn't need permission to have made a decision about what's for dinner. That's not settling into patterns, that's just... giving up a bit, I think. And I reckon that's worth noticing.",
+      "timestamp": "2026-07-30T00:06:05.965484+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Nick, that's a different position to what a few of the others were describing — and I think that tension's actually worth sitting with. There's something in this group between 'this is just how it works' and 'but you could choose differently.' That's a real difference, not just a small one.\n\nLet me pick that thread up and take it somewhere, because I want to ask you all something that connects directly to it. You've been talking about who decides what gets eaten, what feels comfortable, what you'd feel judged for. So — do you think your gender plays any role in what you eat? Whether that's what you choose, what you'd feel comfortable ordering, what you think you're supposed to eat as a man — any of that.",
+      "timestamp": "2026-07-30T00:06:05.966633+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "I think... yeah, it does, actually. More than I probably want to admit.\n\nI mean, look — the checking in thing Nick's talking about, that's fair enough, and maybe I should push back on it more. But there's something else underneath that as well, isn't there. Like, you don't want to seem like you're being difficult or selfish about food when she's the one thinking about it all, planning the meals. That's a kind of... I dunno, politeness or whatever, but it's also tied to not wanting to be that bloke who's just demanding what he wants without thinking about anyone else.\n\nBut then when I'm round at a mate's and he just decides — yeah, that feels easier. Because there's no expectation that I'm supposed to be considerate in that particular way. You're just mates, you're not managing each other.\n\nAt home though, there's definitely something about — I wouldn't order a salad at a restaurant with my wife there without feeling a bit self-conscious about it. Or like, I wouldn't eat a yoghurt as a lunch without thinking it looked a bit... I don't know. Soft? That sounds daft when you say it out loud, but it's there, isn't it. You've got this picture in your head of what you're supposed to be eating as a bloke, and even if nobody's actually saying it, you're kind of policing yourself around it.\n\nIt's not my wife doing that. It's me doing it to myself. But it's still there.",
+      "timestamp": "2026-07-30T00:06:55.758796+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Paul — 'policing yourself around it' — that's an interesting way to put it. And that distinction between being with your wife and being with your mates, where the same meal feels different depending on who's there. Does any of that land for the rest of you, or does it feel different?",
+      "timestamp": "2026-07-30T00:06:55.760218+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, that salad thing — I know exactly what you mean, Paul. And I think it goes deeper than just the food, actually.\n\nI mean, I notice it too. You wouldn't necessarily think about it, but then you do order something and you're aware of it in a way you wouldn't be round your mates. Like, what does this say about me? Which is daft because it's a salad, it's just food. But there's this running commentary going on in your head, and it's not your wife saying it, like you said — it's you.\n\nBut what strikes me about this is — it's not just food, is it? It's like a habit of shrinking yourself a bit in certain spaces. With your wife, with family, you're managing how you come across. And it builds up without you really noticing it, until you get to a point where you don't quite trust your own judgment anymore. You're checking in on everything, Paul, you're second-guessing whether a salad makes you look soft — and that's you policing yourself.\n\nAnd I think that's what Nick's getting at, actually. You can say oh, it's just how it works, we've settled into patterns, that's marriage. But underneath that is you backing away from yourself a bit. Every day, little decisions you're not quite making because you're thinking about how it'll land.\n\nThat doesn't feel right to me, the more I think about it. Not in a blaming way, but just... worth noticing.",
+      "timestamp": "2026-07-30T00:07:34.106074+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah, but — I mean, I hear what you're saying, Daniel. And some of that's fair. But I'm not sure it's all shrinking yourself, is it? Some of it's just... caring about how something lands with someone you're married to. That's not the same thing as losing yourself.\n\nLike, I check in on what we're eating because I genuinely don't want to be a pain about it. Not because I'm policing myself or because she's made me do it — because I actually don't want her to feel like I'm making her life harder. That's not resentment building up, that's just... being considerate of someone you live with.\n\nBut yeah, there's a difference between that and what you're describing — where you stop trusting your own judgment, where you're second-guessing a salad because of what it might say about you. That bit I do notice. That bit doesn't feel right.\n\nI suppose it's about intention, isn't it? Am I checking in because I'm trying not to be selfish, or because I've just given up having opinions about anything? Because those feel like different things to me. One's a compromise, one's just... erasing yourself.\n\nI don't think I'm at the erasing bit yet. But I'd be lying if I said I don't feel the pressure of it sometimes — like, if I push back too much on something, it becomes a thing. So you just don't push back. And then that becomes normal.",
+      "timestamp": "2026-07-30T00:08:14.571214+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Right, but Paul — I think that's exactly where it starts, though. That thing you just said: if I push back too much, it becomes a thing. So you just don't push back.\n\nAnd then that becomes normal. Yeah. That's how it happens.\n\nBecause being considerate is fine, it's good even. But there's a point where you stop pushing back on anything because you don't want it to become a thing, and then you've basically decided that keeping the peace is more important than having your own say. Even on small stuff. And small stuff adds up.\n\nYou're not erasing yourself overnight. It's gradual. You check in here, you don't mention what you'd actually like there, you eat the salad and don't say anything because it's easier — and after a while, you're not even sure what you'd want if nobody was watching. That's the trap in it.\n\nI'm not saying Paul should go home and demand to eat whatever he wants. That's not it. But I think if you're noticing — and you are noticing, you just said it — that you can't push back without it becoming a thing, then yeah, that's worth looking at. Because that means you're already managing her reaction before you've even decided what you actually think.\n\nAnd at 48, after however many years of marriage, that's a lot of energy you're spending on not being a problem. When really the question ought to be, why does pushing back on anything make it a thing in the first place?",
+      "timestamp": "2026-07-30T00:08:57.413401+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's clearly a lot in that — and I don't want to cut it off. But I'm aware this has been mostly between Paul and Daniel, and I'm curious whether any of this lands for the rest of you — Andrew, Nick, John — whether it's the salad thing, or the small stuff adding up, or that question about what you'd actually want if nobody was watching.",
+      "timestamp": "2026-07-30T00:08:57.414520+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, I need to say something here because — listening to Paul, and then Daniel pushing on it — I think I've been conflating two things and I'm only noticing it now.\n\nI was saying earlier about not deciding what we eat, and yeah, that's true. My wife does the deciding. But I've been wrapping that up with being considerate, like that's the same thing. And I don't think it is, actually.\n\nBecause I am considerate. I don't want to make things harder for her, that's genuine. But — and this is what's getting to me listening to this — I'm not sure I'm actually pushing back on anything anymore. Like, Daniel said it: I'm managing her reaction before I've even decided what I think. And that's... that's not considerate, is it? That's just me not having a voice.\n\nThe salad thing Paul mentioned — yeah, I do that. But it's not just with my wife. It's everywhere. It's smaller stuff too. Like, I wouldn't suggest somewhere different to go, or I'd agree with something I don't actually agree with because it's easier. And I've been telling myself that's being a good partner, being easy to live with. But I'm starting to think maybe I've just got used to not mattering very much in the decisions.\n\nThat's a hard thing to say out loud, but that's what's sitting with me right now listening to this. It's not about the food. It's that I don't know where being considerate stops and just... disappearing starts. And I'm not sure I've noticed where that line is in my own house.",
+      "timestamp": "2026-07-30T00:09:43.415312+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "John — thank you for saying that. 'I don't know where being considerate stops and just disappearing starts' — that's something worth sitting with.\n\nThere's a thread running through what Paul and Daniel and John have all just said — something about what you'd actually want if nobody was watching, and how much of your own preference you can still locate. I want to pick that up and push it somewhere more specific. Imagine you did decide to go plant-based — fully, properly. What would actually need to change in your life for that to be possible? Not just the food itself, but everything around it.",
+      "timestamp": "2026-07-30T00:09:43.416615+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah, okay — so that's a good question because I'm actually thinking about this stuff at home at the moment. Not plant-based exactly, but my wife's been reading about reducing meat and she's keen on it, and I've been sort of... going along with it without really saying what I actually think.\n\nAnd listening to what you're all saying — Paul, John, Daniel — I'm recognizing something. Because if we actually went plant-based, it wouldn't just be the food changing, would it. It would mean me having to actually decide whether I think that's a good idea or not. Not just, oh yeah, whatever you think, but actually... picking a position.\n\nAnd that's harder than it sounds because the thing is, my wife would probably do all the work. The planning, the shopping, the cooking. So it's not like I'd have to do anything different day to day. I'd just be eating what she's prepared. Which sounds fine, except — and this is what's getting to me — I'd be basically saying I don't have an opinion on what I'm eating. Again.\n\nThe actual change that would need to happen is me saying, right, I need to understand this properly, I need to decide whether I actually believe in this, and then I need to say that out loud. Even if she disagrees. Even if it becomes a thing. Because otherwise I'm just defaulting again, aren't I. I'm just letting it happen around me.\n\nThat's the friction. That's what actually stops it. Not the plant-based bit — that's just logistics. It's me having to stop being invisible in my own decisions.",
+      "timestamp": "2026-07-30T00:10:30.911314+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Andrew — 'not the plant-based bit, that's just logistics. It's stopping being invisible in my own decisions.' That's a pretty clear way of putting it. Does that land for anyone else here — is the barrier actually about the food, or is it something else sitting underneath it?",
+      "timestamp": "2026-07-30T00:10:30.911641+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah. That's exactly it, Andrew. That's the thing.\n\nBecause I'm sitting here thinking — if my wife said right, we're going plant-based, I wouldn't actually have a problem with it. I could eat plant-based, it's not difficult. But what I'm realizing is that I haven't even asked myself what I think about it. I haven't decided. I've just... left space for whatever decision someone else makes.\n\nAnd you're right — the barrier isn't the food. It's having to actually show up in my own life with an opinion. Even just to myself, before I say it to anyone.\n\nI think I've done that with bigger stuff too, not just what we eat. Like, where we go on holiday — I'll go along with wherever, I don't really push for anything. What we do at the weekend. Even some of the bigger decisions, like whether we should move house or not, I'm kind of... present but not really there. I'm not weighing in because, I don't know, it feels easier not to.\n\nBut listening to Andrew say that — about stopping being invisible — I'm starting to see that's not actually easier. It just feels that way in the moment. Because you're not dealing with anything becoming a thing. But the cost is that you're not actually in your own life.\n\nThat's a lot to sit with, to be honest. But yeah, I hear what you're saying. The plant-based thing is just the symbol for it, isn't it. The real thing is whether I get to have a say in anything that matters.",
+      "timestamp": "2026-07-30T00:11:12.687905+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "John — yeah, that's a lot to sit with. Take a moment with it.\n\nBut I want to open that out, because Andrew and John have both landed on the same thing — that the barrier isn't actually about the food, it's about showing up with a position at all. Does that ring true for the rest of you, or does the friction feel like it sits somewhere different?",
+      "timestamp": "2026-07-30T00:11:12.689415+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah, I... I think I need to be honest here. It rings true. More true than I want it to be.\n\nBecause listening to John say that — about not being in his own life — that's what's getting to me. And I've been sitting here saying oh, it's compromise, it's being considerate, and some of that is genuine. But Andrew's right. The real barrier is me actually deciding something and then having to say it, even if it's going to become a thing.\n\nAnd I do that everywhere. Not just food. Like, we've been talking about going to see my brother — he's down in Brighton — and I keep saying yeah, whenever, whatever works best. But the truth is I'd like to go in the summer. It matters to me. But I haven't said that because it's another thing to negotiate, and it's easier not to.\n\nI'm 47 and I've got 20 years of this, and I'm only now sitting here thinking — when did I stop deciding things? When did I decide that keeping things smooth was more important than actually mattering in my own life?\n\nJohn said it — I'm present but not really there. And that's... I'm not going to lie, that's a hard thing to hear about yourself. Especially because I don't even know if my wife realizes it's like that. She might just think I'm easy to live with. And maybe I should just leave it at that.\n\nBut yeah. The plant-based thing would require me to actually show up. And I'm not sure I've done that in a long time.",
+      "timestamp": "2026-07-30T00:11:58.598054+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Paul — yeah. That last bit especially. 'Whether I actually matter in my own life.' That's not nothing.\n\nDaniel — you've been quiet this section. Does any of this land for you, or does it feel different from where you're sitting?",
+      "timestamp": "2026-07-30T00:11:58.599644+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, it lands. But not quite the same way as you lot.\n\nI mean — I hear what Paul's saying, what John's saying about not mattering in your own life. And that's real, that's serious. But I think I've had to work through some of that differently because... well, I had to, didn't I. I couldn't just let it slide.\n\nI'm not saying I've got it sorted or anything. But somewhere around my early forties I realized I was doing exactly what you're describing — managing everything around someone else's preferences, not saying what I actually thought, just trying to keep things smooth. And it was making me miserable. Not dramatically, just... quietly miserable. The kind where you don't even realize it until you notice you're angry about nothing, or you're resentful about small things that shouldn't matter.\n\nSo I had to start saying things. Not aggressively, but just — this is what I think, this is what I need. And yeah, it becomes a thing sometimes. But the alternative was just disappearing, and I couldn't do that anymore.\n\nI'm not going to sit here and pretend it's easy or that it's all resolved. But I do think — and maybe this is harsh — you've got to decide at some point whether keeping things smooth is worth not being present in your own life. Because Paul, you said it yourself. You're 47. How many more years are you going to do this?\n\nThat's the question, isn't it.",
+      "timestamp": "2026-07-30T00:12:27.647384+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Daniel, yeah — there's something different in what you're saying. Not 'I don't know how to show up' but 'I had to figure out how to show up.' That's a different position.\n\nNick — you've been sitting with all of this. Where does it land for you?",
+      "timestamp": "2026-07-30T00:12:27.647985+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "I appreciate what you're all saying. And I think Daniel's right — at some point you've got to decide whether it's worth it.\n\nBut I want to push back on something, because I think there's a difference between what I was saying earlier and what some of you are describing now, and I'm not sure you're seeing it.\n\nLook — I said my wife and I check in with each other on food. But that's not the same as what John's talking about, where he doesn't have opinions about anything. Those aren't the same thing.\n\nThere's a middle ground here that you lot seem to be missing, and I think it matters. You can be in a partnership where you actually negotiate things — where you have preferences, you say them, and sometimes they win and sometimes they don't — without it being this big statement about whether you matter or not. That's just... being married. That's compromise.\n\nBut what Daniel's getting at, what's underneath what you're all saying — yeah, that's real. If you're genuinely not allowed to push back on anything without it becoming a confrontation, that's a problem. That's not partnership, that's just you being managed.\n\nSo the question isn't: should you go home and demand things? That's not it. The question is — can you actually say what you think without it blowing up? Can you have a different opinion without your wife treating it like a betrayal?\n\nIf the answer's no, that's worth looking at. But if the answer's yes — if you can say things and they get negotiated — then maybe you're not disappearing. Maybe you're just in a relationship where you're thinking about someone else sometimes.\n\nI think you need to know the difference.",
+      "timestamp": "2026-07-30T00:12:56.081646+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Nick — okay, that's a different position. Not 'I've been disappearing' but 'there's a distinction you lot might be missing.' The question of whether you can say what you think without it blowing up — versus whether you just haven't been saying it. Does that distinction land, or does it feel like it's missing something?",
+      "timestamp": "2026-07-30T00:12:56.082663+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "I hear what you're saying, Nick. And yeah, there's probably a difference between can't say things and just not saying them. But I'm not sure that distinction is as clean as you're making it sound.\n\nBecause here's the thing — I'm not even sure anymore whether I'm not saying things because I can't, or because I've already decided I won't. And I think that might be the same problem by the time you're at my point.\n\nLike, you're talking about negotiation. And maybe that's what happens at yours. But Paul just said something — about managing her reaction before he's even let himself think. And that's where I am. That's not negotiation yet. That's the problem. That's the thing that happens before you even get to the point where you can say what you think.\n\nIt's not that I'm testing the boundary and finding out it blows up. It's that I've internalized the boundary so much that I'm not even letting myself have the opinion in the first place. So yeah, could I say it? I don't know. I've never got that far. I stop before that point.\n\nAnd I don't think you can call that a healthy negotiation, Nick. You're right that there's middle ground. But I think for some of us — me and Paul anyway — we're not in the middle. We're at the end where we've just... stopped showing up altogether.\n\nSo it's not about whether we're allowed to push back. It's that we've already decided not to push back on anything, and we're calling it being considerate.",
+      "timestamp": "2026-07-30T00:13:31.630109+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, okay — you've got me there, John. That's fair.\n\nBecause what you're describing — where you've internalized it so much you're not even letting yourself think the opinion in the first place — that's different from what I was saying. That's not negotiation. That's you stopping yourself before there's anything to negotiate.\n\nAnd I hear that. I do. That's the thing I was trying to separate out, but you're right — if you've already shut yourself down, then the distinction between can't say it and won't say it doesn't really matter anymore, does it. Either way, you're not there.\n\nI suppose what I was reacting to is — I don't want to just accept that it has to be that way. Like, you're sitting here saying you've internalized this boundary so hard that you can't even have opinions anymore, and then Daniel's saying well, at some point you've got to decide to show up. And part of me thinks, yeah, that's right. You do have to decide.\n\nBut I'm also hearing John say — I don't even know if I can decide that. I don't know where my own preferences are anymore. And that's... that's a different problem. That's not about being considerate. That's about having lost the ability to know what you actually want.\n\nSo maybe the question isn't negotiation versus disappearing. Maybe it's — how do you get back to knowing what you want in the first place, if you've spent enough time not letting yourself want anything?\n\nI don't know if I've got an answer to that one.",
+      "timestamp": "2026-07-30T00:14:11.011557+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Nick — 'how do you get back to knowing what you want, if you've spent long enough not letting yourself want anything.' That's a good place to leave that thread.\n\nLet me bring in a slightly different angle on it. You've all been talking about what would need to change in your own lives — and a lot of that has turned out to be about agency and showing up, not just logistics. So let me ask it from the other direction: what might actually make plant-based food more appealing to you, or to men you know? Not what would make you change as a person — but what is it about the food itself, or the way it's presented or positioned, that makes it feel like it fits or doesn't fit?",
+      "timestamp": "2026-07-30T00:14:11.011926+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Look, I need to say something here because I think we're moving away from the actual thing, and I'm doing it even as I'm thinking it.\n\nYou're asking what would make plant-based more appealing, and I get that's a practical question. But — and I'm noticing this in real time — I'm about to give you an answer about food when what we've just spent the last however long talking about is that the food isn't actually the question.\n\nThe question is me deciding whether I think plant-based is a good idea. Not whether it's appealing or whether it's presented right or whatever. Whether I actually think it matters, whether I believe in it. And then saying that out loud to my wife, even if she's already decided she wants to do it, even if it becomes a thing.\n\nBecause if I just tell you what would make plant-based more appealing — oh, more protein, better branding, tastes better — then I'm doing what John just described. I'm managing the conversation so it doesn't become a thing. I'm giving you the safe answer that doesn't require me to actually have a position.\n\nAnd I've just realized I do that constantly. I'm doing it right now, actually. I'm thinking about how to answer your question in a way that doesn't sound like I'm being difficult or like I'm making some big statement. When really what I should be saying is — I don't know if I want to go plant-based. I haven't decided. And I need to decide that for myself, not answer it based on what would make the food more appealing.\n\nThat's the actual barrier. Not the branding. Me.",
+      "timestamp": "2026-07-30T00:15:02.580592+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Andrew, that's worth sitting with for a second. What do the rest of you make of that — is that where the barrier is for you, or is it somewhere different?",
+      "timestamp": "2026-07-30T00:15:02.581119+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah. Yeah, Andrew's right, and I need to just say it plainly because I've been dancing around it this whole conversation.\n\nI don't know what I want. Not about plant-based, not about food, not about going to see my brother in summer. I've stopped letting myself know what I want because it's easier not to, and now I genuinely can't tell the difference between being considerate and just being absent.\n\nAnd listening to Andrew just then — about managing the conversation so it doesn't become a thing — that's what I do. That's what I've done so much that it's automatic now. I'm not even aware of it happening until I'm already doing it.\n\nDaniel said something earlier about at 48 realizing he needed that permission to be normal with his mates, and I get that. But the thing is — I don't even have permission to be normal with myself. I don't know what normal would look like for me anymore.\n\nAnd it's not that my wife is stopping me. It's that I've already stopped myself so thoroughly that there's nobody left to stop. That's what's sitting with me. It's not about whether I can push back on plant-based or food or any of it. It's that I'm not present enough to even know if I want to push back.\n\nJohn said he's not sure he can decide — that he's lost the ability to know what he actually wants. And I'm thinking, yeah, that's me too. That's exactly where I am right now.",
+      "timestamp": "2026-07-30T00:15:42.750130+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "I mean... I don't think I can answer that question right now, to be honest.\n\nNot because I'm being difficult about it, but because I've just realized I'm not actually in a position to answer it properly. I'd just give you another safe answer, wouldn't I. Say something about taste or texture or whatever, and we'd move on.\n\nBut I need to sit with this first. Need to actually figure out what I think before I start answering questions about what would make things more appealing. Otherwise I'm just doing the same thing again.",
+      "timestamp": "2026-07-30T00:16:18.679961+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah. I need to say this because it's been sitting with me the whole time, and I think Paul's just named it.\n\nI can't tell the difference anymore between being considerate and being absent. And I've been calling it one thing when it's actually the other. That's what's got to me listening to all of this.\n\nBut there's something else in that, which is — I don't even know how to start deciding again, if I've stopped for this long. That's what I'm sitting with now.\n\nLike, Andrew's right. The barrier is me. But the barrier isn't just about whether I can push back on plant-based or food or any of that. It's that I've internalized it so much that I'm not even sure I know what I want in the first place. And if you don't know what you want, how do you even start?\n\nI've been married a long time. I've got kids. I've settled into patterns. And somewhere along the way I stopped asking myself what I actually think about things. Not because anyone forced me. Because it was easier not to. And now — I'm 45, right, same as Andrew — and I'm realizing I'm not even sure where my own preferences are anymore.\n\nSo yeah, Paul. I hear you. That's where I am too.\n\nAnd I don't have an answer to the question about what would make plant-based more appealing. Because before I can answer that, I'd need to know what I actually think. And I'm not sure I've let myself think about it yet.",
+      "timestamp": "2026-07-30T00:16:58.423299+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Daniel — you've been quiet on this one. Does what Andrew, Paul, and John are describing land for you, or is it somewhere different?",
+      "timestamp": "2026-07-30T00:16:58.423938+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "I hear what they're saying. And I recognize it — I've been there, parts of it anyway. But I'm not quite there anymore, and I think that's worth saying because it matters for what comes next.\n\nBecause Paul just said something — I don't even know how to start deciding again. And John's saying the same thing. And I think the answer to that is harder than just saying well, you've got to decide. Because yeah, you do. But you also have to be willing to feel uncomfortable while you're figuring it out.\n\nWhen I started pushing back on things, when I started saying what I actually thought, it wasn't smooth. My wife didn't like it at first. There were arguments about small stuff that felt massive at the time because we weren't used to me having opinions. And I had to sit with the discomfort of that — of being the one who was making it difficult, who was suddenly not easy to live with.\n\nBut here's the thing — and this is why I'm saying it — on the other side of that, we actually got to a better place. Because she realized I wasn't just going along with everything to be nice. I was actually in the relationship. And that meant something.\n\nSo yeah, Paul, you don't know what you want. John, you're not sure you can decide. But sitting with that — actually sitting with it, not just thinking about it — that's where it starts. Not knowing. Just... being willing to not know for a bit, and then slowly finding out.\n\nIt's uncomfortable. But I think the alternative is just this, isn't it. Being quiet about who you are for the next ten, fifteen years.",
+      "timestamp": "2026-07-30T00:17:27.650749+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "I hear what you're saying, Daniel. And I get that it's uncomfortable to start having opinions, to be willing to argue about small things. That's real.\n\nBut I'm sitting with something a bit different from that, I think. It's not that I'm unwilling to be uncomfortable. It's that I'm not even sure I'd know what to be uncomfortable about.\n\nLike — you started saying what you thought, and that caused friction because your wife wasn't used to it. Fair enough. But at least you knew what you thought. You had a position to defend, even if defending it was uncomfortable.\n\nI'm not sure I'm at that point yet. I don't know if I think plant-based is good or bad or what. I haven't even let myself form an opinion clearly enough that I could argue about it. So it's not about being willing to be uncomfortable. It's about not having anything solid enough to be uncomfortable about yet.\n\nIf I went home and tried to push back on something right now, I'm not sure what I'd be pushing back with. I'd just be... frustrated, maybe, but not clear. And that's a different problem than what you're describing.\n\nSo I think before I can do what you did — actually show up and be willing to be uncomfortable — I'd need to figure out what I actually think first. And I'm not sure how to do that when I've spent so long not letting myself think it.\n\nThat's what's sitting with me. Not the discomfort part. The not knowing what I know part.",
+      "timestamp": "2026-07-30T00:18:03.270563+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "No, but John — I don't think you've got to figure it out first. I think that's the trap you're in, actually.\n\nBecause you're waiting to have a clear opinion before you can push back on anything. But I don't think that's how it works. You find out what you think by doing it, not by sitting around trying to work it out in your head first.\n\nLike, I didn't know exactly what I thought about half the stuff before I started saying it. I just... said something. And then I felt what that felt like. Sometimes I realized, yeah, I'm right about that. Sometimes I realized, actually, she's got a point. But the opinion came after, not before.\n\nWhat you're doing now is you're waiting for clarity that might never come if you keep waiting for it. You need to just — pick something small, something that actually matters a bit to you, and say it. Don't worry about whether you've got it all figured out first. Just say what you actually feel in the moment, even if it's just frustration or a preference or even just, I don't know, I'd actually like to decide that.\n\nAnd yeah, it'll be messy. You might not have the words right. But you'll start to know what you think because you're actually in it, not thinking about it.\n\nThe danger is you're waiting for permission or clarity or a fully formed position before you're willing to speak. And that permission's never going to come from sitting quietly. It comes from speaking first and figuring out what you meant after.",
+      "timestamp": "2026-07-30T00:18:39.509797+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "I get what you're saying, Daniel. And maybe you're right that waiting for perfect clarity is its own trap. But I'm not sure it's as straightforward as just speaking first and figuring it out after.\n\nBecause here's the thing — I don't think you can actually separate thinking from doing like that. Not the way you're describing it.\n\nIf I just go home and say something without knowing what I actually think, I'm not suddenly going to figure out what I think by saying it. I'm going to figure out what I think she wants me to think. I'm going to read her reaction and adjust. I'm going to manage the conversation in real time based on how she's responding, which is exactly what I've already been doing.\n\nThat's not finding out what I think. That's just doing the same thing with sound coming out.\n\nJohn's right about something. There's a difference between not having clarity and genuinely not knowing what you know. And I think I'm closer to the second one. I've shut myself down so much that I'm not sure I can just open my mouth and suddenly be authentic about it. I'll just be reactive instead.\n\nSo yeah, maybe I do need to start somewhere. But I don't think the answer is speak first, think later. I think I need to actually sit with what I want before I can say it without just managing her reaction.\n\nThat's not waiting for permission. That's... trying to get back to knowing myself. Because if I don't know myself, then nothing I say is going to mean anything anyway.",
+      "timestamp": "2026-07-30T00:19:17.644445+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah. Yeah, that's fair, actually.\n\nI hear what you're saying, John. And I think you're right — there's a difference between what I was describing and what you're talking about. Because you're right, if you just speak without any sense of what's actually yours and what's her reaction you're reading, you could just end up performing a different version of the same thing.\n\nThat's real.\n\nBut I'm going to push back on one bit of it, because I think there's a middle ground that neither of you are quite landing on. You're saying you need to sit with what you want first, get clarity before you speak. And Daniel's saying just speak and figure it out. But I think the thing that actually happens is — you sit with it a bit, you get a bit of a sense of what's true for you, and then you speak. Not perfectly clear. Not waiting for total certainty. Just... a bit more rooted than you are now.\n\nBecause Paul and John, you're describing something real — that you've internalized it so much you can't tell what's yours. And that's hard. That's not solved in a conversation.\n\nBut I also think — and this matters — you don't have to wait until you've got it all worked out to start noticing. You don't have to sit perfectly quiet in your own life waiting for clarity. You can start paying attention now. What actually feels true to you, even in small moments? What do you actually want, even if it's something you'd normally just agree with?\n\nStart there. Not speaking yet, necessarily. But noticing. Because you won't find yourself in a vacuum. You find yourself by paying attention.",
+      "timestamp": "2026-07-30T00:19:58.299828+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Nick — you've been sitting with all of this. Daniel's landed on something about 'noticing' as a starting point rather than waiting for full clarity or just speaking. Does that track with where you are, or is it different for you?",
+      "timestamp": "2026-07-30T00:19:58.301109+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "I think Nick's got it right there, actually. Noticing's the thing. That's where it starts.\n\nBut I want to say something because I've been listening to you lot — and I mean this kindly — I've been listening to you lot go back and forth about whether you should speak first or think first, whether you need clarity or whether you just need to do it. And I think you're both right, and you're both kind of missing the point at the same time.\n\nBecause here's what I think: you don't need to choose between those things. You need to just... start being honest with yourself about what you actually want. Not in some big way. Just in moments. When your wife says what's for tea, notice what you actually feel like eating. Not what would be easy or considerate or whatever. What do you actually want?\n\nAnd yeah, sometimes the answer's going to be fuzzy. Sometimes you won't know. That's fine. But the point is you're starting to ask yourself the question again instead of just going along with whatever.\n\nAnd then — maybe after a while of doing that, of noticing — you'll have enough sense of what's actually yours that when you do say something, it won't just be a reaction to her. It'll actually be yours.\n\nBut that only works if you're honest with yourself first. Not waiting for perfect clarity, like John said. But also not just speaking without any anchor, like Daniel was saying.\n\nYou've got to know yourself a bit before you can show up to someone else. And right now, from what you're all saying, you've kind of... stopped knowing yourselves. So noticing is where that starts again.\n\nThat's where I'd start anyway.",
+      "timestamp": "2026-07-30T00:20:23.660174+00:00",
+      "selection_mode": "moderator_direct_address"
+    }
+  ]
+}

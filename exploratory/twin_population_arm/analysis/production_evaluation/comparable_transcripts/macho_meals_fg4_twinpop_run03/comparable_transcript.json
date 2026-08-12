@@ -1,0 +1,321 @@
+{
+  "_provenance": {
+    "derived_by": "scripts/build_comparable_window.py",
+    "generated_utc": "2026-08-06T08:24:07.208188+00:00",
+    "source_transcript": "output\\session_logs\\macho_meals_fg4_twinpop_run03\\transcript.json",
+    "source_transcript_sha256": "369e10698ccdbe14f9c5383fa3a8de69475b3f1542c1040f53bad065664b360f",
+    "window": "q1_ask_to_end_of_last_substantive_section",
+    "excluded": "all material before the Question-1 ask, and the closing section",
+    "boundary_method": "Section structure from moderator_log.section_transition, cross-checked against state_turn_*.json current_section_index. Sub-entry Question-1 offset by ANCHOR-AND-EXTEND: anchor on the latest sentence-aligned suffix of the boundary entry that still poses Question 1 (the minimal ask), then extend backward one sentence at a time only across sentences that are residue-free AND positively identified as part of the ask (carrying a Q1-distinctive token, or being an ask lead-in / short discourse connective); stop at the first sentence failing either test. Residue classes excluded: participant name, moderator self-introduction, welcome, instruction/confidentiality text, presentation summary. Because the boundary only ever moves earlier over text positively identified as part of the ask, residue is excluded by construction rather than by enumeration.",
+    "boundary_algorithm": "anchor_and_extend_v1",
+    "source_entry_index": 4,
+    "source_entry_turn": 4,
+    "source_character_start": 104,
+    "original_boundary_entry_sha256": "5def615b81cba55ca0cdc3f2d7884aab2f2b59e6dc40ab4c6f3c2d0f4bb86d15",
+    "retained_boundary_text_sha256": "659c20e1cabd42fe17a9e0f97a7b60fbe44b377f6be7685fc5e701db41e2e5a0",
+    "boundary_review_status": "AUTO_TRIMMED",
+    "boundary_review_note": "anchored on minimal Q1 ask at char 218, extended back 2 sentence(s) to char 104; dropped 104 leading chars (19 words) carrying: presentation_summary_propernouns(Great,Manchester,South,East); presentation_summary(spread)",
+    "first_source_entry_index": 4,
+    "last_source_entry_index": 40,
+    "boundary_text_is_verbatim_slice": true,
+    "note": "Derived view. The source transcript is unmodified. The first entry's content is a verbatim character slice of the source entry from source_character_start onward - never paraphrased, normalised, reconstructed, or replaced with the guide's scripted question. Human transcripts need no equivalent window: they already begin at Question 1 and contain no introduction or closing section."
+  },
+  "transcript": [
+    {
+      "turn": 4,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Okay, let's get into it. I want to ask about where you actually spend time — specifically with your male friends. What's your favourite place to go, or to be, with the guys? Doesn't have to be anything fancy — wherever comes to mind.",
+      "timestamp": "2026-08-06T01:13:08.547357+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Well, honestly, a lot of it's just at home these days. I work from home, so by the time the evening comes round, I'm not desperate to get out the door again. We'll have a few beers, watch something on the telly — football usually on a Saturday. There's a couple of pubs locally I'll go to, nothing special about them, just know the people in there. But yeah, mostly it's just... being around the house, isn't it. Quieter that way.",
+      "timestamp": "2026-08-06T01:13:34.337368+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, I get that — staying in and keeping it simple. But for me it's different because I'm out all day anyway, right? Working on site, driving back and forth, so by the time I'm home I've already had enough of being around. But here's the thing — even when I am at home trying to have a quiet night, it's not really quiet, is it? You've got traffic outside, neighbours, just... it's never really off. So I'd probably want to get out more than you would, just to actually find some peace. \n\nThough I don't know, maybe you're settling into it a bit. Do you actually prefer being in, or is it just easier because of the work-from-home thing? Because there's a difference, I reckon. Being in because you want to is one thing. Being in because that's what happens... that's different.",
+      "timestamp": "2026-08-06T01:13:58.138386+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah, fair point. If I'm honest, it's probably a bit of both. The work thing means I don't need to go anywhere, so that's the easier option, but... I do actually quite like it that way. I mean, by the time I've been working here all day, I'm not bursting to get out. But you're right, there's something about just staying put — it suits me. Don't get me wrong, I'll go out when there's something on, match or a trip somewhere, but the default is just... home. And I think I've settled into that. Which is fine by me, but yeah, I wasn't being entirely straight about whether it was the convenience or what I actually prefer. It's the preference really. Or it's become the preference, anyway.",
+      "timestamp": "2026-08-06T01:14:22.924824+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Mark, sounds like you're in a pretty different setting from both of them — what does it look like for you?",
+      "timestamp": "2026-08-06T01:14:22.925587+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Well, I work pretty locally — just down the road, less than two kilometres, so that helps. But honestly, with two teenagers at home, the week's quite structured around their stuff — school runs, activities, that sort of thing. So it's not like I've got loads of free time just sitting about.\n\nAs for the guys, yeah, we'll meet up at the pub sometimes, local one in the village. Nothing fancy. Or sometimes just at someone's house — might watch the match, have a few drinks. It's not like we're doing anything special, just... being around. The difference for me though is the driving — because nothing's really on your doorstep out here, you're ferrying people about anyway, so actually getting out to meet someone isn't as much of a pain. It's just another trip in the car, isn't it?\n\nBut I wouldn't say I'm desperate to be out all the time either. Home's fine. The garden keeps me busy enough if I'm being honest — always something needs doing. I think I'm probably somewhere in the middle of what you two are saying. I'm not stuck at home like James, but I'm not fighting to escape the noise like you are, Gregor. It's just... quieter, so you don't feel the pressure of needing to get away from it.",
+      "timestamp": "2026-08-06T01:14:42.963898+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Good, so three quite different setups — worth bearing in mind as we go. Let's shift to something related. Day to day, how do you all actually decide what to eat — what goes into that?",
+      "timestamp": "2026-08-06T01:14:42.965073+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Right, so for me it's a bit more complicated because you've got four of us in the house, and two of them are teenagers. So it's not just what I fancy or what's healthy or whatever — it's what the kids will actually eat, what fits the budget, what my wife's planned, and then fitting it around everyone's timetable because they're doing different things on different nights.\n\nSome nights one of them's at a club or training, so you can't do a sit-down meal. Other nights we all need to eat at roughly the same time. So a lot of it is just... logistics, really. You plan around that. And then there's the teenager factor — they've got their preferences, which are usually chips or pizza or something quick. You can't just decide on the day. My wife tends to do most of the planning side of it, but I'll do some of the cooking and shopping, so we're both juggling it.\n\nCost is a factor too. With two kids to feed, you're not just buying what's nice — you're looking at what's going to stretch. So it's less about how I decide what to eat and more about how we collectively decide what works for the week. Bit different from just choosing for yourself, I'd imagine.",
+      "timestamp": "2026-08-06T01:15:13.348454+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a really different picture from just picking what you fancy — it's a household negotiation more than a personal choice. Gregor, James — how does that compare to how you make those decisions?",
+      "timestamp": "2026-08-06T01:15:13.349429+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, well for me it's... I mean, I live with two other adults, so it's not quite the same as just me, but it's nowhere near what you're dealing with, Mark. Nobody's got different schedules or preferences I'm having to work around — we just sort of eat what's there, really. \n\nMy wife might do the planning, to be fair, but I'm not that involved in it day to day. I'm out early, back late most nights, so by the time I'm home I just eat what's been sorted. If I'm working late on site I might grab something on the way back, something quick. It's all a bit transactional, if I'm honest. Not much thought goes into it on my end.\n\nBut hearing you describe it, Mark — that's a different kind of pressure, isn't it? You've actually got to think about other people, plan ahead. What I've got is... I don't know, it's quieter in that way, but sometimes I think it makes the eating bit a bit lonely. You know what I mean? Just fuel really, not much else to it. Whereas you've got to sit down with the kids, sort it out together. That's different.",
+      "timestamp": "2026-08-06T01:15:40.507830+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "James, how does that land for you — sounds like your setup's probably different again?",
+      "timestamp": "2026-08-06T01:15:40.509335+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah, it's a bit different. I mean, there's three of us in the house, but nobody's got kids or anything, so it's not like Mark's got going on. We just sort of... work it out between us, really. Some nights one of us will cook, other nights someone else will do it. Not much planning involved. If something needs doing, you just get on with it.\n\nTo be honest, I don't think about it much. You eat when you're hungry, don't you. There's food in the cupboards, fridge, you make something. Nobody's got fussy preferences or anything like that, so it's straightforward. Nothing like what you're describing, Mark — that sounds like a full-time job on top of the actual job.\n\nI suppose the only thing is, working from home, I'm the one who might break for lunch in the middle of the day, whereas the others are out. So sometimes I'll just have something quick — sandwich, bit of leftovers. Evening time is more of a shared thing. We'll eat together most nights, but it's not like there's this big logistics puzzle to sort out first.",
+      "timestamp": "2026-08-06T01:16:01.529609+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Gregor, you said something earlier — that eating had become 'just fuel, not much else to it.' What do you mean by that?",
+      "timestamp": "2026-08-06T01:16:01.530662+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Well, just... look, I'm up at half five most mornings, out the door by six, driving twenty, thirty kilometres to get on site. I'm working nine, ten hours on my feet, doing physical work. By the time I'm back home it's half seven, eight o'clock at night. I'm knackered. So eating's not this thing you sit down and enjoy — it's just something you need to do before you crash, isn't it? \n\nJames has got it easier because he's home during the day, he can break it up. You can actually think about what you're making, take your time. Me? I eat whatever's there, get it down, and then I'm watching telly for an hour before I'm ready for bed. Rinse and repeat the next day.\n\nIt's not unhealthy or anything, just... there's no real pleasure in it. It's fuel to keep going. Which is fine, but it's different from what you two are describing — even Mark with all the logistics, there's still a meal happening, isn't there? People sitting together. For me it's just me in the kitchen, shoving something down my throat. That's what I meant.",
+      "timestamp": "2026-08-06T01:16:21.302700+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Yeah, that makes sense — there's a real difference between eating as something you do together and eating as something you just get through. Okay, let's move on to something related. I want to ask you all something a bit more direct: do you think being a man influences what you eat? Why, or why not?",
+      "timestamp": "2026-08-06T01:16:21.303614+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Yeah, I think it does, a bit. Though maybe not in the way people think.\n\nI mean, there's the obvious stuff — you're not supposed to fuss about food or worry too much about what you're eating, right? You just eat it. That's sort of the message. But for me, it's different because I'm feeding other people too. It's not just about me being a bloke who doesn't care — I've got to make sure the kids are eating properly, they've got what they need. So there's that responsibility side.\n\nBut then, yeah, I probably wouldn't sit down and plan meals the way my wife does, or think about nutrition or calories or any of that. That's not really... I don't know, it doesn't feel like something I'd naturally do. Even though logically I know it matters. So there's a bit of that — like, you're expected not to think too hard about it, just provide. Get something on the table.\n\nOut here in the village, too, there's probably a bit more of that old-fashioned thing going on than maybe in the suburbs or the city. You know, the bloke doesn't do the shopping list or worry about it. The woman does. That's just how it works for a lot of people round here, even if it's changing a bit. I'd probably get some odd looks if I was the one in the kitchen every night planning menus like it was my full-time job.\n\nSo yeah, I think it does, but it's more about what's expected of you than what you actually prefer, isn't it?",
+      "timestamp": "2026-08-06T01:17:00.409954+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, that's... that's actually dead on, Mark. Yeah. \n\nI mean, I wouldn't have put it like that, but you're right. There's definitely that thing where you're not supposed to care too much about it, or think about it. You just eat. Get on with it. And I suppose with the work I do — you're on site, you're around other blokes, you're sweating, you're doing physical work — there's no room for fussing about what's on your plate, is there? You'd get a bit of stick.\n\nBut honestly, some nights after a long shift I'd maybe like to sit down properly, have something that's not just... whatever. Something that's been thought about a bit. But you don't say that. That's not really... I don't know, it doesn't fit. You just get what you're given and that's that. Especially living with my wife — I can't really say \"I want you to spend more time on this\" without it sounding like I'm not coping with work or something. Like I'm soft.\n\nSo yeah, you end up with the fuel thing because that's what's easier to admit to. But I reckon if I'm being straight with you, it's not really what I prefer. It's just what fits with being a bloke in my situation. That expectation Mark's talking about — that's real.",
+      "timestamp": "2026-08-06T01:17:34.769686+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Yeah, exactly. And you can't really say it without feeling a bit... I don't know, like you're complaining or being ungrateful. Which is daft, really.\n\nI mean, I've got it easier than you because I'm here more, and my wife does a lot of the planning side, so there's already time and thought going into meals. But there's still that thing where if I started saying I wanted nice food or something carefully made, it'd be... it feels like you're overstepping a bit. Like that's not your department, you know? You're the one who brings the money in, does the practical stuff. The food side of things — that's hers.\n\nEven though we're both busy. She's got the kids' stuff to manage, I've got work and the house and the garden. But admitting you'd like something more than just functional? That feels a bit soft, like you said. Like you're not pulling your weight somehow.\n\nIt's odd because you want it — you do want to sit down with something that's decent, not just slapped together — but you can't really say that out loud without it feeling wrong. So you just accept whatever happens and get on with it.\n\nI reckon if I actually said to my wife, \"I'd like you to make more effort with meals,\" she'd probably have my head. Fair enough too. But you're right, Gregor — that expectation's there whether you say it or not. It just comes out in how you act about it, doesn't it?",
+      "timestamp": "2026-08-06T01:18:08.649723+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Right, yeah. That's exactly it. You can't win with it, can you? \n\nBecause if you say it, it sounds like you're ungrateful or you're not appreciating what's already being done. But if you don't say it, you're just... stuck with it. And it builds up a bit, doesn't it? Not even about the food really, like you said. It's about feeling like your needs don't matter, or they matter less because you're supposed to just get on with things.\n\nI mean, I work fifty hours a week minimum, drive an hour every day, come home shattered. My wife's got her own thing going on, I'm not saying she hasn't. But there's this unspoken rule where I'm not allowed to say I'd like something more without it being seen as... I don't know, weakness or ingratitude or expecting to be looked after like a kid.\n\nBut that's daft, isn't it? You're just a person who's worked hard and wants to sit down to something decent. That shouldn't be asking too much. But admitting that feels like you're stepping out of line somehow. Like you're not supposed to have needs, just carry on.\n\nAnd then you end up eating whatever, not saying anything, and just... yeah. Getting on with it.",
+      "timestamp": "2026-08-06T01:18:44.891957+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something in that — this idea that needing things is itself the problem, not the thing you need. James, you've been listening to all of this — does any of it ring true from where you sit?",
+      "timestamp": "2026-08-06T01:18:44.893241+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "I think... yeah, some of it does. Though my situation's a bit different, like I said. There's three of us, nobody's got kids, so there's not that same pressure.\n\nBut the thing about not being able to say what you want — yeah, that's familiar. I mean, I work from home, so I've got more flexibility than you two with cooking and that. But there's still that... you don't really talk about wanting something nice or putting thought into it. You just eat, don't you. It's not a conversation.\n\nI suppose the difference for me is I'm not dealing with it in a relationship context like you lot are. It's just the three of us in the house, we're all adults, we sort ourselves out. So if I fancied cooking something proper one night, I could just do it. Nobody's expecting anything from me on that front. But you're right about the unspoken thing — even just doing the cooking feels a bit like... I don't know, like it's not what blokes are supposed to fuss about.\n\nI wouldn't say it builds up for me the way you're describing, but I get what you mean. There's definitely that feeling that you shouldn't care too much about it, or think about it too hard. Just fuel, like you said. And I think that's... yeah, that's just how it is for us, isn't it? Not really something you question.",
+      "timestamp": "2026-08-06T01:19:11.449365+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something interesting across all three of you — this gap between what you'd actually want and what you feel like you're allowed to want, or say out loud. Let me take that somewhere. Imagine you decided to go properly plant-based — no meat, no animal products. What would actually need to change in your life for that to be possible?",
+      "timestamp": "2026-08-06T01:19:11.450732+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Hmm. Well, nothing really, I suppose. I mean, practically speaking, it wouldn't be hard. I could do that no problem. We've got space, I can cook, nobody's going to stop me.\n\nBut... yeah, actually, there's more to it than that, isn't there? Because if I just went plant-based without saying anything, that's one thing. Just sort of doing it quietly. But if I actually said it — said I wanted to do that, that it mattered to me — then that's different. Then I'm saying something about what I want, what my choices are. And that does feel like... I don't know, like I'd have to explain it. Have a reason. Justify it.\n\nWith the other two in the house, there's no real conflict, but it's still that thing of — you don't just announce you've got preferences about what you eat. That's not how it works. You just eat what's there. So to actually make a change like that, I'd have to say it out loud, and then it becomes a thing, doesn't it? It's no longer just... what you happen to be doing. It's a choice you're making, and that means owning it.\n\nI'm not saying that's rational or anything. It's just... yeah, that's what would actually need to change. Not the practical side. The saying it out loud side.",
+      "timestamp": "2026-08-06T01:20:01.286355+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "James, that distinction between just doing it quietly and actually saying it — that's interesting. Gregor, Mark, does that resonate with how you'd see it, or would it work differently for you?",
+      "timestamp": "2026-08-06T01:20:01.287548+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "For me it'd be harder, to be honest. Not just the saying it out loud bit — though that's part of it — but the actual doing it in my situation.\n\nI mean, I'm not planning the meals, right? My wife is. So if I suddenly decided I wasn't eating meat anymore, that's not just my choice affecting me. It affects what she's got to cook. And she'd see it as... I don't know, a criticism maybe? Like I'm saying what she's making isn't good enough, or I'm making extra work for her. Even if I wasn't meaning it that way.\n\nJames can just do it quietly because nobody's depending on him for anything in that setup. But for me, it'd have to involve her. And that conversation — \"I want to go plant-based\" — that's not just about food. That's saying something about what I want my life to look like, and that puts pressure on someone else's time and effort. And you can't really do that without it becoming a thing, can you?\n\nPlus, on the building sites, with the lads... that'd be noticeable. You've got to eat lunch with people, you're sat in the van or wherever. You can't just quietly go plant-based. Everyone would see and ask questions. And there's no good answer that doesn't sound like you're making some kind of statement.\n\nSo yeah, the saying it out loud is part of it. But the actual mechanics of my life — who does the cooking, who I eat with, what's expected — that makes it harder than just a preference thing. It's more complicated than that.",
+      "timestamp": "2026-08-06T01:20:39.826812+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Mark, you've got teenagers in the house — does the dynamic Gregor's describing feel familiar, or does it work differently when there are kids in the picture?",
+      "timestamp": "2026-08-06T01:20:39.828107+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "It'd be tricky, yeah. Because it's not just about me and my wife negotiating it like Gregor's saying. You've got the kids to think about as well.\n\nI mean, if I decided to go plant-based, my wife would have to cook differently for me potentially, but the kids — they're already at an age where they're a bit picky about what they'll eat. They want their meat, their familiar stuff. So you'd be managing multiple different diets in one household, and that's a logistics nightmare on top of what's already complicated.\n\nBut also... I think there's a bit of Gregor's thing there too. If I came home and said, \"Right, I'm plant-based now,\" it'd feel like I'm adding to everyone else's workload, you know? My wife's already juggling what the kids will eat, budgets, shopping, cooking for four people with different schedules. Adding another constraint — that's not just my choice anymore, that affects everyone.\n\nAnd then the kids — they'd probably think it was odd. Dads don't do that sort of thing, in their heads. So there'd be questions, explanations needed. You'd have to make it make sense to them somehow.\n\nI reckon the actual doing of it would be the least difficult part. It's the saying it, owning it as something that matters to you, and then managing everyone else's reaction to it — that's where it gets messy. And in a family household, you can't really just do something quietly. It affects meal times, shopping, everything. So you'd have to actually have the conversation properly. And that's the hard bit.",
+      "timestamp": "2026-08-06T01:21:14.711117+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "I'm hearing something that runs across what all three of you are saying — the practical side of going plant-based doesn't seem to be the main obstacle. It's more about what it means to say it out loud, to own it as something that matters to you. But I wonder if there are actually two different things getting bundled together there. For James, it sounds like it's mainly about announcing a preference — which men aren't supposed to do. But for you and Gregor, Mark, it's not just announcing a preference — it's asking someone else to absorb the consequences of it. Your wife reorganises the shopping and the cooking, the kids' meals get more complicated. Is that the same thing as James's problem, or is that something harder?",
+      "timestamp": "2026-08-06T01:21:14.712582+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "No, that's different, isn't it? You're right.\n\nI've been lumping it all together — saying I can't admit I want something — but actually listening to Mark describe it, that's not quite what I'm dealing with. He's got actual logistics to manage. Kids' meals, budgets, shopping lists. Real work that gets harder.\n\nMe? I'm saying my wife would see it as criticism, but... I'm not actually adding that much to her workload. She's not planning around me, not the way Mark's managing four people. It's more that I'd feel like I was stepping out of line somehow, asking for something different. But that's not the same as asking her to reorganise the whole household around it.\n\nSo yeah, I think I've been a bit unfair conflating the two. Mark's actually got a legitimate logistics problem. Mine's more about... I don't know, feeling like I shouldn't want things that are different from what's expected. Which is different from actually burdening someone else with it.\n\nThough I suppose there's still something in it for me — like, if I started saying I wanted different food or had preferences, it might start a conversation I don't really want to have, you know? But that's not the same as what Mark's describing. That's just me not wanting to rock the boat.",
+      "timestamp": "2026-08-06T01:21:49.703097+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Gregor, that last bit — 'not wanting to rock the boat' — what does that actually mean for you? What's the boat?",
+      "timestamp": "2026-08-06T01:21:49.704666+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "I mean... it's the routine, isn't it? The way things work. I get up early, go to work, come home knackered, eat whatever's there, watch telly, go to bed. Repeat. And my wife does her thing, I do mine. We rub along okay. It works.\n\nBut if I start saying I want things to be different — better meals, more time together over food, whatever — that's opening a conversation about what's actually missing, isn't it? And once you start that, it's harder to just close it again. You'd have to actually talk about it properly.\n\nAnd I don't know if I want to do that, to be honest. Because then it becomes about me being unhappy with how things are, and that's... that's a lot. Easier to just not say anything, keep things as they are. No conflict, no big conversations.\n\nBut yeah, I suppose the boat is just — this is how it is, and it's fine, and we don't need to change it or talk about what we actually want. Rocking that means admitting that maybe it's not fine, and then what? I don't know where that goes.",
+      "timestamp": "2026-08-06T01:22:15.918297+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Yeah. That's an honest answer, Gregor — the boat being the whole arrangement, not just the food. That makes sense. Let's keep moving, because I want to make sure we get to the last couple of things before we run out of time. Thinking about all of that — the saying it, the owning it, the conversations it might open — what do you think might actually make plant-based food more appealing to you, or to other men you know? Not just in theory, but in practice.",
+      "timestamp": "2026-08-06T01:22:15.918830+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "That's... that's a hard question, actually.\n\nI mean, practically speaking, if it was just about the food being there and tasting alright, that'd help. Like, if plant-based stuff didn't taste like rabbit food, if it actually filled you up after a long day — that matters. But that's not really the barrier, is it?\n\nThe barrier's the conversation. And I don't know what would make that easier, to be honest. Because it's not like someone could just... make it less awkward. It's the fact of saying you want something that's the problem.\n\nUnless... I suppose if it came from somewhere else? Like, if my wife decided she wanted to cook plant-based for health reasons, or if it was just what we were doing as a household thing, that'd be different. Then I'm not asking for it, I'm just going along with it. That's easier somehow — that's not me making a choice about what I want.\n\nBut if I had to actively choose it myself, own it as something I decided... I'd need to actually believe it mattered enough to have the conversation. And right now I'm not sure it does. I mean, I'd like better meals, sure. But is that worth the whole thing that comes with saying it? I don't know.\n\nMaybe if I was younger I'd see it differently. But at my age, you've sort of settled into how things are. Changing that just feels like... effort. Difficult effort.",
+      "timestamp": "2026-08-06T01:23:01.370689+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That thing you said, Gregor — about it being easier if it came from somewhere else, if it was just what the household was doing rather than something you'd decided — does that land for either of you? James, Mark?",
+      "timestamp": "2026-08-06T01:23:01.371900+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah, but... I think I'm doing exactly that, aren't I? Just quietly. Which sounds easier, and in a way it is, but it's not really the same thing as what Gregor's describing, is it?\n\nI mean, I could just decide to do it, and nobody would stop me or complain. There's no conversation I have to have. But that's because I'm also not really owning it. I'm just... doing it without saying anything. And that's its own kind of settling for it, I reckon.\n\nBecause if I'm being straight, I'm avoiding the conversation the same way Gregor is. He's waiting for his wife to decide it for him so he doesn't have to say it. I'm just doing it quietly so I don't have to say it either. Different method, same thing — we're both just not wanting to actually say \"this matters to me.\"\n\nBut that's a trap too, isn't it? Because then you're just living your life around what you don't have to say out loud, rather than what you actually want. At least Gregor's being honest about it — he's saying, yeah, I'd rather someone else decide it because that's easier. I've been saying, oh, I could just do it quietly, no problem. But that's not actually true, is it? It's still the same problem. I'm just hiding it better.",
+      "timestamp": "2026-08-06T01:23:32.232197+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Mark, what do you make of that?",
+      "timestamp": "2026-08-06T01:23:32.233813+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "I think James is right — you're both doing the same thing, just different versions of it. And I get it. I do the same thing, if I'm honest.\n\nBut my situation's a bit different because I can't really do it quietly, can I? With a family of four, with kids, with someone else doing the shopping and cooking — I can't just slip into plant-based without it being obvious. So I'm kind of forced to have the conversation if I wanted to do it. Which maybe sounds worse, but in a way it's clearer.\n\nWhat Gregor said about the wife deciding it — yeah, that would be easier. Or if it was just what we were doing as a household thing. But then you're giving up the choice, aren't you? You're just going along with it.\n\nI think the thing is... with teenagers at home, I'm aware that how I do things, what I decide matters to them a bit. Like, if I just quietly avoided something or let my wife make all the decisions about what we eat, they're learning that's what you do. The kids are watching. So there's maybe more pressure on me to actually own things, to have the conversations, even if they're awkward.\n\nBut do I want to go plant-based? Not really. So it's a bit academic. I mean, it's easier to just eat what's there. But Gregor's right too — you do wonder what you're not saying, what you're settling for because it's simpler. It's not great, when you think about it like that.",
+      "timestamp": "2026-08-06T01:24:05.657927+00:00",
+      "selection_mode": "moderator_direct_address"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+ "cache_key": "9fd438face38840244746e97344b99f3cd06153586ac63703f85d8d0cc10227e",
+ "computed_utc": "2026-07-31T00:24:58.181194+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/to8xlhi19eohi33n4kb6vuyexr1a1b89ndws",
+ "custom_request_key": "macho_meals_fg3_run03",
+ "input": {
+  "side": "synthetic",
+  "fg": "fg3",
+  "condition": "enriched",
+  "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg3_run03\\comparable_transcript.json",
+  "sha256": "1cc065e485a75e5ac6ffb329bd2b89f532e20e96c0ccd33e89073b6612acbf10",
+  "physical_run": "macho_meals_fg3_run03",
+  "canonical_replication_index": 3
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "3115b17a16d2c7564e9af04f8d7222e9da933f8f04635a68845bb0905380b956",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 13451,
+  "candidates_tokens": 1433,
+  "total_tokens": 24028,
+  "thoughts_tokens": 9144,
+  "cached_tokens": null,
+  "raw_text_chars": 4795,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 13451,
+  "candidates_tokens": 1433,
+  "total_tokens": 24028,
+  "thoughts_tokens": 9144,
+  "cached_tokens": null,
+  "raw_text_chars": 4795,
+  "parse_attempt": 1,
+  "headroom_tokens": 14951
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T013",
+      "speaker": "Participant 5",
+      "quote": "there's probably some truth to the idea that men gravitate towards certain foods"
+     },
+     {
+      "turn_id": "T015",
+      "speaker": "Participant 1",
+      "quote": "Like the choice itself has become gendered in a way it didn't used to be."
+     },
+     {
+      "turn_id": "T018",
+      "speaker": "Participant 3",
+      "quote": "Some blokes have started leaning into it harder, haven't they? Making it more of a statement."
+     },
+     {
+      "turn_id": "T022",
+      "speaker": "Participant 2",
+      "quote": "There's this thing now where eating meat gets tied to this idea of being a traditional bloke"
+     }
+    ],
+    "evidence_note": "Participants 1, 2, 3, and 5 explicitly acknowledge that gender shapes food contexts, noting that meat eating has become tied to masculinity or that men gravitate toward specific foods.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3",
+     "Participant 5"
+    ],
+    "reach": 0.8
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": true,
+    "confidence": "medium",
+    "supporting_quotes": [
+     {
+      "turn_id": "T009",
+      "speaker": "Participant 4",
+      "quote": "My wife sorts a lot of it, to be honest — she'll plan the week out, do the shopping"
+     }
+    ],
+    "evidence_note": "Participant 4 strongly rejects any connection between meat-eating and masculinity, yet describes a highly gendered food dynamic in his household where his wife does all the planning and shopping without recognizing the gendered nature of this comment.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 4"
+    ],
+    "reach": 0.2
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T006",
+      "speaker": "Participant 1",
+      "quote": "Because look, I eat meat. It's part of how I eat, it's normal to me."
+     },
+     {
+      "turn_id": "T008",
+      "speaker": "Participant 3",
+      "quote": "that's what we cook. That's what's normal."
+     },
+     {
+      "turn_id": "T009",
+      "speaker": "Participant 4",
+      "quote": "You have your dinner, it's got some meat in it, job done. That's normal, isn't it?"
+     },
+     {
+      "turn_id": "T016",
+      "speaker": "Participant 5",
+      "quote": "My dad ate meat, I eat meat, it was just normal"
+     },
+     {
+      "turn_id": "T022",
+      "speaker": "Participant 2",
+      "quote": "I eat meat, fish, chicken, bit of red meat. That's just what I do."
+     }
+    ],
+    "evidence_note": "All five participants describe eating meat and other animal products as a normative, default behavior that requires no special justification.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T013",
+      "speaker": "Participant 5",
+      "quote": "I just eat meat because I like it"
+     },
+     {
+      "turn_id": "T015",
+      "speaker": "Participant 1",
+      "quote": "I eat meat because I like it"
+     },
+     {
+      "turn_id": "T027",
+      "speaker": "Participant 3",
+      "quote": "I like eating what I eat."
+     },
+     {
+      "turn_id": "T032",
+      "speaker": "Participant 4",
+      "quote": "Meat's part of how I eat, it's satisfying, it works."
+     }
+    ],
+    "evidence_note": "Participants 1, 3, 4, and 5 discuss how their consumption of meat is driven by their enjoyment of it and how satisfying it is.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 3",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 0.8
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "D",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 14,
+  "verified_quotes": 14,
+  "total_present_codes": 4,
+  "verified_codes": 4,
+  "demoted_codes": 0
+ }
+}

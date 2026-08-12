@@ -1,0 +1,40 @@
+........................................................................ [ 11%]
+........................................................................ [ 23%]
+........................................................................ [ 35%]
+........................................................................ [ 47%]
+........................................................................ [ 59%]
+.........................................F.............................. [ 71%]
+........................................................................ [ 83%]
+........................................................................ [ 95%]
+.............................                                            [100%]
+================================== FAILURES ===================================
+______________ test_moderator_prompt_contains_stage_6e_guidance _______________
+
+    def test_moderator_prompt_contains_stage_6e_guidance():
+        with open("prompts/01_MODERATOR_SYSTEM_PROMPT.md", "r", encoding="utf-8") as f:
+            mod_prompt = f.read()
+    
+        # Check for Neutral Facilitation
+        assert "The moderator should facilitate rather than reward." in mod_prompt
+        assert "Avoid repeatedly praising participant contributions" in mod_prompt
+        assert "Use neutral acknowledgements instead of evaluative praise." in mod_prompt
+        assert "ask one clear question at a time" in mod_prompt
+    
+        # Check for Topic Tethering
+>       assert "ground the discussion back in grocery-delivery practice" in mod_prompt
+E       assert 'ground the discussion back in grocery-delivery practice' in '# Moderator System Prompt\n# File: prompts/01_MODERATOR_SYSTEM_PROMPT.md\n# Usage: Loaded once at session start. Neve... directly, redirect warmly: *"I\'m genuinely here to hear yours — I\'m more curious what your experience has been."*\n'
+
+tests\test_stage6e_naturalness_topic_tethering.py:35: AssertionError
+============================== warnings summary ===============================
+..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\genai\types.py:42
+  C:\Users\JLARA\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\genai\types.py:42: DeprecationWarning: '_UnionGenericAlias' is deprecated and slated for removal in Python 3.17
+    VersionedUnionType = Union[builtin_types.UnionType, _UnionGenericAlias]
+
+tests/test_stage7_cli.py::test_assess_session_cli_wiring
+  C:\Users\JLARA\Documents\Dissertation\my_qualitative_project\assessment\versioning.py:19: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    "timestamp": datetime.datetime.utcnow().isoformat() + "Z",
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_stage6e_naturalness_topic_tethering.py::test_moderator_prompt_contains_stage_6e_guidance
+1 failed, 604 passed, 2 warnings in 64.99s (0:01:04)

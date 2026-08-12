@@ -1,0 +1,647 @@
+{
+  "record_type": "MINDFULNESS_THEMATIC_PACKAGE_CORRECTED",
+  "classification": "EXPLORATORY_OUT_OF_DOMAIN_THEMATIC_FIDELITY_CHECK",
+  "no_api_calls": true,
+  "no_new_human_tasks": true,
+  "raw_outputs_unmodified": true,
+  "primary_evaluator": "gemini (gemininext) — unchanged",
+  "cross_model_auditor": "claude — auditor only. Its disagreements form a sensitivity analysis and are NOT a correction to the primary result.",
+  "frame_strata": {
+    "codes_total": 26,
+    "stratum_1_any_valid_quote_in_some_repetition": {
+      "n": 23,
+      "codes": [
+        "T01_focused_attention",
+        "T01_mind_wandering_awareness",
+        "T01_non_reactivity",
+        "T02_formal_practice",
+        "T02_informal_practice",
+        "T03_importance_of_consistency",
+        "T04_core_components",
+        "T04_flexibility",
+        "T04_gradual_progression",
+        "T05_difficulties",
+        "T05_misconceptions",
+        "T05_visualization_as_a_control",
+        "T06_duration",
+        "T06_frequency",
+        "T06_metaphors_and_analogy",
+        "T06_psychoeducation",
+        "T06_separate_tracks",
+        "T07_contingency_management",
+        "T07_psychoeducation",
+        "T07_self_reflection",
+        "T08_focus_on_non_clinical_populations",
+        "T08_screening",
+        "T10_control_group_design"
+      ],
+      "note": "NOT a denominator. Includes codes that were unstable across repetitions."
+    },
+    "stratum_2_stable_in_both_repetitions": {
+      "n": 21,
+      "codes": [
+        "T01_focused_attention",
+        "T01_mind_wandering_awareness",
+        "T01_non_reactivity",
+        "T02_formal_practice",
+        "T02_informal_practice",
+        "T03_importance_of_consistency",
+        "T04_core_components",
+        "T04_flexibility",
+        "T04_gradual_progression",
+        "T05_difficulties",
+        "T05_misconceptions",
+        "T06_duration",
+        "T06_frequency",
+        "T06_metaphors_and_analogy",
+        "T06_psychoeducation",
+        "T06_separate_tracks",
+        "T07_contingency_management",
+        "T07_psychoeducation",
+        "T08_focus_on_non_clinical_populations",
+        "T08_screening",
+        "T10_control_group_design"
+      ],
+      "note": "THE COVERAGE DENOMINATOR. Only these are used for coverage arithmetic."
+    },
+    "stratum_3_unstable_between_repetitions": {
+      "n": 2,
+      "codes": [
+        "T05_visualization_as_a_control",
+        "T07_self_reflection"
+      ],
+      "labels": {
+        "T05_visualization_as_a_control": "Visualization as a Control",
+        "T07_self_reflection": "Self-Reflection"
+      },
+      "note": "Present in one repetition only. Held UNRESOLVED, never counted as present."
+    },
+    "stratum_4_excluded_no_participant_speech": {
+      "n": 3,
+      "codes": [
+        "T09_informed_consent",
+        "T09_participant_safety",
+        "T10_multi_site_approach"
+      ],
+      "labels": {
+        "T09_informed_consent": "Informed Consent",
+        "T09_participant_safety": "Participant Safety",
+        "T10_multi_site_approach": "Multi-Site Approach"
+      },
+      "note": "UNVERIFIED_SUMMARY_CLAIM. No literal participant quote passed the gates."
+    },
+    "denominator_rule": "The coverage denominator is stratum 2 (n=21), NOT stratum 1 (n=23). A code that appeared in only one of two repetitions is not a stable human reference point and cannot sit in the denominator."
+  },
+  "coverage": {
+    "denominator": 21,
+    "denominator_stratum": "stratum 2 — codes stable across both repetitions",
+    "primary_evaluator_shared_codes": [
+      "T03_importance_of_consistency"
+    ],
+    "primary_evaluator_coverage": 0.0476
+  },
+  "AI_AUDITED_ASSIGNMENT_SENSITIVITY_ENVELOPE": {
+    "name": "AI_AUDITED_ASSIGNMENT_SENSITIVITY_ENVELOPE",
+    "is_not": [
+      "a confidence interval",
+      "a reliability band",
+      "a range within which a true recall lies",
+      "an estimate of thematic fidelity"
+    ],
+    "denominator": 21,
+    "denominator_stratum": "stratum 2 — codes stable across both repetitions",
+    "lower_bound": {
+      "value": 0.0476,
+      "codes": [
+        "T03_importance_of_consistency"
+      ],
+      "derivation": "primary evaluator (Gemini) only; codes present in both repetitions on both sides"
+    },
+    "upper_bound": {
+      "value": 0.4286,
+      "codes": [
+        "T01_mind_wandering_awareness",
+        "T02_formal_practice",
+        "T02_informal_practice",
+        "T03_importance_of_consistency",
+        "T04_flexibility",
+        "T04_gradual_progression",
+        "T05_difficulties",
+        "T06_frequency",
+        "T10_control_group_design"
+      ],
+      "derivation": "arithmetic consequence of accepting SIMULTANEOUSLY, and without any human adjudication: (a) all 7 Claude-vs-Gemini semantic disagreements, and (b) the 1 additional code that was unstable across the synthetic repetitions. No evidence establishes that any of these assignments is correct.",
+      "components": {
+        "primary_shared": [
+          "T03_importance_of_consistency"
+        ],
+        "cross_model_semantic_disagreements": [
+          "T01_mind_wandering_awareness",
+          "T02_formal_practice",
+          "T02_informal_practice",
+          "T04_flexibility",
+          "T04_gradual_progression",
+          "T05_difficulties",
+          "T06_frequency"
+        ],
+        "unstable_synthetic_code": [
+          "T10_control_group_design"
+        ]
+      }
+    },
+    "interpretation_rule": "Quote the two ends as what they are: what the primary evaluator found, and what would follow if every contested assignment were granted. The distance between them measures assignment sensitivity, not uncertainty about a fixed quantity."
+  },
+  "cross_model_semantic_disagreements": {
+    "T01_mind_wandering_awareness": {
+      "code_label": "Mind Wandering Awareness",
+      "primary_evaluator_gemini": "absent",
+      "cross_model_auditor_claude": "asserted present",
+      "gates_passed": [
+        "quote_literality",
+        "turn_id_exists",
+        "speaker_is_participant"
+      ],
+      "gates_NOT_passed": [
+        "correspondence_with_the_operational_definition"
+      ],
+      "status": "CROSS_MODEL_SEMANTIC_DISAGREEMENT",
+      "resolution": "AWAITING_HUMAN_ADJUDICATION",
+      "counted_as_present": false
+    },
+    "T02_formal_practice": {
+      "code_label": "Formal Practice",
+      "primary_evaluator_gemini": "absent",
+      "cross_model_auditor_claude": "asserted present",
+      "gates_passed": [
+        "quote_literality",
+        "turn_id_exists",
+        "speaker_is_participant"
+      ],
+      "gates_NOT_passed": [
+        "correspondence_with_the_operational_definition"
+      ],
+      "status": "CROSS_MODEL_SEMANTIC_DISAGREEMENT",
+      "resolution": "AWAITING_HUMAN_ADJUDICATION",
+      "counted_as_present": false
+    },
+    "T02_informal_practice": {
+      "code_label": "Informal Practice",
+      "primary_evaluator_gemini": "absent",
+      "cross_model_auditor_claude": "asserted present",
+      "gates_passed": [
+        "quote_literality",
+        "turn_id_exists",
+        "speaker_is_participant"
+      ],
+      "gates_NOT_passed": [
+        "correspondence_with_the_operational_definition"
+      ],
+      "status": "CROSS_MODEL_SEMANTIC_DISAGREEMENT",
+      "resolution": "AWAITING_HUMAN_ADJUDICATION",
+      "counted_as_present": false
+    },
+    "T04_flexibility": {
+      "code_label": "Flexibility",
+      "primary_evaluator_gemini": "absent",
+      "cross_model_auditor_claude": "asserted present",
+      "gates_passed": [
+        "quote_literality",
+        "turn_id_exists",
+        "speaker_is_participant"
+      ],
+      "gates_NOT_passed": [
+        "correspondence_with_the_operational_definition"
+      ],
+      "status": "CROSS_MODEL_SEMANTIC_DISAGREEMENT",
+      "resolution": "AWAITING_HUMAN_ADJUDICATION",
+      "counted_as_present": false
+    },
+    "T04_gradual_progression": {
+      "code_label": "Gradual Progression",
+      "primary_evaluator_gemini": "absent",
+      "cross_model_auditor_claude": "asserted present",
+      "gates_passed": [
+        "quote_literality",
+        "turn_id_exists",
+        "speaker_is_participant"
+      ],
+      "gates_NOT_passed": [
+        "correspondence_with_the_operational_definition"
+      ],
+      "status": "CROSS_MODEL_SEMANTIC_DISAGREEMENT",
+      "resolution": "AWAITING_HUMAN_ADJUDICATION",
+      "counted_as_present": false
+    },
+    "T05_difficulties": {
+      "code_label": "Difficulties",
+      "primary_evaluator_gemini": "absent",
+      "cross_model_auditor_claude": "asserted present",
+      "gates_passed": [
+        "quote_literality",
+        "turn_id_exists",
+        "speaker_is_participant"
+      ],
+      "gates_NOT_passed": [
+        "correspondence_with_the_operational_definition"
+      ],
+      "status": "CROSS_MODEL_SEMANTIC_DISAGREEMENT",
+      "resolution": "AWAITING_HUMAN_ADJUDICATION",
+      "counted_as_present": false
+    },
+    "T06_frequency": {
+      "code_label": "Frequency",
+      "primary_evaluator_gemini": "absent",
+      "cross_model_auditor_claude": "asserted present",
+      "gates_passed": [
+        "quote_literality",
+        "turn_id_exists",
+        "speaker_is_participant"
+      ],
+      "gates_NOT_passed": [
+        "correspondence_with_the_operational_definition"
+      ],
+      "status": "CROSS_MODEL_SEMANTIC_DISAGREEMENT",
+      "resolution": "AWAITING_HUMAN_ADJUDICATION",
+      "counted_as_present": false
+    }
+  },
+  "gate_scope": {
+    "what_the_gates_verify": [
+      "the quote is an exact substring of the cited turn",
+      "the cited turn exists",
+      "the cited turn belongs to a participant, not the moderator"
+    ],
+    "what_the_gates_DO_NOT_verify": [
+      "that the quoted passage satisfies the code's operational definition"
+    ],
+    "consequence": "A literal, gate-passing quote is NOT automatic semantic validation. No gate-passing Claude quote is converted into a presence."
+  },
+  "participant_reach_and_salience": {
+    "status": "COMPUTABLE_FROM_STABLE_ANONYMOUS_LABELS",
+    "supersedes": "The earlier verdict NOT_RECOVERABLE_FROM_ANONYMISED_SPEAKER_LABELS was wrong. It conflated mapping a label to a real identity — which remains impossible and is not attempted — with counting distinct speakers, which the stable labels support.",
+    "human": {
+      "participant_denominator": 5,
+      "denominator_note": "5 identified participants (Speaker 2..Speaker 6). The single 'Unknown Speaker' turn is unattributed and excluded; no verified quote originates from it.",
+      "codes_scored": 21,
+      "mean_reach": 0.4286,
+      "salience_tiers": {
+        "rank_1": 1,
+        "rank_2": 7,
+        "rank_3": 7,
+        "rank_4": 6
+      },
+      "top_codes_by_reach": [
+        {
+          "code_id": "T02_formal_practice",
+          "label": "Formal Practice",
+          "reach": 0.8,
+          "distinct_speakers": 4
+        },
+        {
+          "code_id": "T01_non_reactivity",
+          "label": "Non-reactivity",
+          "reach": 0.6,
+          "distinct_speakers": 3
+        },
+        {
+          "code_id": "T02_informal_practice",
+          "label": "Informal Practice",
+          "reach": 0.6,
+          "distinct_speakers": 3
+        },
+        {
+          "code_id": "T04_flexibility",
+          "label": "Flexibility",
+          "reach": 0.6,
+          "distinct_speakers": 3
+        },
+        {
+          "code_id": "T06_frequency",
+          "label": "Frequency",
+          "reach": 0.6,
+          "distinct_speakers": 3
+        }
+      ],
+      "per_code": {
+        "T01_focused_attention": {
+          "code_label": "Focused Attention",
+          "parent_theme_id": "T01",
+          "distinct_speakers": 1,
+          "speaker_labels": [
+            "Participant 1"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.2,
+          "salience_rank": 4
+        },
+        "T01_mind_wandering_awareness": {
+          "code_label": "Mind Wandering Awareness",
+          "parent_theme_id": "T01",
+          "distinct_speakers": 1,
+          "speaker_labels": [
+            "Participant 1"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.2,
+          "salience_rank": 4
+        },
+        "T01_non_reactivity": {
+          "code_label": "Non-reactivity",
+          "parent_theme_id": "T01",
+          "distinct_speakers": 3,
+          "speaker_labels": [
+            "Participant 1",
+            "Participant 4",
+            "Participant 5"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.6,
+          "salience_rank": 2
+        },
+        "T02_formal_practice": {
+          "code_label": "Formal Practice",
+          "parent_theme_id": "T02",
+          "distinct_speakers": 4,
+          "speaker_labels": [
+            "Participant 1",
+            "Participant 2",
+            "Participant 3",
+            "Participant 4"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.8,
+          "salience_rank": 1
+        },
+        "T02_informal_practice": {
+          "code_label": "Informal Practice",
+          "parent_theme_id": "T02",
+          "distinct_speakers": 3,
+          "speaker_labels": [
+            "Participant 1",
+            "Participant 3",
+            "Participant 4"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.6,
+          "salience_rank": 2
+        },
+        "T03_importance_of_consistency": {
+          "code_label": "Importance of Consistency",
+          "parent_theme_id": "T03",
+          "distinct_speakers": 2,
+          "speaker_labels": [
+            "Participant 3",
+            "Participant 4"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.4,
+          "salience_rank": 3
+        },
+        "T04_core_components": {
+          "code_label": "Core Components",
+          "parent_theme_id": "T04",
+          "distinct_speakers": 2,
+          "speaker_labels": [
+            "Participant 3",
+            "Participant 4"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.4,
+          "salience_rank": 3
+        },
+        "T04_flexibility": {
+          "code_label": "Flexibility",
+          "parent_theme_id": "T04",
+          "distinct_speakers": 3,
+          "speaker_labels": [
+            "Participant 1",
+            "Participant 3",
+            "Participant 4"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.6,
+          "salience_rank": 2
+        },
+        "T04_gradual_progression": {
+          "code_label": "Gradual Progression",
+          "parent_theme_id": "T04",
+          "distinct_speakers": 2,
+          "speaker_labels": [
+            "Participant 3",
+            "Participant 5"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.4,
+          "salience_rank": 3
+        },
+        "T05_difficulties": {
+          "code_label": "Difficulties",
+          "parent_theme_id": "T05",
+          "distinct_speakers": 1,
+          "speaker_labels": [
+            "Participant 1"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.2,
+          "salience_rank": 4
+        },
+        "T05_misconceptions": {
+          "code_label": "Misconceptions",
+          "parent_theme_id": "T05",
+          "distinct_speakers": 1,
+          "speaker_labels": [
+            "Participant 3"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.2,
+          "salience_rank": 4
+        },
+        "T06_frequency": {
+          "code_label": "Frequency",
+          "parent_theme_id": "T06",
+          "distinct_speakers": 3,
+          "speaker_labels": [
+            "Participant 1",
+            "Participant 3",
+            "Participant 4"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.6,
+          "salience_rank": 2
+        },
+        "T06_duration": {
+          "code_label": "Duration",
+          "parent_theme_id": "T06",
+          "distinct_speakers": 2,
+          "speaker_labels": [
+            "Participant 2",
+            "Participant 4"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.4,
+          "salience_rank": 3
+        },
+        "T06_psychoeducation": {
+          "code_label": "Psychoeducation",
+          "parent_theme_id": "T06",
+          "distinct_speakers": 3,
+          "speaker_labels": [
+            "Participant 1",
+            "Participant 2",
+            "Participant 5"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.6,
+          "salience_rank": 2
+        },
+        "T06_separate_tracks": {
+          "code_label": "Separate Tracks",
+          "parent_theme_id": "T06",
+          "distinct_speakers": 3,
+          "speaker_labels": [
+            "Participant 1",
+            "Participant 4",
+            "Participant 5"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.6,
+          "salience_rank": 2
+        },
+        "T06_metaphors_and_analogy": {
+          "code_label": "Metaphors and Analogy",
+          "parent_theme_id": "T06",
+          "distinct_speakers": 2,
+          "speaker_labels": [
+            "Participant 1",
+            "Participant 5"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.4,
+          "salience_rank": 3
+        },
+        "T07_contingency_management": {
+          "code_label": "Contingency Management",
+          "parent_theme_id": "T07",
+          "distinct_speakers": 1,
+          "speaker_labels": [
+            "Participant 4"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.2,
+          "salience_rank": 4
+        },
+        "T07_psychoeducation": {
+          "code_label": "Psychoeducation",
+          "parent_theme_id": "T07",
+          "distinct_speakers": 1,
+          "speaker_labels": [
+            "Participant 1"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.2,
+          "salience_rank": 4
+        },
+        "T08_screening": {
+          "code_label": "Screening",
+          "parent_theme_id": "T08",
+          "distinct_speakers": 2,
+          "speaker_labels": [
+            "Participant 2",
+            "Participant 4"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.4,
+          "salience_rank": 3
+        },
+        "T08_focus_on_non_clinical_populations": {
+          "code_label": "Focus on Non-Clinical Populations",
+          "parent_theme_id": "T08",
+          "distinct_speakers": 2,
+          "speaker_labels": [
+            "Participant 2",
+            "Participant 4"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.4,
+          "salience_rank": 3
+        },
+        "T10_control_group_design": {
+          "code_label": "Control Group Design",
+          "parent_theme_id": "T10",
+          "distinct_speakers": 3,
+          "speaker_labels": [
+            "Participant 1",
+            "Participant 3",
+            "Participant 4"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.6,
+          "salience_rank": 2
+        }
+      }
+    },
+    "synthetic": {
+      "participant_denominator": 5,
+      "codes_scored": 1,
+      "per_code": {
+        "T03_importance_of_consistency": {
+          "code_label": "Importance of Consistency",
+          "distinct_speakers": 1,
+          "speaker_labels": [
+            "Participant 1"
+          ],
+          "participant_denominator": 5,
+          "reach": 0.2
+        }
+      },
+      "caveat": "Scored over the single code Gemini placed present in both repetitions, so this side rests on almost no observations."
+    },
+    "comparison_status": "EXPLORATORY_ONLY",
+    "comparison_caveat": "Human and synthetic reach are NOT matched participant-to-participant and no test is run between them. The synthetic side has too few scored codes for the comparison to carry weight; it is shown for completeness, not as a result."
+  },
+  "closed_frame_limits": {
+    "PRECISION_NOT_IDENTIFIABLE_UNDER_CLOSED_FRAME": "The instrument is a closed human-derived frame: the coder is asked only whether each of 26 predefined codes is present. A synthetic passage matching no code is never surfaced, so the synthetic present-set is bounded by the frame and cannot serve as a precision denominator. The earlier precision of 1.0 was an artefact of that closure and is withdrawn.",
+    "F1_NOT_IDENTIFIABLE": "F1 requires an identifiable precision. It is not computed and no value should be quoted.",
+    "SYNTHETIC_NOVELTY_NOT_ASSESSED": "The earlier statement that there were no synthetic themes without a human counterpart is withdrawn. The instrument cannot detect a synthetic theme outside the frame, so an empty list is a property of the design, not a finding. Assessing novelty would require an open inductive pass, which was not run."
+  },
+  "privacy": {
+    "record_type": "PRIVACY_FINDING_IDENTIFIED_NOT_MODIFIED",
+    "action_taken": "NONE — files are unmodified and no correction is applied without authorisation",
+    "n_files_affected": 2,
+    "findings": [
+      {
+        "file": "agents/mindfulness/mf_p2.json",
+        "field": "opening_intro.text",
+        "provenance_of_field": "observed_external_profile",
+        "anonymisation_note_present": true,
+        "anonymisation_note": "Real name withheld — participant identifiable from their certificate and public LinkedIn profile.",
+        "identifiers_found": [
+          {
+            "kind": "personal_full_name",
+            "value": "Joanne King",
+            "confidence": "high",
+            "why": "a capitalised bigram immediately predicated as a person"
+          }
+        ]
+      },
+      {
+        "file": "agents/mindfulness/mf_p3.json",
+        "field": "opening_intro.text",
+        "provenance_of_field": "observed_external_profile",
+        "anonymisation_note_present": true,
+        "anonymisation_note": "Real name withheld — participant identifiable from their certificate and public LinkedIn profile.",
+        "identifiers_found": [
+          {
+            "kind": "self_introduced_first_name",
+            "value": "Erin",
+            "confidence": "high",
+            "why": "the payload text introduces this as the speaker's own name"
+          }
+        ]
+      }
+    ],
+    "contradiction": "Each affected payload carries an anonymisation_note asserting that the real name was withheld because the participant is identifiable from their certificate and public profile. The opening_intro.text field contradicts that note.",
+    "downstream_exposure": "opening_intro.text is rendered into the participant system prompt and was therefore transmitted to the generation model during mindfulness_fg1_run01.",
+    "recommended_correction_scope": "Replace the personal name inside opening_intro.text only, leaving every other field and the professional description intact; then re-run the contamination audit. This requires researcher authorisation and is NOT done here."
+  }
+}

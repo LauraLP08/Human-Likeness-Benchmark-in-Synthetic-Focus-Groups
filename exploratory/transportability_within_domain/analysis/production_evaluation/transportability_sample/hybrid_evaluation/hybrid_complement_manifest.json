@@ -1,0 +1,469 @@
+{
+ "frozen_utc": "2026-08-02T20:56:29.383890+00:00",
+ "classification": "EXPLORATORY_OUT_OF_Q3_TRANSPORTABILITY_CHECK",
+ "purpose": "audit the 32 within-unit pairs the similarity screener excluded, so that the correspondence space is complete at 93/93 and no human theme is called unrecovered on the strength of an unjudged pair",
+ "why_this_was_necessary": "coverage of both SIDES (every human theme and every machine theme appearing in at least one pair) was mistaken for coverage of all possible correspondences. It is not the same property. The screener proposes; only the adjudicator decides; 32 pairs were never put to the adjudicator.",
+ "no_similarity_exclusion": "similarity is recorded for the record only and excludes nothing here. All 32 remaining pairs are audited regardless of score.",
+ "arithmetic": {
+  "n_human_themes": 18,
+  "n_machine_themes": 30,
+  "n_cartesian_within_unit": 93,
+  "n_historical_audited": 61,
+  "n_complement": 32,
+  "reconstitutes_cartesian": true,
+  "duplicates": 0,
+  "per_unit": {
+   "S01": {
+    "n_human": 4,
+    "n_machine": 4,
+    "n_pairs": 16
+   },
+   "S02": {
+    "n_human": 3,
+    "n_machine": 7,
+    "n_pairs": 21
+   },
+   "S03": {
+    "n_human": 2,
+    "n_machine": 4,
+    "n_pairs": 8
+   },
+   "S04": {
+    "n_human": 1,
+    "n_machine": 4,
+    "n_pairs": 4
+   },
+   "S05": {
+    "n_human": 4,
+    "n_machine": 5,
+    "n_pairs": 20
+   },
+   "S06": {
+    "n_human": 4,
+    "n_machine": 6,
+    "n_pairs": 24
+   }
+  }
+ },
+ "historical_pairs_read_only": {
+  "n": 61,
+  "source_round": "ORIGINAL_SCREENED_61",
+  "policy": "never re-run, never overwritten, never re-interpreted",
+  "sha256_of_sorted_pair_keys": "4122a36fbd5349da2f6541bdfda33f4e834723b04cc70cbdfbd2a83430a0ea29",
+  "claude_round1_results_sha256": "26c14a7f2b5032d37a2939374b7425f4424518d2b7807744d34b9dacc1b737f5",
+  "claude_round2_results_sha256": "14019c6ba416e80b68accdc7a9fc89352bf913cc1ea8501915e6e30fb45440ee"
+ },
+ "audit_configuration": {
+  "model": "claude-opus-5",
+  "execution_mode": "batch",
+  "effort": "high",
+  "max_output_tokens": 8192,
+  "task": "A_PAIRWISE_CORRESPONDENCE",
+  "structured_output": true,
+  "repetitions_per_pair": 2,
+  "n_requests_expected": 64,
+  "prompt_sha256": "287b242f82bfcfc84a7b233f92ae5d4cb54ad1cb942a08474e02abf3f4916222",
+  "schema_sha256": "94a2b1a78ae97e158714654848ee2a2d04a6229257d3d870f540d296f49bc4b0",
+  "categories": [
+   "SAME_SUBSTANTIVE_THEME",
+   "PARTIAL_OVERLAP_REFERENCE_MORE_SPECIFIC",
+   "PARTIAL_OVERLAP_CANDIDATE_MORE_SPECIFIC",
+   "RELATED_BUT_DISTINCT",
+   "NO_CORRESPONDENCE",
+   "UNCERTAIN"
+  ],
+  "accepted_as_correspondence": [
+   "SAME_SUBSTANTIVE_THEME",
+   "PARTIAL_OVERLAP_REFERENCE_MORE_SPECIFIC",
+   "PARTIAL_OVERLAP_CANDIDATE_MORE_SPECIFIC"
+  ],
+  "rejected_as_correspondence": [
+   "RELATED_BUT_DISTINCT",
+   "NO_CORRESPONDENCE"
+  ],
+  "blinding": "identical REFERENCE/CANDIDATE rendering; the auditor is shown no prior result, no metric, no classification, no Q3, no experimental condition, and no human/model provenance",
+  "order_policy": "block and evidence order reversed in repetition 1",
+  "cache_key": "sha256 over classification | task | pair case_id | repetition_index | rendered text sha | prompt sha | schema sha | model | effort | mode"
+ },
+ "retry_policy": {
+  "id": "COMPLEMENT_RETRY_POLICY_V1",
+  "frozen_before_submission": true,
+  "not_part_of_original_protocol": true,
+  "max_technical_retries_per_request": 1,
+  "retry_allowed_only_when": "the request produced NO usable substantive response: an API-level error, an absent result, invalid JSON, or output truncated at max_tokens",
+  "never_retry": [
+   "a disagreement between the two repetitions",
+   "LOW confidence",
+   "an invalid or non-literal quotation",
+   "a category the analyst finds unfavourable",
+   "any result that is substantively usable but inconvenient"
+  ],
+  "on_retry_failure": "the pair remains HYBRID_UNRESOLVED",
+  "no_retry_until_agreement": "retrying until the repetitions agree would manufacture agreement; the retry is permitted only to recover from transport failure, never to resample a judgement",
+  "reporting": "every attempt and its reason is recorded in claude_complement_results.json"
+ },
+ "integration_rule": {
+  "id": "COMPLEMENT_INTEGRATION_V1",
+  "universe": "exactly 93 within-unit pairs = 61 ORIGINAL_SCREENED_61 + 32 COMPLEMENT_32",
+  "historical_decisions": "never overwritten, never re-interpreted, never re-run",
+  "gates": "identical to the original: two repetitions, agreeing, non-LOW, literal evidence",
+  "confirmed_not_recovered": "a human theme may be called confirmed-not-recovered only when EVERY machine theme in its unit has been adjudicated against it and every one of those pairs is a confirmed non-correspondence",
+  "unresolved_is_not_absence": "a human theme with no confirmed match but >=1 unresolved pair sits inside the recall band, never below it"
+ },
+ "problems": [],
+ "pass": true,
+ "pairs": [
+  {
+   "pair_key": "S01::S01_slot_01||S01::M3",
+   "case_id": "P::S01::S01_slot_01::S01::M3",
+   "blind_unit_id": "S01",
+   "question_id": "Q1",
+   "human_key": "S01::S01_slot_01",
+   "machine_key": "S01::M3",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0305,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S01::S01_slot_02||S01::M1",
+   "case_id": "P::S01::S01_slot_02::S01::M1",
+   "blind_unit_id": "S01",
+   "question_id": "Q1",
+   "human_key": "S01::S01_slot_02",
+   "machine_key": "S01::M1",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0405,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S01::S01_slot_02||S01::M2",
+   "case_id": "P::S01::S01_slot_02::S01::M2",
+   "blind_unit_id": "S01",
+   "question_id": "Q1",
+   "human_key": "S01::S01_slot_02",
+   "machine_key": "S01::M2",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0222,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S01::S01_slot_04||S01::M2",
+   "case_id": "P::S01::S01_slot_04::S01::M2",
+   "blind_unit_id": "S01",
+   "question_id": "Q1",
+   "human_key": "S01::S01_slot_04",
+   "machine_key": "S01::M2",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.038,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S01::S01_slot_04||S01::M4",
+   "case_id": "P::S01::S01_slot_04::S01::M4",
+   "blind_unit_id": "S01",
+   "question_id": "Q1",
+   "human_key": "S01::S01_slot_04",
+   "machine_key": "S01::M4",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0383,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S02::S02_slot_01||S02::M2",
+   "case_id": "P::S02::S02_slot_01::S02::M2",
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "human_key": "S02::S02_slot_01",
+   "machine_key": "S02::M2",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0988,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S02::S02_slot_02||S02::M4",
+   "case_id": "P::S02::S02_slot_02::S02::M4",
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "human_key": "S02::S02_slot_02",
+   "machine_key": "S02::M4",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0426,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S02::S02_slot_02||S02::M6",
+   "case_id": "P::S02::S02_slot_02::S02::M6",
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "human_key": "S02::S02_slot_02",
+   "machine_key": "S02::M6",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0208,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S02::S02_slot_03||S02::M1",
+   "case_id": "P::S02::S02_slot_03::S02::M1",
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "human_key": "S02::S02_slot_03",
+   "machine_key": "S02::M1",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0446,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S02::S02_slot_03||S02::M3",
+   "case_id": "P::S02::S02_slot_03::S02::M3",
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "human_key": "S02::S02_slot_03",
+   "machine_key": "S02::M3",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0513,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S02::S02_slot_03||S02::M5",
+   "case_id": "P::S02::S02_slot_03::S02::M5",
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "human_key": "S02::S02_slot_03",
+   "machine_key": "S02::M5",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0468,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S02::S02_slot_03||S02::M7",
+   "case_id": "P::S02::S02_slot_03::S02::M7",
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "human_key": "S02::S02_slot_03",
+   "machine_key": "S02::M7",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0369,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S05::S05_slot_01||S05::M3",
+   "case_id": "P::S05::S05_slot_01::S05::M3",
+   "blind_unit_id": "S05",
+   "question_id": "Q2",
+   "human_key": "S05::S05_slot_01",
+   "machine_key": "S05::M3",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0676,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S05::S05_slot_01||S05::M4",
+   "case_id": "P::S05::S05_slot_01::S05::M4",
+   "blind_unit_id": "S05",
+   "question_id": "Q2",
+   "human_key": "S05::S05_slot_01",
+   "machine_key": "S05::M4",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.036,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S05::S05_slot_01||S05::M5",
+   "case_id": "P::S05::S05_slot_01::S05::M5",
+   "blind_unit_id": "S05",
+   "question_id": "Q2",
+   "human_key": "S05::S05_slot_01",
+   "machine_key": "S05::M5",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0656,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S05::S05_slot_02||S05::M1",
+   "case_id": "P::S05::S05_slot_02::S05::M1",
+   "blind_unit_id": "S05",
+   "question_id": "Q2",
+   "human_key": "S05::S05_slot_02",
+   "machine_key": "S05::M1",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.1116,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S05::S05_slot_02||S05::M4",
+   "case_id": "P::S05::S05_slot_02::S05::M4",
+   "blind_unit_id": "S05",
+   "question_id": "Q2",
+   "human_key": "S05::S05_slot_02",
+   "machine_key": "S05::M4",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0588,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S05::S05_slot_03||S05::M1",
+   "case_id": "P::S05::S05_slot_03::S05::M1",
+   "blind_unit_id": "S05",
+   "question_id": "Q2",
+   "human_key": "S05::S05_slot_03",
+   "machine_key": "S05::M1",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0691,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S05::S05_slot_03||S05::M5",
+   "case_id": "P::S05::S05_slot_03::S05::M5",
+   "blind_unit_id": "S05",
+   "question_id": "Q2",
+   "human_key": "S05::S05_slot_03",
+   "machine_key": "S05::M5",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0467,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S05::S05_slot_04||S05::M2",
+   "case_id": "P::S05::S05_slot_04::S05::M2",
+   "blind_unit_id": "S05",
+   "question_id": "Q2",
+   "human_key": "S05::S05_slot_04",
+   "machine_key": "S05::M2",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0999,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S05::S05_slot_04||S05::M3",
+   "case_id": "P::S05::S05_slot_04::S05::M3",
+   "blind_unit_id": "S05",
+   "question_id": "Q2",
+   "human_key": "S05::S05_slot_04",
+   "machine_key": "S05::M3",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.1087,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S06::S06_slot_01||S06::M3",
+   "case_id": "P::S06::S06_slot_01::S06::M3",
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "human_key": "S06::S06_slot_01",
+   "machine_key": "S06::M3",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.1182,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S06::S06_slot_01||S06::M4",
+   "case_id": "P::S06::S06_slot_01::S06::M4",
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "human_key": "S06::S06_slot_01",
+   "machine_key": "S06::M4",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.1322,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S06::S06_slot_01||S06::M5",
+   "case_id": "P::S06::S06_slot_01::S06::M5",
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "human_key": "S06::S06_slot_01",
+   "machine_key": "S06::M5",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.1309,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S06::S06_slot_02||S06::M2",
+   "case_id": "P::S06::S06_slot_02::S06::M2",
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "human_key": "S06::S06_slot_02",
+   "machine_key": "S06::M2",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.1013,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S06::S06_slot_02||S06::M4",
+   "case_id": "P::S06::S06_slot_02::S06::M4",
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "human_key": "S06::S06_slot_02",
+   "machine_key": "S06::M4",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.1164,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S06::S06_slot_02||S06::M5",
+   "case_id": "P::S06::S06_slot_02::S06::M5",
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "human_key": "S06::S06_slot_02",
+   "machine_key": "S06::M5",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.1217,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S06::S06_slot_02||S06::M6",
+   "case_id": "P::S06::S06_slot_02::S06::M6",
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "human_key": "S06::S06_slot_02",
+   "machine_key": "S06::M6",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.1255,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S06::S06_slot_03||S06::M2",
+   "case_id": "P::S06::S06_slot_03::S06::M2",
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "human_key": "S06::S06_slot_03",
+   "machine_key": "S06::M2",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.1233,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S06::S06_slot_03||S06::M6",
+   "case_id": "P::S06::S06_slot_03::S06::M6",
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "human_key": "S06::S06_slot_03",
+   "machine_key": "S06::M6",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.1306,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S06::S06_slot_04||S06::M1",
+   "case_id": "P::S06::S06_slot_04::S06::M1",
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "human_key": "S06::S06_slot_04",
+   "machine_key": "S06::M1",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.1306,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  },
+  {
+   "pair_key": "S06::S06_slot_04||S06::M3",
+   "case_id": "P::S06::S06_slot_04::S06::M3",
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "human_key": "S06::S06_slot_04",
+   "machine_key": "S06::M3",
+   "source_round": "COMPLEMENT_32",
+   "screener_similarity_FOR_RECORD_ONLY": 0.0962,
+   "excluded_originally_because": "not top-K for either side and below the similarity floor"
+  }
+ ]
+}

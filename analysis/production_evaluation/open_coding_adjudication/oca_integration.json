@@ -1,0 +1,4349 @@
+{
+ "built_utc": "2026-08-03T09:48:50.286709+00:00",
+ "classification": "POST_RESULT_HUMAN_ADJUDICATED_SENSITIVITY",
+ "primary_analysis": "ORIGINAL_GEMINI",
+ "evaluator_cache_modified": false,
+ "gemini_results_csv_modified": false,
+ "workbook_or_drafts_modified": false,
+ "import": {
+  "form_item_id": "OCA-001",
+  "verdict": "DOES_NOT_SUPPORT_A1",
+  "alternative_subtheme": "A.3",
+  "reasoning": "I think it’s more accurate to say that this is a subtopic of A.3, since at first it’s unclear how gender influences eating contexts (it’s touched on briefly but not in detail), but later the conversation shifts to topics that are highly dependent on gender and traditional roles. However, the participants don’t directly point out the link to gender; rather, they discuss how they are more removed from day-to-day food-related decisions.",
+  "reviewer": "LCLP",
+  "date_utc": "2026-08-03T00:00:00",
+  "workbook_sha256": "67ca18116b39a4af0976d17250a4efddf815928e2575047cbe3b770f4ef902d2",
+  "workbook_bytes": 13102,
+  "imported_utc": "2026-08-03T09:48:50.268269+00:00",
+  "import_mode": "READ_ONLY",
+  "workbook_modified_by_import": false,
+  "provenance_attached_at_import": false,
+  "problems": [],
+  "pass": true
+ },
+ "integrity": {
+  "n_elements_checked": 10,
+  "problems": [],
+  "pass": true,
+  "immutable_and_blinded_material_matches_sealed_source": true,
+  "sealed_file": "analysis\\production_evaluation\\gold_standard_sealed\\open_coding_item_mapping.json",
+  "sealed_utc": "2026-07-31T09:30:50.496283+00:00"
+ },
+ "mapping": {
+  "form_item_id": "OCA-001",
+  "internal_id": "FG4-DEMO-R01-A1",
+  "physical_run": "macho_meals_fg4_demoonly_run01",
+  "fg": "fg4",
+  "condition": "demographics-only",
+  "side": "synthetic",
+  "subtheme_under_review": "A.1",
+  "boundary_subtheme_shown": "A.3",
+  "turns_shown": [
+   "T020",
+   "T021",
+   "T022",
+   "T023",
+   "T026",
+   "T027"
+  ],
+  "turns_cited": [
+   "T021",
+   "T023",
+   "T027"
+  ],
+  "mapping_applied_after_import": true
+ },
+ "f1_rule": {
+  "undefined_only_when": "recall or precision is undefined",
+  "both_measured_and_zero": 0.0,
+  "rationale": "a complete mismatch between two non-empty code sets is a MEASURED zero, not missingness",
+  "corrected_defect": "an earlier implementation returned undefined whenever recall + precision == 0, contradicting this rule and the frozen source table"
+ },
+ "original_matches_frozen_source": {
+  "n_values_checked": 90,
+  "mismatches": [],
+  "pass": true,
+  "source": "results/per_run_metrics.csv"
+ },
+ "verdict_distinction": {
+  "explicit_human_verdict": {
+   "subtheme": "A.1",
+   "verdict": "DOES_NOT_SUPPORT_A1",
+   "effect": "A.1 set present=False",
+   "warrant": "the form asked exactly this question"
+  },
+  "reviewer_proposed_alternative": {
+   "subtheme": "A.3",
+   "effect": "present=True ONLY in the third variant",
+   "warrant": "NONE from the form — the form did not ask whether A.3 should be set present=true, so the proposal is not an adjudication of presence and is never promoted automatically",
+   "reach_is_inferred": true,
+   "reach_basis": "the three cited turns, one per participant, 3 of 3"
+  }
+ },
+ "variants": {
+  "ORIGINAL_GEMINI": {
+   "notes": [
+    "no change"
+   ],
+   "per_run": [
+    {
+     "condition": "demographics-only",
+     "fg": "fg1",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 2,
+     "human_present_n": 8,
+     "recall": 0.25,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.4,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 0.2
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg1",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 4,
+     "human_present_n": 8,
+     "recall": 0.5,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6667,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 0.4,
+      "B.4": 0.2,
+      "C.3": 0.4
+     },
+     "mean_reach": 0.45
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg1",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 2,
+     "human_present_n": 8,
+     "recall": 0.25,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.4,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 0.6
+     },
+     "mean_reach": 0.7
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg2",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 5,
+     "human_present_n": 7,
+     "recall": 0.5714,
+     "recall_undefined_reason": null,
+     "precision": 0.8,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6666,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "A.3": 0.2,
+      "B.2": 0.6,
+      "B.4": 0.2,
+      "C.3": 0.2
+     },
+     "mean_reach": 0.4
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg2",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "B.2"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 2,
+     "human_present_n": 7,
+     "recall": 0.1429,
+     "recall_undefined_reason": null,
+     "precision": 0.5,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.2223,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 0.6
+     },
+     "mean_reach": 0.7
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg2",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 4,
+     "human_present_n": 7,
+     "recall": 0.4286,
+     "recall_undefined_reason": null,
+     "precision": 0.75,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 0.8,
+      "B.4": 0.2,
+      "C.3": 0.2
+     },
+     "mean_reach": 0.5
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg3",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1"
+     ],
+     "shared_set": [
+      "A.1"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 1,
+     "human_present_n": 10,
+     "recall": 0.1,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.1818,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8
+     },
+     "mean_reach": 0.8
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg3",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1"
+     ],
+     "shared_set": [
+      "A.1"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 1,
+     "human_present_n": 10,
+     "recall": 0.1,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.1818,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.6
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg3",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1"
+     ],
+     "shared_set": [
+      "A.1"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 1,
+     "human_present_n": 10,
+     "recall": 0.1,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.1818,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.4
+     },
+     "mean_reach": 0.4
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg4",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1"
+     ],
+     "shared_set": [],
+     "shared_n": 0,
+     "synthetic_present_n": 1,
+     "human_present_n": 6,
+     "recall": 0.0,
+     "recall_undefined_reason": null,
+     "precision": 0.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.0,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0
+     },
+     "mean_reach": 1.0
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg4",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [],
+     "shared_n": 0,
+     "synthetic_present_n": 2,
+     "human_present_n": 6,
+     "recall": 0.0,
+     "recall_undefined_reason": null,
+     "precision": 0.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.0,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0
+     },
+     "mean_reach": 1.0
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg4",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [],
+     "shared_n": 0,
+     "synthetic_present_n": 2,
+     "human_present_n": 6,
+     "recall": 0.0,
+     "recall_undefined_reason": null,
+     "precision": 0.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.0,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0
+     },
+     "mean_reach": 1.0
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg5",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4",
+      "D"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 5,
+     "human_present_n": 5,
+     "recall": 0.6,
+     "recall_undefined_reason": null,
+     "precision": 0.6,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.75,
+      "A.3": 0.25,
+      "B.2": 0.75,
+      "B.4": 0.25,
+      "D": 0.25
+     },
+     "mean_reach": 0.45
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg5",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 5,
+     "recall": 0.6,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.75,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.75,
+      "B.2": 0.75,
+      "B.4": 0.25
+     },
+     "mean_reach": 0.5833
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg5",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 2,
+     "human_present_n": 5,
+     "recall": 0.4,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5714,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.75,
+      "B.2": 0.5
+     },
+     "mean_reach": 0.625
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg1",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 8,
+     "recall": 0.375,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 1.0,
+      "B.4": 1.0
+     },
+     "mean_reach": 0.9333
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg1",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 8,
+     "recall": 0.375,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.4,
+      "B.2": 1.0,
+      "B.4": 0.4
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg1",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 8,
+     "recall": 0.375,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 1.0,
+      "B.4": 1.0
+     },
+     "mean_reach": 0.9333
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg2",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 4,
+     "human_present_n": 7,
+     "recall": 0.2857,
+     "recall_undefined_reason": null,
+     "precision": 0.5,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.3636,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.6,
+      "B.1": 0.6,
+      "B.2": 1.0,
+      "B.4": 0.8
+     },
+     "mean_reach": 0.75
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg2",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.2",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "A.2",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 5,
+     "human_present_n": 7,
+     "recall": 0.5714,
+     "recall_undefined_reason": null,
+     "precision": 0.8,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6666,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "A.2": 0.2,
+      "B.2": 1.0,
+      "B.4": 0.4,
+      "C.3": 0.4
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg2",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "B.2"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 2,
+     "human_present_n": 7,
+     "recall": 0.1429,
+     "recall_undefined_reason": null,
+     "precision": 0.5,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.2223,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 1.0
+     },
+     "mean_reach": 0.9
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg3",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "D"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "D"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 4,
+     "human_present_n": 10,
+     "recall": 0.4,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5714,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 1.0,
+      "B.4": 0.8,
+      "D": 0.4
+     },
+     "mean_reach": 0.75
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg3",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 10,
+     "recall": 0.3,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.4615,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.6,
+      "B.2": 0.8,
+      "B.4": 0.6
+     },
+     "mean_reach": 0.6667
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg3",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 4,
+     "human_present_n": 10,
+     "recall": 0.4,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5714,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "A.3": 0.2,
+      "B.2": 1.0,
+      "B.4": 0.8
+     },
+     "mean_reach": 0.7
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg4",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "B.4"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 3,
+     "human_present_n": 6,
+     "recall": 0.1667,
+     "recall_undefined_reason": null,
+     "precision": 0.3333,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.2222,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0,
+      "B.4": 0.6666666666666666
+     },
+     "mean_reach": 0.8889
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg4",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.2",
+      "B.2",
+      "B.4",
+      "C.1"
+     ],
+     "shared_set": [
+      "A.2",
+      "B.4",
+      "C.1"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 5,
+     "human_present_n": 6,
+     "recall": 0.5,
+     "recall_undefined_reason": null,
+     "precision": 0.6,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.6666666666666666,
+      "A.2": 0.3333333333333333,
+      "B.2": 1.0,
+      "B.4": 0.6666666666666666,
+      "C.1": 0.3333333333333333
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg4",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "B.4"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 3,
+     "human_present_n": 6,
+     "recall": 0.1667,
+     "recall_undefined_reason": null,
+     "precision": 0.3333,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.2222,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0,
+      "B.4": 1.0
+     },
+     "mean_reach": 1.0
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg5",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 4,
+     "human_present_n": 5,
+     "recall": 0.8,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.8889,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0,
+      "B.4": 0.5,
+      "C.3": 0.75
+     },
+     "mean_reach": 0.8125
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg5",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 4,
+     "human_present_n": 5,
+     "recall": 0.6,
+     "recall_undefined_reason": null,
+     "precision": 0.75,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6667,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.5,
+      "A.3": 0.25,
+      "B.2": 1.0,
+      "B.4": 1.0
+     },
+     "mean_reach": 0.6875
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg5",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 2,
+     "human_present_n": 5,
+     "recall": 0.4,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5714,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 0.5
+     },
+     "mean_reach": 0.75
+    }
+   ],
+   "fg_level": [
+    {
+     "condition": "demographics-only",
+     "fg": "fg1",
+     "n_runs": 3,
+     "mean_recall": 0.3333,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 1.0,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.4889,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 2.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg2",
+     "n_runs": 3,
+     "mean_recall": 0.381,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.6833,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.4781,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg3",
+     "n_runs": 3,
+     "mean_recall": 0.1,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 1.0,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.1818,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 1.0,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg4",
+     "n_runs": 3,
+     "mean_recall": 0.0,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.0,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.0,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 1.6667,
+     "zero_overlap_runs": 3,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg5",
+     "n_runs": 3,
+     "mean_recall": 0.5333,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.8667,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.6405,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.3333,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg1",
+     "n_runs": 3,
+     "mean_recall": 0.375,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 1.0,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.5455,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.0,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg2",
+     "n_runs": 3,
+     "mean_recall": 0.3333,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.6,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.4175,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg3",
+     "n_runs": 3,
+     "mean_recall": 0.3667,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 1.0,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.5348,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg4",
+     "n_runs": 3,
+     "mean_recall": 0.2778,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.4222,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.33,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg5",
+     "n_runs": 3,
+     "mean_recall": 0.6,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.9167,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.709,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.3333,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    }
+   ],
+   "condition_level": [
+    {
+     "condition": "demographics-only",
+     "n_focus_groups": 5,
+     "mean_recall_over_fgs": 0.2695,
+     "n_fgs_with_defined_recall": 5,
+     "mean_precision_over_fgs": 0.71,
+     "n_fgs_with_defined_precision": 5,
+     "n_precision_undefined_runs": 0,
+     "mean_f1_secondary_over_fgs": 0.3579,
+     "n_fgs_with_defined_f1": 5,
+     "n_f1_undefined_runs": 0,
+     "unit": "focus group, n = 5; never 15 sessions",
+     "denominator_note": "means are over focus groups with a defined value; undefined RUN counts are reported separately"
+    },
+    {
+     "condition": "enriched",
+     "n_focus_groups": 5,
+     "mean_recall_over_fgs": 0.3906,
+     "n_fgs_with_defined_recall": 5,
+     "mean_precision_over_fgs": 0.7878,
+     "n_fgs_with_defined_precision": 5,
+     "n_precision_undefined_runs": 0,
+     "mean_f1_secondary_over_fgs": 0.5074,
+     "n_fgs_with_defined_f1": 5,
+     "n_f1_undefined_runs": 0,
+     "unit": "focus group, n = 5; never 15 sessions",
+     "denominator_note": "means are over focus groups with a defined value; undefined RUN counts are reported separately"
+    }
+   ],
+   "zero_overlap": {
+    "variant": "ORIGINAL_GEMINI",
+    "cell": "demographics-only / fg4",
+    "runs": [
+     {
+      "canonical_replication_index": "1",
+      "synthetic_present_n": 1,
+      "shared_n": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "precision_undefined_reason": null
+     },
+     {
+      "canonical_replication_index": "2",
+      "synthetic_present_n": 2,
+      "shared_n": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "precision_undefined_reason": null
+     },
+     {
+      "canonical_replication_index": "3",
+      "synthetic_present_n": 2,
+      "shared_n": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "precision_undefined_reason": null
+     }
+    ],
+    "n_replicates_asserting_nothing": 0,
+    "interpretation": "ZERO_OVERLAP_NOT_ZERO_CODING — codes were asserted; none overlap the human FG4 set",
+    "original_flag": "ZERO_OVERLAP_NOT_ZERO_CODING",
+    "original_flag_file_modified": false
+   },
+   "status": "PRIMARY"
+  },
+  "OCA_REMOVE_A1_ONLY": {
+   "notes": [
+    "A.1 set present=False and its reach row removed (explicit human verdict DOES_NOT_SUPPORT_A1)"
+   ],
+   "per_run": [
+    {
+     "condition": "demographics-only",
+     "fg": "fg1",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 2,
+     "human_present_n": 8,
+     "recall": 0.25,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.4,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 0.2
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg1",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 4,
+     "human_present_n": 8,
+     "recall": 0.5,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6667,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 0.4,
+      "B.4": 0.2,
+      "C.3": 0.4
+     },
+     "mean_reach": 0.45
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg1",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 2,
+     "human_present_n": 8,
+     "recall": 0.25,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.4,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 0.6
+     },
+     "mean_reach": 0.7
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg2",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 5,
+     "human_present_n": 7,
+     "recall": 0.5714,
+     "recall_undefined_reason": null,
+     "precision": 0.8,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6666,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "A.3": 0.2,
+      "B.2": 0.6,
+      "B.4": 0.2,
+      "C.3": 0.2
+     },
+     "mean_reach": 0.4
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg2",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "B.2"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 2,
+     "human_present_n": 7,
+     "recall": 0.1429,
+     "recall_undefined_reason": null,
+     "precision": 0.5,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.2223,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 0.6
+     },
+     "mean_reach": 0.7
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg2",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 4,
+     "human_present_n": 7,
+     "recall": 0.4286,
+     "recall_undefined_reason": null,
+     "precision": 0.75,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 0.8,
+      "B.4": 0.2,
+      "C.3": 0.2
+     },
+     "mean_reach": 0.5
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg3",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1"
+     ],
+     "shared_set": [
+      "A.1"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 1,
+     "human_present_n": 10,
+     "recall": 0.1,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.1818,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8
+     },
+     "mean_reach": 0.8
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg3",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1"
+     ],
+     "shared_set": [
+      "A.1"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 1,
+     "human_present_n": 10,
+     "recall": 0.1,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.1818,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.6
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg3",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1"
+     ],
+     "shared_set": [
+      "A.1"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 1,
+     "human_present_n": 10,
+     "recall": 0.1,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.1818,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.4
+     },
+     "mean_reach": 0.4
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg4",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [],
+     "shared_set": [],
+     "shared_n": 0,
+     "synthetic_present_n": 0,
+     "human_present_n": 6,
+     "recall": 0.0,
+     "recall_undefined_reason": null,
+     "precision": null,
+     "precision_undefined_reason": "synthetic asserted no verified code; denominator is 0",
+     "f1_secondary": null,
+     "f1_undefined_reason": "undefined: precision has an empty denominator",
+     "reach": {},
+     "mean_reach": null
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg4",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [],
+     "shared_n": 0,
+     "synthetic_present_n": 2,
+     "human_present_n": 6,
+     "recall": 0.0,
+     "recall_undefined_reason": null,
+     "precision": 0.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.0,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0
+     },
+     "mean_reach": 1.0
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg4",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [],
+     "shared_n": 0,
+     "synthetic_present_n": 2,
+     "human_present_n": 6,
+     "recall": 0.0,
+     "recall_undefined_reason": null,
+     "precision": 0.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.0,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0
+     },
+     "mean_reach": 1.0
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg5",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4",
+      "D"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 5,
+     "human_present_n": 5,
+     "recall": 0.6,
+     "recall_undefined_reason": null,
+     "precision": 0.6,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.75,
+      "A.3": 0.25,
+      "B.2": 0.75,
+      "B.4": 0.25,
+      "D": 0.25
+     },
+     "mean_reach": 0.45
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg5",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 5,
+     "recall": 0.6,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.75,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.75,
+      "B.2": 0.75,
+      "B.4": 0.25
+     },
+     "mean_reach": 0.5833
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg5",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 2,
+     "human_present_n": 5,
+     "recall": 0.4,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5714,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.75,
+      "B.2": 0.5
+     },
+     "mean_reach": 0.625
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg1",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 8,
+     "recall": 0.375,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 1.0,
+      "B.4": 1.0
+     },
+     "mean_reach": 0.9333
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg1",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 8,
+     "recall": 0.375,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.4,
+      "B.2": 1.0,
+      "B.4": 0.4
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg1",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 8,
+     "recall": 0.375,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 1.0,
+      "B.4": 1.0
+     },
+     "mean_reach": 0.9333
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg2",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 4,
+     "human_present_n": 7,
+     "recall": 0.2857,
+     "recall_undefined_reason": null,
+     "precision": 0.5,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.3636,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.6,
+      "B.1": 0.6,
+      "B.2": 1.0,
+      "B.4": 0.8
+     },
+     "mean_reach": 0.75
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg2",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.2",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "A.2",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 5,
+     "human_present_n": 7,
+     "recall": 0.5714,
+     "recall_undefined_reason": null,
+     "precision": 0.8,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6666,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "A.2": 0.2,
+      "B.2": 1.0,
+      "B.4": 0.4,
+      "C.3": 0.4
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg2",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "B.2"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 2,
+     "human_present_n": 7,
+     "recall": 0.1429,
+     "recall_undefined_reason": null,
+     "precision": 0.5,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.2223,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 1.0
+     },
+     "mean_reach": 0.9
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg3",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "D"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "D"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 4,
+     "human_present_n": 10,
+     "recall": 0.4,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5714,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 1.0,
+      "B.4": 0.8,
+      "D": 0.4
+     },
+     "mean_reach": 0.75
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg3",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 10,
+     "recall": 0.3,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.4615,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.6,
+      "B.2": 0.8,
+      "B.4": 0.6
+     },
+     "mean_reach": 0.6667
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg3",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 4,
+     "human_present_n": 10,
+     "recall": 0.4,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5714,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "A.3": 0.2,
+      "B.2": 1.0,
+      "B.4": 0.8
+     },
+     "mean_reach": 0.7
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg4",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "B.4"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 3,
+     "human_present_n": 6,
+     "recall": 0.1667,
+     "recall_undefined_reason": null,
+     "precision": 0.3333,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.2222,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0,
+      "B.4": 0.6666666666666666
+     },
+     "mean_reach": 0.8889
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg4",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.2",
+      "B.2",
+      "B.4",
+      "C.1"
+     ],
+     "shared_set": [
+      "A.2",
+      "B.4",
+      "C.1"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 5,
+     "human_present_n": 6,
+     "recall": 0.5,
+     "recall_undefined_reason": null,
+     "precision": 0.6,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.6666666666666666,
+      "A.2": 0.3333333333333333,
+      "B.2": 1.0,
+      "B.4": 0.6666666666666666,
+      "C.1": 0.3333333333333333
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg4",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "B.4"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 3,
+     "human_present_n": 6,
+     "recall": 0.1667,
+     "recall_undefined_reason": null,
+     "precision": 0.3333,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.2222,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0,
+      "B.4": 1.0
+     },
+     "mean_reach": 1.0
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg5",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 4,
+     "human_present_n": 5,
+     "recall": 0.8,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.8889,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0,
+      "B.4": 0.5,
+      "C.3": 0.75
+     },
+     "mean_reach": 0.8125
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg5",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 4,
+     "human_present_n": 5,
+     "recall": 0.6,
+     "recall_undefined_reason": null,
+     "precision": 0.75,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6667,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.5,
+      "A.3": 0.25,
+      "B.2": 1.0,
+      "B.4": 1.0
+     },
+     "mean_reach": 0.6875
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg5",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 2,
+     "human_present_n": 5,
+     "recall": 0.4,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5714,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 0.5
+     },
+     "mean_reach": 0.75
+    }
+   ],
+   "fg_level": [
+    {
+     "condition": "demographics-only",
+     "fg": "fg1",
+     "n_runs": 3,
+     "mean_recall": 0.3333,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 1.0,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.4889,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 2.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg2",
+     "n_runs": 3,
+     "mean_recall": 0.381,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.6833,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.4781,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg3",
+     "n_runs": 3,
+     "mean_recall": 0.1,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 1.0,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.1818,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 1.0,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg4",
+     "n_runs": 3,
+     "mean_recall": 0.0,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.0,
+     "n_precision_defined": 2,
+     "n_precision_undefined": 1,
+     "mean_f1_secondary": 0.0,
+     "n_f1_defined": 2,
+     "n_f1_undefined": 1,
+     "mean_synthetic_present_n": 1.3333,
+     "zero_overlap_runs": 3,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg5",
+     "n_runs": 3,
+     "mean_recall": 0.5333,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.8667,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.6405,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.3333,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg1",
+     "n_runs": 3,
+     "mean_recall": 0.375,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 1.0,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.5455,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.0,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg2",
+     "n_runs": 3,
+     "mean_recall": 0.3333,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.6,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.4175,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg3",
+     "n_runs": 3,
+     "mean_recall": 0.3667,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 1.0,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.5348,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg4",
+     "n_runs": 3,
+     "mean_recall": 0.2778,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.4222,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.33,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg5",
+     "n_runs": 3,
+     "mean_recall": 0.6,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.9167,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.709,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.3333,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    }
+   ],
+   "condition_level": [
+    {
+     "condition": "demographics-only",
+     "n_focus_groups": 5,
+     "mean_recall_over_fgs": 0.2695,
+     "n_fgs_with_defined_recall": 5,
+     "mean_precision_over_fgs": 0.71,
+     "n_fgs_with_defined_precision": 5,
+     "n_precision_undefined_runs": 1,
+     "mean_f1_secondary_over_fgs": 0.3579,
+     "n_fgs_with_defined_f1": 5,
+     "n_f1_undefined_runs": 1,
+     "unit": "focus group, n = 5; never 15 sessions",
+     "denominator_note": "means are over focus groups with a defined value; undefined RUN counts are reported separately"
+    },
+    {
+     "condition": "enriched",
+     "n_focus_groups": 5,
+     "mean_recall_over_fgs": 0.3906,
+     "n_fgs_with_defined_recall": 5,
+     "mean_precision_over_fgs": 0.7878,
+     "n_fgs_with_defined_precision": 5,
+     "n_precision_undefined_runs": 0,
+     "mean_f1_secondary_over_fgs": 0.5074,
+     "n_fgs_with_defined_f1": 5,
+     "n_f1_undefined_runs": 0,
+     "unit": "focus group, n = 5; never 15 sessions",
+     "denominator_note": "means are over focus groups with a defined value; undefined RUN counts are reported separately"
+    }
+   ],
+   "zero_overlap": {
+    "variant": "OCA_REMOVE_A1_ONLY",
+    "cell": "demographics-only / fg4",
+    "runs": [
+     {
+      "canonical_replication_index": "1",
+      "synthetic_present_n": 0,
+      "shared_n": 0,
+      "recall": 0.0,
+      "precision": null,
+      "precision_undefined_reason": "synthetic asserted no verified code; denominator is 0"
+     },
+     {
+      "canonical_replication_index": "2",
+      "synthetic_present_n": 2,
+      "shared_n": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "precision_undefined_reason": null
+     },
+     {
+      "canonical_replication_index": "3",
+      "synthetic_present_n": 2,
+      "shared_n": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "precision_undefined_reason": null
+     }
+    ],
+    "n_replicates_asserting_nothing": 1,
+    "interpretation": "MIXED — 1 of 3 replicates now assert no verified code at all, so for those the original flag's wording 'codes WERE asserted' no longer holds; the remainder still show zero overlap with codes asserted",
+    "original_flag": "ZERO_OVERLAP_NOT_ZERO_CODING",
+    "original_flag_file_modified": false
+   },
+   "status": "POST_RESULT_HUMAN_ADJUDICATED_SENSITIVITY"
+  },
+  "OCA_REMOVE_A1_ADD_PROPOSED_A3": {
+   "notes": [
+    "A.1 set present=False and its reach row removed (explicit human verdict DOES_NOT_SUPPORT_A1)",
+    "A.3 set present=True with reach 3/3 derived from the 3 cited turns — a REVIEWER-PROPOSED alternative, not an explicit presence adjudication"
+   ],
+   "per_run": [
+    {
+     "condition": "demographics-only",
+     "fg": "fg1",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 2,
+     "human_present_n": 8,
+     "recall": 0.25,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.4,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 0.2
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg1",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 4,
+     "human_present_n": 8,
+     "recall": 0.5,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6667,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 0.4,
+      "B.4": 0.2,
+      "C.3": 0.4
+     },
+     "mean_reach": 0.45
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg1",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 2,
+     "human_present_n": 8,
+     "recall": 0.25,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.4,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 0.6
+     },
+     "mean_reach": 0.7
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg2",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 5,
+     "human_present_n": 7,
+     "recall": 0.5714,
+     "recall_undefined_reason": null,
+     "precision": 0.8,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6666,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "A.3": 0.2,
+      "B.2": 0.6,
+      "B.4": 0.2,
+      "C.3": 0.2
+     },
+     "mean_reach": 0.4
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg2",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "B.2"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 2,
+     "human_present_n": 7,
+     "recall": 0.1429,
+     "recall_undefined_reason": null,
+     "precision": 0.5,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.2223,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 0.6
+     },
+     "mean_reach": 0.7
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg2",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 4,
+     "human_present_n": 7,
+     "recall": 0.4286,
+     "recall_undefined_reason": null,
+     "precision": 0.75,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 0.8,
+      "B.4": 0.2,
+      "C.3": 0.2
+     },
+     "mean_reach": 0.5
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg3",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1"
+     ],
+     "shared_set": [
+      "A.1"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 1,
+     "human_present_n": 10,
+     "recall": 0.1,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.1818,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8
+     },
+     "mean_reach": 0.8
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg3",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1"
+     ],
+     "shared_set": [
+      "A.1"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 1,
+     "human_present_n": 10,
+     "recall": 0.1,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.1818,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.6
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg3",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1"
+     ],
+     "shared_set": [
+      "A.1"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 1,
+     "human_present_n": 10,
+     "recall": 0.1,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.1818,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.4
+     },
+     "mean_reach": 0.4
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg4",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.3"
+     ],
+     "shared_set": [],
+     "shared_n": 0,
+     "synthetic_present_n": 1,
+     "human_present_n": 6,
+     "recall": 0.0,
+     "recall_undefined_reason": null,
+     "precision": 0.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.0,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.3": 1.0
+     },
+     "mean_reach": 1.0
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg4",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [],
+     "shared_n": 0,
+     "synthetic_present_n": 2,
+     "human_present_n": 6,
+     "recall": 0.0,
+     "recall_undefined_reason": null,
+     "precision": 0.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.0,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0
+     },
+     "mean_reach": 1.0
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg4",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [],
+     "shared_n": 0,
+     "synthetic_present_n": 2,
+     "human_present_n": 6,
+     "recall": 0.0,
+     "recall_undefined_reason": null,
+     "precision": 0.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.0,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0
+     },
+     "mean_reach": 1.0
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg5",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4",
+      "D"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 5,
+     "human_present_n": 5,
+     "recall": 0.6,
+     "recall_undefined_reason": null,
+     "precision": 0.6,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.75,
+      "A.3": 0.25,
+      "B.2": 0.75,
+      "B.4": 0.25,
+      "D": 0.25
+     },
+     "mean_reach": 0.45
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg5",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 5,
+     "recall": 0.6,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.75,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.75,
+      "B.2": 0.75,
+      "B.4": 0.25
+     },
+     "mean_reach": 0.5833
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg5",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 2,
+     "human_present_n": 5,
+     "recall": 0.4,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5714,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.75,
+      "B.2": 0.5
+     },
+     "mean_reach": 0.625
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg1",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 8,
+     "recall": 0.375,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 1.0,
+      "B.4": 1.0
+     },
+     "mean_reach": 0.9333
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg1",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 8,
+     "recall": 0.375,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.4,
+      "B.2": 1.0,
+      "B.4": 0.4
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg1",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "B.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 8,
+     "recall": 0.375,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 1.0,
+      "B.4": 1.0
+     },
+     "mean_reach": 0.9333
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg2",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 4,
+     "human_present_n": 7,
+     "recall": 0.2857,
+     "recall_undefined_reason": null,
+     "precision": 0.5,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.3636,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.6,
+      "B.1": 0.6,
+      "B.2": 1.0,
+      "B.4": 0.8
+     },
+     "mean_reach": 0.75
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg2",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.2",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "A.2",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 5,
+     "human_present_n": 7,
+     "recall": 0.5714,
+     "recall_undefined_reason": null,
+     "precision": 0.8,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6666,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "A.2": 0.2,
+      "B.2": 1.0,
+      "B.4": 0.4,
+      "C.3": 0.4
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg2",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "B.2"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 2,
+     "human_present_n": 7,
+     "recall": 0.1429,
+     "recall_undefined_reason": null,
+     "precision": 0.5,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.2223,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 1.0
+     },
+     "mean_reach": 0.9
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg3",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "D"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "D"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 4,
+     "human_present_n": 10,
+     "recall": 0.4,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5714,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "B.2": 1.0,
+      "B.4": 0.8,
+      "D": 0.4
+     },
+     "mean_reach": 0.75
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg3",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 3,
+     "human_present_n": 10,
+     "recall": 0.3,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.4615,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.6,
+      "B.2": 0.8,
+      "B.4": 0.6
+     },
+     "mean_reach": 0.6667
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg3",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "A.2",
+      "A.3",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.2",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 4,
+     "human_present_n": 10,
+     "recall": 0.4,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5714,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.8,
+      "A.3": 0.2,
+      "B.2": 1.0,
+      "B.4": 0.8
+     },
+     "mean_reach": 0.7
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg4",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "B.4"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 3,
+     "human_present_n": 6,
+     "recall": 0.1667,
+     "recall_undefined_reason": null,
+     "precision": 0.3333,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.2222,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0,
+      "B.4": 0.6666666666666666
+     },
+     "mean_reach": 0.8889
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg4",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.2",
+      "B.2",
+      "B.4",
+      "C.1"
+     ],
+     "shared_set": [
+      "A.2",
+      "B.4",
+      "C.1"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 5,
+     "human_present_n": 6,
+     "recall": 0.5,
+     "recall_undefined_reason": null,
+     "precision": 0.6,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5455,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.6666666666666666,
+      "A.2": 0.3333333333333333,
+      "B.2": 1.0,
+      "B.4": 0.6666666666666666,
+      "C.1": 0.3333333333333333
+     },
+     "mean_reach": 0.6
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg4",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.2",
+      "B.3",
+      "B.4",
+      "C.1",
+      "C.3",
+      "D"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "B.4"
+     ],
+     "shared_n": 1,
+     "synthetic_present_n": 3,
+     "human_present_n": 6,
+     "recall": 0.1667,
+     "recall_undefined_reason": null,
+     "precision": 0.3333,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.2222,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0,
+      "B.4": 1.0
+     },
+     "mean_reach": 1.0
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg5",
+     "canonical_replication_index": "1",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4",
+      "C.3"
+     ],
+     "shared_n": 4,
+     "synthetic_present_n": 4,
+     "human_present_n": 5,
+     "recall": 0.8,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.8889,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 1.0,
+      "B.4": 0.5,
+      "C.3": 0.75
+     },
+     "mean_reach": 0.8125
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg5",
+     "canonical_replication_index": "2",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "A.3",
+      "B.2",
+      "B.4"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2",
+      "B.4"
+     ],
+     "shared_n": 3,
+     "synthetic_present_n": 4,
+     "human_present_n": 5,
+     "recall": 0.6,
+     "recall_undefined_reason": null,
+     "precision": 0.75,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.6667,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 0.5,
+      "A.3": 0.25,
+      "B.2": 1.0,
+      "B.4": 1.0
+     },
+     "mean_reach": 0.6875
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg5",
+     "canonical_replication_index": "3",
+     "human_present_set": [
+      "A.1",
+      "B.2",
+      "B.3",
+      "B.4",
+      "C.3"
+     ],
+     "synthetic_present_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_set": [
+      "A.1",
+      "B.2"
+     ],
+     "shared_n": 2,
+     "synthetic_present_n": 2,
+     "human_present_n": 5,
+     "recall": 0.4,
+     "recall_undefined_reason": null,
+     "precision": 1.0,
+     "precision_undefined_reason": null,
+     "f1_secondary": 0.5714,
+     "f1_undefined_reason": null,
+     "reach": {
+      "A.1": 1.0,
+      "B.2": 0.5
+     },
+     "mean_reach": 0.75
+    }
+   ],
+   "fg_level": [
+    {
+     "condition": "demographics-only",
+     "fg": "fg1",
+     "n_runs": 3,
+     "mean_recall": 0.3333,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 1.0,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.4889,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 2.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg2",
+     "n_runs": 3,
+     "mean_recall": 0.381,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.6833,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.4781,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg3",
+     "n_runs": 3,
+     "mean_recall": 0.1,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 1.0,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.1818,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 1.0,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg4",
+     "n_runs": 3,
+     "mean_recall": 0.0,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.0,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.0,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 1.6667,
+     "zero_overlap_runs": 3,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "demographics-only",
+     "fg": "fg5",
+     "n_runs": 3,
+     "mean_recall": 0.5333,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.8667,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.6405,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.3333,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg1",
+     "n_runs": 3,
+     "mean_recall": 0.375,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 1.0,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.5455,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.0,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg2",
+     "n_runs": 3,
+     "mean_recall": 0.3333,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.6,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.4175,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg3",
+     "n_runs": 3,
+     "mean_recall": 0.3667,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 1.0,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.5348,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg4",
+     "n_runs": 3,
+     "mean_recall": 0.2778,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.4222,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.33,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.6667,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    },
+    {
+     "condition": "enriched",
+     "fg": "fg5",
+     "n_runs": 3,
+     "mean_recall": 0.6,
+     "n_recall_defined": 3,
+     "n_recall_undefined": 0,
+     "mean_precision": 0.9167,
+     "n_precision_defined": 3,
+     "n_precision_undefined": 0,
+     "mean_f1_secondary": 0.709,
+     "n_f1_defined": 3,
+     "n_f1_undefined": 0,
+     "mean_synthetic_present_n": 3.3333,
+     "zero_overlap_runs": 0,
+     "denominator_note": "each mean is over its own n_*_defined, not over n_runs"
+    }
+   ],
+   "condition_level": [
+    {
+     "condition": "demographics-only",
+     "n_focus_groups": 5,
+     "mean_recall_over_fgs": 0.2695,
+     "n_fgs_with_defined_recall": 5,
+     "mean_precision_over_fgs": 0.71,
+     "n_fgs_with_defined_precision": 5,
+     "n_precision_undefined_runs": 0,
+     "mean_f1_secondary_over_fgs": 0.3579,
+     "n_fgs_with_defined_f1": 5,
+     "n_f1_undefined_runs": 0,
+     "unit": "focus group, n = 5; never 15 sessions",
+     "denominator_note": "means are over focus groups with a defined value; undefined RUN counts are reported separately"
+    },
+    {
+     "condition": "enriched",
+     "n_focus_groups": 5,
+     "mean_recall_over_fgs": 0.3906,
+     "n_fgs_with_defined_recall": 5,
+     "mean_precision_over_fgs": 0.7878,
+     "n_fgs_with_defined_precision": 5,
+     "n_precision_undefined_runs": 0,
+     "mean_f1_secondary_over_fgs": 0.5074,
+     "n_fgs_with_defined_f1": 5,
+     "n_f1_undefined_runs": 0,
+     "unit": "focus group, n = 5; never 15 sessions",
+     "denominator_note": "means are over focus groups with a defined value; undefined RUN counts are reported separately"
+    }
+   ],
+   "zero_overlap": {
+    "variant": "OCA_REMOVE_A1_ADD_PROPOSED_A3",
+    "cell": "demographics-only / fg4",
+    "runs": [
+     {
+      "canonical_replication_index": "1",
+      "synthetic_present_n": 1,
+      "shared_n": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "precision_undefined_reason": null
+     },
+     {
+      "canonical_replication_index": "2",
+      "synthetic_present_n": 2,
+      "shared_n": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "precision_undefined_reason": null
+     },
+     {
+      "canonical_replication_index": "3",
+      "synthetic_present_n": 2,
+      "shared_n": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "precision_undefined_reason": null
+     }
+    ],
+    "n_replicates_asserting_nothing": 0,
+    "interpretation": "ZERO_OVERLAP_NOT_ZERO_CODING — codes were asserted; none overlap the human FG4 set",
+    "original_flag": "ZERO_OVERLAP_NOT_ZERO_CODING",
+    "original_flag_file_modified": false
+   },
+   "status": "POST_RESULT_HUMAN_ADJUDICATED_SENSITIVITY"
+  }
+ },
+ "focus_run": {
+  "ORIGINAL_GEMINI": {
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "canonical_replication_index": "1",
+   "human_present_set": [
+    "A.2",
+    "B.3",
+    "B.4",
+    "C.1",
+    "C.3",
+    "D"
+   ],
+   "synthetic_present_set": [
+    "A.1"
+   ],
+   "shared_set": [],
+   "shared_n": 0,
+   "synthetic_present_n": 1,
+   "human_present_n": 6,
+   "recall": 0.0,
+   "recall_undefined_reason": null,
+   "precision": 0.0,
+   "precision_undefined_reason": null,
+   "f1_secondary": 0.0,
+   "f1_undefined_reason": null,
+   "reach": {
+    "A.1": 1.0
+   },
+   "mean_reach": 1.0
+  },
+  "OCA_REMOVE_A1_ONLY": {
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "canonical_replication_index": "1",
+   "human_present_set": [
+    "A.2",
+    "B.3",
+    "B.4",
+    "C.1",
+    "C.3",
+    "D"
+   ],
+   "synthetic_present_set": [],
+   "shared_set": [],
+   "shared_n": 0,
+   "synthetic_present_n": 0,
+   "human_present_n": 6,
+   "recall": 0.0,
+   "recall_undefined_reason": null,
+   "precision": null,
+   "precision_undefined_reason": "synthetic asserted no verified code; denominator is 0",
+   "f1_secondary": null,
+   "f1_undefined_reason": "undefined: precision has an empty denominator",
+   "reach": {},
+   "mean_reach": null
+  },
+  "OCA_REMOVE_A1_ADD_PROPOSED_A3": {
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "canonical_replication_index": "1",
+   "human_present_set": [
+    "A.2",
+    "B.3",
+    "B.4",
+    "C.1",
+    "C.3",
+    "D"
+   ],
+   "synthetic_present_set": [
+    "A.3"
+   ],
+   "shared_set": [],
+   "shared_n": 0,
+   "synthetic_present_n": 1,
+   "human_present_n": 6,
+   "recall": 0.0,
+   "recall_undefined_reason": null,
+   "precision": 0.0,
+   "precision_undefined_reason": null,
+   "f1_secondary": 0.0,
+   "f1_undefined_reason": null,
+   "reach": {
+    "A.3": 1.0
+   },
+   "mean_reach": 1.0
+  }
+ }
+}

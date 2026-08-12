@@ -1,0 +1,13 @@
+name: young_adults_4
+size: 4
+description: |
+  4-person panel of younger adults (18-49), gender-balanced. Pair with
+  older_adults_4 for age-cohort comparisons on the same guide.
+filters:
+  # Actual Twin-2K-500 buckets: "18-29" and "30-49" (not "30-44" as originally assumed)
+  age_bucket: ["18-29", "30-49"]
+quotas:
+  gender:
+    Male: 2
+    Female: 2
+seed: 42

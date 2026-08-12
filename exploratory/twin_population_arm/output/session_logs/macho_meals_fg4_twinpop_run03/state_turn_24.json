@@ -1,0 +1,1299 @@
+{
+  "schema_version": 3,
+  "session_meta": {
+    "id": "macho_meals_fg4_twinpop_run03",
+    "research_objective": "Focus group guide exploring how men in the UK make everyday food\nchoices, how social context, work, hobbies, health, taste and other\npeople shape what they eat, how gender and masculinity may influence\nfood choices, and what would need to change for plant-based foods to\nbecome more acceptable or appealing.\n",
+    "topic_domain": "Masculinity, food choice, animal product consumption, and plant-based eating",
+    "participant_collective_identity": "Men in the UK reflecting on food choices, male friendship, gender norms, and plant-based eating",
+    "moderator_knowledge_brief": "Explore (1) everyday food decision-making, (2) the social contexts in\nwhich men spend time with male friends, (3) the influence of other\npeople, work, hobbies, health, nutrition and taste on food choices,\n(4) whether participants perceive gender as shaping what they eat,\n(5) social acceptability and gendered meanings attached to vegetarian,\nvegan, plant-based, feminine or masculine foods, and (6) what personal,\nsocial and practical changes would make plant-based eating more viable\nor appealing. The discussion should remain exploratory, non-judgmental,\nand non-leading.\n",
+    "researcher_notes": "",
+    "temperature": 1.0,
+    "participant_response_max_tokens": 800,
+    "participation_mode": "emergent",
+    "moderator_model": "claude-sonnet-4-6",
+    "initial_session_plan": {
+      "thematisation_approach": "I will frame participants as men reflecting on their own everyday lives \u2014 the places they go, the food they eat, the people they spend time with. I will not invoke research framing or academic categories. The collective identity I draw on is simply: men in the UK talking honestly about food and daily life.",
+      "priority_research_areas": [
+        "Gender and food choice (Section 3): This is the section most likely to produce socially performative answers. Men may flatly deny that gender influences their food choices as a matter of pride or self-image, without reflecting on actual behaviour. Behavioural grounding and contradiction-surfacing will be essential here.",
+        "Plant-based shift and what would need to change (Section 4): Participants may frame barriers abstractly ('I just like meat') rather than in specific behavioural terms. The section requires probing for concrete life contexts \u2014 cooking at home, eating with others, work lunches, social occasions \u2014 not just stated preferences.",
+        "Social acceptability of food choices (implicit across Sections 3\u20135): Men in a group setting may self-censor on vulnerability or social judgment. The social dynamics of the group itself mirror the topic \u2014 consensus risk is high, and dissent needs to be actively created.",
+        "Making plant-based foods appealing (Section 5): Risk of abstract or generic answers ('make it taste better', 'make it cheaper'). Need to push into specific scenarios, specific people they know, and specific trade-offs."
+      ],
+      "participant_notes": [
+        {
+          "participant_id": "mm_fg4_gregor",
+          "anticipated_role": "Gregor is 53 and urban-based in the North West. No further profile detail available. Urban context may mean more exposure to plant-based food culture. Age cohort (early 50s) suggests food habits likely well-established. May be more self-assured in expressing opinions.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg4_james",
+          "anticipated_role": "James is 50 and suburban, South East. Suburban South East context may indicate moderate cultural conservatism or status-conscious food consumption. Similar age cohort to Gregor. Monitor for tendency to anchor group consensus early.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg4_mark",
+          "anticipated_role": "Mark is 52 and from a village or rural setting in East of England. Rural background is the most distinct profile in this group. May have stronger attachment to meat as part of food culture, or may push back harder on plant-based framing. Also potentially quieter in a group setting \u2014 monitor for reticence, especially given the urban/suburban majority dynamic.",
+          "initial_attention_flag": "Rural context may make him an outlier on plant-based acceptability. Do not let his perspective be drowned out if urban participants dominate."
+        }
+      ],
+      "known_risk_conditions": [
+        "Social desirability on gender: men discussing gender and food in a group may deny that gender plays any role, performing self-sufficiency or indifference to social norms. Use behavioural grounding ('think of a specific moment...') rather than direct attitude questions to get underneath this.",
+        "Rapid consensus on plant-based barriers: the group may converge quickly on 'taste' and 'habit' as barriers without differentiation. Plan a sharpening move (e.g. 'would anything change that for you specifically, even in a different context?') to disrupt easy agreement.",
+        "Mark as potential outlier: his rural background may produce genuinely different answers on food culture, social norms around meat, and plant-based acceptability. Protect space for his perspective if the two urban/suburban participants dominate early.",
+        "Group is small (3 participants): with only three men, one dominant voice can effectively silence the other two. Monitor talk-time distribution actively throughout.",
+        "Age cohort effect: all three are in their early 50s. Established food identities, possible resistance to change framing. Avoid language that implies they should be changing; keep framing exploratory and conditional ('imagine you decided to...')."
+      ],
+      "directivity_plan": "Hold back significantly in Sections 0\u20132. These are rapport-building and contextual sections \u2014 let participants establish their own voices and orientations without heavy probing. Intervene only if something emotionally or analytically significant surfaces early. Increase directivity from Section 3 onward: probe contradictions, use behavioural grounding, actively invite dissent when consensus hardens. Section 4 warrants the most direct probing \u2014 push past abstract preference statements into specific life situations. Section 5 can be moderately probed but should allow participants to generate their own ideas. Keep Section 6 light.",
+      "time_budget": {
+        "total_minutes": 45,
+        "total_word_budget": 4500,
+        "budget_rationale": "Main topic sections (3, 4, 5) receive the heaviest weighting \u2014 approximately 60% of the total budget \u2014 as these carry the primary research objectives. Context sections (1, 2) receive moderate weighting to build rapport and generate behavioural grounding without exhausting time. Intro (0) and closing (6) are kept light. Three-participant group means turn counts will be lower than a larger group, so word budgets per section matter more than raw turn counts.",
+        "per_section": [
+          {
+            "section_index": 0,
+            "section_label": "Introduction and instructions",
+            "section_phase": "intro",
+            "word_budget": 250,
+            "turn_budget": 3
+          },
+          {
+            "section_index": 1,
+            "section_label": "Opening discussion: male friendship and place",
+            "section_phase": "context",
+            "word_budget": 500,
+            "turn_budget": 8
+          },
+          {
+            "section_index": 2,
+            "section_label": "Everyday food decision-making",
+            "section_phase": "context",
+            "word_budget": 600,
+            "turn_budget": 10
+          },
+          {
+            "section_index": 3,
+            "section_label": "Gender and food choice",
+            "section_phase": "main_topic",
+            "word_budget": 900,
+            "turn_budget": 14
+          },
+          {
+            "section_index": 4,
+            "section_label": "Imagining a plant-based shift",
+            "section_phase": "main_topic",
+            "word_budget": 900,
+            "turn_budget": 14
+          },
+          {
+            "section_index": 5,
+            "section_label": "Making plant-based foods more appealing",
+            "section_phase": "main_topic",
+            "word_budget": 900,
+            "turn_budget": 14
+          },
+          {
+            "section_index": 6,
+            "section_label": "Closing remarks",
+            "section_phase": "closing",
+            "word_budget": 200,
+            "turn_budget": 4
+          }
+        ]
+      }
+    },
+    "current_section_index": 5,
+    "section_phase": "main_topic",
+    "current_question_index": 0,
+    "total_turns": 24,
+    "session_started_at": "2026-08-06T01:11:35.302348Z",
+    "inject_participant_intro": false,
+    "run_label": "twinpop_run03",
+    "participant_episodic_depth": "since_last_n",
+    "participant_episodic_since_last_n": 20,
+    "participant_episodic_recent_k": 6,
+    "moderator_reflection_enabled": true,
+    "moderator_restraint_prompt": true,
+    "moderator_context_mode": "summarized",
+    "engagement_own_history_token_budget": 1500,
+    "moderator_prompt_override": "sandbox/01_MODERATOR_SYSTEM_PROMPT_MINIMAL.md",
+    "moderator_opening_prompt_override": null,
+    "time_budget_tracking_enabled": true
+  },
+  "discussion_guide": [
+    {
+      "section_index": 0,
+      "section_label": "Introduction and instructions",
+      "section_phase": "intro",
+      "section_purpose": "Section 0: Introduction and instructions",
+      "scripted_question": "Hi everyone, thanks so much for joining the focus group today. We\u2019re\ngoing to take about 45 minutes to talk about your food choices and\nopinions, and this will be recorded for research purposes. Try not to\noverthink the questions, and simply speak freely. There are no right\nor wrong answers. Please be respectful of your fellow focus group\nmembers, and keep your responses relatively brief to allow time for\neveryone to speak. But remember that this is a conversation, not an\ninterview, so you can jump in when you have something to say and you\ndon\u2019t have to take turns answering each question, but you can if you\nwant to. Okay great, let\u2019s start by going around and saying your name\nand where in the UK you\u2019re coming from today.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 1,
+      "section_label": "Opening discussion: male friendship and place",
+      "section_phase": "context",
+      "section_purpose": "Section 1: Opening discussion: male friendship and place",
+      "scripted_question": "What\u2019s your favourite place in your city to spend time with your male\nfriends? Why? Feel free to be specific.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 2,
+      "section_label": "Everyday food decision-making",
+      "section_phase": "context",
+      "section_purpose": "Section 2: Everyday food decision-making",
+      "scripted_question": "How do you decide what to eat?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "Do other people influence what you eat? If so, tell us more about how.",
+        "Do your work or hobbies influence what foods you eat? Tell us more about how.",
+        "How important is health and nutrition?",
+        "How important is taste?"
+      ]
+    },
+    {
+      "section_index": 3,
+      "section_label": "Gender and food choice",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 3: Gender and food choice",
+      "scripted_question": "Do you think your gender influences what you eat? Tell us more about\nwhy or why not.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "Is it socially acceptable for men to eat vegetarian or vegan foods?",
+        "Are some foods considered feminine?",
+        "Are some foods considered masculine?"
+      ]
+    },
+    {
+      "section_index": 4,
+      "section_label": "Imagining a plant-based shift",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 4: Imagining a plant-based shift",
+      "scripted_question": "Imagine you decided to go plant-based \u2014 what would need to change in\nyour life for you to do that?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "How would your family and friends react to this?",
+        "How might it change the way you shop or cook?"
+      ]
+    },
+    {
+      "section_index": 5,
+      "section_label": "Making plant-based foods more appealing",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 5: Making plant-based foods more appealing",
+      "scripted_question": "What might make plant-based foods more appealing to you or other men\nyou know?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 6,
+      "section_label": "Closing remarks",
+      "section_phase": "closing",
+      "section_purpose": "Section 6: Closing remarks",
+      "scripted_question": "Okay everyone, that\u2019s our time. Thanks so much for participating\ntoday. Before we finish, is there anything else you would like to add\nabout food choices, gender, masculinity, or plant-based eating?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": []
+    }
+  ],
+  "participants": {
+    "mm_fg4_gregor": {
+      "id": "mm_fg4_gregor",
+      "name": "Gregor",
+      "profile_summary": "Gregor, 53, Male. Urban, North West, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg4_gregor",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived",
+          "persona.background.working_life": "rendered_from_census_microdata_sn9154",
+          "persona.background.home_and_household": "rendered_from_census_microdata_sn9154",
+          "persona.background.week_and_hobbies": "rendered_from_census_microdata_sn9154"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Gregor",
+            "age": 53,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Urban",
+              "region": "North West",
+              "country": "UK"
+            }
+          },
+          "background": {
+            "working_life": "A 53-year-old employee working full-time in the construction sector, in metal forming, welding and related trades. The role is hands-on and classed as semi-routine, with no supervisory or management responsibilities. Weekly hours are long, at 49 or more, and the work is carried out at sites and premises rather than at home. Each journey to the workplace covers between 20 and 30 kilometres, made by car or van. Qualifications comprise five or more GCSEs or a vocational equivalent, with skills largely built through practical experience on the job.",
+            "home_and_household": "Home is a semi-detached house in an urban part of the North West, owned with a mortgage still being repaid. Three adults live there and no dependent children, with any offspring now counted as non-dependent. Married and living as part of an opposite-sex couple, he is recorded as the husband of the household reference person. The occupancy rating for bedrooms stands at plus one, indicating one more bedroom than the household strictly requires, so the property offers a modest amount of spare space.",
+            "week_and_hobbies": "Weekdays are shaped by early starts and long shifts, with a drive of around half an hour each way absorbing further time. Evenings tend to be quiet and spent at home, with television, radio, music or motoring interests filling the gap before an early night. Practical skills carry over into occasional repairs and improvements around the house and garden, and maintaining the car is a familiar task. Weekends allow more scope for rest, catching up with family, following sport results and local trips by road."
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG4"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Okie dokie. (.) Um, well, mine is, if I was meeting up with a group of friends, I suppose obviously, it depends on the occasion. Um, but if I was going out for a meal for it, for example, um, we've got a particularly nice Spanish restaurant which we all enjoy. So it's a tapas, got a great atmosphere, it kind of transports you to feel that you're there, it's kind of one of those kind of very atmospheric kind of dark moody lighting sort of place. So we always have a good laugh in there. It's a good good place to share and and just be able to chat as well because it's not too noisy.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 10,
+      "emotional_signal": "said 'at my age, you've sort of settled into how things are. Changing that just feels like... effort. Difficult effort.' \u2014 resignation register, closing down possibility",
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg4_james": {
+      "id": "mm_fg4_james",
+      "name": "James",
+      "profile_summary": "James, 50, Male. Suburban, South East, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg4_james",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived",
+          "persona.background.working_life": "rendered_from_census_microdata_sn9154",
+          "persona.background.home_and_household": "rendered_from_census_microdata_sn9154",
+          "persona.background.week_and_hobbies": "rendered_from_census_microdata_sn9154"
+        },
+        "persona": {
+          "demographics": {
+            "name": "James",
+            "age": 50,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "South East",
+              "country": "UK"
+            }
+          },
+          "background": {
+            "working_life": "A full-time employee of fifty, working in the construction and building trades within the manufacturing sector, with a working base at or from home rather than a distant site or plant. Typical weeks run between thirty-one and forty-eight hours, arranged around orders and drawings rather than fixed shifts. There are no supervisory or management duties, and the role sits among routine occupations, though a degree-level qualification was gained earlier. Commuting costs nothing, and the day begins where it ends.",
+            "home_and_household": "Home is a terraced house in a suburban part of the South East, owned with a mortgage still running. Three adults share it: a married couple in an opposite-sex partnership, plus one further adult, with no dependent children, so any offspring are grown. The number of bedrooms matches what the household requires exactly, leaving no spare room and no crowding. Working from the same address means the property serves as both dwelling and workplace, requiring some care over storage, tools and quiet.",
+            "week_and_hobbies": "Without a commute, the week has a fairly settled rhythm: an early start, a defined stretch of hours, and evenings free at home or in the surrounding streets and parks. Practical interests carry over from trade skills, with repairs, joinery and improvements around the terraced house filling weekends. Time is also given to the other adults in the household, occasional trips further into the South East, and quieter pursuits such as radio, reading, motoring or watching sport at the weekend."
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG4"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Okay. Uh, yeah, my my one would definitely be, so I spend a lot of my weekends playing cricket. So we have a really great bar down there. I must know. (.) I must know about 100 people, so it's normally just hanging out at the cricket club with my friends. It's just a lovely way to spend the weekend (.) for me (.) or anytime during the week. So if England football matches are on, we\u2019ll go and watch it there.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 7,
+      "emotional_signal": "said 'I'm just hiding it better' \u2014 self-deprecating acknowledgment of avoidance, deflects inward rather than outward",
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg4_mark": {
+      "id": "mm_fg4_mark",
+      "name": "Mark",
+      "profile_summary": "Mark, 52, Male. Village or Rural, East of England, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg4_mark",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived",
+          "persona.background.working_life": "rendered_from_census_microdata_sn9154",
+          "persona.background.home_and_household": "rendered_from_census_microdata_sn9154",
+          "persona.background.week_and_hobbies": "rendered_from_census_microdata_sn9154"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Mark",
+            "age": 52,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Village or Rural",
+              "region": "East of England",
+              "country": "UK"
+            }
+          },
+          "background": {
+            "working_life": "At 52, he works part-time as an employee, putting in fifteen hours or fewer each week as a manager in logistics, warehousing and transport within the wholesale and retail trade sector. The role carries supervisory responsibility for a team, placing him in lower managerial and administrative work. Holding a degree-level or higher qualification, he brings formal training to scheduling, stock movement and staff oversight. His workplace lies less than two kilometres away, and he drives a car or van there rather than working from home.",
+            "home_and_household": "He lives in a detached house or bungalow in a village or rural part of the East of England, owned with a mortgage or loan. The household contains four people: himself, his wife, and two dependent children, the youngest aged between twelve and fifteen, with three or more adults counted in total. He is recorded as the husband of the household reference person. The property has two or more bedrooms beyond what the household requires, giving generous space for everyone under one roof.",
+            "week_and_hobbies": "With short working hours and a very brief commute, his week leaves considerable time outside employment, much of it shaped by two teenage children and their school and activity timetables. Rural life in the East of England lends itself to gardening, walking country lanes, and general upkeep of a detached property and its grounds. The car is useful for longer trips to nearby towns for errands or family outings. Weekends often revolve around household projects, driving family members about, and quieter time at home."
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG4"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Favourite place in the city to eat? Well, I don't live in a city. I'm kind of quite rural. And uh I don't tend to go out with male friends much. It would normally be family. Uh but if I did, uh, probably be Wetherspoons. That's uh kind of pretty local to me and purely just because of the price really.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 6,
+      "emotional_signal": "said 'it'd be... it feels like you're overstepping a bit' and 'that feels a bit soft' \u2014 affect around the idea of expressing food preferences, framed as a violation of domestic role rather than simple embarrassment",
+      "follow_up_count_current_question": 0
+    }
+  },
+  "group_state": {
+    "participation_balance": {
+      "mm_fg4_gregor": 0.435,
+      "mm_fg4_james": 0.304,
+      "mm_fg4_mark": 0.261
+    },
+    "silent_participants": [],
+    "consensus_risk": 0.3,
+    "dominant_voices": [],
+    "unresolved_tensions": [
+      {
+        "participant_id": "mm_fg4_gregor",
+        "flagged_at_turn": 14,
+        "description": "earlier described eating as 'just fuel' and 'not much else to it'; now says 'it's not really what I prefer \u2014 it's just what fits with being a bloke in my situation', explicitly framing the fuel narrative as a performance rather than genuine preference",
+        "resolved": false,
+        "resolved_at_turn": null,
+        "surfaced": false,
+        "surface_count": 0
+      }
+    ],
+    "group_has_agreed_easily_on": [
+      "All three participants converged on the idea that men are not supposed to care too much about food or express preferences \u2014 described as an unspoken expectation rather than a conscious choice."
+    ],
+    "section_turn_counts": {
+      "mm_fg4_gregor": 1,
+      "mm_fg4_james": 1
+    },
+    "section_word_counts": {
+      "MODERATOR": 129,
+      "mm_fg4_gregor": 240,
+      "mm_fg4_james": 221
+    },
+    "completed_section_turn_counts": {
+      "0": {
+        "mm_fg4_james": 1,
+        "mm_fg4_mark": 1,
+        "mm_fg4_gregor": 1
+      },
+      "1": {
+        "mm_fg4_james": 2,
+        "mm_fg4_gregor": 1,
+        "mm_fg4_mark": 1
+      },
+      "2": {
+        "mm_fg4_mark": 1,
+        "mm_fg4_gregor": 2,
+        "mm_fg4_james": 1
+      },
+      "3": {
+        "mm_fg4_mark": 2,
+        "mm_fg4_gregor": 2,
+        "mm_fg4_james": 1
+      },
+      "4": {
+        "mm_fg4_james": 1,
+        "mm_fg4_gregor": 3,
+        "mm_fg4_mark": 1
+      }
+    },
+    "completed_section_word_counts": {
+      "0": {
+        "MODERATOR": 224,
+        "mm_fg4_james": 18,
+        "mm_fg4_mark": 32,
+        "mm_fg4_gregor": 95
+      },
+      "1": {
+        "MODERATOR": 80,
+        "mm_fg4_james": 207,
+        "mm_fg4_gregor": 141,
+        "mm_fg4_mark": 214
+      },
+      "2": {
+        "MODERATOR": 102,
+        "mm_fg4_mark": 214,
+        "mm_fg4_gregor": 384,
+        "mm_fg4_james": 185
+      },
+      "3": {
+        "MODERATOR": 91,
+        "mm_fg4_mark": 510,
+        "mm_fg4_gregor": 424,
+        "mm_fg4_james": 235
+      },
+      "4": {
+        "MODERATOR": 262,
+        "mm_fg4_james": 219,
+        "mm_fg4_gregor": 667,
+        "mm_fg4_mark": 259
+      }
+    },
+    "consecutive_silent_turns": 0,
+    "consecutive_participant_turns": 0,
+    "last_speaker_id": "MODERATOR",
+    "last_engagement_round": [
+      {
+        "participant_id": "mm_fg4_gregor",
+        "wants_to_speak": true,
+        "urgency": 0.7,
+        "hook": "The moderator just asked if that thing about it being easier if it came from elsewhere lands for James and Mark \u2014 but nobody's actually answered yet. And there's something in what I said about my wife seeing it as criticism that I want to push back on myself, because I'm realizing I might be hiding behind that excuse.",
+        "addressed_to": null,
+        "intent": "respond"
+      },
+      {
+        "participant_id": "mm_fg4_james",
+        "wants_to_speak": true,
+        "urgency": 0.7,
+        "hook": "Gregor just said something about it being easier if the change came from somewhere else, from his wife deciding it \u2014 and I've been doing exactly that. I'm recognizing myself in what he's describing, but I'm also seeing a difference he might not have considered yet. He's waiting for permission, basically. And I've kind of given myself that permission by just doing it quietly. But that's its own kind of trap, isn't it? Because then you're still not actually owning it. You're just hiding it better.",
+        "addressed_to": "Gregor",
+        "intent": "affirm_and_elaborate"
+      },
+      {
+        "participant_id": "mm_fg4_mark",
+        "wants_to_speak": true,
+        "urgency": 0.7,
+        "hook": "Gregor just said something about it being easier if the change came from somewhere else \u2014 from his wife's decision rather than his own choice. That's hitting something real for me about the difference between having agency and just going along with things. I want to push back on that a bit, not harshly, but honestly \u2014 because I think there's a difference between 'easier' and actually better, and I'm not sure he's seeing that distinction.",
+        "addressed_to": "Gregor",
+        "intent": "challenge"
+      }
+    ],
+    "section_summaries": [
+      {
+        "section_index": 0,
+        "section_label": "Introduction and instructions",
+        "discussion_summary": "This section was purely introductory \u2014 participants located themselves geographically and socially, with Gregor volunteering an unprompted contrast between urban density and rural or suburban space. The only emergent theme was a sense of environmental pace and proximity: urban life as inescapable and immediate versus village or suburban life as offering breathing room. No substantive topic has yet been explored; the group is warming up rather than generating content.",
+        "strategy_summary": "The moderator's approach was appropriately light \u2014 establish ground rules, lower stakes, invite brief self-introductions, then pivot quickly to the first substantive question. Gregor's unsolicited elaboration was acknowledged but not pursued, correctly preserving momentum. The transition into the first real question (where men spend time with male friends) was clean and open-ended. No significant moderator challenges arose in this section."
+      },
+      {
+        "section_index": 1,
+        "section_label": "Opening discussion: male friendship and place",
+        "discussion_summary": "This section centred on the relationship between circumstance and preference in how men spend time with friends \u2014 specifically whether domestic, home-based socialising reflects genuine inclination or structural convenience. A productive tension emerged between urban noise as a push factor (driving Gregor outward) and work-from-home inertia as a pull factor keeping James in. Mark's suburban position \u2014 quieter, car-dependent, family-structured \u2014 offered a natural middle ground, reframing 'getting out' as logistically unremarkable rather than effortful.",
+        "strategy_summary": "The main move was redirecting to Mark after James and Gregor had developed a bilateral exchange, ensuring geographic diversity entered the record before the section closed. Gregor's challenge to James \u2014 distinguishing preference from convenience \u2014 was left to run without moderator intervention, which paid off: James revised his answer meaningfully. The transition into food decision-making was clean. The risk is that Mark's contribution, though useful structurally, was relatively thin and may warrant follow-up later."
+      },
+      {
+        "section_index": 2,
+        "section_label": "Everyday food decision-making",
+        "discussion_summary": "This section centred on how domestic context shapes eating \u2014 revealing a spectrum from Mark's fully collective, logistics-heavy household to Gregor's solitary, purely functional relationship with food. The animating tension was between eating as a social or relational act versus eating as mere refuelling, with Gregor's candid framing of food as 'just fuel' providing the section's sharpest theme: physical labour and long hours draining eating of any pleasure or meaning.",
+        "strategy_summary": "The main moves were opening to comparison (inviting Gregor and James to respond to Mark) and then returning to Gregor's 'fuel' remark for deliberate deepening. Both paid off \u2014 the comparison sharpened the spectrum, and the follow-up gave Gregor space to articulate something unusually direct about joylessness and isolation in eating. The transition into gender and food was clean. The risk is James remained relatively thin throughout; his contributions were sensible but surface-level."
+      },
+      {
+        "section_index": 3,
+        "section_label": "Gender and food choice",
+        "discussion_summary": "This section revealed that masculine norms around food operate as a suppression of preference rather than a reflection of it \u2014 men not merely indifferent to food quality but actively unable to voice wanting more without risking accusations of softness or ingratitude. The sharpest development was Gregor retracting his earlier 'fuel' framing, recasting it as performance rather than genuine attitude. Mark and Gregor converged on a shared bind: unexpressible need that accumulates silently.",
+        "strategy_summary": "The main moves were letting the Mark-Gregor bilateral run without interruption \u2014 which paid off significantly, producing Gregor's retraction of his 'fuel' position \u2014 then surfacing James before transitioning. The reframe offered ('needing things is itself the problem') helped Gregor articulate something he'd been circling. James's inclusion was necessary but thin; his contribution confirmed rather than complicated the emerging theme. The transition into plant-based was clean and appropriately abrupt, using the built tension productively."
+      },
+      {
+        "section_index": 4,
+        "section_label": "Imagining a plant-based shift",
+        "discussion_summary": "This section centred on the distinction between announcing a preference and asking others to absorb its consequences \u2014 a productive split that refined the earlier theme of unexpressible need. The sharpest development was Gregor separating his own reluctance (fear of opening an unwanted conversation about what's missing in his life) from Mark's genuine logistics burden, then articulating 'the boat' as a deliberate avoidance of intimacy rather than mere social performance.",
+        "strategy_summary": "The main move was surfacing a conceptual distinction the participants had been conflating \u2014 preference-announcement versus cost-transfer \u2014 which paid off immediately: Gregor self-corrected in real time, and the thread deepened into something more personal. Following 'not wanting to rock the boat' with a direct probe was the right call and produced the section's most revealing moment. The transition to the final question was appropriately brisk given time pressure."
+      }
+    ],
+    "moderator_turn_share_overall": 0.708,
+    "moderator_turn_share_recent": 0.9
+  },
+  "moderator_log": [
+    {
+      "turn": 0,
+      "timestamp": "2026-08-06T01:12:20.702806Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Session is initialising. No data yet. This decision covers the opening utterance only. The utterance must welcome the group warmly, establish light ground rules and psychological safety, and invite the first question naturally without signalling the specific research agenda. Three participants, all men in their early 50s from different UK settings. Tone should be warm and conversational \u2014 not procedural, not clinical.",
+      "action": "ask_initial_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Hi everyone, thanks so much for joining today \u2014 really glad you're here. My name's Alex, and I'm going to be guiding the conversation. We've got about 45 minutes together, and it's going to be recorded purely for research purposes, so you don't need to worry about taking notes or anything like that.\n\nThe main thing I'd say going in is: there are genuinely no right or wrong answers here. I'm not looking for any particular view, and I'm not going to be agreeing or disagreeing with anything you say \u2014 my job is just to listen and keep the conversation moving. What I'm really interested in is what you actually think and do, not what sounds like the sensible or correct thing to say. So the more honest and specific you can be, the more useful it is.\n\nThis is a group conversation, not an interview \u2014 so if something someone else says connects with your experience, or you see it differently, just jump in. You don't have to wait your turn, and you don't have to answer every question. Try to keep it relatively brief so there's room for everyone, but other than that, just talk to each other as naturally as you would normally.\n\nOkay, so let's get started. Let's go around and say your name and where in the UK you're coming from today.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": null
+    },
+    {
+      "turn": 2,
+      "timestamp": "2026-08-06T01:12:35.322343Z",
+      "trigger": null,
+      "situation_assessment": "James has introduced himself briefly \u2014 name and location, which is exactly what was asked. We're in the intro section, turn 2, and only James has spoken so far (Gregor and Mark haven't gone yet). The section is doing exactly what it should: participants are introducing themselves. No need to probe or intervene \u2014 the natural flow is for Gregor and Mark to follow with their own introductions. The word budget is nearly spent (224/250) but the turn budget (0/3) suggests the orchestrator hasn't logged participant turns yet. Regardless, the right move is to let the other two participants introduce themselves without moderator interruption. Gregor has high urgency to speak.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 3,
+      "timestamp": "2026-08-06T01:12:50.147289Z",
+      "trigger": null,
+      "situation_assessment": "Mark has now introduced himself \u2014 name, location, rural village in East of England. That completes the go-around: James and Mark have both spoken, Gregor has not yet introduced himself. Gregor's engagement signal shows high urgency to speak and it's simply his natural turn. The intro section is nearly at its word budget (242/250) and we've only used 1/3 turn budget. No probing needed \u2014 this is purely a completion of the round. Best move is to observe and let Gregor introduce himself naturally, as the go-around structure makes his turn self-evident.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "timestamp": "2026-08-06T01:13:08.547232Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Gregor has now introduced himself, completing the round. All three participants have spoken at least once \u2014 the intro section's primary goal is achieved. Gregor's response is warm and natural, drawing a contrast between urban Manchester and the others' settings, and even reaching out directly to Mark. This is exactly the kind of light rapport-building the intro section is for. The section is slightly over its word budget (274/250) but the turn budget (2/3) has room. The natural next move is to transition to Section 1 \u2014 the opening discussion question about favourite places to spend time with male friends. No probing is needed here; the intro has done its job.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Great \u2014 so we've got Manchester, South East suburbs, and a village in the East of England. Nice spread. Okay, let's get into it. I want to ask about where you actually spend time \u2014 specifically with your male friends. What's your favourite place to go, or to be, with the guys? Doesn't have to be anything fancy \u2014 wherever comes to mind.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 5,
+      "timestamp": "2026-08-06T01:13:34.338149Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "James has answered the Section 1 question \u2014 his social world with male friends is mostly domestic (home, beers, football on TV) with occasional pub visits to familiar locals. It's a genuine, specific answer. The section has only used 60/500 words and 0/8 turns, so there's plenty of room. But only James has spoken so far on this question; Gregor and Mark haven't yet. This is a context-building section where the goal is to map the range of experiences across all three men. The most useful thing right now is to let Gregor and Mark respond \u2014 their contexts (urban Manchester, rural East of England) are likely to differ from James's suburban work-from-home setup, and that contrast is exactly what this section is for. James's answer is specific enough that I don't need to probe further \u2014 the right move is to observe and let the others come in naturally.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "timestamp": "2026-08-06T01:13:58.139019Z",
+      "trigger": null,
+      "situation_assessment": "Gregor has responded to James's answer with a genuine contrast \u2014 he's out all day on site, comes home to an urban environment that isn't quiet, and so his pull toward going out is different from James's stay-at-home preference. More interestingly, he's turned it into a direct question to James: is the preference for being in actually a preference, or just inertia from working at home? This is a productive exchange \u2014 Gregor is doing exactly what a focus group should do, pushing James to examine his own answer more carefully. Mark hasn't spoken yet on this section question, and his rural context would be genuinely different from both. But the right move here is to observe: James has an open question directed at him and will almost certainly respond. Intervening now would interrupt a natural participant-to-participant dynamic. Let James respond to Gregor, and then assess whether to bring Mark in or let him self-select.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "timestamp": "2026-08-06T01:14:22.925483Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "James has given a genuinely honest and specific answer \u2014 he's acknowledged the distinction Gregor drew, admitted it's become a genuine preference (or has become one), and shown some real self-reflection. This is good material for the section. The participant-to-participant dynamic has worked well here. Mark hasn't spoken yet in this section, and his rural East of England context is likely to be meaningfully different from both James's suburban stay-at-home setup and Gregor's urban out-all-day situation. The section has used 281/500 words and 2/8 turns \u2014 there's room. The group question has been partially answered by two participants. The natural next move is to let Mark come in, either voluntarily or with a light invitation. The last engagement round shows Mark wants to speak (urgency 0.7) \u2014 he may self-select. But given he has only 20% of participation so far and his rural context is specifically flagged as important to protect, a light, warm invitation is appropriate if he doesn't immediately jump in. The conversation has a natural pause here \u2014 James has completed his thought, the exchange with Gregor is resolved. This is the right moment.",
+      "action": "reactivate_silent",
+      "target": "mm_fg4_mark",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Mark, sounds like you're in a pretty different setting from both of them \u2014 what does it look like for you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "timestamp": "2026-08-06T01:14:42.964968Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Mark has answered the Section 1 question well \u2014 he's given a specific, textured account of village life, the car-dependency, the teenagers structuring his week, the local pub and garden. Crucially, he's done something analytically useful: positioned himself in relation to the other two ('somewhere in the middle'). All three participants have now answered the section question with genuine specificity. The section has used 428/500 words and the guide question is substantively covered \u2014 James (suburban, WFH, home default), Gregor (urban, out all day, needs escape), Mark (rural, car-dependent, quieter pressure). The contrast across all three is clear. There's no strong signal to probe further; the section's purpose \u2014 mapping the range of experiences \u2014 has been served. The right move is to transition to Section 2.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Good, so three quite different setups \u2014 worth bearing in mind as we go. Let's shift to something related. Day to day, how do you all actually decide what to eat \u2014 what goes into that?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 9,
+      "timestamp": "2026-08-06T01:15:13.349308Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Mark has just given the first substantive answer to the Section 2 question \u2014 it's rich and specific, grounding food decisions in household logistics, cost, teenage preferences, and the division of planning/cooking labour with his wife. This is genuinely useful context material and meaningfully different from what James or Gregor are likely to offer (single or couple households, no teenagers mentioned). The section has 34/600 words used and 0/10 turns \u2014 this is the opening answer. James and Gregor both have hooks ready (from the last engagement round) and have not yet answered the section question. The right move is to open this to them \u2014 let them respond to Mark and share their own take. No need to probe Mark further right now; his answer is already specific and textured. The group question is open, and the other two need to come in.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "That's a really different picture from just picking what you fancy \u2014 it's a household negotiation more than a personal choice. Gregor, James \u2014 how does that compare to how you make those decisions?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "timestamp": "2026-08-06T01:15:40.509139Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Gregor has answered the section question with genuine specificity \u2014 transactional eating, wife handles planning, he grabs food on the way home from site. That's useful. But there's something more interesting in there: he's said the eating is 'a bit lonely' and 'just fuel, not much else to it.' That's an emotionally resonant moment, and it contrasts meaningfully with Mark's household-centred food dynamic. However, this is still the context section, and James hasn't yet answered the section question at all. The section has used 280/600 words and 1/10 turns \u2014 there's room, and James's perspective (WFH, living alone, no teenagers) is the missing third data point. His engagement round hook suggests he has something to say. The natural move is to let James come in \u2014 either by self-selecting or with a light pass. I should not probe Gregor's 'loneliness' comment deeply at this stage (context phase, not main topic), though it's worth noting for later. Gregor's comment about food as 'just fuel' is a potentially significant thread for Section 3 or 4. James should now contribute to complete the range-mapping for this section.",
+      "action": "invite_to_speak",
+      "target": "mm_fg4_james",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg4_gregor",
+        "rationale": "Gregor used the word 'lonely' to describe eating \u2014 an emotionally resonant cue worth following up once James has had his turn and the range-mapping is complete.",
+        "condition": "Gregor does not elaborate on the 'lonely' or 'just fuel' comment in the next turn."
+      },
+      "intervention_mode": "speak",
+      "utterance": "James, how does that land for you \u2014 sounds like your setup's probably different again?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "timestamp": "2026-08-06T01:16:01.530538Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "James has now answered the section question \u2014 shared house, no kids, informal rotation, WFH gives him a solo lunch, evenings are more communal. It's the third data point and completes the range: Mark (family logistics), Gregor (transactional/lonely), James (informal/low-friction). All three have answered the core question. Section has used ~491 words and all three voices are in. The section's mapping purpose is served. Gregor's 'lonely' / 'just fuel' emotional cue is still unresolved \u2014 the queued probe from turn 10 is pending, condition met (Gregor didn't elaborate further). However, the section is at 491/600 words with 2/10 turns used, which is misleading \u2014 the turn count is low but the word budget is nearly spent. The question is whether to probe Gregor's emotional cue before transitioning, or transition now. Gregor's 'lonely' comment is analytically significant and could open useful territory for Section 3 (gender, food, isolation). A brief, light probe is warranted \u2014 not to go deep (this is still context phase) but to capture something specific before moving on. One light probe to Gregor, then transition.",
+      "action": "direct_probe",
+      "target": "mm_fg4_gregor",
+      "probe_type": null,
+      "follow_up_intensity": "light",
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Once Gregor responds to the 'lonely/fuel' probe, the section will be sufficiently covered and word budget nearly exhausted. Move to Section 3.",
+        "condition": "Gregor responds to the probe."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Gregor, you said something earlier \u2014 that eating had become 'just fuel, not much else to it.' What do you mean by that?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 12,
+      "timestamp": "2026-08-06T01:16:21.303512Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Gregor has now fully unpacked what he meant by 'just fuel' \u2014 the physical exhaustion, the solo eating, the absence of pleasure or connection. It's specific, honest, and emotionally textured. The section is over its word budget (698/600) and has served its mapping purpose: all three men have described their food decision-making contexts with sufficient specificity. The queued next action from turn 11 was section_transition once Gregor responded to the probe \u2014 that condition is now met. The question is whether to linger here or move. Gregor's answer is complete and self-contained; he's explained himself clearly and landed the point himself ('that's what I meant'). Probing further would risk pushing into therapy register in a context section, and the emotional content is already on record. The section has done its job. The right move is a clean, warm transition into Section 3 \u2014 which will naturally pick up the threads of what eating means to each of them, including Gregor's isolation, in a more analytically focused way.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Yeah, that makes sense \u2014 there's a real difference between eating as something you do together and eating as something you just get through. Okay, let's move on to something related. I want to ask you all something a bit more direct: do you think being a man influences what you eat? Why, or why not?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 13,
+      "timestamp": "2026-08-06T01:17:00.411240Z",
+      "trigger": null,
+      "situation_assessment": "Mark has just given the first response to Section 3's guide question ('Do you think your gender influences what you eat?'). His answer is substantive and analytically rich: he distinguishes between the cultural expectation not to fuss about food ('just eat it') and his actual lived responsibility (feeding his kids, providing). He identifies a gap between what's expected of him as a man and what he actually does. He also introduces a rural/generational dimension \u2014 the old-fashioned gender division around shopping and cooking still operating in his village. His closing line is sharp: 'it's more about what's expected of you than what you actually prefer, isn't it?' This is a genuine provocation to the group \u2014 a distinction between expectation and preference. None of this has been explicitly corroborated or challenged by Gregor or James yet. The section has used 55/900 words and 0/14 turns. The natural move is to let this land and invite Gregor and James to respond \u2014 Mark's framing of expectation vs. preference is the kind of productive opening that the group should be reacting to, not me. This is a strong opening turn; the group just needs to take it. I should not speak here. The floor should go to Gregor and James \u2014 ideally to each other.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "timestamp": "2026-08-06T01:17:34.770711Z",
+      "trigger": null,
+      "situation_assessment": "Gregor has just built directly and richly on Mark's framing \u2014 he's confirmed the expectation/preference distinction from his own experience, added the on-site masculine peer pressure dynamic ('you'd get a bit of stick'), and then done something analytically significant: he's admitted that what he calls 'fuel' is partly a performance \u2014 an easier thing to admit to than actual preference. He's also introduced a new thread: the fear of seeming 'soft' or 'not coping' if he expressed wanting something more from a meal, even to his wife. This is emotionally textured and substantively rich. James has not yet spoken in this section. The section has used 317/900 words and only 1/14 turns. Both Mark and Gregor have now offered genuine, specific content on the guide question. James is the only one who hasn't weighed in yet. The natural dynamic here is that Gregor has addressed Mark directly \u2014 James may well want to build on this himself. The `last_engagement_round` shows James has urgency 0.65 and wants to affirm and elaborate on Mark's point. If I speak now, I interrupt what could be a productive three-way conversation that is developing organically. The floor should go to James \u2014 but not via me. The discussion is actively advancing the guide question. Both participants are building on each other. The group doesn't need me right now. Observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "timestamp": "2026-08-06T01:18:08.650821Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Mark has just built directly on Gregor's turn, confirming the shared experience of wanting something more from meals but being unable to say it without it feeling like overstepping or weakness. The two are in productive, genuine exchange \u2014 Mark's framing of 'that's not your department' and 'you just accept whatever happens' deepens the expectation/preference distinction he opened the section with. This is exactly what Section 3 needs: specific, emotionally honest material on how gender shapes actual behaviour around food. The conversation is advancing the guide question well. James has still not spoken in this section at all \u2014 he's the only one. His engagement round data shows urgency 0.7 and a clear hook: he wants to acknowledge a similar performance in his own 'not thinking about it much' framing. The section has 367/900 words remaining and 12/14 turns. The participation imbalance is real but not yet critical \u2014 two turns in, three-person group. The risk of speaking now is interrupting a thread that could naturally draw James in on his own. However, looking at the dynamic: Mark has just addressed Gregor ('you're right, Gregor') and the exchange has reached a natural resting point \u2014 Mark's closing 'it just comes out in how you act about it, doesn't it?' is an implicit invitation to the group, not a direct question to Gregor. This is a natural juncture. If James doesn't self-select, he may remain absent from this section's record. But the group is still warm and flowing. I should observe one more turn to see if James enters voluntarily \u2014 his urgency is genuine and the hook is there. The floor belongs to him if he takes it.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "invite_to_speak",
+        "target": "mm_fg4_james",
+        "rationale": "James has not spoken in this section. Mark's closing line ('it just comes out in how you act about it, doesn't it?') is a natural group prompt. If James doesn't self-select on the next turn, a warm invitation is warranted before the bilateral exchange between Mark and Gregor solidifies into the section's only record.",
+        "condition": "James does not speak on the next turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "timestamp": "2026-08-06T01:18:44.893144Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Gregor has just pushed the Mark-Gregor bilateral exchange into more emotionally raw territory \u2014 explicitly naming the feeling that his needs 'don't matter' and framing the situation as being 'not allowed to have needs'. This is substantively important for the guide question (gender shaping what he eats, specifically via suppression of preference), but it has shifted register: it's moving from food into a broader articulation of masculine self-suppression and domestic inequity. The content is still analytically relevant \u2014 this is exactly the 'expectation vs. preference' thread Mark opened \u2014 but the emotional temperature has risen. Gregor's framing ('you're not supposed to have needs, just carry on') is reaching toward something generalised and almost grievance-like, which risks taking the group further from food-specific material. James has still not spoken in this section at all. The section has used 781/900 words and only 3/14 turns \u2014 but words are nearly spent. The bilateral Mark-Gregor exchange has produced rich content but James is entirely absent. The queued next action from turn 15 was to invite James if he didn't self-select \u2014 he hasn't. The section's word budget is nearly exhausted. I need to do two things simultaneously: honour the emotional register Gregor has brought, and use this as a natural pivot point to bring James in before the section closes. This is not a moment to probe deeper into Gregor's emotional state \u2014 that risks the session becoming therapeutic and the food research objective getting lost. Nor should I redirect away from the emotional content entirely \u2014 that would feel dismissive. The right move is a warm, brief acknowledgement of what's been said, then turning to James \u2014 not to redirect away, but to ask whether any of this lands for him. This brings James into the record, broadens the data point beyond a bilateral exchange, and gives Gregor a moment to step back from the elevated register without it feeling cut off. The conflict/tension signal here is not interpersonal conflict between participants \u2014 it's internal emotional pressure in Gregor's response. The principle still applies: acknowledge before redirecting, reframe toward the topic, give Gregor space without probing him further on the raw content.",
+      "action": "invite_to_speak",
+      "target": "mm_fg4_james",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 3 word budget is nearly exhausted and the core guide question has been well-covered. After James responds, transition to Section 4 unless James introduces genuinely new material that warrants one follow-up.",
+        "condition": "James responds and does not introduce a major new angle requiring further probing."
+      },
+      "intervention_mode": "speak",
+      "utterance": "There's something in that \u2014 this idea that needing things is itself the problem, not the thing you need. James, you've been listening to all of this \u2014 does any of it ring true from where you sit?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "timestamp": "2026-08-06T01:19:11.450620Z",
+      "trigger": "section_complete",
+      "situation_assessment": "James has now entered the section record. His contribution is genuine and adds something specific: his household setup (three adults, no kids, no relationship dynamic) gives him more practical freedom to cook or express preference, but he still feels the same unspoken norm \u2014 'you shouldn't care too much about it.' He explicitly echoes Gregor's 'fuel' framing and closes with 'that's just how it is for us, isn't it? Not really something you question.' That closing line is worth noting \u2014 it naturalises the norm rather than questioning it, which is a mild form of premature closure. However, the section is already over its word budget (1025/900 words) and the core guide question has been well-covered: all three participants have addressed whether gender influences their food choices, with Mark and Gregor providing rich, specific, emotionally grounded content, and James confirming the unspoken norm from a different household context. The suggested probes for Section 3 \u2014 social acceptability of vegetarian/vegan foods, and masculine/feminine food associations \u2014 have not been touched. But given the word budget is exhausted and the emotional register has been elevated, forcing those probes now would feel mechanical. The more valuable move is to transition to Section 4, which picks up directly from where this conversation has arrived: the gap between what these men actually want from food and what they allow themselves to have. That transition will feel natural rather than abrupt. The conflict/tension signal in the constraints is flagged, but reviewing the transcript, there is no interpersonal tension or directed aggression between participants \u2014 Gregor's emotional register was elevated (feeling his needs don't matter) but it wasn't directed at anyone in the room, and the group has handled it without friction. The flag may have been triggered by the emotional temperature of Gregor's turn 16. I should acknowledge what James said briefly and move into Section 4 in a way that feels like a continuation, not a break.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "There's something interesting across all three of you \u2014 this gap between what you'd actually want and what you feel like you're allowed to want, or say out loud. Let me take that somewhere. Imagine you decided to go properly plant-based \u2014 no meat, no animal products. What would actually need to change in your life for that to be possible?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 18,
+      "timestamp": "2026-08-06T01:20:01.287439Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "James has just given a genuinely strong response to the Section 4 guide question. He's distinguished between the practical ease of going plant-based and the social/identity cost of having to say it out loud \u2014 framing the real barrier as owning a preference publicly, not logistics. This is exactly the kind of behavioural-level insight the section is designed to surface. It also connects directly to the Section 3 material: the unspoken norm that men don't announce food preferences. His line 'then it becomes a thing' and 'the saying it out loud side' is analytically rich. Reviewing the conflict/tension signal: the system has flagged it, but reviewing the actual transcript content, there is no interpersonal tension or directed aggression here. James's response is reflective and self-directed, not aggressive toward another participant or the moderator. The elevated emotional temperature from Gregor in Section 3 has not carried through \u2014 James's tone is measured and even slightly wry. The conflict flag appears to be a residual carry from Section 3's elevated register. I should not treat this as a live conflict situation. The right move here is to open this to Gregor and Mark, who both have high urgency to respond (0.7 and 0.65 respectively) with hooks that add something different: Gregor sees this as the 'practical test case' that forces the real conversation; Mark is thinking about household implementation friction with teenagers. James's point about 'saying it out loud' is exactly the kind of thing that will generate differentiated reactions \u2014 Gregor and Mark's domestic situations differ from James's (no kids, three adults). This is a natural redirect_to_group moment. The section is only 59 words in; we have substantial budget remaining and this is the first substantive contribution. I should not probe James individually yet \u2014 redirect to the group to see if the others' experiences diverge from or confirm his framing. The section budget is ample (59/900 words, 0/14 turns) and the guide question is just opening up.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg4_mark",
+        "rationale": "Mark's household context \u2014 teenagers, collective decision-making \u2014 means the 'saying it out loud' framing will land differently for him. He's also signalled urgency around implementation friction. Worth drawing out specifically if he doesn't respond directly to the redirect.",
+        "condition": "Mark does not speak or gives only a brief confirmation without developing his own angle."
+      },
+      "intervention_mode": "speak",
+      "utterance": "James, that distinction between just doing it quietly and actually saying it \u2014 that's interesting. Gregor, Mark, does that resonate with how you'd see it, or would it work differently for you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "timestamp": "2026-08-06T01:20:39.828003Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Gregor has given a rich, specific response that advances the section's guide question significantly. He's differentiated his situation from James's in two distinct ways: (1) the domestic dimension \u2014 his wife does the cooking, so a food change becomes an interpersonal negotiation about labour and potential criticism; (2) the social/occupational dimension \u2014 eating with workmates on building sites means there's no such thing as 'quietly' changing. This is exactly the kind of specific, contextualised answer the section is designed to surface. It directly responds to the redirect I issued and builds on James's framing in a way that complicates it rather than simply confirming it. The conflict/tension flag in the constraints seems residual from Section 3 \u2014 there is no interpersonal directed aggression in Gregor's response. He's being candid and specific, not hostile. His register is measured and self-analytical, not elevated in a concerning way. The emotional signal on file (about admitting vulnerability as 'soft') is relevant context but his actual words here are practical rather than raw. The deferred contradiction notice is live: Gregor originally said food was 'just fuel', which he himself partially retracted in Section 3 by calling it a performance. His current response \u2014 detailing how much his food choices are shaped by relational dynamics, domestic politics, and social visibility \u2014 is further evidence that the 'fuel' framing was a performance. However, surfacing that contradiction now would be a misfire: he's already effectively resolved it himself in Section 3, the group has moved forward, and reopening it mid-Section 4 would drag us backwards rather than deepening where we are. The contradiction is functionally resolved even if not formally logged as such. What the discussion needs now is to bring Mark in. Mark has high urgency (0.65) and a specific hook: teenagers in the house create a third-party dimension that neither James nor Gregor has mentioned \u2014 it's not just about the couple dynamic, it's about what the kids hear and how that reshapes the social calculus. Mark's rural/village context may also produce different workmates/social dynamics from Gregor's building site. The queued action from turn 18 was to direct_probe Mark if he didn't respond to the redirect \u2014 he hasn't yet (this is Gregor responding). The section has strong material from James and Gregor; Mark's contribution would complete the three-way picture. With 309/900 words used and substantial budget remaining, this is the right move. I'll redirect briefly to Mark without summarising what's been said \u2014 just give him the floor with a light touch tied to something specific in his situation.",
+      "action": "direct_probe",
+      "target": "mm_fg4_mark",
+      "probe_type": null,
+      "follow_up_intensity": "medium",
+      "queued_next_action": {
+        "action": "synthesize_and_challenge",
+        "target": "group",
+        "rationale": "Once Mark has responded, the three-way picture will be complete enough to attempt a synthesis and complication \u2014 specifically around whether the barrier is really about 'saying it out loud' or whether it's something more structural about who has the power to make food choices at all.",
+        "condition": "Mark responds and does not introduce a major new angle that requires a further individual probe first."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Mark, you've got teenagers in the house \u2014 does the dynamic Gregor's describing feel familiar, or does it work differently when there are kids in the picture?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "timestamp": "2026-08-06T01:21:14.712469Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "Mark has given a full, well-structured response that directly answers the guide question. He's added two genuinely novel dimensions: (1) the multi-vector household logistics problem \u2014 not just managing his wife's labour but managing children's picky eating on top of it, creating a compounding complexity Gregor didn't name; (2) the kids' perception dimension \u2014 'Dads don't do that sort of thing, in their heads' \u2014 which is a specifically generational or identity-transmission angle that neither James nor Gregor raised. He also confirms and builds on the James/Gregor convergence point: the doing is easy, the owning-it-publicly is hard. The section now has strong, differentiated contributions from all three participants. The conflict/tension flag in the constraints appears residual \u2014 reviewing Mark's actual words, there is no interpersonal aggression or directed tension here. His register is reflective and practical. The emotional signal on file ('overstepping', 'a bit soft') is from an earlier section; his current turn is measured and analytic. I should not treat this as a live conflict situation requiring acknowledgment or de-escalation. The constraint says not to ignore and move on, but the correct reading is that if real tension exists, I shouldn't pretend it doesn't \u2014 not that I should manufacture acknowledgment of tension that isn't present in this turn. Acting as if there's conflict when there isn't would be false and condescending. What the section needs now: we have three strong responses to the opening question, with a clear emerging theme \u2014 the real barrier is the social/relational cost of publicly owning a preference, compounded by domestic labour dynamics and identity expectations. The queued action from turn 19 was synthesize_and_challenge once Mark responded. That condition is now met. The synthesis worth attempting: all three have converged on 'saying it out loud' as the hard part \u2014 but there's a genuine complication worth surfacing: in Gregor and Mark's cases, it's not just about saying it to friends or workmates, it's about redistributing domestic labour and reordering someone else's life. That's not just social awkwardness, it's a structural constraint. Worth testing whether they see these as the same thing or different. Budget: 600/900 words, 2/14 turns \u2014 ample room to synthesize and probe. Consensus risk is moderate \u2014 the convergence on 'saying it out loud' is genuine across all three but may be covering over meaningful differences (James: social identity; Gregor: domestic labour politics; Mark: multi-person household logistics plus children's identity expectations). A synthesis that names the convergence and then complicates it is the right move.",
+      "action": "synthesize_and_challenge",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": "medium",
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg4_gregor",
+        "rationale": "Gregor's domestic situation \u2014 wife does the cooking, building site lunches \u2014 makes him the most structurally constrained of the three. Worth probing whether he sees the social/identity barrier and the domestic-labour barrier as the same problem or as two separate things, since the synthesis may gloss over that distinction.",
+        "condition": "Group response does not sufficiently differentiate between the social identity cost and the structural/domestic labour dimension."
+      },
+      "intervention_mode": "speak",
+      "utterance": "I'm hearing something that runs across what all three of you are saying \u2014 the practical side of going plant-based doesn't seem to be the main obstacle. It's more about what it means to say it out loud, to own it as something that matters to you. But I wonder if there are actually two different things getting bundled together there. For James, it sounds like it's mainly about announcing a preference \u2014 which men aren't supposed to do. But for you and Gregor, Mark, it's not just announcing a preference \u2014 it's asking someone else to absorb the consequences of it. Your wife reorganises the shopping and the cooking, the kids' meals get more complicated. Is that the same thing as James's problem, or is that something harder?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 21,
+      "timestamp": "2026-08-06T01:21:49.704554Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "Gregor has just done something analytically significant: he's voluntarily differentiated his situation from Mark's, and in doing so, named his own barrier more precisely \u2014 not logistics, but 'feeling like I shouldn't want things that are different from what's expected.' That's a sharper, more honest articulation than anything he's offered before on this topic, and it connects directly to the Section 3 material about unexpressible preference. The deferred contradiction notice flags Gregor's original 'just fuel' framing versus his later retraction, but reviewing the arc of the session: Gregor effectively resolved this himself in Section 3 when he called the 'fuel' narrative a performance, and now in this turn he's gone even further \u2014 naming the real dynamic as not wanting to rock the boat rather than genuine indifference. The contradiction is functionally resolved. Surfacing it now via reflect_contradiction would be backwards-looking and would interrupt a forward-moving thread. The conflict/tension flag appears to be a system residual from Section 3 \u2014 there is no interpersonal tension in Gregor's current turn. His register is self-correcting and reflective, not elevated or directed at anyone. The emotional signal on file is from earlier; his actual words here are measured and analytical. Treating this as a conflict situation would be false and condescending. The word budget is technically over (985/900) but this is the first genuinely deep engagement with the section's core question \u2014 all three participants have now given rich, differentiated answers. The section is not exhausted; we're actually at a productive peak. However, with ~41 minutes elapsed and two more sections remaining, I need to be efficient. Gregor's final line \u2014 'just me not wanting to rock the boat' \u2014 is the most honest formulation he's given all session about why he suppresses preference. It would be worth a brief, light probe: what does 'rocking the boat' actually mean in this context? But I should be concise. The more important signal is that this section has reached its natural resolution point \u2014 all three have clearly differentiated their situations, and the guide question has been answered with specificity and depth. The suggested probes ('how would family and friends react' and 'how might it change shopping or cooking') have been substantially covered through the discussion. The right next move is a brief, light probe on Gregor's 'rocking the boat' line \u2014 it's the sharpest thing said in the section and deserves one beat of attention \u2014 then transition to Section 5. I won't probe deeply given time pressure; just one light question, then move.",
+      "action": "direct_probe",
+      "target": "mm_fg4_gregor",
+      "probe_type": null,
+      "follow_up_intensity": "light",
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 4 guide question has been answered in depth and with genuine differentiation across all three participants. Time budget is over. Move to Section 5 once Gregor has responded to this probe.",
+        "condition": "Gregor responds \u2014 regardless of what he says, transition to Section 5 immediately after."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Gregor, that last bit \u2014 'not wanting to rock the boat' \u2014 what does that actually mean for you? What's the boat?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "timestamp": "2026-08-06T01:22:15.918772Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Gregor has just said something genuinely significant \u2014 and more personal than anything in the session so far. He's moved from 'not wanting to rock the boat' as a metaphor into something much more specific: a fear that naming what's missing opens a conversation about what's actually wrong, and he doesn't know where that goes. This is not about food anymore; it's about a domestic life he suspects is 'not fine' but has chosen not to examine. The emotional register here is real and deserves respect. The conflict/tension flag in the constraints appears to be a system residual \u2014 there is no interpersonal conflict or directed aggression in this turn. Gregor is being unusually candid and reflective, directed inward, not at anyone. The instruction not to probe the most activated person and to address the group rather than the individual is well-intentioned but would misfire here: this is not a conflict situation, it's a moment of personal honesty that deserves a brief, warm acknowledgment before I move on. The deferred contradiction notice (fuel as performance vs. genuine preference) is now fully resolved in the substance of what Gregor has just said \u2014 he's explicitly named the dynamic himself: 'this is how it is, and it's fine, and we don't need to change it or talk about what we actually want.' Surfacing the contradiction now would be analytically redundant and emotionally clumsy given the register of his response. The queued action from turn 21 was section_transition after Gregor responded, regardless of what he said. That condition is met. The section is well over word budget (1219/900) and time is critically short (~43.8 of 45 minutes). We have two sections remaining (5 and 6) and must move. However, Gregor has just opened something personal enough that a cold pivot would feel dismissive. The right move is a very brief, warm acknowledgment of what he's named \u2014 not a probe, not an invitation to go deeper \u2014 and then a clean transition to Section 5. One sentence of acknowledgment, one sentence of transition. Keep it light and human.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Yeah. That's an honest answer, Gregor \u2014 the boat being the whole arrangement, not just the food. That makes sense. Let's keep moving, because I want to make sure we get to the last couple of things before we run out of time. Thinking about all of that \u2014 the saying it, the owning it, the conversations it might open \u2014 what do you think might actually make plant-based food more appealing to you, or to other men you know? Not just in theory, but in practice.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 23,
+      "timestamp": "2026-08-06T01:23:01.371780Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Gregor has just given a rich, differentiated response to the Section 5 opening question. He's offered three distinct layers: (1) a practical acknowledgment that taste and satiety matter but aren't the real barrier; (2) the 'conversation' as the true obstacle \u2014 the act of publicly owning a preference; (3) a genuinely revealing escape hatch \u2014 if the decision came from outside (his wife's health reasons, a household shift), he wouldn't have to 'own' it as his choice. This third point is analytically significant and new: it's not just about social awkwardness, it's about the possibility of change happening passively, without self-exposure. His closing line \u2014 'at my age, you've sort of settled into how things are' \u2014 is a resigned framing that could be explored but may also be a soft closing of the door on the topic. The deferred contradiction (fuel as performance) is now so thoroughly resolved through Gregor's own words across Sections 3 and 4 that surfacing it via reflect_contradiction would be analytically redundant and temporally backwards. He's already said it himself, more clearly than the original contradiction framing captured. The conflict/tension system flag appears to be a persistent residual \u2014 there is no interpersonal conflict or directed aggression in this turn. Gregor is reflective and candid, directed inward. Applying conflict management protocols here would be a category error and would feel patronising. The emotional register flag is more relevant: he's been unusually honest, and his final lines carry real weight. But this is now Section 5 and time is critically over budget (est. 46.5 of 45 minutes). The most important thing is: James and Mark have not yet spoken in this section. They both indicated they wanted to speak (per last engagement round). Gregor has answered richly; the right move is to redirect to the group \u2014 specifically to bring in James and Mark, who may have different takes. James's urgency hook ('it's not about the food at all \u2014 it's about whether you can actually want something without it feeling like a threat to the whole setup') and Mark's ('I've got a real answer based on how things actually work in my house') both suggest they have genuine, potentially differentiated contributions. The redirect should echo Gregor's 'passive change' insight \u2014 the idea that change feels more possible if it comes from outside rather than from you declaring a preference \u2014 and open it to the others. This is the most productive move: it captures Gregor's key insight without over-synthesising, and it opens the floor to the two participants who haven't yet spoken in this section. I should not probe Gregor further; he's given a lot and the group needs to move. Do not apply conflict protocols \u2014 there is no conflict here.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 5 is already over time budget. Once James and Mark have contributed, transition to Section 6 closing remarks.",
+        "condition": "James and Mark have both spoken in this section."
+      },
+      "intervention_mode": "speak",
+      "utterance": "That thing you said, Gregor \u2014 about it being easier if it came from somewhere else, if it was just what the household was doing rather than something you'd decided \u2014 does that land for either of you? James, Mark?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "timestamp": "2026-08-06T01:23:32.233633Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "James has just done something analytically significant and unusually self-aware: he's identified the structural equivalence between his own strategy (doing it quietly) and Gregor's (waiting for someone else to decide). Both are avoidance of the same thing \u2014 having to say 'this matters to me.' This is a genuine contribution to the section's guide question, not a tangent. The conflict/tension flag appears to be a system residual \u2014 there is nothing interpersonally aggressive or directed here. James is being reflective and candid, directing his critique at himself as much as at Gregor. His final line ('I'm just hiding it better') is self-deprecating, not accusatory. Applying conflict protocols would be a category error and would feel patronising and tone-deaf. Mark has not yet spoken in this section. His urgency hook suggested he wanted to push back on Gregor's passive-change framing \u2014 and James has now developed that line independently. Mark may have something differentiated to add, particularly given his rural/practical background and his earlier framing of agency. James and Gregor have now both spoken; Mark is the only one who hasn't contributed in Section 5. The queued action from turn 23 was to transition to Section 6 once James and Mark have both spoken. James has spoken. Mark hasn't. The right move is to bring Mark in \u2014 not with a heavy probe, but a light invitation to respond to what James has just said. The section is already over time budget. One more turn from Mark, then close. I should not speak at length \u2014 just a warm, brief pass to Mark.",
+      "action": "invite_to_speak",
+      "target": "mm_fg4_mark",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 5 is well over time budget. Once Mark has spoken, move to Section 6 closing remarks immediately.",
+        "condition": "Mark responds \u2014 regardless of content, transition to Section 6 after."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Mark, what do you make of that?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    }
+  ],
+  "transcript": [
+    {
+      "turn": 0,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Hi everyone, thanks so much for joining today \u2014 really glad you're here. My name's Alex, and I'm going to be guiding the conversation. We've got about 45 minutes together, and it's going to be recorded purely for research purposes, so you don't need to worry about taking notes or anything like that.\n\nThe main thing I'd say going in is: there are genuinely no right or wrong answers here. I'm not looking for any particular view, and I'm not going to be agreeing or disagreeing with anything you say \u2014 my job is just to listen and keep the conversation moving. What I'm really interested in is what you actually think and do, not what sounds like the sensible or correct thing to say. So the more honest and specific you can be, the more useful it is.\n\nThis is a group conversation, not an interview \u2014 so if something someone else says connects with your experience, or you see it differently, just jump in. You don't have to wait your turn, and you don't have to answer every question. Try to keep it relatively brief so there's room for everyone, but other than that, just talk to each other as naturally as you would normally.\n\nOkay, so let's get started. Let's go around and say your name and where in the UK you're coming from today.",
+      "timestamp": "2026-08-06T01:12:20.702891+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 2,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "James, and I'm from just outside, well, South East really \u2014 suburban bit. Been here quite a while now.",
+      "timestamp": "2026-08-06T01:12:35.321842+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 3,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Mark. I'm up in the East of England \u2014 village area, quite rural really. Been here for a good while as well. Bit quieter than the suburbs, I'd say, but it suits us.",
+      "timestamp": "2026-08-06T01:12:50.146838+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Gregor, North West \u2014 urban Manchester area. Yeah, it's quite different from what you two are describing, I reckon. I mean, don't get me wrong, I'm not far out but it's proper busy round here. Things are packed in tighter, you know? More traffic, more people. You can't really escape it like you can in a village or even the suburbs. It's just the pace of everything \u2014 everything's quicker, louder. You go out your door and you're straight into it. Whereas I imagine where you are, Mark especially, you've got a bit of room to breathe.",
+      "timestamp": "2026-08-06T01:13:08.546232+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Great \u2014 so we've got Manchester, South East suburbs, and a village in the East of England. Nice spread. Okay, let's get into it. I want to ask about where you actually spend time \u2014 specifically with your male friends. What's your favourite place to go, or to be, with the guys? Doesn't have to be anything fancy \u2014 wherever comes to mind.",
+      "timestamp": "2026-08-06T01:13:08.547357+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Well, honestly, a lot of it's just at home these days. I work from home, so by the time the evening comes round, I'm not desperate to get out the door again. We'll have a few beers, watch something on the telly \u2014 football usually on a Saturday. There's a couple of pubs locally I'll go to, nothing special about them, just know the people in there. But yeah, mostly it's just... being around the house, isn't it. Quieter that way.",
+      "timestamp": "2026-08-06T01:13:34.337368+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, I get that \u2014 staying in and keeping it simple. But for me it's different because I'm out all day anyway, right? Working on site, driving back and forth, so by the time I'm home I've already had enough of being around. But here's the thing \u2014 even when I am at home trying to have a quiet night, it's not really quiet, is it? You've got traffic outside, neighbours, just... it's never really off. So I'd probably want to get out more than you would, just to actually find some peace. \n\nThough I don't know, maybe you're settling into it a bit. Do you actually prefer being in, or is it just easier because of the work-from-home thing? Because there's a difference, I reckon. Being in because you want to is one thing. Being in because that's what happens... that's different.",
+      "timestamp": "2026-08-06T01:13:58.138386+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah, fair point. If I'm honest, it's probably a bit of both. The work thing means I don't need to go anywhere, so that's the easier option, but... I do actually quite like it that way. I mean, by the time I've been working here all day, I'm not bursting to get out. But you're right, there's something about just staying put \u2014 it suits me. Don't get me wrong, I'll go out when there's something on, match or a trip somewhere, but the default is just... home. And I think I've settled into that. Which is fine by me, but yeah, I wasn't being entirely straight about whether it was the convenience or what I actually prefer. It's the preference really. Or it's become the preference, anyway.",
+      "timestamp": "2026-08-06T01:14:22.924824+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Mark, sounds like you're in a pretty different setting from both of them \u2014 what does it look like for you?",
+      "timestamp": "2026-08-06T01:14:22.925587+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Well, I work pretty locally \u2014 just down the road, less than two kilometres, so that helps. But honestly, with two teenagers at home, the week's quite structured around their stuff \u2014 school runs, activities, that sort of thing. So it's not like I've got loads of free time just sitting about.\n\nAs for the guys, yeah, we'll meet up at the pub sometimes, local one in the village. Nothing fancy. Or sometimes just at someone's house \u2014 might watch the match, have a few drinks. It's not like we're doing anything special, just... being around. The difference for me though is the driving \u2014 because nothing's really on your doorstep out here, you're ferrying people about anyway, so actually getting out to meet someone isn't as much of a pain. It's just another trip in the car, isn't it?\n\nBut I wouldn't say I'm desperate to be out all the time either. Home's fine. The garden keeps me busy enough if I'm being honest \u2014 always something needs doing. I think I'm probably somewhere in the middle of what you two are saying. I'm not stuck at home like James, but I'm not fighting to escape the noise like you are, Gregor. It's just... quieter, so you don't feel the pressure of needing to get away from it.",
+      "timestamp": "2026-08-06T01:14:42.963898+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Good, so three quite different setups \u2014 worth bearing in mind as we go. Let's shift to something related. Day to day, how do you all actually decide what to eat \u2014 what goes into that?",
+      "timestamp": "2026-08-06T01:14:42.965073+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Right, so for me it's a bit more complicated because you've got four of us in the house, and two of them are teenagers. So it's not just what I fancy or what's healthy or whatever \u2014 it's what the kids will actually eat, what fits the budget, what my wife's planned, and then fitting it around everyone's timetable because they're doing different things on different nights.\n\nSome nights one of them's at a club or training, so you can't do a sit-down meal. Other nights we all need to eat at roughly the same time. So a lot of it is just... logistics, really. You plan around that. And then there's the teenager factor \u2014 they've got their preferences, which are usually chips or pizza or something quick. You can't just decide on the day. My wife tends to do most of the planning side of it, but I'll do some of the cooking and shopping, so we're both juggling it.\n\nCost is a factor too. With two kids to feed, you're not just buying what's nice \u2014 you're looking at what's going to stretch. So it's less about how I decide what to eat and more about how we collectively decide what works for the week. Bit different from just choosing for yourself, I'd imagine.",
+      "timestamp": "2026-08-06T01:15:13.348454+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a really different picture from just picking what you fancy \u2014 it's a household negotiation more than a personal choice. Gregor, James \u2014 how does that compare to how you make those decisions?",
+      "timestamp": "2026-08-06T01:15:13.349429+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, well for me it's... I mean, I live with two other adults, so it's not quite the same as just me, but it's nowhere near what you're dealing with, Mark. Nobody's got different schedules or preferences I'm having to work around \u2014 we just sort of eat what's there, really. \n\nMy wife might do the planning, to be fair, but I'm not that involved in it day to day. I'm out early, back late most nights, so by the time I'm home I just eat what's been sorted. If I'm working late on site I might grab something on the way back, something quick. It's all a bit transactional, if I'm honest. Not much thought goes into it on my end.\n\nBut hearing you describe it, Mark \u2014 that's a different kind of pressure, isn't it? You've actually got to think about other people, plan ahead. What I've got is... I don't know, it's quieter in that way, but sometimes I think it makes the eating bit a bit lonely. You know what I mean? Just fuel really, not much else to it. Whereas you've got to sit down with the kids, sort it out together. That's different.",
+      "timestamp": "2026-08-06T01:15:40.507830+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "James, how does that land for you \u2014 sounds like your setup's probably different again?",
+      "timestamp": "2026-08-06T01:15:40.509335+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah, it's a bit different. I mean, there's three of us in the house, but nobody's got kids or anything, so it's not like Mark's got going on. We just sort of... work it out between us, really. Some nights one of us will cook, other nights someone else will do it. Not much planning involved. If something needs doing, you just get on with it.\n\nTo be honest, I don't think about it much. You eat when you're hungry, don't you. There's food in the cupboards, fridge, you make something. Nobody's got fussy preferences or anything like that, so it's straightforward. Nothing like what you're describing, Mark \u2014 that sounds like a full-time job on top of the actual job.\n\nI suppose the only thing is, working from home, I'm the one who might break for lunch in the middle of the day, whereas the others are out. So sometimes I'll just have something quick \u2014 sandwich, bit of leftovers. Evening time is more of a shared thing. We'll eat together most nights, but it's not like there's this big logistics puzzle to sort out first.",
+      "timestamp": "2026-08-06T01:16:01.529609+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Gregor, you said something earlier \u2014 that eating had become 'just fuel, not much else to it.' What do you mean by that?",
+      "timestamp": "2026-08-06T01:16:01.530662+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Well, just... look, I'm up at half five most mornings, out the door by six, driving twenty, thirty kilometres to get on site. I'm working nine, ten hours on my feet, doing physical work. By the time I'm back home it's half seven, eight o'clock at night. I'm knackered. So eating's not this thing you sit down and enjoy \u2014 it's just something you need to do before you crash, isn't it? \n\nJames has got it easier because he's home during the day, he can break it up. You can actually think about what you're making, take your time. Me? I eat whatever's there, get it down, and then I'm watching telly for an hour before I'm ready for bed. Rinse and repeat the next day.\n\nIt's not unhealthy or anything, just... there's no real pleasure in it. It's fuel to keep going. Which is fine, but it's different from what you two are describing \u2014 even Mark with all the logistics, there's still a meal happening, isn't there? People sitting together. For me it's just me in the kitchen, shoving something down my throat. That's what I meant.",
+      "timestamp": "2026-08-06T01:16:21.302700+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Yeah, that makes sense \u2014 there's a real difference between eating as something you do together and eating as something you just get through. Okay, let's move on to something related. I want to ask you all something a bit more direct: do you think being a man influences what you eat? Why, or why not?",
+      "timestamp": "2026-08-06T01:16:21.303614+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Yeah, I think it does, a bit. Though maybe not in the way people think.\n\nI mean, there's the obvious stuff \u2014 you're not supposed to fuss about food or worry too much about what you're eating, right? You just eat it. That's sort of the message. But for me, it's different because I'm feeding other people too. It's not just about me being a bloke who doesn't care \u2014 I've got to make sure the kids are eating properly, they've got what they need. So there's that responsibility side.\n\nBut then, yeah, I probably wouldn't sit down and plan meals the way my wife does, or think about nutrition or calories or any of that. That's not really... I don't know, it doesn't feel like something I'd naturally do. Even though logically I know it matters. So there's a bit of that \u2014 like, you're expected not to think too hard about it, just provide. Get something on the table.\n\nOut here in the village, too, there's probably a bit more of that old-fashioned thing going on than maybe in the suburbs or the city. You know, the bloke doesn't do the shopping list or worry about it. The woman does. That's just how it works for a lot of people round here, even if it's changing a bit. I'd probably get some odd looks if I was the one in the kitchen every night planning menus like it was my full-time job.\n\nSo yeah, I think it does, but it's more about what's expected of you than what you actually prefer, isn't it?",
+      "timestamp": "2026-08-06T01:17:00.409954+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, that's... that's actually dead on, Mark. Yeah. \n\nI mean, I wouldn't have put it like that, but you're right. There's definitely that thing where you're not supposed to care too much about it, or think about it. You just eat. Get on with it. And I suppose with the work I do \u2014 you're on site, you're around other blokes, you're sweating, you're doing physical work \u2014 there's no room for fussing about what's on your plate, is there? You'd get a bit of stick.\n\nBut honestly, some nights after a long shift I'd maybe like to sit down properly, have something that's not just... whatever. Something that's been thought about a bit. But you don't say that. That's not really... I don't know, it doesn't fit. You just get what you're given and that's that. Especially living with my wife \u2014 I can't really say \"I want you to spend more time on this\" without it sounding like I'm not coping with work or something. Like I'm soft.\n\nSo yeah, you end up with the fuel thing because that's what's easier to admit to. But I reckon if I'm being straight with you, it's not really what I prefer. It's just what fits with being a bloke in my situation. That expectation Mark's talking about \u2014 that's real.",
+      "timestamp": "2026-08-06T01:17:34.769686+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Yeah, exactly. And you can't really say it without feeling a bit... I don't know, like you're complaining or being ungrateful. Which is daft, really.\n\nI mean, I've got it easier than you because I'm here more, and my wife does a lot of the planning side, so there's already time and thought going into meals. But there's still that thing where if I started saying I wanted nice food or something carefully made, it'd be... it feels like you're overstepping a bit. Like that's not your department, you know? You're the one who brings the money in, does the practical stuff. The food side of things \u2014 that's hers.\n\nEven though we're both busy. She's got the kids' stuff to manage, I've got work and the house and the garden. But admitting you'd like something more than just functional? That feels a bit soft, like you said. Like you're not pulling your weight somehow.\n\nIt's odd because you want it \u2014 you do want to sit down with something that's decent, not just slapped together \u2014 but you can't really say that out loud without it feeling wrong. So you just accept whatever happens and get on with it.\n\nI reckon if I actually said to my wife, \"I'd like you to make more effort with meals,\" she'd probably have my head. Fair enough too. But you're right, Gregor \u2014 that expectation's there whether you say it or not. It just comes out in how you act about it, doesn't it?",
+      "timestamp": "2026-08-06T01:18:08.649723+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Right, yeah. That's exactly it. You can't win with it, can you? \n\nBecause if you say it, it sounds like you're ungrateful or you're not appreciating what's already being done. But if you don't say it, you're just... stuck with it. And it builds up a bit, doesn't it? Not even about the food really, like you said. It's about feeling like your needs don't matter, or they matter less because you're supposed to just get on with things.\n\nI mean, I work fifty hours a week minimum, drive an hour every day, come home shattered. My wife's got her own thing going on, I'm not saying she hasn't. But there's this unspoken rule where I'm not allowed to say I'd like something more without it being seen as... I don't know, weakness or ingratitude or expecting to be looked after like a kid.\n\nBut that's daft, isn't it? You're just a person who's worked hard and wants to sit down to something decent. That shouldn't be asking too much. But admitting that feels like you're stepping out of line somehow. Like you're not supposed to have needs, just carry on.\n\nAnd then you end up eating whatever, not saying anything, and just... yeah. Getting on with it.",
+      "timestamp": "2026-08-06T01:18:44.891957+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something in that \u2014 this idea that needing things is itself the problem, not the thing you need. James, you've been listening to all of this \u2014 does any of it ring true from where you sit?",
+      "timestamp": "2026-08-06T01:18:44.893241+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "I think... yeah, some of it does. Though my situation's a bit different, like I said. There's three of us, nobody's got kids, so there's not that same pressure.\n\nBut the thing about not being able to say what you want \u2014 yeah, that's familiar. I mean, I work from home, so I've got more flexibility than you two with cooking and that. But there's still that... you don't really talk about wanting something nice or putting thought into it. You just eat, don't you. It's not a conversation.\n\nI suppose the difference for me is I'm not dealing with it in a relationship context like you lot are. It's just the three of us in the house, we're all adults, we sort ourselves out. So if I fancied cooking something proper one night, I could just do it. Nobody's expecting anything from me on that front. But you're right about the unspoken thing \u2014 even just doing the cooking feels a bit like... I don't know, like it's not what blokes are supposed to fuss about.\n\nI wouldn't say it builds up for me the way you're describing, but I get what you mean. There's definitely that feeling that you shouldn't care too much about it, or think about it too hard. Just fuel, like you said. And I think that's... yeah, that's just how it is for us, isn't it? Not really something you question.",
+      "timestamp": "2026-08-06T01:19:11.449365+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something interesting across all three of you \u2014 this gap between what you'd actually want and what you feel like you're allowed to want, or say out loud. Let me take that somewhere. Imagine you decided to go properly plant-based \u2014 no meat, no animal products. What would actually need to change in your life for that to be possible?",
+      "timestamp": "2026-08-06T01:19:11.450732+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Hmm. Well, nothing really, I suppose. I mean, practically speaking, it wouldn't be hard. I could do that no problem. We've got space, I can cook, nobody's going to stop me.\n\nBut... yeah, actually, there's more to it than that, isn't there? Because if I just went plant-based without saying anything, that's one thing. Just sort of doing it quietly. But if I actually said it \u2014 said I wanted to do that, that it mattered to me \u2014 then that's different. Then I'm saying something about what I want, what my choices are. And that does feel like... I don't know, like I'd have to explain it. Have a reason. Justify it.\n\nWith the other two in the house, there's no real conflict, but it's still that thing of \u2014 you don't just announce you've got preferences about what you eat. That's not how it works. You just eat what's there. So to actually make a change like that, I'd have to say it out loud, and then it becomes a thing, doesn't it? It's no longer just... what you happen to be doing. It's a choice you're making, and that means owning it.\n\nI'm not saying that's rational or anything. It's just... yeah, that's what would actually need to change. Not the practical side. The saying it out loud side.",
+      "timestamp": "2026-08-06T01:20:01.286355+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "James, that distinction between just doing it quietly and actually saying it \u2014 that's interesting. Gregor, Mark, does that resonate with how you'd see it, or would it work differently for you?",
+      "timestamp": "2026-08-06T01:20:01.287548+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "For me it'd be harder, to be honest. Not just the saying it out loud bit \u2014 though that's part of it \u2014 but the actual doing it in my situation.\n\nI mean, I'm not planning the meals, right? My wife is. So if I suddenly decided I wasn't eating meat anymore, that's not just my choice affecting me. It affects what she's got to cook. And she'd see it as... I don't know, a criticism maybe? Like I'm saying what she's making isn't good enough, or I'm making extra work for her. Even if I wasn't meaning it that way.\n\nJames can just do it quietly because nobody's depending on him for anything in that setup. But for me, it'd have to involve her. And that conversation \u2014 \"I want to go plant-based\" \u2014 that's not just about food. That's saying something about what I want my life to look like, and that puts pressure on someone else's time and effort. And you can't really do that without it becoming a thing, can you?\n\nPlus, on the building sites, with the lads... that'd be noticeable. You've got to eat lunch with people, you're sat in the van or wherever. You can't just quietly go plant-based. Everyone would see and ask questions. And there's no good answer that doesn't sound like you're making some kind of statement.\n\nSo yeah, the saying it out loud is part of it. But the actual mechanics of my life \u2014 who does the cooking, who I eat with, what's expected \u2014 that makes it harder than just a preference thing. It's more complicated than that.",
+      "timestamp": "2026-08-06T01:20:39.826812+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Mark, you've got teenagers in the house \u2014 does the dynamic Gregor's describing feel familiar, or does it work differently when there are kids in the picture?",
+      "timestamp": "2026-08-06T01:20:39.828107+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "It'd be tricky, yeah. Because it's not just about me and my wife negotiating it like Gregor's saying. You've got the kids to think about as well.\n\nI mean, if I decided to go plant-based, my wife would have to cook differently for me potentially, but the kids \u2014 they're already at an age where they're a bit picky about what they'll eat. They want their meat, their familiar stuff. So you'd be managing multiple different diets in one household, and that's a logistics nightmare on top of what's already complicated.\n\nBut also... I think there's a bit of Gregor's thing there too. If I came home and said, \"Right, I'm plant-based now,\" it'd feel like I'm adding to everyone else's workload, you know? My wife's already juggling what the kids will eat, budgets, shopping, cooking for four people with different schedules. Adding another constraint \u2014 that's not just my choice anymore, that affects everyone.\n\nAnd then the kids \u2014 they'd probably think it was odd. Dads don't do that sort of thing, in their heads. So there'd be questions, explanations needed. You'd have to make it make sense to them somehow.\n\nI reckon the actual doing of it would be the least difficult part. It's the saying it, owning it as something that matters to you, and then managing everyone else's reaction to it \u2014 that's where it gets messy. And in a family household, you can't really just do something quietly. It affects meal times, shopping, everything. So you'd have to actually have the conversation properly. And that's the hard bit.",
+      "timestamp": "2026-08-06T01:21:14.711117+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "I'm hearing something that runs across what all three of you are saying \u2014 the practical side of going plant-based doesn't seem to be the main obstacle. It's more about what it means to say it out loud, to own it as something that matters to you. But I wonder if there are actually two different things getting bundled together there. For James, it sounds like it's mainly about announcing a preference \u2014 which men aren't supposed to do. But for you and Gregor, Mark, it's not just announcing a preference \u2014 it's asking someone else to absorb the consequences of it. Your wife reorganises the shopping and the cooking, the kids' meals get more complicated. Is that the same thing as James's problem, or is that something harder?",
+      "timestamp": "2026-08-06T01:21:14.712582+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "No, that's different, isn't it? You're right.\n\nI've been lumping it all together \u2014 saying I can't admit I want something \u2014 but actually listening to Mark describe it, that's not quite what I'm dealing with. He's got actual logistics to manage. Kids' meals, budgets, shopping lists. Real work that gets harder.\n\nMe? I'm saying my wife would see it as criticism, but... I'm not actually adding that much to her workload. She's not planning around me, not the way Mark's managing four people. It's more that I'd feel like I was stepping out of line somehow, asking for something different. But that's not the same as asking her to reorganise the whole household around it.\n\nSo yeah, I think I've been a bit unfair conflating the two. Mark's actually got a legitimate logistics problem. Mine's more about... I don't know, feeling like I shouldn't want things that are different from what's expected. Which is different from actually burdening someone else with it.\n\nThough I suppose there's still something in it for me \u2014 like, if I started saying I wanted different food or had preferences, it might start a conversation I don't really want to have, you know? But that's not the same as what Mark's describing. That's just me not wanting to rock the boat.",
+      "timestamp": "2026-08-06T01:21:49.703097+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Gregor, that last bit \u2014 'not wanting to rock the boat' \u2014 what does that actually mean for you? What's the boat?",
+      "timestamp": "2026-08-06T01:21:49.704666+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "I mean... it's the routine, isn't it? The way things work. I get up early, go to work, come home knackered, eat whatever's there, watch telly, go to bed. Repeat. And my wife does her thing, I do mine. We rub along okay. It works.\n\nBut if I start saying I want things to be different \u2014 better meals, more time together over food, whatever \u2014 that's opening a conversation about what's actually missing, isn't it? And once you start that, it's harder to just close it again. You'd have to actually talk about it properly.\n\nAnd I don't know if I want to do that, to be honest. Because then it becomes about me being unhappy with how things are, and that's... that's a lot. Easier to just not say anything, keep things as they are. No conflict, no big conversations.\n\nBut yeah, I suppose the boat is just \u2014 this is how it is, and it's fine, and we don't need to change it or talk about what we actually want. Rocking that means admitting that maybe it's not fine, and then what? I don't know where that goes.",
+      "timestamp": "2026-08-06T01:22:15.918297+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Yeah. That's an honest answer, Gregor \u2014 the boat being the whole arrangement, not just the food. That makes sense. Let's keep moving, because I want to make sure we get to the last couple of things before we run out of time. Thinking about all of that \u2014 the saying it, the owning it, the conversations it might open \u2014 what do you think might actually make plant-based food more appealing to you, or to other men you know? Not just in theory, but in practice.",
+      "timestamp": "2026-08-06T01:22:15.918830+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "That's... that's a hard question, actually.\n\nI mean, practically speaking, if it was just about the food being there and tasting alright, that'd help. Like, if plant-based stuff didn't taste like rabbit food, if it actually filled you up after a long day \u2014 that matters. But that's not really the barrier, is it?\n\nThe barrier's the conversation. And I don't know what would make that easier, to be honest. Because it's not like someone could just... make it less awkward. It's the fact of saying you want something that's the problem.\n\nUnless... I suppose if it came from somewhere else? Like, if my wife decided she wanted to cook plant-based for health reasons, or if it was just what we were doing as a household thing, that'd be different. Then I'm not asking for it, I'm just going along with it. That's easier somehow \u2014 that's not me making a choice about what I want.\n\nBut if I had to actively choose it myself, own it as something I decided... I'd need to actually believe it mattered enough to have the conversation. And right now I'm not sure it does. I mean, I'd like better meals, sure. But is that worth the whole thing that comes with saying it? I don't know.\n\nMaybe if I was younger I'd see it differently. But at my age, you've sort of settled into how things are. Changing that just feels like... effort. Difficult effort.",
+      "timestamp": "2026-08-06T01:23:01.370689+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That thing you said, Gregor \u2014 about it being easier if it came from somewhere else, if it was just what the household was doing rather than something you'd decided \u2014 does that land for either of you? James, Mark?",
+      "timestamp": "2026-08-06T01:23:01.371900+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah, but... I think I'm doing exactly that, aren't I? Just quietly. Which sounds easier, and in a way it is, but it's not really the same thing as what Gregor's describing, is it?\n\nI mean, I could just decide to do it, and nobody would stop me or complain. There's no conversation I have to have. But that's because I'm also not really owning it. I'm just... doing it without saying anything. And that's its own kind of settling for it, I reckon.\n\nBecause if I'm being straight, I'm avoiding the conversation the same way Gregor is. He's waiting for his wife to decide it for him so he doesn't have to say it. I'm just doing it quietly so I don't have to say it either. Different method, same thing \u2014 we're both just not wanting to actually say \"this matters to me.\"\n\nBut that's a trap too, isn't it? Because then you're just living your life around what you don't have to say out loud, rather than what you actually want. At least Gregor's being honest about it \u2014 he's saying, yeah, I'd rather someone else decide it because that's easier. I've been saying, oh, I could just do it quietly, no problem. But that's not actually true, is it? It's still the same problem. I'm just hiding it better.",
+      "timestamp": "2026-08-06T01:23:32.232197+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Mark, what do you make of that?",
+      "timestamp": "2026-08-06T01:23:32.233813+00:00",
+      "selection_mode": "moderator_intervention"
+    }
+  ]
+}

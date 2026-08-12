@@ -1,0 +1,299 @@
+{
+ "cache_key": "ece349ee78dfec43d718e5457282df1ceaaf3445428470a2b26e8d157c38920f",
+ "computed_utc": "2026-07-31T00:24:58.181194+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/to8xlhi19eohi33n4kb6vuyexr1a1b89ndws",
+ "custom_request_key": "macho_meals_fg1_run01",
+ "input": {
+  "side": "synthetic",
+  "fg": "fg1",
+  "condition": "enriched",
+  "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg1_run01\\comparable_transcript.json",
+  "sha256": "43ebff26d04867f0552723313779e03a56fa7f377e2295267ff0929a2814ce97",
+  "physical_run": "macho_meals_fg1_run01",
+  "canonical_replication_index": 1
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "5d954f1582f67a5028059c28468a15b64e5a41a68cfa2e153020b54ca1fa33db",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 14386,
+  "candidates_tokens": 1400,
+  "total_tokens": 28520,
+  "thoughts_tokens": 12734,
+  "cached_tokens": null,
+  "raw_text_chars": 4691,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 14386,
+  "candidates_tokens": 1400,
+  "total_tokens": 28520,
+  "thoughts_tokens": 12734,
+  "cached_tokens": null,
+  "raw_text_chars": 4691,
+  "parse_attempt": 1,
+  "headroom_tokens": 14984
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T016",
+      "speaker": "Participant 3",
+      "quote": "Yeah, I reckon it does, but maybe not in the way people think. Like, there's definitely a thing about blokes just... not thinking about food as much?"
+     },
+     {
+      "turn_id": "T026",
+      "speaker": "Participant 1",
+      "quote": "there's definitely a feeling that it's not really... masculine? I dunno. It feels softer, maybe."
+     },
+     {
+      "turn_id": "T028",
+      "speaker": "Participant 4",
+      "quote": "You can eat a burger and be proper masculine about it without needing to tell someone else they're less of a man"
+     },
+     {
+      "turn_id": "T030",
+      "speaker": "Participant 5",
+      "quote": "if you're actually the person ordering the salad in a group where nobody else is doing that, it doesn't feel like just a neutral choice"
+     }
+    ],
+    "evidence_note": "Participants explicitly acknowledge that gender norms, expectations, and masculine identity shape men's food choices and social experiences around eating.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 3",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 0.8
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T016",
+      "speaker": "Participant 3",
+      "quote": "it's so normal for us that we don't even notice it."
+     },
+     {
+      "turn_id": "T018",
+      "speaker": "Participant 2",
+      "quote": "I eat meat because that's what I eat, innit. Not because I'm trying to prove something"
+     },
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 1",
+      "quote": "I eat meat because that's what I eat. It's what I'm used to, it's what feels normal"
+     },
+     {
+      "turn_id": "T035",
+      "speaker": "Participant 4",
+      "quote": "the default is so comfortable that you don't feel the need to make one"
+     },
+     {
+      "turn_id": "T038",
+      "speaker": "Participant 5",
+      "quote": "I eat meat, I like it fine, it's normal."
+     }
+    ],
+    "evidence_note": "All five participants describe eating meat and animal products as their default, normative, and unquestioned way of eating.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T047",
+      "speaker": "Participant 1",
+      "quote": "I like meat. I like how it tastes, how it fills you up, all of that."
+     },
+     {
+      "turn_id": "T055",
+      "speaker": "Participant 2",
+      "quote": "keep eating meat because I like it"
+     },
+     {
+      "turn_id": "T044",
+      "speaker": "Participant 3",
+      "quote": "I care about whether my burger tastes good."
+     },
+     {
+      "turn_id": "T033",
+      "speaker": "Participant 4",
+      "quote": "And then there's the dairy thing — I eat that most days, and I actually quite like it."
+     },
+     {
+      "turn_id": "T038",
+      "speaker": "Participant 5",
+      "quote": "I eat meat, I like it fine"
+     }
+    ],
+    "evidence_note": "All five participants discuss how tasty, enjoyable, and satisfying they find animal products like meat and dairy.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "D",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 14,
+  "verified_quotes": 14,
+  "total_present_codes": 3,
+  "verified_codes": 3,
+  "demoted_codes": 0
+ }
+}

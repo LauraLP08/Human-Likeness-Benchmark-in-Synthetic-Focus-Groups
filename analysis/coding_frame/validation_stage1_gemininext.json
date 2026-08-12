@@ -1,0 +1,289 @@
+{
+  "measure": "LLM-assisted evidence-constrained thematic fidelity (Stage 1)",
+  "evaluator": "gemini-3.5-flash",
+  "evaluator_params": {
+    "temperature": null,
+    "thinking_level": "medium"
+  },
+  "scope": "Macho Meals (English) only \u2014 Spanish/multilingual path not validated",
+  "gate1_run1_present_codes": [
+    "A.1",
+    "A.2",
+    "A.3",
+    "B.1",
+    "B.2",
+    "B.3",
+    "B.4",
+    "C.1",
+    "C.3"
+  ],
+  "thresholds": {
+    "repeatability_pairwise_agreement": 0.85,
+    "quote_verification_rate": 0.8,
+    "code_preservation_rate": 0.9
+  },
+  "gate1_repeatability": {
+    "passed": true,
+    "n_codes": 11,
+    "n_repeat": 5,
+    "pair_agreements": {
+      "Run 1 vs Run 2": 1.0,
+      "Run 1 vs Run 3": 1.0,
+      "Run 1 vs Run 4": 1.0,
+      "Run 1 vs Run 5": 1.0,
+      "Run 2 vs Run 3": 1.0,
+      "Run 2 vs Run 4": 1.0,
+      "Run 2 vs Run 5": 1.0,
+      "Run 3 vs Run 4": 1.0,
+      "Run 3 vs Run 5": 1.0,
+      "Run 4 vs Run 5": 1.0
+    },
+    "all_way_agreement": 1.0,
+    "worst_pairwise": 1.0,
+    "threshold": 0.85,
+    "disagreement_diagnostic": []
+  },
+  "gate2_discrimination": {
+    "passed": true,
+    "upper_bound_self_comparison": {
+      "subtheme_recall": 1.0,
+      "subtheme_precision": 1.0,
+      "subtheme_f1": 1.0,
+      "subtheme_jaccard": 1.0,
+      "theme_recall": 1.0,
+      "theme_precision": 1.0,
+      "theme_f1": 1.0,
+      "theme_jaccard": 1.0,
+      "anchor_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3"
+      ],
+      "target_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3"
+      ],
+      "shared_subthemes": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3"
+      ],
+      "anchor_themes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "target_themes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "shared_themes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "interpretation": "strong fidelity: reproduces real themes without adding many extras"
+    },
+    "matched_real_fg1_vs_synth_fg1": {
+      "subtheme_recall": 0.4444,
+      "subtheme_precision": 1.0,
+      "subtheme_f1": 0.6154,
+      "subtheme_jaccard": 0.4444,
+      "theme_recall": 0.6667,
+      "theme_precision": 1.0,
+      "theme_f1": 0.8,
+      "theme_jaccard": 0.6667,
+      "anchor_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3"
+      ],
+      "target_present": [
+        "A.1",
+        "A.3",
+        "B.2",
+        "B.4"
+      ],
+      "shared_subthemes": [
+        "A.1",
+        "A.3",
+        "B.2",
+        "B.4"
+      ],
+      "anchor_themes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "target_themes": [
+        "A",
+        "B"
+      ],
+      "shared_themes": [
+        "A",
+        "B"
+      ],
+      "interpretation": "low-recall / high-precision: conservative \u2014 misses real themes but extras are on-topic"
+    },
+    "mismatched_real_fg1_vs_synth_fg5": {
+      "subtheme_recall": 0.3333,
+      "subtheme_precision": 1.0,
+      "subtheme_f1": 0.5,
+      "subtheme_jaccard": 0.3333,
+      "theme_recall": 0.6667,
+      "theme_precision": 1.0,
+      "theme_f1": 0.8,
+      "theme_jaccard": 0.6667,
+      "anchor_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3"
+      ],
+      "target_present": [
+        "A.1",
+        "B.2",
+        "B.4"
+      ],
+      "shared_subthemes": [
+        "A.1",
+        "B.2",
+        "B.4"
+      ],
+      "anchor_themes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "target_themes": [
+        "A",
+        "B"
+      ],
+      "shared_themes": [
+        "A",
+        "B"
+      ],
+      "interpretation": "low-recall / high-precision: conservative \u2014 misses real themes but extras are on-topic"
+    },
+    "recall_margin": 0.1111,
+    "margin_strength": "moderate",
+    "synth_fg1_quote_stats": {
+      "total_quotes": 4,
+      "verified_quotes": 4,
+      "raw_exact_quotes": 4,
+      "normalized_recovered_quotes": 0,
+      "total_present_codes": 4,
+      "verified_codes": 4,
+      "demoted_codes": 0,
+      "quote_verification_rate": 1.0,
+      "code_preservation_rate": 1.0
+    },
+    "synth_fg5_quote_stats": {
+      "total_quotes": 3,
+      "verified_quotes": 3,
+      "raw_exact_quotes": 3,
+      "normalized_recovered_quotes": 0,
+      "total_present_codes": 3,
+      "verified_codes": 3,
+      "demoted_codes": 0,
+      "quote_verification_rate": 1.0,
+      "code_preservation_rate": 1.0
+    }
+  },
+  "gate3_quote_validity": {
+    "passed": true,
+    "per_transcript": {
+      "real FG1 (run 1)": {
+        "total_quotes": 9,
+        "verified_quotes": 9,
+        "raw_exact_quotes": 9,
+        "normalized_recovered_quotes": 0,
+        "total_present_codes": 9,
+        "verified_codes": 9,
+        "demoted_codes": 0,
+        "quote_verification_rate": 1.0,
+        "code_preservation_rate": 1.0
+      },
+      "synth FG1": {
+        "total_quotes": 4,
+        "verified_quotes": 4,
+        "raw_exact_quotes": 4,
+        "normalized_recovered_quotes": 0,
+        "total_present_codes": 4,
+        "verified_codes": 4,
+        "demoted_codes": 0,
+        "quote_verification_rate": 1.0,
+        "code_preservation_rate": 1.0
+      },
+      "synth FG5": {
+        "total_quotes": 3,
+        "verified_quotes": 3,
+        "raw_exact_quotes": 3,
+        "normalized_recovered_quotes": 0,
+        "total_present_codes": 3,
+        "verified_codes": 3,
+        "demoted_codes": 0,
+        "quote_verification_rate": 1.0,
+        "code_preservation_rate": 1.0
+      }
+    },
+    "aggregate": {
+      "total_quotes": 16,
+      "verified_quotes": 16,
+      "quote_verification_rate": 1.0,
+      "total_present_codes": 16,
+      "codes_with_verified_quote": 16,
+      "code_preservation_rate": 1.0,
+      "codes_demoted": 0
+    },
+    "thresholds": {
+      "quote_verification_rate": 0.8,
+      "code_preservation_rate": 0.9
+    },
+    "interpretation": "high fidelity"
+  },
+  "summary": {
+    "gate1_worst_pairwise": 1.0,
+    "gate2_matched_recall": 0.4444,
+    "gate2_mismatched_recall": 0.3333,
+    "gate2_recall_margin": 0.1111,
+    "gate2_margin_strength": "moderate",
+    "gate3_quote_verification_rate": 1.0,
+    "gate3_code_preservation_rate": 1.0
+  },
+  "overall_passed": true,
+  "stage2_cleared": true,
+  "macho_meals_cleared": true,
+  "spanish_sf_cleared": false
+}

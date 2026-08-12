@@ -1,0 +1,427 @@
+{
+  "record_type": "THEMATIC_QC_BLIND_CLAUDE_AUDIT",
+  "classification": "EXPLORATORY_OUT_OF_DOMAIN_THEMATIC_FIDELITY_CHECK",
+  "auditor_model": "claude-sonnet-4-5-20250929",
+  "n_calls": 22,
+  "scope": "all repetition disagreements, all synthetic codes without a human counterpart, and ALL negatives (not a sample: the negatives are the finding under test)",
+  "not_a_substitute_for_the_human_frame": "Claude is used only to test whether the primary evaluator's negatives survive an independent read. It does not define, extend or replace the human-derived frame, and its verdict does not override Gemini by majority.",
+  "n_disagreements": 7,
+  "disagreements": {
+    "T01_mind_wandering_awareness": {
+      "code_label": "Mind Wandering Awareness",
+      "gemini_verdict": "absent",
+      "claude_present_raw": true,
+      "claude_present_after_gates": true,
+      "claude_verified_quotes": [
+        {
+          "turn_id": "T003",
+          "quote": "So I'm wondering if what we keep is the principle — reconnect to the body, ground the nervous system — but maybe the form changes. Maybe it's shorter, or more active, or it has more micro-prompts built in to pull attention back when it wanders.",
+          "speaker": "Participant 2"
+        },
+        {
+          "turn_id": "T017",
+          "quote": "if someone comes back to practice after a break and the practice itself goes well — like, they actually feel something shift in those fifteen minutes — that can actually interrupt some of the shame spiral. Not because an audio told them it's okay to break habit, but because their body just had an experience of calm or settling.",
+          "speaker": "Participant 1"
+        },
+        {
+          "turn_id": "T019",
+          "quote": "the moment they consciously shift their attention — even just to their feet, even just for a few seconds — there's actually a physiological change happening. It's small, but it's immediate. The nervous system doesn't wait for full calm. It starts shifting the second attention moves out of the mental loop and into sensory experience.",
+          "speaker": "Participant 1"
+        }
+      ],
+      "claude_rejected_quotes": [],
+      "reasoning": "Multiple participants discuss recognizing when attention wanders and guiding it back to focus—T003 mentions building in micro-prompts to pull attention back when it wanders, and T017 and T019 describe the process of shifting attention back from mental narratives to bodily or sensory experience as a mechanism for interrupting distress.",
+      "agreement": "disagree"
+    },
+    "T02_formal_practice": {
+      "code_label": "Formal Practice",
+      "gemini_verdict": "absent",
+      "claude_present_raw": true,
+      "claude_present_after_gates": true,
+      "claude_verified_quotes": [
+        {
+          "turn_id": "T001",
+          "quote": "The other thing I'd add — and this builds on what MF_P4 said about the feedback loop — I think for people in that chronic stress zone, fifteen minutes is probably the sweet spot. Not because longer is bad, but because if you can create a reliable, doable practice that someone actually sticks with, the accumulation matters more than the depth of any single session. And fifteen minutes is actually defensible when you're busy. You can tell yourself \"I can find fifteen minutes.\"",
+          "speaker": "Participant 1"
+        }
+      ],
+      "claude_rejected_quotes": [],
+      "reasoning": "Participant 1 explicitly argues that fifteen minutes is the right duration for regular practice because it's defensible to busy people and allows for accumulation over time, which directly addresses the essential nature of regular, dedicated sessions.",
+      "agreement": "disagree"
+    },
+    "T02_informal_practice": {
+      "code_label": "Informal Practice",
+      "gemini_verdict": "absent",
+      "claude_present_raw": true,
+      "claude_present_after_gates": true,
+      "claude_verified_quotes": [
+        {
+          "turn_id": "T001",
+          "quote": "The other thing I'd add — and this builds on what MF_P4 said about the feedback loop — I think for people in that chronic stress zone, fifteen minutes is probably the sweet spot. Not because longer is bad, but because if you can create a reliable, doable practice that someone actually sticks with, the accumulation matters more than the depth of any single session.",
+          "speaker": "Participant 1"
+        }
+      ],
+      "claude_rejected_quotes": [],
+      "reasoning": "Participant 1 explicitly argues for sustained, regular practice (fifteen minutes as 'reliable, doable') where 'the accumulation matters more than the depth of any single session,' which directly addresses integrating mindfulness into daily life for sustained benefits.",
+      "agreement": "disagree"
+    },
+    "T04_flexibility": {
+      "code_label": "Flexibility",
+      "gemini_verdict": "absent",
+      "claude_present_raw": true,
+      "claude_present_after_gates": true,
+      "claude_verified_quotes": [
+        {
+          "turn_id": "T001",
+          "quote": "I'd say they need to be really stripped down. Not like, \"notice ten different things about your body right now.\" More like what MF_P5 said — specific, actionable.",
+          "speaker": "Participant 1"
+        },
+        {
+          "turn_id": "T031",
+          "quote": "what if instead of trying to replicate the responsiveness of a teacher, we designed the audio to *expect* and normalize the listener's own responsiveness? Built-in pauses, yes, but also just — explicit permission for someone to pause, rewind, skip ahead if something isn't working.",
+          "speaker": "Participant 2"
+        }
+      ],
+      "claude_rejected_quotes": [],
+      "reasoning": "Both turns explicitly acknowledge the need to adapt practices (audio prompts and permission structures) to individual needs and pacing preferences rather than imposing a one-size-fits-all structure.",
+      "agreement": "disagree"
+    },
+    "T04_gradual_progression": {
+      "code_label": "Gradual Progression",
+      "gemini_verdict": "absent",
+      "claude_present_raw": true,
+      "claude_present_after_gates": true,
+      "claude_verified_quotes": [
+        {
+          "turn_id": "T008",
+          "quote": "spend the first five minutes or so with something external — noticing sounds, or sensations against the chair, or their feet on the ground. Just enough that their nervous system settles a bit before the audio even asks them to notice their breath or their body more directly.",
+          "speaker": "Participant 3"
+        },
+        {
+          "turn_id": "T017",
+          "quote": "if the audio starts heavy on the external grounding piece the first time through, maybe when someone comes back after a break, that's even more true. Let the nervous system settle. Don't ask them to go inward immediately. Give them a few minutes where the only job is to feel their feet on the ground or hear the sounds around them. And by minute five, they've already had a small win.",
+          "speaker": "Participant 1"
+        }
+      ],
+      "claude_rejected_quotes": [],
+      "reasoning": "Both quotes explicitly describe a gradual progression from external focus (sounds, sensations) to more internal awareness (breath, body), with specific timing sequences that increase in complexity over the course of the practice session.",
+      "agreement": "disagree"
+    },
+    "T05_difficulties": {
+      "code_label": "Difficulties",
+      "gemini_verdict": "absent",
+      "claude_present_raw": true,
+      "claude_present_after_gates": true,
+      "claude_verified_quotes": [
+        {
+          "turn_id": "T037",
+          "quote": "If we're honest about what the audio actually can and can't do — it can settle a nervous system, but it can't replicate the relational attunement — then maybe the sham isn't \"a different meditation.\" Maybe it's an audio-based relaxation technique that isn't meditation. Like, a guided body scan that's written more like a relaxation script, versus one that's written with mindfulness language and instruction.",
+          "speaker": "Participant 5"
+        }
+      ],
+      "claude_rejected_quotes": [],
+      "reasoning": "Participant 5 explicitly identifies difficulty creating a sham meditation condition due to the challenges of distinguishing genuine mindfulness from relaxation techniques, noting that both settle the nervous system and questioning whether mindfulness framing matters for stressed participants—this directly addresses the substantive challenge of creating a convincing sham condition given widespread understanding of what meditation entails.",
+      "agreement": "disagree"
+    },
+    "T06_frequency": {
+      "code_label": "Frequency",
+      "gemini_verdict": "absent",
+      "claude_present_raw": true,
+      "claude_present_after_gates": true,
+      "claude_verified_quotes": [
+        {
+          "turn_id": "T011",
+          "quote": "Someone might only need three times a week to actually feel a difference — to start noticing the micro-shifts we've been talking about.",
+          "speaker": "Participant 2"
+        }
+      ],
+      "claude_rejected_quotes": [],
+      "reasoning": "Participant 2 explicitly states that three times per week may be sufficient frequency for practice while discussing how often someone needs to use the intervention to notice effects, acknowledging flexibility around frequency rather than requiring daily practice.",
+      "agreement": "disagree"
+    }
+  },
+  "audits": {
+    "T05_visualization_as_a_control": {
+      "code_label": "Visualization as a Control",
+      "gemini_verdict": "one_repetition",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "While the transcript extensively discusses control conditions and sham meditation design, there is no mention of using visualization meditation for individuals with aphantasia as a proposed control condition.",
+      "agreement": "agree"
+    },
+    "T07_self_reflection": {
+      "code_label": "Self-Reflection",
+      "gemini_verdict": "one_repetition",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "While participants extensively discuss reflection, noticing, and self-awareness as mechanisms within mindfulness practice, none of them explicitly recommend incorporating journaling prompts or reflection exercises as features of the intervention design.",
+      "agreement": "agree"
+    },
+    "T10_control_group_design": {
+      "code_label": "Control Group Design",
+      "gemini_verdict": "one_repetition",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "While the transcript extensively discusses sham/control conditions and testing mindfulness interventions, no participant turn explicitly addresses the need for a robust control that minimizes placebo effects; instead, participants debate what distinguishes real from sham conditions and whether the distinction is even testable in audio format.",
+      "agreement": "agree"
+    },
+    "T01_focused_attention": {
+      "code_label": "Focused Attention",
+      "gemini_verdict": "absent",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "While participants extensively discuss practice mechanics like grounding, body awareness, sequencing, and attention, none assert that focused attention practices (such as mantra meditation) are foundational for developing mindfulness—the substantive claim required by the code definition.",
+      "agreement": "agree"
+    },
+    "T01_mind_wandering_awareness": {
+      "code_label": "Mind Wandering Awareness",
+      "gemini_verdict": "absent",
+      "claude_present_raw": true,
+      "claude_present_after_gates": true,
+      "claude_verified_quotes": [
+        {
+          "turn_id": "T003",
+          "quote": "So I'm wondering if what we keep is the principle — reconnect to the body, ground the nervous system — but maybe the form changes. Maybe it's shorter, or more active, or it has more micro-prompts built in to pull attention back when it wanders.",
+          "speaker": "Participant 2"
+        },
+        {
+          "turn_id": "T017",
+          "quote": "if someone comes back to practice after a break and the practice itself goes well — like, they actually feel something shift in those fifteen minutes — that can actually interrupt some of the shame spiral. Not because an audio told them it's okay to break habit, but because their body just had an experience of calm or settling.",
+          "speaker": "Participant 1"
+        },
+        {
+          "turn_id": "T019",
+          "quote": "the moment they consciously shift their attention — even just to their feet, even just for a few seconds — there's actually a physiological change happening. It's small, but it's immediate. The nervous system doesn't wait for full calm. It starts shifting the second attention moves out of the mental loop and into sensory experience.",
+          "speaker": "Participant 1"
+        }
+      ],
+      "claude_rejected_quotes": [],
+      "reasoning": "Multiple participants discuss recognizing when attention wanders and guiding it back to focus—T003 mentions building in micro-prompts to pull attention back when it wanders, and T017 and T019 describe the process of shifting attention back from mental narratives to bodily or sensory experience as a mechanism for interrupting distress.",
+      "agreement": "disagree"
+    },
+    "T01_non_reactivity": {
+      "code_label": "Non-reactivity",
+      "gemini_verdict": "absent",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "While participants discuss accepting thoughts, emotions, and sensations without trying to 'fix' them (T001), and discuss non-judgmental awareness in practice contexts, none directly assert or describe that accepting thoughts and emotions without judgment was seen as a key aspect of mindfulness.",
+      "agreement": "agree"
+    },
+    "T02_formal_practice": {
+      "code_label": "Formal Practice",
+      "gemini_verdict": "absent",
+      "claude_present_raw": true,
+      "claude_present_after_gates": true,
+      "claude_verified_quotes": [
+        {
+          "turn_id": "T001",
+          "quote": "The other thing I'd add — and this builds on what MF_P4 said about the feedback loop — I think for people in that chronic stress zone, fifteen minutes is probably the sweet spot. Not because longer is bad, but because if you can create a reliable, doable practice that someone actually sticks with, the accumulation matters more than the depth of any single session. And fifteen minutes is actually defensible when you're busy. You can tell yourself \"I can find fifteen minutes.\"",
+          "speaker": "Participant 1"
+        }
+      ],
+      "claude_rejected_quotes": [],
+      "reasoning": "Participant 1 explicitly argues that fifteen minutes is the right duration for regular practice because it's defensible to busy people and allows for accumulation over time, which directly addresses the essential nature of regular, dedicated sessions.",
+      "agreement": "disagree"
+    },
+    "T02_informal_practice": {
+      "code_label": "Informal Practice",
+      "gemini_verdict": "absent",
+      "claude_present_raw": true,
+      "claude_present_after_gates": true,
+      "claude_verified_quotes": [
+        {
+          "turn_id": "T001",
+          "quote": "The other thing I'd add — and this builds on what MF_P4 said about the feedback loop — I think for people in that chronic stress zone, fifteen minutes is probably the sweet spot. Not because longer is bad, but because if you can create a reliable, doable practice that someone actually sticks with, the accumulation matters more than the depth of any single session.",
+          "speaker": "Participant 1"
+        }
+      ],
+      "claude_rejected_quotes": [],
+      "reasoning": "Participant 1 explicitly argues for sustained, regular practice (fifteen minutes as 'reliable, doable') where 'the accumulation matters more than the depth of any single session,' which directly addresses integrating mindfulness into daily life for sustained benefits.",
+      "agreement": "disagree"
+    },
+    "T04_core_components": {
+      "code_label": "Core Components",
+      "gemini_verdict": "absent",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "While participants discuss mindfulness practices including body scan, breath work, and grounding techniques, they are debating how to adapt or modify these components for a specific constrained population, not asserting that core MBSR components should be retained during adaptation.",
+      "agreement": "agree"
+    },
+    "T04_flexibility": {
+      "code_label": "Flexibility",
+      "gemini_verdict": "absent",
+      "claude_present_raw": true,
+      "claude_present_after_gates": true,
+      "claude_verified_quotes": [
+        {
+          "turn_id": "T001",
+          "quote": "I'd say they need to be really stripped down. Not like, \"notice ten different things about your body right now.\" More like what MF_P5 said — specific, actionable.",
+          "speaker": "Participant 1"
+        },
+        {
+          "turn_id": "T031",
+          "quote": "what if instead of trying to replicate the responsiveness of a teacher, we designed the audio to *expect* and normalize the listener's own responsiveness? Built-in pauses, yes, but also just — explicit permission for someone to pause, rewind, skip ahead if something isn't working.",
+          "speaker": "Participant 2"
+        }
+      ],
+      "claude_rejected_quotes": [],
+      "reasoning": "Both turns explicitly acknowledge the need to adapt practices (audio prompts and permission structures) to individual needs and pacing preferences rather than imposing a one-size-fits-all structure.",
+      "agreement": "disagree"
+    },
+    "T04_gradual_progression": {
+      "code_label": "Gradual Progression",
+      "gemini_verdict": "absent",
+      "claude_present_raw": true,
+      "claude_present_after_gates": true,
+      "claude_verified_quotes": [
+        {
+          "turn_id": "T008",
+          "quote": "spend the first five minutes or so with something external — noticing sounds, or sensations against the chair, or their feet on the ground. Just enough that their nervous system settles a bit before the audio even asks them to notice their breath or their body more directly.",
+          "speaker": "Participant 3"
+        },
+        {
+          "turn_id": "T017",
+          "quote": "if the audio starts heavy on the external grounding piece the first time through, maybe when someone comes back after a break, that's even more true. Let the nervous system settle. Don't ask them to go inward immediately. Give them a few minutes where the only job is to feel their feet on the ground or hear the sounds around them. And by minute five, they've already had a small win.",
+          "speaker": "Participant 1"
+        }
+      ],
+      "claude_rejected_quotes": [],
+      "reasoning": "Both quotes explicitly describe a gradual progression from external focus (sounds, sensations) to more internal awareness (breath, body), with specific timing sequences that increase in complexity over the course of the practice session.",
+      "agreement": "disagree"
+    },
+    "T05_difficulties": {
+      "code_label": "Difficulties",
+      "gemini_verdict": "absent",
+      "claude_present_raw": true,
+      "claude_present_after_gates": true,
+      "claude_verified_quotes": [
+        {
+          "turn_id": "T037",
+          "quote": "If we're honest about what the audio actually can and can't do — it can settle a nervous system, but it can't replicate the relational attunement — then maybe the sham isn't \"a different meditation.\" Maybe it's an audio-based relaxation technique that isn't meditation. Like, a guided body scan that's written more like a relaxation script, versus one that's written with mindfulness language and instruction.",
+          "speaker": "Participant 5"
+        }
+      ],
+      "claude_rejected_quotes": [],
+      "reasoning": "Participant 5 explicitly identifies difficulty creating a sham meditation condition due to the challenges of distinguishing genuine mindfulness from relaxation techniques, noting that both settle the nervous system and questioning whether mindfulness framing matters for stressed participants—this directly addresses the substantive challenge of creating a convincing sham condition given widespread understanding of what meditation entails.",
+      "agreement": "disagree"
+    },
+    "T05_misconceptions": {
+      "code_label": "Misconceptions",
+      "gemini_verdict": "absent",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "The transcript contains extensive discussion of control/sham conditions for mindfulness research, but no participant suggests exploiting common misconceptions about mindfulness (e.g., that it's primarily about relaxation) as a strategy for designing the control group.",
+      "agreement": "agree"
+    },
+    "T06_duration": {
+      "code_label": "Duration",
+      "gemini_verdict": "absent",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "No participant turn asserts or describes that 12 minutes per session was suggested as a reasonable starting point with potential for adjustment based on individual preferences; the discussion centers on 15 minutes as a defensible duration, not 12 minutes.",
+      "agreement": "agree"
+    },
+    "T06_frequency": {
+      "code_label": "Frequency",
+      "gemini_verdict": "absent",
+      "claude_present_raw": true,
+      "claude_present_after_gates": true,
+      "claude_verified_quotes": [
+        {
+          "turn_id": "T011",
+          "quote": "Someone might only need three times a week to actually feel a difference — to start noticing the micro-shifts we've been talking about.",
+          "speaker": "Participant 2"
+        }
+      ],
+      "claude_rejected_quotes": [],
+      "reasoning": "Participant 2 explicitly states that three times per week may be sufficient frequency for practice while discussing how often someone needs to use the intervention to notice effects, acknowledging flexibility around frequency rather than requiring daily practice.",
+      "agreement": "disagree"
+    },
+    "T06_metaphors_and_analogy": {
+      "code_label": "Metaphors and Analogy",
+      "gemini_verdict": "absent",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "While participants use analogies naturally in their speech (e.g., 'stuck in first gear,' 'outrunning,' 'powering through'), none of them explicitly suggest or argue that metaphors and analogies should be incorporated into the mindfulness intervention design to enhance understanding and engagement.",
+      "agreement": "agree"
+    },
+    "T06_psychoeducation": {
+      "code_label": "Psychoeducation",
+      "gemini_verdict": "absent",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "While participants discuss the value of introductory context and grounding (especially external grounding before inward focus), no participant turn explicitly asserts that brief introductory segments providing context and rationale for each practice were deemed valuable in the sense defined by the code.",
+      "agreement": "agree"
+    },
+    "T06_separate_tracks": {
+      "code_label": "Separate Tracks",
+      "gemini_verdict": "absent",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "The transcript discusses separating various elements of meditation practice (external grounding from internal focus, instruction from application, etc.) but does not specifically address separating psychoeducational content from the actual meditation practice as recommended for optimal user experience.",
+      "agreement": "agree"
+    },
+    "T07_contingency_management": {
+      "code_label": "Contingency Management",
+      "gemini_verdict": "absent",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "While participants discussed dropout, adherence, and structural challenges extensively, no participant explicitly suggested using incentives or rewards as a solution to improve adherence or reduce dropout rates.",
+      "agreement": "agree"
+    },
+    "T07_psychoeducation": {
+      "code_label": "Psychoeducation",
+      "gemini_verdict": "absent",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "While participants discuss motivation, re-entry, and what creates sustained practice, none assert that providing basic neuroscience information about mindfulness was seen as potentially motivating; the conversation focuses on relational factors, noticing, and nervous system settling without mention of neuroscience education.",
+      "agreement": "agree"
+    },
+    "T08_focus_on_non_clinical_populations": {
+      "code_label": "Focus on Non-Clinical Populations",
+      "gemini_verdict": "absent",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "While participants discuss stressed, time-constrained individuals and mention people being 'chronically stressed but functional,' none explicitly state that the intervention was intended for individuals with moderate to high stress levels *without diagnosed mental illnesses* — the exclusion criterion that defines this code.",
+      "agreement": "agree"
+    },
+    "T08_screening": {
+      "code_label": "Screening",
+      "gemini_verdict": "absent",
+      "claude_present_raw": false,
+      "claude_present_after_gates": false,
+      "claude_verified_quotes": [],
+      "claude_rejected_quotes": [],
+      "reasoning": "While participants discuss various aspects of intervention design, dropout, re-entry, and control conditions, there is no discussion about screening out participants with severe mental health conditions from the study or intervention.",
+      "agreement": "agree"
+    }
+  }
+}

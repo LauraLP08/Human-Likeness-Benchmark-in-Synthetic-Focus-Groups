@@ -1,0 +1,152 @@
+{
+ "warning": "SEALED — contains provenance. Do not give to the coder.",
+ "created_utc": "2026-07-31T09:59:25.731168+00:00",
+ "classification": "SUPPLEMENTARY_SINGLE_CODER_TRANSPORTABILITY_SAMPLE",
+ "relationship_to_primary": "U01-U07 (guide question Q3) is the PRIMARY EMERGENT CALIBRATION SAMPLE: two coders, adjudicated human clustering. THIS sample is supplementary, single-coder, and covers Q1/Q2/Q4/Q5. The two are never pooled.",
+ "selection_seed": "macho_meals_transportability_2026-07-31_v1",
+ "selection_algorithm": "1. Enumerate the frame: every (stratum, FG, question) whose guide section exists and holds >=1 participant turn. 2. Seed Mersenne Twister with sha256(SELECTION_SEED). 3. Draw candidate samples of 2 per stratum without replacement, rejecting any sample that fails the coverage constraints (all four questions present, >=4 distinct FGs). 4. Accept the first sample that satisfies every constraint; record the attempt number.",
+ "accepted_on_attempt": 3,
+ "frame_size": 59,
+ "frame_excluded": [
+  {
+   "stratum": "human",
+   "fg": "fg5",
+   "question": "Q4",
+   "reason": "section absent from this transcript"
+  }
+ ],
+ "constraints": {
+  "n_units": 6,
+  "per_stratum": 2,
+  "questions_required": [
+   "Q1",
+   "Q2",
+   "Q4",
+   "Q5"
+  ],
+  "min_distinct_fgs": 4,
+  "synthetic_replication_index": 2,
+  "excluded_sections": {
+   "0": "introduction",
+   "3": "primary calibration sample (U01-U07)",
+   "6": "closing"
+  }
+ },
+ "not_consulted_during_selection": [
+  "Tier-1 metrics",
+  "condition effects",
+  "per-FG results",
+  "thematic content",
+  "word counts (recorded after selection only)"
+ ],
+ "units": [
+  {
+   "blind_unit_id": "S01",
+   "question_id": "Q1",
+   "stratum": "demographics-only",
+   "fg": "fg1",
+   "physical_run": "macho_meals_fg1_demoonly_run02",
+   "canonical_replication_index": 2,
+   "source_path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg1_demoonly_run02\\comparable_transcript.json",
+   "source_sha256": "f5d5dde7a2d15973e5643ff80ded0876ec5c53f5cdeadee4cb69365662b8378d",
+   "section_index": 1,
+   "section_label": "Opening discussion: male friendship and place",
+   "boundary_method": "moderator_log.section_transition mapped onto the comparable window via first_source_entry_index",
+   "section_text_sha256": "f73216b42905b615d06de4eeaa7d8e74caf3c194be10829f56d9a652e5b72923",
+   "word_count": 970,
+   "participant_turns": 6,
+   "moderator_turns": 2,
+   "distinct_participants": 3
+  },
+  {
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "stratum": "demographics-only",
+   "fg": "fg2",
+   "physical_run": "macho_meals_fg2_demoonly_run02",
+   "canonical_replication_index": 2,
+   "source_path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg2_demoonly_run02\\comparable_transcript.json",
+   "source_sha256": "a4ab58a1d9584fd5f94cd6a394ebfd87f704787753628b50f3dcda97decbfe53",
+   "section_index": 4,
+   "section_label": "Imagining a plant-based shift",
+   "boundary_method": "moderator_log.section_transition mapped onto the comparable window via first_source_entry_index",
+   "section_text_sha256": "c79a0e844ae8c1762818acc05200e664b0ad0a884d418a88ceee6743c99de339",
+   "word_count": 2999,
+   "participant_turns": 11,
+   "moderator_turns": 5,
+   "distinct_participants": 5
+  },
+  {
+   "blind_unit_id": "S03",
+   "question_id": "Q1",
+   "stratum": "enriched",
+   "fg": "fg3",
+   "physical_run": "macho_meals_fg3_run02",
+   "canonical_replication_index": 2,
+   "source_path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg3_run02\\comparable_transcript.json",
+   "source_sha256": "edc8df5c197c5beb0d552b8d226929e493c3e1652e3726fd9e78622763104c92",
+   "section_index": 1,
+   "section_label": "Opening discussion: male friendship and place",
+   "boundary_method": "moderator_log.section_transition mapped onto the comparable window via first_source_entry_index",
+   "section_text_sha256": "2c85d6cea2c588d27b6c0c577cd40bdb875b52ce30895ea772f309d8967883b1",
+   "word_count": 989,
+   "participant_turns": 5,
+   "moderator_turns": 2,
+   "distinct_participants": 3
+  },
+  {
+   "blind_unit_id": "S04",
+   "question_id": "Q4",
+   "stratum": "enriched",
+   "fg": "fg1",
+   "physical_run": "macho_meals_fg1_run02",
+   "canonical_replication_index": 2,
+   "source_path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg1_run02\\comparable_transcript.json",
+   "source_sha256": "a9558195b7692927fc500d58be26feb7d4f8915cf7e19b2f9d6dd7b8f3943702",
+   "section_index": 4,
+   "section_label": "Imagining a plant-based shift",
+   "boundary_method": "moderator_log.section_transition mapped onto the comparable window via first_source_entry_index",
+   "section_text_sha256": "b9c7e769a9f54adf8117a15fbe8e350662d73289aa0fa921e0e47e5c8b191e3d",
+   "word_count": 1349,
+   "participant_turns": 5,
+   "moderator_turns": 2,
+   "distinct_participants": 3
+  },
+  {
+   "blind_unit_id": "S05",
+   "question_id": "Q2",
+   "stratum": "human",
+   "fg": "fg3",
+   "physical_run": null,
+   "canonical_replication_index": null,
+   "source_path": "data\\datasets_transcripts\\standardized\\macho_meals\\fg3\\transcript.json",
+   "source_sha256": "a82827080834e4ccc56e1a5dba014404681065ed7e79cf3c26c1187705230333",
+   "section_index": 2,
+   "section_label": "Everyday food decision-making",
+   "boundary_method": "moderator 'Question N.' header",
+   "section_text_sha256": "c3f71030168f41d04e33052c6b2738cd235ef487fa9e21b2c6fd5064135f5fad",
+   "word_count": 870,
+   "participant_turns": 14,
+   "moderator_turns": 2,
+   "distinct_participants": 5
+  },
+  {
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "stratum": "human",
+   "fg": "fg4",
+   "physical_run": null,
+   "canonical_replication_index": null,
+   "source_path": "data\\datasets_transcripts\\standardized\\macho_meals\\fg4\\transcript.json",
+   "source_sha256": "2b8517ebef1009349ad4848239297f2e9836dffda7be66a99852bec32ec87e54",
+   "section_index": 5,
+   "section_label": "Making plant-based foods more appealing",
+   "boundary_method": "moderator 'Question N.' header",
+   "section_text_sha256": "5adb8a256d2c1fd21b9f50c9b8be045c44ca1ba5fd93eae3bf1be117b35f940b",
+   "word_count": 967,
+   "participant_turns": 12,
+   "moderator_turns": 1,
+   "distinct_participants": 3
+  }
+ ]
+}

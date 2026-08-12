@@ -1,0 +1,81 @@
+# Files whose content determines a result. Order matters: the hash walks this list
+# top to bottom. A listed file that is missing is an error, not a skipped entry.
+#
+# Paths are repository-relative, posix-separated.
+
+# --- generation architecture -------------------------------------------------
+core/__init__.py
+core/api_logging.py
+core/api_retry.py
+core/config.py
+core/moderator_brain.py
+core/orchestrator.py
+core/participant_agent.py
+core/prompt_renderer.py
+core/session_state.py
+
+# --- benchmark producers a result can depend on ------------------------------
+scripts/structural_metrics_transportability.py
+scripts/aggregate_production_results.py
+scripts/build_final_products.py
+scripts/thematic_coding.py
+scripts/build_comparable_window.py
+scripts/lexical_analysis.py
+scripts/agent_fidelity_stylometry.py
+scripts/saturation_analysis.py
+scripts/salience_hierarchy.py
+scripts/run_full_session.py
+
+# --- metric definitions ------------------------------------------------------
+analysis/production_evaluation/metric_registry.csv
+
+# --- this application --------------------------------------------------------
+apps/focus_group_platform/platform_core/__init__.py
+apps/focus_group_platform/platform_core/catalog.py
+apps/focus_group_platform/platform_core/config.py
+apps/focus_group_platform/platform_core/frozen.py
+apps/focus_group_platform/platform_core/guides.py
+apps/focus_group_platform/platform_core/paths.py
+apps/focus_group_platform/platform_core/pricing.py
+apps/focus_group_platform/platform_core/profiles.py
+apps/focus_group_platform/platform_core/projects.py
+apps/focus_group_platform/platform_core/provenance.py
+apps/focus_group_platform/platform_core/atomic.py
+apps/focus_group_platform/platform_core/level2.py
+apps/focus_group_platform/platform_core/transcripts.py
+apps/focus_group_platform/platform_core/windows.py
+apps/focus_group_platform/platform_core/aggregate.py
+apps/focus_group_platform/platform_core/thematic.py
+apps/focus_group_platform/platform_core/theme.py
+apps/focus_group_platform/platform_core/design.py
+apps/focus_group_platform/platform_core/design_aggregate.py
+apps/focus_group_platform/platform_core/analysis_window.py
+
+# --- application services ----------------------------------------------------
+apps/focus_group_platform/platform_core/services/__init__.py
+apps/focus_group_platform/platform_core/services/audit.py
+apps/focus_group_platform/platform_core/services/benchmark_service.py
+apps/focus_group_platform/platform_core/services/context.py
+apps/focus_group_platform/platform_core/services/design_service.py
+apps/focus_group_platform/platform_core/services/export_service.py
+apps/focus_group_platform/platform_core/services/import_service.py
+apps/focus_group_platform/platform_core/services/structural_service.py
+apps/focus_group_platform/platform_core/services/window_service.py
+
+# --- generation adapter -------------------------------------------------------
+apps/focus_group_platform/platform_core/generation/__init__.py
+apps/focus_group_platform/platform_core/generation/contracts.py
+apps/focus_group_platform/platform_core/generation/config_builder.py
+apps/focus_group_platform/platform_core/generation/profiles_source.py
+apps/focus_group_platform/platform_core/generation/planner.py
+apps/focus_group_platform/platform_core/generation/launcher.py
+apps/focus_group_platform/platform_core/generation/monitor.py
+apps/focus_group_platform/platform_core/generation/importer.py
+apps/focus_group_platform/platform_core/generation/terminal.py
+apps/focus_group_platform/platform_core/generation/worker.py
+apps/focus_group_platform/platform_core/generation/bundle.py
+apps/focus_group_platform/platform_core/generation/effective_config.py
+apps/focus_group_platform/platform_core/generation/credentials.py
+apps/focus_group_platform/platform_core/generation/preflight.py
+apps/focus_group_platform/platform_core/generation/queue.py
+apps/focus_group_platform/platform_core/generation/pricing_ledger.py

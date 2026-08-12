@@ -1,0 +1,763 @@
+{
+ "retrieved_utc": "2026-08-02T20:03:55.356808+00:00",
+ "classification": "EXPLORATORY_OUT_OF_Q3_TRANSPORTABILITY_CHECK",
+ "job_name": "batches/fr2ux2vj1g55gy1oe62c48gmkgplchers1rg",
+ "model": "gemini-3.5-flash",
+ "prompt_sha256": "4424eec734ce7c057c805fdc9885ad10f62c335302c4f7392e4ed8914b9b5608",
+ "response_schema_sha256": "eed4e1b03b546b03fac59d7f2a9e2474a1c0b02de16a64658bdba4004d50ed95",
+ "effective_config": {
+  "task": "emergent_extraction",
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "response_schema_transmitted": true,
+  "response_schema_sha256": "eed4e1b03b546b03fac59d7f2a9e2474a1c0b02de16a64658bdba4004d50ed95",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "schema_version": "emergent_theme_v1",
+  "scope": "S01-S06 supplementary transportability"
+ },
+ "n_units": 6,
+ "n_complete": 6,
+ "total_usage": {
+  "input_tokens": 14005,
+  "output_tokens": 6434
+ },
+ "relevance_caveat": "central/secondary is DESCRIPTIVE MODEL METADATA and is NOT validated",
+ "results": [
+  {
+   "blind_unit_id": "S01",
+   "question_id": "Q1",
+   "status": "COMPLETE",
+   "n_themes": 4,
+   "n_quotes": 8,
+   "problems": [],
+   "telemetry": {
+    "finish_reasons": [
+     "FinishReason.STOP"
+    ],
+    "prompt_token_count": 1763,
+    "candidates_token_count": 662,
+    "thoughts_token_count": 3700,
+    "total_token_count": 6125
+   },
+   "themes": [
+    {
+     "machine_theme_id": "M1",
+     "label": "The pub as the default, low-effort social space",
+     "one_sentence_description": "Meeting at the pub is highly favored because it is convenient, allows people to come and go flexibly, and requires very little planning or coordination.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T002",
+       "speaker": "Participant 3",
+       "quote": "And everyone knows where they're going without having to plan it to death."
+      },
+      {
+       "turn_id": "T003",
+       "speaker": "Participant 2",
+       "quote": "Still the easiest option though when you just want to turn up without planning anything."
+      },
+      {
+       "turn_id": "T004",
+       "speaker": "Participant 3",
+       "quote": "The pub you can just rock up, have a couple, leave when you want."
+      }
+     ],
+     "voiced_by": [
+      "Participant 3",
+      "Participant 2",
+      "Participant 5"
+     ]
+    },
+    {
+     "machine_theme_id": "M2",
+     "label": "Shared activities foster deeper connection and memorable experiences",
+     "one_sentence_description": "Participating in active, organized experiences like cooking together at home encourages meaningful conversations and creates stronger, more lasting memories than passive drinking routines.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T005",
+       "speaker": "Participant 2",
+       "quote": "You're talking properly, making food, eating together. Versus the pub where you're just... drinking and watching whoever's match is on."
+      },
+      {
+       "turn_id": "T006",
+       "speaker": "Participant 3",
+       "quote": "Those stick with you more than just another pint night, don't they?"
+      }
+     ],
+     "voiced_by": [
+      "Participant 2",
+      "Participant 3"
+     ]
+    },
+    {
+     "machine_theme_id": "M3",
+     "label": "Alternative activities require too much effort and commitment",
+     "one_sentence_description": "Organizing active hangouts like group cooking is seen as demanding because it requires upfront planning, longer-term time commitments, and active participation.",
+     "relevance": "secondary",
+     "evidence": [
+      {
+       "turn_id": "T004",
+       "speaker": "Participant 3",
+       "quote": "And I'll go along with it, but... I don't know, it feels like more effort sometimes? Like you've got to commit to being there for longer, help with the cooking or whatever."
+      }
+     ],
+     "voiced_by": [
+      "Participant 3"
+     ]
+    },
+    {
+     "machine_theme_id": "M4",
+     "label": "Rural social options are limited by geography and logistics",
+     "one_sentence_description": "In rural areas, a lack of diverse venues means socializing inevitably revolves around the single local pub, as alternative urban-style activities are logistically difficult.",
+     "relevance": "secondary",
+     "evidence": [
+      {
+       "turn_id": "T008",
+       "speaker": "Participant 5",
+       "quote": "So it's not really a choice between the pub and doing something at someone's place the same way. Like, if you want to see your mates it's usually the pub, because that's where people go."
+      },
+      {
+       "turn_id": "T008",
+       "speaker": "Participant 5",
+       "quote": "It's just... logistics are a bit different when you're not in a city with loads of options, you know?"
+      }
+     ],
+     "voiced_by": [
+      "Participant 5"
+     ]
+    }
+   ],
+   "cache_key": "bc90663e8d3c6865a55159e97d1ef530d3096476ee17d3dad8e6d3f20658d18a",
+   "unit_text_sha256": "f73216b42905b615d06de4eeaa7d8e74caf3c194be10829f56d9a652e5b72923"
+  },
+  {
+   "blind_unit_id": "S02",
+   "question_id": "Q4",
+   "status": "COMPLETE",
+   "n_themes": 7,
+   "n_quotes": 10,
+   "problems": [],
+   "telemetry": {
+    "finish_reasons": [
+     "FinishReason.STOP"
+    ],
+    "prompt_token_count": 4632,
+    "candidates_token_count": 1241,
+    "thoughts_token_count": 5867,
+    "total_token_count": 11740
+   },
+   "themes": [
+    {
+     "machine_theme_id": "M1",
+     "label": "Logistical and financial barriers to plant-based eating",
+     "one_sentence_description": "Daily logistical friction like limited work lunch options, required meal planning, and higher costs pose major practical barriers to adopting a plant-based diet.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T030",
+       "speaker": "Participant 1",
+       "quote": "Like, work lunches. I grab something at lunch most days, and options around here are... they're not great if you're actually trying to do plant-based properly."
+      },
+      {
+       "turn_id": "T030",
+       "speaker": "Participant 1",
+       "quote": "And honestly, there's the cost thing too. Plant-based options out, or proper versions of stuff — it's more expensive usually."
+      }
+     ],
+     "voiced_by": [
+      "Participant 1"
+     ]
+    },
+    {
+     "machine_theme_id": "M2",
+     "label": "Dietary changes as a perceived judgment on family",
+     "one_sentence_description": "Choosing to eat plant-based can be perceived by family members as a personal criticism of their cooking, traditions, and values.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T030",
+       "speaker": "Participant 1",
+       "quote": "She'd take it as a criticism of what she cooks. And my older relatives would definitely have opinions."
+      },
+      {
+       "turn_id": "T032",
+       "speaker": "Participant 4",
+       "quote": "It's not just Sunday dinner with my mum — it's that if I made that choice, suddenly I'm saying something about how she does things, or what she cares about."
+      }
+     ],
+     "voiced_by": [
+      "Participant 1",
+      "Participant 4"
+     ]
+    },
+    {
+     "machine_theme_id": "M3",
+     "label": "Relational wear-down as an unsustainable barrier",
+     "one_sentence_description": "The ongoing, low-level emotional tension with family over dietary choices creates a mental wear-down that makes maintaining a plant-based diet practically unsustainable.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T035",
+       "speaker": "Participant 1",
+       "quote": "Sometimes it's the relational stuff that makes the practical stuff unsustainable."
+      },
+      {
+       "turn_id": "T037",
+       "speaker": "Participant 5",
+       "quote": "Because like Bilal said, you can have all the logistics sorted, but if every time you're at your mum's there's this low-level awkwardness or you feel like you're being difficult, it just... wears you down."
+      }
+     ],
+     "voiced_by": [
+      "Participant 1",
+      "Participant 5"
+     ]
+    },
+    {
+     "machine_theme_id": "M4",
+     "label": "Normalization through quiet persistence",
+     "one_sentence_description": "Family and social friction from a dietary shift is temporary and can eventually settle into a new normal if the person quietly persists with their choice over time.",
+     "relevance": "secondary",
+     "evidence": [
+      {
+       "turn_id": "T039",
+       "speaker": "Participant 5",
+       "quote": "It's maybe just... accepting that there's going to be some awkwardness for a bit, and then it settles down once people realize you're serious and you're not going to be talked out of it."
+      }
+     ],
+     "voiced_by": [
+      "Participant 5"
+     ]
+    },
+    {
+     "machine_theme_id": "M5",
+     "label": "Parental choices and external judgment",
+     "one_sentence_description": "Adopting a plant-based diet for children is highly complicated because others view it as forcing choices on a child, which invites significant social and family judgment.",
+     "relevance": "secondary",
+     "evidence": [
+      {
+       "turn_id": "T032",
+       "speaker": "Participant 4",
+       "quote": "Because once you've got a kid, your choices aren't just about you anymore. If you decided to go vegan, you're also deciding that for your kid, at least initially. And that's when people — family, other parents, whoever — they're going to have proper opinions about it. It's not just \"oh, he's made a choice,\" it's \"he's forcing his choices on his kid.\""
+      }
+     ],
+     "voiced_by": [
+      "Participant 4"
+     ]
+    },
+    {
+     "machine_theme_id": "M6",
+     "label": "The buffering effect of collective shifts",
+     "one_sentence_description": "Undergoing a major lifestyle or dietary transition alongside peers significantly reduces the social friction and tension compared to doing it completely alone.",
+     "relevance": "secondary",
+     "evidence": [
+      {
+       "turn_id": "T042",
+       "speaker": "Participant 3",
+       "quote": "It's about whether you've got people around you who are shifting at the same time, or whether you're genuinely on your own with it."
+      }
+     ],
+     "voiced_by": [
+      "Participant 3"
+     ]
+    },
+    {
+     "machine_theme_id": "M7",
+     "label": "Lack of conscious intention as a barrier to change",
+     "one_sentence_description": "The primary barrier to changing one's diet for some is simply a lack of a compelling reason to change and an absence of active reflection on what they eat.",
+     "relevance": "secondary",
+     "evidence": [
+      {
+       "turn_id": "T044",
+       "speaker": "Participant 2",
+       "quote": "Because I haven't really... thought about it enough to want to change, you know? It's not like I've got a barrier I'm fighting against. I just don't have a reason to do it yet."
+      }
+     ],
+     "voiced_by": [
+      "Participant 2"
+     ]
+    }
+   ],
+   "cache_key": "b8b30fc5f30eb48122886dc35162e97ae196c21c9fceefd5da2c190cd1d41a4c",
+   "unit_text_sha256": "c79a0e844ae8c1762818acc05200e664b0ad0a884d418a88ceee6743c99de339"
+  },
+  {
+   "blind_unit_id": "S03",
+   "question_id": "Q1",
+   "status": "COMPLETE",
+   "n_themes": 4,
+   "n_quotes": 11,
+   "problems": [],
+   "telemetry": {
+    "finish_reasons": [
+     "FinishReason.STOP"
+    ],
+    "prompt_token_count": 1781,
+    "candidates_token_count": 1287,
+    "thoughts_token_count": 3238,
+    "total_token_count": 6306
+   },
+   "themes": [
+    {
+     "machine_theme_id": "M1",
+     "label": "The pub as a low-stress default space for connection",
+     "one_sentence_description": "The pub serves as a comfortable, default location where male friends can relax, sit down, and have meaningful conversations free from the pressures and interruptions of daily life.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T002",
+       "speaker": "Participant 5",
+       "quote": "The pub, really. That's where most of it happens. You can sit down, have a drink, chat without anyone expecting you to be doing anything else."
+      },
+      {
+       "turn_id": "T003",
+       "speaker": "Participant 1",
+       "quote": "so the pub becomes a bit of a release, just having that space where you can talk without interruption."
+      },
+      {
+       "turn_id": "T004",
+       "speaker": "Participant 5",
+       "quote": "You just want to sit down and actually talk to someone without the phone going off or someone needing something from you."
+      }
+     ],
+     "voiced_by": [
+      "Participant 5",
+      "Participant 1",
+      "Participant 4"
+     ]
+    },
+    {
+     "machine_theme_id": "M2",
+     "label": "Shift from youthful indulgence to quieter social experiences with age",
+     "one_sentence_description": "As they get older, men's socializing shifts away from drinking to excess or trying to impress others, focusing instead on quieter, more conversational gatherings.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T003",
+       "speaker": "Participant 1",
+       "quote": "I mean, when we were younger it was more about going out and getting hammered, but now it's quieter. You want to actually sit and have a conversation, especially at forty-five."
+      },
+      {
+       "turn_id": "T004",
+       "speaker": "Participant 5",
+       "quote": "It's the same for me at forty-seven — you're not trying to prove anything anymore, are you?"
+      },
+      {
+       "turn_id": "T007",
+       "speaker": "Participant 4",
+       "quote": "at forty you're not trying to impress anyone anymore. You just want to sit down with people you know and not have to think too hard about it."
+      }
+     ],
+     "voiced_by": [
+      "Participant 1",
+      "Participant 5",
+      "Participant 4"
+     ]
+    },
+    {
+     "machine_theme_id": "M3",
+     "label": "Value of quality pub food in enhancing the social experience",
+     "one_sentence_description": "While food is not the primary reason for visiting the pub, well-sourced and properly cooked food significantly enhances the enjoyment of the evening and encourages them to stay longer.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T004",
+       "speaker": "Participant 5",
+       "quote": "it makes the whole experience better if it's done well. You're more inclined to stay longer, have another pint if the food's good and you're not sitting there regretting what you ate."
+      },
+      {
+       "turn_id": "T005",
+       "speaker": "Participant 1",
+       "quote": "ordered a steak, and it was just... you could tell someone cared about where it came from. Not expensive or anything, just decent quality beef cooked right. Made a real difference to the evening."
+      }
+     ],
+     "voiced_by": [
+      "Participant 5",
+      "Participant 1",
+      "Participant 4"
+     ]
+    },
+    {
+     "machine_theme_id": "M4",
+     "label": "Growing awareness of food quality paired with a practical attitude",
+     "one_sentence_description": "With age comes a permanent awareness and appreciation of better-quality food, though this is balanced with a practical, non-obsessive attitude toward everyday sourcing and shopping.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T005",
+       "speaker": "Participant 1",
+       "quote": "And once you've noticed it, you can't unknow it, can you? You go back somewhere and you think, yeah, this is fine, but it's not the same."
+      },
+      {
+       "turn_id": "T005",
+       "speaker": "Participant 1",
+       "quote": "I'm not going to pretend I'm checking where everything comes from or anything like that — I still do my shop at Tesco like everyone else."
+      },
+      {
+       "turn_id": "T007",
+       "speaker": "Participant 4",
+       "quote": "But like you say, Andrew, I'm not going out of my way to source everything perfectly or anything daft like that. It's just... if I'm going to eat something, might as well be something decent if it's there."
+      }
+     ],
+     "voiced_by": [
+      "Participant 1",
+      "Participant 4"
+     ]
+    }
+   ],
+   "cache_key": "1a3e3e1d304c39e90c7bb764b43b3e153f5b7dad25d95325e527cf0080fb85d0",
+   "unit_text_sha256": "2c85d6cea2c588d27b6c0c577cd40bdb875b52ce30895ea772f309d8967883b1"
+  },
+  {
+   "blind_unit_id": "S04",
+   "question_id": "Q4",
+   "status": "COMPLETE",
+   "n_themes": 4,
+   "n_quotes": 6,
+   "problems": [],
+   "telemetry": {
+    "finish_reasons": [
+     "FinishReason.STOP"
+    ],
+    "prompt_token_count": 2278,
+    "candidates_token_count": 900,
+    "thoughts_token_count": 3592,
+    "total_token_count": 6770
+   },
+   "themes": [
+    {
+     "machine_theme_id": "M1",
+     "label": "Social normalcy as the primary barrier",
+     "one_sentence_description": "Adopting a plant-based diet is blocked more by the social discomfort of doing something different or feeling 'weird' than by the practical difficulties of cooking and eating without meat.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T029",
+       "speaker": "Participant 4",
+       "quote": "Because the actual cooking and eating side of it — that's easy enough. It's the other thing that's the blocker."
+      },
+      {
+       "turn_id": "T030",
+       "speaker": "Participant 1",
+       "quote": "Yeah, that's the thing though, isn't it? What Isaiah's saying — the normalcy bit is the blocker."
+      }
+     ],
+     "voiced_by": [
+      "Participant 4",
+      "Participant 1"
+     ]
+    },
+    {
+     "machine_theme_id": "M2",
+     "label": "Unconscious collective maintenance of normalcy",
+     "one_sentence_description": "The normalcy of eating meat is kept in place through a circular dynamic where individuals make the 'safe' choice and avoid questioning or discussing it, thereby reinforcing it for others.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T030",
+       "speaker": "Participant 1",
+       "quote": "We're all kind of maintaining it, aren't we? By not questioning it, by making the safe choice without thinking about it too much."
+      }
+     ],
+     "voiced_by": [
+      "Participant 1"
+     ]
+    },
+    {
+     "machine_theme_id": "M3",
+     "label": "Conscious choice requires personal responsibility",
+     "one_sentence_description": "Once individuals become aware of the social patterns surrounding meat-eating, opting for an alternative means making a conscious 'statement' that must be defended, which is harder than simply following the effortless default.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T031",
+       "speaker": "Participant 4",
+       "quote": "Because once you start questioning it, once you make it a choice instead of just the default, you're the one who has to own that. You can't just... not think about it anymore."
+      },
+      {
+       "turn_id": "T032",
+       "speaker": "Participant 1",
+       "quote": "And that means if you actually wanted to do something different, you'd have to own it consciously. You couldn't just eat meat without thinking about it anymore because you'd know what you were doing."
+      }
+     ],
+     "voiced_by": [
+      "Participant 4",
+      "Participant 1"
+     ]
+    },
+    {
+     "machine_theme_id": "M4",
+     "label": "Meat-eating as an unexamined default rather than a social choice",
+     "one_sentence_description": "Some individuals do not feel they are actively maintaining social norms or making symbolic choices about masculinity when eating meat; it is simply what they eat without prior thought.",
+     "relevance": "secondary",
+     "evidence": [
+      {
+       "turn_id": "T034",
+       "speaker": "Participant 3",
+       "quote": "I just eat meat, it's what I do, and I haven't been walking around aware that I'm choosing it for some performance reason or whatever."
+      }
+     ],
+     "voiced_by": [
+      "Participant 3"
+     ]
+    }
+   ],
+   "cache_key": "1f8d65286d77ca0d115e8c91802f099ffb47ea2d999c7ac89b43a4a4147cd36f",
+   "unit_text_sha256": "b9c7e769a9f54adf8117a15fbe8e350662d73289aa0fa921e0e47e5c8b191e3d"
+  },
+  {
+   "blind_unit_id": "S05",
+   "question_id": "Q2",
+   "status": "COMPLETE",
+   "n_themes": 5,
+   "n_quotes": 7,
+   "problems": [],
+   "telemetry": {
+    "finish_reasons": [
+     "FinishReason.STOP"
+    ],
+    "prompt_token_count": 1752,
+    "candidates_token_count": 1113,
+    "thoughts_token_count": 5841,
+    "total_token_count": 8706
+   },
+   "themes": [
+    {
+     "machine_theme_id": "M1",
+     "label": "Spontaneous and unplanned meal selection",
+     "one_sentence_description": "Meal choices are often made spontaneously based on immediate desire or what is currently available in the kitchen, rather than through structured planning.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T011",
+       "speaker": "Participant 1",
+       "quote": "I don't plan, plan in detail, uh, in advance or go to the supermarket specifically thinking about what days to buy. I’ll just buy various things, um, I like the look of when I'm in the supermarket and then, as and when decide to eat them."
+      }
+     ],
+     "voiced_by": [
+      "Participant 1"
+     ]
+    },
+    {
+     "machine_theme_id": "M2",
+     "label": "Work schedules and time constraints dictate meal planning",
+     "one_sentence_description": "Meal choices and preparation are heavily shaped by busy work schedules, long commutes, and limited energy at the end of the day.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T012",
+       "speaker": "Participant 2",
+       "quote": "So I'll, I'll try and have a rough plan based around what the schedule for the week is, but um equally I can get home tonight and go, you know, I can't even be assed cooking a pizza. Let's order a takeaway because, you know, hour long train journey."
+      },
+      {
+       "turn_id": "T013",
+       "speaker": "Participant 3",
+       "quote": "Yeah, I'd say as well, time is quite a big factor in terms of, um, what you eat in some ways, because like, not so much a problem for now, because I'm a teacher, but during like school term time, staff meeting night, Wednesday, it's always long. So I don't really want to be spending ages cooking."
+      }
+     ],
+     "voiced_by": [
+      "Participant 2",
+      "Participant 3"
+     ]
+    },
+    {
+     "machine_theme_id": "M3",
+     "label": "Working from home enables greater cooking flexibility",
+     "one_sentence_description": "Working from home provides individuals with the time and opportunity to prepare or cook meals during the afternoon.",
+     "relevance": "secondary",
+     "evidence": [
+      {
+       "turn_id": "T016",
+       "speaker": "Participant 1",
+       "quote": "perhaps if anyone works from home, they might have more chances to put something in the oven whilst they're still working and, and, and have that cooking away."
+      },
+      {
+       "turn_id": "T018",
+       "speaker": "Participant 4",
+       "quote": "I actually work from home most of the time, so I can kind of cook something in the afternoon."
+      }
+     ],
+     "voiced_by": [
+      "Participant 1",
+      "Participant 4"
+     ]
+    },
+    {
+     "machine_theme_id": "M4",
+     "label": "Large household meals revolve around batch-cooked, universally liked food",
+     "one_sentence_description": "Cooking for a large family involves making large quantities of simple, familiar meals that are guaranteed to satisfy everyone's tastes.",
+     "relevance": "secondary",
+     "evidence": [
+      {
+       "turn_id": "T018",
+       "speaker": "Participant 4",
+       "quote": "we've kind of got a load of meals that we know everybody, everybody'll eat. And then we tend to batch cook them."
+      }
+     ],
+     "voiced_by": [
+      "Participant 4"
+     ]
+    },
+    {
+     "machine_theme_id": "M5",
+     "label": "Deferring meal choices to a cooking partner",
+     "one_sentence_description": "Some individuals do not have to make meal decisions because their partner handles and enjoys the cooking entirely.",
+     "relevance": "secondary",
+     "evidence": [
+      {
+       "turn_id": "T019",
+       "speaker": "Participant 5",
+       "quote": "she tends to, um, make the lunches and dinners and enjoys doing so. I mean, I'll chip in where I can. Um, but as I say, I tend not to decide."
+      }
+     ],
+     "voiced_by": [
+      "Participant 5"
+     ]
+    }
+   ],
+   "cache_key": "48a8588c0bbf5a0dc78a23d28a77c72d8b976972f310f3acc7c0bda6e3b75bd4",
+   "unit_text_sha256": "c3f71030168f41d04e33052c6b2738cd235ef487fa9e21b2c6fd5064135f5fad"
+  },
+  {
+   "blind_unit_id": "S06",
+   "question_id": "Q5",
+   "status": "COMPLETE",
+   "n_themes": 6,
+   "n_quotes": 9,
+   "problems": [],
+   "telemetry": {
+    "finish_reasons": [
+     "FinishReason.STOP"
+    ],
+    "prompt_token_count": 1799,
+    "candidates_token_count": 1231,
+    "thoughts_token_count": 2534,
+    "total_token_count": 5564
+   },
+   "themes": [
+    {
+     "machine_theme_id": "M1",
+     "label": "Price and taste parity",
+     "one_sentence_description": "Plant-based foods would become appealing if they were as cheap and tasted as good as meat options.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T033",
+       "speaker": "Participant 2",
+       "quote": "For me again, it's down to the price and taste. If it was, if it was cheap and tasted the same, then I'd be perfectly happy to buy it."
+      },
+      {
+       "turn_id": "T035",
+       "speaker": "Participant 3",
+       "quote": "it really would come down to price if it was significantly cheaper."
+      }
+     ],
+     "voiced_by": [
+      "Participant 2",
+      "Participant 3"
+     ]
+    },
+    {
+     "machine_theme_id": "M2",
+     "label": "Masculinity is not a barrier",
+     "one_sentence_description": "The idea that eating plant-based foods is unmanly is outdated, and men do not judge each other for choosing them.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T034",
+       "speaker": "Participant 1",
+       "quote": "certainly within my social group, the men aspect of it is just a, just a, we wouldn't even consider it being kind of unmanly."
+      }
+     ],
+     "voiced_by": [
+      "Participant 1"
+     ]
+    },
+    {
+     "machine_theme_id": "M3",
+     "label": "Health benefits and physical fitness",
+     "one_sentence_description": "Clear health benefits, such as extending one's active years and fitness, make plant-based foods more appealing.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T035",
+       "speaker": "Participant 3",
+       "quote": "the one that would still really resonate with me is, is just around the, the health, overall fitness."
+      }
+     ],
+     "voiced_by": [
+      "Participant 3"
+     ]
+    },
+    {
+     "machine_theme_id": "M4",
+     "label": "Unhealthy additives in plant-based substitutes",
+     "one_sentence_description": "Many processed meat substitutes are unappealing because they are high in sugars, salts, fats, and artificial additives.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T036",
+       "speaker": "Participant 1",
+       "quote": "from what I hear and what I read a lot of these plant based and substitute meals are actually, they're loaded with with with sugars and salts and fats that don't actually make them any healthier for me."
+      },
+      {
+       "turn_id": "T039",
+       "speaker": "Participant 2",
+       "quote": "it's probably that that gives it its, its nicer taste, it makes it, makes it taste nice or makes it taste like what it’s trying to simulate."
+      }
+     ],
+     "voiced_by": [
+      "Participant 1",
+      "Participant 2"
+     ]
+    },
+    {
+     "machine_theme_id": "M5",
+     "label": "The phrase \"plant-based\" is loaded",
+     "one_sentence_description": "The term \"plant-based\" feels accusatory and loaded, whereas encouraging people to eat more fruit and vegetables is a more positive message.",
+     "relevance": "central",
+     "evidence": [
+      {
+       "turn_id": "T037",
+       "speaker": "Participant 3",
+       "quote": "plant based just feels a really loaded, um, really loaded phrase. And actually encouraging people to eat more fruit and veg is actually a better message."
+      },
+      {
+       "turn_id": "T038",
+       "speaker": "Participant 1",
+       "quote": "plant based does sound, you're right, it does sound accusatory."
+      }
+     ],
+     "voiced_by": [
+      "Participant 1",
+      "Participant 3"
+     ]
+    },
+    {
+     "machine_theme_id": "M6",
+     "label": "Sensory replication of meat",
+     "one_sentence_description": "Processed substitutes must successfully mimic the exact taste and texture of the meat they are trying to replace to be acceptable.",
+     "relevance": "secondary",
+     "evidence": [
+      {
+       "turn_id": "T036",
+       "speaker": "Participant 1",
+       "quote": "Now if they came up with some sort of amazing plant based bacon that that to me tasted and had the texture of bacon, um, then maybe that would, that would steer me down that route"
+      }
+     ],
+     "voiced_by": [
+      "Participant 1"
+     ]
+    }
+   ],
+   "cache_key": "3cc546a86a87a6b835d3be5d759a7ee05f31b4afb048b1d96e7948b8b3af990f",
+   "unit_text_sha256": "5adb8a256d2c1fd21b9f50c9b8be045c44ca1ba5fd93eae3bf1be117b35f940b"
+  }
+ ]
+}

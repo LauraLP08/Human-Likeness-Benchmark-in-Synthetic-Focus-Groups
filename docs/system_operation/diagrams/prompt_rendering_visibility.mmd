@@ -1,0 +1,23 @@
+graph TD
+    A[State & Configuration] --> B[Moderator View]
+    A --> C[Participant View]
+    A --> D[Engagement Assessment View]
+
+    B --> B1[System Prompt: 01_MODERATOR_SYSTEM_PROMPT.md]
+    B --> B2[User Prompt: 02_USER_MESSAGE_TEMPLATE.md]
+    B2 --> B3[Injected: SessionState JSON]
+    B2 --> B4[Injected: TriggerEvent JSON]
+    B2 --> B5[Injected: Active Special Conditions]
+    B3 -.-> B6[Moderator sees full group state, private notes, tensions, and guide parameters]
+
+    C --> C1[System Prompt: Layered Persona]
+    C --> C2[User Prompt: Format Recent Transcript]
+    C1 -.-> C3[Participant sees own profile, demographics, behavior data]
+    C2 -.-> C4[Participant sees last 6 transcript entries]
+
+    D --> D1[System Prompt: Short Identity Summary]
+    D --> D2[User Prompt: Format Recent Transcript + Own History]
+    D2 -.-> D3[Assessment sees last 6 transcript entries + own past turns]
+    
+    B6 -. "Not Visible" .-> C3
+    C3 -. "Not Visible" .-> B6

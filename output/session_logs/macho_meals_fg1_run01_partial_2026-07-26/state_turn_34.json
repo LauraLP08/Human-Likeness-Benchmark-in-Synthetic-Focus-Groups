@@ -1,0 +1,1794 @@
+{
+  "schema_version": 3,
+  "session_meta": {
+    "id": "macho_meals_fg1_run01",
+    "research_objective": "Focus group guide exploring how men in the UK make everyday food\nchoices, how social context, work, hobbies, health, taste and other\npeople shape what they eat, how gender and masculinity may influence\nfood choices, and what would need to change for plant-based foods to\nbecome more acceptable or appealing.\n",
+    "topic_domain": "Masculinity, food choice, animal product consumption, and plant-based eating",
+    "participant_collective_identity": "Men in the UK reflecting on food choices, male friendship, gender norms, and plant-based eating",
+    "moderator_knowledge_brief": "Explore (1) everyday food decision-making, (2) the social contexts in\nwhich men spend time with male friends, (3) the influence of other\npeople, work, hobbies, health, nutrition and taste on food choices,\n(4) whether participants perceive gender as shaping what they eat,\n(5) social acceptability and gendered meanings attached to vegetarian,\nvegan, plant-based, feminine or masculine foods, and (6) what personal,\nsocial and practical changes would make plant-based eating more viable\nor appealing. The discussion should remain exploratory, non-judgmental,\nand non-leading.\n",
+    "researcher_notes": "",
+    "temperature": 1.0,
+    "participant_response_max_tokens": 800,
+    "participation_mode": "emergent",
+    "moderator_model": "claude-sonnet-4-6",
+    "initial_session_plan": null,
+    "current_section_index": 3,
+    "section_phase": "main_topic",
+    "current_question_index": 0,
+    "total_turns": 34,
+    "session_started_at": "2026-07-26T06:18:49.126930Z",
+    "inject_participant_intro": false,
+    "run_label": "run01",
+    "participant_episodic_depth": "since_last_n",
+    "participant_episodic_since_last_n": 20,
+    "participant_episodic_recent_k": 6,
+    "moderator_reflection_enabled": true,
+    "moderator_restraint_prompt": true,
+    "moderator_context_mode": "summarized",
+    "engagement_own_history_token_budget": 1500,
+    "moderator_prompt_override": "sandbox/01_MODERATOR_SYSTEM_PROMPT_MINIMAL.md",
+    "moderator_opening_prompt_override": null,
+    "time_budget_tracking_enabled": true
+  },
+  "discussion_guide": [
+    {
+      "section_index": 0,
+      "section_label": "Introduction and instructions",
+      "section_phase": "intro",
+      "section_purpose": "Section 0: Introduction and instructions",
+      "scripted_question": "Hi everyone, thanks so much for joining the focus group today. We\u2019re\ngoing to take about 45 minutes to talk about your food choices and\nopinions, and this will be recorded for research purposes. Try not to\noverthink the questions, and simply speak freely. There are no right\nor wrong answers. Please be respectful of your fellow focus group\nmembers, and keep your responses relatively brief to allow time for\neveryone to speak. But remember that this is a conversation, not an\ninterview, so you can jump in when you have something to say and you\ndon\u2019t have to take turns answering each question, but you can if you\nwant to. Okay great, let\u2019s start by going around and saying your name\nand where in the UK you\u2019re coming from today.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 1,
+      "section_label": "Opening discussion: male friendship and place",
+      "section_phase": "context",
+      "section_purpose": "Section 1: Opening discussion: male friendship and place",
+      "scripted_question": "What\u2019s your favourite place in your city to spend time with your male\nfriends? Why? Feel free to be specific.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 2,
+      "section_label": "Everyday food decision-making",
+      "section_phase": "context",
+      "section_purpose": "Section 2: Everyday food decision-making",
+      "scripted_question": "How do you decide what to eat?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "Do other people influence what you eat? If so, tell us more about how.",
+        "Do your work or hobbies influence what foods you eat? Tell us more about how.",
+        "How important is health and nutrition?",
+        "How important is taste?"
+      ]
+    },
+    {
+      "section_index": 3,
+      "section_label": "Gender and food choice",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 3: Gender and food choice",
+      "scripted_question": "Do you think your gender influences what you eat? Tell us more about\nwhy or why not.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": [
+        "Is it socially acceptable for men to eat vegetarian or vegan foods?",
+        "Are some foods considered feminine?",
+        "Are some foods considered masculine?"
+      ]
+    },
+    {
+      "section_index": 4,
+      "section_label": "Imagining a plant-based shift",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 4: Imagining a plant-based shift",
+      "scripted_question": "Imagine you decided to go plant-based \u2014 what would need to change in\nyour life for you to do that?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": [
+        "How would your family and friends react to this?",
+        "How might it change the way you shop or cook?"
+      ]
+    },
+    {
+      "section_index": 5,
+      "section_label": "Making plant-based foods more appealing",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 5: Making plant-based foods more appealing",
+      "scripted_question": "What might make plant-based foods more appealing to you or other men\nyou know?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 6,
+      "section_label": "Closing remarks",
+      "section_phase": "closing",
+      "section_purpose": "Section 6: Closing remarks",
+      "scripted_question": "Okay everyone, that\u2019s our time. Thanks so much for participating\ntoday. Before we finish, is there anything else you would like to add\nabout food choices, gender, masculinity, or plant-based eating?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": []
+    }
+  ],
+  "participants": {
+    "mm_fg1_amir": {
+      "id": "mm_fg1_amir",
+      "name": "Amir",
+      "profile_summary": "Amir, 20, Male. Urban, West Midlands, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg1_amir",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Amir",
+            "age": 20,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Urban",
+              "region": "West Midlands",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "2-4 per week",
+            "poultry": "Once a day",
+            "fish": "2-4 per week",
+            "egg": "2-4 per week",
+            "dairy": "5-6 per week"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.0,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 5.0,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 5.0,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.4,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 3.0,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG1"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Um, so my favourite place in the city is a place called Driving Simulator, where you can drive Formula 1 cars, as a simulation with my friends. Um, (.) because we all share the same hobby. Um, how do we decide what to eat? It's in the city centre, so we can just go anywhere to be honest, and eat anywhere.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 8,
+      "emotional_signal": "said 'I'm not sure I'd be comfortable with that, to be honest' and 'that's where it gets uncomfortable' \u2014 affective language tied to identity exposure, not just social awkwardness",
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg1_david": {
+      "id": "mm_fg1_david",
+      "name": "David",
+      "profile_summary": "David, 27, Male. Urban, Scotland, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg1_david",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "David",
+            "age": 27,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Urban",
+              "region": "Scotland",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "Once a week",
+            "poultry": "2-4 per week",
+            "fish": "Once a week",
+            "egg": "Once a week",
+            "dairy": "Once a day"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 2.7,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 1.7,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.6,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.2,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 1.8,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG1"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Favourite place in the city to spend time with male friends? So, um, I'll start by there's a really nice property called Old Town House in Edinburgh. So that's probably the favourite place with male friends. It's a nice place with cheap beer and a good place to go.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 5,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg1_ibrahim": {
+      "id": "mm_fg1_ibrahim",
+      "name": "Ibrahim",
+      "profile_summary": "Ibrahim, 24, Male. Urban, North East, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg1_ibrahim",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Ibrahim",
+            "age": 24,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Urban",
+              "region": "North East",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "2-4 per week",
+            "poultry": "Once a week",
+            "fish": "Once a week",
+            "egg": "Once a week",
+            "dairy": "1-3 per month"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.4,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 1.4,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.2,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 2.6,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 1.4,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG1"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Okay, so, um, my favourite place in the city (.) is, um, Old Trafford, that's, um, (.) in Manchester. That is where I do like to have fun with my male friends. We go watch, um, Manchester United matches and all.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 8,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg1_isaiah": {
+      "id": "mm_fg1_isaiah",
+      "name": "Isaiah",
+      "profile_summary": "Isaiah, 26, Male. Urban, Yorkshire and the Humber, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg1_isaiah",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Isaiah",
+            "age": 26,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Urban",
+              "region": "Yorkshire and the Humber",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "Once a week",
+            "poultry": "2-4 per week",
+            "fish": "5-6 per week",
+            "egg": "2-4 per week",
+            "dairy": "1-3 per month"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.5,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.6,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.2,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.2,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 3.6,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG1"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "I feel the best place, uh, we (.) will go then was, (.) uh, we'll go to parks and, (.) uh, most times there's no, uh, plan on getting what to eat. We just get here and, (.) uh, see what, uh, (.) what is available and everybody picks their choices.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 6,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg1_will": {
+      "id": "mm_fg1_will",
+      "name": "Will",
+      "profile_summary": "Will, 29, Male. Village or Rural, Scotland, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg1_will",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "opening_intro.text": "observed_transcript_intro",
+          "opening_intro.intro_eligible": "derived"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Will",
+            "age": 29,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Village or Rural",
+              "region": "Scotland",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "Once a week",
+            "poultry": "Once a week",
+            "fish": "Once a week",
+            "egg": "Once a week",
+            "dairy": "Once a day"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 2.4,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 2.0,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.6,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 5.0,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 2.8,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG1"
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        },
+        "opening_intro": {
+          "intro_eligible": true,
+          "text": "Um, (.) typically, (.) um, there's a place called the Goody Goose. It's, (.) um (.), got reasonably priced food. It's got a nice selection of food. (.) Um, (.) and (.), um, it's usually very nice, but it's in a nice situation, it's in a nice spot, um, [unintelligible], so that's where I would go.",
+          "provenance": "observed_transcript_intro"
+        }
+      },
+      "turn_count": 6,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    }
+  },
+  "group_state": {
+    "participation_balance": {
+      "mm_fg1_amir": 0.242,
+      "mm_fg1_david": 0.152,
+      "mm_fg1_ibrahim": 0.242,
+      "mm_fg1_isaiah": 0.182,
+      "mm_fg1_will": 0.182
+    },
+    "silent_participants": [],
+    "consensus_risk": 0.78,
+    "dominant_voices": [],
+    "unresolved_tensions": [
+      {
+        "participant_id": "mm_fg1_amir",
+        "flagged_at_turn": 33,
+        "description": "earlier said 'I don't think it's like some massive thing' and 'the pressure's there but it's not controlling what I do'; now says vegetarian food 'feels like I'm making some kind of statement about myself' and 'that's where the pressure is actually real for me' \u2014 the pressure he was minimising turns out to have real teeth around identity-signalling foods",
+        "resolved": false,
+        "resolved_at_turn": null,
+        "surfaced": false,
+        "surface_count": 0
+      }
+    ],
+    "group_has_agreed_easily_on": [
+      "Meat as unreflective default \u2014 Isaiah and Amir have now both converged on this framing without strong preference logic",
+      "Isaiah has reinforced the preference/familiarity ambiguity framing \u2014 echoing Amir's position almost exactly, without adding new content",
+      "Social influence on food habits operates invisibly through family upbringing and peer group norms \u2014 David, Amir, and Isaiah have all converged on this without tension",
+      "Isaiah has now joined Ibrahim and Amir in accepting that the preference/habit distinction is genuinely unresolvable from the inside \u2014 convergence on epistemic uncertainty without new differentiation",
+      "Will has now joined Ibrahim, Amir, and Isaiah in accepting that geographic and social defaults do the thinking \u2014 adding a structural layer but landing in the same epistemic place"
+    ],
+    "section_turn_counts": {
+      "mm_fg1_amir": 4,
+      "mm_fg1_ibrahim": 4,
+      "mm_fg1_isaiah": 2,
+      "mm_fg1_will": 1
+    },
+    "section_word_counts": {
+      "MODERATOR": 373,
+      "mm_fg1_amir": 780,
+      "mm_fg1_ibrahim": 981,
+      "mm_fg1_isaiah": 443,
+      "mm_fg1_will": 257
+    },
+    "completed_section_turn_counts": {
+      "0": {
+        "mm_fg1_amir": 1,
+        "mm_fg1_david": 1,
+        "mm_fg1_ibrahim": 1,
+        "mm_fg1_isaiah": 1,
+        "mm_fg1_will": 1
+      },
+      "1": {
+        "mm_fg1_amir": 2,
+        "mm_fg1_david": 2,
+        "mm_fg1_isaiah": 1,
+        "mm_fg1_will": 1,
+        "mm_fg1_ibrahim": 1
+      },
+      "2": {
+        "mm_fg1_will": 3,
+        "mm_fg1_ibrahim": 2,
+        "mm_fg1_isaiah": 2,
+        "mm_fg1_amir": 1,
+        "mm_fg1_david": 2
+      }
+    },
+    "completed_section_word_counts": {
+      "0": {
+        "MODERATOR": 182,
+        "mm_fg1_amir": 20,
+        "mm_fg1_david": 21,
+        "mm_fg1_ibrahim": 33,
+        "mm_fg1_isaiah": 29,
+        "mm_fg1_will": 52
+      },
+      "1": {
+        "MODERATOR": 90,
+        "mm_fg1_amir": 203,
+        "mm_fg1_david": 206,
+        "mm_fg1_isaiah": 122,
+        "mm_fg1_will": 196,
+        "mm_fg1_ibrahim": 140
+      },
+      "2": {
+        "MODERATOR": 200,
+        "mm_fg1_will": 551,
+        "mm_fg1_ibrahim": 387,
+        "mm_fg1_isaiah": 361,
+        "mm_fg1_amir": 161,
+        "mm_fg1_david": 482
+      }
+    },
+    "consecutive_silent_turns": 0,
+    "consecutive_participant_turns": 0,
+    "last_speaker_id": "MODERATOR",
+    "last_engagement_round": [
+      {
+        "participant_id": "mm_fg1_amir",
+        "wants_to_speak": true,
+        "urgency": 0.75,
+        "hook": "I just realized something while listening to myself talk \u2014 I said the veggie burger would feel like I'm 'making a statement,' but I haven't actually sat down and asked myself what statement I'm worried about making, or why that matters so much. That feels worth unpacking because it's the thing I'm actually uncomfortable with, not the food.",
+        "addressed_to": "Ibrahim",
+        "intent": "affirm_and_elaborate"
+      },
+      {
+        "participant_id": "mm_fg1_david",
+        "wants_to_speak": true,
+        "urgency": 0.7999999999999999,
+        "hook": "Amir's just identified something real \u2014 that veggie burger feels different because it signals something about your values. That's the actual pressure point. But I think he's being a bit cagey about what that signal actually is, and I want to push on that a bit.",
+        "addressed_to": "Amir",
+        "intent": "challenge"
+      },
+      {
+        "participant_id": "mm_fg1_ibrahim",
+        "wants_to_speak": true,
+        "urgency": 0.85,
+        "hook": "Amir just named the actual pressure point \u2014 the veggie burger, the statement it makes. That's where it gets real. I need to push on that because he's identifying something I've been circling but haven't fully landed on: it's not just about preference or social ease, it's about identity and what you're signaling about yourself. That's the mechanism that actually matters.",
+        "addressed_to": "Amir",
+        "intent": "challenge"
+      },
+      {
+        "participant_id": "mm_fg1_isaiah",
+        "wants_to_speak": true,
+        "urgency": 0.75,
+        "hook": "Amir just named something real \u2014 the discomfort around being seen as making a statement. That's where Isaiah's been circling but hasn't quite landed. The veggie burger thing is the actual pressure point, not abstract philosophy. Isaiah should acknowledge that Amir's pinpointed something he'd feel too, and that's different from everything they've been discussing so far.",
+        "addressed_to": "Amir",
+        "intent": "affirm_and_elaborate"
+      },
+      {
+        "participant_id": "mm_fg1_will",
+        "wants_to_speak": true,
+        "urgency": 0.75,
+        "hook": "Amir's just touched on something real \u2014 that the discomfort isn't about the food itself, it's about what it signals. That's different from what I've been describing, and I think I need to test whether that's actually true for me too, or if I'm dodging it.",
+        "addressed_to": "Amir",
+        "intent": "challenge"
+      }
+    ],
+    "section_summaries": [
+      {
+        "section_index": 0,
+        "section_label": "Introduction and instructions",
+        "discussion_summary": "This section was purely introductory \u2014 participants established identities and locations rather than engaging substantively with research themes. The notable emerging variable is the urban/rural axis: four participants are from urban areas across England and Scotland, while Will explicitly flagged his rural Scottish background as distinct. No thematic content has yet emerged; the section closed with the first substantive question about favourite social spaces.",
+        "strategy_summary": "The moderator's approach was scene-setting: establishing low-stakes norms (no right answers, conversational tone, brevity), then using a round-robin introduction to baseline the group geographically. Flagging the urban/rural spread before posing the first question was a light framing move, potentially priming participants to notice difference. It was functional but unremarkable \u2014 the real test of the approach begins with responses to the opening substantive prompt."
+      },
+      {
+        "section_index": 1,
+        "section_label": "Opening discussion: male friendship and place",
+        "discussion_summary": "This section established a clear urban/rural axis around social infrastructure: urban participants (Birmingham, Glasgow, Leeds, North East) converged on casual food and gym socialising as near-universal defaults, with local distinctiveness expressed through independent venues rather than chains. Will's rural experience \u2014 pub, house visits, outdoor activity, limited choice \u2014 emerged as the structural outlier, though he resisted framing this as deprivation. Ibrahim introduced a middle-ground register: urban infrastructure without the density of larger cities.",
+        "strategy_summary": "The main move was letting urban participants establish consensus organically before surfacing Will as the counterpoint \u2014 David and Isaiah effectively did this work unprompted, which saved a moderator redirect. The brief intervention to hand Will the floor was necessary given the pile-on of curiosity. Correcting the London misattribution via Ibrahim's own clarification worked cleanly. The closing pivot to food decision-making was timely \u2014 the geographic mapping had reached saturation."
+      },
+      {
+        "section_index": 2,
+        "section_label": "Everyday food decision-making",
+        "discussion_summary": "This section centered on the distinction between preference and habit in meat eating, with participants splitting roughly between those who claim active preference (Ibrahim, Will) and those who acknowledge they cannot disentangle genuine taste from lifelong familiarity (Isaiah, Amir). David introduced a third position: deliberate indifference, alongside an unprompted rejection of meat-masculinity linkage. Social reinforcement through family and peer norms emerged as a connecting thread, setting up the gender question directly.",
+        "strategy_summary": "The main moves were letting Will and Ibrahim's bilateral exchange run until it reached natural resolution, then widening to the group, and directly addressing David when he stayed quiet. David's volunteered gender remark was a gift \u2014 acknowledging it without chasing it immediately, then using it as the section's pivot point, felt like the right call. The transition into the gender question came from the content rather than the guide, which should make it land more naturally."
+      }
+    ],
+    "moderator_turn_share_overall": 0.412,
+    "moderator_turn_share_recent": 0.4
+  },
+  "moderator_log": [
+    {
+      "turn": 0,
+      "timestamp": "2026-07-26T06:19:38.971488Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Session is initialising. No data yet. This decision covers the opening utterance only. Opening utterance must establish the collective framing, the ground rules, and the psychological safety conditions before any substantive question is posed. The scripted opening question for Section 0 already contains the ground rules and first prompt \u2014 the task is to render this in warm, natural, conversational language rather than a formal recitation.",
+      "action": "ask_initial_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Hi everyone, great to have you all here \u2014 thanks for giving up your time today. We're going to spend about 45 minutes just talking, and the whole thing will be recorded for research purposes, so if that's okay with you, we'll get going. Before we do, just a few things to flag. There are no right or wrong answers here \u2014 genuinely, I'm not looking for any particular response, and whatever you actually think or do in real life is way more useful to me than anything polished or carefully worded. So try not to overthink it, just speak freely. And this is a conversation, not an interview \u2014 so if something someone else says connects with your experience, just jump in. You don't need to wait your turn, though you can if you want. The one thing I'd ask is just to be respectful of each other and keep your answers reasonably brief so everyone gets a chance to talk. Okay \u2014 let's start. If you could go around and say your name and where in the UK you're coming from today, that'd be great.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": null
+    },
+    {
+      "turn": 2,
+      "timestamp": "2026-07-26T06:19:57.754939Z",
+      "trigger": null,
+      "situation_assessment": "Amir has just given a brief intro \u2014 name, age, location. This is exactly what the opening question asked for. It's warm and natural. The other four participants have all indicated they want to speak and introduce themselves. This is a simple intro round; no probing needed, no depth required. The right move is to let the remaining participants introduce themselves without intervention. Observing is correct here.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 3,
+      "timestamp": "2026-07-26T06:20:19.259951Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "David has just introduced himself briefly and clearly \u2014 name, age, city. This is exactly what the opening question asked for. Ibrahim, Isaiah, and Will all indicated they want to introduce themselves. The intro round is still in progress and flowing naturally. No intervention needed. Letting the remaining participants introduce themselves without any moderator interjection is the right call.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "timestamp": "2026-07-26T06:20:38.610663Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Ibrahim has just introduced himself \u2014 name, age, location, brief expression of enthusiasm. This is exactly what the intro round calls for. Isaiah and Will both indicated they want to introduce themselves and haven't spoken yet. The intro round is flowing naturally and self-directing. No moderator intervention needed \u2014 let Isaiah and Will complete the round.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 5,
+      "timestamp": "2026-07-26T06:21:01.449835Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Isaiah has just introduced himself \u2014 name, age, location, brief social warmth. This completes four of the five intro round introductions. Will is the only participant who hasn't spoken yet, and the engagement data shows Will wants to introduce himself and has something distinctive to offer (rural Scotland perspective vs. the urban thread). The intro round is still in progress and self-directing. No moderator intervention is needed \u2014 Will should naturally take the floor next.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "timestamp": "2026-07-26T06:21:26.927589Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Will has just completed the intro round \u2014 all five participants have introduced themselves. The round went smoothly and naturally, with a light urban/rural distinction emerging between Will (rural Scotland) and the others (all urban). This is a natural transition point: the intro section has served its purpose of getting everyone talking and establishing basic presence. The next section in the guide is about favourite places to spend time with male friends, which connects well to the geographic diversity the group has just established. The mandatory intervention flag is active after 4 consecutive participant turns. The right move is a warm, brief acknowledgement of the group and a move into Section 1 \u2014 not a probe of Will's rural angle (that would be out of place in intro) but a natural section transition.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Great, cheers everyone \u2014 Amir, David, Ibrahim, Isaiah, Will. So we've got a bit of a spread across the UK, urban and rural, which is interesting. Right, let's get into it. First question \u2014 and be as specific as you like here: what's your favourite place in your city, town, wherever you are, to spend time with your male friends? Why that place?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "timestamp": "2026-07-26T06:22:02.785255Z",
+      "trigger": null,
+      "situation_assessment": "Amir has just given the first response to the Section 1 question about favourite places to spend time with male friends. His answer is light but substantive: high street area, restaurants, gym nearby, eating out (curry place, chicken shop), informal atmosphere. This is a context section \u2014 the goal is mapping the range of experiences across the group before going deeper. Four other participants (David, Ibrahim, Isaiah, Will) all indicated they want to answer this same question and haven't spoken yet. Amir's answer is fairly complete for this phase \u2014 he's named a place, given a rationale (relaxed, no formality), and mentioned the activity (eating out). There's a potentially interesting thread about food being central to male socialising, but this is too early to probe \u2014 other participants haven't answered yet and the section needs breadth first. The right move is to observe and let others respond naturally. All five participants indicated high urgency to answer this question, so the group will self-direct without my intervention.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "timestamp": "2026-07-26T06:22:31.766034Z",
+      "trigger": null,
+      "situation_assessment": "David has responded to the Section 1 question about favourite places to spend time with male friends. His answer mirrors Amir's broadly (high street, casual food spots, gym), adds some local Glasgow colour, and then explicitly passes the floor to the southern participants \u2014 'What about you lot down south \u2014 Yorkshire and that?' This is exactly the kind of organic group exchange the format is designed to produce. The discussion is flowing naturally, David has invited others in, and Ibrahim and Isaiah (both mentioned in the engagement data as wanting to answer this same question, Isaiah being from Leeds) are likely to pick up the thread. Will also has a contrasting rural perspective to offer. The section is in its early mapping phase \u2014 only two of five participants have answered the guide question. The right move is to observe. David's question to the group is a better invitation than anything I could offer right now.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "timestamp": "2026-07-26T06:23:02.004772Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Amir has added to David's response by drawing a parallel between Glasgow's independent scene and Birmingham's Balti Quarter \u2014 a specific, named place with genuine local character. This is good colour: he's moved from 'curry place' in his first answer to a much more specific reference, and he's also noted the chain vs. independent tension. Three participants (Ibrahim, Isaiah, Will) still haven't answered the section question at all. David opened the floor to them directly in turn 8 ('What about you lot down south?'). The group is flowing naturally and those participants indicated they want to respond. The section is still in breadth-gathering mode \u2014 the right move is to let it run. Intervening now would interrupt what is shaping up to be a natural round of responses. Observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "timestamp": "2026-07-26T06:23:26.760324Z",
+      "trigger": null,
+      "situation_assessment": "David has passed the floor directly to Will, asking specifically about his rural experience. This is exactly what the section needs \u2014 Will has the most distinct perspective in the group (rural Scotland vs. urban England/Scotland) and has been silent since the intro. Three participants (Ibrahim, Isaiah, Will) still haven't answered the section question. David's direct invitation to Will is a natural, organic way of bringing him in. The discussion is flowing well without moderator intervention \u2014 David is doing the moderator's job of drawing out a quieter voice. The right move is to observe and let Will respond to David's invitation.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "timestamp": "2026-07-26T06:23:58.604762Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Isaiah has answered the section question well \u2014 he's given Leeds-specific colour (independent restaurants, city centre), echoed the gym theme, and then passed directly to Will ('Will, is it proper limited where you are then, or...?'). This is the third consecutive participant turn pointing toward Will's rural perspective. David did it in turn 10, and now Isaiah has done the same. Will has been waiting to speak and has an explicitly different perspective to offer (rural Scotland vs. urban). The section has now had answers from Amir, David, and Isaiah \u2014 all urban, broadly similar in shape (casual food spots, gym, independents vs. chains). Will is the one voice that could genuinely differentiate the picture. Ibrahim has also not yet answered the section question and noted he wanted to. The mandatory intervention flag is active, but I need to choose carefully. The group is mid-flow with a very natural invitation to Will \u2014 interrupting to redirect to Ibrahim or to probe what's already been said would be counterproductive. The smartest move here is a brief, warm invitation to Will \u2014 not a probe (nothing to probe yet; he hasn't spoken on this section question), but an `invite_to_speak` that formalises the group's own invitation and draws him in. This is also a participation imbalance action without being heavy-handed. After Will speaks, Ibrahim can follow naturally. I'll queue Ibrahim as a next action.",
+      "action": "invite_to_speak",
+      "target": "mm_fg1_will",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg1_ibrahim",
+        "rationale": "Ibrahim hasn't answered the section question yet and flagged he wanted to contribute on this topic. After Will speaks, a natural opening exists.",
+        "condition": "Ibrahim does not volunteer after Will has spoken."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Will, sounds like everyone's curious \u2014 over to you.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 12,
+      "timestamp": "2026-07-26T06:24:20.905047Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Will has now answered the section question fully and specifically: the village pub as social hub, driving to town as the alternative, outdoor walks, same routine/same places. He's also added something worth noting \u2014 a light dismissal of any sense of deficit ('I don't feel like we're missing out or anything'). That's a potentially interesting cue but this is a context section and it's not yet rich enough to warrant probing at depth. The section now has answers from Amir, David, Isaiah, and Will. Ibrahim is the only participant who hasn't answered the section question. The queued action from the previous turn was to reactivate Ibrahim if he didn't volunteer after Will spoke. He hasn't spoken. The condition is met. The discussion has a natural pause \u2014 Will just completed a response that drew everyone's curiosity. This is a clean opening to bring Ibrahim in warmly without it feeling forced. The section is still in breadth-gathering mode and Ibrahim's view (he is from London, the one city not yet represented on this question) would genuinely add range. A light `reactivate_silent` is the right move.",
+      "action": "reactivate_silent",
+      "target": "mm_fg1_ibrahim",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Cheers Will \u2014 that's a really different picture. Ibrahim, what about you \u2014 what's it like in London for that kind of thing?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 13,
+      "timestamp": "2026-07-26T06:24:43.604262Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Ibrahim has now answered the section question. All five participants have spoken on this topic: Amir (Birmingham high street, curry, gym), David (Glasgow, Sauchiehall Street, independents, gym), Isaiah (Leeds, independents, gym), Will (rural Scotland, village pub, outdoors, same routine), and now Ibrahim (North East, high street, takeaways, gym, workable but less varied than big cities). The section question has been answered with reasonable breadth \u2014 we have a spectrum from rural to mid-sized northern town to major UK cities. Ibrahim's answer is functional but doesn't add much that's new: he's positioned himself as middling between Will and the big-city lads, which is useful but not surprising. There are no strong emotional cues, no contradictions, and no dominant voices. The group has collectively sketched out the urban/rural axis with decent specificity. This is a context section \u2014 the purpose is terrain-mapping, not deep excavation. That terrain is now reasonably mapped. The marginal value of further probing here is low. The right move is to transition to Section 2 (everyday food decision-making), which is where the research starts to get substantive and where the gym/food themes that have already emerged naturally can be developed properly. No participant needs to be drawn out further on this section question.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Cheers Ibrahim \u2014 so we've got quite a range here, from Will's village pub to London, North East, Leeds, Birmingham, Glasgow. Interesting that the gym keeps coming up across all the urban ones. Let's build on that a bit \u2014 I want to ask something a bit more specific now: how do you actually decide what to eat, day to day? Like what goes into that decision for you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 14,
+      "timestamp": "2026-07-26T06:25:23.906874Z",
+      "trigger": null,
+      "situation_assessment": "Will has just opened Section 2 with a genuinely distinct and specific answer: his food decision-making is structural rather than hedonic \u2014 shaped by weekly shopping logistics and rural availability rather than daily cravings or spontaneous choice. He's framed this explicitly as different from what the urban participants described ('compared to what you're all describing'). This is a useful first contribution that anchors one end of the spectrum. The section question is still very fresh \u2014 this is the first response. Four other participants have high urgency to respond (all flagged wants_to_speak in last_engagement_round). Will's answer is specific enough that it doesn't need probing right now; it does more work as a foil for the others to respond to. The right move is to let the group engage \u2014 either by responding to Will's framing or by offering their own take on how they decide what to eat. There is no consensus risk, no emotional signal, no contradiction, no participation imbalance (Will just spoke). Intervening now would interrupt a natural flow. The group has momentum and multiple participants want to contribute. Observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "timestamp": "2026-07-26T06:25:57.453835Z",
+      "trigger": null,
+      "situation_assessment": "Ibrahim has answered the section question clearly and with genuine specificity: he's spontaneous in timing (decides when hungry, goes out on the day) but constrained by preference (meat-first as a near-automatic default). This contrasts usefully with Will's structural constraint (planned by necessity) \u2014 both end up with narrowed choice, but from opposite directions. Ibrahim's phrase 'meat first, then figure out where' is a compact and honest articulation of a food identity, not just a preference. This is good material. The section question has now been answered by Will and Ibrahim. Three participants (Amir, David, Isaiah) flagged high urgency to respond and all had something to say about Will's contribution specifically \u2014 they're primed to engage. The discussion has momentum. The right move is to let the group run: Amir in particular wanted to contrast his experience with Will's, and now has Ibrahim's answer as additional reference. There's no participation imbalance to address (Ibrahim just spoke), no consensus risk (Will and Ibrahim have actually offered structurally different framings), no emotional signal, no contradiction. Intervening now would cut off what looks like a productive group exchange about to happen.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "timestamp": "2026-07-26T06:26:28.731455Z",
+      "trigger": null,
+      "situation_assessment": "Will has just responded directly to Ibrahim's point, affirming the meat-as-default framing and adding his own structural wrinkle: for him, the default is baked in at the shopping stage rather than at the point of spontaneous decision. This is a genuine and useful contribution \u2014 it adds a temporal dimension to the decision-making question (when does the choice actually happen?). Two participants have now spoken, both converging on meat as an unthought default but via different structural routes (planned vs. spontaneous). Three participants \u2014 Amir, David, Isaiah \u2014 all flagged high urgency to speak at the last engagement round and all had substantive things to add. The discussion is flowing naturally and organically; participants are building on each other without moderator prompting. Isaiah is the quietest participant but the section question still has multiple perspectives to come in organically. There's no stall, no drift, no consensus risk (Will and Ibrahim have framed the same outcome via different mechanisms, which is analytically interesting, but the other three haven't spoken yet). The right move is to let the group continue \u2014 Amir, David, or Isaiah will respond. Intervening now would interrupt what looks like productive self-directed exchange.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "timestamp": "2026-07-26T06:27:01.081213Z",
+      "trigger": null,
+      "situation_assessment": "Ibrahim has just made a genuinely useful and analytically distinct move: he's pushing back on Will's framing of meat-as-default-by-circumstance and insisting his own default is active preference, not passive constraint. This is the most interesting tension to emerge in this section so far \u2014 the question of whether 'default' eating is chosen or unchosen, and whether it even matters. Three participants (Amir, David, Isaiah) still haven't spoken in this section, and all three flagged high urgency and substantive things to say. The guide question is being answered well by Will and Ibrahim but the range of experience isn't mapped yet. The natural thing here is to let the group run \u2014 Amir in particular wanted to complicate the 'just what you eat' framing from a cultural angle, and David had something relevant. The discussion is flowing, the last three turns have been productive participant-to-participant exchange, and the tension between Will's structural default and Ibrahim's preference-based default is a good live thread for others to react to. No stall, no drift, no consensus risk (genuine tension is alive), no participation crisis yet (section just started). Isaiah is quiet but it's too early to redirect \u2014 the current exchange is too live. Observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "timestamp": "2026-07-26T06:27:36.924114Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Will has just clarified his position in response to Ibrahim's distinction: he's pushing back on the idea that his meat-eating is merely circumstantial, insisting it's also a genuine preference \u2014 just enacted at the shopping stage rather than on the day. This is a reasonable and honest clarification, and it actually collapses the Will/Ibrahim distinction somewhat: both are saying 'I eat meat because I want to, not just because it's what's there.' That convergence is analytically interesting but risks closing off a line of inquiry that's still worth pursuing. More importantly, three participants \u2014 Amir, David, Isaiah \u2014 have not spoken at all in this section. The section question ('how do you decide what to eat?') has only been heard from two voices so far, both of whom have converged on a meat-first default framing (preference vs. circumstance, but same endpoint). The group needs the other three perspectives to map the range of experience. The mandatory intervention requirement applies. The cleanest move is a redirect_to_group that picks up the thread Will and Ibrahim have established \u2014 the preference/default distinction \u2014 and opens it to the others. This avoids artificially forcing Isaiah in by name while naturally creating space for him and the others. It's a light redirect, not a deep probe \u2014 appropriate for context phase.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg1_isaiah",
+        "rationale": "Isaiah has the lowest turn count in this section and hasn't spoken yet \u2014 if Amir and David respond but Isaiah doesn't come in naturally, a warm invitation is warranted.",
+        "condition": "Isaiah does not speak in the next two participant turns."
+      },
+      "intervention_mode": "speak",
+      "utterance": "So Will and Ibrahim are both landing in a similar place \u2014 meat as a genuine preference, not just what's there \u2014 even if the decision happens at different moments. What about the rest of you? How does that sit with how you think about it?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "timestamp": "2026-07-26T06:28:09.417209Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Isaiah has just spoken for the first time in this section, and his contribution is analytically interesting: he's positioning himself closer to Will's 'it just happens' end of the spectrum than Ibrahim's 'active preference' end \u2014 meat as default by availability and habit rather than strong preference. Crucially, he adds something new: a willingness to eat something else if it came to it ('I could probably eat something else and be fine with it'), which is the first hint of openness that neither Will nor Ibrahim expressed. That's a potentially important signal for later sections. Amir and David still haven't spoken in this section at all \u2014 both flagged high urgency with substantive things to add. The guide question ('how do you decide what to eat?') still hasn't heard from them, and both had distinct angles (cultural/social context, urban availability shaping perceived preference). The section isn't exhausted yet. Isaiah's response doesn't need deep probing \u2014 it's clear, appropriately specific for a context phase, and his 'I'm not bothered either way' is interesting but not urgent to pursue right now given the phase and the fact that Amir and David haven't had a turn. The right move is to let Amir and David respond \u2014 they've been waiting and have substantive things to add. No intervention needed.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "timestamp": "2026-07-26T06:28:48.814657Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Amir has just spoken for the first time in this section, and his contribution closely echoes Isaiah's \u2014 meat as unreflective default, genuinely liked but not actively chosen, no strong preference logic behind it. He adds one new element worth noting: the social dimension ('that's what my mates eat') as part of why it's the default, alongside availability and habit. That's a distinct thread \u2014 the group/social influence on food default \u2014 that hasn't been surfaced explicitly before and is relevant to the guide's suggested probes ('do other people influence what you eat?'). However, David is the only participant who hasn't spoken in this section yet. His urgency was moderate (0.65) and he had something substantive to add about the Isaiah/default framing. The more pressing issue right now is that David still hasn't had a turn. Amir's point about mates eating the same thing is analytically interesting and could be opened to the group, but it's also a natural moment to let David in \u2014 he's been waiting and has something relevant. The group is in a good organic flow: Isaiah spoke, then Amir affirmed and added the social angle. David is the natural next voice. Amir's contribution doesn't need immediate probing \u2014 it's clear and appropriately specific for the context phase. The question is whether to let David come in naturally or to stay quiet and observe. Given David flagged genuine urgency (0.65) and has been waiting the whole section, and given that consecutive_participant_turns is now at 2 (Isaiah, Amir), the group may continue without me. I should observe and let David speak.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg1_david",
+        "rationale": "David has not spoken in this section and flagged genuine urgency. If he doesn't come in naturally after this turn, a warm invitation is warranted.",
+        "condition": "David does not speak in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "timestamp": "2026-07-26T06:29:28.246559Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Isaiah has just spoken again, building on Amir's point and his own earlier contribution. The content is substantively identical to what he said in turn 19 \u2014 the preference/familiarity ambiguity, meat as default, 'I couldn't tell you honestly.' He's circling the same idea rather than advancing it. The group has now heard from Will (twice), Ibrahim (twice), Isaiah (twice), and Amir (once) on this section's question. David is the only participant who has not spoken at all in this section, and he flagged genuine urgency (0.65) with something specific to add about the preference/default split. The queued action from turn 20 was: reactivate David if he doesn't come in naturally. He hasn't. The discussion is at a natural moment \u2014 Isaiah has just finished, there's no active build underway \u2014 and David's absence is now notable. The group is also showing signs of consensus crystallising around the preference/habit ambiguity framing without tension. Before that hardens further, David's perspective (which was going to complicate the Isaiah/Amir framing) would be valuable. This is a genuine case for reactivate_silent \u2014 not mechanical, but timely. The section still has research value: the suggested probes (social influence on food, work/hobbies, health, taste) haven't been touched yet. But before going deeper on those, getting David's baseline response to the core question is the right priority. A warm, low-pressure invitation to David is the right move here.",
+      "action": "reactivate_silent",
+      "target": "mm_fg1_david",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "David, we haven't heard from you yet on this one \u2014 how does it work for you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "timestamp": "2026-07-26T06:30:04.190447Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "David has now spoken for the first time in this section, and his contribution does two things: first, he essentially agrees with Isaiah and Amir that meat is an unreflective default (not a strong preference, just 'food'), which deepens the consensus already forming; second, and more importantly, he flags something analytically distinct and forward-looking \u2014 his discomfort with the 'real men eat meat' framing. That second element is the most interesting thing said in the last several turns. It's directly relevant to section 3 (gender and food choice), and David has pre-empted the guide by raising it himself, noting 'I reckon it will come up.' This is a significant signal \u2014 not just a new theme, but a moment where David has staked out a position that may not be shared by the others. There's a risk of letting it pass unremarked and losing the thread, but there's also a risk of jumping to section 3 prematurely. The current section still has unexplored territory (social influence, work/hobbies, health, taste \u2014 none of the suggested probes have been fired yet). The wisest move is to note David's gender comment as a queue for later and stay in section 2, but do so in a way that briefly acknowledges what he raised so the group registers it and so David feels heard. I should not ignore it entirely, but I should not open it fully right now. The more pressing gap in section 2 is that David's core answer \u2014 'I'm just not that bothered' \u2014 actually differentiates from Ibrahim's 'I genuinely prefer meat' position. That tension (preference vs. indifference) is worth briefly opening to the group, because it adds a third position to the landscape (Will = structured default, Ibrahim = genuine preference, Isaiah/Amir = comfortable habit, David = genuine indifference). But the group has now spoken extensively on this sub-question. The suggested probes for section 2 are untouched: social influence, work/hobbies, health, taste. This is a natural moment to pivot within the section to one of those. David's point about mates/social eating hasn't been deeply explored. The social influence probe ('do other people influence what you eat?') is the most logical next move \u2014 Amir mentioned 'that's what my mates eat', and David mentioned the group norm angle in a different way. Opening this to the group would naturally elicit differentiated responses. Rather than deepening the preference/habit debate further, a redirect to social influence is the right call \u2014 it stays in section 2, covers a key suggested probe, and builds on something multiple participants have touched on. I should briefly acknowledge David's gender point (parking it for later without killing it), then pivot to the social influence probe.",
+      "action": "ask_initial_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg1_david",
+        "rationale": "David's comment about the 'real men eat meat' thing is analytically important for section 3. Park it now but return to it when section 3 opens \u2014 he's already primed and positioned on it.",
+        "condition": "Section 3 opens and David hasn't volunteered on the gender/food topic."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Cheers David \u2014 and yeah, that gender thing is worth coming back to. Something to pick up in a bit. \n\nBut something a few of you have touched on \u2014 Amir mentioned eating what your mates eat, David you implied a kind of group norm thing too. I'm curious how much the people around you actually shape what you eat \u2014 whether that's mates, family, whoever. Does that play into it much for any of you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 23,
+      "timestamp": "2026-07-26T06:30:50.102448Z",
+      "trigger": "section_complete",
+      "situation_assessment": "David has just given a substantive and analytically clear answer to the social influence probe. His contribution does three things: (1) confirms social influence operates on eating habits, (2) identifies the mechanism as invisible norm reinforcement (family \u2192 mates \u2192 default), and (3) explicitly pre-empts the gender-as-identity argument, saying eating what your group eats isn't a statement about who you are. This last move is significant \u2014 he's effectively already begun addressing section 3's question (gender and food choice) for the second time, unprompted. The section 2 probe on social influence has now received meaningful input across the group: Will (practical/structural), Ibrahim (spontaneous preference), Amir (mates-as-default), David (invisible norm reinforcement). Isaiah hasn't yet spoken to this specific probe, but given he spoke twice in the last exchange and his urgency is moderate (0.65), and given the content he'd add would likely echo David and Amir (he's already been in the preference/habit conversation at length), his silence here is not a strong enough signal to warrant a direct invitation over section transition. The section readiness check: all five participants have spoken on the core question; the social influence probe has been meaningfully addressed; the three remaining probes (work/hobbies, health/nutrition, taste) are lower priority than moving to section 3, which the group is repeatedly nudging toward organically. David has now twice raised the gender/identity framing unprompted. The marginal value of probing deeper in section 2 is low \u2014 the terrain is mapped. The research value is now clearly in section 3. A transition is warranted. I should briefly acknowledge what's been said across the group without over-summarising, then move to section 3's question naturally \u2014 using David's own framing as a bridge since he's already surfaced it twice.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg1_david",
+        "rationale": "David has twice pre-empted section 3 by raising the 'real men eat meat' framing and distancing himself from it. If he doesn't volunteer early in section 3, a direct probe on what specifically feels off about that framing \u2014 and whether he's encountered it in practice \u2014 would be productive.",
+        "condition": "David does not volunteer within the first two participant turns of section 3."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Yeah, that invisible reinforcement thing David's describing \u2014 you just eat what your family ate, your mates do the same, and it never really becomes a decision \u2014 I think that's come through from a few of you in different ways. Good. \n\nSo let's pick up on the thing David's mentioned a couple of times now, because I think it's actually the next question anyway. Does your gender influence what you eat? And I don't just mean in some abstract sense \u2014 I mean in practice, day to day, or in certain situations. Does being a man shape what you order, what you cook, what you'll admit to liking? Any of you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "timestamp": "2026-07-26T06:31:43.319505Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "This is the opening turn of section 3 (gender and food choice). Amir has gone first and given a substantive, specific answer: he wouldn't order a salad with the lads because of an unspoken social norm \u2014 'you'd get a bit of stick' \u2014 and when cooking for mates he'd make something 'proper' (big curry, steak, loads of chicken). He's named the mechanism (social comfort/fit) and been self-aware about it ('I don't think it's like some massive thing'). This is genuinely rich material: it names a real behaviour, a real social consequence, and a real affective register ('feels a bit weird'). But Amir has also self-minimised at the end \u2014 'it's more comfortable that way' \u2014 which softens the finding. The section has four other participants who all signalled urgency to speak on exactly this question. David has twice pre-empted this topic. Will flagged a rural angle. This is the first response of a main topic section. The right move is to let the others in \u2014 not to probe Amir immediately, but to open this to the group. His framing (salad = social risk, meat = 'fits') is something others will either affirm, complicate, or contest. There's real consensus risk if everyone just echoes 'yeah, unspoken thing' \u2014 but that risk is better managed by hearing diverse positions before synthesising. The queued action from the previous moderator turn was to probe David if he didn't volunteer early. He hasn't had a chance yet \u2014 this is still the first participant response. Let the group respond to Amir's point. A redirect_to_group is the right call here: echo Amir's specific 'salad' example and open it to reactions.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg1_david",
+        "rationale": "David has twice flagged discomfort with the 'real men eat meat' framing and said 'it will come up.' If he doesn't speak in the next two participant turns, a direct probe on whether he's ever felt or noticed that pressure in practice would be productive.",
+        "condition": "David has not spoken within the next two participant turns."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Amir's talking about something quite specific there \u2014 this sense that ordering a salad with the lads would just feel off, that there's a kind of unspoken thing about what fits. Does that land for anyone else, or does it play out differently where you are?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "timestamp": "2026-07-26T06:32:19.911115Z",
+      "trigger": null,
+      "situation_assessment": "Ibrahim has responded directly to Amir and added real analytical value: he's named the mechanism more precisely ('you can't even tell anymore whether you're doing something because you genuinely want to or because that's just what you're supposed to do') and explicitly challenged Amir's self-minimisation ('it's not nothing'). This is productive peer-to-peer exchange on exactly the section's question. Ibrahim has also introduced something new \u2014 the distinction between preference and social compliance has now been sharpened into a genuine epistemological claim: social pressure can become indistinguishable from preference. This is the richest moment in section 3 so far. The group has high urgency to speak: David, Isaiah, and Will all signalled they want in, with David and Will flagged as having distinctive angles (David: scepticism about the identity framing; Will: rural/outdoor masculinity). The right move is to observe and let the conversation run. Ibrahim has just pushed back on Amir and the others are ready to respond. Intervening now would interrupt what looks like a productive organic exchange. The consecutive_participant_turns is at 0 (just reset after my last speak), so I'm not at risk of being too absent. This is a clear observe moment.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 26,
+      "timestamp": "2026-07-26T06:33:00.229927Z",
+      "trigger": null,
+      "situation_assessment": "Amir has responded directly to Ibrahim's challenge and made a meaningful distinction: he accepts that the social pressure exists, but rejects Ibrahim's stronger claim that you can no longer tell what you genuinely want. His position is: 'the pressure's there, but I actually like meat, so it aligns rather than controls.' This is a real and substantive difference from Ibrahim's framing, not just face-saving. The exchange between them has produced genuine analytical tension: Ibrahim says preference and social compliance have become indistinguishable; Amir says they're distinguishable and in his case they happen to align. This is the most productive dialectic the section has produced so far. David, Isaiah, and Will all signalled urgency to speak and each has a distinctive angle (David: scepticism about the identity framing; Will: rural masculinity; Isaiah: wants to affirm Ibrahim but also revise his own earlier minimisation). The right move is still to observe and let others in \u2014 David and Will in particular have been waiting and have something genuinely different to contribute. Three participants have now spoken in section 3 (Amir twice, Ibrahim once). David hasn't spoken yet in this section; the queued action was to probe him if he hadn't spoken within two participant turns. This is now the second participant turn of section 3 and David hasn't spoken \u2014 but given the high urgency signals and the fact that the conversation is clearly active and productive, I should let it run rather than forcing a moderator intervention. The consecutive_participant_turns counter is at 1 (just Amir this turn, after my last speak at turn 24). There is no stall, no drift, no exclusion crisis. This is a clear observe moment.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "timestamp": "2026-07-26T06:33:40.149077Z",
+      "trigger": null,
+      "situation_assessment": "Ibrahim has just made his strongest analytical move yet: the claim that social pressure operates not by forcing choices but by narrowing what you even consider \u2014 'salad's already off the table in your head before you've looked at the menu.' This is a genuinely sharp epistemological point that goes beyond the preference/compliance distinction he introduced earlier. Amir and Ibrahim have now had a substantive back-and-forth across three turns that has produced real intellectual tension. The exchange is productive and on-topic, directly answering the section's core question about whether gender influences what you eat. David, Isaiah, and Will all signalled urgency to speak with distinctive angles: David is sceptical of the identity framing, Will has a rural masculinity angle, Isaiah wants to name specific mockery culture. None of them have spoken in section 3 yet. The conversation is actively flowing \u2014 Ibrahim just challenged Amir and the others are clearly primed to respond. My consecutive_participant_turns is 2, which is fine. My moderator_turn_share_recent is already at 0.5 (too high), which is a strong signal to stay back. The right move is to observe and let David, Isaiah, or Will come in organically. The Ibrahim-Amir exchange has been allowed to run appropriately; now the group needs to open up, not be redirected by me. No intervention required.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "timestamp": "2026-07-26T06:34:21.738985Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Amir has just given an honest, self-aware concession: he can't prove whether the pressure or his genuine preference is driving his choices, but he lands on 'they line up, and that's fine.' He's also named the epistemic problem clearly \u2014 'I can't know what I'd want if the pressure wasn't there' \u2014 which is exactly what Ibrahim was pointing at. The Ibrahim-Amir exchange has now run four turns and reached a genuine resting point: both have stated their positions, both have made real moves, and the tension is well-documented. Amir even signals closure with 'it's messy, innit?' The section's guide question has been substantially addressed by these two, but David, Will, and Isaiah have not spoken in section 3 at all. Three participants with signalled urgency and distinctive angles (David: scepticism about identity framing; Will: rural/structural angle; Isaiah: affirm-and-elaborate on invisible default) have been waiting. The conversation is still on-topic and productive, but the Ibrahim-Amir dyad has run its course. The risk now is that the exchange continues to loop or that the group consolidates around just these two positions without hearing the others. This is the right moment to open to the group \u2014 not to summarise, but to let the others respond to the substance. The moderator turn share is already high (0.5 recent), so the move should be light: a brief redirect that passes the floor to the group without synthesising or closing. Amir's closing line ('it's messy, innit?') is a natural handoff \u2014 I can use that to invite the others in without much moderator weight.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg1_will",
+        "rationale": "Will signalled a rural/structural angle on the narrowing question \u2014 that the constraint operates at a bigger scale than just peer group pressure. If he doesn't come in voluntarily, worth inviting him specifically.",
+        "condition": "Will does not speak in the next two participant turns."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Amir's landed on 'it's messy' \u2014 and that feels honest. But you three haven't weighed in yet. Does that tension he and Ibrahim have been pulling at \u2014 between pressure and preference, what you'd actually want versus what's already kind of off the table \u2014 does it play out similarly for you, or differently?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 29,
+      "timestamp": "2026-07-26T06:34:58.929330Z",
+      "trigger": null,
+      "situation_assessment": "Isaiah has just come in organically and made a genuinely useful contribution: he's named 'inertia' as a third category distinct from both Amir's 'preference-that-happens-to-align' and Ibrahim's 'invisible narrowing.' His move is analytically honest \u2014 he admits he can't tell if his default is preference or just the path of least resistance. This adds real texture to the section's question. David and Will have still not spoken in section 3. David signalled scepticism about the identity framing and urgency to push back on Ibrahim; Will had a structural/rural angle. The conversation is now flowing genuinely \u2014 Isaiah just weighed in unprompted, which is good. The group has produced three distinct positions: Ibrahim (pressure narrows what you even consider), Amir (pressure and preference happen to align, and that's fine), Isaiah (inertia \u2014 never needed to push against the default). David and Will are still unheard. The consecutive_participant_turns is now at 1 (Isaiah just spoke, last moderator was turn 28). The discussion is live and productive. David's urgency signal was high and he wants to challenge Ibrahim's framing \u2014 that would add real tension. Will's angle would add structural differentiation. The right call is to observe and let one of them come in. The group is actively working through the question. No stall, no drift, no consensus hardening \u2014 Isaiah has actually introduced a new conceptual move that might prompt David or Will to respond. Observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "timestamp": "2026-07-26T06:35:41.475302Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Ibrahim has just made a graceful, self-correcting move \u2014 acknowledging he was 'being a bit too hard on it' and landing on 'the pressure's in the lining up, not in the pushing back.' This is analytically sharp and honest, and it effectively synthesises his earlier position without abandoning it. The Ibrahim-Amir-Isaiah exchange has now produced three well-articulated positions: Ibrahim (pressure operates by pre-narrowing the option space), Amir (pressure and genuine preference happen to align, which is fine and honest), Isaiah (inertia \u2014 never needed to push against the default). The exchange has reached a genuine resting point. David and Will have still not spoken in section 3 at all. David's signalled urgency involved scepticism about the identity framing and wanting to push back on Ibrahim. Will had a structural/rural angle. The consecutive_participant_turns is now at 2 (Ibrahim and Isaiah have spoken since last moderator turn). Moderator turn share recent is already at 0.5, which is a strong signal to stay back if possible. However, David and Will have been silent for the entire section \u2014 that's a meaningful participation gap in the main topic section. The Ibrahim-Amir exchange has clearly reached resolution, Ibrahim has just signalled closure ('that's not the point, it's more just... being real'), and Will's urgency signal mentioned he wanted to honestly acknowledge Ibrahim's point about not knowing what you'd want if things were different while holding onto genuine preference. David wanted to note you can be genuinely fine with something AND still be shaped by it without realising. Both of those would add real new content. The current moment \u2014 Ibrahim just offered a considered, self-softened conclusion \u2014 is a natural break. But the group is capable of self-selecting. My recent turn share is already high. The right call is to observe and see if David or Will come in. They are signalled as wanting to speak. If they don't come in after one more participant turn, I should bring them in. Right now, observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg1_will",
+        "rationale": "Will and David have not spoken in section 3. Will signalled a structural angle \u2014 that constraint operates at a bigger scale than peer group pressure. David signalled scepticism about the identity framing. If neither comes in voluntarily after the next participant turn, bring Will in with a warm, topic-tied invite.",
+        "condition": "Neither Will nor David speaks in the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "timestamp": "2026-07-26T06:36:23.332699Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Isaiah has just made a significant conceptual move: he's accepted Ibrahim's framing ('the pressure's in the lining up') and explicitly extended it \u2014 'I've kind of let the default do the thinking for me.' This is analytically rich and self-aware. The Ibrahim-Amir-Isaiah exchange has now produced a genuine convergence around the idea that preference and social default are entangled in ways that are hard to disentangle. However, this convergence is starting to feel like it might be hardening into easy agreement \u2014 Isaiah's closing line ('probably doesn't change anything about what I actually eat, but yeah') has the texture of intellectual concession without lived consequence. More importantly, David and Will have still not spoken at all in section 3. The queued action from turn 30 flagged Will specifically (rural/structural angle, signalled urgency) and David (scepticism about the identity framing, wanted to push back on Ibrahim's framing as missing the point). The consecutive_participant_turns is now at 3 (Isaiah, Ibrahim, Isaiah). The group has self-selected productively, but it's now genuinely time to bring in the voices that haven't been heard. The consensus_risk is rising \u2014 three participants have essentially landed in the same place intellectually. David's signalled angle ('you can genuinely like something AND be shaped by it without realising, and that's not the interesting question') would actually push back productively on the current convergence. Will's structural angle might do the same from a different direction. The moment is right to open to the unheard participants. Given the moderator turn share is already high, the move should be economical \u2014 a brief, warm invite that doesn't summarise what's been said but passes the floor to David or Will specifically. The queued action named Will specifically. I'll use reactivate_silent for Will, with a warm topic-tied framing.",
+      "action": "reactivate_silent",
+      "target": "mm_fg1_will",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "invite_to_speak",
+        "target": "mm_fg1_david",
+        "rationale": "David signalled he wants to push back on Ibrahim's framing \u2014 that treating preference/habit distinction as the central unsolvable mystery misses the point. That would add genuine tension to the current convergence.",
+        "condition": "David does not speak voluntarily after Will's turn."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Will, you've been quiet on this one \u2014 does any of that ring true from where you are, or does it land differently?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 32,
+      "timestamp": "2026-07-26T06:36:58.735360Z",
+      "trigger": "consensus_risk",
+      "situation_assessment": "Will has just made a genuinely useful and differentiating contribution: he's located the 'default doing the thinking' not at the social/peer level but at a structural/geographic level \u2014 meat isn't the socially safe choice among the lads, it's just what exists and what you eat, full stop. He's accepted Ibrahim's epistemic point about not knowing what you'd prefer if things were different, but relocated the mechanism. This is the most structurally distinct position in the section so far. David is still completely unheard in section 3 \u2014 he signalled he wants to push back on the framing, and the queued action from turn 31 flags him specifically. The consensus risk is high (0.72): Amir, Isaiah, and now Will have all converged on 'the default does the thinking, but I don't know if that's a problem.' The positions are collapsing into a shared epistemic humility without anyone actually disagreeing about anything substantive. David's signalled angle \u2014 that the preference/habit distinction might not be the interesting question \u2014 would introduce genuine tension. But more pressingly, the section's guide question also includes suggested probes about whether men think vegetarian/vegan foods are socially acceptable, whether some foods are coded feminine, whether some are coded masculine. The group has been deep in the preference-vs-habit debate, which addresses the gender influence question obliquely, but hasn't touched the more direct social acceptability / gendered food coding territory at all. The consensus risk instruction requires invite_dissent or synthesize_and_challenge this turn. Will's contribution is a natural landing point \u2014 he's connected his rural experience back to Ibrahim's framing in a way that feels like a closing move. The group has now essentially all said 'the default runs the show and I'm not sure what I'd actually prefer.' That's a clean synthesis opportunity with a challenge: they've all agreed the mechanism is invisible, but none of them have talked about whether this shows up in any specific food \u2014 is there a food they'd feel actively uncomfortable eating in front of mates, not just not-ordering, but genuinely uncomfortable? That's the sharpening condition that moves from abstract epistemic concession to lived behavioural specificity, and it directly connects to the guide's suggested probes about feminine/masculine food coding. Synthesize_and_challenge is the right move here \u2014 brief synthesis of what the group has landed on, then a sharpening condition that tests whether 'social default' has any real teeth in specific food choices. Target the group. Keep the synthesis short, land one challenge.",
+      "action": "synthesize_and_challenge",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": "medium",
+      "queued_next_action": {
+        "action": "invite_to_speak",
+        "target": "mm_fg1_david",
+        "rationale": "David has not spoken in section 3 and signalled he wants to challenge the preference/habit framing. After the group responds to the synthesis challenge, bring David in if he hasn't come in voluntarily.",
+        "condition": "David does not speak voluntarily in the next participant turn."
+      },
+      "intervention_mode": "speak",
+      "utterance": "So across the four of you, there's something that keeps coming up \u2014 whether it's the lads all ordering the same thing, or just what's in front of you where you live, the choice kind of makes itself. You can all see the mechanism, even if you can't fully unpick whether you'd actually choose differently. But here's what I want to test: is there a specific food \u2014 not just salad in the abstract \u2014 something you can actually picture \u2014 that you'd genuinely feel uncomfortable eating in front of your mates? Not just 'wouldn't order it,' but it'd feel actually off, like it'd say something about you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 33,
+      "timestamp": "2026-07-26T06:37:47.279388Z",
+      "trigger": "consensus_risk",
+      "situation_assessment": "Amir has done something genuinely valuable here \u2014 he's moved from the abstract ('salad would be a bit odd') to a specific category ('veggie burger, full vegetarian meal') and has articulated exactly why it feels different: it's not about the food, it's about what the food says about you. 'It becomes a thing about you. About your choices, your values.' That's a sharp and honest answer to the sharpening condition the moderator just posed. It's directly on-topic for section 3 (gender and food choice, social acceptability of vegetarian/vegan foods), and it's the most specific and personally revealing thing Amir has said in this section. David is still completely unheard in section 3 \u2014 the queued action from turn 32 flags him specifically, and his signalled intent was to challenge the preference/habit framing. However, Amir's response is hot and highly relevant \u2014 the group now has something concrete and charged on the table. The consensus risk is high (0.76), and the likely next move from other participants is to echo Amir's position ('yeah, same for me'). The risk is that four participants all say 'yeah, vegetarian food feels like a statement' without any tension or differentiation. The guide's suggested probes ('are some foods considered feminine?', 'are some foods considered masculine?') haven't been touched at all yet. Amir's 'it says something about you' framing is the entry point to those probes \u2014 what does it say? Is it a masculinity thing, a values thing, a class thing, something else? Before redirecting to the group and risking a chorus of agreement, I should observe whether others come in voluntarily and with genuine differentiation. David is signalled as wanting to push back on the identity framing. If David comes in, he might crack the consensus. If other participants come in first and simply echo Amir, then I need to act. The consecutive_participant_turns is currently at 0 (moderator just spoke). I should observe for at least one turn to see who comes in and what they say. Amir's response is rich enough to warrant a direct probe (what does 'it says something about you' actually mean \u2014 what would it say?), but given the queued action for David and the consensus risk pattern, the better move is to let the group respond first, watch for consensus hardening, and probe or redirect accordingly. Observe this turn.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "invite_to_speak",
+        "target": "mm_fg1_david",
+        "rationale": "David has not spoken in section 3 and signalled he wants to challenge the identity/values framing. Amir has just said vegetarian food 'becomes a thing about you, your choices, your values' \u2014 that's precisely the framing David wanted to complicate. If David doesn't come in voluntarily, bring him in to test whether Amir's framing holds or whether others read it differently.",
+        "condition": "David does not speak voluntarily in the next participant turn, or if other participants echo Amir without differentiation."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 34,
+      "timestamp": "2026-07-26T06:38:26.807855Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Ibrahim has just done something genuinely useful: he's named the mechanism precisely. It's not the food, it's what the food signals \u2014 and crucially, he's admitted he doesn't even know what the statement actually is ('maybe just that you fancy a veggie burger that day'). That's analytically sharp and lands directly on the section's core question about gendered food meanings. Amir and Ibrahim are now aligned on the identity-signalling thesis. The consensus risk is real: if David, Isaiah, and Will simply echo this, we end up with five men agreeing that vegetarian food feels like a statement without anyone testing that framing, challenging it, or specifying what exactly the statement would be. David has not spoken at all in section 3, was queued since turn 32/33, and his signalled intent was specifically to challenge the identity/values framing. The queued action has now carried over three turns. This is the moment \u2014 Ibrahim has just articulated exactly the framing David wanted to complicate ('if you ordered a veggie burger, what are you actually saying?'), and David is best placed to answer that. Consensus is hardening fast. I need to bring David in now, before Isaiah or Will simply affirm what Amir and Ibrahim have said. The move is invite_to_speak for David \u2014 warm, brief, tied to Ibrahim's specific question about what the statement actually is. This is not a probe question; it's a floor pass, with David's background making him uniquely positioned to test the framing.",
+      "action": "invite_to_speak",
+      "target": "mm_fg1_david",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "invite_dissent",
+        "target": "group",
+        "rationale": "If David simply echoes the identity-signalling thesis, the consensus will be fully hardened. At that point a sharpening challenge is needed \u2014 specifically: is the statement about masculinity, or is it about something else (class, environmentalism, performativity)? The group has named the mechanism but not the content of the signal, and that's where genuine differentiation might emerge.",
+        "condition": "David affirms the identity-signalling framing without adding differentiation, or if the group converges immediately after David speaks."
+      },
+      "intervention_mode": "speak",
+      "utterance": "David \u2014 Ibrahim's just asked something that I think you might have a different angle on. He's saying if you ordered a veggie burger, it'd feel like you're saying something bigger about yourself, but he's not quite sure what. What do you reckon?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    }
+  ],
+  "transcript": [
+    {
+      "turn": 0,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Hi everyone, great to have you all here \u2014 thanks for giving up your time today. We're going to spend about 45 minutes just talking, and the whole thing will be recorded for research purposes, so if that's okay with you, we'll get going. Before we do, just a few things to flag. There are no right or wrong answers here \u2014 genuinely, I'm not looking for any particular response, and whatever you actually think or do in real life is way more useful to me than anything polished or carefully worded. So try not to overthink it, just speak freely. And this is a conversation, not an interview \u2014 so if something someone else says connects with your experience, just jump in. You don't need to wait your turn, though you can if you want. The one thing I'd ask is just to be respectful of each other and keep your answers reasonably brief so everyone gets a chance to talk. Okay \u2014 let's start. If you could go around and say your name and where in the UK you're coming from today, that'd be great.",
+      "timestamp": "2026-07-26T06:19:38.971595+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 2,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Right, yeah. I'm Amir, I'm 20, from Birmingham \u2014 well, the West Midlands properly. Been here my whole life, innit. That's me.",
+      "timestamp": "2026-07-26T06:19:57.754474+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 3,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "I'm David, I'm 27, from Glasgow. Been here most of my life as well, so yeah \u2014 urban Scotland through and through really.",
+      "timestamp": "2026-07-26T06:20:19.259454+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, cheers. I'm Ibrahim, I'm 24, from the North East \u2014 urban area. Been here most of my life as well, so yeah, same kind of thing really. Looking forward to talking about all this.",
+      "timestamp": "2026-07-26T06:20:38.610364+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, alright. I'm Isaiah, 26, from Yorkshire \u2014 urban bit up here. Been around the area most of my life, so yeah, same as you lot really. Cool to meet everyone.",
+      "timestamp": "2026-07-26T06:21:01.449424+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, cheers. I'm Will, I'm 29, from rural Scotland \u2014 so a bit different from you lot, I suppose. Village area, nowhere near a city really. Been here my whole life as well, but it's a completely different setup to what you're all describing, I'd imagine. Anyway, looking forward to seeing where this goes.",
+      "timestamp": "2026-07-26T06:21:26.926805+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Great, cheers everyone \u2014 Amir, David, Ibrahim, Isaiah, Will. So we've got a bit of a spread across the UK, urban and rural, which is interesting. Right, let's get into it. First question \u2014 and be as specific as you like here: what's your favourite place in your city, town, wherever you are, to spend time with your male friends? Why that place?",
+      "timestamp": "2026-07-26T06:21:26.927724+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Oh, yeah \u2014 so for me it's probably the high street area, like round town. There's loads of restaurants and that, you know, places to grab food. We'll go to the gym sometimes too, which is just nearby. But honestly, most of the time we're just eating out somewhere, getting a bit of food, chatting. Could be a curry place, could be a chicken shop, doesn't really matter. Just somewhere we can sit down and have a laugh without it being too formal or anything. That's kind of it, really.",
+      "timestamp": "2026-07-26T06:22:02.784187+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "Yeah, that's fair \u2014 Glasgow's got that same thing going on, to be honest. Loads of spots on Sauchiehall Street and round there, you know? Pizza places, kebab shops, all that. We do the same thing \u2014 just grab food somewhere casual and hang about. \n\nThough I'd say Glasgow's got a bit of its own character with it, if that makes sense. Like, there's definitely that high street vibe Amir's talking about, but we've also got a fair few independent spots that have popped up over the years. Not trying to sound like I'm bigging up the city or anything, but it's got its own thing going on.\n\nAnd yeah, the gym thing \u2014 that's pretty common round here as well. Seems like all the urban lads are doing similar stuff really, just different postcodes. What about you lot down south \u2014 Yorkshire and that?",
+      "timestamp": "2026-07-26T06:22:31.765146+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, we've got that independent thing too, actually \u2014 like the Balti Quarter in Birmingham, that's kind of a big deal. Loads of proper curry restaurants, not chain stuff, you know? That's where we'll go sometimes. It's got more of a vibe than just going to Nando's or whatever for the thousandth time. But then you've got the chains as well, which is handy when you can't be bothered to travel far or you just want something quick.\n\nI get what you mean about Glasgow having its own character though. It's the same with Brum, I reckon \u2014 there's stuff that's just... ours. But yeah, the gym thing is definitely universal with the lads I know.",
+      "timestamp": "2026-07-26T06:23:02.003732+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "Fair point about the independent spots \u2014 that's the kind of thing that does make a difference, isn't it? Not just chains all the way down.\n\nBut Will, what about you? You said it's quite different where you are. Are you even getting places like that to go to, or is it more of a case of having to travel a bit to find anything decent?",
+      "timestamp": "2026-07-26T06:23:26.759642+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, we've got similar stuff in Leeds, to be fair. There's proper independent restaurants and that scattered about \u2014 not just chains everywhere. You can find decent places if you know where to look. The city centre's got a lot going on, and then there's bits outside that have their own thing.\n\nGym's the same as you lot though, yeah. That's pretty standard. And like, we'll do the food thing \u2014 grab something casual, sit around. Doesn't have to be fancy.\n\nBut I reckon it depends where you are in Yorkshire as well. Leeds is alright for that stuff, but I'd imagine if you're in a smaller town round here it's a bit different. Will, is it proper limited where you are then, or...?",
+      "timestamp": "2026-07-26T06:23:58.603929+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Will, sounds like everyone's curious \u2014 over to you.",
+      "timestamp": "2026-07-26T06:23:58.604885+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, so it's... it's quite different, to be honest. We don't really have that high street thing going on in the same way. Like, there's a wee pub in the village, that's kind of the hub for most people, and then if we want to do something a bit different we'd probably drive to the nearest town \u2014 but that's a fair bit away, so it's not something you do on a whim, you know?\n\nThe gym thing doesn't really happen where I am either. Some lads might have a home setup or go to the nearest leisure centre in town, but it's not the same casual thing as what you're all describing where you can just nip down the road. \n\nSo when me and my mates hang about, it's more... we'll meet up at the pub, or someone's house, or we'll go for a walk or something outdoors. That's more just how it works round here. We're not really grabbing food at different spots every weekend or anything like that. It's more settled, I suppose \u2014 same few places, same routine. But honestly, I don't feel like we're missing out or anything. It's just how it is.",
+      "timestamp": "2026-07-26T06:24:20.904066+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Cheers Will \u2014 that's a really different picture. Ibrahim, what about you \u2014 what's it like in London for that kind of thing?",
+      "timestamp": "2026-07-26T06:24:20.905195+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Actually, I'm not in London \u2014 I'm up in the North East, so it's a bit more like what you lot are describing than Will's situation, but maybe not quite as much going on as the big cities, you know?\n\nWe've got decent enough spots on the high street, takeaways and that. Chicken shops, curry places, Chinese \u2014 it's all there. The gym's definitely a thing too. But I'd say it's not quite as mad with independent restaurants and all that as Birmingham or Leeds sounds. We do the same thing though \u2014 just grab food somewhere casual, have a laugh. That's kind of the standard, innit. \n\nI think the thing is, even if it's not as varied as what you lot have got, there's still enough that you can just meet up somewhere easy without it being a big production. It's workable.",
+      "timestamp": "2026-07-26T06:24:43.603422+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Cheers Ibrahim \u2014 so we've got quite a range here, from Will's village pub to London, North East, Leeds, Birmingham, Glasgow. Interesting that the gym keeps coming up across all the urban ones. Let's build on that a bit \u2014 I want to ask something a bit more specific now: how do you actually decide what to eat, day to day? Like what goes into that decision for you?",
+      "timestamp": "2026-07-26T06:24:43.604398+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, so for me it's... it's quite practical, I think. Like, it's not really a choice thing in the way you lot might be talking about it. It's more \u2014 what have I got in the house, what's available locally, and what fits with what I'm doing that day.\n\nSo during the week, I'll plan a bit ahead because if I need something specific, I can't just pop down to a shop five minutes away like you can. I might do a shop once a week or every couple of weeks, depending, and then I'm working with what I've got. Bit of chicken, some red meat, fish if I've managed to get to the supermarket \u2014 that kind of thing. Eggs, dairy, whatever. It's just... what makes sense with what I've got planned and what's available.\n\nIt's not really about \"oh, I fancy that\" on the day and then going out to get it. That's just not how it works here. You've got to think ahead a bit more. So the decision's made more when you're doing your shopping, really. What am I going to need over the next week or two?\n\nI mean, it works fine \u2014 I don't feel like I'm missing anything. But it is a different way of thinking about it compared to what you're all describing, where you can just decide on the day and go somewhere.",
+      "timestamp": "2026-07-26T06:25:23.905013+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, that makes sense \u2014 planning ahead because you've got to. But honestly, for me it's kind of the opposite. Like, I don't really plan it out like that. Most days I'll just decide when I'm hungry, you know? Oh, I fancy a bit of chicken tonight, or a curry, or whatever \u2014 and then I'll just go grab it because there's stuff nearby.\n\nBut I think what actually shapes my choice is \u2014 and I'm not gonna pretend it's not \u2014 is that I eat meat. Like, that's just what I go for. If I'm deciding between places on the day, I'm thinking, where can I get a decent bit of meat, innit? A good chicken shop, a kebab place, somewhere that does proper steaks. That's kind of the default for me.\n\nI don't really think about it as a conscious thing most of the time, but if I'm honest, that's what narrows it down. Not just what's available \u2014 but what I actually want, and that tends to be meat-based. So the spontaneity is there because I can just go out and pick somewhere, but the choice isn't as open as it might sound, if that makes sense. It's meat first, then figure out where.",
+      "timestamp": "2026-07-26T06:25:57.452873+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, that's fair \u2014 I'm the same with meat, to be honest. It's just what I eat. But I think the difference for me is, I've already made that decision before I even get to the point where you're deciding on the day, you know? Because I'm planning the week ahead, I'm already thinking \u2014 right, I'll get some chicken for Tuesday, some beef for Thursday, whatever. It's sorted.\n\nSo it's still the default for me, same as you, but it happens at a different stage because of where I am. You're spontaneous about it because you can be \u2014 you've got the shops there, you can just go get it. For me, it's more built into the routine from the start.\n\nBut yeah, I get what you're saying about it being the default without really thinking about it. That's just... that's what you eat, isn't it? I don't sit down and go through options every time. It's just what makes sense.",
+      "timestamp": "2026-07-26T06:26:28.730283+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, but I think there's still something different about it though, even if it's the same default at the end of the day. Like, you're right that it's what I eat without thinking \u2014 but that's because I've actually chosen it, you know? Not just passively fallen into it.\n\nLike, I could go to a veggie place if I wanted to. There's loads of them about. But I don't, because I don't fancy it. I prefer meat. It's a habit, yeah, but it's also just... what I like. The taste, the way it fills you up, all that. So when I'm deciding on the day, I'm not just defaulting because there's no other option \u2014 I'm defaulting because that's what I actually want.\n\nWhereas what you're saying sounds like it's more just... that's what you've got, that's what fits with the week, so that's what it is. Which fair enough, totally different situation. But I think for me it's worth being honest about \u2014 it's not just passive, it's actually a preference thing. I've never been that bothered about trying something different because this is what I like.",
+      "timestamp": "2026-07-26T06:27:01.080225+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "No, I hear you \u2014 but I think I'm not explaining it right. It's not like I'm just passively accepting what's available either. I do choose meat. I like it \u2014 the taste, the way it fills you up, like you said. That's not different from you.\n\nThe thing is, I've still made that choice. It's just... I make it when I'm doing my shopping, not when I'm hungry on the day. But it's still a choice, you know? I'm not just eating meat because it's there and there's nothing else. I'm eating meat because that's what I want to eat. It just happens in a different way because of where I live.\n\nSo yeah, it's a preference thing for me too. I'm not defaulting because I've got no other option \u2014 I'm doing it because that's what I actually prefer. It's just that my version of deciding happens a week or two ahead instead of on the spot. But the preference bit is the same.",
+      "timestamp": "2026-07-26T06:27:36.923056+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So Will and Ibrahim are both landing in a similar place \u2014 meat as a genuine preference, not just what's there \u2014 even if the decision happens at different moments. What about the rest of you? How does that sit with how you think about it?",
+      "timestamp": "2026-07-26T06:27:36.924277+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, I mean... I think for me it's a bit of both, to be honest. Like, I eat meat most of the time, yeah \u2014 chicken, bit of fish, that kind of thing. But I don't know if I'd say it's this strong preference thing where I'm sitting there thinking about it. It's more just... that's what I grab when I'm hungry, you know?\n\nI could probably eat something else and be fine with it. I'm not bothered either way really. But when I'm deciding what to have, meat's just the default \u2014 there's a chicken shop round the corner, a kebab place, whatever. So that's what I go for. Not because I've thought it through and decided \"no, meat's what I want,\" but just because it's there and easy and I haven't really thought about doing anything different.\n\nI suppose that's a bit more like what you were saying, Will \u2014 it's just what happens. Not a massive preference thing, just... the default. But yeah, I do actually like it when I eat it. It's not like I'm forcing myself or anything. It's just not something I've spent much time thinking about, if that makes sense.",
+      "timestamp": "2026-07-26T06:28:09.416174+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, I'm kind of with Isaiah on that, actually. Like, I eat meat \u2014 chicken, bit of red meat, fish and that. But I don't know if I sit down thinking about it as this big preference thing, you know? It's just... that's what you eat. That's what I've always eaten, that's what my mates eat, that's what's easiest to grab.\n\nBut I think \u2014 and this is the thing \u2014 I do actually like it. Like, the taste, it fills you up, it's satisfying. If I went without it, I'd probably miss it a bit. But whether that's because I genuinely prefer it or because it's just what I'm used to... I don't know, to be honest. I haven't really thought about it that much.\n\nIt's kind of like what Isaiah said \u2014 it's just the default without much thinking. But that doesn't mean I don't like it. It's just not something I've had to actively choose or defend or anything. It's just there.",
+      "timestamp": "2026-07-26T06:28:48.813242+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, exactly. That's what I mean, like. You're not sitting there going \"right, today I'm choosing meat because I prefer it\" \u2014 it's just... you have it, you like how it tastes, and that's that. But then you can't really tell if you like it because it's actually better, or because you've just had it your whole life and that's what feels normal, you know?\n\nI think the thing is, I've never really needed to question it. There's no reason to. It's not like I'm avoiding vegetables or anything \u2014 I'll eat them if they're there. But when I'm deciding what to have for dinner, meat's just the thing that comes to mind first. And I enjoy it when I eat it. But whether that's genuine preference or just... familiarity... I couldn't tell you honestly. \n\nLike, would I actually prefer a steak to something else if I'd grown up eating different stuff? Maybe. Maybe not. It's hard to say when you've never really tried anything different in that way.",
+      "timestamp": "2026-07-26T06:29:28.245088+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "David, we haven't heard from you yet on this one \u2014 how does it work for you?",
+      "timestamp": "2026-07-26T06:29:28.246771+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "Yeah, so... I think I'm a bit different from what you lot are saying, actually. Like, I eat meat, right \u2014 chicken, bit of beef, fish \u2014 but honestly I'm not that fussed about it either way. It's not something I've got strong feelings about.\n\nI'll have it because it's there and it's easy, same as you lot. But if I didn't have meat one day and had something else instead, I'd be fine with that too. It's not like I'm craving it or thinking it's better than other stuff. It just... doesn't matter that much to me.\n\nI think what you're both kind of dancing around \u2014 the preference thing versus just habit \u2014 I think that gets a bit overblown sometimes, to be honest. Like, I don't need to have this big conversation with myself about whether I \"really\" prefer meat or if I'm just used to it. It's just food. I eat it, I don't hate it, and that's enough.\n\nWhat I do think is worth saying though \u2014 and this is maybe not relevant right now, but I reckon it will come up \u2014 is that I find it a bit weird when people tie meat eating to... I don't know, being a bloke or whatever. Like, that whole thing about \"real men eat meat\" or whatever you want to call it. That feels off to me. You're just eating something. It doesn't say anything about you.\n\nBut yeah, on the day-to-day thing \u2014 I'm just not that bothered about it either way.",
+      "timestamp": "2026-07-26T06:30:04.188996+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Cheers David \u2014 and yeah, that gender thing is worth coming back to. Something to pick up in a bit. \n\nBut something a few of you have touched on \u2014 Amir mentioned eating what your mates eat, David you implied a kind of group norm thing too. I'm curious how much the people around you actually shape what you eat \u2014 whether that's mates, family, whoever. Does that play into it much for any of you?",
+      "timestamp": "2026-07-26T06:30:04.190575+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "Yeah, I think that does come into it, actually \u2014 more than you might realize at first. Like, when you're going out with your mates, you're not gonna be the one person ordering something completely different from what everyone else is doing, are you? There's a bit of... I don't know, a social thing there.\n\nBut I think what's more interesting is the stuff you don't notice. Like, growing up, my family ate meat, so that was just normal. That's what you have at dinner. And then when you're out with your mates, they're doing the same thing, so it reinforces it. It becomes this invisible thing where you don't even think about it \u2014 not because you've decided it's the best option, but just because that's what everyone around you is doing.\n\nI think that's fair enough, to be honest. That's how habits form. But I reckon where it gets a bit dodgy is when people start making out like that's some kind of... I don't know, statement about who you are as a person. Like, you're just eating what's normal in your group. That's not about being a bloke or being tough or any of that stuff. It's just what you grew up with and what your mates do.\n\nSo yeah, social influence definitely plays into it. But I don't think it needs to be dressed up as anything more than that.",
+      "timestamp": "2026-07-26T06:30:50.100223+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Yeah, that invisible reinforcement thing David's describing \u2014 you just eat what your family ate, your mates do the same, and it never really becomes a decision \u2014 I think that's come through from a few of you in different ways. Good. \n\nSo let's pick up on the thing David's mentioned a couple of times now, because I think it's actually the next question anyway. Does your gender influence what you eat? And I don't just mean in some abstract sense \u2014 I mean in practice, day to day, or in certain situations. Does being a man shape what you order, what you cook, what you'll admit to liking? Any of you?",
+      "timestamp": "2026-07-26T06:30:50.102602+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "I mean... yeah, I think there's something there, to be honest. Not like, in some obvious way where you're thinking about it. But like, when you're with your mates, there's definitely a vibe about certain things.\n\nLike, I wouldn't really order a salad when I'm out with the lads, you know? Not because I think salad's rubbish or anything \u2014 sometimes a salad's nice. But there's just this... it feels a bit weird, doesn't it? You'd get a bit of stick for it, probably. Nothing massive, just like, a comment or whatever.\n\nAnd with cooking at home, if I was cooking for my mates to come round, I wouldn't be making something light or whatever. You'd make like a big curry or a steak or loads of chicken \u2014 something that feels proper, that you'd feel confident serving. That's just what feels right in that situation.\n\nI don't think it's like some massive thing or like I'm being oppressed or whatever. It's just... there's an unspoken thing, innit? About what fits and what doesn't. And meat's kind of in the fits category, and some other stuff isn't. It's more comfortable that way.",
+      "timestamp": "2026-07-26T06:31:43.317966+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Amir's talking about something quite specific there \u2014 this sense that ordering a salad with the lads would just feel off, that there's a kind of unspoken thing about what fits. Does that land for anyone else, or does it play out differently where you are?",
+      "timestamp": "2026-07-26T06:31:43.319681+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, I know exactly what you mean, Amir. And I think it's worth saying \u2014 it's not nothing, you know? Like, you're downplaying it a bit, saying it's not a massive thing, but it actually is. It shapes what you do.\n\nI've definitely felt that. Like, if I'm out with the lads and everyone's ordering burgers or chicken or whatever, you're not gonna be the one person going \"oh, I'll have the salad.\" There's just this... it's awkward, innit? Not because anyone's gonna give you a massive hard time necessarily, but because there's an assumption about what you should be doing, what's normal in that situation. And meat fits into that. It's the safe choice.\n\nThe thing is, I'm not even saying that's wrong or anything \u2014 I like meat anyway. But I think the point is, it's not just about preference or what you actually fancy. There's this social pressure thing happening that we're all kind of going along with without really talking about it. And it does shape what you order, what you'd cook, all that.\n\nIt's like, you can't even tell anymore whether you're doing something because you genuinely want to or because that's just what you're supposed to do in that situation. And I think that's worth being honest about, rather than just saying \"oh, it's not a massive thing.\" It is. It's just quiet about it.",
+      "timestamp": "2026-07-26T06:32:19.909287+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, nah, fair point \u2014 I was kind of downplaying it a bit. There is definitely something there. But I don't know if I'd say it's like, you can't tell what you want anymore, you know? Like, I do actually want the meat. That's not fake or anything.\n\nIt's more like... there's a social thing happening, yeah, but that doesn't mean I'm being forced into it or anything. I'm aware of it, but I'm also just doing what I actually want to do anyway. It happens to align with what fits socially, but that's not because I'm trapped by it \u2014 it's because I actually like eating meat.\n\nI think the thing is, if I genuinely fancied a salad, I probably would order it and just deal with whatever. Like, it'd be a bit awkward, maybe, but it's not like I can't do it. It's just not what I want, so it doesn't come up.\n\nThe pressure's there, yeah. But I don't think it's controlling what I do, exactly. More like... it's just part of how things work, and most of the time I'm fine with that anyway.",
+      "timestamp": "2026-07-26T06:33:00.228478+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "But that's the thing though \u2014 you might not even know if you'd fancy a salad because you're not in a headspace where you'd consider it, right? Like, it's not that you're being forced or anything. I'm not saying that. But the pressure does something quieter than forcing \u2014 it just... narrows what you think about in the first place.\n\nLike, you say if you genuinely fancied one you'd order it. But would you? Because you've kind of already decided, without really deciding, that's not what you do when you're with the lads. So you're not gonna spend much time thinking about it. You don't even get to the point of \"do I fancy this?\" because salad's already off the table in your head before you've looked at the menu.\n\nI'm not saying you don't genuinely like meat \u2014 I do too. But I think what I was getting at is, it's hard to know how much of that is actual preference and how much is just... what you've always done, what everyone around you does, what feels safe socially. Because all that stuff gets mixed in together, doesn't it? You can't really untangle it.\n\nAnd yeah, you probably could order a salad if you really wanted to. But the fact that you probably wouldn't, even if part of you wanted to \u2014 that's the pressure doing something. It's just not a dramatic thing. It's just there, shaping the choices without you really noticing.",
+      "timestamp": "2026-07-26T06:33:40.148235+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Look, I get what you're saying, and like... maybe you're right that it narrows things a bit. But I don't know, man. I can't sit here and say \"oh, I definitely want a salad but I'm too scared to order it.\" That's not honest. I just don't think about salad when I'm hungry with my mates. That might be because of the pressure, yeah, but it also might just be because I'm not into it.\n\nThe thing is, I can't prove either way, can I? I can't know what I'd want if the pressure wasn't there. But that doesn't mean the pressure is the main thing driving everything I do. Sometimes the social thing and what I actually want just... line up. And I think that's okay. That's just how it works.\n\nLike, I'm aware there's pressure there \u2014 I'm not saying there isn't. But knowing something's there and being controlled by it are different things. I know salad's a bit of a weird order with the lads, and I'm fine with that, because I'm gonna order the meat anyway. That's not pressure winning \u2014 that's me just being... fine with how things work.\n\nBut yeah, you're making me think about it now, and I'm not gonna pretend I've got a perfect answer. It's messy, innit?",
+      "timestamp": "2026-07-26T06:34:21.738427+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Amir's landed on 'it's messy' \u2014 and that feels honest. But you three haven't weighed in yet. Does that tension he and Ibrahim have been pulling at \u2014 between pressure and preference, what you'd actually want versus what's already kind of off the table \u2014 does it play out similarly for you, or differently?",
+      "timestamp": "2026-07-26T06:34:21.739054+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, I think... I mean, listening to you lot, I'm realizing I haven't actually thought about it that hard, have I? Like, Amir's saying he just doesn't think about salad, and I get that \u2014 that's me too. But Ibrahim's got a point about not knowing if you don't think about it.\n\nThe thing is, I don't feel like there's this massive pressure on me or anything. Like, I can eat what I want. But then... I'm also never really in a situation where I'm questioning it, you know? I go out with the lads, everyone's getting meat-based stuff, I get meat-based stuff. It feels normal. It feels right. And I've never sat there and thought \"actually, no, I want something different.\"\n\nBut I can't tell if that's because I've genuinely worked out that's what I prefer, or if it's just... inertia. Like, it's easier not to question it. There's no reason to. And yeah, maybe if I'd grown up in a different environment or if my mates were all different, I'd be doing something else. But that's not where I'm at.\n\nI'm not gonna sit here and say the pressure's not there \u2014 it clearly is, like Amir said. But I also don't feel trapped by it or anything. It's more like... I've just never needed to push against it because the default works fine for me. Whether that means I actually prefer it or I just haven't bothered to find out... I genuinely don't know.",
+      "timestamp": "2026-07-26T06:34:58.928271+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, that's fair. And I think that's actually the honest place to land, Isaiah \u2014 not knowing. Because you can't know without actually pushing against it, and there's no reason you should have to, you know?\n\nI was maybe being a bit too hard on it before. Like, I was trying to say something about how the pressure shapes things even when you don't feel it directly. And I think that's true. But that's not the same as saying you're being controlled by it or that you don't actually like what you're eating. You probably do like it. Most of us probably do actually like meat.\n\nThe thing is though \u2014 and this is what I keep coming back to \u2014 you can't actually know the difference between \"I like this because it's genuinely what I prefer\" and \"I like this because it's what I'm used to and what everyone around me does.\" And I think it's worth just... acknowledging that gap, you know? Not as some big dramatic thing, but just being honest that it's there.\n\nLike, you haven't needed to push against it because it works. Fair enough. But that doesn't mean the pressure isn't there \u2014 it just means it doesn't feel like pressure because everything's already lined up that way. The pressure's in the lining up, not in the pushing back.\n\nBut yeah, I'm not saying you should go out and order a salad or anything. That's not the point. It's more just... being real about what's actually going on, I think.",
+      "timestamp": "2026-07-26T06:35:41.474300+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, that... that actually makes sense. Like, when you put it that way \u2014 the pressure's in the lining up \u2014 that's different from what I was thinking. Because I was kind of going \"well, nothing's forcing me,\" but you're right, that's not really the point, is it?\n\nIt's more like... everything's already arranged so I don't have to question it. So I don't. And then I'm just going along with that and calling it preference because it feels easy. But easy doesn't necessarily mean it's what I'd actually choose if I'd had to think about it properly.\n\nI suppose what you're saying is, I've kind of let the default do the thinking for me. Which is fine \u2014 like, it works, I'm not unhappy with it. But I'm not being honest if I'm sitting here going \"oh, it's just what I like\" when really I've never actually tested whether I like it or I just like that it fits. That's different, innit?\n\nI don't know if that changes anything about what I actually eat. Probably doesn't. But yeah, I think you're right that it's worth just... admitting that's what's happening, rather than pretending I've made some proper choice about it.",
+      "timestamp": "2026-07-26T06:36:23.331739+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Will, you've been quiet on this one \u2014 does any of that ring true from where you are, or does it land differently?",
+      "timestamp": "2026-07-26T06:36:23.332826+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, I think it's a bit different for me, honestly. Like, I hear what you lot are saying about the social thing \u2014 the lads, what everyone's doing, all that. And yeah, that's there. But where I am, it's not really about going out with mates and all ordering meat because that's what you do, you know? It's more just... that's what you eat. Full stop.\n\nThere's not really an alternative being presented in the first place, so there's no pressure in the way you're talking about. Like, no one's thinking \"oh, should I have the salad or the meat?\" because salad's not really... it's not a thing that comes up. You just eat what's available, what fits the week, what makes sense.\n\nSo I don't feel like I'm choosing between pressure and preference in the same way. It's more like, meat's just what you eat \u2014 that's your default before anything social even comes into it. It's not about fitting in with the lads or feeling weird about ordering something different. It's just... that's food, isn't it?\n\nBut I do get what Ibrahim's saying about not knowing if you actually prefer it because you've never had to question it. That bit does land with me. I eat meat, I like it fine, but I've also never really had reason to think about doing anything else. So yeah, maybe that's the same thing \u2014 the default doing the thinking for me. It's just happening at a different level because of where I live, not because of who I'm out with.",
+      "timestamp": "2026-07-26T06:36:58.734392+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So across the four of you, there's something that keeps coming up \u2014 whether it's the lads all ordering the same thing, or just what's in front of you where you live, the choice kind of makes itself. You can all see the mechanism, even if you can't fully unpick whether you'd actually choose differently. But here's what I want to test: is there a specific food \u2014 not just salad in the abstract \u2014 something you can actually picture \u2014 that you'd genuinely feel uncomfortable eating in front of your mates? Not just 'wouldn't order it,' but it'd feel actually off, like it'd say something about you?",
+      "timestamp": "2026-07-26T06:36:58.735508+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah... I mean, okay. Like, a veggie burger or something. Or like, full vegetarian meal, you know? That would feel... yeah, that'd be weird. Not just a bit awkward \u2014 it'd actually feel like I'm making some kind of statement about myself or something.\n\nLike, if I ordered a salad, it's one thing \u2014 bit odd, whatever. But if I was sat there with a veggie burger while everyone else had meat, or I was going on about being vegetarian, that feels different. That feels like I'm saying something, and I'm not sure I'd be comfortable with that, to be honest.\n\nAnd I don't even know if it's because I actually think vegetarians are weird or something \u2014 I don't think that. But there's definitely something about it that feels... I dunno, like it's not just about the food anymore, you know? It becomes a thing about you. About your choices, your values, whatever. And that's where it gets uncomfortable, not just the food part.\n\nSo yeah, that's probably where the pressure is actually real for me, if I'm being honest. Not with salad. With stuff that feels like it's actually saying something.",
+      "timestamp": "2026-07-26T06:37:47.278383+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, exactly. That's the actual thing, innit? That's where it gets real.\n\nBecause you're right \u2014 it stops being about food and it becomes about identity. Like, a salad is just a salad. But a veggie burger or saying you're vegetarian, that's... that reads as a statement. And I think that's the real pressure point. Not \"oh, don't eat this because it's weird,\" but \"don't eat this because it says something about who you are, and that something isn't cool.\"\n\nAnd that's what I was trying to get at before. It's not just that we all happen to like meat and happen to order it. It's that there's this whole thing attached to it now \u2014 this sense that eating meat is just normal, it's what you do, it's what a bloke does. And anything else feels like you're stepping away from that, you're making some kind of point or statement.\n\nThe thing is, I'm not even sure what the statement would be, you know? Like, if you ordered a veggie burger, what are you actually saying? Maybe just that you fancy a veggie burger that day. But it wouldn't feel that way to people. It would feel like you're saying something bigger about yourself \u2014 like you're rejecting something, or you're different, or whatever.\n\nAnd that's actually a bit mad when you think about it. But it's definitely there. That's where the pressure is \u2014 not in being forced to do anything, but in what it means if you don't. That's the thing that makes it actually uncomfortable, not just a bit awkward.",
+      "timestamp": "2026-07-26T06:38:26.806836+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "David \u2014 Ibrahim's just asked something that I think you might have a different angle on. He's saying if you ordered a veggie burger, it'd feel like you're saying something bigger about yourself, but he's not quite sure what. What do you reckon?",
+      "timestamp": "2026-07-26T06:38:26.807956+00:00",
+      "selection_mode": "moderator_intervention"
+    }
+  ]
+}

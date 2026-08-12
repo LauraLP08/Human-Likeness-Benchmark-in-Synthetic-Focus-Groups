@@ -1,0 +1,370 @@
+{
+  "measure": "LLM-assisted evidence-constrained thematic fidelity (Stage 1)",
+  "evaluator": "gemini-2.5-flash",
+  "evaluator_params": {
+    "temperature": 0.0,
+    "thinking_level": null
+  },
+  "scope": "Macho Meals (English) only \u2014 Spanish/multilingual path not validated",
+  "gate1_run1_present_codes": [
+    "A.1",
+    "A.2",
+    "A.3",
+    "B.1",
+    "B.2",
+    "B.3",
+    "B.4",
+    "C.1",
+    "C.3"
+  ],
+  "thresholds": {
+    "repeatability_pairwise_agreement": 0.85,
+    "quote_verification_rate": 0.8,
+    "code_preservation_rate": 0.9
+  },
+  "gate1_repeatability": {
+    "passed": false,
+    "n_codes": 11,
+    "n_repeat": 5,
+    "pair_agreements": {
+      "Run 1 vs Run 2": 0.8182,
+      "Run 1 vs Run 3": 1.0,
+      "Run 1 vs Run 4": 0.8182,
+      "Run 1 vs Run 5": 0.8182,
+      "Run 2 vs Run 3": 0.8182,
+      "Run 2 vs Run 4": 1.0,
+      "Run 2 vs Run 5": 1.0,
+      "Run 3 vs Run 4": 0.8182,
+      "Run 3 vs Run 5": 0.8182,
+      "Run 4 vs Run 5": 1.0
+    },
+    "all_way_agreement": 0.8182,
+    "worst_pairwise": 0.8182,
+    "threshold": 0.85,
+    "disagreement_diagnostic": [
+      {
+        "code_id": "C.2",
+        "run1": {
+          "present": false,
+          "quote_verified": false,
+          "unverified_quote_count": 1
+        },
+        "run2": {
+          "present": true,
+          "quote_verified": true,
+          "unverified_quote_count": 0
+        },
+        "run3": {
+          "present": false,
+          "quote_verified": false,
+          "unverified_quote_count": 1
+        },
+        "run4": {
+          "present": true,
+          "quote_verified": true,
+          "unverified_quote_count": 0
+        },
+        "run5": {
+          "present": true,
+          "quote_verified": true,
+          "unverified_quote_count": 0
+        }
+      },
+      {
+        "code_id": "D",
+        "run1": {
+          "present": false,
+          "quote_verified": false,
+          "unverified_quote_count": 1
+        },
+        "run2": {
+          "present": true,
+          "quote_verified": true,
+          "unverified_quote_count": 0
+        },
+        "run3": {
+          "present": false,
+          "quote_verified": false,
+          "unverified_quote_count": 1
+        },
+        "run4": {
+          "present": true,
+          "quote_verified": true,
+          "unverified_quote_count": 0
+        },
+        "run5": {
+          "present": true,
+          "quote_verified": true,
+          "unverified_quote_count": 0
+        }
+      }
+    ]
+  },
+  "gate2_discrimination": {
+    "passed": true,
+    "upper_bound_self_comparison": {
+      "subtheme_recall": 1.0,
+      "subtheme_precision": 1.0,
+      "subtheme_f1": 1.0,
+      "subtheme_jaccard": 1.0,
+      "theme_recall": 1.0,
+      "theme_precision": 1.0,
+      "theme_f1": 1.0,
+      "theme_jaccard": 1.0,
+      "anchor_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3"
+      ],
+      "target_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3"
+      ],
+      "shared_subthemes": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3"
+      ],
+      "anchor_themes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "target_themes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "shared_themes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "interpretation": "strong fidelity: reproduces real themes without adding many extras"
+    },
+    "matched_real_fg1_vs_synth_fg1": {
+      "subtheme_recall": 0.8889,
+      "subtheme_precision": 0.8,
+      "subtheme_f1": 0.8421,
+      "subtheme_jaccard": 0.7273,
+      "theme_recall": 1.0,
+      "theme_precision": 0.75,
+      "theme_f1": 0.8571,
+      "theme_jaccard": 0.75,
+      "anchor_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3"
+      ],
+      "target_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.2",
+        "C.3",
+        "D"
+      ],
+      "shared_subthemes": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.3"
+      ],
+      "anchor_themes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "target_themes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "shared_themes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "interpretation": "strong fidelity: reproduces real themes without adding many extras"
+    },
+    "mismatched_real_fg1_vs_synth_fg5": {
+      "subtheme_recall": 0.7778,
+      "subtheme_precision": 0.875,
+      "subtheme_f1": 0.8235,
+      "subtheme_jaccard": 0.7,
+      "theme_recall": 1.0,
+      "theme_precision": 1.0,
+      "theme_f1": 1.0,
+      "theme_jaccard": 1.0,
+      "anchor_present": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.3"
+      ],
+      "target_present": [
+        "A.1",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1",
+        "C.2"
+      ],
+      "shared_subthemes": [
+        "A.1",
+        "A.3",
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "C.1"
+      ],
+      "anchor_themes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "target_themes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "shared_themes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "interpretation": "low-recall / low-precision: poor thematic fidelity"
+    },
+    "recall_margin": 0.1111,
+    "margin_strength": "moderate",
+    "synth_fg1_quote_stats": {
+      "total_quotes": 43,
+      "verified_quotes": 39,
+      "raw_exact_quotes": 37,
+      "normalized_recovered_quotes": 2,
+      "total_present_codes": 10,
+      "verified_codes": 10,
+      "demoted_codes": 0,
+      "quote_verification_rate": 0.907,
+      "code_preservation_rate": 1.0
+    },
+    "synth_fg5_quote_stats": {
+      "total_quotes": 8,
+      "verified_quotes": 8,
+      "raw_exact_quotes": 8,
+      "normalized_recovered_quotes": 0,
+      "total_present_codes": 8,
+      "verified_codes": 8,
+      "demoted_codes": 0,
+      "quote_verification_rate": 1.0,
+      "code_preservation_rate": 1.0
+    }
+  },
+  "gate3_quote_validity": {
+    "passed": true,
+    "per_transcript": {
+      "real FG1 (run 1)": {
+        "total_quotes": 14,
+        "verified_quotes": 11,
+        "raw_exact_quotes": 11,
+        "normalized_recovered_quotes": 0,
+        "total_present_codes": 11,
+        "verified_codes": 9,
+        "demoted_codes": 2,
+        "quote_verification_rate": 0.7857,
+        "code_preservation_rate": 0.8182
+      },
+      "synth FG1": {
+        "total_quotes": 43,
+        "verified_quotes": 39,
+        "raw_exact_quotes": 37,
+        "normalized_recovered_quotes": 2,
+        "total_present_codes": 10,
+        "verified_codes": 10,
+        "demoted_codes": 0,
+        "quote_verification_rate": 0.907,
+        "code_preservation_rate": 1.0
+      },
+      "synth FG5": {
+        "total_quotes": 8,
+        "verified_quotes": 8,
+        "raw_exact_quotes": 8,
+        "normalized_recovered_quotes": 0,
+        "total_present_codes": 8,
+        "verified_codes": 8,
+        "demoted_codes": 0,
+        "quote_verification_rate": 1.0,
+        "code_preservation_rate": 1.0
+      }
+    },
+    "aggregate": {
+      "total_quotes": 65,
+      "verified_quotes": 58,
+      "quote_verification_rate": 0.8923,
+      "total_present_codes": 29,
+      "codes_with_verified_quote": 27,
+      "code_preservation_rate": 0.931,
+      "codes_demoted": 2
+    },
+    "thresholds": {
+      "quote_verification_rate": 0.8,
+      "code_preservation_rate": 0.9
+    },
+    "interpretation": "acceptable with caveats"
+  },
+  "summary": {
+    "gate1_worst_pairwise": 0.8182,
+    "gate2_matched_recall": 0.8889,
+    "gate2_mismatched_recall": 0.7778,
+    "gate2_recall_margin": 0.1111,
+    "gate2_margin_strength": "moderate",
+    "gate3_quote_verification_rate": 0.8923,
+    "gate3_code_preservation_rate": 0.931
+  },
+  "overall_passed": false,
+  "stage2_cleared": false,
+  "macho_meals_cleared": false,
+  "spanish_sf_cleared": false
+}

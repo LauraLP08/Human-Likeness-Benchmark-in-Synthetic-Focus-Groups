@@ -1,0 +1,45 @@
+{
+  "schema_version": "fg_agents_v1",
+  "agent_id": "mm_fg1_will",
+  "language": "en",
+  "field_provenance": {
+    "language": "observed",
+    "persona.demographics.name": "observed",
+    "persona.demographics.age": "observed",
+    "persona.demographics.gender": "observed",
+    "persona.demographics.diet": "observed",
+    "persona.demographics.location.urban_rural": "observed",
+    "persona.demographics.location.region": "observed",
+    "persona.demographics.location.country": "derived",
+    "persona.food_consumption": "observed",
+    "psychometric_scores": "observed",
+    "simulation_config.notes": "derived",
+    "opening_intro.text": "observed_transcript_intro",
+    "opening_intro.intro_eligible": "derived"
+  },
+  "persona": {
+    "demographics": {
+      "name": "Will",
+      "age": 29,
+      "gender": "Male",
+      "location": {
+        "urban_rural": "Village or Rural",
+        "region": "Scotland",
+        "country": "UK"
+      }
+    }
+  },
+  "study_context": {
+    "dataset": "DS03_MACHO_MEALS_UK",
+    "focus_group": "FG1"
+  },
+  "simulation_config": {
+    "model": "claude-haiku-4-5-20251001",
+    "max_tokens": 400
+  },
+  "opening_intro": {
+    "intro_eligible": true,
+    "text": "Um, (.) typically, (.) um, there's a place called the Goody Goose. It's, (.) um (.), got reasonably priced food. It's got a nice selection of food. (.) Um, (.) and (.), um, it's usually very nice, but it's in a nice situation, it's in a nice spot, um, [unintelligible], so that's where I would go.",
+    "provenance": "observed_transcript_intro"
+  }
+}

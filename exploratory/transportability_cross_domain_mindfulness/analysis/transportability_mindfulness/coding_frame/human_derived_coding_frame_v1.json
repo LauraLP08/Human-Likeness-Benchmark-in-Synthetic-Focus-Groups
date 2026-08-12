@@ -1,0 +1,733 @@
+{
+  "frame_id": "HUMAN_DERIVED_RETROSPECTIVE_CODING_FRAME_V1",
+  "status": "HUMAN_DERIVED_RETROSPECTIVE_CODING_FRAME_V1",
+  "not_a_validated_codebook": "This frame is derived retrospectively from a researcher-authored summary. It has not undergone two-coder validation and must not be described as a validated codebook, nor used to claim codebook validation.",
+  "source_document": {
+    "path": "C:\\Users\\JLARA\\Documents\\Dissertation\\Dataset\\Mindfulness Building Resilience Across Socioeconomic Contexts\\summarizes the findings.docx",
+    "sha256": "9637506c4a389b29acd8f5b2c2739d25657de63b2040467f825596ead5a1ed27",
+    "non_empty_paragraphs": 56,
+    "never_modified": true
+  },
+  "derivation_rules": {
+    "themes": "each '<n>. <Label>:' paragraph becomes a parent theme",
+    "codes": "each '<Label>: <assertion>' bullet under a theme becomes a code; a theme with no labelled bullets contributes one code carrying its own body text",
+    "not_codes": "document metadata, section banners, 'Key Objectives' (study aims), container headings that assert nothing, and the closing synthesis/conclusion"
+  },
+  "counts": {
+    "parent_themes": 10,
+    "codes": 26,
+    "excluded_paragraphs": 20,
+    "duplicate_labels": 1
+  },
+  "duplicate_labels": {
+    "psychoeducation": [
+      "T06_psychoeducation",
+      "T07_psychoeducation"
+    ]
+  },
+  "excluded_paragraphs": [
+    {
+      "paragraph_index": 0,
+      "text": "This document summarizes the findings from an online focus group conducted on December 12, 2023, via Zoom.",
+      "reason": "document_metadata_preamble"
+    },
+    {
+      "paragraph_index": 1,
+      "text": "Participants: A list of participating mindfulness instructors, including their experience and qualifications, is provided [link to list; OSF | List of Participants Focus Group.xlsx].",
+      "reason": "document_metadata_preamble"
+    },
+    {
+      "paragraph_index": 2,
+      "text": "Discussion Guide: The focus group was guided by a set of questions presented to participants beforehand [link to questions here; OSF | Focus Group Questions.docx].",
+      "reason": "document_metadata_preamble"
+    },
+    {
+      "paragraph_index": 3,
+      "text": "Key Findings: This document synthesizes the key insights from the focus group discussion.",
+      "reason": "document_metadata_preamble"
+    },
+    {
+      "paragraph_index": 4,
+      "text": "Transcript: A complete transcript of the focus group discussion is included for further reference.",
+      "reason": "document_metadata_preamble"
+    },
+    {
+      "paragraph_index": 5,
+      "text": "Key Findings",
+      "reason": "section_banner"
+    },
+    {
+      "paragraph_index": 6,
+      "text": "Key Objectives:",
+      "reason": "study_objective_not_a_finding"
+    },
+    {
+      "paragraph_index": 7,
+      "text": "Explore the development of an effective, brief, and accessible mindfulness intervention for individuals with time and financial constraints.",
+      "reason": "study_objective_not_a_finding"
+    },
+    {
+      "paragraph_index": 8,
+      "text": "Identify key components for stress reduction within the intervention.",
+      "reason": "study_objective_not_a_finding"
+    },
+    {
+      "paragraph_index": 9,
+      "text": "Discuss optimal duration, frequency, and structure of audio mindfulness tracks.",
+      "reason": "study_objective_not_a_finding"
+    },
+    {
+      "paragraph_index": 10,
+      "text": "Develop a suitable control group for the research.",
+      "reason": "study_objective_not_a_finding"
+    },
+    {
+      "paragraph_index": 11,
+      "text": "Key Discussions and Insights:",
+      "reason": "section_banner"
+    },
+    {
+      "paragraph_index": 32,
+      "text": "Audio Tracks:",
+      "reason": "container_heading_asserts_nothing"
+    },
+    {
+      "paragraph_index": 49,
+      "text": "Overall, the focus group provided valuable insights into the design and implementation of a self-administered mindfulness intervention. Key considerations included:",
+      "reason": "closing_synthesis_general_recommendation"
+    },
+    {
+      "paragraph_index": 50,
+      "text": "Tailoring the intervention to individual needs and preferences.",
+      "reason": "closing_synthesis_general_recommendation"
+    },
+    {
+      "paragraph_index": 51,
+      "text": "Balancing structure and flexibility.",
+      "reason": "closing_synthesis_general_recommendation"
+    },
+    {
+      "paragraph_index": 52,
+      "text": "Effectively addressing potential challenges such as participant engagement and dropout.",
+      "reason": "closing_synthesis_general_recommendation"
+    },
+    {
+      "paragraph_index": 53,
+      "text": "Developing a rigorous and ethical research design.",
+      "reason": "closing_synthesis_general_recommendation"
+    },
+    {
+      "paragraph_index": 54,
+      "text": "Conclusion:",
+      "reason": "section_banner"
+    },
+    {
+      "paragraph_index": 55,
+      "text": "The focus group highlighted the need for a brief, impactful intervention that is accessible and scalable. The design should balance scientific rigor with practical implementation, ensuring participant engagement and meaningful stress reduction outcomes.",
+      "reason": "closing_synthesis_general_recommendation"
+    }
+  ],
+  "themes": [
+    {
+      "parent_theme_id": "T01",
+      "parent_theme_label": "Core Mindfulness Components",
+      "source_paragraph_index": 12,
+      "source_text_verbatim": "1. Core Mindfulness Components:",
+      "code_ids": [
+        "T01_focused_attention",
+        "T01_mind_wandering_awareness",
+        "T01_non_reactivity"
+      ]
+    },
+    {
+      "parent_theme_id": "T02",
+      "parent_theme_label": "Formal vs. Informal Practice",
+      "source_paragraph_index": 16,
+      "source_text_verbatim": "2. Formal vs. Informal Practice:",
+      "code_ids": [
+        "T02_formal_practice",
+        "T02_informal_practice"
+      ]
+    },
+    {
+      "parent_theme_id": "T03",
+      "parent_theme_label": "Importance of Consistency",
+      "source_paragraph_index": 19,
+      "source_text_verbatim": "3. Importance of Consistency:",
+      "code_ids": [
+        "T03_importance_of_consistency"
+      ]
+    },
+    {
+      "parent_theme_id": "T04",
+      "parent_theme_label": "Adapting MBSR",
+      "source_paragraph_index": 21,
+      "source_text_verbatim": "4. Adapting MBSR:",
+      "code_ids": [
+        "T04_core_components",
+        "T04_flexibility",
+        "T04_gradual_progression"
+      ]
+    },
+    {
+      "parent_theme_id": "T05",
+      "parent_theme_label": "Control Group Considerations",
+      "source_paragraph_index": 25,
+      "source_text_verbatim": "5. Control Group Considerations:",
+      "code_ids": [
+        "T05_difficulties",
+        "T05_visualization_as_a_control",
+        "T05_misconceptions"
+      ]
+    },
+    {
+      "parent_theme_id": "T06",
+      "parent_theme_label": "Intervention Structure",
+      "source_paragraph_index": 29,
+      "source_text_verbatim": "6. Intervention Structure:",
+      "code_ids": [
+        "T06_frequency",
+        "T06_duration",
+        "T06_psychoeducation",
+        "T06_separate_tracks",
+        "T06_metaphors_and_analogy"
+      ]
+    },
+    {
+      "parent_theme_id": "T07",
+      "parent_theme_label": "Participant Engagement",
+      "source_paragraph_index": 36,
+      "source_text_verbatim": "7. Participant Engagement:",
+      "code_ids": [
+        "T07_contingency_management",
+        "T07_self_reflection",
+        "T07_psychoeducation"
+      ]
+    },
+    {
+      "parent_theme_id": "T08",
+      "parent_theme_label": "Addressing Anxiety and Stress",
+      "source_paragraph_index": 40,
+      "source_text_verbatim": "8. Addressing Anxiety and Stress:",
+      "code_ids": [
+        "T08_screening",
+        "T08_focus_on_non_clinical_populations"
+      ]
+    },
+    {
+      "parent_theme_id": "T09",
+      "parent_theme_label": "Ethical Considerations",
+      "source_paragraph_index": 43,
+      "source_text_verbatim": "9. Ethical Considerations:",
+      "code_ids": [
+        "T09_informed_consent",
+        "T09_participant_safety"
+      ]
+    },
+    {
+      "parent_theme_id": "T10",
+      "parent_theme_label": "Research Design",
+      "source_paragraph_index": 46,
+      "source_text_verbatim": "10. Research Design:",
+      "code_ids": [
+        "T10_multi_site_approach",
+        "T10_control_group_design"
+      ]
+    }
+  ],
+  "codes": [
+    {
+      "code_id": "T01_focused_attention",
+      "parent_theme_id": "T01",
+      "parent_theme_label": "Core Mindfulness Components",
+      "code_label": "Focused Attention",
+      "operational_definition": "Participants emphasized the importance of focused attention practices, such as mantra meditation, as foundational for developing mindfulness.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Participants emphasized the importance of focused attention practices, such as mantra meditation, as foundational for developing mindfulness. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T01_mind_wandering_awareness",
+        "T01_non_reactivity"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 13,
+      "source_text_verbatim": "Focused Attention: Participants emphasized the importance of focused attention practices, such as mantra meditation, as foundational for developing mindfulness."
+    },
+    {
+      "code_id": "T01_mind_wandering_awareness",
+      "parent_theme_id": "T01",
+      "parent_theme_label": "Core Mindfulness Components",
+      "code_label": "Mind Wandering Awareness",
+      "operational_definition": "Recognizing and gently guiding attention back to the focus was highlighted as crucial.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Recognizing and gently guiding attention back to the focus was highlighted as crucial. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T01_focused_attention",
+        "T01_non_reactivity"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 14,
+      "source_text_verbatim": "Mind Wandering Awareness: Recognizing and gently guiding attention back to the focus was highlighted as crucial."
+    },
+    {
+      "code_id": "T01_non_reactivity",
+      "parent_theme_id": "T01",
+      "parent_theme_label": "Core Mindfulness Components",
+      "code_label": "Non-reactivity",
+      "operational_definition": "Accepting thoughts and emotions without judgment was seen as a key aspect.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Accepting thoughts and emotions without judgment was seen as a key aspect. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T01_focused_attention",
+        "T01_mind_wandering_awareness"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 15,
+      "source_text_verbatim": "Non-reactivity: Accepting thoughts and emotions without judgment was seen as a key aspect."
+    },
+    {
+      "code_id": "T02_formal_practice",
+      "parent_theme_id": "T02",
+      "parent_theme_label": "Formal vs. Informal Practice",
+      "code_label": "Formal Practice",
+      "operational_definition": "Regular, dedicated meditation sessions (e.g., 10-15 minutes daily) were considered essential.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Regular, dedicated meditation sessions (e.g., 10-15 minutes daily) were considered essential. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T02_informal_practice"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 17,
+      "source_text_verbatim": "Formal Practice: Regular, dedicated meditation sessions (e.g., 10-15 minutes daily) were considered essential."
+    },
+    {
+      "code_id": "T02_informal_practice",
+      "parent_theme_id": "T02",
+      "parent_theme_label": "Formal vs. Informal Practice",
+      "code_label": "Informal Practice",
+      "operational_definition": "Integrating mindfulness into daily activities (e.g., mindful eating, mindful walking) was emphasized for sustained benefits.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Integrating mindfulness into daily activities (e.g., mindful eating, mindful walking) was emphasized for sustained benefits. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T02_formal_practice"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 18,
+      "source_text_verbatim": "Informal Practice: Integrating mindfulness into daily activities (e.g., mindful eating, mindful walking) was emphasized for sustained benefits."
+    },
+    {
+      "code_id": "T03_importance_of_consistency",
+      "parent_theme_id": "T03",
+      "parent_theme_label": "Importance of Consistency",
+      "code_label": "Importance of Consistency",
+      "operational_definition": "Participants stressed the significance of consistent practice over intensity. Regular short sessions were deemed more effective than infrequent long sessions.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Participants stressed the significance of consistent practice over intensity. Regular short sessions were deemed more effective than infrequent long sessions. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 20,
+      "source_text_verbatim": "Participants stressed the significance of consistent practice over intensity. Regular short sessions were deemed more effective than infrequent long sessions."
+    },
+    {
+      "code_id": "T04_core_components",
+      "parent_theme_id": "T04",
+      "parent_theme_label": "Adapting MBSR",
+      "code_label": "Core Components",
+      "operational_definition": "While adapting from MBSR, participants suggested retaining core components like focused attention, body scan, and mindful movement.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: While adapting from MBSR, participants suggested retaining core components like focused attention, body scan, and mindful movement. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T04_flexibility",
+        "T04_gradual_progression"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 22,
+      "source_text_verbatim": "Core Components: While adapting from MBSR, participants suggested retaining core components like focused attention, body scan, and mindful movement."
+    },
+    {
+      "code_id": "T04_flexibility",
+      "parent_theme_id": "T04",
+      "parent_theme_label": "Adapting MBSR",
+      "code_label": "Flexibility",
+      "operational_definition": "The need for flexibility in adapting practices to individual needs and preferences was acknowledged.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: The need for flexibility in adapting practices to individual needs and preferences was acknowledged. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T04_core_components",
+        "T04_gradual_progression"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 23,
+      "source_text_verbatim": "Flexibility: The need for flexibility in adapting practices to individual needs and preferences was acknowledged."
+    },
+    {
+      "code_id": "T04_gradual_progression",
+      "parent_theme_id": "T04",
+      "parent_theme_label": "Adapting MBSR",
+      "code_label": "Gradual Progression",
+      "operational_definition": "A gradual increase in practice duration and complexity was recommended.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: A gradual increase in practice duration and complexity was recommended. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T04_core_components",
+        "T04_flexibility"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 24,
+      "source_text_verbatim": "Gradual Progression: A gradual increase in practice duration and complexity was recommended."
+    },
+    {
+      "code_id": "T05_difficulties",
+      "parent_theme_id": "T05",
+      "parent_theme_label": "Control Group Considerations",
+      "code_label": "Difficulties",
+      "operational_definition": "Creating a truly \"sham\" meditation condition was identified as a significant challenge due to widespread awareness of mindfulness.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Creating a truly \"sham\" meditation condition was identified as a significant challenge due to widespread awareness of mindfulness. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T05_visualization_as_a_control",
+        "T05_misconceptions"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 26,
+      "source_text_verbatim": "Difficulties: Creating a truly \"sham\" meditation condition was identified as a significant challenge due to widespread awareness of mindfulness."
+    },
+    {
+      "code_id": "T05_visualization_as_a_control",
+      "parent_theme_id": "T05",
+      "parent_theme_label": "Control Group Considerations",
+      "code_label": "Visualization as a Control",
+      "operational_definition": "Using visualization meditation for individuals with aphantasia was proposed as a potential control condition.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Using visualization meditation for individuals with aphantasia was proposed as a potential control condition. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T05_difficulties",
+        "T05_misconceptions"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 27,
+      "source_text_verbatim": "Visualization as a Control: Using visualization meditation for individuals with aphantasia was proposed as a potential control condition."
+    },
+    {
+      "code_id": "T05_misconceptions",
+      "parent_theme_id": "T05",
+      "parent_theme_label": "Control Group Considerations",
+      "code_label": "Misconceptions",
+      "operational_definition": "Exploiting common misconceptions about mindfulness (e.g., relaxation as the primary focus) was suggested as a strategy for the control group.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Exploiting common misconceptions about mindfulness (e.g., relaxation as the primary focus) was suggested as a strategy for the control group. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T05_difficulties",
+        "T05_visualization_as_a_control"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 28,
+      "source_text_verbatim": "Misconceptions: Exploiting common misconceptions about mindfulness (e.g., relaxation as the primary focus) was suggested as a strategy for the control group."
+    },
+    {
+      "code_id": "T06_frequency",
+      "parent_theme_id": "T06",
+      "parent_theme_label": "Intervention Structure",
+      "code_label": "Frequency",
+      "operational_definition": "Daily practice was generally favored, although some flexibility was acknowledged (e.g., 3 times per week).",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Daily practice was generally favored, although some flexibility was acknowledged (e.g., 3 times per week). The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T06_duration",
+        "T06_psychoeducation",
+        "T06_separate_tracks",
+        "T06_metaphors_and_analogy"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 30,
+      "source_text_verbatim": "Frequency: Daily practice was generally favored, although some flexibility was acknowledged (e.g., 3 times per week)."
+    },
+    {
+      "code_id": "T06_duration",
+      "parent_theme_id": "T06",
+      "parent_theme_label": "Intervention Structure",
+      "code_label": "Duration",
+      "operational_definition": "12 minutes per session was suggested as a reasonable starting point, with potential for adjustment based on individual preferences.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: 12 minutes per session was suggested as a reasonable starting point, with potential for adjustment based on individual preferences. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T06_frequency",
+        "T06_psychoeducation",
+        "T06_separate_tracks",
+        "T06_metaphors_and_analogy"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 31,
+      "source_text_verbatim": "Duration: 12 minutes per session was suggested as a reasonable starting point, with potential for adjustment based on individual preferences."
+    },
+    {
+      "code_id": "T06_psychoeducation",
+      "parent_theme_id": "T06",
+      "parent_theme_label": "Intervention Structure",
+      "code_label": "Psychoeducation",
+      "operational_definition": "Brief introductory segments providing context and rationale for each practice were deemed valuable.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Brief introductory segments providing context and rationale for each practice were deemed valuable. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T06_frequency",
+        "T06_duration",
+        "T06_separate_tracks",
+        "T06_metaphors_and_analogy"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "DUPLICATE LABEL: the label 'Psychoeducation' also appears as ['T07_psychoeducation']. The two are kept separate because their parent themes differ; a coder must use the operational definition, not the label, to tell them apart.",
+      "source_paragraph_index": 33,
+      "source_text_verbatim": "Psychoeducation: Brief introductory segments providing context and rationale for each practice were deemed valuable."
+    },
+    {
+      "code_id": "T06_separate_tracks",
+      "parent_theme_id": "T06",
+      "parent_theme_label": "Intervention Structure",
+      "code_label": "Separate Tracks",
+      "operational_definition": "Separating psychoeducational content from the actual meditation practice was recommended for optimal user experience.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Separating psychoeducational content from the actual meditation practice was recommended for optimal user experience. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T06_frequency",
+        "T06_duration",
+        "T06_psychoeducation",
+        "T06_metaphors_and_analogy"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 34,
+      "source_text_verbatim": "Separate Tracks: Separating psychoeducational content from the actual meditation practice was recommended for optimal user experience."
+    },
+    {
+      "code_id": "T06_metaphors_and_analogy",
+      "parent_theme_id": "T06",
+      "parent_theme_label": "Intervention Structure",
+      "code_label": "Metaphors and Analogy",
+      "operational_definition": "Incorporating metaphors and analogies to enhance understanding and engagement was suggested.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Incorporating metaphors and analogies to enhance understanding and engagement was suggested. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T06_frequency",
+        "T06_duration",
+        "T06_psychoeducation",
+        "T06_separate_tracks"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 35,
+      "source_text_verbatim": "Metaphors and Analogy: Incorporating metaphors and analogies to enhance understanding and engagement was suggested."
+    },
+    {
+      "code_id": "T07_contingency_management",
+      "parent_theme_id": "T07",
+      "parent_theme_label": "Participant Engagement",
+      "code_label": "Contingency Management",
+      "operational_definition": "Incentives or rewards were suggested to improve participant adherence and reduce dropout rates.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Incentives or rewards were suggested to improve participant adherence and reduce dropout rates. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T07_self_reflection",
+        "T07_psychoeducation"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 37,
+      "source_text_verbatim": "Contingency Management: Incentives or rewards were suggested to improve participant adherence and reduce dropout rates."
+    },
+    {
+      "code_id": "T07_self_reflection",
+      "parent_theme_id": "T07",
+      "parent_theme_label": "Participant Engagement",
+      "code_label": "Self-Reflection",
+      "operational_definition": "Incorporating journaling prompts or reflection exercises was recommended to enhance self-awareness and motivation.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Incorporating journaling prompts or reflection exercises was recommended to enhance self-awareness and motivation. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T07_contingency_management",
+        "T07_psychoeducation"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 38,
+      "source_text_verbatim": "Self-Reflection: Incorporating journaling prompts or reflection exercises was recommended to enhance self-awareness and motivation."
+    },
+    {
+      "code_id": "T07_psychoeducation",
+      "parent_theme_id": "T07",
+      "parent_theme_label": "Participant Engagement",
+      "code_label": "Psychoeducation",
+      "operational_definition": "Providing basic neuroscience information about mindfulness was seen as potentially motivating.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Providing basic neuroscience information about mindfulness was seen as potentially motivating. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T07_contingency_management",
+        "T07_self_reflection"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "DUPLICATE LABEL: the label 'Psychoeducation' also appears as ['T06_psychoeducation']. The two are kept separate because their parent themes differ; a coder must use the operational definition, not the label, to tell them apart.",
+      "source_paragraph_index": 39,
+      "source_text_verbatim": "Psychoeducation: Providing basic neuroscience information about mindfulness was seen as potentially motivating."
+    },
+    {
+      "code_id": "T08_screening",
+      "parent_theme_id": "T08",
+      "parent_theme_label": "Addressing Anxiety and Stress",
+      "code_label": "Screening",
+      "operational_definition": "The need to screen out participants with severe mental health conditions was emphasized.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: The need to screen out participants with severe mental health conditions was emphasized. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T08_focus_on_non_clinical_populations"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 41,
+      "source_text_verbatim": "Screening: The need to screen out participants with severe mental health conditions was emphasized."
+    },
+    {
+      "code_id": "T08_focus_on_non_clinical_populations",
+      "parent_theme_id": "T08",
+      "parent_theme_label": "Addressing Anxiety and Stress",
+      "code_label": "Focus on Non-Clinical Populations",
+      "operational_definition": "The intervention was intended for individuals with moderate to high stress levels but without diagnosed mental illnesses.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: The intervention was intended for individuals with moderate to high stress levels but without diagnosed mental illnesses. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T08_screening"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 42,
+      "source_text_verbatim": "Focus on Non-Clinical Populations: The intervention was intended for individuals with moderate to high stress levels but without diagnosed mental illnesses."
+    },
+    {
+      "code_id": "T09_informed_consent",
+      "parent_theme_id": "T09",
+      "parent_theme_label": "Ethical Considerations",
+      "code_label": "Informed Consent",
+      "operational_definition": "Clear communication about the study's purpose and procedures was crucial.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Clear communication about the study's purpose and procedures was crucial. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T09_participant_safety"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 44,
+      "source_text_verbatim": "Informed Consent: Clear communication about the study's purpose and procedures was crucial."
+    },
+    {
+      "code_id": "T09_participant_safety",
+      "parent_theme_id": "T09",
+      "parent_theme_label": "Ethical Considerations",
+      "code_label": "Participant Safety",
+      "operational_definition": "Measures to address potential anxiety or discomfort during the intervention were discussed.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: Measures to address potential anxiety or discomfort during the intervention were discussed. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T09_informed_consent"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 45,
+      "source_text_verbatim": "Participant Safety: Measures to address potential anxiety or discomfort during the intervention were discussed."
+    },
+    {
+      "code_id": "T10_multi_site_approach",
+      "parent_theme_id": "T10",
+      "parent_theme_label": "Research Design",
+      "code_label": "Multi-Site Approach",
+      "operational_definition": "The feasibility and challenges of conducting a multi-site international study were acknowledged.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: The feasibility and challenges of conducting a multi-site international study were acknowledged. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T10_control_group_design"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 47,
+      "source_text_verbatim": "Multi-Site Approach: The feasibility and challenges of conducting a multi-site international study were acknowledged."
+    },
+    {
+      "code_id": "T10_control_group_design",
+      "parent_theme_id": "T10",
+      "parent_theme_label": "Research Design",
+      "code_label": "Control Group Design",
+      "operational_definition": "The need for a robust control condition that effectively minimizes placebo effects was highlighted.",
+      "inclusion_criteria": "A participant turn counts for this code when it asserts, describes or argues about: The need for a robust control condition that effectively minimizes placebo effects was highlighted. The turn must address the substance, not merely use the words of the label.",
+      "exclusion_criteria": "Does NOT count when: the content appears only in a moderator turn; the label's words appear without the substantive claim; the turn concerns a sibling code under the same parent theme and not this one; or the mention is a passing reference with no stance, description or reasoning attached.",
+      "boundary_with_related_codes": [
+        "T10_multi_site_approach"
+      ],
+      "human_supporting_quotes": [],
+      "source_turn_ids": [],
+      "verification_status": "PENDING_VERIFICATION",
+      "notes": "",
+      "source_paragraph_index": 48,
+      "source_text_verbatim": "Control Group Design: The need for a robust control condition that effectively minimizes placebo effects was highlighted."
+    }
+  ]
+}

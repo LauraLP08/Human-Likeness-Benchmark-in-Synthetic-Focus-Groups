@@ -1,0 +1,441 @@
+{
+  "_provenance": {
+    "derived_by": "scripts/build_comparable_window.py",
+    "generated_utc": "2026-07-30T14:33:36.299689+00:00",
+    "source_transcript": "output\\session_logs\\macho_meals_fg1_demoonly_run02\\transcript.json",
+    "source_transcript_sha256": "3a13dec43f7d8ef0414d2b1efec6bbb4893c44ee3d58a029a5d24a1d003d0e14",
+    "window": "q1_ask_to_end_of_last_substantive_section",
+    "excluded": "all material before the Question-1 ask, and the closing section",
+    "boundary_method": "Section structure from moderator_log.section_transition, cross-checked against state_turn_*.json current_section_index. Sub-entry Question-1 offset by ANCHOR-AND-EXTEND: anchor on the latest sentence-aligned suffix of the boundary entry that still poses Question 1 (the minimal ask), then extend backward one sentence at a time only across sentences that are residue-free AND positively identified as part of the ask (carrying a Q1-distinctive token, or being an ask lead-in / short discourse connective); stop at the first sentence failing either test. Residue classes excluded: participant name, moderator self-introduction, welcome, instruction/confidentiality text, presentation summary. Because the boundary only ever moves earlier over text positively identified as part of the ask, residue is excluded by construction rather than by enumeration.",
+    "boundary_algorithm": "anchor_and_extend_v1",
+    "source_entry_index": 6,
+    "source_entry_turn": 6,
+    "source_character_start": 117,
+    "original_boundary_entry_sha256": "2a5b9cae6e7efdcf9bbc374be547913e739738951242fb7c4f06a7c13621d86b",
+    "retained_boundary_text_sha256": "a22e324758503a9d83ff36bd75eda7cb42b38bbc6d63dec31906faf96474c18a",
+    "boundary_review_status": "AUTO_TRIMMED",
+    "boundary_review_note": "anchored on minimal Q1 ask at char 226, extended back 2 sentence(s) to char 117; dropped 117 leading chars (22 words) carrying: welcome; presentation_summary(spread)",
+    "first_source_entry_index": 6,
+    "last_source_entry_index": 57,
+    "boundary_text_is_verbatim_slice": true,
+    "note": "Derived view. The source transcript is unmodified. The first entry's content is a verbatim character slice of the source entry from source_character_start onward - never paraphrased, normalised, reconstructed, or replaced with the guide's scripted question. Human transcripts need no equivalent window: they already begin at Question 1 and contain no introduction or closing section."
+  },
+  "transcript": [
+    {
+      "turn": 6,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Right, let's get into it. Think about the times you spend with your male friends — where do you actually go? What's your favourite kind of place to hang out together, and what makes it that spot rather than somewhere else?",
+      "timestamp": "2026-07-29T21:20:33.058261+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, so for me it's usually the pub, to be honest. There's a few we rotate between — got a couple near where I work, and then there's one closer to home that's a bit more relaxed, you know? Cheaper pints, less loud. That's where we tend to end up most weekends.\n\nI mean, sometimes we'll go for food or grab a coffee during the day if it's a weekday thing, but the pub's the main one. It's just... easy, isn't it? You can sit for hours, have a drink, chat, watch the football if there's a match on. And everyone knows where they're going without having to plan it to death.",
+      "timestamp": "2026-07-29T21:21:01.835823+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "Yeah, the pub's definitely the default for us too. We've got our spots in Edinburgh — there's one we've basically claimed on a Friday night. But I'd say since covid or whatever, me and my mates have actually started mixing it up a bit more than we used to. Like, we'll do a brewery or go to someone's flat to cook something, watch a film. It's not always the pub anymore, which is maybe a bit different from how it was before, you know?\n\nStill the easiest option though when you just want to turn up without planning anything. But I've noticed people are keener now on actually doing stuff rather than just... sitting in the same bar every time.",
+      "timestamp": "2026-07-29T21:21:38.355279+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "That's fair, yeah. I get what you mean. Though for me it's a bit different — like, some of my mates have moved away or they're busy with work, so when we do meet up it's less frequent, and we kind of just want to grab a pint rather than organize something big. It's simpler.\n\nBut I hear you on the doing stuff thing. A couple of my mates are really into cooking now, and they're always wanting to do that at someone's place. And I'll go along with it, but... I don't know, it feels like more effort sometimes? Like you've got to commit to being there for longer, help with the cooking or whatever. The pub you can just rock up, have a couple, leave when you want.\n\nMaybe it depends on the friend group though. Some people are more up for that kind of thing than others.",
+      "timestamp": "2026-07-29T21:22:09.412516+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "Yeah, but that's the thing though — like, the cooking nights do take more effort upfront, fair enough. But once you're there, it's actually... I don't know, it feels different? Like you're actually doing something together, not just sitting with your phone out half the time. \n\nI think that's what changed a bit after lockdown. Everyone was kind of forced to do stuff differently, and then you realize the pub's just become a habit, you know? With the cooking thing, even if it's a hassle to organize, there's actually something happening. You're talking properly, making food, eating together. Versus the pub where you're just... drinking and watching whoever's match is on.\n\nI'm not saying pubs are bad or anything — they're still grand for a quick one. But I reckon people started valuing the actual interaction more. Or maybe they just realized they had time for it. I don't know.",
+      "timestamp": "2026-07-29T21:22:42.761484+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "No, yeah, I actually get that. You're right. I mean, when I think about it, the nights I remember more are the ones where we've actually done something — cooked at someone's, or gone out somewhere and it wasn't just the same bar routine. Those stick with you more than just another pint night, don't they?\n\nI think it's just... the pub is so easy to default to that you don't really question it. But you're saying something real there about actually being present. Because you're right, half the time you're checking your phone, someone's got the game on, you're not really talking about anything deep or memorable.\n\nMaybe I should push myself to do more of that stuff instead of just... defaulting. It does take more effort but like, what's the alternative? Just going through the motions every week?",
+      "timestamp": "2026-07-29T21:23:14.694866+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Will, you've been quiet on this one — I'm curious whether any of what Ibrahim and David are saying maps onto your experience, or whether it looks pretty different out in rural Scotland?",
+      "timestamp": "2026-07-29T21:23:14.695278+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, well... it's a bit different out here, to be fair. I mean, we've got a pub, obviously, but it's not like you lot have got multiple ones to rotate between or anything. There's basically the one, and if you want to do something else you're kind of... limited, aren't you?\n\nSo it's not really a choice between the pub and doing something at someone's place the same way. Like, if you want to see your mates it's usually the pub, because that's where people go. There's not as much of a culture of cooking nights or going to a brewery or whatever. That's more of an urban thing, I reckon.\n\nI suppose we do end up just sitting in the same spot, same as Ibrahim's saying, but I don't think we've got the option to switch it up as much even if we wanted to. And honestly, for us it kind of works because everyone knows where you'll be. You don't need to plan it to death — you just go down there Friday night and your mates are there or they'll be there soon enough.\n\nBut I hear what David's saying about remembering the nights where you actually do stuff. That makes sense. It's just... logistics are a bit different when you're not in a city with loads of options, you know?",
+      "timestamp": "2026-07-29T21:23:37.442091+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a really useful contrast, Will — the question of 'pub or something else' looks different when there isn't really an 'or something else.' Right, let's shift gears slightly. I want to ask you all something a bit more day-to-day: how do you decide what to eat? Not just big occasions — just on an ordinary day, what actually shapes what ends up on your plate?",
+      "timestamp": "2026-07-29T21:23:37.442709+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "I mean, I get what Will's saying about limited options out there, but I'm not sure it's quite as straightforward as urban equals choice, you know? Like, yeah, there's more pubs and restaurants and stuff around here, but that doesn't mean I'm actually choosing between loads of different things most of the time.\n\nI think I default just as much as anyone — maybe more, honestly. Like, I know where the good takeaways are, I know what I usually get, and unless I'm making a real effort I'll just end up in the same rotation. It's easier that way. So it's not really choice in the way that sounds, is it? There's options there theoretically, but I'm not actually using them. I'm just picking the same thing because it's familiar and I know it'll be alright.",
+      "timestamp": "2026-07-29T21:24:20.670954+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, that's... that's actually a good point, Isaiah. I was thinking about it as just a numbers thing — like, you've got more places so you've got more choice — but you're right, you're still just defaulting to the same few things anyway.\n\nI do that with food all the time. Like, I'll go to the shop and I'll have a vague idea of what I fancy, but then I just end up picking the same stuff I always get. Even when I'm thinking I should try something different, I don't really. It's just easier to stick with what works.\n\nI suppose I thought maybe that was different in cities because there's so much on offer, but sounds like you lot end up in routines just the same. Just... the routines are maybe a bit different between what's available and what's a familiar choice within that, if that makes sense. Either way you're kind of locked into it without really thinking about it.",
+      "timestamp": "2026-07-29T21:24:54.728284+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, exactly. That's what I mean though — it's different, isn't it? Like, you're locked into it, but for you it's because there literally isn't anything else there. Whereas for me, I'm locked into the same rotation even though there are other options I could try if I actually bothered.\n\nIt's almost worse in a way, because I can't even blame it on lack of options. I've got a Tesco, couple of independent shops, takeaways everywhere — but I still just end up getting the same chicken from the same place, or the same meal deal from the shop. I'm choosing to default, not being forced into it by geography.\n\nSo like... that's on me, innit? Not on anything else. You can at least say well, there's only one shop. I can say there's loads but I can't be bothered to actually explore it. Which is different.",
+      "timestamp": "2026-07-29T21:25:29.781955+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Nah, I don't think it's quite that different though, Isaiah. Like, I get what you're saying — you've got the options there — but it's not just about whether you can be bothered, is it? It's more complicated than that.\n\nBecause yeah, there's only one shop out here, but it's not like I'm sat at home thinking \"I could drive twenty minutes to the next town if I really wanted to.\" That's just not realistic for a weeknight when you're knackered after work. So there's a constraint there, but it's not just... one shop exists. It's the whole thing — the distance, the time, the hassle of it.\n\nAnd you saying it's on you because you've got options everywhere... I don't know, man. Like, yeah, there's loads of places, but you still need to actually know what you want, go there, figure it out. That's effort too, just a different kind. You're comparing yourself to a version of you that goes exploring different takeaways or shops all the time, but that's not really how anyone lives, is it? \n\nI think the defaulting thing is just... normal. Whether it's because there's literally nothing else or because trying something new requires more effort than just getting what you know — the end result's pretty similar. You're not choosing, you're just doing what's easiest. It's not a failure thing necessarily.",
+      "timestamp": "2026-07-29T21:26:10.333494+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Fair point, yeah. I mean, you're right that it's effort either way. But I think there's still something in it though, even if the outcome looks the same.\n\nLike, when I'm walking past five different takeaways on the way home, or I'm scrolling through my phone and seeing all these options, there's this... I dunno, background thing that says I *could* try something different. I'm not doing it, but I know I could. Whereas you're not even having that thought because it's genuinely not an option.\n\nIt's not about failure or anything, but it does feel like a different kind of pressure? Like, I've got this awareness that I'm choosing the familiar option when I could be doing something else. That's a bit different from just... the familiar option being what's there.\n\nBut maybe that's just me being hard on myself for no reason, like you said. Because you're right — the end result is the same either way. We're both just sticking with what we know and getting on with it.",
+      "timestamp": "2026-07-29T21:26:50.473557+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something interesting in that distinction you're both drawing — whether the awareness of other options actually changes anything, or whether it's just background noise while you do the same thing anyway. Let's take that with us.\n\nI want to move us on to something that connects with all of this — because you've been talking about what shapes your food choices in terms of habit and effort and what's available. I'm curious whether you think your gender plays any part in it. Do you think being a man influences what you eat, or how you eat — and why, or why not?",
+      "timestamp": "2026-07-29T21:26:50.475480+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, I think it does actually, though maybe not in the way you might think. Like, it's not that there's certain foods that are just for blokes or anything — that's probably bollocks.\n\nBut out here, there's definitely a thing where... I dunno, there's an expectation about what you do with food, what you're willing to admit you care about. Like, if you're getting really into cooking or you're fussy about where your stuff comes from or whatever, that's sometimes seen as a bit... soft? Or like you're trying too hard. It's more of a bloke thing to just eat what's put in front of you, not make a fuss about it.\n\nSo I think that does shape things. Not because I'm naturally that way, but because there's a social thing around it. You don't want to be the guy who's always going on about his diet or trying out new recipes or whatever. That's just not... it doesn't fit, out here anyway.\n\nI reckon that's maybe less of a thing in a city where there's more of that culture around food and cooking and that. But out here, among your mates, your family — there's definitely an unspoken rule that you just eat normal food, don't make a meal of it, literally and figuratively.\n\nSo yeah, being a bloke does influence it, but it's wrapped up with the rural thing too. It's not one or the other.",
+      "timestamp": "2026-07-29T21:27:35.185205+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Will's saying there's a kind of unspoken rule — not about specific foods being blokey, but about how much you're supposed to care or make a thing of it. That being fussy, or too into food, doesn't fit. Does that resonate for the rest of you — or does it look different where you're from?",
+      "timestamp": "2026-07-29T21:27:35.185836+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, I mean... it's different but it's still there, you know? Like, Will's saying don't make a fuss about it, and I get that. But in Birmingham, in the urban areas anyway, it's not quite the same unspoken rule.\n\nIt's more like... you're supposed to know about food, right? Like, you should be able to go to a curry house and know what you're doing, or you should have tried different cuisines or whatever. There's this thing where it's kind of expected that you've got some kind of food knowledge or you're open to trying stuff. That's the vibe.\n\nBut then at the same time, if you're *too* into it — like if you're the guy who's always going on about where the ingredients are from or you're being picky about it — that's still kind of... I dunno, it reads a bit different. Not weak exactly, but like, a bit try-hard maybe? Trying too hard to be sophisticated or something.\n\nSo it's not \"don't care about food\" like maybe it is out in rural areas. It's more like... you should care enough to know your way around it, but not so much that you're making a thing of it or acting like you're better than anyone else. That's the unwritten rule I think. At least among the people I know.",
+      "timestamp": "2026-07-29T21:28:11.199408+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Yeah, that's... that's actually spot on, Amir. That's exactly it, isn't it? It's not just about not caring — it's about not looking like you're trying too hard or showing off.\n\nBecause I think that's what I was getting at but I didn't quite say it right. It's not that you genuinely don't care about food out here. It's that you can't be seen to care too much, because that looks like you're being a bit precious about it. You're making a thing of yourself.\n\nAnd what you're saying about knowing your way around food but not being too into it — that's the same pressure, just a different flavour, if you know what I mean. You need to have some credibility, but you can't look like you're obsessed with it or taking it seriously as a hobby or whatever.\n\nSo yeah, that stops you from exploring more, doesn't it? Not because you physically can't, but because if you start going on about trying new places or you're asking questions about how something's made or where it's from... you're putting yourself in a position where someone might think you're being a bit much about it.\n\nI hadn't thought of it like that before, but that's probably more of what's keeping me in the same routine than just the lack of options or the effort. It's more about not wanting to stand out as the bloke who's too bothered about his food.",
+      "timestamp": "2026-07-29T21:28:48.240956+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, exactly. And I think in cities it might actually be even tighter because like... everyone's connected, innit? Your mates know your other mates, you're running into people from different circles, and word gets round faster if you're the guy who's doing something a bit different.\n\nLike, if I started going on about where my chicken's from or asking loads of questions in a takeaway, that's the kind of thing that gets mentioned. Someone'll tell someone else, and then suddenly you've got this reputation before you've even realized it. It spreads quick in your circles.\n\nSo you're kind of... policing yourself without even thinking about it, I reckon. Not because there's one person explicitly saying \"don't do that,\" but because you know enough people who might judge it or find it funny. And you don't want to be the subject of that, do you?\n\nWill's right that it's not about genuinely not caring. You might actually want to try different stuff, but the social cost of being seen to care too much feels bigger than just... sticking with what you know. It's easier to default than to risk being labeled as that guy.",
+      "timestamp": "2026-07-29T21:29:21.327608+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg1_will",
+      "speaker_name": "Will",
+      "content": "Right, yeah, but I think it's even worse in a village though, to be honest. Like, you're talking about word spreading through your circles, and yeah, that happens in cities too I'm sure. But out here, there aren't really separate circles in the same way.\n\nIt's the same people, everywhere. Your mates, yeah, but also their parents, your family, people from school who you still see at the pub, the shopkeeper, whoever. It's not like you can compartmentalize it. If you're the guy asking questions about where the chicken's from at the butcher's, and your mum's best mate works there, or you run into your dad's mate who was standing next to you... that gets back to people.\n\nAnd there's nowhere to hide, really. You can't just move to a different part of town or go to a different social circle where people don't know that side of you. Everyone knows everyone, and they've got long memories. So the stakes do feel higher, because you're not just managing a reputation with your mates — you're managing it with basically the entire village.\n\nSo yeah, you end up policing yourself harder because the potential reach of it is bigger. It's easier to just fit in and not stand out, because standing out is actually quite noticeable when everyone's in the same place all the time.\n\nI think that's probably why a lot of people out here just stick with what they know. It's not just the logistics or the effort. It's that social thing — and it's tighter than what you're describing.",
+      "timestamp": "2026-07-29T21:29:58.411134+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "I hear what you're saying about the village thing — like, that's tight, no way around it. But I don't know, man... I think you might be underestimating how much that same thing happens in cities, just in a different way.\n\nLike, yeah, you've got more people overall and technically more circles. But within the circles you actually care about — your mates, people from work, your neighbourhood — it's not that compartmentalized, is it? Like, I'm not moving between completely separate worlds where no one knows anyone else. My mates all know each other, or they know people who know each other. It's all connected.\n\nAnd it's not just about other people knowing, either. I think the thing is... you internalize it so much you don't even realize you're doing it. Like, I'm not sitting here thinking \"oh, I better not ask about the chicken because someone might tell someone.\" It's more like... I just don't want to be that guy, full stop. Even if no one would actually care, I've already decided they would, you know?\n\nIt's shame, almost. Like, there's this feeling that it's not normal, it's not what blokes do, and you just... accept that without questioning it much. The reputation thing matters, but even without that, there's this internal judgment that's already happened.\n\nSo maybe the structure's different — you've got the village where everyone literally knows everyone. But the end result's kind of the same. You're policing yourself so hard you don't even see the bars.",
+      "timestamp": "2026-07-29T21:30:49.917428+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Can I jump in for a second — because what Amir just said about shame feels different from the reputation thing, and I want to test it. He's saying it's not really about other people knowing or word getting back — it's that he's already judged himself before anyone else has. That's a step further than Will's village networks or the circles spreading word. It's internal.\n\nBut here's what I'm curious about: is what you're all describing about *how* you engage with food — how much you're seen to care — or does it also attach to specific things you'd actually eat? Like, are there foods that just feel off for a bloke to order or eat, not because of how enthusiastically you're eating them, but because of what they are?",
+      "timestamp": "2026-07-29T21:30:49.917822+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, there's definitely that too, innit. It's not just... how much you care. There's actual foods that just feel a bit... I dunno, not for blokes.\n\nLike, salads. You don't really see your mates getting a big salad for lunch, do you? It's just... that's a girl thing, or it comes across that way. I know that sounds daft when you say it out loud, but that's the feeling.\n\nSame with like, anything that's too colorful or has flowers on it or whatever — like, I've been to places where they've got these nice plates with edible flowers and that, and it just feels weird to order it as a bloke. You'd look a bit soft doing that. You're supposed to get something more... substantial. Meat and chips, burger, that kind of thing.\n\nEven stuff like a smoothie bowl or whatever — that's fine for breakfast apparently, but only if you're not making a thing of it. You can't be the guy who's really into his smoothie bowl, you know what I mean?\n\nIt's not rational, probably. But it's there. And I think in Birmingham it's maybe a bit more coded because there's more awareness of different food cultures, but there's still this underlying thing about what reads as masculine. And a lot of the more interesting stuff — the lighter stuff, the more delicate stuff — doesn't read that way.",
+      "timestamp": "2026-07-29T21:31:27.212938+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Salads as a girl thing, the flowers on the plate looking soft — anyone else got examples like that? Things that just feel off to order, not because of how much you care about food, but because of what the food itself signals?",
+      "timestamp": "2026-07-29T21:31:27.213326+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, I know exactly what you mean, Amir. I've felt that exact thing — like, I'll be looking at a menu and there's something that looks decent but it's got salad on the side or it's a bit... I dunno, refined or whatever, and there's this immediate thought of like, nah, that's not really a bloke order, is it?\n\nBut the thing is, I've actually ordered stuff like that before, right? Like a few times I've just gone for it anyway, and nobody's said anything. Nobody cares. And actually, when you eat it, it's fine — it's tasty, it fills you up. But that doesn't stop the feeling from happening the next time you're looking at a menu.\n\nSo it's weird because you *know* logically that it doesn't matter, but the hesitation's still there. You have to actively override it each time. It's not like, oh I tried it once and now I'm fine with it. It's more like... you've got to actively decide you don't care what it looks like or signals, every single time you're ordering. Otherwise you just drift back to the burger or whatever.\n\nWhich is mad when you think about it, because it's stopping you from trying things you might actually enjoy, just because of this feeling about what it means.",
+      "timestamp": "2026-07-29T21:32:12.283301+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Isaiah, that thing you're describing — where you've actually tested it, it was fine, and the feeling still comes back — I want to hold onto that. It's not about information. It doesn't go away when you know it's irrational.\n\nLet's take that somewhere. You've all been describing a version of the same thing: there's a weight around what you eat, what you're seen to care about, what certain foods signal. So — imagine you actually decided to go plant-based. Properly. Not just ordering a salad once. What would need to change in your life for that to be possible?",
+      "timestamp": "2026-07-29T21:32:12.284071+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "I mean... I don't know, mate. That's a big ask.\n\nBecause like, ordering a salad once is one thing — you override the feeling for an hour, you eat it, nobody's said anything, life goes on. But going plant-based is different, innit? That's not just one choice. That's... you'd have to tell people. Your mates would notice. You'd have to explain it every time you go out for food or someone's cooking something.\n\nAnd the thing is, I can't even tell if I *want* to do that or if I'm just... I'm not interested in it, to be honest. I like eating meat. But the question's not really whether I want to, is it? It's like, even if I did want to, the social side of it feels massive. More massive than just the salad thing.\n\nBecause like, you can quietly order a salad and nobody really clocks it. But if you're the bloke who's gone vegan or vegetarian or whatever, that's a thing about you now. That's your identity in the group. And I don't know if I'd be up for that kind of... standing out. Which is fair enough to admit, I reckon.\n\nSo what would need to change? Honestly, I'd probably need to not care what people thought. And I'm not sure that's something I can just decide to do.",
+      "timestamp": "2026-07-29T21:33:04.878112+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That thing Isaiah said about it becoming part of your identity in the group — 'that's a thing about you now' — does that land for the rest of you? Like, is the social visibility of it what makes plant-based feel like a different kind of decision?",
+      "timestamp": "2026-07-29T21:33:04.878553+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, that's exactly it though. That's the bit that actually locks you in, innit?\n\nBecause like, you can order a salad once and it's just... a choice you made that day. But if you go vegetarian or vegan, it's not just about the food anymore. It becomes who you are. It becomes something people know about you, something they bring up. \"Oh yeah, Amir's one of them vegetarians now.\" And then you can't just... opt out quietly next time.\n\nOnce it's a thing about you, you're kind of committed to it in a way you wouldn't be otherwise. Because if you suddenly go back to eating meat, that's another thing — that's you changing your mind, that's you failing at it or whatever people think. You can't just slip back without it being noticed and commented on.\n\nWith the salad, nobody's even paying attention. You're just ordering food. But with something like that, it becomes an identity thing and then you're stuck with managing that identity whether you like it or not. That's what makes it feel massive.\n\nI think that's actually scarier than just the judgment in the moment, to be honest. It's the being locked into something, having to explain it or defend it or just... live with it being a thing about you. That's the real barrier.",
+      "timestamp": "2026-07-29T21:33:42.657452+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "But people change their minds about stuff all the time though, don't they? Like, you see it — someone's into something for a bit and then they're not. And yeah, people might mention it, but it's not like they hold it against you forever.\n\nI think maybe we're overstating how much people actually care or remember about it. Like, if you went vegan for six months and then went back to eating meat, would your mates actually be on your case about it constantly? Or would they just... move on? Because I reckon they'd move on pretty quick.\n\nThe thing is, I don't think we're scared of the judgment itself as much as we're scared of what we think the judgment would be. Like, in my head it's this massive thing — people taking the piss, it becoming your whole identity, you being locked in. But in reality? Probably nobody gives that much of a shit. People have got their own stuff going on.\n\nSo maybe the barrier isn't actually as big as we're making it sound. We're kind of... building it up in our heads before we've even tested it. Which is the same problem as the salad thing, isn't it? But scaled up.",
+      "timestamp": "2026-07-29T21:34:24.203441+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Nah, I think you're mixing two different things up there though, Isaiah.\n\nLike, yeah, people move on quick — you're right about that. If someone tries something and then stops, people won't be on about it forever. That's fair.\n\nBut it's different when it's an ongoing thing, you know? Like, if you're vegan for six months and then you stop, yeah, people forget about it. But if you're vegan and you stay vegan, it doesn't become this temporary thing people reference once and move on from. It's just... part of how people know you. Every time you go out to eat, it comes up. Every time someone's cooking, it comes up. It becomes a permanent part of how you're seen in the group.\n\nAnd that's not the same as people constantly taking the piss about it. It's just that it's always there, you know? It's a thing that's active, not something that happened once and people forgot.\n\nSo I don't think we're just building it up in our heads. There's a real difference between \"someone tried something once\" and \"this is an ongoing choice that affects how you eat every single time.\" The first one people move on from. The second one people just... acknowledge every time. It becomes normal for them to know that about you.\n\nThat's not nothing. That's actually a thing that changes how you exist in the group.",
+      "timestamp": "2026-07-29T21:34:58.340567+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, okay, fair point. You're right — that's different. If it's actually something you're doing all the time, it's not temporary, so yeah, it becomes a thing people know about you. That's just... how people work, isn't it?\n\nBut I think what I'm getting at is maybe that's not necessarily bad? Like, Amir's saying it's a permanent thing in how people see you, and yeah, it is. But loads of things are permanent parts of how people see you, and you don't feel locked down by them. Like, if you're the bloke who supports Leeds or whatever, that's permanent. People know that about you. But you're not trapped by it.\n\nSo maybe it's not the permanence itself that's the actual problem. It's more about whether it feels like it matters, like it's something people might judge you for or think is weird. With the vegan thing, there's still that undertone of like... it's not normal, it's a bit soft or whatever. Whereas supporting a football team is just... normal.\n\nSo you're locked into it either way, but one feels fine and the other feels heavy because of what it signals. That's the actual thing, I reckon. Not the permanence.",
+      "timestamp": "2026-07-29T21:35:40.710999+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "Yeah, that's it exactly. That's what I've been trying to say without actually saying it, I think.\n\nIt's not about being locked in, because like you say, you're locked into loads of things — supporting a team, your job, whatever. That's fine. But the vegan thing signals something different, doesn't it? It signals that you care about something in a way that feels... I dunno, too careful or too thoughtful or something. Like you're thinking about animals or ethics or where your food's coming from, and that just reads as a bit soft when you're a bloke.\n\nWhereas supporting Leeds is just... that's normal. That's what blokes do. Nobody's going to think you're weak for caring about your team. But caring about whether your food's vegan? That reads as like, you're worried about hurting something, or you're being precious about it, or you care too much about stuff that doesn't really matter in a manly way.\n\nThat's the actual weight of it. It's not just that people will know, it's what they'll think it means about you. That you're the kind of bloke who actually cares about that stuff. And in Birmingham, or anywhere really, that's not... it doesn't sit right. It feels like it says something soft about you.\n\nSo yeah, it's locked in, but it's locked in as something that signals you're a bit different in that way. And that's why it feels heavier than just any other permanent thing about you.",
+      "timestamp": "2026-07-29T21:36:23.689680+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So Isaiah and Amir have landed on something specific there — it's not just being known for it, it's what being known for it says about you. That caring about where your food comes from reads differently to caring about your team. Will, Ibrahim, David — does that match what you'd expect in your circles, or does it sit differently for any of you?",
+      "timestamp": "2026-07-29T21:36:23.691374+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "I mean... I think it's a bit different in Edinburgh though, honestly. Like, yeah, there's still that thing where if you're too into something it feels a bit much, but I don't think caring about ethics or where your food comes from reads as soft in the same way. \n\nIt's more like... it's become normal? Or at least, you see it enough that it's not weird anymore. Like, loads of people I know have gone vegetarian or vegan, and yeah, it's a thing about them, but it's not like they're being judged for it. It's just... a choice people make.\n\nI think maybe that's post-covid stuff again, to be honest. Everyone had more time to think about things, and suddenly more people were asking questions about that stuff. It kind of normalized it a bit. You can have the conversation now without it feeling like you're being precious about it.\n\nThat said, I get what Amir's saying about the signal — like, in some circles, yeah, it would definitely read a certain way. But in the circles I'm in, it's kind of... fine? It's almost expected that you've thought about it at some point.",
+      "timestamp": "2026-07-29T21:37:00.770873+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg1_amir",
+      "speaker_name": "Amir",
+      "content": "I hear what you're saying about Edinburgh being different, and fair play if that's how it is there. But I'm not sure that's happened the same way in Birmingham, to be honest.\n\nLike, yeah, maybe some circles have shifted a bit post-covid or whatever. But it's not like that's universal, you know? There's still loads of people — loads of my mates — who would definitely think it's a bit odd if you went vegan. It might be more normalized in certain groups, certain parts of the city maybe, but that doesn't mean it's just... normal now across the board.\n\nAnd I think there's something about saying \"wait, it'll normalize\" that doesn't really help when you're actually living in it right now, does it? Like, yeah, maybe in five or ten years it'll be more accepted or whatever. But that doesn't change what it signals now, in your actual circles, with the actual people you see every day.\n\nI'm not saying nothing's changed. There's probably more awareness of it now than there was. But that awareness doesn't automatically mean the judgment's gone away. It might just be more polite or less obvious.\n\nSo I think we're still dealing with the same thing — it's not neutral, it still signals something about you. Even if other places have moved on a bit faster, that doesn't mean you're not risking being seen a certain way if you actually do it.",
+      "timestamp": "2026-07-29T21:37:37.833900+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "Yeah, but I think — I don't want to sound like I'm saying it's just better in Edinburgh or whatever. It's not like that. But there's actually something structural different going on, I reckon.\n\nLike, it's not just that attitudes have shifted randomly. It's more like... the circles I'm in, they're mostly people who've been to uni or work in certain kinds of jobs, you know? And in those spaces, caring about where your food comes from or going vegan — it's kind of expected. It's normal because it's wrapped up with how those people think about themselves. It's education, maybe, or class stuff. Politics even.\n\nSo when I say it's normalized, I'm not saying everyone in Edinburgh thinks it's fine. I'm saying in the specific circles I move in, it is. And I think that's probably because of who those people are, not because Edinburgh's just more progressive or whatever.\n\nWhich is... I don't know, it's a bit unfair to Amir's point, isn't it? Like, I can move through my day not having to worry about that stuff because of who I'm around. But that doesn't mean the judgment's gone away for people outside those circles. It just means I'm in a bubble where it's not an issue.\n\nSo yeah, you're right — saying \"wait, it'll normalize\" doesn't help if you're actually dealing with it now. Because for you, it might not normalize in the same way, depending on who you're actually with.",
+      "timestamp": "2026-07-29T21:38:22.415349+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So there's something interesting in what David's just said — that the barrier isn't really about Edinburgh versus Birmingham, it's about what kinds of circles you're in. And that being in circles where it's expected means you don't have to do the work of it, but that doesn't mean the judgment's gone. Which kind of squares with what Amir was saying. But I'm curious whether that class or education frame lands for Will and Ibrahim — because your circles probably look pretty different to David's, and I don't think we've heard where you'd sit on all this.",
+      "timestamp": "2026-07-29T21:38:22.415933+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "I mean, David's right about the bubble thing, but I don't think it's as straightforward as just education or class or whatever. Like, in the North East where I am, you get all kinds of people in your circles — not everyone's been to uni, not everyone works in some kind of professional job. And from what I've seen, the lads I know who'd respect someone being vegan or vegetarian or whatever, they're not necessarily the ones who went to uni or work in some fancy job.\n\nIt's more about... how you carry it, I reckon. Like, if you're making a big thing out of it, being precious about where your food's from, asking loads of questions at restaurants — yeah, that'll get you grief. But if you're just quietly doing your thing, not banging on about it, most people don't really care. They might not understand it, but they respect that you've made a choice and you're sticking with it.\n\nSo I don't know if it's as locked into these specific circles as David's making it sound. I think there's judgment everywhere, but there's also people everywhere who just... don't care as much as we think they do. We're probably overblowing the whole thing.",
+      "timestamp": "2026-07-29T21:39:05.142529+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Ibrahim, that idea of how you carry it rather than who you are — that's a useful way to frame it. And it sort of points to something practical: if it's not the choice itself that gets judged but the way you make it visible, then there's something there about what actually makes it easier or harder to do. Which is a good place to take this. Let's move on — because I want to ask something slightly different now. Not just what would need to change for you to go plant-based, but what might actually make plant-based food more appealing in the first place — to you or to blokes you know. Whether that's about the food itself, how it's talked about, how it's sold, whatever comes to mind.",
+      "timestamp": "2026-07-29T21:39:05.143070+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "I mean, honestly? If it just looked more like normal food, that would probably help. Like, right now when you see vegan stuff it's often presented in this way that's quite... I dunno, conscious? Like it's trying to prove something. There's flowers on the plate, or it's all colorful and artful, or it's being talked about like it's some kind of choice you're making for a reason.\n\nBut if it was just... a burger that happens to be vegan, or a plate of chips and beans that's just there without making a thing of it — that would be easier to order without feeling like you're doing something notable, you know?\n\nBecause I think that's part of the problem. It's not just the food itself, it's how it's presented and talked about. It signals something about it being a bit special or alternative or thoughtful. Whereas what you actually want is for it to just be... normal. Just another option that's not making any kind of statement.\n\nLike, if I went to a takeaway and there was a proper good meat-free burger that was just listed next to the regular burgers, not with some posh name or anything, and it was cheaper maybe, or the same price — I'd probably try it without thinking about what it signals. It would just be lunch.",
+      "timestamp": "2026-07-29T21:39:59.831437+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Isaiah's got a specific idea there — take the statement out of it, make it just another thing on the menu without the framing or the name or the presentation that signals it's a choice. Does that land for the rest of you? Like, is it the signalling around the food that's the barrier, or is there something else going on?",
+      "timestamp": "2026-07-29T21:39:59.831923+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Yeah, I get what Isaiah's saying about stripping away the presentation thing, but I reckon there's another bit to it as well. Like, it's not just about removing the signal — it's about the food actually being good, innit?\n\nBecause I've tried some of that vegan stuff, right? And sometimes it's alright, but a lot of the time it either tastes a bit... off, or it's trying too hard to be fancy, or it's just expensive for what it is. And if you're ordering something that's not got meat in it, you want it to be better than the alternative, not worse. Or at least as good.\n\nLike, if there was a vegan burger that was actually proper tasty, filling, the same price or cheaper than the meat one — then yeah, you'd just order it without thinking. But a lot of what I've seen round here, it's either some expensive plant-based thing at a posh place, or it's just a bit... sad. Like, it's clearly a compromise because there's no meat in it.\n\nSo stripping away the framing helps, but you'd also need the actual food to hold up. Otherwise people will try it once and think, nah, not for me — not because of what it signals, but because it wasn't as good as just getting a proper burger.",
+      "timestamp": "2026-07-29T21:40:32.840743+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 38,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "Yeah, that's fair. I mean, I've had some alright vegan stuff, but you're right — a lot of it feels like it's made to be vegan first and to be good second, you know? Like the priority's all wrong.\n\nAnd you're saying something important there about it needing to be as good or better. Because like, if I'm going to order something different, there's got to be a reason beyond just \"oh, this is vegan.\" The reason can't be the statement. It's got to be because it actually tastes better or it's a better deal or something.\n\nBut I think there's maybe another thing in there too, which is... you don't even get to the point of trying it if it looks like a statement, do you? Like, the presentation thing I mentioned — that's the barrier that stops you ordering in the first place. But once you've actually ordered it and eaten it, then yeah, whether it's good or not is what matters.\n\nSo it's like two separate things. First you've got to get over the social thing — make it not look like you're making a point. But then once you're actually eating it, it's got to deliver. And I reckon a lot of places aren't getting either of those right at the moment.",
+      "timestamp": "2026-07-29T21:41:12.658783+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 39,
+      "speaker_id": "mm_fg1_ibrahim",
+      "speaker_name": "Ibrahim",
+      "content": "Exactly, yeah. That's two different problems. And I think what Isaiah's saying there is spot on — you've got to get past the first barrier before you even get to test whether the second one matters.\n\nI went to this place a few months back, right, with some mates. And they had this vegan option that was actually... it looked decent, you know? Not all fancy with flowers or whatever. Just a solid-looking wrap with some good stuff in it. And I thought, fair enough, I'll give it a go. And it was genuinely decent — better than I expected, to be honest. Proper filling, nice flavors, didn't feel like I was compromising.\n\nAnd that's the thing — once I'd actually tried it and it was alright, the whole signalling thing kind of fell away. Because it wasn't about making a statement, it was just about getting something decent to eat. And I'd probably order it again if I was there.\n\nBut that only happened because the first barrier — the presentation, the way it was framed — wasn't too heavy. If it had been all fancy and artisanal or whatever, I probably wouldn't have ordered it in the first place. So you need both things working.",
+      "timestamp": "2026-07-29T21:41:50.218417+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 40,
+      "speaker_id": "mm_fg1_isaiah",
+      "speaker_name": "Isaiah",
+      "content": "But hang on though — you actually did it, didn't you? You got past the barrier and tried it and it worked out fine. You said it was decent. And yeah, you're framing it like it was this exception or a one-off, but maybe it's not?\n\nLike, what if that's actually more common than we're saying? Because we've been talking about this like it's this massive wall that stops you, but you just... walked past it. You saw something that didn't look too mad, you ordered it, it was alright. That's it. Nobody cared. Nothing happened.\n\nAnd I think that's the thing we keep missing in this conversation. We're talking about the social barrier like it's this permanent thing that always stops you, but maybe we're just... testing it less than we think. Ibrahim tested it, it was fine. So maybe the barrier's not as solid as it feels from the inside.\n\nI'm not saying there's no judgment out there or anything. But I think we're maybe overestimating how much it actually stops people from doing stuff, versus how much it just stops us from even trying. And once you've tried it and it's alright, like Ibrahim did, it becomes easier the next time.\n\nSo maybe the answer isn't that everything needs to change first before people can try it. Maybe people just need to... try it more and realize it's not as big a deal as they thought.",
+      "timestamp": "2026-07-29T21:42:33.488457+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 40,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Isaiah, I want to stay with something you said just then, because there are two different things sitting together and I'm not sure they fully fit. Earlier you said — and I wrote it down because it stuck — 'I'm not sure that's something I can just decide to do.' You were talking about not caring what people think, and you were framing it like something real and a bit stuck, not just a habit you could shake off. But just now you're saying the barrier maybe isn't as solid as it feels, and people just need to try it more and it dissolves. Those two things feel a bit different to me. Is it that the structural thing — the way the food's presented, whether it's good — is the bit that's fixable? And the other thing, the internal thing you described, is still kind of there underneath it?",
+      "timestamp": "2026-07-29T21:42:33.489744+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 43,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Isaiah — no rush, but the floor's yours if you want it.",
+      "timestamp": "2026-07-29T21:44:15.772023+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 44,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Let me open that out a bit, because Isaiah touched on something earlier that I think is worth testing with everyone. He said at one point that not caring what people think isn't something he could just decide to do — it felt like a real thing, not just a habit. But then just now he was saying maybe the barrier dissolves once you actually try it and it's fine. Does that split feel familiar to any of you? Like — there are things you could fix on the outside, the presentation, the quality, how it's priced — and then there's something else that's more internal, that might not shift even if all the outside stuff gets fixed?",
+      "timestamp": "2026-07-29T21:44:37.098047+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 45,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "David, you've been sitting with all of this — the presentation thing, the quality thing, what Isaiah was saying earlier about the internal bit. What's your read on it? What would it actually take for you?",
+      "timestamp": "2026-07-29T21:45:10.658412+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 47,
+      "speaker_id": "mm_fg1_david",
+      "speaker_name": "David",
+      "content": "I think... honestly, I'm not sure I'm the best person to ask because I kind of skate around this stuff without really testing it. Like, I've said it's normalized in my circles, and it is, but I haven't actually gone plant-based myself. So I'm sitting here talking about how it's fine in Edinburgh, but I'm also not doing it, which is a bit... yeah.\n\nI think what Isaiah's saying is right though — there's two different things. The outside stuff, the way it's presented and whether it's actually good, that's real and it matters. But the other thing, the internal judgment bit, that's stickier.\n\nAnd I reckon for me, even with all the outside stuff fixed — even if it looked completely normal and tasted great — there's still something there about like... admitting why I'd do it. Because if I went plant-based, I'd have to basically say it's because I care about something that doesn't feel very masculine, or at least I think it doesn't. And in my circles where it's supposed to be fine, I still wouldn't want to be the guy spelling out that I care about animal welfare or ethics or whatever.\n\nSo yeah, I think the signalling thing Isaiah mentioned would help. But I'm not sure it goes away completely. There's still something underneath it that feels a bit exposed, you know?",
+      "timestamp": "2026-07-29T21:45:35.097211+00:00",
+      "selection_mode": "moderator_direct_address"
+    }
+  ]
+}

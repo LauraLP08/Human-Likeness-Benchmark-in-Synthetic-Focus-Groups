@@ -1,0 +1,6 @@
+# Every artefact in this repository is verified by SHA-256 — transcripts, configs,
+# agent payloads, prompts and the metric registry all carry hashes recorded in
+# analysis/production_evaluation/canonical_experiment_manifest.csv and elsewhere.
+# Line-ending translation would change those bytes on checkout and make every hash
+# check fail. Git therefore stores and restores every file byte-for-byte.
+* -text

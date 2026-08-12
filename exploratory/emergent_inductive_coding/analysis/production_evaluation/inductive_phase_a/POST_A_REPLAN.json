@@ -1,0 +1,137 @@
+{
+ "built_utc": "2026-08-03T13:49:22.013026+00:00",
+ "id": "POST_A_REPLAN",
+ "status": "REBUILT_ON_OBSERVED_PHASE_A",
+ "binding_source": "analysis\\production_evaluation\\inductive_phase_a\\phase_a_accepted_v2.json",
+ "observed": {
+  "n_units": 174,
+  "n_themes": 526,
+  "per_question": {
+   "1": 95,
+   "2": 103,
+   "3": 107,
+   "4": 105,
+   "5": 116
+  },
+  "n_quotes": 1385,
+  "per_condition": {
+   "demographics-only": 222,
+   "enriched": 220,
+   "human": 84
+  }
+ },
+ "superseded_planning_total": 925,
+ "planning_overshoot_pct": 75.9,
+ "figure_classes": {
+  "EXACT": "a count known now",
+  "ESTIMATE": "still depends on a result that does not exist yet",
+  "DEFERRED": "cannot be estimated until an earlier stage is observed"
+ },
+ "stage_d_status": "DEFERRED",
+ "stage_d_reason": "Stage D volume is a function of the instability Stage C produces; estimating it from Phase A would be inventing a number",
+ "stages": [
+  {
+   "stage": "B_CANONICAL_TAXONOMY",
+   "class": "EXACT",
+   "model": "gemini",
+   "calls": 5,
+   "basis": "one per question; 5 is a count",
+   "input_tokens": 33560,
+   "output_tokens": 25170,
+   "token_class": "ESTIMATE",
+   "token_basis": "60 input / 45 output tokens per theme plus per-call overhead"
+  },
+  {
+   "stage": "C_ASSIGNMENT_STABILITY",
+   "class": "ESTIMATE",
+   "model": "gemini",
+   "calls": 10,
+   "basis": "one repetition pair per question over the frozen Stage-B taxonomy; exact once Stage B returns",
+   "input_tokens": 67120,
+   "output_tokens": 30204,
+   "token_class": "ESTIMATE"
+  },
+  {
+   "stage": "D_DISAMBIGUATION",
+   "class": "DEFERRED",
+   "model": "claude",
+   "calls": null,
+   "basis": "a function of the unstable assignments Stage C produces; it cannot be derived from Phase A and is not estimated here",
+   "input_tokens": null,
+   "output_tokens": null,
+   "token_class": "DEFERRED"
+  },
+  {
+   "stage": "E1_BALANCED_SUBSAMPLE_TAXONOMY",
+   "class": "ESTIMATE",
+   "model": "gemini",
+   "calls": 5,
+   "basis": "one per question over a condition-balanced subsample; the subsample size depends on the human theme count per question",
+   "input_tokens": null,
+   "output_tokens": null,
+   "token_class": "DEFERRED"
+  },
+  {
+   "stage": "E2_BALANCED_ASSIGNMENT",
+   "class": "ESTIMATE",
+   "model": "gemini",
+   "calls": 5,
+   "basis": "one per question against the frozen E1 taxonomy",
+   "input_tokens": null,
+   "output_tokens": null,
+   "token_class": "DEFERRED"
+  },
+  {
+   "stage": "E3_CURVES",
+   "class": "EXACT",
+   "model": null,
+   "calls": 0,
+   "basis": "offline computation; no model call",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "token_class": "EXACT"
+  },
+  {
+   "stage": "F1_AUDIT_SAMPLE",
+   "class": "DEFERRED",
+   "model": "claude",
+   "calls": null,
+   "basis": "sampled from Stage-C assignments that do not exist yet",
+   "input_tokens": null,
+   "output_tokens": null,
+   "token_class": "DEFERRED"
+  },
+  {
+   "stage": "F2_AUDIT_ADJUDICATION",
+   "class": "DEFERRED",
+   "model": "claude",
+   "calls": null,
+   "basis": "follows F1",
+   "input_tokens": null,
+   "output_tokens": null,
+   "token_class": "DEFERRED"
+  }
+ ],
+ "known_model_calls": 25,
+ "stages_executed_here": [
+  "B_CANONICAL_TAXONOMY"
+ ],
+ "stages_not_executed": [
+  "C",
+  "D",
+  "E1",
+  "E2",
+  "E3",
+  "F1",
+  "F2"
+ ],
+ "gemini_cost_status": "NOT_CALCULATED_RATE_NOT_VERIFIED",
+ "claude_rate": {
+  "input_per_mtok": 2.5,
+  "output_per_mtok": 12.5,
+  "verified_utc": "2026-08-02",
+  "applies_to": "Stage D and F only, both DEFERRED"
+ },
+ "snapshot_taken_at": "STAGE_B_LAUNCH",
+ "snapshot_note": "Historical planning snapshot; not a statement of current execution status."
+}

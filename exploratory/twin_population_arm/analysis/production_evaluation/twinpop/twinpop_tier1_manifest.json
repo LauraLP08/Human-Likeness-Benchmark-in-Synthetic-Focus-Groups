@@ -1,0 +1,275 @@
+{
+ "created_utc": "2026-08-06T14:00:37.120239+00:00",
+ "purpose": "Tier-1 coding of the twinpop arm with the frozen evaluator",
+ "batch_request_id_local": "batch_twinpop_tier1_16384_v1",
+ "model": "gemini-3.5-flash",
+ "execution_mode": "batch",
+ "max_output_tokens": 16384,
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "canonical_model_config": "{\"execution_mode\":\"batch\",\"max_output_tokens\":16384,\"model\":\"gemini-3.5-flash\",\"response_mime_type\":\"application/json\",\"temperature\":null,\"temperature_transmitted\":false,\"thinking_config\":null,\"thinking_config_transmitted\":false,\"thinking_level_effective\":\"model_default_unpinned\",\"thinking_level_label_in_config\":\"medium\"}",
+ "equivalence_with_canonical_corpus": {
+  "canonical_source": "analysis\\production_evaluation\\batch_corpus_result.json",
+  "fields": [
+   {
+    "field": "execution_mode",
+    "canonical": "batch",
+    "twinpop": "batch",
+    "equal": true
+   },
+   {
+    "field": "max_output_tokens",
+    "canonical": 16384,
+    "twinpop": 16384,
+    "equal": true
+   },
+   {
+    "field": "model",
+    "canonical": "gemini-3.5-flash",
+    "twinpop": "gemini-3.5-flash",
+    "equal": true
+   },
+   {
+    "field": "response_mime_type",
+    "canonical": "application/json",
+    "twinpop": "application/json",
+    "equal": true
+   },
+   {
+    "field": "temperature",
+    "canonical": null,
+    "twinpop": null,
+    "equal": true
+   },
+   {
+    "field": "temperature_transmitted",
+    "canonical": false,
+    "twinpop": false,
+    "equal": true
+   },
+   {
+    "field": "thinking_config",
+    "canonical": null,
+    "twinpop": null,
+    "equal": true
+   },
+   {
+    "field": "thinking_config_transmitted",
+    "canonical": false,
+    "twinpop": false,
+    "equal": true
+   },
+   {
+    "field": "thinking_level_effective",
+    "canonical": "model_default_unpinned",
+    "twinpop": "model_default_unpinned",
+    "equal": true
+   },
+   {
+    "field": "thinking_level_label_in_config",
+    "canonical": "medium",
+    "twinpop": "medium",
+    "equal": true
+   }
+  ],
+  "equivalent": true
+ },
+ "blinding_problems": [],
+ "counts": {
+  "documents": 6,
+  "requests": 6,
+  "calls_per_document": 1
+ },
+ "requests": [
+  {
+   "custom_request_key": "twinpop_fg3_r1",
+   "input_id": "twinpop_fg3_r1",
+   "side": "synthetic",
+   "fg": "fg3",
+   "condition": "twinpop",
+   "canonical_replication_index": 1,
+   "physical_run": "macho_meals_fg3_twinpop_run01",
+   "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg3_twinpop_run01\\comparable_transcript.json",
+   "window": "q1_ask_to_end_of_last_substantive_section",
+   "transcript_sha256": "e10029f3d57d22a0e8cdbf4fad89e05d83ab9d99538f632b3cb37ef1a4d34c28",
+   "blind_text_sha256": "bcabc2538c9d85a68db34ef854686da7d90c1ac3bf5588a4896023ddaed1c0ae",
+   "blind_text_words": 7935,
+   "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+   "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+   "effective_request_config": {
+    "execution_mode": "batch",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium"
+   },
+   "expected_cache_key": "39f87550647968ad3d0fdc57fcdeb341b26eb6818a8a5310261185ada95e999f",
+   "excluded_content_problems": []
+  },
+  {
+   "custom_request_key": "twinpop_fg3_r2",
+   "input_id": "twinpop_fg3_r2",
+   "side": "synthetic",
+   "fg": "fg3",
+   "condition": "twinpop",
+   "canonical_replication_index": 2,
+   "physical_run": "macho_meals_fg3_twinpop_run02",
+   "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg3_twinpop_run02\\comparable_transcript.json",
+   "window": "q1_ask_to_end_of_last_substantive_section",
+   "transcript_sha256": "67a8232ad4a857c0e8045bcdddbfaaa8a86c7478446c7609ec3d6664e4c388c5",
+   "blind_text_sha256": "4f0a5fc9f13ffd4499c9069c6b643b2a99fafff189aa689452065c932d77af2c",
+   "blind_text_words": 12128,
+   "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+   "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+   "effective_request_config": {
+    "execution_mode": "batch",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium"
+   },
+   "expected_cache_key": "e393143b48a5c24dacbeb9694815249f173e76221bed0579cf579bec20aedac8",
+   "excluded_content_problems": []
+  },
+  {
+   "custom_request_key": "twinpop_fg3_r3",
+   "input_id": "twinpop_fg3_r3",
+   "side": "synthetic",
+   "fg": "fg3",
+   "condition": "twinpop",
+   "canonical_replication_index": 3,
+   "physical_run": "macho_meals_fg3_twinpop_run04",
+   "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg3_twinpop_run04\\comparable_transcript.json",
+   "window": "q1_ask_to_end_of_last_substantive_section",
+   "transcript_sha256": "34cf13409a99f975d966315f3823c22ea2cfc45fd1d4c9c8e4e7acefe37751f2",
+   "blind_text_sha256": "a23dbe9f854ed4136215903e9f2e8357de226d793088f5a966fccaddfdc806a6",
+   "blind_text_words": 10223,
+   "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+   "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+   "effective_request_config": {
+    "execution_mode": "batch",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium"
+   },
+   "expected_cache_key": "19bc8b80ccec5df31c652620d06e6f1067d6f0874e40684d3d47a1f1f4a17b21",
+   "excluded_content_problems": []
+  },
+  {
+   "custom_request_key": "twinpop_fg4_r1",
+   "input_id": "twinpop_fg4_r1",
+   "side": "synthetic",
+   "fg": "fg4",
+   "condition": "twinpop",
+   "canonical_replication_index": 1,
+   "physical_run": "macho_meals_fg4_twinpop_run01",
+   "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg4_twinpop_run01\\comparable_transcript.json",
+   "window": "q1_ask_to_end_of_last_substantive_section",
+   "transcript_sha256": "0aaa99f7b4d5eda5d7a4d4166f4744c0c5c0d254b534f02805d38f4d0c412d73",
+   "blind_text_sha256": "2de14e4d870acdc6b26a054de18c049965aea2927b422dc3235012b9abba96fa",
+   "blind_text_words": 7300,
+   "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+   "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+   "effective_request_config": {
+    "execution_mode": "batch",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium"
+   },
+   "expected_cache_key": "af88fdab3ae1c5fee254a1fb1e9ae20b50319f41c201d4527a84cccc6d156404",
+   "excluded_content_problems": []
+  },
+  {
+   "custom_request_key": "twinpop_fg4_r2",
+   "input_id": "twinpop_fg4_r2",
+   "side": "synthetic",
+   "fg": "fg4",
+   "condition": "twinpop",
+   "canonical_replication_index": 2,
+   "physical_run": "macho_meals_fg4_twinpop_run02",
+   "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg4_twinpop_run02\\comparable_transcript.json",
+   "window": "q1_ask_to_end_of_last_substantive_section",
+   "transcript_sha256": "b4a894d063420fb611b7f30e01590cd50fb499ba58d0321dd02519776f96a437",
+   "blind_text_sha256": "8e5e37d48783107e3e80dba0f73a7d6d9e34eec46f56d105f6bf561c0dfbda61",
+   "blind_text_words": 7879,
+   "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+   "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+   "effective_request_config": {
+    "execution_mode": "batch",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium"
+   },
+   "expected_cache_key": "104596a6454ceb456cda3a0da59042468ef5795302383e623e5eba5952946e9c",
+   "excluded_content_problems": []
+  },
+  {
+   "custom_request_key": "twinpop_fg4_r3",
+   "input_id": "twinpop_fg4_r3",
+   "side": "synthetic",
+   "fg": "fg4",
+   "condition": "twinpop",
+   "canonical_replication_index": 3,
+   "physical_run": "macho_meals_fg4_twinpop_run03",
+   "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg4_twinpop_run03\\comparable_transcript.json",
+   "window": "q1_ask_to_end_of_last_substantive_section",
+   "transcript_sha256": "2a08f6a9ec642a71d79e66e9159b547d4cda4fdf10982195c280c4126d55f326",
+   "blind_text_sha256": "0d1c96062038b788013567307bcfee82a1695fcd20b1180864c9ebe68719d509",
+   "blind_text_words": 5202,
+   "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+   "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+   "effective_request_config": {
+    "execution_mode": "batch",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium"
+   },
+   "expected_cache_key": "9fd216b435e597b01250470c9c3ab002bc43c50bc4c3eac18e6e52b0a7bbc1b6",
+   "excluded_content_problems": []
+  }
+ ]
+}

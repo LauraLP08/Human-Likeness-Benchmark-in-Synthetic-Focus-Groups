@@ -1,0 +1,273 @@
+{
+ "cache_key": "92c65f30fd35419388051ea9b8213b0750d76e146dc05c338eefcd8e110ce857",
+ "computed_utc": "2026-07-31T00:24:58.181194+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/to8xlhi19eohi33n4kb6vuyexr1a1b89ndws",
+ "custom_request_key": "macho_meals_fg5_demoonly_run01",
+ "input": {
+  "side": "synthetic",
+  "fg": "fg5",
+  "condition": "demographics-only",
+  "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg5_demoonly_run01\\comparable_transcript.json",
+  "sha256": "7eb57c73126286306edc4e0daf33a879796aa5ca59a3fb031e73123e86f790a2",
+  "physical_run": "macho_meals_fg5_demoonly_run01",
+  "canonical_replication_index": 1
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "0b49df2f0064b587b3c1d57008edf6ada1a6bf03e068b2f73a84e2f1616dc1b8",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 11736,
+  "candidates_tokens": 1200,
+  "total_tokens": 19978,
+  "thoughts_tokens": 7042,
+  "cached_tokens": null,
+  "raw_text_chars": 4046,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 11736,
+  "candidates_tokens": 1200,
+  "total_tokens": 19978,
+  "thoughts_tokens": 7042,
+  "cached_tokens": null,
+  "raw_text_chars": 4046,
+  "parse_attempt": 1,
+  "headroom_tokens": 15184
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T017",
+      "speaker": "Participant 1",
+      "quote": "yeah, I reckon being a man probably does shape it."
+     },
+     {
+      "turn_id": "T021",
+      "speaker": "Participant 3",
+      "quote": "And maybe that is partly a man and woman thing, at least how it's worked out for us."
+     },
+     {
+      "turn_id": "T023",
+      "speaker": "Participant 4",
+      "quote": "probably more about how we've been brought up, how our roles worked out"
+     }
+    ],
+    "evidence_note": "Participants 1, 3, and 4 all explicitly acknowledge that gender or gendered upbringing has shaped the roles and expectations they have around food planning and preparation.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 3",
+     "Participant 4"
+    ],
+    "reach": 0.75
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T025",
+      "speaker": "Participant 2",
+      "quote": "I don't know if it's about being a man exactly, though. I think it's more just — that's how it's worked out"
+     }
+    ],
+    "evidence_note": "Participant 2 doubts that gender plays a role, but immediately goes on to describe a highly gendered division of labor where his wife cooks and plans while he fixes things outside.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2"
+    ],
+    "reach": 0.25
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T017",
+      "speaker": "Participant 1",
+      "quote": "And if you're doing it, you're doing meat and potatoes type stuff, aren't you?"
+     },
+     {
+      "turn_id": "T039",
+      "speaker": "Participant 2",
+      "quote": "We eat meat, we use what we've got. It works for us."
+     },
+     {
+      "turn_id": "T041",
+      "speaker": "Participant 4",
+      "quote": "I eat meat because I like it, because that's what I've always eaten."
+     }
+    ],
+    "evidence_note": "Participants 1, 2, and 4 describe eating meat and traditional meat dishes as their default, normative, and socially expected way of eating.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 4"
+    ],
+    "reach": 0.75
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T041",
+      "speaker": "Participant 4",
+      "quote": "I eat meat because I like it"
+     }
+    ],
+    "evidence_note": "Participant 4 explicitly shares his direct enjoyment and taste preference for eating meat.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 4"
+    ],
+    "reach": 0.25
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "D",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T041",
+      "speaker": "Participant 4",
+      "quote": "I suppose if there was a health scare or something — doctor says you've got to change what you eat"
+     }
+    ],
+    "evidence_note": "Participant 4 outlines an extreme health crisis or strict medical directive as the only circumstance under which he would adopt a plant-based diet.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 4"
+    ],
+    "reach": 0.25
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 9,
+  "verified_quotes": 9,
+  "total_present_codes": 5,
+  "verified_codes": 5,
+  "demoted_codes": 0
+ }
+}

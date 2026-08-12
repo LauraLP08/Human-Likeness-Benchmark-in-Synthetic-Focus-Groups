@@ -1,0 +1,456 @@
+{
+ "gate": "phase3_step1",
+ "arm": "twinpop",
+ "seed": 20260804,
+ "frozen_by": "ADENDUM_TWIN_POBLACIONAL_CONGELADO_2026-08-04.md entry 2, as amended 2026-08-04",
+ "conditioning": {
+  "order": [
+   "region",
+   "nssec",
+   "qualification",
+   "household_composition",
+   "tenure"
+  ],
+  "person_level": {
+   "variables": [
+    "nssec",
+    "qualification"
+   ],
+   "conditioned_on": [
+    "region",
+    "sex=Male",
+    "age_band"
+   ],
+   "multivariate_cross_used": true,
+   "source": "ONS Create a custom dataset, Census 2021",
+   "age_bands": [
+    "Aged 35 to 49 years",
+    "Aged 50 to 64 years"
+   ]
+  },
+  "household_level": {
+   "variables": [
+    "household_composition",
+    "tenure"
+   ],
+   "conditioned_on": [
+    "region"
+   ],
+   "multivariate_cross_used": false,
+   "note": "Household-level variables describe the household, not the individual, so a cross by the individual's age is not well defined. Age coherence is enforced by the exclusion filter instead."
+  }
+ },
+ "age_compatibility_filter": {
+  "applies_to": "household_composition",
+  "rule": "remove categories whose definition requires ALL members to be aged 66+, then renormalise",
+  "excluded_categories": [
+   "One-person household: Aged 66 years and over",
+   "Single family household: All aged 66 years and over"
+  ],
+  "not_excluded_and_why": {
+   "Other household types: Other, including all full-time students and all aged 66 years and over": "not definitionally impossible — the all-full-time-students branch is compatible with ages 40-53"
+  },
+  "reason": "First draw (2026-08-04, pre-amendment) produced two logically impossible cells: a 47-year-old and a 48-year-old placed in households defined as all aged 66+. 27.5% of the unfiltered household-composition mass in the four arm regions is age-impossible for this cohort, so this was structural, not chance."
+ },
+ "classification_note": "The TS067 cross-tabulation uses the 7-category ONS classification, which lacks the 'Other: vocational or work-related qualifications' category present in the 8-category marginal. Both are valid ONS classifications; the cross-tabulation governs, since it is the source actually sampled. NS-SEC uses the same 10-category classification in both.",
+ "excluded_category": "Code -8 'Does not apply' excluded from every denominator.",
+ "files": {
+  "nssec_marginal": {
+   "path": "data/census2021/TS062-2021-2-filtered-2026-08-04T22_36_38Z.csv",
+   "sha256": "1d53ab69633cf30d4c31d12735c8a8cd983d4ffbd8e3fda82544b7277f876777",
+   "bytes": 7820
+  },
+  "qualification_marginal": {
+   "path": "data/census2021/TS067-2021-2-filtered-2026-08-04T22_36_08Z.csv",
+   "sha256": "b02d166ff909bf7f1d8cc9c0d1d17b872fc13008cb54fbd58b6e4089f39e7f1c",
+   "bytes": 15297
+  },
+  "household_composition": {
+   "path": "data/census2021/TS003-2021-4-filtered-2026-08-04T22_35_32Z.csv",
+   "sha256": "d07d22d8c1ce2f6766d763643c142048063b60aa6e0f84cfb5546946b3d06f2e",
+   "bytes": 14384
+  },
+  "tenure": {
+   "path": "data/census2021/TS054-2021-1-filtered-2026-08-04T22_34_38Z.csv",
+   "sha256": "5d62e36c0c38496340c25dfd140b6c66d264edad6a8f294b26e236f1117228d0",
+   "bytes": 5863
+  },
+  "nssec_cross": {
+   "path": "data/census2021/TS062_nssec_by_sex_age_regions.csv.csv",
+   "sha256": "607c7077cd67f2a4970211c09851df705c566351ce21e2178d70c7d1fab36f5a",
+   "bytes": 126819
+  },
+  "qualification_cross": {
+   "path": "data/census2021/TS067_qualifications_by_sex_age_regions.csv.csv",
+   "sha256": "b844e23b053f1fd37de97fb34144aad77cc46b88065edefad6a10c17c90aa954",
+   "bytes": 203063
+  }
+ },
+ "checksum": {
+  "TS062_vs_nomis": {
+   "North East": {
+    "sum": 2178960,
+    "nomis": 2178960,
+    "match": true
+   },
+   "North West": {
+    "sum": 6025635,
+    "nomis": 6025635,
+    "match": true
+   },
+   "Yorkshire and The Humber": {
+    "sum": 4460299,
+    "nomis": 4460299,
+    "match": true
+   },
+   "East Midlands": {
+    "sum": 3998044,
+    "nomis": 3998044,
+    "match": true
+   },
+   "West Midlands": {
+    "sum": 4801331,
+    "nomis": 4801331,
+    "match": true
+   },
+   "East of England": {
+    "sum": 5148284,
+    "nomis": 5148284,
+    "match": true
+   },
+   "London": {
+    "sum": 7103985,
+    "nomis": 7103985,
+    "match": true
+   },
+   "South East": {
+    "sum": 7554580,
+    "nomis": 7554580,
+    "match": true
+   },
+   "South West": {
+    "sum": 4735840,
+    "nomis": 4735840,
+    "match": true
+   },
+   "Wales": {
+    "sum": 2559416,
+    "nomis": 2559416,
+    "match": true
+   }
+  },
+  "TS067_vs_nomis": {
+   "North East": {
+    "sum": 2178960,
+    "nomis": 2178960,
+    "match": true
+   },
+   "North West": {
+    "sum": 6025635,
+    "nomis": 6025635,
+    "match": true
+   },
+   "Yorkshire and The Humber": {
+    "sum": 4460299,
+    "nomis": 4460299,
+    "match": true
+   },
+   "East Midlands": {
+    "sum": 3998045,
+    "nomis": 3998045,
+    "match": true
+   },
+   "West Midlands": {
+    "sum": 4801326,
+    "nomis": 4801326,
+    "match": true
+   },
+   "East of England": {
+    "sum": 5148281,
+    "nomis": 5148281,
+    "match": true
+   },
+   "London": {
+    "sum": 7103985,
+    "nomis": 7103985,
+    "match": true
+   },
+   "South East": {
+    "sum": 7554580,
+    "nomis": 7554580,
+    "match": true
+   },
+   "South West": {
+    "sum": 4735840,
+    "nomis": 4735840,
+    "match": true
+   },
+   "Wales": {
+    "sum": 2559416,
+    "nomis": 2559416,
+    "match": true
+   }
+  },
+  "TS003_vs_nomis": {
+   "North East": {
+    "sum": 1175683,
+    "nomis": 1175683,
+    "match": true
+   },
+   "North West": {
+    "sum": 3153406,
+    "nomis": 3153406,
+    "match": true
+   },
+   "Yorkshire and The Humber": {
+    "sum": 2330657,
+    "nomis": 2330657,
+    "match": true
+   },
+   "East Midlands": {
+    "sum": 2037334,
+    "nomis": 2037334,
+    "match": true
+   },
+   "West Midlands": {
+    "sum": 2429493,
+    "nomis": 2429493,
+    "match": true
+   },
+   "East of England": {
+    "sum": 2628778,
+    "nomis": 2628778,
+    "match": true
+   },
+   "London": {
+    "sum": 3423890,
+    "nomis": 3423890,
+    "match": true
+   },
+   "South East": {
+    "sum": 3807967,
+    "nomis": 3807967,
+    "match": true
+   },
+   "South West": {
+    "sum": 2448881,
+    "nomis": 2448881,
+    "match": true
+   },
+   "Wales": {
+    "sum": 1347114,
+    "nomis": 1347114,
+    "match": true
+   }
+  },
+  "TS054_vs_nomis": {
+   "North East": {
+    "sum": 1175679,
+    "nomis": 1175679,
+    "match": true
+   },
+   "North West": {
+    "sum": 3153403,
+    "nomis": 3153403,
+    "match": true
+   },
+   "Yorkshire and The Humber": {
+    "sum": 2330658,
+    "nomis": 2330658,
+    "match": true
+   },
+   "East Midlands": {
+    "sum": 2037332,
+    "nomis": 2037332,
+    "match": true
+   },
+   "West Midlands": {
+    "sum": 2429494,
+    "nomis": 2429494,
+    "match": true
+   },
+   "East of England": {
+    "sum": 2628782,
+    "nomis": 2628782,
+    "match": true
+   },
+   "London": {
+    "sum": 3423889,
+    "nomis": 3423889,
+    "match": true
+   },
+   "South East": {
+    "sum": 3807966,
+    "nomis": 3807966,
+    "match": true
+   },
+   "South West": {
+    "sum": 2448879,
+    "nomis": 2448879,
+    "match": true
+   },
+   "Wales": {
+    "sum": 1347117,
+    "nomis": 1347117,
+    "match": true
+   }
+  },
+  "TS062_cross_vs_marginal": {
+   "tolerance_rel": 0.0001,
+   "reason": "ONS statistical disclosure control perturbs each table independently",
+   "max_abs_diff": 5,
+   "max_rel_diff": 1.954e-06,
+   "by_region": {
+    "North East": {
+     "cross_sum": 2178958,
+     "marginal_sum": 2178960,
+     "abs_diff": 2,
+     "rel_diff": 9.178690751551199e-07,
+     "within_tolerance": true
+    },
+    "North West": {
+     "cross_sum": 6025632,
+     "marginal_sum": 6025635,
+     "abs_diff": 3,
+     "rel_diff": 4.978728382983702e-07,
+     "within_tolerance": true
+    },
+    "Yorkshire and The Humber": {
+     "cross_sum": 4460296,
+     "marginal_sum": 4460299,
+     "abs_diff": 3,
+     "rel_diff": 6.726006485215453e-07,
+     "within_tolerance": true
+    },
+    "East Midlands": {
+     "cross_sum": 3998042,
+     "marginal_sum": 3998044,
+     "abs_diff": 2,
+     "rel_diff": 5.002446196189936e-07,
+     "within_tolerance": true
+    },
+    "West Midlands": {
+     "cross_sum": 4801326,
+     "marginal_sum": 4801331,
+     "abs_diff": 5,
+     "rel_diff": 1.0413779012527983e-06,
+     "within_tolerance": true
+    },
+    "East of England": {
+     "cross_sum": 5148285,
+     "marginal_sum": 5148284,
+     "abs_diff": 1,
+     "rel_diff": 1.9423947863016105e-07,
+     "within_tolerance": true
+    },
+    "London": {
+     "cross_sum": 7103986,
+     "marginal_sum": 7103985,
+     "abs_diff": 1,
+     "rel_diff": 1.4076606299140552e-07,
+     "within_tolerance": true
+    },
+    "South East": {
+     "cross_sum": 7554583,
+     "marginal_sum": 7554580,
+     "abs_diff": 3,
+     "rel_diff": 3.971100974508179e-07,
+     "within_tolerance": true
+    },
+    "South West": {
+     "cross_sum": 4735849,
+     "marginal_sum": 4735840,
+     "abs_diff": 9,
+     "rel_diff": 1.90040204060948e-06,
+     "within_tolerance": true
+    },
+    "Wales": {
+     "cross_sum": 2559411,
+     "marginal_sum": 2559416,
+     "abs_diff": 5,
+     "rel_diff": 1.9535706583064263e-06,
+     "within_tolerance": true
+    }
+   }
+  },
+  "TS067_cross_vs_marginal": {
+   "tolerance_rel": 0.0001,
+   "reason": "ONS statistical disclosure control perturbs each table independently",
+   "max_abs_diff": 5,
+   "max_rel_diff": 2.295e-06,
+   "by_region": {
+    "North East": {
+     "cross_sum": 2178965,
+     "marginal_sum": 2178960,
+     "abs_diff": 5,
+     "rel_diff": 2.2946726878877997e-06,
+     "within_tolerance": true
+    },
+    "North West": {
+     "cross_sum": 6025637,
+     "marginal_sum": 6025635,
+     "abs_diff": 2,
+     "rel_diff": 3.319152255322468e-07,
+     "within_tolerance": true
+    },
+    "Yorkshire and The Humber": {
+     "cross_sum": 4460300,
+     "marginal_sum": 4460299,
+     "abs_diff": 1,
+     "rel_diff": 2.2420021617384843e-07,
+     "within_tolerance": true
+    },
+    "East Midlands": {
+     "cross_sum": 3998044,
+     "marginal_sum": 3998045,
+     "abs_diff": 1,
+     "rel_diff": 2.501222472483426e-07,
+     "within_tolerance": true
+    },
+    "West Midlands": {
+     "cross_sum": 4801334,
+     "marginal_sum": 4801326,
+     "abs_diff": 8,
+     "rel_diff": 1.6662063771549776e-06,
+     "within_tolerance": true
+    },
+    "East of England": {
+     "cross_sum": 5148280,
+     "marginal_sum": 5148281,
+     "abs_diff": 1,
+     "rel_diff": 1.9423959181715216e-07,
+     "within_tolerance": true
+    },
+    "London": {
+     "cross_sum": 7103983,
+     "marginal_sum": 7103985,
+     "abs_diff": 2,
+     "rel_diff": 2.8153212598281104e-07,
+     "within_tolerance": true
+    },
+    "South East": {
+     "cross_sum": 7554582,
+     "marginal_sum": 7554580,
+     "abs_diff": 2,
+     "rel_diff": 2.6474006496721193e-07,
+     "within_tolerance": true
+    },
+    "South West": {
+     "cross_sum": 4735834,
+     "marginal_sum": 4735840,
+     "abs_diff": 6,
+     "rel_diff": 1.2669346937396534e-06,
+     "within_tolerance": true
+    },
+    "Wales": {
+     "cross_sum": 2559415,
+     "marginal_sum": 2559416,
+     "abs_diff": 1,
+     "rel_diff": 3.907141316612852e-07,
+     "within_tolerance": true
+    }
+   }
+  }
+ },
+ "n_cells": 8
+}

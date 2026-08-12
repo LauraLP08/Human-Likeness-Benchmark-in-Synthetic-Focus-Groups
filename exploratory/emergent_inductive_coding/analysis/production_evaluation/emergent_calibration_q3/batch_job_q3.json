@@ -1,0 +1,35 @@
+{
+ "created_utc": "2026-08-02T10:59:01.585779+00:00",
+ "job_name": "batches/da1fu5l1r9f29f7q7bt2ajedoccxy3sya737",
+ "display_name": "emergent_calibration_q3_u01_u07",
+ "state": "JobState.JOB_STATE_PENDING",
+ "model": "gemini-3.5-flash",
+ "n_requests": 7,
+ "custom_request_keys": [
+  "U01",
+  "U02",
+  "U03",
+  "U04",
+  "U05",
+  "U06",
+  "U07"
+ ],
+ "prompt_sha256": "4424eec734ce7c057c805fdc9885ad10f62c335302c4f7392e4ed8914b9b5608",
+ "response_schema_sha256": "eed4e1b03b546b03fac59d7f2a9e2474a1c0b02de16a64658bdba4004d50ed95",
+ "effective_request_config": {
+  "task": "emergent_extraction",
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "response_schema_transmitted": true,
+  "response_schema_sha256": "eed4e1b03b546b03fac59d7f2a9e2474a1c0b02de16a64658bdba4004d50ed95",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "schema_version": "emergent_theme_v1"
+ },
+ "warning": "batch creation is NOT idempotent — never create again for this scope"
+}

@@ -1,0 +1,433 @@
+{
+  "_provenance": {
+    "derived_by": "scripts/build_comparable_window.py",
+    "generated_utc": "2026-07-30T14:33:37.438786+00:00",
+    "source_transcript": "output\\session_logs\\macho_meals_fg5_demoonly_run02\\transcript.json",
+    "source_transcript_sha256": "83d2731d5ce68fdbbf1cace539d4bd99a6d9ed9f02544844f56bbb92195e5604",
+    "window": "q1_ask_to_end_of_last_substantive_section",
+    "excluded": "all material before the Question-1 ask, and the closing section",
+    "boundary_method": "Section structure from moderator_log.section_transition, cross-checked against state_turn_*.json current_section_index. Sub-entry Question-1 offset by ANCHOR-AND-EXTEND: anchor on the latest sentence-aligned suffix of the boundary entry that still poses Question 1 (the minimal ask), then extend backward one sentence at a time only across sentences that are residue-free AND positively identified as part of the ask (carrying a Q1-distinctive token, or being an ask lead-in / short discourse connective); stop at the first sentence failing either test. Residue classes excluded: participant name, moderator self-introduction, welcome, instruction/confidentiality text, presentation summary. Because the boundary only ever moves earlier over text positively identified as part of the ask, residue is excluded by construction rather than by enumeration.",
+    "boundary_algorithm": "anchor_and_extend_v1",
+    "source_entry_index": 10,
+    "source_entry_turn": 8,
+    "source_character_start": 125,
+    "original_boundary_entry_sha256": "5b5a8ce88e356aaf1d4fe3db6b2e9ece8cd8c96599198c680e873115a246f0f0",
+    "retained_boundary_text_sha256": "2bbf589c1ef016f40efa034794c026a881f481ec3fe4fef161a4a0e9bb727227",
+    "boundary_review_status": "AUTO_TRIMMED",
+    "boundary_review_note": "anchored on minimal Q1 ask at char 150, extended back 1 sentence(s) to char 125; dropped 125 leading chars (23 words) carrying: participant_name(Toby); presentation_summary(corners of the country)",
+    "first_source_entry_index": 10,
+    "last_source_entry_index": 60,
+    "boundary_text_is_verbatim_slice": true,
+    "note": "Derived view. The source transcript is unmodified. The first entry's content is a verbatim character slice of the source entry from source_character_start onward - never paraphrased, normalised, reconstructed, or replaced with the guide's scripted question. Human transcripts need no equivalent window: they already begin at Question 1 and contain no introduction or closing section."
+  },
+  "transcript": [
+    {
+      "turn": 8,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Let's shift gears a bit. Thinking about the time you spend with your male friends — where do you tend to go, what kind of places do you end up in together? Anyone want to kick off.",
+      "timestamp": "2026-07-30T00:54:25.837784+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Well, that's the thing, isn't it. Out here you haven't got the same... I don't know, the infrastructure, I suppose. You can't just pop down to a pub on the corner or meet someone at a coffee shop like you probably can where you lot are. If I'm meeting someone, it's often at their place, or we're doing something — going for a walk, or we might meet at the one decent pub in the village, but that's it really. That's the pub. There's not much else.\n\nA lot of times it's just, you bump into people around the village, at the shop or whatever, and you end up having a chat. You know people, so you see them about. But actually sitting down and going out somewhere with a friend? That takes a bit more planning out here, doesn't it. You've got to make a proper trip of it, or you're stuck with the same few spots.\n\nI reckon that's different from what you're describing, Keith and Patrick. You've got options within reach. We've just got what we've got, and you work with that.",
+      "timestamp": "2026-07-30T00:54:55.288762+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, that's... that's actually hit on something I've been thinking about while you lot have been talking. Because you're right, Toby — out here in the suburbs we've got all these options now. There's pubs, cafes, restaurants, you name it. I can drive ten minutes and have a choice of where to go. Used to be you'd just go to your local, the one near home, and that was it. Everyone went there, you saw the same faces.\n\nBut now? Now I can go anywhere I fancy, and so can everyone else. Which sounds like a good thing, doesn't it? But what you're describing — knowing the landlord, bumping into people you know — that's actually something I've lost without really noticing it happening. I can go to a different pub every week if I want, but I don't know anyone there. No one knows me.\n\nAnd the funny thing is, Toby, you're saying you've got limited options and you work with what you've got. But at least with that — at least everyone in the village ends up at the same pub sometimes, right? So you actually build something. You actually know people. Whereas I've got all these choices and I don't feel like I've got much of a community anymore. The old local I used to go to, it's not even there anymore — it's a wine bar or something now, different crowd entirely.\n\nSo sometimes I think, what's the point of having all these options if you lose the connection that comes with just... doing the same thing, going to the same place, seeing the same people?",
+      "timestamp": "2026-07-30T00:55:20.634626+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "That's it exactly, Patrick. That's what you've put your finger on. You've got choice, but you've lost the... I don't know, the forced togetherness of it, I suppose.\n\nOut here, you haven't got a choice, like I said. But what that means is you do end up in the same places, you do see the same people, and over time that just... it becomes something. You know the landlord, he knows you, knows what you drink probably. You'll bump into someone you haven't seen in months and you pick it up like you saw them last week. That matters, that actually matters to how you feel in a place.\n\nI'm not saying it's better than what you've got, Patrick — I mean, you've got more options, that's undeniably... But what you're describing, losing that local, losing the sense that there's a place that's yours and people know you — I think that's a real loss, even if it doesn't look like one on paper.\n\nThe thing is, you can't just decide to get that back when you've got all these choices, can you? You'd have to actually commit to going to the same place every time, choosing one option over all the others, and I reckon that feels like giving something up when you're used to being able to go anywhere. But when you've never had the choice to begin with, you just... you get that connection without thinking about it.",
+      "timestamp": "2026-07-30T00:55:48.763247+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Well, actually, I'm going to push back on that a bit, Toby. Because I did try it, you know. A couple of years back I made a deliberate thing of it — picked a pub, decided I'd go there regular, try and build something like what you're describing. And it worked. It actually worked.\n\nIt took effort, I'll give you that. It felt odd at first, turning down invites to go somewhere else, sticking with the one spot. But after a while, you start to know the landlord, you see the same faces, people start to expect you on a Thursday night or whatever. It's not quite the same as it was decades ago — people are busier now, everyone's got their own thing — but there is something there. There's a connection.\n\nSo I don't think it's true that you can't get it back once you've got choice. You can. But it requires choosing to give something up, doesn't it? Choosing to limit yourself on purpose. And that's different from never having had the choice to begin with, like you're saying. That's the difference.\n\nBut I think that matters. It says something. It's not just circumstance that keeps us connected or disconnected — it's also what we decide to do with the options we've got. And yeah, it's harder because you have to think about it, you have to commit to it deliberately. But it's possible. You're not trapped by having too many choices. You can choose your way back to it if you actually want to.",
+      "timestamp": "2026-07-30T00:56:19.763777+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, fair play to you for doing that, Patrick. That's... that takes effort, like you say. And I don't want to sound like I'm dismissing what you've built there. You've got something now, definitely.\n\nBut I think there's still a difference, and I'm not sure it's just about how hard it is. When you're out here and you go to the pub, you're not making a choice about it, not really. It's just what you do. And that's not a weakness of it — that's kind of the strength of it. You don't have to think about whether you're choosing the right thing, or whether you should be going somewhere else instead. You just go. And everyone else just goes. And that creates something different, I reckon, than deliberately deciding to limit yourself.\n\nIt's a bit like... you know when you do something because you have to, versus when you do it because you've decided to? Even if you end up in the same place doing the same thing, it feels different. And the people around you know the difference too, don't they? They can tell if you're there because you're choosing to show up, or because you're just... part of the fabric of the place.\n\nI'm not saying what you've done doesn't work, Patrick. I'm saying it's got a different character to it. And I think that matters more than we maybe realize.",
+      "timestamp": "2026-07-30T00:56:47.021660+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's a real thread here about whether deliberate habit and accidental habit feel different from the inside — and whether other people can tell. Worth holding onto. Let's bring it somewhere practical though, because I want to pick up on something connected. Moving on to food — how do you all actually decide what to eat? Day to day, or when you're out with people. What drives that for you?",
+      "timestamp": "2026-07-30T00:56:47.023214+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "I hear what you're both saying, but I think Patrick's got something there that Toby's not quite giving him. Look, I've watched this happen here too — folk who could go anywhere and don't, and folk who've got nowhere else to go. And yes, there's a difference in how it feels, that accidental togetherness Toby's talking about. But Patrick's right as well. People do make choices, even in small places. I know blokes here who could sit at home, could go to the one pub, but they choose to sit at home instead. And I know others who deliberately decide to be at the pub, to be out, to be part of things. That choice — it does matter.\n\nThe thing is, we've got less options out here, that's true. But we still choose. We choose whether to show up or not, whether to be part of it or stay separate. So I don't think it's just about circumstance making the difference between connected and not connected. Maybe circumstance makes it easier one way or the other, but the choice is still there. Even in a village where there's only one pub.",
+      "timestamp": "2026-07-30T00:57:23.807154+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher, that's a useful way to put it — circumstance shapes the odds, but the choice is still there. Let me pick up that thread and take it somewhere related, because I want to hear from all of you on this. When it comes to food specifically — how do you actually decide what to eat day to day? What's driving those choices?",
+      "timestamp": "2026-07-30T00:57:23.808588+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Well, out here it's a bit different, isn't it? I mean, you're limited by what's actually available. I can't just decide I fancy something and pop down the road to get it. The Co-op's got what it's got, and that's largely it. So a lot of the time you eat what you can get, what's in stock.\n\nBut that said — and this ties back to what we were just talking about — you do still make choices within that. My wife, she likes to cook properly, so even though we're working with what the shop's got, she'll plan around it. We eat a lot of the same things, habits really, because we know what works and what's there. But you could just as easily live on takeaways or ready meals if you decided to.\n\nI suppose what I'm saying is, the choice thing Patrick was on about — it works for food too. You've got less options, that's a fact. But you still choose what you do with what you've got. Some folk out here eat better than folk in towns with supermarkets because they're deliberate about it. Others don't bother and eat rubbish. It's not just about what's available.",
+      "timestamp": "2026-07-30T00:58:02.928515+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a useful way of putting it, Fletcher — the options narrow but the choosing doesn't stop. Let me shift us onto something a bit more direct now. Do you think being a man influences what you eat — and if so, how? Or does it not really come into it?",
+      "timestamp": "2026-07-30T00:58:02.929938+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, it does, actually. I mean, I hadn't really thought about it until you asked, but yeah, it does.\n\nLook, at my age, in my generation, you grow up with certain ideas about what men eat and what they don't, don't you? You're not sitting around worrying too much about what you're having — you just want something that fills you up, something substantial. And you're definitely not fussing about it the way... well, the way maybe other people do.\n\nMy wife does most of the cooking at home, if I'm honest. She's the one thinking about what we should have, making sure there's veg on the plate, all of that. I just eat what's there. And when I'm out with the lads, or down the pub like we were talking about — you're not ordering a salad, are you? You're having a pie, a burger, something like that. That's what men do, that's what you expect.\n\nI suppose there's a pattern to it, and I'm not sure I've ever really questioned it much. You get into habits early on — certain foods feel masculine, certain foods feel a bit... I don't know, fussy? And you just stick with that because that's what you know. That's what feels normal for you.\n\nIt's not really something I sit and think about day to day. It's just how it is. But yeah, being a man of my age, in my time, it definitely shapes what I eat. I'm not as adventurous as some younger blokes I see, trying all sorts. I know what I like and I stick with it.",
+      "timestamp": "2026-07-30T00:58:38.471058+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Patrick's talking about a pattern that sets in early — certain foods just feel like what men do, and you don't really question it. Does that ring true for the rest of you, or does it land differently?",
+      "timestamp": "2026-07-30T00:58:38.472283+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Yeah, well, Patrick's not wrong about that — I mean, I grew up the same way, didn't I? You had certain ideas about what was men's food and what wasn't. Meat and potatoes, that sort of thing. And you didn't really think about it, you just... that was what you ate.\n\nBut I'll tell you what, it's not stayed quite the same for me over the years. I don't know if it's age or just... time, really. But my diet's changed quite a bit since I was younger. I eat a lot more veg now than I used to. More fish. My wife got me into it, partly, but also I just... I've noticed it makes me feel better. Feel less sluggish. And I stopped caring quite as much about whether it looked \"manly\" or whatever.\n\nThat sounds daft at my age, doesn't it? But I reckon some of that stuff loosens up a bit as you get older. You're not trying to prove anything anymore. You just want to feel alright, and you're a bit more willing to question what you were told was the way to do things.\n\nSo yeah, it shaped me when I was younger. But I'm not sure I'm stuck with it the way I was. Things can shift, even when you've been doing them one way for decades.",
+      "timestamp": "2026-07-30T00:59:06.185670+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Right, well... that's interesting, Keith, because hearing you say that, I'm not sure I entirely believe it for myself, to be honest. I mean, I hear what you're saying — that it loosens up, that you can change it. And fair play to you for doing that.\n\nBut I've been eating the same way for over seventy years now. It's not just a habit, is it? It's... it's who I am, sort of. The way I think about food, about what's proper to eat. And I know that sounds daft when you put it like that, but it's different when it's actually you living it.\n\nI mean, I can see intellectually that you've shifted yours, that you feel better for it. And maybe that's brilliant for you. But I look at myself and I think, I'm not going to change that now. I don't want to. It feels... I don't know, it feels like giving up something that matters, even if I can't quite explain why.\n\nThough... I suppose hearing you say it's possible, that it's not just stuck there forever, that does something. It's not that I think I will change — I don't reckon I will. But it's different hearing someone say it loosens up, rather than just accepting it as fixed. Makes me wonder if I'm just being stubborn about it, or if there's actually something there.\n\nI don't know. Bit of both, probably. But yeah, what you said — it's landed with me a bit.",
+      "timestamp": "2026-07-30T00:59:40.413572+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "I don't think you're being stubborn, Patrick. Or not just that, anyway. I mean, there's a difference, isn't there, between being stuck in something because you haven't questioned it, and staying with something because it actually matters to you — even if you can't quite put your finger on why.\n\nFor me, it wasn't that I suddenly decided I had to change. It was more that I got older and my body started telling me things weren't working the same way. So it was practical, in a way. But I also think — and this took a while to figure out — there's a difference between opening up to something and feeling like you have to give up who you are.\n\nYou don't have to become someone else to eat differently, you know? You can still be you. It's just... maybe it's not as fixed as it feels from the inside. Things can shift without you having to abandon something that matters.\n\nBut that doesn't mean you have to shift. I'm not saying you should. I'm just saying — it might not be as much of an either-or as it feels right now. You might surprise yourself. Or you might not. But the door's not locked, if that makes sense.",
+      "timestamp": "2026-07-30T01:00:11.713743+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher, Toby — Keith's just said the door's not locked, and Patrick's sitting with that. Does any of that resonate for you, or does it land differently where you're sitting?",
+      "timestamp": "2026-07-30T01:00:11.715078+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "I think Keith's right about the door not being locked. But I also think Patrick's onto something real too — it's not just about whether the door's there or not. It's about whether you actually want to walk through it, and what it costs you when you do.\n\nOut here you see it all the time. Folk who shift, folk who don't. And it's not always stubborn, like you said, Keith. Sometimes it's just that you know yourself well enough to know what matters and what doesn't. Patrick knows who he is with his food, his habits. And that's not nothing. That's actually something solid.\n\nBut the thing is — and maybe this is where it gets interesting — you can know yourself and still have a choice. You can say, this is who I am, and this is also true about me. Both at once. Keith's done that, hasn't he? He's still Keith, still a bloke his age, still everything he was. He's just also someone who eats fish now and feels better for it.\n\nI think the question isn't really whether you're stuck or not stuck. It's whether you're willing to let what matters stay what matters, but also try something different and see if it works. That takes a particular kind of... I don't know, confidence maybe? Not arrogance. Just the confidence to say, I know who I am, and that's solid enough that trying something different won't shake it.\n\nPatrick might get there, or he might not. But I don't think it's about the door being locked or unlocked. It's about whether you're ready to walk through, knowing full well you're still you on the other side.",
+      "timestamp": "2026-07-30T01:00:44.813379+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Toby, you've been sitting with all of this — what's it like from where you're sitting?",
+      "timestamp": "2026-07-30T01:00:44.813923+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "I think what you're all saying... yeah, it makes sense. But I'm sitting here listening to this and I'm thinking about something a bit different, actually.\n\nBecause I'm sixty-eight, and I grew up the same way Patrick did — meat and potatoes, that's what you ate, that's what men did. And I've stuck with that, largely. My wife cooks, I eat what's there, that's how it's gone.\n\nBut the thing is, I haven't really felt like I was missing anything. Keith, you talk about feeling better, eating the veg, all that. And I believe you. But I've not woken up sluggish and thought, right, I need to change this. I feel alright as I am.\n\nSo when you say the door's not locked, Fletcher, and Keith says it might surprise you — I get that. But for me it's not really about whether I could change. It's that I don't have a reason to. I'm not unhappy with how things are. I'm not straining against it.\n\nAnd I wonder if that's the difference. Patrick sounds like he's maybe got a bit of... I don't know, conflict about it, like there's something pulling at him. But for me, out here, doing what I've always done — it just works. It doesn't feel like a prison, and it doesn't feel like I'm missing out either.\n\nMaybe that's just because I haven't questioned it enough. But it might also just be that some things are fine as they are, and not everything needs changing just because it could be.",
+      "timestamp": "2026-07-30T01:01:08.791673+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Toby, that's a real distinction — not straining against something isn't the same as being stuck in it. Let me move us on, because I want to make sure we get to this next bit before we're out of time. Imagine, for a moment, that you actually decided to go plant-based — cut out meat, maybe dairy too. What would need to change in your life for that to even be possible?",
+      "timestamp": "2026-07-30T01:01:08.792098+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Well, that's the thing, isn't it? Out here it's not just a matter of deciding and then doing it. There's logistics to it.\n\nI mean, first off, you've got the shop. The Co-op's got what it's got. If you wanted proper variety — different plant-based things, alternatives to what you're used to — you'd be driving thirty, forty minutes to get to somewhere that stocks it. Or ordering online, which costs you more and takes time.\n\nSecond, and maybe this is just me and how I've lived, but your wife's cooking habits, your social stuff — it all ties into it. If your wife's been cooking the same way for forty years and you suddenly decide you're not eating what she makes, that's not just a food thing, is it? That's a shift in how you do things together.\n\nAnd third — and I've seen this with folk who've tried to change their diet out here — you become a bit of an oddity. Not in a kind way necessarily. Just... you're the one asking for something different, and there's a cost to that socially. Small place, everyone knows what everyone eats.\n\nSo yeah, theoretically I could decide to go plant-based tomorrow. But practically? You'd need to sort out where you're getting the food, you'd need your household to be on board, and you'd need to be comfortable with standing out a bit. That's all doable. But it's not nothing. It's not just willpower, is it?",
+      "timestamp": "2026-07-30T01:01:48.821095+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher's laid out three things — the practicalities of getting hold of the food, the household dimension if your partner's been cooking a certain way for decades, and the social cost of being the odd one out in a small place. Does any of that land for you lot, or do your barriers look different?",
+      "timestamp": "2026-07-30T01:01:48.821504+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, Fletcher's named some real things there. The logistics, the household stuff. But I'm sitting here listening to him talk about it like those are obstacles you overcome if you decide to badly enough, and I need to say something.\n\nBecause for me, it's not quite like that. I mean, the practicalities he's mentioned — yeah, they're there. But they're not really what's stopping me. If I actually wanted to do this badly enough, I could sort that out. I could drive to a supermarket, I could order things online, whatever.\n\nThe honest thing is... I don't want to badly enough. And that's different from being stuck, I think. That's different from the door being locked. It's more that I'm looking at the door, and I'm thinking, no, I don't actually want to walk through it. Not because I can't. Because I don't want to.\n\nAnd I'm not sure that's stubbornness, the way Keith was saying. I'm not straining against it like Toby said he's not either. But it's not that I haven't questioned it. It's that I've questioned it and I've decided, actually, this matters to me the way it is. My wife knows how to cook for me. I know what I like. It works.\n\nSo when Fletcher talks about all these things you'd have to overcome, I suppose what I'm saying is — for me, those things don't feel like they're in the way. They feel like reasons that are honest, you know? I'm not willing. And that's not weakness. That's just knowing what I actually want.",
+      "timestamp": "2026-07-30T01:02:30.079117+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Patrick, you said earlier it feels like giving up something that matters — even if you couldn't quite put your finger on why. And now you're saying you've questioned it and landed somewhere: this is what you want. I'm curious what that 'mattering' is, when you try to get at it — what is it that you'd actually be giving up?",
+      "timestamp": "2026-07-30T01:02:30.080336+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah, that's... that's the hard bit to say, isn't it? Because when you try to put it into words it sounds small, or silly even.\n\nIt's not really about the food itself. I mean, I like a good steak, a proper dinner, all that. But that's not what I'd be giving up.\n\nIt's more... it's about how things work between me and my wife. It's about not having to think too hard about things, not having to complicate what's already settled. And there's something in that — something about being a certain way, doing things a certain way, that feels like... it feels like part of how I know myself, I suppose. Part of the arrangement we've got.\n\nAnd if I started changing that, wanting different things, questioning what I eat and why — it opens something up, doesn't it? It makes things less solid. Less certain.\n\nBut also, if I'm being really honest, there's something about it that feels like admitting that maybe I got it wrong all this time. That maybe the way I've been doing things, the choices I made years ago — maybe they weren't the right ones. And at seventy-three, that's a harder thing to sit with than just saying, this is who I am, this is how we do things.\n\nSo I suppose what I'd be giving up is... a kind of certainty. A sense that the way I've lived is fine, it's solid, it's good enough. And once you start questioning one thing, you wonder what else you might have got wrong, don't you? And that's unsettling.",
+      "timestamp": "2026-07-30T01:03:00.705894+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That took something to say, Patrick. Keith, Toby — Patrick's landed on something there about what questioning your food choices might actually open up. Does that ring true for either of you, or does it sit differently?",
+      "timestamp": "2026-07-30T01:03:00.707040+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Yeah, I hear what Patrick's saying. That bit about it opening things up, making things less solid — I know that feeling. I do.\n\nWhen I started shifting what I ate, it wasn't... it wasn't just about the food, like he said. It was about questioning something I'd done one way my whole life. And there was a moment where I thought, well, if I got that wrong, what else? What else have I been doing without thinking about it?\n\nBut here's the thing — and I'm not saying Patrick's wrong, because what he's feeling is real — it doesn't have to unravel everything. It didn't for me, anyway.\n\nI changed what I ate. My wife adapted. We had a conversation about it, it was a bit awkward maybe, but it wasn't catastrophic. And yes, it made me question things. But questioning things didn't mean I'd got everything wrong. It just meant I was paying attention to something I hadn't been paying attention to before.\n\nThe certainty Patrick's talking about — I get it. But that certainty was partly just... not looking too closely, wasn't it? And when you do start looking, you realize it's not as fragile as it feels. You're still you. You're still married. You're still the person who's been doing things a certain way for seventy years. You're just also someone who's willing to try something different and see what happens.\n\nIt's unsettling. But it's not the catastrophe it feels like from where he's sitting right now.",
+      "timestamp": "2026-07-30T01:03:29.395392+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Look, Keith, I hear what you're saying. And I'm glad it worked out that way for you, I really am. But I think you're missing something a bit.\n\nIt's not just about being scared of the hard questions. It's not just about the certainty being an illusion that falls apart when you look at it closely. That's what it sounds like you're saying, but that's not quite what I'm on about.\n\nWhen you've been with someone for — Christ, I don't know, fifty-odd years now — and you've built something together, a way of doing things, a rhythm to it, that's not nothing. That's not just uncertainty masquerading as solidity. It's actual solidity. My wife knows how to cook for me. I know what to expect. We've got a thing that works.\n\nAnd when you start questioning it, wanting different things, that does change something between you. Not in some catastrophic way necessarily, like you said. But it changes it. Because suddenly you're the one who wants something different from what she knows how to give. You're introducing a complication into something that's been uncomplicated for decades.\n\nThat's not fear. That's just... understanding that there's a cost to it. Understanding that at my age, with my wife, with everything we've built, maybe that cost is higher than it is for you. Maybe the certainty I've got isn't just about not looking closely. Maybe it's about something that actually matters — the way we fit together, the way we know each other.\n\nI'm not saying you're wrong to have done it. But don't mistake what I'm saying for just being scared of change.",
+      "timestamp": "2026-07-30T01:03:59.754824+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "Fair enough, Patrick. You're right. I wasn't quite hearing what you were saying.\n\nThat's... that's different from what I was thinking. You're not talking about being scared of the questions. You're talking about the actual texture of it — the thing that works between you and your wife, the rhythm of it. And that's real. That matters.\n\nI suppose when I made the shift, my wife — she was already thinking about some of that stuff. She was the one who got me interested in eating differently, really. So it wasn't me introducing a complication into something uncomplicated. It was more that we were already sort of moving the same direction, even if I wasn't thinking about it.\n\nBut you're right — that's not everyone's situation. And fifty years with someone, you've built something real in how you do things together. How you know each other. The way you fit.\n\nI shouldn't have made it sound simple, like it's just about being willing to question things. There's something in what you're saying about the cost that I wasn't really understanding. The actual cost, not just the worry about cost.",
+      "timestamp": "2026-07-30T01:04:34.490249+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "Yeah. Yeah, that's... thanks, Keith. That's fair of you to say.\n\nAnd you're right about your situation being different. If you and your wife were already moving that direction together, that's not the same thing. That's not introducing something new into the middle of it. That's something you were both sort of feeling already.\n\nWith us, it's not like that. My wife — she's content with how things are. She knows what she's doing, she's good at it. And I'm content too, most of the time. So to suddenly say, right, I want something different now, that's asking her to shift something that's been working fine for her, you know?\n\nAnd look, I'm not saying it would be terrible. I'm not saying it couldn't work out. But it would cost something. It would ask something of her that she hasn't asked for. And at this stage, when we've got what we've got — I'm not sure that's a cost worth paying just to prove I can change, or to be more adventurous with my food.\n\nThere's something to be said for just... accepting that you are who you are at seventy-three, and the people around you know you that way, and there's value in that. In not constantly trying to improve yourself or question everything.\n\nBut I appreciate you hearing that, Keith. I do. Because you're right that it wasn't simple, and it wasn't just me being stubborn or afraid. There's something real there about how things fit together.",
+      "timestamp": "2026-07-30T01:05:15.113172+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Toby — Patrick's just landed on something about contentment. That accepting who you are at this stage isn't the same as giving up. Does that sit right with you, or does it look different from where you're standing?",
+      "timestamp": "2026-07-30T01:05:15.113764+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, that's... that's very much how it is for me, actually. What Patrick's saying about contentment, about not constantly trying to shift things around — that rings true.\n\nI'm sixty-eight. My wife and I have got a life that works. We know how to do it. And I think there's something Patrick's getting at that doesn't quite get the credit it deserves — which is that staying put, staying the same, that's not always about being afraid or stubborn or stuck. Sometimes it's just about having figured out what works and being willing to leave it alone.\n\nThe thing is, when you're out here, rural, you see people constantly trying to... I don't know, improve themselves, change things, keep up with what's happening elsewhere. And some of it's fine, some of it's probably good for them. But there's also a lot of people who seem like they're never quite settled, never quite content with how things are.\n\nAnd me, I look at my life and I think, no, this is alright. This is solid. I don't need to be going on these quests to reinvent myself at my age. I've got my habits, my wife cooks a certain way, we fit together. And that's enough.\n\nI'm not saying Patrick couldn't change if he wanted to badly enough. But I think what he's saying — about there being value in just accepting that this is who you are, and that's okay — I think that's actually important. It's not nothing. It's not a failure.",
+      "timestamp": "2026-07-30T01:05:47.369360+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher — you came at this from a different angle earlier, the logistics, the social cost of being the odd one out in a small place. Patrick and Toby are landing somewhere more about identity and contentment. Does that framing resonate for you, or does it look different from where you are?",
+      "timestamp": "2026-07-30T01:05:47.369834+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "I think... yeah, I hear what they're saying. And it's true, there is something to that contentment thing, accepting who you are at this stage. That's real.\n\nBut I'm sitting here and I'm not quite sure I'm in the same place they are, to be honest.\n\nI mean, the practicalities I mentioned — they're real, they do matter. But listening to Patrick talk about it being about the cost to his wife, about the thing they've built together, and Toby saying there's value in just leaving well alone — I don't know. I think they might be... I'm not sure they're seeing the whole picture.\n\nBecause yeah, there's something solid about knowing yourself and how things fit. But there's also a difference between being content and just... accepting things without really questioning them. And I'm not sure you can always tell the difference from the inside, you know?\n\nI've seen folk out here who say they're content, and they are. But I've also seen folk who say they're content and what they really are is... settled into it. Not questioning because it's easier not to. And sometimes that's fine, but sometimes it costs them something they don't even realize they're losing.\n\nSo I don't know. I think Patrick and Toby have got something real about accepting who you are. But I also think Keith had a point earlier — you don't actually know what you're capable of until you try. And sometimes the cost of not trying is bigger than you think.\n\nI'm not saying either of them is wrong. But I'm not sure they're entirely right either. There's something in between there they're maybe not quite seeing.",
+      "timestamp": "2026-07-30T01:06:13.018143+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher's put his finger on something I want to test with the rest of you. He's saying there's a difference between contentment you've genuinely arrived at and contentment you've just... settled into — and the tricky bit is you can't always tell the difference from the inside. Patrick and Toby, does that land? Is there any version of what you've been describing where Fletcher's right — where you couldn't actually tell?",
+      "timestamp": "2026-07-30T01:06:13.019329+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, look... Fletcher's got a point there, hasn't he? That's harder to sit with than I'd like it to be.\n\nBecause if I'm honest, I can't entirely tell from the inside. I don't wake up thinking, am I content or am I just settled? I just... I'm content. It feels solid. But Fletcher's right that that doesn't necessarily mean I'd know the difference if I wasn't.\n\nI mean, I could be missing something. I could be the bloke who's just accepted things the way they are because it's easier, because I haven't looked too closely. And I wouldn't necessarily know it, would I? That's the thing about not questioning — you don't know what you're not seeing.\n\nI suppose what I'm saying is... yeah, I stand by what I said about there being value in contentment, in not constantly shifting things around. That bit feels true to me. But I also can't sit here and say with absolute certainty that I'm content because I've genuinely figured things out, rather than just... not bothered to look at it properly.\n\nThat's uncomfortable to admit, a bit. But Fletcher's not wrong about that gap.",
+      "timestamp": "2026-07-30T01:06:51.214399+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Yeah. Yeah, that's it exactly. That discomfort you're feeling right now — that's actually the important bit, I think.\n\nBecause if you were just settled and not questioning, you wouldn't feel that. You wouldn't be uncomfortable about it. You'd just be... fine with it, the way you were a minute ago.\n\nThe fact that you can't tell from the inside, and that bothers you a bit now that someone's named it — that's actually a sign that maybe there's something worth looking at. Not because you have to change anything. Not because contentment is bad or wrong. But because the willingness to sit with that uncertainty, to say I don't actually know for sure — that's different from just accepting things.\n\nI see folk out here who've never even let themselves feel that discomfort. They'd never admit they can't tell the difference. And maybe they're fine, maybe they genuinely are content. But you, you've just admitted it, and that took something. That's not nothing.\n\nI'm not saying you need to go out and change your diet or your life or anything. But I think that willingness to sit with the not-knowing, rather than just brushing past it — that matters more than whether you actually do anything about it. That's the difference between being settled and being genuinely content, I reckon. The ability to ask the question and live with the answer being uncertain.",
+      "timestamp": "2026-07-30T01:07:28.352713+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Fletcher, that's a good place to pause on — the willingness to sit with the uncertainty being the thing that matters, not the answer. I want to carry some of that forward into the next thing I want to ask you all. We've been talking about what it would cost or take to change. Let me flip it slightly: what might actually make plant-based food more appealing — to you personally, or to men you know? Not 'would you do it,' but what would need to be different about the food itself, or how it's presented, or the context around it, for it to feel like something worth reaching for?",
+      "timestamp": "2026-07-30T01:07:28.353859+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "That's a different question, isn't it. Fair enough.\n\nI mean, practically speaking — if the Co-op out here stocked more of it regularly, that would help. Fletcher's right about that being a barrier. But that's not really what would make it appealing to me, that's just what would make it possible.\n\nWhat would actually... I think if it didn't feel like a compromise, that would matter. Like, I look at a lot of plant-based stuff and it feels like you're eating something that's trying to be meat but isn't quite, and you're settling for less. That's how it lands for me. But if it was just... food that was good in its own right, not apologizing for itself, not trying to convince you it's as good as a steak — maybe that would be different.\n\nAnd I suppose if my wife was interested in it, actually interested rather than just doing it because I asked her to, that would change something. Not because I can't think for myself, but because Fletcher was talking about that uncertainty, about sitting with things. If she was curious about it, if we were both sort of wondering together what it might be like, that's different from me deciding to impose a change on something that's been working between us.\n\nBut honestly? I don't know if I'll ever reach for it just because it gets better presented or becomes more available. And I think that's alright. What I'm noticing now, after all this, is that I might be more willing to admit that I don't know for sure. And maybe that's enough of a shift for now.",
+      "timestamp": "2026-07-30T01:08:17.612143+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Toby's drawn a distinction I want to put to the rest of you — between what would make plant-based food possible to eat and what would actually make it worth reaching for. And that idea of food that doesn't apologise for itself, that isn't trying to convince you it's as good as something else. Does that land for any of you, or does it look different from where you're sitting?",
+      "timestamp": "2026-07-30T01:08:17.613430+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "That's it, though. That's what Toby's put his finger on. Food that doesn't apologise.\n\nBecause there's a lot of stuff out there — the plant-based this, the meat-substitute that — and it's all built on this idea that you're trying to convince someone they're not missing out. That it's almost as good. And that's... that's the wrong way round, isn't it?\n\nI mean, if you wanted to eat something because it actually spoke to you, because it was good in its own way — not because it was pretending to be something else, but because it was just worth eating — that's a different thing altogether. That's not settling. That's choosing.\n\nOut here, my wife will make something with veg, something simple that's just good, and nobody's standing around saying it's as good as a steak or apologising for it not having meat in it. It's just... dinner. It stands on its own. And I think that's what Toby means. If plant-based food — or any food really — if it didn't need to justify itself against something else, if it was just genuinely good and worth eating for what it is, maybe more folk would reach for it.\n\nBut the way a lot of it's marketed and presented now, it feels like it's always in second place, always proving itself. And I think that puts people off more than the actual taste ever would.",
+      "timestamp": "2026-07-30T01:08:55.145844+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Yeah, and that's made me think of something else while you've been talking, Fletcher.\n\nBecause we've been going back and forth in this conversation about whether I'm content or settled, whether I'm missing something or just leaving well alone. And listening to you talk about food that doesn't apologise for itself — I think that applies to more than just food, doesn't it?\n\nI mean, I came into this saying I'm fine as I am, my life works, and there's value in that. And I think that's true. But then when you named the thing about not knowing the difference, I got uncomfortable, started questioning it. And now I'm sitting here thinking maybe the answer isn't to either defend myself completely or to suddenly doubt everything.\n\nMaybe it's just... this is how I am. I'm content in some ways, I might be settled in others, and I don't entirely know which is which. And that doesn't need to apologise for itself either. I don't need to keep justifying it or picking it apart or trying to prove that I've got it right.\n\nI can just say — this works for me now, I'm not straining against it, I'm not pretending I've got all the answers. And that's enough. It doesn't have to stand up against some ideal version of how I could be living. It just has to be... solid enough to live.\n\nThat's what Fletcher's talking about, I think. Not settling for less. Just not needing everything to prove itself against something else.",
+      "timestamp": "2026-07-30T01:09:33.300279+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "Hold on, though. I think you're doing something there that I want to push back on a bit, Toby.\n\nBecause what you just said — that this works for you now, you're not straining against it, you don't need to justify it — that's good. That's solid. But you're also kind of... you're resolving something that maybe shouldn't be resolved yet, you know?\n\nEarlier you said you can't tell from the inside whether you're content or settled. And that discomfort you felt — that was real. And I think that uncertainty, that not-knowing, that's actually worth sitting with a bit longer rather than just accepting it and moving on.\n\nBecause there's a difference between saying \"I don't apologise for who I am\" and saying \"I don't need to look too closely at whether I'm actually happy or just going along with things.\" One of those is solid. The other one is just a way of stopping the question without really answering it.\n\nI'm not saying you need to blow your life up or change everything. I'm saying that the discomfort you felt when I named that gap — maybe that's pointing at something worth paying attention to. Not to fix it necessarily, but to actually... sit with it. Stay curious about it, even if nothing changes.\n\nYou can live your life the way you're living it and still ask yourself sometimes: am I content, or am I just settled? And not necessarily have an answer. Just... keep wondering about it. Because the moment you stop wondering, you might be missing something.",
+      "timestamp": "2026-07-30T01:10:11.225574+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "mm_fg5_toby",
+      "speaker_name": "Toby",
+      "content": "Right, but... I think you might be asking me to do something that's not quite fair, Fletcher.\n\nI mean, I hear what you're saying about sitting with uncertainty, and there's something to that. But there's also a point where you've got to actually live your life, hasn't there? You can't just spend all your time wondering whether you're content or settled. At some point you've got to... be in it.\n\nAnd I think there's a difference between what you're describing — staying curious, keeping the question open — and just... never letting yourself land anywhere. Never letting yourself say, okay, this is alright, and actually mean it.\n\nBecause if I go around constantly asking myself am I happy or am I just going along with things, when does that stop? When do I get to just... be content? When is the wondering enough and you actually get to rest in something?\n\nI'm sixty-eight, Fletcher. I've lived a long time. And I've got to say, the idea that I should spend my remaining years perpetually unsure about whether my life is good enough, always wondering if I'm missing something — that doesn't feel like wisdom to me. That feels like being stuck in a kind of... I don't know, a kind of restlessness that never lets you be.\n\nSo yeah, I'll sit with the uncertainty sometimes. That's fair. But I'm also going to let myself believe, sometimes, that things are alright as they are. And not have that be a cop-out. Have that be... just living.",
+      "timestamp": "2026-07-30T01:10:47.158260+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something real in that tension between you two — whether staying curious is a kind of wisdom or a kind of restlessness that never lets you settle. Keith, Patrick — you've been listening to this. Where does it land for you? And we haven't heard yet what might actually make plant-based food more appealing from where you're sitting.",
+      "timestamp": "2026-07-30T01:10:47.159838+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 38,
+      "speaker_id": "mm_fg5_fletcher",
+      "speaker_name": "Fletcher",
+      "content": "No, Toby, I'm not asking you to be restless. That's not what I'm saying at all.\n\nThere's a difference, and I think you know it, between being unsettled because you're constantly chasing something and being unsettled because you're willing to hold a genuine question. One of those wears you out. The other one — it's just... steady. It's just paying attention.\n\nI'm not saying you should spend your time wondering if your life is good enough. That's not it. I'm saying there's a difference between saying \"this is alright, I'm settled\" and saying \"this is alright, and I don't entirely know why, and I'm okay with that.\" The second one's more honest, isn't it? It's not restless. It's just... real.\n\nAnd you don't have to be doing it all the time. You just... sometimes you notice you're not sure, and instead of rushing past it or defending against it, you just sit with it for a minute. That's not exhausting. That's just being awake to your own life.\n\nThe folk I see out here who are genuinely settled, who aren't restless — a lot of them aren't the ones who've got all the answers. They're the ones who can say, yeah, I don't know everything about why things are the way they are, but I'm living it anyway. And they're fine. They're more fine than the ones who are always trying to prove it's all worked out perfectly.\n\nSo no, I'm not asking you to never rest. I'm asking you to rest without pretending you've got it all figured out.",
+      "timestamp": "2026-07-30T01:11:22.050230+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 38,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a real distinction, Fletcher — paying attention without being restless. Keith, you've been sitting with all of this. You mentioned before that plant-based food has already started coming into your cooking — what from this conversation, or from your own experience, would actually make it more appealing?",
+      "timestamp": "2026-07-30T01:11:22.051757+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 39,
+      "speaker_id": "mm_fg5_keith",
+      "speaker_name": "Keith",
+      "content": "I've been listening to all of this — Fletcher and Toby going at it — and I think you're both right, actually. Which probably sounds like a cop-out, but I mean it.\n\nFletcher's right that there's something different about sitting with not knowing versus just... not thinking about it. I do that sometimes now with my own stuff. I'll be eating something and think, well, why do I like this? Is it actually good, or have I just got used to it? And that question doesn't wear me out. It's just there, quiet.\n\nBut Toby's also right that you can't live in that forever. You have to land somewhere, even if it's uncertain. That's what I've done, I suppose. I eat differently, I feel better for it, but I don't pretend I've got it all worked out. I'm just... living it.\n\nTo your question about what would make plant-based stuff more appealing — honestly, for me it wasn't about it being presented a certain way or marketed differently. It was just... my wife started cooking with it, and I ate it, and it was good. Not good in the way a steak is good. Just good. Like Toby said. It didn't need to apologise.\n\nAnd the more we did that, the more I noticed how I felt after eating it. That made a difference. Not in some dramatic way. Just... I'd have energy, I'd feel clearer. And that's a pretty straightforward thing to reach for, isn't it? Not because you're trying to be virtuous or adventurous, but because you notice it works.",
+      "timestamp": "2026-07-30T01:11:51.878111+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 39,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Keith, that's a really straightforward thing — noticing how you feel after, and just following that. Patrick, we haven't heard from you yet on this one. What from all of this, or from your own experience, would actually make plant-based food more appealing — to you or to men you know?",
+      "timestamp": "2026-07-30T01:11:51.879357+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 40,
+      "speaker_id": "mm_fg5_patrick",
+      "speaker_name": "Patrick",
+      "content": "I don't think it would, to be honest with you.\n\nAnd I'm not saying that to be stubborn, or to prove a point after everything we've talked about. I'm just... I think Keith's situation is different because his wife was already moving that direction, and he noticed the difference it made to how he felt. That's fair enough.\n\nBut for me, I don't particularly feel sluggish or unclear. I feel alright. So there's no practical pull for me there. And I've listened to all of this — Fletcher talking about staying curious, sitting with uncertainty, all of that — and I understand what he's saying. But I'm not sure it changes anything for me.\n\nI think I've maybe heard what I needed to hear in this conversation, which is that it's not wrong to be content with how things are. Not in a way that closes the door to thinking about it, but in a way that just... accepts it. And I think that's different from what I came in saying, which was more defensive about it.\n\nBut as for plant-based food being more appealing? No. I don't think it would be. Not because I'm refusing to see it, but because I genuinely don't have a reason to reach for it. And I think — and maybe this is me taking something from Fletcher's point about not apologising — I don't need to apologise for that either. I can just say, that's not for me, and that's alright.\n\nMy wife knows how to cook for me. I know what works. And that's solid enough.",
+      "timestamp": "2026-07-30T01:12:17.463096+00:00",
+      "selection_mode": "moderator_direct_address"
+    }
+  ]
+}

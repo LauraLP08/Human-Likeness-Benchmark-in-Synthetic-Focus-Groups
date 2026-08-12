@@ -1,0 +1,13 @@
+graph TD
+    A[Start Engagement Assessment] --> B[Load Agent Persona & Demographics]
+    B --> C[Format Recent Transcript Window]
+    C --> D[Format Participant's Own History]
+    D --> E[Build System Prompt & Instructions]
+    E --> F[API Call to Model]
+    F --> G[Extract JSON from Response]
+    G -- Parse Success --> H[Pydantic Validation]
+    G -- Parse Error --> I[Log Error & Default to stay_silent]
+    H -- Validation Success --> J[Append API Log]
+    H -- Validation Error --> I
+    J --> K[Return ParticipantEngagementAssessment]
+    I --> K

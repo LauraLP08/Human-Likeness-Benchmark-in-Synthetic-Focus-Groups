@@ -1,0 +1,60 @@
+{
+  "session_id": "sandbox_minimal_restraint_pilot_01",
+  "research_objective": "Focus group guide exploring how men in the UK make everyday food\nchoices, how social context, work, hobbies, health, taste and other\npeople shape what they eat, how gender and masculinity may influence\nfood choices, and what would need to change for plant-based foods to\nbecome more acceptable or appealing.\n",
+  "topic_domain": "Masculinity, food choice, animal product consumption, and plant-based eating",
+  "participation_mode": "emergent",
+  "temperature": 1.0,
+  "participant_collective_identity": "Men in the UK reflecting on food choices, male friendship, gender norms, and plant-based eating",
+  "moderator_knowledge_brief": "Explore (1) everyday food decision-making, (2) the social contexts in\nwhich men spend time with male friends, (3) the influence of other\npeople, work, hobbies, health, nutrition and taste on food choices,\n(4) whether participants perceive gender as shaping what they eat,\n(5) social acceptability and gendered meanings attached to vegetarian,\nvegan, plant-based, feminine or masculine foods, and (6) what personal,\nsocial and practical changes would make plant-based eating more viable\nor appealing. The discussion should remain exploratory, non-judgmental,\nand non-leading.\n",
+  "researcher_notes": "",
+  "moderator_prompt_override": "sandbox/01_MODERATOR_SYSTEM_PROMPT_MINIMAL.md",
+  "moderator_opening_prompt_override": "sandbox/03_SESSION_OPENING_PROMPT_SANDBOX.md",
+  "time_budget_tracking_enabled": true,
+  "moderator_restraint_prompt": true,
+  "participants": [
+    { "agent_payload_path": "agents/macho_meals/mm_fg1_amir.json" },
+    { "agent_payload_path": "agents/macho_meals/mm_fg1_david.json" },
+    { "agent_payload_path": "agents/macho_meals/mm_fg1_ibrahim.json" },
+    { "agent_payload_path": "agents/macho_meals/mm_fg1_isaiah.json" },
+    { "agent_payload_path": "agents/macho_meals/mm_fg1_will.json" }
+  ],
+  "discussion_guide": [
+    {
+      "section_index": 0,
+      "section_label": "Gender and food choice",
+      "section_phase": "main_topic",
+      "section_purpose": "Gender and food choice",
+      "scripted_question": "Hi everyone, thanks for joining. We're going to take about 20 minutes to talk today.\nDo you think your gender influences what you eat? Tell us more about why or why not.\n",
+      "probing_depth_ceiling": "deep",
+      "stimulus": null,
+      "suggested_probes": [
+        "Is it socially acceptable for men to eat vegetarian or vegan foods?",
+        "Are some foods considered feminine?",
+        "Are some foods considered masculine?"
+      ]
+    },
+    {
+      "section_index": 1,
+      "section_label": "Imagining a plant-based shift",
+      "section_phase": "main_topic",
+      "section_purpose": "Imagining a plant-based shift",
+      "scripted_question": "Imagine you decided to go plant-based — what would need to change in\nyour life for you to do that?\n",
+      "probing_depth_ceiling": "deep",
+      "stimulus": null,
+      "suggested_probes": [
+        "How would your family and friends react to this?",
+        "How might it change the way you shop or cook?"
+      ]
+    },
+    {
+      "section_index": 2,
+      "section_label": "Making plant-based foods more appealing",
+      "section_phase": "main_topic",
+      "section_purpose": "Making plant-based foods more appealing",
+      "scripted_question": "What might make plant-based foods more appealing to you or other men\nyou know?\n",
+      "probing_depth_ceiling": "deep",
+      "stimulus": null,
+      "suggested_probes": []
+    }
+  ]
+}

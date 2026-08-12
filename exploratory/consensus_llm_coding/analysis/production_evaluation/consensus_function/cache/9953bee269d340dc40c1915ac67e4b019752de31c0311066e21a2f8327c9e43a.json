@@ -1,0 +1,231 @@
+{
+  "cache_key": "9953bee269d340dc40c1915ac67e4b019752de31c0311066e21a2f8327c9e43a",
+  "run": "macho_meals_fg1_demoonly_run03",
+  "condition": "demographics-only",
+  "chunk_index": 1,
+  "target_turn_ids": [
+    "T017",
+    "T018",
+    "T020",
+    "T021",
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T027",
+    "T029",
+    "T031",
+    "T032"
+  ],
+  "shown_turn_ids": [
+    "T014",
+    "T015",
+    "T016",
+    "T017",
+    "T018",
+    "T019",
+    "T020",
+    "T021",
+    "T022",
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T027",
+    "T028",
+    "T029",
+    "T030",
+    "T031",
+    "T032"
+  ],
+  "blinded_transcript_sha256": "fde347ccad248d5b705498648806075585e051453dcb69859a4f2a1a03c2c7ab",
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "probe_tag": null,
+  "attempt": 1,
+  "finish_reasons": [
+    "FinishReason.STOP"
+  ],
+  "truncated": false,
+  "parse_error": null,
+  "prompt_tokens": 5146,
+  "candidates_tokens": 1324,
+  "thoughts_tokens": 8165,
+  "codings": [
+    {
+      "turn_id": "T017",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, I mean \u2014 that's fair, what you're saying.",
+          "target_turn_id": "T016"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "it's not quite as straightforward as just \"fewer options, so you do less.\"",
+          "target_turn_id": "T016"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T018",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "actually that does make sense. And it's making me think about it differently, to be honest.",
+          "target_turn_id": "T017"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T020",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "At home it's whatever's in the fridge or the freezer, you know? Grab some pasta, throw some stuff together.",
+          "target_turn_id": null
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "I get what he's saying about the pressure thing too \u2014 like yeah, that's a fair point.",
+          "target_turn_id": "T017"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T021",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "I'm not sure it's as straightforward as \"more options is better,\"",
+          "target_turn_id": "T020"
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "what Speaker E's getting at is that having fewer options doesn't automatically make life worse \u2014 it just makes it different.",
+          "target_turn_id": "T017"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T023",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "if I'm out with the lads and someone's ordering, there's definitely a thing where you're not going to order something that's going to get you stick.",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T024",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, I know what you mean. There's definitely that thing, innit.",
+          "target_turn_id": "T023"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T025",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "that's exactly what I mean though, innit.",
+          "target_turn_id": "T024"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "you just said you don't think about it much, but you're actually thinking about it loads.",
+          "target_turn_id": "T024"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T026",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "Nah, but I think there's a difference though, innit.",
+          "target_turn_id": "T025"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T027",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "you're framing it like you're making this free choice. You're \"just accepting it\" because it's easier. But that's the pressure still working on you, innit?",
+          "target_turn_id": "T026"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T029",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "I think Speaker B's got a point though. Like, there's a difference between not realizing something's happening and realizing it but deciding it's worth it",
+          "target_turn_id": "T026"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "I get what Speaker C's saying about the pressure thing, but I reckon he's kind of painting it like we're all walking around miserable",
+          "target_turn_id": "T027"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T031",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, fair point, Speaker A. I hear that.",
+          "target_turn_id": "T029"
+        },
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "on the plant-based thing \u2014 that's actually a good question because it does illustrate what we're talking about, doesn't it?",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T032",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "you're still kind of saying it's got to be one or the other though, innit?",
+          "target_turn_id": "T031"
+        }
+      ],
+      "no_code_reason": null
+    }
+  ],
+  "called_utc": "2026-08-06T17:58:10.374120+00:00"
+}

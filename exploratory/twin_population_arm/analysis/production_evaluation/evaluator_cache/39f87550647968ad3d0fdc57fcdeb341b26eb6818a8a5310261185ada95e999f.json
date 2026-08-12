@@ -1,0 +1,265 @@
+{
+ "cache_key": "39f87550647968ad3d0fdc57fcdeb341b26eb6818a8a5310261185ada95e999f",
+ "computed_utc": "2026-08-06T14:07:51.250044+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/ktbo22rdpe93xrf1ivhzincc25ti71n13vrz",
+ "custom_request_key": "twinpop_fg3_r1",
+ "input": {
+  "side": "synthetic",
+  "fg": "fg3",
+  "condition": "twinpop",
+  "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg3_twinpop_run01\\comparable_transcript.json",
+  "sha256": "e10029f3d57d22a0e8cdbf4fad89e05d83ab9d99538f632b3cb37ef1a4d34c28",
+  "physical_run": "macho_meals_fg3_twinpop_run01",
+  "canonical_replication_index": 1
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "bcabc2538c9d85a68db34ef854686da7d90c1ac3bf5588a4896023ddaed1c0ae",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 11986,
+  "candidates_tokens": 1048,
+  "total_tokens": 18636,
+  "thoughts_tokens": 5602,
+  "cached_tokens": null,
+  "raw_text_chars": 3451,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 11986,
+  "candidates_tokens": 1048,
+  "total_tokens": 18636,
+  "thoughts_tokens": 5602,
+  "cached_tokens": null,
+  "raw_text_chars": 3451,
+  "parse_attempt": 1,
+  "headroom_tokens": 15336
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T026",
+      "speaker": "Participant 5",
+      "quote": "Yeah, I think it does actually, yeah. For us anyway."
+     }
+    ],
+    "evidence_note": "Participant 5 explicitly acknowledges that gender expectations influence their food context and cooking defaults.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 5"
+    ],
+    "reach": 0.2
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "medium",
+    "supporting_quotes": [
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 2",
+      "quote": "I eat meat because that's what I eat"
+     },
+     {
+      "turn_id": "T038",
+      "speaker": "Participant 4",
+      "quote": "We just... eat what we eat."
+     },
+     {
+      "turn_id": "T046",
+      "speaker": "Participant 3",
+      "quote": "I eat what I eat. My wife eats what she eats."
+     }
+    ],
+    "evidence_note": "Participants 2, 3, and 4 describe eating animal products or their current meat-based diets as an unquestioned, default habit.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2",
+     "Participant 3",
+     "Participant 4"
+    ],
+    "reach": 0.6
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T028",
+      "speaker": "Participant 4",
+      "quote": "the kid — he's under five, you need to make sure he's getting enough protein, all that stuff."
+     },
+     {
+      "turn_id": "T029",
+      "speaker": "Participant 3",
+      "quote": "For me practically, coming in from a site — I need proper calories, protein, all that."
+     }
+    ],
+    "evidence_note": "Participants 4 and 3 discuss animal products as a nutritional necessity for physical labor or child growth.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 3",
+     "Participant 4"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T034",
+      "speaker": "Participant 2",
+      "quote": "I eat meat because that's what I eat, and I like it."
+     },
+     {
+      "turn_id": "T036",
+      "speaker": "Participant 5",
+      "quote": "My wife especially enjoys cooking with meat, and I enjoy eating it."
+     }
+    ],
+    "evidence_note": "Participants 2 and 5 explicitly mention how they enjoy eating meat and like it.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 2",
+     "Participant 5"
+    ],
+    "reach": 0.4
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "D",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 8,
+  "verified_quotes": 8,
+  "total_present_codes": 4,
+  "verified_codes": 4,
+  "demoted_codes": 0
+ }
+}

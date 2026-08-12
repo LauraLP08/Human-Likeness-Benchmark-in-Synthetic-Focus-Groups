@@ -1,0 +1,1928 @@
+{
+  "schema_version": 3,
+  "session_meta": {
+    "id": "macho_meals_fg3_run02",
+    "research_objective": "Focus group guide exploring how men in the UK make everyday food\nchoices, how social context, work, hobbies, health, taste and other\npeople shape what they eat, how gender and masculinity may influence\nfood choices, and what would need to change for plant-based foods to\nbecome more acceptable or appealing.\n",
+    "topic_domain": "Masculinity, food choice, animal product consumption, and plant-based eating",
+    "participant_collective_identity": "Men in the UK reflecting on food choices, male friendship, gender norms, and plant-based eating",
+    "moderator_knowledge_brief": "Explore (1) everyday food decision-making, (2) the social contexts in\nwhich men spend time with male friends, (3) the influence of other\npeople, work, hobbies, health, nutrition and taste on food choices,\n(4) whether participants perceive gender as shaping what they eat,\n(5) social acceptability and gendered meanings attached to vegetarian,\nvegan, plant-based, feminine or masculine foods, and (6) what personal,\nsocial and practical changes would make plant-based eating more viable\nor appealing. The discussion should remain exploratory, non-judgmental,\nand non-leading.\n",
+    "researcher_notes": "",
+    "temperature": 1.0,
+    "participant_response_max_tokens": 800,
+    "participation_mode": "emergent",
+    "moderator_model": "claude-sonnet-4-6",
+    "initial_session_plan": {
+      "thematisation_approach": "These participants will be framed collectively as men reflecting on their everyday lives \u2014 what they eat, where they spend time, and how those choices connect to who they are and the people around them. The framing will be informal and experiential: speaking from their own concrete daily routines and social contexts, not as opinion-holders on abstract issues. The opening will not signal that the study is specifically about masculinity or plant-based eating \u2014 that should emerge organically.",
+      "priority_research_areas": [
+        "Gender and food choice (Section 3): This is the most sensitive area for social desirability bias. Participants may deny that gender influences their choices while simultaneously describing behaviours that are clearly gendered. Behavioural grounding, contradiction-tracking, and careful probe timing will be critical.",
+        "Imagining a plant-based shift (Section 4): This section risks producing rationalised, abstract responses ('I'd need more protein options', 'it'd have to taste good') rather than genuine personal conflict. Specificity probes and hypothetical sharpening will be needed to push below the surface.",
+        "Social acceptability of plant-based eating and gender (Sections 3\u20135 crossover): The group may converge quickly on a socially acceptable narrative \u2014 e.g. 'I don't care what others think, it's just about taste and nutrition.' Consensus risk here is high; inviting dissent and holding space for tension between stated attitude and described social behaviour will matter.",
+        "What would actually change (Section 5): Risk of abstract wish-lists ('better marketing', 'lower prices'). Need to anchor responses to specific products, moments, and social situations the men have actually experienced or could imagine experiencing."
+      ],
+      "participant_notes": [
+        {
+          "participant_id": "mm_fg3_andrew",
+          "anticipated_role": "Andrew is 45, suburban South East \u2014 demographically mainstream for this group. No distinguishing profile signals. Monitor for whether he anchors discussion early and sets a tone others follow.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg3_daniel",
+          "anticipated_role": "Daniel is 48, East of England. Slightly older than most in the group. May bring a more settled or habituated perspective on food choices. Worth watching for whether he defers to or diverges from the group's emerging consensus.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg3_john",
+          "anticipated_role": "John is 45, South West. No strong distinguishing signals. Monitor for engagement style \u2014 may be more reflective or more sociable depending on how the conversation opens.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg3_nick",
+          "anticipated_role": "Nick is the youngest at 40, North West. May bring a slightly different generational or regional flavour to the discussion. Worth monitoring whether he feels like an outsider in the group's emerging dynamic and whether he self-silences.",
+          "initial_attention_flag": "Youngest participant; geographic outlier (North West vs. three South East/South West); monitor for early reticence."
+        },
+        {
+          "participant_id": "mm_fg3_paul",
+          "anticipated_role": "Paul is 47, suburban South East \u2014 same broad demographic as Andrew. Risk of these two anchoring group consensus, particularly on gender-and-food questions. Monitor for whether they reinforce each other.",
+          "initial_attention_flag": "Same region and demographic as Andrew \u2014 watch for early pairing dynamic that could create conformity pressure on others."
+        }
+      ],
+      "known_risk_conditions": [
+        "Social desirability on gender: Men in a group setting are likely to understate the role gender plays in their food choices, especially when asked directly. Use behavioural grounding early \u2014 ask about specific situations, specific meals, specific social contexts before introducing the gender question.",
+        "Consensus risk on plant-based eating: All five participants are meat eaters. The group may converge quickly on a shared narrative of mild openness ('I'd try it') without genuine engagement. Plan a sharpening move for Section 4 \u2014 e.g. asking what they would actually miss, or what it would feel like to order plant-based in front of their mates.",
+        "Topic sensitivity on masculinity and food: Asking directly whether gender shapes food choices risks producing defensive or dismissive answers ('I just eat what I like'). The Section 1 warm-up on male socialising is designed to surface gendered social contexts before the direct question arrives \u2014 use it to build a behavioural foundation.",
+        "Abstract responses in Sections 4\u20135: Without concrete grounding, participants will produce wish-lists rather than real insight. Use direct probes tied to specific products or social moments they've already named."
+      ],
+      "directivity_plan": "Sections 0\u20132 (intro and context): Hold back. Light touch. The primary goal is rapport and behavioural grounding. Do not probe deeply on food choices yet \u2014 let the conversational texture establish before pushing. Allow the group to find its rhythm. Section 3 (gender and food): Increase directivity selectively. Use behavioural grounding probes to move past dismissive answers. Track contradictions carefully for later use. Do not push too hard too early \u2014 if resistance is high, let the topic breathe and return via Section 4 side door. Sections 4\u20135 (plant-based shift and appeal): Maximum directivity on specificity. Push for real examples, real social situations, real costs. Use hypothetical sharpening if answers stay abstract. Invite dissent if consensus emerges around a superficial narrative. Section 6 (closing): Very light. Invite additions; do not reopen closed topics or probe fresh material unless something significant surfaces.",
+      "time_budget": {
+        "total_minutes": 45,
+        "total_word_budget": 4500,
+        "budget_rationale": "Main topic sections (3, 4, 5) receive the heaviest weighting \u2014 together roughly 65% of word budget \u2014 as these carry the core research value. Context sections (1, 2) receive moderate weighting as they provide essential grounding that feeds into the main topics. Intro (section 0) and closing (section 6) receive light allocations: enough to establish safety and exit gracefully, not enough to exhaust the group before the substantive work begins.",
+        "per_section": [
+          {
+            "section_index": 0,
+            "section_label": "Introduction and instructions",
+            "section_phase": "intro",
+            "word_budget": 250,
+            "turn_budget": 6
+          },
+          {
+            "section_index": 1,
+            "section_label": "Opening discussion: male friendship and place",
+            "section_phase": "context",
+            "word_budget": 550,
+            "turn_budget": 10
+          },
+          {
+            "section_index": 2,
+            "section_label": "Everyday food decision-making",
+            "section_phase": "context",
+            "word_budget": 600,
+            "turn_budget": 12
+          },
+          {
+            "section_index": 3,
+            "section_label": "Gender and food choice",
+            "section_phase": "main_topic",
+            "word_budget": 900,
+            "turn_budget": 18
+          },
+          {
+            "section_index": 4,
+            "section_label": "Imagining a plant-based shift",
+            "section_phase": "main_topic",
+            "word_budget": 850,
+            "turn_budget": 17
+          },
+          {
+            "section_index": 5,
+            "section_label": "Making plant-based foods more appealing",
+            "section_phase": "main_topic",
+            "word_budget": 900,
+            "turn_budget": 18
+          },
+          {
+            "section_index": 6,
+            "section_label": "Closing remarks",
+            "section_phase": "closing",
+            "word_budget": 200,
+            "turn_budget": 5
+          }
+        ]
+      }
+    },
+    "current_section_index": 6,
+    "section_phase": "closing",
+    "current_question_index": 0,
+    "total_turns": 33,
+    "session_started_at": "2026-07-29T11:45:06.447217Z",
+    "inject_participant_intro": false,
+    "run_label": "run02",
+    "participant_episodic_depth": "since_last_n",
+    "participant_episodic_since_last_n": 20,
+    "participant_episodic_recent_k": 6,
+    "moderator_reflection_enabled": true,
+    "moderator_restraint_prompt": true,
+    "moderator_context_mode": "summarized",
+    "engagement_own_history_token_budget": 1500,
+    "moderator_prompt_override": "sandbox/01_MODERATOR_SYSTEM_PROMPT_MINIMAL.md",
+    "moderator_opening_prompt_override": null,
+    "time_budget_tracking_enabled": true
+  },
+  "discussion_guide": [
+    {
+      "section_index": 0,
+      "section_label": "Introduction and instructions",
+      "section_phase": "intro",
+      "section_purpose": "Section 0: Introduction and instructions",
+      "scripted_question": "Hi everyone, thanks so much for joining the focus group today. We\u2019re\ngoing to take about 45 minutes to talk about your food choices and\nopinions, and this will be recorded for research purposes. Try not to\noverthink the questions, and simply speak freely. There are no right\nor wrong answers. Please be respectful of your fellow focus group\nmembers, and keep your responses relatively brief to allow time for\neveryone to speak. But remember that this is a conversation, not an\ninterview, so you can jump in when you have something to say and you\ndon\u2019t have to take turns answering each question, but you can if you\nwant to. Okay great, let\u2019s start by going around and saying your name\nand where in the UK you\u2019re coming from today.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 1,
+      "section_label": "Opening discussion: male friendship and place",
+      "section_phase": "context",
+      "section_purpose": "Section 1: Opening discussion: male friendship and place",
+      "scripted_question": "What\u2019s your favourite place in your city to spend time with your male\nfriends? Why? Feel free to be specific.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 2,
+      "section_label": "Everyday food decision-making",
+      "section_phase": "context",
+      "section_purpose": "Section 2: Everyday food decision-making",
+      "scripted_question": "How do you decide what to eat?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "Do other people influence what you eat? If so, tell us more about how.",
+        "Do your work or hobbies influence what foods you eat? Tell us more about how.",
+        "How important is health and nutrition?",
+        "How important is taste?"
+      ]
+    },
+    {
+      "section_index": 3,
+      "section_label": "Gender and food choice",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 3: Gender and food choice",
+      "scripted_question": "Do you think your gender influences what you eat? Tell us more about\nwhy or why not.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "Is it socially acceptable for men to eat vegetarian or vegan foods?",
+        "Are some foods considered feminine?",
+        "Are some foods considered masculine?"
+      ]
+    },
+    {
+      "section_index": 4,
+      "section_label": "Imagining a plant-based shift",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 4: Imagining a plant-based shift",
+      "scripted_question": "Imagine you decided to go plant-based \u2014 what would need to change in\nyour life for you to do that?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "How would your family and friends react to this?",
+        "How might it change the way you shop or cook?"
+      ]
+    },
+    {
+      "section_index": 5,
+      "section_label": "Making plant-based foods more appealing",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 5: Making plant-based foods more appealing",
+      "scripted_question": "What might make plant-based foods more appealing to you or other men\nyou know?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 6,
+      "section_label": "Closing remarks",
+      "section_phase": "closing",
+      "section_purpose": "Section 6: Closing remarks",
+      "scripted_question": "Okay everyone, that\u2019s our time. Thanks so much for participating\ntoday. Before we finish, is there anything else you would like to add\nabout food choices, gender, masculinity, or plant-based eating?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    }
+  ],
+  "participants": {
+    "mm_fg3_andrew": {
+      "id": "mm_fg3_andrew",
+      "name": "Andrew",
+      "profile_summary": "Andrew, 45, Male. Suburban, South East, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_andrew",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Andrew",
+            "age": 45,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "South East",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "Once a week",
+            "poultry": "2-4 per week",
+            "fish": "2-4 per week",
+            "egg": "2-4 per week",
+            "dairy": "2-4 per week"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.7,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 2.7,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 6.2,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.4,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 3.1,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        }
+      },
+      "turn_count": 8,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg3_daniel": {
+      "id": "mm_fg3_daniel",
+      "name": "Daniel",
+      "profile_summary": "Daniel, 48, Male. Suburban, East of England, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_daniel",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Daniel",
+            "age": 48,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "East of England",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "Once a week",
+            "poultry": "2-4 per week",
+            "fish": "1-3 per month",
+            "egg": "1-3 per month",
+            "dairy": "Once a day"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.0,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 1.7,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.2,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.0,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 1.0,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        }
+      },
+      "turn_count": 8,
+      "emotional_signal": "said 'I'm benefiting from that link existing, in a way' \u2014 framed his own complicity with a structural norm as something he's only now fully naming",
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg3_john": {
+      "id": "mm_fg3_john",
+      "name": "John",
+      "profile_summary": "John, 45, Male. Suburban, South West, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_john",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared"
+        },
+        "persona": {
+          "demographics": {
+            "name": "John",
+            "age": 45,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "South West",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "2-4 per week",
+            "poultry": "2-4 per week",
+            "fish": "Once a week",
+            "egg": "Once a week",
+            "dairy": "2-4 per week"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.6,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 2.1,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 5.4,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 4.0,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 1.6,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        }
+      },
+      "turn_count": 5,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg3_nick": {
+      "id": "mm_fg3_nick",
+      "name": "Nick",
+      "profile_summary": "Nick, 40, Male. Suburban, North West, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_nick",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Nick",
+            "age": 40,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "North West",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "Once a week",
+            "poultry": "2-4 per week",
+            "fish": "2-4 per week",
+            "egg": "Once a week",
+            "dairy": "5-6 per week"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 2.2,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 1.0,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 5.4,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 5.2,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 1.4,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        }
+      },
+      "turn_count": 6,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg3_paul": {
+      "id": "mm_fg3_paul",
+      "name": "Paul",
+      "profile_summary": "Paul, 47, Male. Suburban, South East, UK. Meat eater.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_paul",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.diet": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "persona.food_consumption": "observed",
+          "psychometric_scores": "observed",
+          "simulation_config.notes": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Paul",
+            "age": 47,
+            "gender": "Male",
+            "diet": "Meat eater",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "South East",
+              "country": "UK"
+            }
+          },
+          "food_consumption": {
+            "red_meat": "2-4 per week",
+            "poultry": "2-4 per week",
+            "fish": "2-4 per week",
+            "egg": "Once a week",
+            "dairy": "4+ per day"
+          }
+        },
+        "psychometric_scores": {
+          "masculine_norms": {
+            "construct": "Traditional masculinity norms measured with the Male Role Norms Inventory (MRNI; Levant et al., 1992), subscales: avoidance of femininity, restrictive emotionality, aggression, achievement status, self-reliance, and attitudes toward sex (54 items; homophobia subscale excluded).",
+            "direction": "Higher scores indicate stronger endorsement of traditional masculine norms.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 3.5,
+            "provenance": "observed"
+          },
+          "masculinity_of_meat": {
+            "construct": "Perceived masculinity of meat measured with the 7-item Masculinity of Meat scale (Lax & Mertig, 2020; e.g. 'Men need to eat meat more than women do').",
+            "direction": "Higher scores indicate stronger perceived masculinity-meat link and anti-vegetarian bias.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 1.4,
+            "provenance": "observed"
+          },
+          "meat_attachment": {
+            "construct": "Meat attachment measured with a 5-item shortened form of the Meat Attachment Questionnaire (Graca et al., 2015; e.g. 'Meat is irreplaceable in my diet').",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to eating meat.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 5.8,
+            "provenance": "observed"
+          },
+          "dairy_attachment": {
+            "construct": "Dairy attachment measured on an identical scale to meat attachment, with 'dairy' replacing 'meat' (Graca et al., 2015 adaptation).",
+            "direction": "Higher scores indicate stronger emotional and habitual attachment to dairy consumption.",
+            "scale": "1\u20137 (strongly disagree to strongly agree)",
+            "native_scale": "1\u20137",
+            "value": 5.8,
+            "provenance": "observed"
+          },
+          "vegetarianism_threat": {
+            "construct": "Perceived threat from the rise of vegetarianism measured with the 8-item Vegetarianism Threat Scale (Dhont & Hodson, 2014; e.g. 'The rise of vegetarianism poses a threat to our country s cultural customs').",
+            "direction": "Higher scores indicate stronger perceived societal or cultural threat from vegetarianism.",
+            "scale": "1\u20137 (rescaled for comparability; see rescaling_note)",
+            "native_scale": "1\u20135",
+            "rescaling_note": "Values in the dataset appear rescaled from the original 1\u20135 to 1\u20137 range, likely for comparability with other constructs.",
+            "value": 4.6,
+            "provenance": "observed"
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400,
+          "notes": "Recruited as a regular meat eater."
+        }
+      },
+      "turn_count": 5,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    }
+  },
+  "group_state": {
+    "participation_balance": {
+      "mm_fg3_andrew": 0.25,
+      "mm_fg3_daniel": 0.25,
+      "mm_fg3_john": 0.156,
+      "mm_fg3_nick": 0.188,
+      "mm_fg3_paul": 0.156
+    },
+    "silent_participants": [],
+    "consensus_risk": 0.15,
+    "dominant_voices": [],
+    "unresolved_tensions": [
+      {
+        "participant_id": "mm_fg3_andrew",
+        "flagged_at_turn": 17,
+        "description": "says he doesn't judge men for going vegetarian and finds it 'off' that others do \u2014 but also says meat-eating is just 'what I do', never questioned, and vegetarianism 'doesn't appeal'; his relaxed acceptance of others' choices sits alongside an implicit framing of meat-eating as the unexamined male default",
+        "resolved": false,
+        "resolved_at_turn": null,
+        "surfaced": true,
+        "surface_count": 1
+      },
+      {
+        "participant_id": "mm_fg3_daniel",
+        "flagged_at_turn": 28,
+        "description": "earlier framed plant-based barriers as purely practical (family meals, pub quality, not requiring separate cooking); now says the practical framing was also a form of 'plausible deniability' \u2014 he wanted the option without having to own the choice, which reframes the practical barriers as also being about identity anxiety, not just logistics",
+        "resolved": false,
+        "resolved_at_turn": null,
+        "surfaced": false,
+        "surface_count": 0
+      }
+    ],
+    "group_has_agreed_easily_on": [
+      "Group converged on: habit and routine matter more than geography in shaping food access",
+      "Paul and Andrew both converging on: food quality at pubs enhances the experience but is not the primary reason for being there",
+      "Andrew and Paul both converging on: food quality awareness develops over time but doesn't change core shopping habits",
+      "Nick converges with Andrew and Paul: pub as default meeting place, ritual over spectacle, food quality noticed but not the primary reason for being there",
+      "John converges with Daniel: convenience and habit dominate everyday food decisions, and this is framed as normal and acceptable rather than a failure",
+      "John and Daniel converge: there is a meaningful difference between 'being busy' and 'choosing not to bother', but both are at peace with their own convenience-led choices",
+      "Nick converges with Andrew: meat-eating is the unquestioned male default; deviation from it invites social judgment",
+      "Andrew converges with Nick: the social judgment of male vegetarians is about group identity reassertion, not the food itself",
+      "Nick and Andrew both converge: the piss-taking around male vegetarianism only works if the person being targeted is bothered by it \u2014 social immunity comes from not engaging",
+      "Nick converges with Andrew: the judgment is about group identity enforcement and insecurity, not about the food itself",
+      "Nick and Daniel converge: eating meat is a conscious choice made with awareness of competing reasons, not an unconsidered default \u2014 and both distinguish this from pretending the reasons don't exist",
+      "Andrew and Daniel converge: plant-based food becomes viable when it stops requiring a decision or justification \u2014 when it's just normal food done well",
+      "John converges with Daniel: plant-based appeal depends on normalisation and unremarkability, not on ethical arguments",
+      "John converges with Daniel: 'plausible deniability' framing \u2014 wanting the option without having to own the choice",
+      "Paul converges with Andrew: meat-eating is an unconsidered default with no active anxiety about it",
+      "Paul converges with Andrew and Nick: the masculinity-as-proof framing around food is unnecessary and worth noticing",
+      "Paul converges with Daniel: you can intellectually notice a pattern is daft while still benefiting from it and not acting to change it \u2014 those are separable positions"
+    ],
+    "section_turn_counts": {
+      "mm_fg3_daniel": 1,
+      "mm_fg3_paul": 1
+    },
+    "section_word_counts": {
+      "MODERATOR": 131,
+      "mm_fg3_daniel": 281,
+      "mm_fg3_paul": 183
+    },
+    "completed_section_turn_counts": {
+      "0": {
+        "mm_fg3_andrew": 1,
+        "mm_fg3_nick": 1,
+        "mm_fg3_john": 2,
+        "mm_fg3_daniel": 1,
+        "mm_fg3_paul": 1
+      },
+      "1": {
+        "mm_fg3_paul": 2,
+        "mm_fg3_andrew": 2,
+        "mm_fg3_nick": 1
+      },
+      "2": {
+        "mm_fg3_daniel": 2,
+        "mm_fg3_john": 2
+      },
+      "3": {
+        "mm_fg3_andrew": 2,
+        "mm_fg3_nick": 2
+      },
+      "4": {
+        "mm_fg3_daniel": 2,
+        "mm_fg3_nick": 2
+      },
+      "5": {
+        "mm_fg3_daniel": 2,
+        "mm_fg3_andrew": 3,
+        "mm_fg3_john": 1,
+        "mm_fg3_paul": 1
+      }
+    },
+    "completed_section_word_counts": {
+      "0": {
+        "MODERATOR": 222,
+        "mm_fg3_andrew": 21,
+        "mm_fg3_nick": 37,
+        "mm_fg3_john": 210,
+        "mm_fg3_daniel": 94,
+        "mm_fg3_paul": 126
+      },
+      "1": {
+        "MODERATOR": 58,
+        "mm_fg3_paul": 250,
+        "mm_fg3_andrew": 426,
+        "mm_fg3_nick": 246
+      },
+      "2": {
+        "MODERATOR": 63,
+        "mm_fg3_daniel": 396,
+        "mm_fg3_john": 392
+      },
+      "3": {
+        "MODERATOR": 116,
+        "mm_fg3_andrew": 535,
+        "mm_fg3_nick": 501
+      },
+      "4": {
+        "MODERATOR": 73,
+        "mm_fg3_daniel": 482,
+        "mm_fg3_nick": 502
+      },
+      "5": {
+        "MODERATOR": 325,
+        "mm_fg3_daniel": 505,
+        "mm_fg3_andrew": 814,
+        "mm_fg3_john": 260,
+        "mm_fg3_paul": 185
+      }
+    },
+    "consecutive_silent_turns": 0,
+    "consecutive_participant_turns": 0,
+    "last_speaker_id": "MODERATOR",
+    "last_engagement_round": [
+      {
+        "participant_id": "mm_fg3_andrew",
+        "wants_to_speak": true,
+        "urgency": 0.65,
+        "hook": "Daniel's just named something important about benefiting from the default without owning it, and I need to push back on my own framing \u2014 because I've been saying I'm not in the anxiety, but what Daniel's describing about the masculinity link operating silently... that's actually operating on me too, and I haven't admitted that.",
+        "addressed_to": "Daniel",
+        "intent": "challenge"
+      },
+      {
+        "participant_id": "mm_fg3_daniel",
+        "wants_to_speak": false,
+        "urgency": 0.2,
+        "hook": "",
+        "addressed_to": null,
+        "intent": "stay_silent"
+      },
+      {
+        "participant_id": "mm_fg3_john",
+        "wants_to_speak": true,
+        "urgency": 0.7,
+        "hook": "Daniel's just articulated something about the masculinity-meat link that John feels he's already said, but there's a distinction worth making \u2014 John's more uncomfortable with *owning the choice*, whereas Daniel's pointing to benefiting from the *default not being questioned*. John should acknowledge that Daniel's gone somewhere slightly different, and that distinction matters.",
+        "addressed_to": "Daniel",
+        "intent": "affirm_and_elaborate"
+      },
+      {
+        "participant_id": "mm_fg3_nick",
+        "wants_to_speak": true,
+        "urgency": 0.7,
+        "hook": "Daniel's just articulated something real about the masculinity piece operating underneath his choices without him fully owning it. That's honest. But he's also now sliding back into a slightly defensive position about 'choosing comfort over engagement' \u2014 and I think there's something worth pushing on there about what we actually owe ourselves versus what we're performing for others. The whole masculinity-meat link thing he brought up is the real issue, not the meat itself.",
+        "addressed_to": "Daniel",
+        "intent": "affirm_and_elaborate"
+      },
+      {
+        "participant_id": "mm_fg3_paul",
+        "wants_to_speak": true,
+        "urgency": 0.85,
+        "hook": "Daniel's just articulated something I recognize in myself but didn't fully own when I spoke \u2014 that the default/performance distinction is real, and I benefit from not having to think about it. He's named the actual thing operating beneath my 'I'm just not anxious' position. I need to acknowledge that rather than let my earlier statement stand as the cleaner version.",
+        "addressed_to": "Daniel",
+        "intent": "affirm_and_elaborate"
+      }
+    ],
+    "section_summaries": [
+      {
+        "section_index": 0,
+        "section_label": "Introduction and instructions",
+        "discussion_summary": "The section centred on introductions and geographic identity, with participants quickly complicating a regional food-access narrative. A brief but productive tension emerged around whether local/independent food options are geographically determined or simply a matter of habit and awareness \u2014 with the group largely converging on the latter. Convenience and routine surfaced as dominant forces shaping actual shopping behaviour, even among those who acknowledged and valued alternatives.",
+        "strategy_summary": "The priority was getting everyone introduced before moving on. Paul required a direct prompt, suggesting lower spontaneous engagement \u2014 worth monitoring. I largely stayed back and let the regional debate between John and Daniel play out, which worked well as a natural warm-up dynamic. The section was brief by design; I moved to the first substantive question once all voices had been heard at least once."
+      },
+      {
+        "section_index": 1,
+        "section_label": "Opening discussion: male friendship and place",
+        "discussion_summary": "This section centred on the pub as social infrastructure \u2014 valued less for food or drink than for its low-friction, obligation-free quality as men move into their forties. A secondary theme emerged around passive quality awareness: participants described an accumulated, experience-led sensitivity to meat quality that shapes enjoyment without translating into deliberate sourcing behaviour. The tension between noticing difference and not acting on it systematically was a consistent undercurrent across all three contributors.",
+        "strategy_summary": "My main aim was getting Nick into a conversation already running between Paul and Andrew, which the direct address achieved cleanly \u2014 he engaged substantively rather than just echoing. I largely held back and let the pub-ritual and quality-awareness themes develop organically, which worked; the group found genuine common ground without prompting. The section close felt natural: enough thematic coherence had built to pivot toward daily food decision-making without forcing it."
+      },
+      {
+        "section_index": 2,
+        "section_label": "Everyday food decision-making",
+        "discussion_summary": "This section deepened the convenience theme from earlier sections into something more self-critical: participants moved from describing habit as practical necessity to naming it as active choice \u2014 specifically, the choice not to bother. A productive tension emerged between normalising convenience and acknowledging agency, with Daniel articulating a gap between available options and actual behaviour, and John initially defending the status quo before conceding Daniel's framing was more honest.",
+        "strategy_summary": "I stayed almost entirely absent, which was the right call \u2014 Daniel's self-correction in turn 13 opened a genuinely honest exchange that didn't need steering. My only intervention was the section close, pivoting toward gender before the convenience thread exhausted itself. The transition felt slightly abrupt given how live the exchange still was, but the thematic hook \u2014 personal versus structural choice \u2014 gave a reasonable bridge into the next question."
+      },
+      {
+        "section_index": 3,
+        "section_label": "Gender and food choice",
+        "discussion_summary": "This section centred on meat-eating as masculine default \u2014 unquestioned precisely because it is the norm \u2014 and the social mechanics that activate when men deviate from it. Participants moved beyond simply observing the phenomenon to diagnosing it: group territory-marking, insecurity dressed as banter, the age-related fading of needing to prove anything. The thread connected food choice to identity performance rather than to food itself.",
+        "strategy_summary": "My interventions were minimal and functional: reflecting Andrew's opening observation back to the group to test whether it had broader resonance, then closing with a deliberately personal pivot \u2014 the hypothetical plant-based scenario \u2014 to shift from social observation into individual stakes. Both worked cleanly. The group needed little steering; Andrew and Nick built on each other naturally. The closing question deliberately interrupted a thread that had reached coherent resolution rather than trailing off."
+      },
+      {
+        "section_index": 4,
+        "section_label": "Imagining a plant-based shift",
+        "discussion_summary": "This section pushed the convenience theme from earlier into ethical self-awareness: the central tension was between acknowledging a choice and excusing it. Daniel refused the comfortable framing that familiarity justifies inaction, forcing a distinction between 'normal' and 'fine' \u2014 and Nick, initially pushing back, conceded the same ground for himself. The section ended with both participants holding genuine moral awareness alongside deliberate disengagement, without collapsing into either self-flagellation or deflection.",
+        "strategy_summary": "I was almost entirely absent, which was correct \u2014 Daniel and Nick were doing the most honest work of the session and didn't need steering. My only move was the closing pivot, threading Nick's observation about social judgment into the next question on plant-based appeal. The transition worked because it picked up a live thread rather than closing one \u2014 it felt like continuation rather than interruption, which was the right call given the energy in the room."
+      },
+      {
+        "section_index": 5,
+        "section_label": "Making plant-based foods more appealing",
+        "discussion_summary": "This section refined the session's central anxiety theme into a more precise taxonomy: the difference between genuinely not considering a change (Andrew, Paul) versus avoiding examination of a choice you're dimly aware of making (Daniel, John). The 'plausible deniability' framing was the section's sharpest contribution \u2014 wanting an option to exist without having to own it as a decision. That distinction, between being outside an anxiety and being inside it sideways, gave the session its most structurally honest moment.",
+        "strategy_summary": "The productive move was pressing Andrew on the tension between his stated indifference and his diagnosis of others' defensiveness \u2014 a contradiction worth surfacing rather than letting pass. His response held up under scrutiny, which made it useful: it gave Daniel and John something precise to position themselves against. Drawing out quieter voices at the close worked cleanly; Paul's response rounded out the spectrum without adding new complexity. The intervention was timed well \u2014 the Andrew-Daniel exchange had reached natural resolution before I widened it."
+      },
+      {
+        "section_index": 6,
+        "section_label": "Closing remarks",
+        "discussion_summary": "This section extended the session's masculinity-meat thread into its most structurally honest form: both participants moved from observing the pattern to naming themselves as its beneficiaries. The key distinction was between critiquing a social norm and actually being exempt from its pull \u2014 Daniel and Paul converged on the idea that passive participation in a default is itself a choice, one made easier precisely because it requires no ownership.",
+        "strategy_summary": "The section was brief and needed almost no steering \u2014 Daniel and Paul were completing a thought the session had been building toward. My only move was the closing invitation for final reflections, which was functional rather than strategic. The timing felt right: the exchange had reached genuine resolution rather than trailing off, and ending on 'benefiting from the default' gave the session a clean, thematically coherent close."
+      }
+    ],
+    "moderator_turn_share_overall": 0.455,
+    "moderator_turn_share_recent": 0.7
+  },
+  "moderator_log": [
+    {
+      "turn": 0,
+      "timestamp": "2026-07-29T11:45:57.622712Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Session is initialising. No participant has spoken. The opening utterance needs to do three things simultaneously: build warmth and psychological safety, establish the conversational ground rules without over-formalising them, and launch the first question naturally. The scripted first question is a simple name-and-location round \u2014 low stakes, good for easing everyone in. The opening must not signal the study's focus on gender or plant-based eating; it should feel like a general conversation about food and everyday life.",
+      "action": "ask_initial_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Hi everyone, welcome and thanks so much for joining us today. My name's [Moderator], and for the next 45 minutes or so we're going to be having a conversation about food choices and opinions \u2014 the kind of everyday stuff: what you eat, where, with whom, how you think about it. It'll be recorded for research purposes, just so you know.\n\nA few things before we get going. This isn't an interview and there are genuinely no right or wrong answers \u2014 I'm not here to test you on anything or steer you toward a particular view. What I'm interested in is what you actually think and do, not what sounds reasonable in the abstract. So if something strikes you as true from your own experience, say it. If you disagree with something someone else says, that's great \u2014 push back, add to it, go in a different direction. You don't need to take turns or wait to be asked; just jump in when you've got something. The only thing I'd ask is to be respectful of each other and try to keep individual answers fairly brief so everyone gets space to speak.\n\nOkay, let's get started. Let's go around and say your name and where in the UK you're coming from today.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": null
+    },
+    {
+      "turn": 2,
+      "timestamp": "2026-07-29T11:46:19.596158Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Andrew has introduced himself as requested \u2014 brief, appropriate for the intro section. Four other participants still need to introduce themselves. This is a simple round-robin and the conversation should just continue naturally. No intervention needed; the others will follow Andrew's lead.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 3,
+      "timestamp": "2026-07-29T11:46:38.651615Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Nick has introduced himself as requested \u2014 brief and on-task. This is the intro round and Daniel, John, and Paul still haven't introduced themselves. The conversation is flowing naturally; participants are following the round-robin format without needing prompting. The intro word budget is almost spent (230/250) but the primary goal \u2014 getting everyone to speak once \u2014 isn't yet met. No intervention needed; the remaining participants will continue naturally.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "timestamp": "2026-07-29T11:46:59.656789Z",
+      "trigger": null,
+      "situation_assessment": "John has introduced himself and added an interesting observation about how geography shapes food choices \u2014 specifically about proximity to farms in the South West vs. supermarket reliance elsewhere. This is the intro section and the primary goal is just getting everyone to speak once. Daniel and Paul haven't introduced themselves yet. John's comment about regional food differences is interesting but this is not the moment to probe it \u2014 that would burn intro budget on a tangent before the core sections. The conversation is flowing naturally; Daniel and Paul are signalling they want to speak. No intervention needed.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 5,
+      "timestamp": "2026-07-29T11:47:21.975854Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Daniel has introduced himself and pushed back on John's generalisation about North/South supermarket reliance \u2014 a natural, on-topic exchange for the intro. The section is now over its word budget (381/250) but the primary goal of getting everyone to speak at least once is not yet met: Paul has not spoken. The intro round-robin is almost complete. Daniel and several others wanted to respond to John; that exchange has now happened organically. Paul still needs to introduce himself. The conversation is flowing naturally toward Paul \u2014 no intervention needed, he will likely speak next.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "timestamp": "2026-07-29T11:47:46.536588Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "John has conceded Daniel's point graciously and redirected the conversation toward habit as the real driver rather than geography \u2014 a genuine and useful self-correction. Paul has not yet spoken at all (0 turns, participation share 0.0) and is flagged as silent. The intro section is well over its word budget (475/250) but the primary goal of getting everyone to speak at least once is not yet met. The mandatory intervention requirement means I must speak now. The cleanest move is to use this natural lull \u2014 after John's concession \u2014 to invite Paul in and simultaneously transition momentum toward the next section. A warm, light invite-to-speak that gets Paul into the room is the right call. I don't need to probe the geography/habit exchange further; that's intro-level material. Once Paul speaks, I can move to Section 1.",
+      "action": "reactivate_silent",
+      "target": "mm_fg3_paul",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Once Paul has introduced himself, the intro section goal is complete and the group is over budget \u2014 move to Section 1.",
+        "condition": "Paul has spoken and introduced himself."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Paul, we haven't heard from you yet \u2014 whereabouts are you joining us from?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "timestamp": "2026-07-29T11:48:00.903962Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Paul has introduced himself and added substantively to the habit-vs-geography discussion, echoing Daniel and John's self-correction. The intro section's primary goal \u2014 getting all five participants to speak at least once \u2014 is now complete. The section is significantly over its word budget (584/250) and turn budget (5/6 before Paul's turn, now 6/6+). The conversation has converged naturally on 'habit over geography' as the key point, which the group state already notes. There is no new material here worth probing in the intro phase. The right move is a clean, brief transition to Section 1.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Great, thanks everyone. So \u2014 favourite place to spend time with your male friends. Where do you actually end up, and why there?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 8,
+      "timestamp": "2026-07-29T11:48:30.681067Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Paul has answered the Section 1 guide question \u2014 the pub as default meeting place, low-key, comfortable, no agenda. This is the first substantive response to the Section 1 question. The section has barely begun (22 words used, 0/10 turns). Paul's answer is a solid opening contribution but fairly brief and somewhat expected. The group has Daniel, Nick, and others who wanted to answer this question. The right move is to let the conversation flow \u2014 others are primed to respond (Daniel and Nick both flagged urgency to respond to this topic). There's no need for moderator intervention here; letting the group build on Paul's answer will produce more useful data than probing Paul immediately.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "timestamp": "2026-07-29T11:48:58.051518Z",
+      "trigger": null,
+      "situation_assessment": "Andrew has responded directly to the Section 1 guide question, building naturally on Paul's answer. His contribution is substantive: he adds the long-term friendship dimension (twenty-odd years), the evolution from going-out culture to quieter conversation, the release-valve function of the pub, and a brief mention of food (proper steaks, Sunday roasts) framed as incidental to the ritual. This is good context material. The section has used 119/550 words and 1/10 turns \u2014 we're early. Four other participants have flagged wanting to respond, and multiple (Daniel, Nick) are still in the silent list for this section. Andrew has just spoken, so he's no longer silent. The right move is to let the conversation flow \u2014 others are primed to build on this, and the group is doing exactly what it should be doing: finding common ground and elaborating. No moderator intervention is needed.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "timestamp": "2026-07-29T11:49:27.992331Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Paul has built directly and naturally on Andrew's answer \u2014 same pub-as-ritual framing, same evolution-from-younger-years theme, and now a shared note about food quality as enhancing the experience without being the point. The conversation is flowing well between Andrew and Paul, producing useful context about male socialising. However, this is now the third turn on the same theme (pub as default, evolution over time, food as incidental but quality matters) and the two voices are converging rather than differentiating. Daniel and Nick are still silent in this section and both flagged wanting to respond. John, who has been active, also flagged urgency. The section has 4 of 5 participants yet to speak in Section 1. The group is doing the work, and the right move is still to stay back \u2014 but Daniel and Nick are genuinely silent and the content from Paul and Andrew isn't adding much new material beyond what Andrew already said. The conversation doesn't need me to redirect it \u2014 others are primed and should self-select. I'll observe one more turn to see if the group naturally opens up to other voices.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_nick",
+        "rationale": "Nick is the youngest and geographic outlier, flagged for early reticence. If the next turn is again from Andrew or Paul alone and Daniel/Nick remain silent, a warm natural opening for Nick would be appropriate \u2014 tied to the pub-as-ritual theme both have been discussing.",
+        "condition": "Daniel and Nick have still not spoken after the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "timestamp": "2026-07-29T11:50:02.913847Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Andrew has built on Paul's answer with a specific concrete memory (the steak, noticing quality) and an honest self-observation about evolving awareness \u2014 'once you've noticed it, you can't unknow it' \u2014 alongside an admission that he still shops at Tesco. This is useful texture but it keeps the conversation in the same Andrew-Paul lane about food quality and pub ritual. The section guide question is about favourite places to spend time with male friends \u2014 and it's been answered adequately by Paul and Andrew. But Daniel, Nick, and John have not yet spoken in this section. The section has used 487/550 words and 3/10 turns. The word budget is nearly exhausted. Daniel and Nick are both flagged silent. The conversation has drifted slightly from the guide question (favourite place \u2192 food quality awareness), and the marginal value of more Paul/Andrew exchange on this is low. What's needed is to either bring in the silent voices or transition. Given the word budget is nearly spent and two participants haven't spoken on this section's question at all, the right move is a brief, warm opening to the group \u2014 specifically inviting John, Daniel, or Nick to add something \u2014 before we transition. Nick is the flagged priority. A light reactivation now, tied to the topic, is appropriate.",
+      "action": "reactivate_silent",
+      "target": "mm_fg3_nick",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 1 word budget is nearly exhausted and the guide question has been adequately covered by Paul, Andrew, and (hopefully) Nick. Daniel and John have flagged wanting to contribute but if Nick speaks the section is sufficiently covered across enough voices to justify moving to Section 2.",
+        "condition": "After Nick responds, or if the next turn from any participant completes the round."
+      },
+      "intervention_mode": "speak",
+      "utterance": "That idea of noticing the difference and not being able to go back \u2014 I think that resonates with a few of you. Nick, what about you \u2014 where do you and your mates tend to end up?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 12,
+      "timestamp": "2026-07-29T11:50:23.630517Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Nick has answered the Section 1 guide question directly and adequately \u2014 pub as default, two spots he rotates through, the ritual/ease framing, and a food quality note that echoes Andrew and Paul. His answer adds modest new texture (the distance/atmosphere trade-off between two pubs, the 'not trying to impress anyone' note at 40) but largely converges with what Andrew and Paul have already said. The section has now used 734/550 words across 4 turns \u2014 we are over budget. The guide question (favourite place to spend time with male friends) has been answered by three participants with consistent depth. Daniel and John haven't spoken in this section yet, but the content is well-covered and the marginal value of continuing is low. The right move is a brief, clean transition to Section 2 \u2014 this also opens the floor naturally and Daniel/John can contribute there. A further reactivation attempt for Daniel here would extend an already over-budget section unnecessarily. Section transition is warranted.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Sounds like the pub does a lot of work for all of you \u2014 the ease of it, the familiarity, the fact that you don't have to think too hard about it. Let's shift gears slightly. I want to talk about food itself \u2014 not just when you're out, but day to day. How do you actually decide what to eat? What's driving those choices?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 13,
+      "timestamp": "2026-07-29T11:51:00.730501Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Daniel has just answered the Section 2 guide question directly and with real candour \u2014 admitting the gap between his earlier implication of deliberate shopping habits and his actual day-to-day behaviour (convenience, family logistics, not thinking about provenance). This is the first substantive contribution to Section 2 and it's a genuinely good answer: specific (chicken, twenty minutes, kids), honest about contradiction, and it introduces a useful distinction between attentive eating (pub, occasion) and automatic eating (home, tired, hungry). The section has barely started \u2014 63 words, 0/12 turns on the tracker \u2014 so the rest of the group hasn't yet answered the guide question. Daniel's answer is rich enough that it could warrant a probe, but the guide question is 'how do you decide what to eat?' and Daniel has answered it well. The more valuable move right now is to let the other four respond to the guide question and see whether they share or diverge from this convenience/habit framing \u2014 there's more to gain from the group's range than from deepening Daniel's already-specific answer. The section has full budget available. Let the group pick up naturally \u2014 all five flagged urgency on this question. Observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "timestamp": "2026-07-29T11:51:32.064457Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "John has answered the Section 2 guide question and built directly on Daniel's answer \u2014 validating the convenience/habit framing and adding a useful normative note about not feeling guilty for it. His answer is substantive but essentially converges with Daniel: convenience is fine, you notice quality when you have time, that's just life. It's a warm, affirming response but it doesn't add much that's new. The section has 268/600 words used across 1/12 turns \u2014 plenty of budget left. Three participants (Andrew, Paul, Nick) haven't yet answered the guide question 'how do you decide what to eat?' All three flagged urgency and hooks in the last engagement round, particularly Andrew (0.7) who said Daniel's honesty resonated and he wants to push back on his own earlier comments. The group is clearly ready to speak \u2014 there's momentum and a natural conversational thread. The right move is to observe and let Andrew, Paul, or Nick pick up. John and Daniel have established a convenience/habit baseline; the question is whether the others share it or diverge. No intervention needed \u2014 the floor is warm and the group is mid-discussion.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "timestamp": "2026-07-29T11:52:01.794716Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Daniel has just responded to John's reassurance with a genuinely interesting self-correction: he's distinguishing between 'practical' and 'not thinking about it at all', and explicitly framing his convenience choices as active non-decisions rather than as something forced upon him by circumstance. This is a richer, more honest framing than John's gentle normalisation offered. The section has 453/600 words used across 2/12 turns \u2014 plenty of capacity remains. Three participants (Andrew, Paul, Nick) still haven't answered the guide question 'how do you decide what to eat?' All three had high urgency and hooks in the last engagement round. Andrew in particular wants to add something about his own awareness developing without translating into action, which would build usefully on what Daniel just said. The group dynamic is healthy \u2014 Daniel and John have established a productive tension between 'convenience is fine' and 'but I could make a different choice'. This tension is worth letting the rest of the group respond to naturally. No intervention needed \u2014 the floor is live and there's genuine momentum. Observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "timestamp": "2026-07-29T11:52:40.656000Z",
+      "trigger": "section_complete",
+      "situation_assessment": "John has just made a sharp and genuine distinction \u2014 'being busy is what it is, but choosing not to bother is on you' \u2014 and then immediately softened it by saying it doesn't actually bother him that much. He's also drawn an interesting contrast with Daniel, suggesting Daniel seems to care more about the gap than he does. This is a productive development: the two are now distinguishing between noticing the gap and caring about it, which adds nuance beyond the simple convenience/habit framing. The section has run 644 words against a 600-word budget across only 3/12 turns. The word budget is spent but the turn budget is not \u2014 the question is whether this conversation has delivered enough for Section 2. The guide question ('how do you decide what to eat?') has been answered substantively by Daniel and John, with honesty and specificity. Andrew, Paul, and Nick haven't spoken yet in this section. Nick is flagged as a silent participant and has spoken less than average. However, looking at what the section needs: the core food decision-making terrain (convenience, habit, awareness without action) has been well-covered. The suggested probes (other people's influence, work/hobbies, health/nutrition, taste) remain untouched \u2014 but those could equally be raised at the start of Section 3 as ground-clearing. Given the word budget is over, the marginal value of staying in this section is declining, and the conversation between Daniel and John, while good, is becoming somewhat circular (they're now agreeing about the nature of their own convenience choices rather than generating new material). The right call is a transition to Section 3, which has much higher research value \u2014 but I should do it cleanly and let the remaining three participants' voices emerge in the richer main topic section rather than forcing them into a summary here. Before transitioning, I should note whether Andrew, Paul, or Nick are signalling readiness \u2014 from the previous engagement round, all had urgency and hooks, particularly Andrew. However, the word budget being over tips the balance toward moving on rather than inviting more on the same topic.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "That distinction John just drew \u2014 busy versus not bothering \u2014 feels like it lands somewhere real. I want to move us on to something connected. You've all been talking about food choices as if they're pretty personal, practical, individual decisions. I'm curious whether being a man shapes any of that \u2014 whether gender comes into it at all, in how you decide what to eat, or what feels acceptable to eat. What do you all make of that?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "timestamp": "2026-07-29T11:53:26.017173Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Andrew has given a rich, substantive first response to the gender-and-food guide question. He's done several things at once: acknowledged that gender probably does shape his eating (meat as unreflective default), offered an interesting asymmetry observation (women face guilt around food, men face judgment for not eating 'properly'), and ended with a genuine puzzle \u2014 'what's that about?' \u2014 directed at the tendency to judge men who go vegetarian. This is good material: it's honest, specific, and contains a real tension he hasn't fully resolved. He's describing himself as someone who eats meat unthinkingly while being mildly critical of others who judge men for not doing the same. That's worth noting as a potential contradiction to track. However, the right move now is not to probe Andrew immediately \u2014 he's just opened a rich thread and the other four participants all flagged high urgency and genuine hooks going into this section. This is exactly the moment to let the group respond to Andrew's framing, especially his observation about men being judged for not eating meat. Daniel, John, Nick, and Paul all have something to say. Redirecting to the group will produce richer comparative data than probing Andrew alone. Nick is flagged as a silent participant, but the guide question is only just opening \u2014 it would be premature to single him out now. The more productive move is to open it broadly. Consensus risk is low \u2014 Andrew has introduced real tension in his framing (judgment of men who opt out) that the others are likely to respond to differently. The section word budget is nearly untouched (76/900 words, 0/18 turns). This warrants a redirect to group.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_nick",
+        "rationale": "Nick is the lowest-participation participant and hasn't spoken in this section. Once Daniel, John, and Paul have had a chance to respond to Andrew's framing, Nick should be brought in naturally.",
+        "condition": "Nick has not self-selected to speak within the next two participant turns."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Andrew's picked up on something interesting there \u2014 this idea that being a bloke who doesn't eat meat brings a different kind of social weight to it. Does that land for anyone else? Or does it feel different from your experience?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "timestamp": "2026-07-29T11:53:58.863678Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Nick has just given a substantive, specific, and honest response to Andrew's framing \u2014 confirming the social judgment phenomenon, adding the observation that meat-eating is the 'default' that requires no justification while deviation demands explanation, and landing on 'it's not actually about the food, it's about this weird masculine thing'. This is strong material that directly serves the guide question. Crucially, Nick came in voluntarily and unprompted, which resolves the participation imbalance concern for now. The section has now had two voices (Andrew and Nick) and both have landed on a similar observation: meat-eating as unreflective male default, non-meat-eating as requiring social justification. The consensus risk is starting to creep up \u2014 both are arriving at the same place without any tension between them. Daniel, John, and Paul all flagged urgency and hooks before this turn, with Paul in particular signalling he wanted to push on 'what feels normal for blokes' and the privilege of not having to justify choices. John wanted to add something about the assumption that meat-eating is 'normal for blokes'. Daniel wanted to connect this to his earlier points about choice and awareness. The group is moving well \u2014 the right call is still to observe and let the remaining three speak before any synthesis or probing. The consensus risk is moderate but not yet high enough to warrant an invite_dissent intervention, especially since Daniel flagged he wants to say something that adds nuance rather than just affirm. Let it run.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "timestamp": "2026-07-29T11:54:30.988496Z",
+      "trigger": "consensus_risk",
+      "situation_assessment": "Andrew has just given a rich, analytically sharp follow-up \u2014 moving from the observation that men judge vegetarian mates, to a theory of why: it's about group identity and the threat posed by someone stepping outside the norm. His rugby-playing vegetarian mate is a specific, vivid example that grounds the abstract point. The 'we do this, that's who we are' formulation is strong. Importantly, he's also introduced a generational/age dimension ('I'm old enough not to care') and a note of self-awareness about the younger dynamic. This is excellent material. Nick and Andrew have now both converged on the same core diagnosis \u2014 meat-eating as default, deviation as threat to group identity \u2014 with Andrew adding the mechanism (reassertion of group norms). Consensus risk is climbing. Daniel, John, and Paul have not yet spoken in this section. Daniel flagged wanting to add the parenting/modelling dimension. John flagged the 'social permission' side. Paul flagged wanting to push on whether the piss-taking is actually as reflexive as Andrew and Nick describe, or context-dependent. All three have genuine and potentially differentiating perspectives. The right call is still to observe and let the group respond. Andrew has effectively redirected back to the group with his 'younger blokes' observation, which gives Daniel, John, and Paul a natural hook. There's no stall, no silence, no dominance issue requiring my intervention. Three participants want to speak. Let them.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "timestamp": "2026-07-29T11:55:12.352243Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Nick has just given a second strong, substantive response in this section \u2014 building on Andrew's 'territory' framing, adding the 'insecurity dressed up as banter' formulation and grounding it in a specific North West experience (comments for having a salad or not doing a full cooked breakfast). This is rich material. However, I now have a significant structural problem: the section word budget is at 897/900 \u2014 effectively exhausted \u2014 after only 3 participant turns, and Daniel, John, and Paul have not spoken at all in this section. All three flagged genuine, differentiating hooks before this turn. The section's core research question (does gender influence food choice, how do social norms operate) has been explored well by Andrew and Nick, but only two voices have contributed. The right move is a section transition that briefly acknowledges what's been produced, pivots forward, and frames the next question in a way that naturally carries the gender-and-social-pressure thread into Section 4's plant-based territory \u2014 allowing Daniel, John, and Paul to speak there rather than forcing more content into an exhausted section budget. This is not premature closure: Andrew and Nick have produced good, specific material on the guide question, the consensus risk is moderate but the two views are largely aligned anyway, and the next section offers a natural continuation where the remaining participants can engage. I should not attempt to reactivate Paul, Daniel, or John in this section \u2014 that would blow through the budget further. Transition now.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg3_daniel",
+        "rationale": "Daniel, John, and Paul have not spoken in Section 3. Daniel flagged wanting to add the dimension of not being defensive or needing to prove anything \u2014 a potentially differentiating perspective on the gender-and-meat question. Once the Section 4 question is open, if he doesn't self-select quickly, bring him in.",
+        "condition": "Daniel does not self-select within the first two participant turns of Section 4."
+      },
+      "intervention_mode": "speak",
+      "utterance": "That phrase \u2014 insecurity dressed up as banter \u2014 that's a good one. Okay, so there's something real here about men and meat as this unquestioned default, and what happens socially when someone steps outside it. Let's take that somewhere more personal. Imagine you actually decided to go plant-based \u2014 properly, not just trying a veggie burger once. What would actually need to change in your life for that to work? What would it cost you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "timestamp": "2026-07-29T11:55:53.441283Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "Daniel has just given an unusually self-aware, analytically sharp response to the section 4 question \u2014 naming time, family friction, and the comfort of not having to think as barriers, then immediately dismantling his own framing: 'that's not really a barrier, is it? That's just me choosing not to do it.' This is exactly the kind of honest, specific material the section is designed to generate. The self-correction mirrors the dynamic from section 2 where Daniel also caught himself rationalising convenience. He's essentially said: the barriers are real but surmountable, and the reason I won't is that the cognitive and social comfort of the status quo is worth more to me than any reason to change. This is rich. The group has not yet responded. Andrew, John, Nick, and Paul all flagged urgency before this turn with genuine hooks \u2014 several wanted to engage personally with what plant-based shift would cost them. Daniel's honesty ('I'm choosing not to because the comfort of not thinking about it is worth more to me') is a strong stimulus for the group. The right move is to let the others respond \u2014 particularly John and Paul who haven't spoken in section 4 yet. I do not need to intervene. Daniel's candour will do the probing for me. Consensus risk is moderate \u2014 Daniel's framing of 'I could do it, I just don't want to' may attract agreement, but it's honest enough that it might also draw out differences. Let the group run.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "timestamp": "2026-07-29T11:56:27.431467Z",
+      "trigger": "consensus_risk",
+      "situation_assessment": "Nick has pushed back on Daniel's self-critical framing, drawing a distinction between 'can't be bothered' and 'this isn't a priority' \u2014 essentially offering Daniel absolution. This is interesting but risks sliding toward mutual comfort: two participants reassuring each other that meat-eating is just 'normal' and needs no justification. Nick's move is analytically substantive (the distinction between incapacity and priority is real) but it also functions socially as permission-giving, which could flatten the productive tension Daniel opened up. The guide question is 'what would need to change for you to go plant-based' \u2014 Daniel gave a rich, honest answer about comfort and inertia; Nick has partially reframed it as 'nothing needs to change, it's fine as it is.' Andrew, John, and Paul have not yet spoken in this section. All three flagged genuine hooks before this turn. Andrew in particular wanted to push on what we're actually defending when we defend meat-eating \u2014 which sits in productive tension with Nick's 'so what?' framing. John flagged wanting to challenge the convenience-as-reasonable-choice narrative. The conversation is flowing between Daniel and Nick, which is fine, but the group needs to enter now. Consensus risk is moderate-to-rising: Nick's normalization of Daniel's choice could anchor the group toward 'it's all fine, nothing needs to change.' I should observe \u2014 the group has momentum, Andrew and John both want to challenge, and intervening now would interrupt a live exchange. Let them run.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "timestamp": "2026-07-29T11:57:02.328327Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "Daniel has just done something analytically unusual and genuinely valuable: he's pushed back on Nick's reassurance and held himself to a more demanding standard, articulating a distinction between 'not a moral failing' and 'not a big deal.' He's essentially saying: I know the reasons, I choose comfort anyway, and I'm not going to pretend that's the same as saying the reasons don't exist. This is rich, honest material that goes directly to the section's guide question \u2014 what would need to change for you to go plant-based \u2014 by answering: something internal would need to change, and I know what that something is, I just don't want to change it. The group is actively working through live, substantive material. Andrew, John, and Paul all flagged strong hooks before this turn. Andrew wanted to challenge whether 'choosing comfort' is actually the whole story. John wanted to push back on convenience-as-reasonable-choice. Paul wanted to land somewhere between Daniel's self-criticism and Nick's absolution. The conversation is at exactly the right place for these voices to enter. I should not intervene \u2014 the group has momentum, Daniel's last turn is a genuine stimulus, and several participants are ready to respond. Observing here is the skilled choice.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_paul",
+        "rationale": "Paul has not spoken in Section 4 and is below participation average. Daniel and Nick have now run a sustained exchange; if Andrew and/or John respond and Paul still doesn't self-select, bring him in naturally \u2014 his stated hook (landing between Daniel's self-criticism and Nick's absolution) is directly relevant to the current thread.",
+        "condition": "Paul does not self-select within the next two participant turns."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "timestamp": "2026-07-29T11:57:43.519524Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Nick has just done something genuinely significant: he's accepted Daniel's challenge and applied it to himself, acknowledging he too is making a conscious choice rather than an unconsidered one. More importantly, he's introduced a new and distinct thread \u2014 the social enforcement piece: not judging people for eating meat, but judging people for refusing to even think about it. This is analytically richer than what came before and sits squarely within the section's guide question territory. The exchange between Daniel and Nick has now produced three substantive, differentiated contributions on what would need to change for them to go plant-based: both have landed on 'something internal' \u2014 awareness, willingness to engage, prioritisation \u2014 rather than external barriers. This is good data. However, Andrew, John, and Paul have not spoken in Section 4 at all. The section is at 801/850 words, essentially at its budget. The guide question has been answered with depth by Daniel and Nick but only by Daniel and Nick. The queued action from turn 23 flagged Paul specifically. The session is also essentially at time (44.9/45 minutes). Given the time constraint, I cannot both deepen with Paul and move to Section 5. I need to make a judgment call: Section 5 still needs to happen, and it has real research value. The right move is to acknowledge what's just happened \u2014 briefly, without over-synthesising \u2014 and use it as a bridge into Section 5. Paul, Andrew, and John can contribute there. If I try to open Section 4 further with Paul now, I will spend the remaining budget on Section 4 and never reach Section 5. The session is over time. Move to Section 5, using the thread Nick just opened (what would make it easier, what would make it more appealing) as the natural bridge.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_paul",
+        "rationale": "Paul has not spoken in Section 4 and is below group average. Section 5 opens a fresh question where he can contribute without being asked to recap missed ground.",
+        "condition": "Paul does not self-select within the first two turns of Section 5."
+      },
+      "intervention_mode": "speak",
+      "utterance": "That's a really honest place for both of you to land \u2014 knowing you're making the choice, and not pretending otherwise. I want to pick up something Nick said there, about people acting like you can't even think about it without being judged \u2014 because that points toward the next thing I wanted to ask. What might actually make plant-based foods more appealing \u2014 to you, or to the men you know? What would need to be different about the food itself, or how it's presented, or the context around it?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "timestamp": "2026-07-29T11:58:24.279309Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Daniel has given a genuinely useful, structured answer to Section 5's guide question. He's identified three distinct angles: (1) family meal integration as the real friction point, (2) quality plant-based options at the pub as a low-friction entry point, and (3) the meta-insight that the moment something requires active justification, it's already harder to do. This is specific, grounded in his own life, and advances the research question directly. The pub angle is particularly interesting because it echoes material from Section 1 (quality awareness develops passively through experience) \u2014 he's essentially saying the same mechanism that taught him to notice meat quality could work for plant-based food, if the quality is there. Nick and Paul both flagged wanting to respond to this question. Paul especially is below participation average and hasn't spoken since the transition. Daniel's answer is rich enough to pass to the group \u2014 the family integration point and the 'doesn't require justification' insight are both things others could respond to from their own experience. Nick wanted to talk about the eating experience; Paul wanted to talk about social permission and pub context \u2014 both are live in what Daniel just said. The right move is to let the group respond, not to probe Daniel further. He's given enough; passing to the group keeps momentum and brings in other voices, especially Paul.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_paul",
+        "rationale": "Paul flagged a specific hook about pub context and social permission \u2014 directly relevant to what Daniel just said. If Paul doesn't self-select within the next two turns, bring him in warmly.",
+        "condition": "Paul does not self-select within the next two participant turns."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 26,
+      "timestamp": "2026-07-29T11:59:03.285832Z",
+      "trigger": "contradiction_pending",
+      "situation_assessment": "Andrew has just given a substantive, well-articulated answer that advances the section guide question directly. He's built on Daniel's pub/quality framing and pushed it further: the real shift isn't about convincing men plant-based is better, it's about removing the categorical weight \u2014 making it 'unremarkable.' This is analytically useful and specific. It also connects to the deferred contradiction flagged at turn 17: Andrew says he doesn't judge men for going vegetarian, finds it 'off' that others do \u2014 but here he's essentially diagnosing why men get defensive ('they're worried it does mean something about you'). He's speaking about 'blokes like me' getting defensive, but he himself has consistently framed meat-eating as unquestioned default and vegetarianism as 'not appealing.' The contradiction is live and contextually appropriate now \u2014 he's actively theorising the social mechanics of the very thing he himself is doing. This is the right moment to surface it, gently, as genuine curiosity rather than challenge. Section 5 is at 351/900 words with 1/18 turns used \u2014 there's ample budget. Paul's participation imbalance is real but doesn't override surfacing this contradiction while Andrew is actively engaged on the exact relevant topic. The queued action on Paul can follow after this exchange. One clean reflection of the contradiction, framed as something worth understanding, not as an accusation.",
+      "action": "reflect_contradiction",
+      "target": "mm_fg3_andrew",
+      "probe_type": null,
+      "follow_up_intensity": "medium",
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_paul",
+        "rationale": "Paul is below participation average and hasn't spoken in Section 5. After Andrew responds to the contradiction probe, there's a natural opening to bring Paul in \u2014 his flagged hook about pub context and social permission is directly relevant to what's being discussed.",
+        "condition": "Paul does not self-select within the next two participant turns."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Andrew, can I just pick up on something? Earlier you said you find it 'off' when men judge others for going vegetarian \u2014 that it's not your thing but you don't care what other people eat. But just now you said blokes get defensive because they're worried choosing plant-based 'means something about them.' You're describing that dynamic from the outside, but you've also said meat-eating is just what you do, never really questioned \u2014 vegetarianism doesn't appeal. How do those two things sit together for you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "timestamp": "2026-07-29T12:07:32.915357Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "Andrew has just given a thoughtful, self-aware response to the contradiction probe. He's distinguished between his own untroubled meat-eating and the group-imposed anxiety he observes in others \u2014 positioning himself as outside the defensive dynamic rather than caught in it. It's a coherent answer on its own terms, but it's also a sophisticated deflection: he's resolved the tension by locating the problem entirely in 'the group' while maintaining that his own meat-eating is simply normal, unexamined, not-a-choice. The contradiction hasn't disappeared \u2014 it's been articulated more carefully. He's essentially saying: I don't need to defend it because it's the default, and that's precisely the dynamic Daniel and Nick were naming in Section 4. But pushing further on Andrew right now would be pressing the same contradiction harder after he's already given his answer \u2014 that risks becoming coercive rather than curious, and he's engaged honestly. The more productive move is to open this to the group, because what Andrew has just said \u2014 'I can recognise that dynamic without being caught in it myself' \u2014 is exactly the kind of claim other participants might respond to from their own experience. Nick in particular was flagged as wanting to engage with the social judgment thread, and Daniel's Section 4 framing about 'choosing not to think about it hard enough' sits in productive tension with Andrew's position. Section 5 is at 722/900 words, 2/18 turns \u2014 plenty of budget remains. Paul hasn't spoken yet in Section 5 and is below average. The right move is to redirect Andrew's answer to the group, which both extends the discussion and creates a natural opening for Paul and others. I'll echo Andrew's key distinction \u2014 'I can see the dynamic without being in it' \u2014 and invite others to respond to that from their own experience.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_paul",
+        "rationale": "Paul has not spoken in Section 5 and is below participation average. If he doesn't self-select in response to this redirect, bring him in warmly \u2014 his flagged hook about pub context and social permission is directly relevant to the Andrew/group-dynamic thread.",
+        "condition": "Paul does not self-select within the next two participant turns."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Andrew's drawing a distinction there \u2014 he's saying he can see that dynamic operating in a group without feeling like he's personally part of it, because for him meat-eating doesn't feel like a choice that needs defending in the first place. Does that land for the rest of you? Is that a position you recognise \u2014 being outside that anxiety while still watching it happen around you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 28,
+      "timestamp": "2026-07-29T12:08:17.222264Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "Daniel has just done something genuinely significant: he's retracted his earlier positioning as a knowing, outside observer and placed himself inside the anxiety he was diagnosing. This is the most honest self-examination of the session \u2014 he's distinguishing between Andrew's 'default-therefore-no-anxiety' position and his own 'I want plausible deniability' position, which he now names as still being caught in the dynamic, just obliquely. This directly advances Section 5's research question: it's revealing that the appeal of plant-based food for men like Daniel depends not just on quality or family fit, but on not having to own the choice \u2014 on it being so unremarkable that the decision disappears. That's a real finding. The emotional register is elevated: 'plausible deniability', 'I don't want it to feel like I'm making a statement', 'I'm still caught in it, I'm just trying to avoid noticing that I am.' These are not abstract claims \u2014 they're vulnerable, specific, and self-aware in a way that invites genuine response rather than analysis. Multiple participants flagged wanting to respond to exactly this territory: Nick wanted to push on the 'acknowledging you're choosing' distinction; John wanted to say something about whether meat-eaters need to examine their own normalcy; Paul wanted to talk about social permission. Daniel has essentially surfaced the ground all of them wanted to stand on. The right move here is to observe. Daniel has said something live and unresolved, the conversation was opened to the group by my last utterance, and the other participants have hooks ready. Intervening now would interrupt what should be a group moment \u2014 the last engagement round shows Daniel, Nick, John, and Paul all want to respond. Let the room have it.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_paul",
+        "rationale": "Paul has not spoken in Section 5 and flagged a specific hook about pub context and social permission \u2014 directly relevant to the 'plausible deniability' and unremarkability thread Daniel just opened. If he doesn't self-select in the next two participant turns, bring him in warmly.",
+        "condition": "Paul does not self-select within the next two participant turns."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 29,
+      "timestamp": "2026-07-29T12:09:01.623719Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Andrew has just given a clear, self-aware response to Daniel's implicit challenge. He's holding his ground \u2014 distinguishing between 'no anxiety because no consideration' versus 'anxiety about a choice you're actually weighing.' It's a coherent and honest position. The contradiction flagged at turn 17 was already surfaced and addressed in turn 26 \u2014 Andrew has now given his most complete articulation of it across two turns. Surfacing it again would be pressing something he's already engaged with honestly, which risks coercion rather than curiosity. The more productive question is what to do with the Andrew/Daniel distinction now that it's fully drawn. This is genuinely useful research material: two men, similar demographics, one describing meat-eating as truly unconsidered default (no anxiety because no choice), the other describing it as considered but seeking deniability. Nick, John, and Paul all have hooks ready to respond \u2014 Nick in particular flagged wanting to complicate the 'acknowledging you're outside it' framing. Section 5 word budget is well over (1281/900) but turn budget is only 4/18 used, and the session time estimate is already over 45 minutes (60 minutes estimated). I need to be honest about the budget: the section is over on words but the turn budget has room, and the material is live and substantive. Paul is at 3 turns vs group average 5.4 and hasn't spoken in Section 5 \u2014 this is now a real imbalance that should be addressed. The group has just produced a sharp, productive Andrew/Daniel contrast. The right move is to open this to the group \u2014 which naturally creates space for Paul and others \u2014 rather than probe Andrew further on a contradiction already addressed. A redirect to group is appropriate: echo the Andrew/Daniel distinction briefly and invite others, which creates Paul's opening without forcing it.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_paul",
+        "rationale": "Paul has not spoken in Section 5 and is below participation average. The Andrew/Daniel distinction \u2014 unconsidered default vs. considered-but-seeking-deniability \u2014 is directly relevant to his flagged hook about social permission and being 47 and suburban. If he doesn't self-select in the next two participant turns, bring him in warmly.",
+        "condition": "Paul does not self-select within the next two participant turns."
+      },
+      "intervention_mode": "speak",
+      "utterance": "So there's a distinction on the table now between two different positions \u2014 Andrew saying there's no anxiety because the question of going plant-based genuinely isn't live for him, and Daniel saying he's still in the anxiety but sideways, wanting the option without having to own it. Nick, John, Paul \u2014 does either of those feel closer to where you are?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "timestamp": "2026-07-29T12:09:38.184157Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "John has just done something valuable: placed himself clearly in the Daniel camp while articulating his own specific version of it. His distinction is subtle but real \u2014 he's not saying he's considering plant-based, he's saying he's aware he *could* consider it and is choosing not to, which he acknowledges is different from Andrew's 'not on the table at all.' The 'plausible deniability' phrase has now been owned by two participants independently (Daniel coined it, John is adopting it). The line 'I want it to stay as something I'm just not that interested in, rather than something I'm actively choosing against while knowing the reasons why' is the most precise articulation yet of the motivated incuriosity theme. The section guide question \u2014 what would make plant-based foods more appealing \u2014 has been answered in a specific and generative way: normalisation and unremarkability are the core appeal mechanism, not taste or nutrition arguments. The group has now produced a genuinely differentiated picture: Andrew (default, no question live), Daniel (aware, seeking deniability), John (aware he could consider it, choosing not to). Nick has spoken in the section already; Paul has not. Paul's flagged hook is directly relevant \u2014 he was going to talk about defensiveness so normalised it doesn't feel like defensiveness. The session is well over time (63+ min estimated vs 45 budgeted) and the word budget is significantly over (1615/900). With four of five participants having contributed substantively, Paul's silence is the most pressing issue. John's response has given Paul a natural opening \u2014 the Andrew/Daniel/John spectrum is now laid out, and Paul can place himself on it without pressure. The current guide question has been well answered. I should bring Paul in now, warmly and briefly, tied to the spectrum they've just drawn.",
+      "action": "reactivate_silent",
+      "target": "mm_fg3_paul",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section 5 is significantly over budget on both words and time. Once Paul has contributed, the section's core research question has been answered with sufficient depth and differentiation across all five participants. Move to closing.",
+        "condition": "Paul has responded and no new substantive thread opens that genuinely advances the guide question."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Paul, you've been quiet \u2014 where do you land on that? Andrew, Daniel, John have all put themselves somewhere on that spectrum. Does any of that map onto your experience?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "timestamp": "2026-07-29T12:10:00.977931Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Paul has now placed himself clearly on the spectrum \u2014 closer to Andrew's position of no active anxiety, meat-eating as unconsidered default \u2014 while adding a specific and distinct angle: he finds the masculinity-as-proof-of-eating-meat dynamic embarrassing and unnecessary. This is a genuine contribution, not just an echo of Andrew. The section's guide question (what would make plant-based foods more appealing) has now been addressed by all five participants, and the group has produced a genuinely differentiated picture: Andrew and Paul (default, no active question), Daniel and John (sideways anxiety, wanting plausible deniability), with Nick having contributed earlier. The 'plausible deniability' and 'unremarkability' themes are the section's core findings and have been well explored. The section is massively over budget on words (1904/900) and the session is significantly over time (66+ mins vs 45 budgeted). Nick is the one voice not yet heard in this final exchange \u2014 he contributed earlier in the section but hasn't spoken in this specific Andrew/Daniel/John/Paul thread. However, the section's guide question has been answered with sufficient depth and differentiation, and pursuing further turns would extend an already over-budget session without clear marginal research value. The right move is to close the section and move to the closing remarks, keeping the transition brief and warm.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Thanks Paul, that's helpful \u2014 and it does round out a pretty clear picture across the five of you. Okay, we've covered a lot of ground and we're over time, so let me bring us to a close. Before we finish \u2014 is there anything else any of you want to add, anything that came up for you today that didn't get said?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 32,
+      "timestamp": "2026-07-29T12:10:53.094106Z",
+      "trigger": null,
+      "situation_assessment": "Daniel has just given the session's most personally revealing contribution \u2014 connecting the abstract masculinity-meat link to his own behaviour in a way that's genuinely new. He's moved from 'I wanted the option without having to own the choice' to 'I benefit from the link existing because it lets me eat what I want without it being a statement.' That's a significant deepening. However, we are now in the closing section, the session is already 69 minutes into a 45-minute budget, and the closing guide question has been asked. The deferred contradiction note flags Daniel's turn 28 inconsistency \u2014 but Daniel has now resolved that contradiction himself, unprompted, in real time. Surfacing it formally now would be redundant and would extend an already over-budget session. The closing question has been asked; Daniel has added something significant to it. Nick, Andrew, John, and Paul all have hooks queued. The right move is to observe and let them respond if they want to, then close.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Daniel has resolved his own flagged contradiction unprompted. The closing question has been answered. Once any remaining participants who want to add something have had their turn, close the session warmly and briefly.",
+        "condition": "The group response cycle to Daniel's contribution completes without significant new material opening up."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "timestamp": "2026-07-29T12:11:26.119420Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Paul has just given a genuinely honest and precise contribution \u2014 distinguishing between noticing a pattern is daft and actually doing anything to push back against it. 'I can think it's daft and still benefit from it being there' is a clean, specific articulation that complements Daniel's turn and rounds out the closing section well. This follows Daniel's equally substantive contribution in turn 32. Both have added genuine value to the closing question. The session is already 71+ minutes into a 45-minute budget; the closing section is at 342/200 words on just 1/5 turns. The queued next action from turn 32 was to close the session once the group response cycle to Daniel's contribution completes without significant new material. Paul's response completes that cycle. Andrew has a hook queued but it flags wanting to 'push back on my own framing' \u2014 that's valuable self-awareness but not new enough material to warrant extending an already significantly over-budget session. Nick and John also have hooks. The risk of continuing is a polite but substantively thin round of affirmations rather than new insight. The right move is to close warmly, acknowledging what the group has produced without over-synthesising, and giving anyone who hasn't added something a very brief last word before releasing them.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "That's a really honest place to land \u2014 and it echoes something Daniel said too, about benefiting from the default without it being a decision you've consciously made. Right, I think that's a good moment to draw things to a close. Before I do \u2014 is there anything else, from anyone, that you felt like you didn't quite get to say today? About food, gender, plant-based eating, any of it. Completely open.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    }
+  ],
+  "transcript": [
+    {
+      "turn": 0,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Hi everyone, welcome and thanks so much for joining us today. My name's [Moderator], and for the next 45 minutes or so we're going to be having a conversation about food choices and opinions \u2014 the kind of everyday stuff: what you eat, where, with whom, how you think about it. It'll be recorded for research purposes, just so you know.\n\nA few things before we get going. This isn't an interview and there are genuinely no right or wrong answers \u2014 I'm not here to test you on anything or steer you toward a particular view. What I'm interested in is what you actually think and do, not what sounds reasonable in the abstract. So if something strikes you as true from your own experience, say it. If you disagree with something someone else says, that's great \u2014 push back, add to it, go in a different direction. You don't need to take turns or wait to be asked; just jump in when you've got something. The only thing I'd ask is to be respectful of each other and try to keep individual answers fairly brief so everyone gets space to speak.\n\nOkay, let's get started. Let's go around and say your name and where in the UK you're coming from today.",
+      "timestamp": "2026-07-29T11:45:57.622788+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 2,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah, I'm Andrew. I'm from the South East, suburb area. Been here a while now, just outside London really. That's me.",
+      "timestamp": "2026-07-29T11:46:19.595848+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 3,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Right, I'm Nick. North West, suburban area as well \u2014 so not too dissimilar to you Andrew, just the other end of the country really. Been here most of my life, so yeah, that's the gist of it.",
+      "timestamp": "2026-07-29T11:46:38.651445+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, I'm John, I'm from the South West \u2014 suburban area like you lot, so I know what you mean. It's interesting actually, because I think where you live does shape what you eat quite a bit. I mean, we've got decent access to farms and that sort of thing down here, which probably sounds a bit romantic, but it does mean you're more aware of where stuff comes from, you know? Not that I go to farmers markets every week or anything, but it's just... there. Whereas I imagine up in the North West or down from London, you're probably more reliant on the supermarkets, aren't you? Not in a bad way, just different.",
+      "timestamp": "2026-07-29T11:46:59.656372+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, I'd actually push back on that a bit, John. I mean, I'm East of here, suburbs like you lot, and we've got some really good local options actually. There's a decent farmers market not far from me, independent butchers, greengrocers \u2014 that sort of thing. It's not like we're all just orbiting Tesco, you know?\n\nI think maybe it's less about North versus South and more about... I don't know, whether you've got those shops nearby and whether you bother to find them. They're there if you look, anyway. At least where I am.",
+      "timestamp": "2026-07-29T11:47:21.975648+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Fair point, yeah. I didn't mean it like that \u2014 I wasn't saying you lot are all chained to the supermarket or anything. I think you're right, it's more about what you're used to and whether you actually go looking, isn't it? I mean, I've got independent shops near me too, but I'll be honest, I don't always use them. Just habit, really \u2014 you get your routine sorted and you stick with it. But the stuff is definitely there if you want it. I was probably making it more of a regional thing than it actually is.",
+      "timestamp": "2026-07-29T11:47:46.536025+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Paul, we haven't heard from you yet \u2014 whereabouts are you joining us from?",
+      "timestamp": "2026-07-29T11:47:46.536692+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "I'm Paul, South East as well \u2014 suburban area just like Andrew and Daniel. I'm with Daniel on this one, actually. I mean, yeah, there's the supermarket, that's your default, but if you want to find other stuff it's definitely there. There's an independent butcher near me I use fairly regularly, and it's not like I had to go searching \u2014 it was just... there. You walk past it. But you're right, John, it does come down to habit. I probably do most of my shopping at Tesco out of sheer convenience, if I'm honest. Easier to get everything in one go. But when I do go to the butcher I notice the difference, you know? Different quality, different cuts available. So it's there if you want it.",
+      "timestamp": "2026-07-29T11:48:00.902865+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Great, thanks everyone. So \u2014 favourite place to spend time with your male friends. Where do you actually end up, and why there?",
+      "timestamp": "2026-07-29T11:48:00.904092+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "The pub, really. That's where most of it happens. You can sit down, have a drink, chat without anyone expecting you to be doing anything else. It's low-key. I see the lads maybe once a week or so, and the pub's just the default. It's comfortable, you know? You don't have to plan much \u2014 you just meet up, grab a pint, and that's that. Some of us might grab food there too, depending on the pub, but honestly it's more about just being able to sit and talk without the background of life getting in the way.",
+      "timestamp": "2026-07-29T11:48:30.680735+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah, that's exactly it for me too. The pub's just... it's the thing, isn't it? I've got a couple I rotate through, places where I know the bar staff, where you can actually hear yourself talk. One's just down the road from me, does decent food if you want it, but mostly it's just the routine of it. Meet the lads, pint, catch up on stuff.\n\nThing is, I've been doing this for what, twenty-odd years now with some of these blokes? It's evolved a bit over time. I mean, when we were younger it was more about going out and getting hammered, but now it's quieter. You want to actually sit and have a conversation, especially at forty-five. You've got different things going on \u2014 kids, work stress, all of that \u2014 so the pub becomes a bit of a release, just having that space where you can talk without interruption.\n\nThe food side of it's interesting actually. Some of the pubs round here have really upped their game with what they do with meat \u2014 proper steaks, Sunday roasts, that sort of thing. I'll grab something if I'm hungry, but it's not the main event. It's more about the ritual of it, if that makes sense. The being there with your mates, in that familiar place.",
+      "timestamp": "2026-07-29T11:48:58.050995+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah, I know exactly what you mean. It's the same for me at forty-seven \u2014 you're not trying to prove anything anymore, are you? You just want to sit down and actually talk to someone without the phone going off or someone needing something from you. That's the value of it.\n\nAnd the food thing, yeah. I've noticed that too. There's a couple of pubs near me that have proper made an effort with what they're doing. Not just frozen stuff heated up. You can tell when someone's actually sourced decent meat and cooked it properly, versus just... you know, phoning it in. Doesn't have to be fancy, but there's a difference. And like you say, it's not why you're there, but it makes the whole experience better if it's done well. You're more inclined to stay longer, have another pint if the food's good and you're not sitting there regretting what you ate.",
+      "timestamp": "2026-07-29T11:49:27.991781+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Exactly, yeah. You notice it straight away when it's done properly. I went to one of the pubs I mentioned a while back, ordered a steak, and it was just... you could tell someone cared about where it came from. Not expensive or anything, just decent quality beef cooked right. Made a real difference to the evening.\n\nThing is, I think I've become more aware of that over the years without really trying to. When you're younger you just eat whatever, don't think about it much. But now, I don't know, you start to actually taste the difference between something that's been looked after and something that's just been... done. And once you've noticed it, you can't unknow it, can you? You go back somewhere and you think, yeah, this is fine, but it's not the same.\n\nI'm not going to pretend I'm checking where everything comes from or anything like that \u2014 I still do my shop at Tesco like everyone else. But when you do go to someone who's put the work in, whether that's the local butcher or a pub that's actually bothered, it just... it makes sense. You get what you're paying for. And that matters to me now more than it used to, if I'm being honest.",
+      "timestamp": "2026-07-29T11:50:02.913541+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That idea of noticing the difference and not being able to go back \u2014 I think that resonates with a few of you. Nick, what about you \u2014 where do you and your mates tend to end up?",
+      "timestamp": "2026-07-29T11:50:02.913879+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, the pub for me too. It's just the thing, isn't it? I've got a couple of spots I rotate through up here. One's literally five minutes from my house, so that's often the default just because it's easy. But there's another one a bit further out that's got a better atmosphere, better crowd, so we'll head there if we're making more of an evening of it.\n\nI'm with you lot on the ritual side of it \u2014 at forty you're not trying to impress anyone anymore. You just want to sit down with people you know and not have to think too hard about it. That's the appeal.\n\nThe food thing, yeah, I've noticed that too. I'm not obsessive about it or anything, but you do start to pick up on the difference between somewhere that's actually put thought into what they're serving and somewhere that just... hasn't. I mean, I eat meat most days \u2014 few times a week at least \u2014 so I notice when it's done properly versus when it's not. It's not like I'm seeking it out deliberately, but when you've had a decent steak or Sunday roast done right, you remember it. Makes you a bit more aware the next time you're ordering, you know?\n\nBut like you say, Andrew, I'm not going out of my way to source everything perfectly or anything daft like that. It's just... if I'm going to eat something, might as well be something decent if it's there.",
+      "timestamp": "2026-07-29T11:50:23.629508+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Sounds like the pub does a lot of work for all of you \u2014 the ease of it, the familiarity, the fact that you don't have to think too hard about it. Let's shift gears slightly. I want to talk about food itself \u2014 not just when you're out, but day to day. How do you actually decide what to eat? What's driving those choices?",
+      "timestamp": "2026-07-29T11:50:23.630613+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, look \u2014 I think I need to be a bit honest here. Because I was sort of implying earlier that I'm quite deliberate about where I shop and all that, but the truth is most of my day-to-day eating is just... easy, isn't it? Habit. I'll grab what's convenient, what's in the cupboard, what I know my family will eat without complaint.\n\nThe pub thing, yeah, I notice the quality there because you're sitting down, you've got time, you're paying attention. Someone's put effort in, it's a bit of an occasion. But at home? I'm probably throwing together a bit of chicken, some veg, done in twenty minutes because that's what fits around everything else. I'm not thinking about where the chicken came from or whether it's been looked after properly \u2014 I'm thinking about whether the kids will eat it and whether I can get it on the table before we're all hangry.\n\nSo when I pushed back about having good local options, that's true \u2014 they are there. But I'm not actually using them as much as I maybe made it sound. It's more just... they exist if I can be bothered, which most nights I'm not. Most of the time it's just whatever's easiest.",
+      "timestamp": "2026-07-29T11:51:00.729410+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, that's fair. I mean, that's most people, isn't it? I do the same thing. You've got work, you've got life happening, and you just want to get fed without making a big production out of it. I'm not \u2014 I don't know \u2014 I'm not some crusader about sourcing the perfect chicken or anything like that.\n\nBut I think there's a difference between that and... I don't know, feeling like you've failed because you're not doing it \"properly,\" you know? Like, you notice the difference when something's good, and that's a good thing. But most nights you're just trying to get dinner on the table, and that's fine too. It doesn't have to be either-or. You grab what works, and then maybe once a week you've got a bit more time or you're at the pub and you notice something's been done right. That's normal, isn't it? That's just... living.\n\nI think the convenience thing gets a bit of a hard time sometimes, when really it's just practical. You're not doing anything wrong by going to Tesco and grabbing chicken because it's there and it's quick.",
+      "timestamp": "2026-07-29T11:51:32.064217+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, I get what you're saying, and you're right that it's normal. But I think there's a difference between being practical and just... not thinking about it at all, if that makes sense? Like, I'm not saying I'm doing anything wrong \u2014 you're right, that's life. But I could make a different choice most nights and I don't. The butcher's there, it's not that far, and I could swing by on the way home. But I don't because it's easier not to.\n\nAnd that's fine, it's convenient, but I don't want to pretend that's just how things are. It's a choice I'm making, or more like a choice I'm not making because I can't be bothered. Which is fair enough, but it's not the same as saying there's no alternative or I'm doing the best I can with what's available. I've got options and I'm choosing the easy route most of the time.\n\nThe pub thing works because someone else has done the thinking for you \u2014 they've sourced it, cooked it, it's there. At home, if I wanted to do that I'd have to actually do something different. And mostly I don't.",
+      "timestamp": "2026-07-29T11:52:01.794202+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, okay, fair point. You're right \u2014 I was sort of trying to make it all sound fine, wasn't I? But what you're saying is different. You're saying you could do it and you choose not to, which is... that's honest, I think.\n\nI mean, I'm the same actually. I do most of my shopping at the supermarket because it's easy, and I know there's an independent butcher not far from me, but I don't really go. Not because I can't, just because I don't. It's a choice. And yeah, there's a difference between being busy and just... not bothering, you know? Being busy is what it is, but choosing not to bother is on you.\n\nThing is, I'm not sure that bothers me that much, to be honest. Like, I notice it when meat's done well, but I'm also fine with the supermarket version most of the time. It's not like I'm sacrificing something I really care about. Whereas you sound like maybe you do care a bit more about it \u2014 like you're noticing the gap between what you could do and what you are doing. Which is fair enough, but it's not necessarily a bad thing if you're just choosing convenience and you're okay with that.",
+      "timestamp": "2026-07-29T11:52:40.654925+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That distinction John just drew \u2014 busy versus not bothering \u2014 feels like it lands somewhere real. I want to move us on to something connected. You've all been talking about food choices as if they're pretty personal, practical, individual decisions. I'm curious whether being a man shapes any of that \u2014 whether gender comes into it at all, in how you decide what to eat, or what feels acceptable to eat. What do you all make of that?",
+      "timestamp": "2026-07-29T11:52:40.656177+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "I think it does, yeah. I mean, not in a way I'm thinking about constantly, but when you step back... there's definitely something there.\n\nLike, I eat meat most days \u2014 few times a week \u2014 and I don't think twice about it. But I notice when women I know talk about food, there's sometimes this guilt thing attached, isn't there? Calories, what they \"should\" be eating, whether something's indulgent. And then there's the opposite \u2014 I've got mates who won't eat salad without making a joke about it, you know? Like they have to announce it's not a real meal or something. Which is weird when you think about it.\n\nFor me personally, meat's just... it's part of how I eat. Not something I've decided on, it's just what I do. And I don't feel bad about it or defensive about it. I eat chicken, I eat beef, fish sometimes. It's normal to me. But I'm aware that's probably because nobody's ever made me feel like I should justify it or feel awkward about it. Whereas I think if you're a woman choosing to eat meat, there might be more... I don't know, commentary? And then if you're a bloke choosing not to, there's this whole other thing that gets attached to it, isn't there?\n\nI've never really thought about going vegetarian or anything like that \u2014 it doesn't appeal to me \u2014 but I wouldn't judge someone for doing it. The fact that people do seem to judge, especially if it's a man... that feels off to me, if I'm being honest. Like, what's that about?",
+      "timestamp": "2026-07-29T11:53:26.016275+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Andrew's picked up on something interesting there \u2014 this idea that being a bloke who doesn't eat meat brings a different kind of social weight to it. Does that land for anyone else? Or does it feel different from your experience?",
+      "timestamp": "2026-07-29T11:53:26.017299+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, I'd say that's real. I mean, I've definitely seen it \u2014 bloke says he's vegetarian or he doesn't eat red meat, and there's this... I don't know, this immediate thing that happens. Someone'll make a comment, or there's this bit of piss-taking that goes beyond just banter, you know? It's got a different edge to it.\n\nI think part of it is the whole idea that meat-eating gets tied up with being a man in this weird way. Like it's supposed to be normal and unquestioned, and if you're not doing it, there's this assumption that something's... off. Which is daft when you actually think about it. But it's there.\n\nI've got friends who've gone vegetarian, and I've watched the reaction from other blokes \u2014 it's not just gentle ribbing, it's like they're making some kind of statement, you know? Even if they're just saying they don't fancy meat anymore. The lads treat it like they've made some weird choice that needs explaining or defending.\n\nWhereas for me, eating meat \u2014 nobody cares. Nobody needs to know why, it's just what I do. It's the default, so it doesn't need justifying. But flip it around and suddenly it does. That's the thing that gets me \u2014 it's not actually about the food, it's about this weird masculine thing that's got attached to it, and I think that's... I mean, that's just silly, isn't it? If someone doesn't want to eat meat, that's their choice. It shouldn't be a thing.",
+      "timestamp": "2026-07-29T11:53:58.862616+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah, and I think what's underneath it \u2014 what I've noticed anyway \u2014 is that it's not really about the food at all. It's about control, isn't it? Or proving something. Like, if a bloke says he's not eating meat, some lads take it as a challenge to their... I don't know, their territory or something. \n\nI've got a mate, been vegetarian for maybe five years now, and the first time he said it there was this whole thing \u2014 jokes about him being weak, needing his protein, all that. But here's the thing: he's a bigger bloke than most of us, plays rugby, genuinely doesn't care what anyone thinks. And over time the piss-taking just... died away, because he wasn't bothered by it. He wasn't defending himself or getting wound up about it. It was just what he ate.\n\nBut I think what gets the reaction in the first place is that when someone steps outside what's expected \u2014 what feels normal to everyone else \u2014 there's this instinct to push back. To reassert the thing that's supposed to be normal. And yeah, that's tied up with masculinity somehow, but it's more about the group, I reckon. It's like, \"we do this, that's who we are, and if you're not doing it you're saying something about us.\"\n\nWhich is daft, like Nick says. But it's real. And I think that's why I wouldn't bat an eye at a mate going vegetarian now \u2014 I'm old enough not to care about that sort of thing. But I get why younger blokes might give someone grief over it. Doesn't make it right, but I understand where it's coming from.",
+      "timestamp": "2026-07-29T11:54:30.986992+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, that's exactly it. Your mate playing rugby \u2014 that's the thing right there. He's not bothered defending it, so there's nothing to push against. The piss-taking only works if it lands, doesn't it?\n\nI think that's the bit that actually bothers me more, if I'm honest. It's not the fact that blokes eat meat or don't eat meat \u2014 that's neither here nor there. It's this idea that you have to defend it, or that there's some kind of... test you have to pass to prove you're still one of the lads or whatever. That feels immature, you know? Like, we're not kids anymore.\n\nAnd I've seen it go the other way too, up here especially. There's this thing where if you're not eating a full cooked breakfast or you're having a salad, you get comments. Not aggressive necessarily, but it's there \u2014 this assumption that you're doing something a bit soft. And it's just food, isn't it? It doesn't say anything about who you are.\n\nThe thing Andrew said about territory \u2014 I reckon that's spot on. It's not really about the vegetarianism itself, it's about someone doing something different and the group going, \"No, this is how we do things.\" Which is... I mean, that's just insecurity dressed up as banter, really. And once you're past that \u2014 once you're forty, you've got your own life sorted, you don't need to prove anything \u2014 you just don't care. You eat what you want and nobody makes it weird. Except some people still do, which is the odd bit.",
+      "timestamp": "2026-07-29T11:55:12.351753+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That phrase \u2014 insecurity dressed up as banter \u2014 that's a good one. Okay, so there's something real here about men and meat as this unquestioned default, and what happens socially when someone steps outside it. Let's take that somewhere more personal. Imagine you actually decided to go plant-based \u2014 properly, not just trying a veggie burger once. What would actually need to change in your life for that to work? What would it cost you?",
+      "timestamp": "2026-07-29T11:55:12.352296+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Right, okay \u2014 honestly? Time. That's the biggest thing for me. Because I'd have to think about it, wouldn't I? Every meal, I'd have to think. Whereas now, chicken, bit of veg, done. I don't have to plan it. I don't have to wonder if I'm getting enough protein or whatever, I just... eat.\n\nAnd my family. My wife's not vegetarian, the kids aren't. So I'd either be cooking two different things or I'd be trying to convince them all to eat something different, and that's friction I don't need. It's easier to just eat what everyone else is eating.\n\nBut the thing is \u2014 and this is what gets me \u2014 if I'm being honest, that's not really a barrier, is it? That's just me choosing not to do it because it would be inconvenient. I could learn to cook different meals, I could figure out the protein thing. It's not hard, people do it all the time. I just... don't want to.\n\nAnd I think that matters to say out loud, because it's different from saying I can't do it. I'm choosing not to because the comfort of not thinking about it \u2014 not having to plan, not having to deal with the family dynamic, not having to explain or defend it \u2014 that's worth more to me than whatever reason I might have for actually doing it. Which is fair enough, but that's what it actually is.",
+      "timestamp": "2026-07-29T11:55:53.441009+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, but hold on \u2014 I think you're being a bit hard on yourself there, Daniel. Because there's a difference between \"I can't be bothered\" and \"this isn't actually a priority for me,\" and I'm not sure you're making that distinction clear.\n\nLike, yeah, you could figure out plant-based meals. People do. But that doesn't mean you should have to, or that it's some moral failing because you haven't. You eat meat, your family eats meat, it works. That's not laziness, that's just... your actual life, you know? That's what makes sense for you.\n\nI think sometimes when you step back and start analyzing your own choices like that, you can end up making yourself sound worse than you actually are. \"I'm just choosing comfort\" \u2014 well, yeah, but so what? Most people are. Most people eat what's familiar and works for their life. That's not some character flaw, that's just normal.\n\nThe thing you said earlier about not bothering to go to the butcher \u2014 that's different though. That's about noticing something's good and choosing the easy option instead. But deciding you're not going to completely restructure your eating because it works fine the way it is? That's not the same thing. That's just... a reasonable choice.\n\nI eat meat most days because I like it, it's familiar, and I don't have a reason to stop. I'm not going to beat myself up about it. And I don't think you should either, if that's where you actually land.",
+      "timestamp": "2026-07-29T11:56:27.431081+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "No, I hear you, Nick \u2014 and I appreciate that. But I'm not sure I agree with myself, if that makes sense. Because I think there's something I'm dodging here.\n\nLike, you're right that most people eat what's familiar. But I do know \u2014 we all know \u2014 that there are reasons to think about this stuff. Environmental reasons, animal welfare reasons, health reasons if you want to get into it. I'm not stupid, I'm not unaware of any of that. I just choose not to engage with it because it's easier not to.\n\nAnd yeah, that's normal. But I'm not sure that makes it... fine, you know? I think I can acknowledge that I'm making a choice for comfort and convenience, and that there are real reasons why maybe I shouldn't be, and both of those things can be true at the same time.\n\nI'm not saying I'm a bad person for eating meat. But I also don't think I should let myself off the hook by saying it's just normal and reasonable and not a big deal. Because on some level, I know it is a deal, I just don't want to think about it hard enough to actually do something different.\n\nThat's different from saying I'm failing morally \u2014 I'm just saying I'm aware I'm making the easier choice, and I'm choosing comfort over... whatever the alternative consideration would be. And that's fine, that's what I'm doing. But I don't want to pretend it's not what I'm doing.",
+      "timestamp": "2026-07-29T11:57:02.327855+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah. Fair enough. I... yeah, I get that.\n\nYou're right. I was doing the thing you're refusing to do \u2014 just kind of... letting it slide. Making it sound simpler than it actually is.\n\nBecause you're right, we all know. You see the stuff about where meat comes from, you know about the environmental thing, you know about animals. And I do eat meat most days \u2014 I genuinely like it, it's familiar, I'd miss it. But that's not the same as saying I haven't thought about any of that or that it doesn't matter. I have, and it does. I just... I choose to eat meat anyway because I want to, not because I've somehow concluded there's no good reason to think about it.\n\nAnd that's different from what you're saying, but it's also... I don't know. It's in the same ballpark, isn't it? You're choosing comfort over engagement. I'm choosing something I actually want over changing how I eat. But both of us know we're making that choice. We're not pretending it's just neutral or unthinking.\n\nI think what gets me is when people act like it's just completely normal and there's nothing to even consider. That's the thing that bothers me \u2014 not people eating meat, but people eating meat and then acting like anyone who questions it is being weird or extreme or whatever. Like you can't even think about it without being judged.\n\nBut yeah, you're right. Acknowledging you're making a choice and why \u2014 that's different from just saying \"everyone does it, it's fine.\"",
+      "timestamp": "2026-07-29T11:57:43.519065+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a really honest place for both of you to land \u2014 knowing you're making the choice, and not pretending otherwise. I want to pick up something Nick said there, about people acting like you can't even think about it without being judged \u2014 because that points toward the next thing I wanted to ask. What might actually make plant-based foods more appealing \u2014 to you, or to the men you know? What would need to be different about the food itself, or how it's presented, or the context around it?",
+      "timestamp": "2026-07-29T11:57:43.519562+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "I think for me it's got to work with my family, right? So it can't be this thing where I'm eating something completely different from everyone else every night. That's just... it doesn't work practically.\n\nBut if I could find something that everyone would actually eat \u2014 my wife included, the kids \u2014 and it didn't feel like I was cooking two meals or making a big production out of it, then maybe that shifts things. Because right now the barrier isn't really the plant-based food itself, it's that I'd have to restructure how we eat as a household. That's the friction.\n\nThe pub thing's interesting too, actually. Because if I went to the pub and there was something plant-based done really well \u2014 not some token salad, but something that's actually been thought about, cooked properly, tastes good \u2014 I'd order it. Not because I'm trying to make a statement, just because if it's there and it's good, why not? That's how I noticed the quality of the meat in the first place.\n\nSo maybe it's that. Less about convincing me plant-based is better or more ethical \u2014 I already know the arguments \u2014 and more about making it an actual option that fits into how people actually live. Family meals that don't require separate cooking. Pubs that do it well alongside the meat options, not instead of them. Something that just... exists in the normal flow of things rather than being this alternative you have to opt into and then explain.\n\nBecause the moment it becomes something you have to decide about or justify, it's already harder.",
+      "timestamp": "2026-07-29T11:58:24.278209+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah, that's the thing though \u2014 and I think this is what Daniel's getting at but maybe hasn't quite said \u2014 it stops being about plant-based at that point, doesn't it? It becomes just... food that's been done well.\n\nI mean, I eat meat most days and I like it. Not apologizing for that. But when we're talking about what would actually shift things, I don't think it's about convincing blokes like me that plant-based is better. That's not going to work. It's about the quality thing that Daniel mentioned \u2014 the butcher, the pub that's put thought into it.\n\nBecause here's what I've noticed: once you've had something done properly, you want it again. You notice the difference. And I reckon if plant-based stuff was cooked with that same care \u2014 not as some moral alternative, just as food that someone's bothered with \u2014 people would eat it without making it into a thing.\n\nThe pub example is spot on. You go in, there's a good steak, there's a decent bit of fish, and there's also a plant-based meal that's been done right. You're not choosing it because you're trying to prove something or save the planet. You're choosing it because it looks good and tastes good. That's it.\n\nI think the problem right now is it gets framed as this choice you have to make \u2014 meat or plant-based \u2014 like it means something about you. And then blokes get defensive because they're worried it does mean something, or they worry they'll get judged for trying something different. But if it's just... normal food that happens to be good, I don't think anyone cares.\n\nThat's what needs to shift, maybe. Not convincing people plant-based is right, but making it just... normal. Unremarkable.",
+      "timestamp": "2026-07-29T11:59:03.285101+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Andrew, can I just pick up on something? Earlier you said you find it 'off' when men judge others for going vegetarian \u2014 that it's not your thing but you don't care what other people eat. But just now you said blokes get defensive because they're worried choosing plant-based 'means something about them.' You're describing that dynamic from the outside, but you've also said meat-eating is just what you do, never really questioned \u2014 vegetarianism doesn't appeal. How do those two things sit together for you?",
+      "timestamp": "2026-07-29T11:59:03.285894+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "That's a fair question, actually. I mean... I think they do sit together, but maybe not in the way you're asking.\n\nLike, I'm not defensive about my own meat-eating. I eat it because I like it and it's what I do \u2014 I'm not worried that choosing it means something about me, because it doesn't really feel like a choice. It's just normal to me. So there's no anxiety there that I'm having to prove anything.\n\nBut that doesn't mean I don't see the anxiety in other blokes when the roles are reversed. Because it's real. You watch a mate say he's gone vegetarian and suddenly there's this thing \u2014 and it's not coming from him necessarily, it's coming from the group. And that's what I find off. Not my defensiveness, but theirs.\n\nI guess what I'm saying is, I can recognize that dynamic without being caught in it myself. I'm not worried about what my meat-eating means. But I can see why someone else might be worried about what their non-meat-eating means, because the group makes it mean something. And that bothers me \u2014 not because I'm conflicted about my own choices, but because it's unnecessary, you know? It shouldn't have to be a thing.\n\nI'm not torn about eating meat. I'm not questioning it. But I also don't think anyone should have to question or defend what they eat, regardless of what it is. That's the disconnect, if there is one \u2014 not in me, but in how we treat it as a group.",
+      "timestamp": "2026-07-29T12:07:32.914036+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Andrew's drawing a distinction there \u2014 he's saying he can see that dynamic operating in a group without feeling like he's personally part of it, because for him meat-eating doesn't feel like a choice that needs defending in the first place. Does that land for the rest of you? Is that a position you recognise \u2014 being outside that anxiety while still watching it happen around you?",
+      "timestamp": "2026-07-29T12:07:32.915486+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "I don't know if I can quite claim that, to be honest. Because I've been sitting here saying I'm making a choice and I'm aware of it, but I'm not sure I'm actually as outside it as Andrew's managing to be.\n\nLike, when I said earlier that plant-based would need to fit into my family meals, and that the pub thing would only work if it was just... normal food \u2014 I think I was doing something similar to what Andrew's doing. I was framing it as practical barriers, which they are. But underneath that, there's also this thing where I don't want it to feel like I'm making a statement, or making a change. I want plausible deniability, almost \u2014 the option to be there without having to own it as a choice I'm making.\n\nAnd that's not the same as being outside the anxiety. That's actually being in it, just sideways. Andrew can say he eats meat and doesn't worry about what it means because it's just default for him. But when I'm talking about how plant-based would have to work, I'm kind of... I'm still worried about what it means? Or at least I want to avoid having to think about that. I want it to just be food, not a decision.\n\nWhich is fair enough, but it's not the same as standing outside the whole dynamic. I'm still caught in it, I'm just trying to avoid noticing that I am.",
+      "timestamp": "2026-07-29T12:08:17.221514+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah, okay \u2014 I hear what you're saying. And I think you're right about yourself there. But I'm not sure it's the same thing for me, and I want to be straight about that rather than just let it slide.\n\nBecause there's a difference between being outside the anxiety and being unaware of it, and I'm not sure you're making that distinction clear. What you're describing \u2014 wanting plausible deniability, not wanting it to feel like a statement \u2014 that's anxiety about a choice you're actually considering. You're thinking about plant-based, you're imagining it, so of course there's this sideways worry about what it means if you do it.\n\nFor me, I'm genuinely not considering it. I'm not thinking, \"What would it mean if I went vegetarian?\" I'm not imagining it as an option and then looking for ways to do it without it meaning something. It's just not on the table. It doesn't appeal to me. So there's no anxiety to manage because there's no choice to worry about.\n\nI'm not being clever or somehow more emotionally advanced \u2014 it's just that the anxiety only kicks in when you're actually contemplating something different. And I'm not. So for me, meat-eating doesn't feel like a choice I'm defending. It's not even a choice I'm making. It's just what I do.\n\nBut I take your point that I can see it happening around me without being caught in it. That part's true. I'm not in the group dynamic that's making it weird for someone else. But that's not because I'm standing outside the whole thing \u2014 it's because I'm not actually questioning my own eating. So there's no anxiety to perform.",
+      "timestamp": "2026-07-29T12:09:01.623088+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So there's a distinction on the table now between two different positions \u2014 Andrew saying there's no anxiety because the question of going plant-based genuinely isn't live for him, and Daniel saying he's still in the anxiety but sideways, wanting the option without having to own it. Nick, John, Paul \u2014 does either of those feel closer to where you are?",
+      "timestamp": "2026-07-29T12:09:01.623775+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "I think I'm actually more like Daniel than I want to admit, if I'm being honest. \n\nI mean, I eat meat most days \u2014 that's just my default, like Andrew's saying. Doesn't feel like a choice, it's just what I do. But when this conversation started and people were talking about going plant-based or the options being there, something did ping for me. Not like I'm thinking about actually doing it, but more... I'm aware I could think about it, and I'm choosing not to. Which is different from Andrew's thing where it's just not on the table at all.\n\nSo yeah, there's a bit of sideways anxiety there. I want meat to stay normal and unquestioned, and I think part of that is because if I actually sat down and properly considered it, I'd probably feel like I should have a better answer than just \"I like it and can't be bothered.\" Which is the answer, honestly. But I don't want to have to say it out loud and own it like that.\n\nDaniel's right about the plausible deniability thing. If plant-based stuff was just... there, and good, I'd eat it without it being a thing. But I also don't want to have to think too hard about why I'm not choosing it most of the time. I want it to stay as something I'm just not that interested in, rather than something I'm actively choosing against while knowing the reasons why.\n\nThat's not as clean as Andrew's position. But I think it's more honest about where I actually am.",
+      "timestamp": "2026-07-29T12:09:38.183461+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Paul, you've been quiet \u2014 where do you land on that? Andrew, Daniel, John have all put themselves somewhere on that spectrum. Does any of that map onto your experience?",
+      "timestamp": "2026-07-29T12:09:38.184224+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "I think I'm closer to Andrew, actually. I don't really feel like I'm wrestling with it. I eat meat because I like it \u2014 I notice the quality at the butcher, I prefer a proper steak to something frozen, I enjoy that. But I'm not sitting around thinking about whether I should go vegetarian or feeling like I need to justify why I'm not. It's just not a thing for me.\n\nWhat does wind me up, though \u2014 and maybe this is what you're getting at with the anxiety thing \u2014 is when the whole masculinity thing gets dragged into it. Like, the idea that eating meat is supposed to prove something, or that if you don't eat meat you're somehow less of a bloke. That's the bit I find embarrassing, to be honest. It's a weird pattern and I notice it happening, and it bothers me that people feel like they have to make it mean something.\n\nBut my own eating? No, I'm not anxious about that. I like meat, I eat it, that's it. I'm not defending it because I don't feel like I need to.",
+      "timestamp": "2026-07-29T12:10:00.977648+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Thanks Paul, that's helpful \u2014 and it does round out a pretty clear picture across the five of you. Okay, we've covered a lot of ground and we're over time, so let me bring us to a close. Before we finish \u2014 is there anything else any of you want to add, anything that came up for you today that didn't get said?",
+      "timestamp": "2026-07-29T12:10:00.977970+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, actually \u2014 I want to pick up on what Paul just said about the masculinity thing, because that's worth saying out loud too.\n\nBecause I've been talking about my own choices and the comfort thing, but there's also this other layer underneath it, isn't there? Which is the whole idea that meat-eating is supposed to be normal for a bloke, and questioning it or stepping outside it means something. And Paul's right \u2014 that's embarrassing. It's a weird performance.\n\nAnd I think that's actually part of why I don't want to think too hard about plant-based, if I'm being completely honest. Because it's not just about the practical inconvenience or the family thing. There's also this... I don't know, low-level sense that choosing something else would be stepping outside what's expected. Not in a way that would get me piss-taken for \u2014 I'm old enough that wouldn't happen. But in a way where I'd have to acknowledge I was making a choice about it, and that choice would mean something.\n\nWhereas if I just eat meat and don't think about it, I'm not performing anything. I'm just doing the default thing. And that feels easier than having to own a different choice and potentially having it mean something \u2014 about me, about being a bloke, whatever.\n\nSo I think what Paul's calling out \u2014 that the masculinity-meat link is a thing and it's weird \u2014 that's actually operating on me too, even if I'm not conscious of it most of the time. I'm benefiting from that link existing, in a way. I get to eat what I want without it being a statement. And maybe that's part of why I'm not that bothered to change it.",
+      "timestamp": "2026-07-29T12:10:53.093507+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah, that's fair. I mean \u2014 when you put it like that, I'm benefiting from it too, aren't I? I said it bothers me, the whole masculinity thing, but I'm not exactly fighting against it. I'm just... not thinking about it too hard, same as you're saying.\n\nBecause you're right \u2014 I don't have to own my choices the way someone would if they went vegetarian or started making different decisions. I just eat what I eat and nobody makes it weird. Nobody needs an explanation. That's comfortable, and I'm not actually doing anything to push back against the pattern that makes it comfortable. I'm just... not being the one who steps outside it.\n\nSo when I said it was embarrassing, I think what I meant was more like \u2014 I notice it's a stupid way for us to all operate, and I don't like seeing blokes give someone grief over it. But I'm not sure I'm actually bothered enough by it to do anything different myself. Which is a different thing, isn't it? I can think it's daft and still benefit from it being there.",
+      "timestamp": "2026-07-29T12:11:26.118791+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a really honest place to land \u2014 and it echoes something Daniel said too, about benefiting from the default without it being a decision you've consciously made. Right, I think that's a good moment to draw things to a close. Before I do \u2014 is there anything else, from anyone, that you felt like you didn't quite get to say today? About food, gender, plant-based eating, any of it. Completely open.",
+      "timestamp": "2026-07-29T12:11:26.119497+00:00",
+      "selection_mode": "moderator_intervention"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+ "cache_key": "f35833b273e9fe24c8f9535d8ad855bd2757117ebf89be83988822666b0a0fd0",
+ "computed_utc": "2026-07-31T00:24:58.181194+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/to8xlhi19eohi33n4kb6vuyexr1a1b89ndws",
+ "custom_request_key": "human_fg4",
+ "input": {
+  "side": "human",
+  "fg": "fg4",
+  "condition": "human",
+  "path": "data\\datasets_transcripts\\standardized\\macho_meals\\fg4\\transcript.json",
+  "sha256": "2b8517ebef1009349ad4848239297f2e9836dffda7be66a99852bec32ec87e54",
+  "physical_run": null,
+  "canonical_replication_index": null
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "c9945dbda3dbf62e5c73b838eb138d9ead17ead355fe2418f31966aeb72aab7f",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 5952,
+  "candidates_tokens": 1498,
+  "total_tokens": 14770,
+  "thoughts_tokens": 7320,
+  "cached_tokens": null,
+  "raw_text_chars": 5109,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 5952,
+  "candidates_tokens": 1498,
+  "total_tokens": 14770,
+  "thoughts_tokens": 7320,
+  "cached_tokens": null,
+  "raw_text_chars": 5109,
+  "parse_attempt": 1,
+  "headroom_tokens": 14886
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T019",
+      "speaker": "Participant 2",
+      "quote": "I don't think so, I don't really understanding how it would. I don't think it would make, makes any difference whatsoever."
+     },
+     {
+      "turn_id": "T022",
+      "speaker": "Participant 1",
+      "quote": "I don't see the gender side of things at all, no."
+     },
+     {
+      "turn_id": "T021",
+      "speaker": "Participant 3",
+      "quote": "I don't really think that it influences what I might eat."
+     }
+    ],
+    "evidence_note": "Participants 1, 2, and 3 all explicitly state that they do not believe gender has any influence or association with the food they choose to eat.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T035",
+      "speaker": "Participant 3",
+      "quote": "protein is a good thing. And meat is a good way of consuming it."
+     }
+    ],
+    "evidence_note": "Participant 3 discusses eating meat as a necessary and good way to consume protein to support his health and fitness.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 3"
+    ],
+    "reach": 0.3333333333333333
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T030",
+      "speaker": "Participant 1",
+      "quote": "processed meats, the kind of the bacons and the salamis and all of that sort of thing, which I absolutely adore."
+     },
+     {
+      "turn_id": "T035",
+      "speaker": "Participant 3",
+      "quote": "It's great that it tastes really nice."
+     }
+    ],
+    "evidence_note": "Participants 1 and 3 discuss how tasty and enjoyable animal products like meat and bacon are.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 3"
+    ],
+    "reach": 0.6666666666666666
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T036",
+      "speaker": "Participant 1",
+      "quote": "loaded with with with sugars and salts and fats that don't actually make them any healthier for me."
+     },
+     {
+      "turn_id": "T039",
+      "speaker": "Participant 2",
+      "quote": "leaving out sort of the salt and the additives and all that."
+     },
+     {
+      "turn_id": "T027",
+      "speaker": "Participant 3",
+      "quote": "those sort of kind of fake burgers and fake bleeding, it's almost, it's just trying a bit too hard."
+     }
+    ],
+    "evidence_note": "Participants 1, 2, and 3 discuss the unnaturalness of processed plant-based products, highlighting additives, sugars, salts, and simulated 'fake' attributes.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T025",
+      "speaker": "Participant 2",
+      "quote": "they've just, they've just not tasted as good."
+     },
+     {
+      "turn_id": "T036",
+      "speaker": "Participant 1",
+      "quote": "was this kind of plant based bacon. And it was just awful."
+     }
+    ],
+    "evidence_note": "Participants 1 and 2 express that the plant-based substitutes they have tried did not taste good or were unpleasant.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2"
+    ],
+    "reach": 0.6666666666666666
+   },
+   {
+    "subtheme_id": "D",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T026",
+      "speaker": "Participant 1",
+      "quote": "It would need to be something quite drastic, I think. It would probably have to be something medical."
+     },
+     {
+      "turn_id": "T027",
+      "speaker": "Participant 3",
+      "quote": "it'd need to be a pretty big, I'd need the doctor to tell me you’ve got six months."
+     },
+     {
+      "turn_id": "T031",
+      "speaker": "Participant 2",
+      "quote": "If it were something that affected your health, that will certainly make you want to change it."
+     }
+    ],
+    "evidence_note": "Participants 1, 2, and 3 discuss the extreme circumstances (namely drastic medical diagnoses) that would have to occur for them to adopt a fully plant-based diet.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3"
+    ],
+    "reach": 1.0
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 14,
+  "verified_quotes": 14,
+  "total_present_codes": 6,
+  "verified_codes": 6,
+  "demoted_codes": 0
+ }
+}

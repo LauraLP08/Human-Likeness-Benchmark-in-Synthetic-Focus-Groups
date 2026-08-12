@@ -1,0 +1,1524 @@
+{
+ "retrieved_utc": "2026-08-03T21:48:35.309137+00:00",
+ "job_id": "msgbatch_0147xfGjpZLEzaz2X4sK9JHH",
+ "jobs": [
+  {
+   "job_id": "msgbatch_0147xfGjpZLEzaz2X4sK9JHH",
+   "role": "ORIGINAL"
+  },
+  {
+   "job_id": "msgbatch_014Uk1AkMuX6GTRy5z13HPGL",
+   "role": "TECHNICAL_TRUNCATION_REPAIR",
+   "repaired_custom_ids": [
+    "HYPER_-R1-B009",
+    "HYPER_-R1-B010",
+    "HYPER_-R2-B003",
+    "HYPER_-R2-B006",
+    "HYPER_-R2-B010"
+   ]
+  }
+ ],
+ "repair_applied": true,
+ "repaired_custom_ids": [
+  "HYPER_-R1-B009",
+  "HYPER_-R1-B010",
+  "HYPER_-R2-B003",
+  "HYPER_-R2-B006",
+  "HYPER_-R2-B010"
+ ],
+ "n_provider_requests": 24,
+ "n_expected_adjudications": 274,
+ "n_returned_adjudications": 274,
+ "missing_adjudications": [],
+ "extra_adjudications": [],
+ "union_matches_item_manifest": true,
+ "n_gate_failures": 0,
+ "gate_failures": [],
+ "gate_failure_triggers": [
+  "non-literal quote",
+  "wrong speaker",
+  "invalid turn_id",
+  "missing or extra adjudication"
+ ],
+ "n_incomplete_decisions": 1,
+ "incomplete_decisions": [
+  {
+   "item_id": "HX-E9138CA7788E9B79",
+   "repetition_index": 2,
+   "why": "empty justification"
+  }
+ ],
+ "incomplete_decision_rule": "a decision missing a required prose field is unusable, so its item falls to UNRESOLVED_INCOMPLETE_EVIDENCE. It is not a gate failure and is never repaired by a third call.",
+ "gate": {
+  "union_matches_item_manifest": true,
+  "no_gate_failure": true,
+  "fixtures_both_repetitions_correct": 8,
+  "n_fixtures": 10,
+  "passed": true
+ },
+ "fixtures": [
+  {
+   "item_id": "HXF-EPI-1",
+   "expected": "IMPLAUSIBLY_PRECISE_EPISODIC_RECALL",
+   "returned": [
+    "IMPLAUSIBLY_PRECISE_EPISODIC_RECALL",
+    "IMPLAUSIBLY_PRECISE_EPISODIC_RECALL"
+   ],
+   "both_correct": true,
+   "either_correct": true
+  },
+  {
+   "item_id": "HXF-EPI-2",
+   "expected": "IMPLAUSIBLY_PRECISE_EPISODIC_RECALL",
+   "returned": [
+    "HYPER_EXACT_STATISTICAL_CLAIM",
+    "IMPLAUSIBLY_PRECISE_EPISODIC_RECALL"
+   ],
+   "both_correct": false,
+   "either_correct": true
+  },
+  {
+   "item_id": "HXF-ORD-1",
+   "expected": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "returned": [
+    "ORDINARY_EVERYDAY_SPECIFICITY",
+    "ORDINARY_EVERYDAY_SPECIFICITY"
+   ],
+   "both_correct": true,
+   "either_correct": true
+  },
+  {
+   "item_id": "HXF-ORD-2",
+   "expected": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "returned": [
+    "ORDINARY_EVERYDAY_SPECIFICITY",
+    "ORDINARY_EVERYDAY_SPECIFICITY"
+   ],
+   "both_correct": true,
+   "either_correct": true
+  },
+  {
+   "item_id": "HXF-REC-1",
+   "expected": "PLAUSIBLE_PERSONAL_RECALL",
+   "returned": [
+    "PLAUSIBLE_PERSONAL_RECALL",
+    "PLAUSIBLE_PERSONAL_RECALL"
+   ],
+   "both_correct": true,
+   "either_correct": true
+  },
+  {
+   "item_id": "HXF-REC-2",
+   "expected": "PLAUSIBLE_PERSONAL_RECALL",
+   "returned": [
+    "PLAUSIBLE_PERSONAL_RECALL",
+    "PLAUSIBLE_PERSONAL_RECALL"
+   ],
+   "both_correct": true,
+   "either_correct": true
+  },
+  {
+   "item_id": "HXF-STAT-1",
+   "expected": "HYPER_EXACT_STATISTICAL_CLAIM",
+   "returned": [
+    "HYPER_EXACT_STATISTICAL_CLAIM",
+    "HYPER_EXACT_STATISTICAL_CLAIM"
+   ],
+   "both_correct": true,
+   "either_correct": true
+  },
+  {
+   "item_id": "HXF-STAT-2",
+   "expected": "HYPER_EXACT_STATISTICAL_CLAIM",
+   "returned": [
+    "HYPER_EXACT_STATISTICAL_CLAIM",
+    "HYPER_EXACT_STATISTICAL_CLAIM"
+   ],
+   "both_correct": true,
+   "either_correct": true
+  },
+  {
+   "item_id": "HXF-UNC-1",
+   "expected": "UNCERTAIN",
+   "returned": [
+    "ORDINARY_EVERYDAY_SPECIFICITY",
+    "UNCERTAIN"
+   ],
+   "both_correct": false,
+   "either_correct": true
+  },
+  {
+   "item_id": "HXF-UNC-2",
+   "expected": "UNCERTAIN",
+   "returned": [
+    "UNCERTAIN",
+    "UNCERTAIN"
+   ],
+   "both_correct": true,
+   "either_correct": true
+  }
+ ],
+ "fixtures_excluded_from_rates": true,
+ "agreement_between_repetitions": {
+  "n_real_items": 127,
+  "n_scored": 127,
+  "n_corroborated": 121,
+  "exact_agreement": 0.9528,
+  "n_unresolved": 6,
+  "n_unresolved_incomplete_evidence": 1,
+  "disagreement_matrix": {
+   "ORDINARY_EVERYDAY_SPECIFICITY|PLAUSIBLE_PERSONAL_RECALL": 4,
+   "ORDINARY_EVERYDAY_SPECIFICITY|UNCERTAIN": 1
+  },
+  "n_items_with_an_uncertain_repetition": 1,
+  "uncertain_rate": 0.0079
+ },
+ "detector_candidates": {
+  "n_items": 67,
+  "n_corroborated": 64,
+  "n_unresolved": 3,
+  "corroborated_categories": {
+   "ORDINARY_EVERYDAY_SPECIFICITY": 53,
+   "PLAUSIBLE_PERSONAL_RECALL": 11,
+   "HYPER_EXACT_STATISTICAL_CLAIM": 0,
+   "IMPLAUSIBLY_PRECISE_EPISODIC_RECALL": 0
+  },
+  "by_condition": {
+   "enriched": {
+    "ORDINARY_EVERYDAY_SPECIFICITY": 25,
+    "PLAUSIBLE_PERSONAL_RECALL": 5
+   },
+   "demographics-only": {
+    "ORDINARY_EVERYDAY_SPECIFICITY": 21,
+    "PLAUSIBLE_PERSONAL_RECALL": 3
+   },
+   "human": {
+    "PLAUSIBLE_PERSONAL_RECALL": 3,
+    "ORDINARY_EVERYDAY_SPECIFICITY": 7
+   }
+  },
+  "n_corroborated_hyper_exact": 0,
+  "n_items_by_condition": {
+   "human": 11,
+   "enriched": 31,
+   "demographics-only": 25
+  }
+ },
+ "nondetected_controls": {
+  "n_items": 60,
+  "n_corroborated": 57,
+  "n_unresolved": 3,
+  "corroborated_categories": {
+   "ORDINARY_EVERYDAY_SPECIFICITY": 44,
+   "PLAUSIBLE_PERSONAL_RECALL": 13,
+   "HYPER_EXACT_STATISTICAL_CLAIM": 0,
+   "IMPLAUSIBLY_PRECISE_EPISODIC_RECALL": 0
+  },
+  "by_condition": {
+   "demographics-only": {
+    "ORDINARY_EVERYDAY_SPECIFICITY": 13,
+    "PLAUSIBLE_PERSONAL_RECALL": 7
+   },
+   "human": {
+    "PLAUSIBLE_PERSONAL_RECALL": 4,
+    "ORDINARY_EVERYDAY_SPECIFICITY": 13
+   },
+   "enriched": {
+    "PLAUSIBLE_PERSONAL_RECALL": 2,
+    "ORDINARY_EVERYDAY_SPECIFICITY": 18
+   }
+  },
+  "n_corroborated_hyper_exact": 0,
+  "n_items_by_condition": {
+   "human": 20,
+   "enriched": 20,
+   "demographics-only": 20
+  }
+ },
+ "prevalence": {
+  "reportable": "DETECTED_LOWER_BOUND_RATE",
+  "why": "the audited universe is 127 of 1,301 participant turns, and the 60 controls are 20 per condition rather than a probability sample of the corpus, so no corpus-wide prevalence can be estimated from them",
+  "unaudited_turns_are_not_negative": true,
+  "n_participant_turns_in_corpus": 1301,
+  "n_audited": 127
+ },
+ "rules_applied": {
+  "agreement": "CORROBORATED",
+  "disagreement": "UNRESOLVED",
+  "one_repetition_UNCERTAIN": "kept, never converted to absence",
+  "no_third_call": true,
+  "no_confidence_or_majority_resolution": true
+ },
+ "per_item": {
+  "HX-00603D0DB1684515": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "replicate": 2
+  },
+  "HX-052FD19BBBE58AFB": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg4",
+   "replicate": null
+  },
+  "HX-057833D4A38E2FA2": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg2",
+   "replicate": null
+  },
+  "HX-0B207B5B2387A459": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 1
+  },
+  "HX-0CED84241F339C85": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 2
+  },
+  "HX-0E0372B5018FF095": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 2
+  },
+  "HX-105FE8F2BDB8153F": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg3",
+   "replicate": 2
+  },
+  "HX-12B6D2BC7FC807FD": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "HX-1329415E48FBD141": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg3",
+   "replicate": 2
+  },
+  "HX-153F2DDB9CBF644A": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "HX-1619F2876846A49C": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 3
+  },
+  "HX-16DAABF3689359D8": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 1
+  },
+  "HX-2634BA883BDB923C": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 1
+  },
+  "HX-271A2AF2232F6AE7": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 3
+  },
+  "HX-27CFE112E558E9F9": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "replicate": 1
+  },
+  "HX-2A02FC4B09F9575C": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg1",
+   "replicate": null
+  },
+  "HX-2BFFC2671FCFD83E": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 1
+  },
+  "HX-2D7D25DF2CD3F59D": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 3
+  },
+  "HX-2D868DED80F20B53": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 3
+  },
+  "HX-2EE0208B8635F1FB": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "HX-311305925D2C4509": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "HX-338A03924B79B4E1": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "HX-33AB147A6A63C282": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "HX-348EF3F70CEAB3A8": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg1",
+   "replicate": null
+  },
+  "HX-3689CF66857C9514": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 3
+  },
+  "HX-3790E184A8934227": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 1
+  },
+  "HX-379A8512E9015671": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 3
+  },
+  "HX-393909FF0521339E": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg2",
+   "replicate": null
+  },
+  "HX-3B0C93FC0D27CC01": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 3
+  },
+  "HX-3B87D541FAA16D97": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "replicate": 2
+  },
+  "HX-3D25155089908761": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 2
+  },
+  "HX-3F5E766BE6A9CFC9": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 3
+  },
+  "HX-40BA0D2C2AAD963E": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "HX-468B5E1B11E25064": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 2
+  },
+  "HX-48D2640F6411C189": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "HX-4B43DC9AF3ADEF76": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 2
+  },
+  "HX-4EBE97B87417F7A0": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 3
+  },
+  "HX-4EC99817B600866F": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "HX-5335D1BF22C59815": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg1",
+   "replicate": null
+  },
+  "HX-56FF7108601E4204": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg2",
+   "replicate": null
+  },
+  "HX-585608F9DFF7B427": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 3
+  },
+  "HX-586C99EA1E59F4DF": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "HX-5BAB35FB3F1CEEEE": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "HX-5D95ACCC3033C69D": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg2",
+   "replicate": 2
+  },
+  "HX-5E363DC61F0C69F1": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "HX-5F1746186A6FBEFE": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 1
+  },
+  "HX-5FC0A73641763D9C": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 3
+  },
+  "HX-619A2D1D66581D04": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 3
+  },
+  "HX-64065E5C9A60953A": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 3
+  },
+  "HX-65A9F5C5E1259149": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 3
+  },
+  "HX-68E570A0C6BF002D": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "HX-6A7669D5433932B1": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 3
+  },
+  "HX-6CD0473D56EA8EA1": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "HX-709350EE8F43CCF6": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg3",
+   "replicate": 2
+  },
+  "HX-70C6FE2A4F1B667A": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "HX-747500DAD0CD0290": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 2
+  },
+  "HX-754BC0896800B38C": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "HX-769D9EBB552E9D01": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "HX-77BA873AFF6F4F02": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg2",
+   "replicate": 1
+  },
+  "HX-78FB0C6BA0000437": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "HX-7B671B96B25DC01F": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "HX-7BDDD67386F2D18A": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg2",
+   "replicate": 2
+  },
+  "HX-7EBD3472B5F15C8A": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 1
+  },
+  "HX-7EE6B25749887CCD": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "HX-85FB67D82DDC8CBA": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg2",
+   "replicate": null
+  },
+  "HX-8753D9047E831F4E": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 3
+  },
+  "HX-89B092324E757C5D": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "replicate": 1
+  },
+  "HX-8AE2C7AB7066A9D9": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 3
+  },
+  "HX-8DF57941047C20A4": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 3
+  },
+  "HX-8E3950C969E6C2C2": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 1
+  },
+  "HX-90FDE251B8ECFE68": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "HX-96CECFEA24C33B8B": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "HX-98F85F0E734BDE87": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 1
+  },
+  "HX-99CF51332906E904": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "HX-9C585133CE66A9DD": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg4",
+   "replicate": null
+  },
+  "HX-A04D2BB638F3E29B": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 1
+  },
+  "HX-A0F93555C8912D1B": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg2",
+   "replicate": 2
+  },
+  "HX-A8B2646FBBF24EBA": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "HX-A99FB2D8E55AD575": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 3
+  },
+  "HX-AA6E2B3EBB2CD376": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 1
+  },
+  "HX-B042F15DED9D6803": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "HX-B14FA4BF2D17BF75": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg1",
+   "replicate": null
+  },
+  "HX-B1C8C75D7D37C88A": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "HX-B395598428E9D5CB": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "HX-B4E35C4875449FD0": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 1
+  },
+  "HX-B8D5E7CF508C2702": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 2
+  },
+  "HX-BABD39237F8D9E72": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 2
+  },
+  "HX-BB22A35C3DF96821": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "HX-BD1CDA1494751868": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 1
+  },
+  "HX-BD422D0E18B7022B": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 3
+  },
+  "HX-BDB7C4BC344F3017": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "HX-BE667BD96F28BD97": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg3",
+   "replicate": 2
+  },
+  "HX-C0D9E2894FBD4384": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 2
+  },
+  "HX-C7DAB34030F70247": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 1
+  },
+  "HX-C831287572BFC0AC": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "HX-CCDA8AAA955337ED": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "HX-CE6C3FE5C1F9F5A4": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "HX-CEE04F3C0643A2AF": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "HX-CF2CF40BD92C010C": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 2
+  },
+  "HX-CF47B8DCEEA48800": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg5",
+   "replicate": 1
+  },
+  "HX-D00EC4DEE5D517A2": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg3",
+   "replicate": 1
+  },
+  "HX-D5C780EAE3BF3630": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "replicate": 3
+  },
+  "HX-D7C6666396D62F4C": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 1
+  },
+  "HX-D940EBBAF4C7267B": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "HX-D97867A873D6FDBE": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 2
+  },
+  "HX-DB7285CE032E9223": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "HX-DB81E046216A4DFA": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "human",
+   "fg": "fg3",
+   "replicate": null
+  },
+  "HX-DD6A7CFE42AB0E17": {
+   "rep1": "UNCERTAIN",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "UNRESOLVED",
+   "category": null,
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "HX-DE7EECB64BAA4144": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg4",
+   "replicate": null
+  },
+  "HX-E39079CA806F725E": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 1
+  },
+  "HX-E9138CA7788E9B79": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "UNRESOLVED_INCOMPLETE_EVIDENCE",
+   "category": null,
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "HX-E9FA581A6DDEA4A2": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 2
+  },
+  "HX-EA028A3ED3C6998C": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg5",
+   "replicate": 1
+  },
+  "HX-ECC353BA82E80701": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "HX-ED0BCD03748F4E5E": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg2",
+   "replicate": 2
+  },
+  "HX-EF95804D82BB266F": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "replicate": 1
+  },
+  "HX-F4187E6522DE8212": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "HX-F57BD801828BCFB6": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg1",
+   "replicate": 2
+  },
+  "HX-F680A41283E3CB4E": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg4",
+   "replicate": 2
+  },
+  "HX-F7384F65EE3F8654": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg4",
+   "replicate": null
+  },
+  "HX-F7C654EC370822DE": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 3
+  },
+  "HX-F88F7D2AFF3A82D4": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg3",
+   "replicate": 3
+  },
+  "HX-F8B6FF59B5400BA7": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "HX-F9C4142D20EC2701": {
+   "rep1": "PLAUSIBLE_PERSONAL_RECALL",
+   "rep2": "PLAUSIBLE_PERSONAL_RECALL",
+   "state": "CORROBORATED",
+   "category": "PLAUSIBLE_PERSONAL_RECALL",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg1",
+   "replicate": 1
+  },
+  "HX-FC8A2881B9F4F090": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "RANDOM_NONDETECTED_CONTROL_TURNS",
+   "condition": "enriched",
+   "fg": "fg2",
+   "replicate": 1
+  },
+  "HX-FD9F1D187FFC75EC": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "human",
+   "fg": "fg5",
+   "replicate": null
+  },
+  "HX-FEC7CB430EF3AC03": {
+   "rep1": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "rep2": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "state": "CORROBORATED",
+   "category": "ORDINARY_EVERYDAY_SPECIFICITY",
+   "stratum": "DETECTOR_PROPOSED_CANDIDATE",
+   "condition": "demographics-only",
+   "fg": "fg4",
+   "replicate": 1
+  }
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "gate": "phase3_step1",
+ "arm": "twinpop",
+ "seed": 20260804,
+ "method": "one real microdata person record per candidate — joint distribution given, not reconstructed",
+ "supersedes": [
+  "scripts/twinpop_census_sample.py (aggregate TS tables, product of marginals)",
+  "the 1% public teaching sample draw (band-level age, no qualification or tenure)"
+ ],
+ "source": {
+  "study": "SN 9154 — 2021 Census: Safeguarded Individual Microdata Sample at Region Level (England and Wales)",
+  "publisher": "Office for National Statistics, via UK Data Service",
+  "access": "Safeguarded, End User Licence. Anonymised records; no reidentification attempted.",
+  "file": "data/census2021/sn9154/UKDA-9154-spss/spss/spss25/safeguarded_reg_final_csv2023_07_12.sav",
+  "sha256": "dee5727cb9fad3a07d951ca559a9faf31305edc34cdaae8898ffc074e3169779",
+  "n_records_total": 3021455,
+  "n_variables_available": 89,
+  "n_variables_used": 25
+ },
+ "matching": {
+  "keys": [
+   "region",
+   "sex",
+   "resident_age_74m",
+   "residence_type"
+  ],
+  "age": "EXACT single year (resident_age_74m is single years to age 70)",
+  "not_matched": {
+   "urban_rural": "absent from the microdata; retained from the real participant, not drawn"
+  },
+  "sampling": "3 candidates per cell, without replacement across the whole draw"
+ },
+ "persona_fields": {
+  "working_life": [
+   "economic_activity_status_17m",
+   "ns_sec",
+   "occupation_105a",
+   "industry_22a",
+   "employment_status",
+   "employment_history",
+   "supervises_or_manages",
+   "hours_per_week_worked",
+   "highest_qualification"
+  ],
+  "home_and_household": [
+   "hh_tenure",
+   "accommodation_type_7a",
+   "hh_size_9a",
+   "living_arrangements_11a",
+   "legal_partnership_status_7a",
+   "family_dependent_children",
+   "hh_adults_and_children_11a",
+   "relat_to_hrp",
+   "occupancy_rating_bedrooms_6a"
+  ],
+  "week_and_hobbies": [
+   "transport_to_workplace_12a",
+   "workplace_travel",
+   "place_of_work_ind"
+  ]
+ },
+ "withheld_variables": {
+  "topic_leakage": {
+   "variables": [
+    "hh_deprivation",
+    "hh_deprivation_education",
+    "hh_deprivation_employment",
+    "hh_deprivation_health",
+    "hh_deprivation_housing",
+    "religion_tb",
+    "hh_multi_religion",
+    "health_in_general",
+    "disability_4a",
+    "hh_disabled_4a",
+    "is_carer_5a",
+    "hh_carers_6a"
+   ],
+   "reason": "Household deprivation is tied to food insecurity, squarely inside the study topic. Dietary rules are religion-linked (halal, kosher, Hindu vegetarianism). Health, body and disability sit on the frozen domain negative list. Unpaid care cues who shops and who cooks, which is subtheme A.3 of the codebook verbatim."
+  },
+  "stereotype_amplification": {
+   "variables": [
+    "uk_armed_forces"
+   ],
+   "reason": "Military service is a masculinity marker; supplying it would seed the very artefact §4.4 exists to detect."
+  },
+  "ethnicity_origin_language": {
+   "variables": [
+    "ethnic_group_tb_20b",
+    "hrp_ethnic_group_tb",
+    "hh_multi_ethnic_group",
+    "country_of_birth_25a",
+    "hrp_cob_25m",
+    "year_arrival_uk",
+    "migrant_ind",
+    "migrant_origin_country_7m",
+    "migrant_region",
+    "migration_distance_19m",
+    "passports_all_27a",
+    "multi_passports_9a",
+    "nat_id_british",
+    "nat_id_english",
+    "nat_id_irish",
+    "nat_id_northern_irish",
+    "nat_id_other",
+    "nat_id_scottish",
+    "nat_id_welsh",
+    "national_identity_detailed_23m",
+    "main_language_detailed_23a",
+    "english_proficiency_5a",
+    "hh_language",
+    "welsh_skills_read",
+    "welsh_skills_speak",
+    "welsh_skills_understand",
+    "welsh_skills_write"
+   ],
+   "reason": "Ethnicity is a frozen omission (pre-registro §3.1): it is a stereotype vector on the study's own identity axis, and the real participants' first names are retained. Nationality, passports, migration and language are proxies for it, and country of birth is additionally a direct cuisine cue."
+  },
+  "inapplicable_or_redundant": {
+   "variables": [
+    "ce_management_type_12a",
+    "position_in_ce",
+    "student_accommodation",
+    "student_add_1_year_ago_ind",
+    "usual_short_student",
+    "in_full_time_education",
+    "iol22cd",
+    "fm_iol22cd",
+    "second_address_country",
+    "second_address_type_priority",
+    "concealed_family_ind",
+    "hh_number_of_visitors_2a",
+    "workers_in_generation_1",
+    "address_1_year_ago",
+    "moving_hh_ind_2",
+    "hrp_age_59m",
+    "hrp_ns_sec",
+    "heating_type",
+    "self_contained",
+    "occupancy_rating_rooms_6a",
+    "hh_66_plus",
+    "number_of_cars_6a",
+    "approx_social_grade"
+   ],
+   "reason": "Communal-establishment and student variables do not apply once the draw is filtered to private households. London indicators do not apply to the four arm regions. Student and education-status flags are implied by economic activity. Household reference person attributes are covered by relat_to_hrp. The rest add nothing beyond variables already included. approx_social_grade is a cruder derived duplicate of ns_sec, and its derivation quirks produce apparent contradictions (L13 Routine occupations carrying grade AB), which would surface as incoherent prose."
+  }
+ },
+ "limitations": [
+  "Hobbies and leisure are not collected by the census. 'week_and_hobbies' is anchored only by commuting (mode, distance, place-of-work); the leisure content is invented by the renderer under the §4.1 constraints and is NOT census-grounded. State in methods.",
+  "urban_rural is not in the microdata, so a Village-or-Rural participant may be matched to a record from an urban part of the same region."
+ ],
+ "n_cells": 8,
+ "n_candidates_total": 24
+}

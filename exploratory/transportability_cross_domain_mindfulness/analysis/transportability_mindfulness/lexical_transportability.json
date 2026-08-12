@@ -1,0 +1,1503 @@
+{
+  "record_type": "EXPLORATORY_OUT_OF_DOMAIN_LEXICAL_TRANSPORTABILITY_CHECK",
+  "classification": "EXPLORATORY_OUT_OF_DOMAIN_LEXICAL_TRANSPORTABILITY_CHECK",
+  "no_api_calls": true,
+  "method_identity": "All measures imported from scripts/lexical_analysis.py: same tokenisation arms, same budgets, same deterministic offsets, same Jaccard / Jensen-Shannon / cosine, same MATTR windows. Nothing re-implemented.",
+  "primary_comparison": "mindfulness_human vs mindfulness_synthetic (within domain)",
+  "macho_meals_reference": {
+    "available": true,
+    "source": "analysis/production_evaluation/final/lexical_analysis.json",
+    "status": "DESCRIPTIVE_REFERENCE_ONLY_DIFFERENT_DOMAIN_AND_DESIGN",
+    "never_pooled_with_ds05": true,
+    "summary_budget_equalised": {
+      "content_min3_nostop@100::jaccard": {
+        "human": {
+          "fg_means": [
+            0.1312,
+            0.1271,
+            0.1113,
+            0.0969,
+            0.1024
+          ],
+          "mean_over_fgs": 0.1138,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.1642,
+            0.1695,
+            0.157,
+            0.1617,
+            0.1618
+          ],
+          "mean_over_fgs": 0.1628,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.1477,
+            0.16,
+            0.1494,
+            0.1704,
+            0.1578
+          ],
+          "mean_over_fgs": 0.1571,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.049,
+        "demo_minus_human": 0.0433,
+        "enriched_minus_demo": 0.0057,
+        "n_fg_synthetic_above_human": 5
+      },
+      "content_min3_nostop@100::jensen_shannon_distance": {
+        "human": {
+          "fg_means": [
+            0.8525,
+            0.8545,
+            0.8741,
+            0.8834,
+            0.8868
+          ],
+          "mean_over_fgs": 0.8703,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.8179,
+            0.8127,
+            0.8175,
+            0.8218,
+            0.8224
+          ],
+          "mean_over_fgs": 0.8184,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.8344,
+            0.8232,
+            0.831,
+            0.8115,
+            0.825
+          ],
+          "mean_over_fgs": 0.825,
+          "n_fg": 5
+        },
+        "enriched_minus_human": -0.0519,
+        "demo_minus_human": -0.0453,
+        "enriched_minus_demo": -0.0066,
+        "n_fg_synthetic_above_human": 0
+      },
+      "content_min3_nostop@100::cosine_similarity": {
+        "human": {
+          "fg_means": [
+            0.3076,
+            0.3148,
+            0.2705,
+            0.2659,
+            0.241
+          ],
+          "mean_over_fgs": 0.28,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.3881,
+            0.3958,
+            0.4123,
+            0.3814,
+            0.3816
+          ],
+          "mean_over_fgs": 0.3918,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.3567,
+            0.375,
+            0.3698,
+            0.4044,
+            0.3787
+          ],
+          "mean_over_fgs": 0.3769,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.1118,
+        "demo_minus_human": 0.0969,
+        "enriched_minus_demo": 0.0149,
+        "n_fg_synthetic_above_human": 5
+      },
+      "content_min3_nostop@200::jaccard": {
+        "human": {
+          "fg_means": [
+            0.1487
+          ],
+          "mean_over_fgs": 0.1487,
+          "n_fg": 1
+        },
+        "enriched": {
+          "fg_means": [
+            0.2183,
+            0.223,
+            0.2128,
+            0.219,
+            0.2174
+          ],
+          "mean_over_fgs": 0.2181,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.194,
+            0.2098,
+            0.2066,
+            0.2234,
+            0.2164
+          ],
+          "mean_over_fgs": 0.21,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.0694,
+        "demo_minus_human": 0.0613,
+        "enriched_minus_demo": 0.0081,
+        "n_fg_synthetic_above_human": 1
+      },
+      "content_min3_nostop@200::jensen_shannon_distance": {
+        "human": {
+          "fg_means": [
+            0.8201
+          ],
+          "mean_over_fgs": 0.8201,
+          "n_fg": 1
+        },
+        "enriched": {
+          "fg_means": [
+            0.7429,
+            0.7411,
+            0.744,
+            0.7469,
+            0.751
+          ],
+          "mean_over_fgs": 0.7452,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.7692,
+            0.7566,
+            0.759,
+            0.7421,
+            0.7554
+          ],
+          "mean_over_fgs": 0.7565,
+          "n_fg": 5
+        },
+        "enriched_minus_human": -0.0749,
+        "demo_minus_human": -0.0636,
+        "enriched_minus_demo": -0.0113,
+        "n_fg_synthetic_above_human": 0
+      },
+      "content_min3_nostop@200::cosine_similarity": {
+        "human": {
+          "fg_means": [
+            0.3997
+          ],
+          "mean_over_fgs": 0.3997,
+          "n_fg": 1
+        },
+        "enriched": {
+          "fg_means": [
+            0.549,
+            0.5504,
+            0.5694,
+            0.5479,
+            0.5345
+          ],
+          "mean_over_fgs": 0.5502,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.505,
+            0.5168,
+            0.5244,
+            0.5488,
+            0.5162
+          ],
+          "mean_over_fgs": 0.5222,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.1505,
+        "demo_minus_human": 0.1225,
+        "enriched_minus_demo": 0.028,
+        "n_fg_synthetic_above_human": 1
+      },
+      "content_min1_nostop@100::jaccard": {
+        "human": {
+          "fg_means": [
+            0.1299,
+            0.1269,
+            0.1091,
+            0.0951,
+            0.1026
+          ],
+          "mean_over_fgs": 0.1127,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.1652,
+            0.171,
+            0.1569,
+            0.1616,
+            0.1632
+          ],
+          "mean_over_fgs": 0.1636,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.1482,
+            0.1601,
+            0.1502,
+            0.1714,
+            0.1577
+          ],
+          "mean_over_fgs": 0.1575,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.0509,
+        "demo_minus_human": 0.0448,
+        "enriched_minus_demo": 0.0061,
+        "n_fg_synthetic_above_human": 5
+      },
+      "content_min1_nostop@100::jensen_shannon_distance": {
+        "human": {
+          "fg_means": [
+            0.854,
+            0.8549,
+            0.8767,
+            0.8854,
+            0.887
+          ],
+          "mean_over_fgs": 0.8716,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.8177,
+            0.8113,
+            0.8182,
+            0.8216,
+            0.8217
+          ],
+          "mean_over_fgs": 0.8181,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.8342,
+            0.8237,
+            0.8305,
+            0.8114,
+            0.8255
+          ],
+          "mean_over_fgs": 0.8251,
+          "n_fg": 5
+        },
+        "enriched_minus_human": -0.0535,
+        "demo_minus_human": -0.0465,
+        "enriched_minus_demo": -0.007,
+        "n_fg_synthetic_above_human": 0
+      },
+      "content_min1_nostop@100::cosine_similarity": {
+        "human": {
+          "fg_means": [
+            0.304,
+            0.3136,
+            0.2658,
+            0.2626,
+            0.2389
+          ],
+          "mean_over_fgs": 0.277,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.3861,
+            0.3965,
+            0.4098,
+            0.3826,
+            0.381
+          ],
+          "mean_over_fgs": 0.3912,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.3562,
+            0.3731,
+            0.37,
+            0.4021,
+            0.3773
+          ],
+          "mean_over_fgs": 0.3757,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.1142,
+        "demo_minus_human": 0.0987,
+        "enriched_minus_demo": 0.0155,
+        "n_fg_synthetic_above_human": 5
+      },
+      "content_min1_nostop@200::jaccard": {
+        "human": {
+          "fg_means": [
+            0.1462
+          ],
+          "mean_over_fgs": 0.1462,
+          "n_fg": 1
+        },
+        "enriched": {
+          "fg_means": [
+            0.2201,
+            0.2241,
+            0.2133,
+            0.2193,
+            0.2182
+          ],
+          "mean_over_fgs": 0.219,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.1945,
+            0.2102,
+            0.2077,
+            0.224,
+            0.2171
+          ],
+          "mean_over_fgs": 0.2107,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.0728,
+        "demo_minus_human": 0.0645,
+        "enriched_minus_demo": 0.0083,
+        "n_fg_synthetic_above_human": 1
+      },
+      "content_min1_nostop@200::jensen_shannon_distance": {
+        "human": {
+          "fg_means": [
+            0.8226
+          ],
+          "mean_over_fgs": 0.8226,
+          "n_fg": 1
+        },
+        "enriched": {
+          "fg_means": [
+            0.7418,
+            0.7397,
+            0.7444,
+            0.7466,
+            0.7507
+          ],
+          "mean_over_fgs": 0.7446,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.7695,
+            0.7569,
+            0.7589,
+            0.7419,
+            0.7552
+          ],
+          "mean_over_fgs": 0.7565,
+          "n_fg": 5
+        },
+        "enriched_minus_human": -0.078,
+        "demo_minus_human": -0.0661,
+        "enriched_minus_demo": -0.0119,
+        "n_fg_synthetic_above_human": 0
+      },
+      "content_min1_nostop@200::cosine_similarity": {
+        "human": {
+          "fg_means": [
+            0.3964
+          ],
+          "mean_over_fgs": 0.3964,
+          "n_fg": 1
+        },
+        "enriched": {
+          "fg_means": [
+            0.5487,
+            0.5502,
+            0.5675,
+            0.5466,
+            0.5329
+          ],
+          "mean_over_fgs": 0.5492,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.5034,
+            0.5151,
+            0.5225,
+            0.5474,
+            0.5161
+          ],
+          "mean_over_fgs": 0.5209,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.1528,
+        "demo_minus_human": 0.1245,
+        "enriched_minus_demo": 0.0283,
+        "n_fg_synthetic_above_human": 1
+      },
+      "all_min3_withstop@100::jaccard": {
+        "human": {
+          "fg_means": [
+            0.1947,
+            0.1775,
+            0.1583,
+            0.1615,
+            0.151
+          ],
+          "mean_over_fgs": 0.1686,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.2081,
+            0.2131,
+            0.2045,
+            0.1967,
+            0.2002
+          ],
+          "mean_over_fgs": 0.2045,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.1947,
+            0.2055,
+            0.1935,
+            0.2064,
+            0.1936
+          ],
+          "mean_over_fgs": 0.1988,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.0359,
+        "demo_minus_human": 0.0302,
+        "enriched_minus_demo": 0.0057,
+        "n_fg_synthetic_above_human": 4
+      },
+      "all_min3_withstop@100::jensen_shannon_distance": {
+        "human": {
+          "fg_means": [
+            0.7758,
+            0.7921,
+            0.8126,
+            0.8079,
+            0.8149
+          ],
+          "mean_over_fgs": 0.8007,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.7619,
+            0.7586,
+            0.7656,
+            0.7734,
+            0.7726
+          ],
+          "mean_over_fgs": 0.7664,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.7761,
+            0.7648,
+            0.7754,
+            0.7643,
+            0.7794
+          ],
+          "mean_over_fgs": 0.772,
+          "n_fg": 5
+        },
+        "enriched_minus_human": -0.0343,
+        "demo_minus_human": -0.0287,
+        "enriched_minus_demo": -0.0056,
+        "n_fg_synthetic_above_human": 0
+      },
+      "all_min3_withstop@100::cosine_similarity": {
+        "human": {
+          "fg_means": [
+            0.4554,
+            0.4325,
+            0.3985,
+            0.4106,
+            0.4236
+          ],
+          "mean_over_fgs": 0.4241,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.4933,
+            0.5047,
+            0.4893,
+            0.4819,
+            0.4798
+          ],
+          "mean_over_fgs": 0.4898,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.4738,
+            0.4912,
+            0.4728,
+            0.4993,
+            0.4647
+          ],
+          "mean_over_fgs": 0.4804,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.0657,
+        "demo_minus_human": 0.0563,
+        "enriched_minus_demo": 0.0094,
+        "n_fg_synthetic_above_human": 5
+      },
+      "all_min3_withstop@200::jaccard": {
+        "human": {
+          "fg_means": [
+            0.2254,
+            0.2115,
+            0.1962,
+            0.1882,
+            0.1859
+          ],
+          "mean_over_fgs": 0.2014,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.2565,
+            0.264,
+            0.2477,
+            0.2506,
+            0.249
+          ],
+          "mean_over_fgs": 0.2536,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.239,
+            0.2527,
+            0.2412,
+            0.2589,
+            0.2444
+          ],
+          "mean_over_fgs": 0.2472,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.0522,
+        "demo_minus_human": 0.0458,
+        "enriched_minus_demo": 0.0064,
+        "n_fg_synthetic_above_human": 5
+      },
+      "all_min3_withstop@200::jensen_shannon_distance": {
+        "human": {
+          "fg_means": [
+            0.7151,
+            0.7284,
+            0.7448,
+            0.7462,
+            0.7533
+          ],
+          "mean_over_fgs": 0.7376,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.6817,
+            0.6774,
+            0.6893,
+            0.691,
+            0.6958
+          ],
+          "mean_over_fgs": 0.6871,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.6977,
+            0.6868,
+            0.7013,
+            0.6842,
+            0.7053
+          ],
+          "mean_over_fgs": 0.695,
+          "n_fg": 5
+        },
+        "enriched_minus_human": -0.0505,
+        "demo_minus_human": -0.0426,
+        "enriched_minus_demo": -0.0079,
+        "n_fg_synthetic_above_human": 0
+      },
+      "all_min3_withstop@200::cosine_similarity": {
+        "human": {
+          "fg_means": [
+            0.5836,
+            0.5698,
+            0.542,
+            0.5642,
+            0.5709
+          ],
+          "mean_over_fgs": 0.5661,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.6522,
+            0.6609,
+            0.6447,
+            0.6446,
+            0.6437
+          ],
+          "mean_over_fgs": 0.6492,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.6314,
+            0.6453,
+            0.6205,
+            0.6541,
+            0.6116
+          ],
+          "mean_over_fgs": 0.6326,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.0831,
+        "demo_minus_human": 0.0665,
+        "enriched_minus_demo": 0.0166,
+        "n_fg_synthetic_above_human": 5
+      },
+      "all_min3_withstop@400::jaccard": {
+        "human": {
+          "fg_means": [
+            0.2281
+          ],
+          "mean_over_fgs": 0.2281,
+          "n_fg": 1
+        },
+        "enriched": {
+          "fg_means": [
+            0.3064,
+            0.3079,
+            0.2965,
+            0.304,
+            0.3047
+          ],
+          "mean_over_fgs": 0.3039,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.2819,
+            0.297,
+            0.2928,
+            0.3091,
+            0.3043
+          ],
+          "mean_over_fgs": 0.297,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.0758,
+        "demo_minus_human": 0.0689,
+        "enriched_minus_demo": 0.0069,
+        "n_fg_synthetic_above_human": 1
+      },
+      "all_min3_withstop@400::jensen_shannon_distance": {
+        "human": {
+          "fg_means": [
+            0.6833
+          ],
+          "mean_over_fgs": 0.6833,
+          "n_fg": 1
+        },
+        "enriched": {
+          "fg_means": [
+            0.5995,
+            0.6004,
+            0.6099,
+            0.6089,
+            0.6133
+          ],
+          "mean_over_fgs": 0.6064,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.6226,
+            0.6111,
+            0.6238,
+            0.6071,
+            0.6236
+          ],
+          "mean_over_fgs": 0.6176,
+          "n_fg": 5
+        },
+        "enriched_minus_human": -0.0769,
+        "demo_minus_human": -0.0657,
+        "enriched_minus_demo": -0.0112,
+        "n_fg_synthetic_above_human": 0
+      },
+      "all_min3_withstop@400::cosine_similarity": {
+        "human": {
+          "fg_means": [
+            0.6517
+          ],
+          "mean_over_fgs": 0.6517,
+          "n_fg": 1
+        },
+        "enriched": {
+          "fg_means": [
+            0.7799,
+            0.7837,
+            0.7698,
+            0.7751,
+            0.776
+          ],
+          "mean_over_fgs": 0.7769,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.7575,
+            0.768,
+            0.7419,
+            0.7735,
+            0.7384
+          ],
+          "mean_over_fgs": 0.7559,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.1252,
+        "demo_minus_human": 0.1042,
+        "enriched_minus_demo": 0.021,
+        "n_fg_synthetic_above_human": 1
+      }
+    },
+    "diversity": {
+      "mattr_w50": {
+        "human": {
+          "fg_means": [
+            0.7296,
+            0.7549,
+            0.7539,
+            0.7595,
+            0.7501
+          ],
+          "mean_over_fgs": 0.7496,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.8238,
+            0.8227,
+            0.8096,
+            0.8263,
+            0.8192
+          ],
+          "mean_over_fgs": 0.8203,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.8201,
+            0.8219,
+            0.8069,
+            0.8142,
+            0.8091
+          ],
+          "mean_over_fgs": 0.8145,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.0707,
+        "demo_minus_human": 0.0649,
+        "enriched_minus_demo": 0.0058,
+        "n_fg_synthetic_above_human": 5
+      },
+      "mattr_w100": {
+        "human": {
+          "fg_means": [
+            0.6094,
+            0.6377,
+            0.641,
+            0.6511,
+            0.6474
+          ],
+          "mean_over_fgs": 0.6373,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.7081,
+            0.7067,
+            0.6982,
+            0.7165,
+            0.7108
+          ],
+          "mean_over_fgs": 0.708,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.7046,
+            0.7068,
+            0.6957,
+            0.7031,
+            0.7012
+          ],
+          "mean_over_fgs": 0.7023,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.0707,
+        "demo_minus_human": 0.065,
+        "enriched_minus_demo": 0.0057,
+        "n_fg_synthetic_above_human": 5
+      },
+      "mattr_w200": {
+        "human": {
+          "fg_means": [
+            0.4903,
+            0.5183,
+            0.5218,
+            0.5428,
+            0.5393
+          ],
+          "mean_over_fgs": 0.5225,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.571,
+            0.5688,
+            0.5681,
+            0.5879,
+            0.5831
+          ],
+          "mean_over_fgs": 0.5758,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.5704,
+            0.5691,
+            0.5664,
+            0.5737,
+            0.5743
+          ],
+          "mean_over_fgs": 0.5708,
+          "n_fg": 5
+        },
+        "enriched_minus_human": 0.0533,
+        "demo_minus_human": 0.0483,
+        "enriched_minus_demo": 0.005,
+        "n_fg_synthetic_above_human": 5
+      },
+      "ttr": {
+        "human": {
+          "fg_means": [
+            0.1823,
+            0.1941,
+            0.1379,
+            0.206,
+            0.1448
+          ],
+          "mean_over_fgs": 0.173,
+          "n_fg": 5
+        },
+        "enriched": {
+          "fg_means": [
+            0.1129,
+            0.1149,
+            0.1178,
+            0.1334,
+            0.1212
+          ],
+          "mean_over_fgs": 0.12,
+          "n_fg": 5
+        },
+        "demographics-only": {
+          "fg_means": [
+            0.108,
+            0.1139,
+            0.1066,
+            0.1286,
+            0.1167
+          ],
+          "mean_over_fgs": 0.1148,
+          "n_fg": 5
+        },
+        "enriched_minus_human": -0.053,
+        "demo_minus_human": -0.0582,
+        "enriched_minus_demo": 0.0052,
+        "n_fg_synthetic_above_human": 0
+      }
+    }
+  },
+  "independence_note": "Documents, participants and domains are NOT treated as interchangeable independent observations. Budget windows are overlapping slices of one speaker's stream; no CI or p-value is derived from their spread.",
+  "preflight": {
+    "per_side": {
+      "mindfulness_human": {
+        "content_min3_nostop": {
+          "n_participants": 5,
+          "tokens_per_participant": {
+            "mindfulness_fg1_speaker_2": 677,
+            "mindfulness_fg1_speaker_3": 72,
+            "mindfulness_fg1_speaker_4": 418,
+            "mindfulness_fg1_speaker_5": 872,
+            "mindfulness_fg1_speaker_6": 190
+          },
+          "min_tokens": 72,
+          "feasible_budgets": [],
+          "infeasible_budgets": [
+            100,
+            200,
+            400
+          ],
+          "limiting_participant": "mindfulness_fg1_speaker_3"
+        },
+        "content_min1_nostop": {
+          "n_participants": 5,
+          "tokens_per_participant": {
+            "mindfulness_fg1_speaker_2": 680,
+            "mindfulness_fg1_speaker_3": 72,
+            "mindfulness_fg1_speaker_4": 420,
+            "mindfulness_fg1_speaker_5": 882,
+            "mindfulness_fg1_speaker_6": 193
+          },
+          "min_tokens": 72,
+          "feasible_budgets": [],
+          "infeasible_budgets": [
+            100,
+            200,
+            400
+          ],
+          "limiting_participant": "mindfulness_fg1_speaker_3"
+        },
+        "all_min3_withstop": {
+          "n_participants": 5,
+          "tokens_per_participant": {
+            "mindfulness_fg1_speaker_2": 1305,
+            "mindfulness_fg1_speaker_3": 140,
+            "mindfulness_fg1_speaker_4": 741,
+            "mindfulness_fg1_speaker_5": 1590,
+            "mindfulness_fg1_speaker_6": 388
+          },
+          "min_tokens": 140,
+          "feasible_budgets": [
+            100
+          ],
+          "infeasible_budgets": [
+            200,
+            400
+          ],
+          "limiting_participant": "mindfulness_fg1_speaker_3"
+        }
+      },
+      "mindfulness_synthetic": {
+        "content_min3_nostop": {
+          "n_participants": 5,
+          "tokens_per_participant": {
+            "mf_p1": 1306,
+            "mf_p3": 910,
+            "mf_p5": 808,
+            "mf_p2": 1213,
+            "mf_p4": 370
+          },
+          "min_tokens": 370,
+          "feasible_budgets": [
+            100,
+            200
+          ],
+          "infeasible_budgets": [
+            400
+          ],
+          "limiting_participant": "mf_p4"
+        },
+        "content_min1_nostop": {
+          "n_participants": 5,
+          "tokens_per_participant": {
+            "mf_p1": 1350,
+            "mf_p3": 936,
+            "mf_p5": 824,
+            "mf_p2": 1224,
+            "mf_p4": 381
+          },
+          "min_tokens": 381,
+          "feasible_budgets": [
+            100,
+            200
+          ],
+          "infeasible_budgets": [
+            400
+          ],
+          "limiting_participant": "mf_p4"
+        },
+        "all_min3_withstop": {
+          "n_participants": 5,
+          "tokens_per_participant": {
+            "mf_p1": 2187,
+            "mf_p3": 1546,
+            "mf_p5": 1332,
+            "mf_p2": 2016,
+            "mf_p4": 630
+          },
+          "min_tokens": 630,
+          "feasible_budgets": [
+            100,
+            200,
+            400
+          ],
+          "infeasible_budgets": [],
+          "limiting_participant": "mf_p4"
+        }
+      }
+    },
+    "comparable_specifications": [
+      "all_min3_withstop::budget100"
+    ],
+    "not_comparable_specifications": [
+      {
+        "specification": "content_min3_nostop::budget100",
+        "blocked_by": {
+          "mindfulness_human": {
+            "min_tokens": 72,
+            "limiting_participant": "mindfulness_fg1_speaker_3"
+          }
+        }
+      },
+      {
+        "specification": "content_min3_nostop::budget200",
+        "blocked_by": {
+          "mindfulness_human": {
+            "min_tokens": 72,
+            "limiting_participant": "mindfulness_fg1_speaker_3"
+          }
+        }
+      },
+      {
+        "specification": "content_min3_nostop::budget400",
+        "blocked_by": {
+          "mindfulness_human": {
+            "min_tokens": 72,
+            "limiting_participant": "mindfulness_fg1_speaker_3"
+          },
+          "mindfulness_synthetic": {
+            "min_tokens": 370,
+            "limiting_participant": "mf_p4"
+          }
+        }
+      },
+      {
+        "specification": "content_min1_nostop::budget100",
+        "blocked_by": {
+          "mindfulness_human": {
+            "min_tokens": 72,
+            "limiting_participant": "mindfulness_fg1_speaker_3"
+          }
+        }
+      },
+      {
+        "specification": "content_min1_nostop::budget200",
+        "blocked_by": {
+          "mindfulness_human": {
+            "min_tokens": 72,
+            "limiting_participant": "mindfulness_fg1_speaker_3"
+          }
+        }
+      },
+      {
+        "specification": "content_min1_nostop::budget400",
+        "blocked_by": {
+          "mindfulness_human": {
+            "min_tokens": 72,
+            "limiting_participant": "mindfulness_fg1_speaker_3"
+          },
+          "mindfulness_synthetic": {
+            "min_tokens": 381,
+            "limiting_participant": "mf_p4"
+          }
+        }
+      },
+      {
+        "specification": "all_min3_withstop::budget200",
+        "blocked_by": {
+          "mindfulness_human": {
+            "min_tokens": 140,
+            "limiting_participant": "mindfulness_fg1_speaker_3"
+          }
+        }
+      },
+      {
+        "specification": "all_min3_withstop::budget400",
+        "blocked_by": {
+          "mindfulness_human": {
+            "min_tokens": 140,
+            "limiting_participant": "mindfulness_fg1_speaker_3"
+          }
+        }
+      }
+    ],
+    "n_comparable": 1,
+    "n_total": 9,
+    "verdict": "PROCEED",
+    "rule": "A specification is comparable only when every participant on BOTH DS05 sides supplies at least `budget` tokens. Infeasible specifications are reported, never imputed and never silently down-budgeted."
+  },
+  "results": {
+    "budget_equalised": {
+      "all_min3_withstop::budget100": {
+        "mindfulness_human": {
+          "budget": 100,
+          "n_speakers": 5,
+          "n_pairs": 10,
+          "n_requested_subsamples": 10,
+          "n_unique_subsamples": 10,
+          "subsamples_were_padded_by_repetition": false,
+          "offsets_used": {
+            "mindfulness_fg1_speaker_2": [
+              0,
+              134,
+              268,
+              402,
+              536,
+              669,
+              803,
+              937,
+              1071,
+              1205
+            ],
+            "mindfulness_fg1_speaker_3": [
+              0,
+              4,
+              9,
+              13,
+              18,
+              22,
+              27,
+              31,
+              36,
+              40
+            ],
+            "mindfulness_fg1_speaker_4": [
+              0,
+              71,
+              142,
+              214,
+              285,
+              356,
+              427,
+              499,
+              570,
+              641
+            ],
+            "mindfulness_fg1_speaker_5": [
+              0,
+              166,
+              331,
+              497,
+              662,
+              828,
+              993,
+              1159,
+              1324,
+              1490
+            ],
+            "mindfulness_fg1_speaker_6": [
+              0,
+              32,
+              64,
+              96,
+              128,
+              160,
+              192,
+              224,
+              256,
+              288
+            ]
+          },
+          "offsets_provenance": "evenly spread deterministic start positions, recomputed for each speaker at exactly n_unique_subsamples; every offset is used once and none repeats",
+          "offset_step_per_speaker": {
+            "mindfulness_fg1_speaker_2": 134,
+            "mindfulness_fg1_speaker_3": 4,
+            "mindfulness_fg1_speaker_4": 71,
+            "mindfulness_fg1_speaker_5": 166,
+            "mindfulness_fg1_speaker_6": 32
+          },
+          "windows_overlap_per_speaker": {
+            "mindfulness_fg1_speaker_2": false,
+            "mindfulness_fg1_speaker_3": true,
+            "mindfulness_fg1_speaker_4": true,
+            "mindfulness_fg1_speaker_5": false,
+            "mindfulness_fg1_speaker_6": true
+          },
+          "any_windows_overlap": true,
+          "limiting_speaker": "mindfulness_fg1_speaker_2",
+          "tokens_available_per_speaker": {
+            "mindfulness_fg1_speaker_2": 1305,
+            "mindfulness_fg1_speaker_3": 140,
+            "mindfulness_fg1_speaker_4": 741,
+            "mindfulness_fg1_speaker_5": 1590,
+            "mindfulness_fg1_speaker_6": 388
+          },
+          "independence_note": "unique windows are overlapping slices of one stream and are NOT independent observations; no CI and no p-value is computed from their spread",
+          "jaccard": {
+            "mean": 0.1409,
+            "sd_across_unique_windows": 0.0222,
+            "min": 0.1001,
+            "max": 0.1761,
+            "n_values": 10
+          },
+          "jensen_shannon_distance": {
+            "mean": 0.8314,
+            "sd_across_unique_windows": 0.0207,
+            "min": 0.7945,
+            "max": 0.8747,
+            "n_values": 10
+          },
+          "cosine_similarity": {
+            "mean": 0.3822,
+            "sd_across_unique_windows": 0.0584,
+            "min": 0.2867,
+            "max": 0.5074,
+            "n_values": 10
+          },
+          "pairwise_jaccard_means": {
+            "mindfulness_fg1_speaker_2|mindfulness_fg1_speaker_3": 0.1423,
+            "mindfulness_fg1_speaker_2|mindfulness_fg1_speaker_4": 0.1346,
+            "mindfulness_fg1_speaker_2|mindfulness_fg1_speaker_5": 0.1379,
+            "mindfulness_fg1_speaker_2|mindfulness_fg1_speaker_6": 0.131,
+            "mindfulness_fg1_speaker_3|mindfulness_fg1_speaker_4": 0.1679,
+            "mindfulness_fg1_speaker_3|mindfulness_fg1_speaker_5": 0.1455,
+            "mindfulness_fg1_speaker_3|mindfulness_fg1_speaker_6": 0.1429,
+            "mindfulness_fg1_speaker_4|mindfulness_fg1_speaker_5": 0.1443,
+            "mindfulness_fg1_speaker_4|mindfulness_fg1_speaker_6": 0.1399,
+            "mindfulness_fg1_speaker_5|mindfulness_fg1_speaker_6": 0.1225
+          },
+          "pairwise_spread": {
+            "min": 0.1225,
+            "max": 0.1679,
+            "range": 0.0454
+          }
+        },
+        "mindfulness_synthetic": {
+          "budget": 100,
+          "n_speakers": 5,
+          "n_pairs": 10,
+          "n_requested_subsamples": 10,
+          "n_unique_subsamples": 10,
+          "subsamples_were_padded_by_repetition": false,
+          "offsets_used": {
+            "mf_p1": [
+              0,
+              232,
+              464,
+              696,
+              928,
+              1159,
+              1391,
+              1623,
+              1855,
+              2087
+            ],
+            "mf_p2": [
+              0,
+              213,
+              426,
+              639,
+              852,
+              1064,
+              1277,
+              1490,
+              1703,
+              1916
+            ],
+            "mf_p3": [
+              0,
+              161,
+              321,
+              482,
+              643,
+              803,
+              964,
+              1125,
+              1285,
+              1446
+            ],
+            "mf_p4": [
+              0,
+              59,
+              118,
+              177,
+              236,
+              294,
+              353,
+              412,
+              471,
+              530
+            ],
+            "mf_p5": [
+              0,
+              137,
+              274,
+              411,
+              548,
+              684,
+              821,
+              958,
+              1095,
+              1232
+            ]
+          },
+          "offsets_provenance": "evenly spread deterministic start positions, recomputed for each speaker at exactly n_unique_subsamples; every offset is used once and none repeats",
+          "offset_step_per_speaker": {
+            "mf_p1": 232,
+            "mf_p2": 213,
+            "mf_p3": 161,
+            "mf_p4": 59,
+            "mf_p5": 137
+          },
+          "windows_overlap_per_speaker": {
+            "mf_p1": false,
+            "mf_p2": false,
+            "mf_p3": false,
+            "mf_p4": true,
+            "mf_p5": false
+          },
+          "any_windows_overlap": true,
+          "limiting_speaker": "mf_p1",
+          "tokens_available_per_speaker": {
+            "mf_p1": 2187,
+            "mf_p2": 2016,
+            "mf_p3": 1546,
+            "mf_p4": 630,
+            "mf_p5": 1332
+          },
+          "independence_note": "unique windows are overlapping slices of one stream and are NOT independent observations; no CI and no p-value is computed from their spread",
+          "jaccard": {
+            "mean": 0.1674,
+            "sd_across_unique_windows": 0.0228,
+            "min": 0.1284,
+            "max": 0.2093,
+            "n_values": 10
+          },
+          "jensen_shannon_distance": {
+            "mean": 0.7967,
+            "sd_across_unique_windows": 0.023,
+            "min": 0.7574,
+            "max": 0.8316,
+            "n_values": 10
+          },
+          "cosine_similarity": {
+            "mean": 0.4891,
+            "sd_across_unique_windows": 0.0457,
+            "min": 0.4394,
+            "max": 0.5656,
+            "n_values": 10
+          },
+          "pairwise_jaccard_means": {
+            "mf_p1|mf_p2": 0.1793,
+            "mf_p1|mf_p3": 0.1635,
+            "mf_p1|mf_p4": 0.1652,
+            "mf_p1|mf_p5": 0.1639,
+            "mf_p2|mf_p3": 0.1631,
+            "mf_p2|mf_p4": 0.1747,
+            "mf_p2|mf_p5": 0.1772,
+            "mf_p3|mf_p4": 0.1568,
+            "mf_p3|mf_p5": 0.1528,
+            "mf_p4|mf_p5": 0.1778
+          },
+          "pairwise_spread": {
+            "min": 0.1528,
+            "max": 0.1793,
+            "range": 0.0265
+          }
+        }
+      }
+    },
+    "unadjusted": {
+      "mindfulness_human": {
+        "content_min3_nostop": {
+          "mean_pairwise_overlap": 0.1156,
+          "mean_vocab_size": 241.2,
+          "min_tokens_per_speaker": 72,
+          "max_tokens_per_speaker": 872,
+          "token_imbalance_ratio": 12.111
+        },
+        "content_min1_nostop": {
+          "mean_pairwise_overlap": 0.1165,
+          "mean_vocab_size": 242.2,
+          "min_tokens_per_speaker": 72,
+          "max_tokens_per_speaker": 882,
+          "token_imbalance_ratio": 12.25
+        },
+        "all_min3_withstop": {
+          "mean_pairwise_overlap": 0.1898,
+          "mean_vocab_size": 304.6,
+          "min_tokens_per_speaker": 140,
+          "max_tokens_per_speaker": 1590,
+          "token_imbalance_ratio": 11.357
+        }
+      },
+      "mindfulness_synthetic": {
+        "content_min3_nostop": {
+          "mean_pairwise_overlap": 0.2973,
+          "mean_vocab_size": 401.8,
+          "min_tokens_per_speaker": 370,
+          "max_tokens_per_speaker": 1306,
+          "token_imbalance_ratio": 3.53
+        },
+        "content_min1_nostop": {
+          "mean_pairwise_overlap": 0.3016,
+          "mean_vocab_size": 406.6,
+          "min_tokens_per_speaker": 381,
+          "max_tokens_per_speaker": 1350,
+          "token_imbalance_ratio": 3.543
+        },
+        "all_min3_withstop": {
+          "mean_pairwise_overlap": 0.3453,
+          "mean_vocab_size": 472.4,
+          "min_tokens_per_speaker": 630,
+          "max_tokens_per_speaker": 2187,
+          "token_imbalance_ratio": 3.471
+        }
+      }
+    },
+    "diversity": {
+      "mindfulness_human": {
+        "n_tokens": 5427,
+        "n_types": 964,
+        "ttr": 0.1776,
+        "mattr_w50": 0.7912,
+        "mattr_w100": 0.6849,
+        "mattr_w200": 0.572
+      },
+      "mindfulness_synthetic": {
+        "n_tokens": 9341,
+        "n_types": 1120,
+        "ttr": 0.1199,
+        "mattr_w50": 0.8394,
+        "mattr_w100": 0.7374,
+        "mattr_w200": 0.6153
+      }
+    }
+  }
+}

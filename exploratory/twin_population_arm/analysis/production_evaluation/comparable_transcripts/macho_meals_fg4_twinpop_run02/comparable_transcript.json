@@ -1,0 +1,401 @@
+{
+  "_provenance": {
+    "derived_by": "scripts/build_comparable_window.py",
+    "generated_utc": "2026-08-06T08:24:06.623677+00:00",
+    "source_transcript": "output\\session_logs\\macho_meals_fg4_twinpop_run02\\transcript.json",
+    "source_transcript_sha256": "954734f96acca5d46c1e726601241e3575500163df6e05c02b593ee23ef3ff49",
+    "window": "q1_ask_to_end_of_last_substantive_section",
+    "excluded": "all material before the Question-1 ask, and the closing section",
+    "boundary_method": "Section structure from moderator_log.section_transition, cross-checked against state_turn_*.json current_section_index. Sub-entry Question-1 offset by ANCHOR-AND-EXTEND: anchor on the latest sentence-aligned suffix of the boundary entry that still poses Question 1 (the minimal ask), then extend backward one sentence at a time only across sentences that are residue-free AND positively identified as part of the ask (carrying a Q1-distinctive token, or being an ask lead-in / short discourse connective); stop at the first sentence failing either test. Residue classes excluded: participant name, moderator self-introduction, welcome, instruction/confidentiality text, presentation summary. Because the boundary only ever moves earlier over text positively identified as part of the ask, residue is excluded by construction rather than by enumeration.",
+    "boundary_algorithm": "anchor_and_extend_v1",
+    "source_entry_index": 7,
+    "source_entry_turn": 6,
+    "source_character_start": 120,
+    "original_boundary_entry_sha256": "27989f1dbf8aa0eee3a05e03fc81bda317c7bd89ef87e919994483bd27b5817a",
+    "retained_boundary_text_sha256": "c5871fbd735987f9a1cc3a20f20740672414f79c8ea9c070f9bbc0dcdc6abdd1",
+    "boundary_review_status": "AUTO_TRIMMED",
+    "boundary_review_note": "anchored on minimal Q1 ask at char 155, extended back 1 sentence(s) to char 120; dropped 120 leading chars (20 words) carrying: participant_name(James); presentation_summary_propernouns(Good,James,Manchester,Norwich); presentation_summary(different parts of)",
+    "first_source_entry_index": 7,
+    "last_source_entry_index": 53,
+    "boundary_text_is_verbatim_slice": true,
+    "note": "Derived view. The source transcript is unmodified. The first entry's content is a verbatim character slice of the source entry from source_character_start onward - never paraphrased, normalised, reconstructed, or replaced with the guide's scripted question. Human transcripts need no equivalent window: they already begin at Question 1 and contain no introduction or closing section."
+  },
+  "transcript": [
+    {
+      "turn": 6,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Right, let's get into it properly. Thinking about your male friendships specifically — where's your favourite place to spend time with your mates? Could be somewhere local, a particular kind of spot — wherever actually comes to mind first.",
+      "timestamp": "2026-08-06T00:54:40.608874+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Thing is, for me a lot of it actually happens on the job, to be honest. You're working with the same crew most of the time, or you get to know the other lads on site. There's a lot of banter goes on, breaks, that sort of thing. That's where you catch up, have a laugh, talk about what's going on. You see the same faces regularly, so it builds up over time.\n\nOutside of that, not as much as maybe there used to be. Weekends sometimes we'll meet up for a pint locally, few of us, nothing fancy. But with the hours I'm doing and living where I am, it's not like I'm going into town or anything mad. Just the local pub round the corner really, if we're meeting up at all.\n\nSo yeah, the site work's probably where most of that social stuff happens for me these days. That's the reality of it.",
+      "timestamp": "2026-08-06T00:55:07.906328+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah, I hear that. That's the thing though — working from home, I don't get any of that, do I. There's no crew, no site banter, nobody popping round for a break. It's just me in the house most days. I mean, there's the other two adults I live with, so it's not like I'm completely isolated, but it's not the same as having work mates around you all day.\n\nI hadn't really thought about it much until you said that, but you're right — that's probably where a lot of men just naturally pick up their social stuff without even planning it. Just happens as part of the day. For me it's more deliberate, I suppose. If I want to see people it's got to be something I actually arrange, which... honestly, doesn't happen as much as it probably should. You knock off work, you're already at home, you're comfortable, and it's easier to just stay put than to get yourself out somewhere.\n\nThe local pub's alright when we do go, but it's not a regular thing for me. I do get out — bit of motoring, watching sport at the weekend with whoever's about — but it's not the same as what you've got built in, is it. You've got faces you see all the time whether you're planning to or not.",
+      "timestamp": "2026-08-06T00:55:31.623876+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "That's the other side of it though, isn't it. Yeah, you see the lads at work, that's built in, but by the time you've done your shift and done the commute, you're absolutely wrecked. So even if someone says come on, let's head to the pub after, half the time you just want to get home and sit down. I mean, you do it sometimes, but you're not exactly at your best, are you. You're tired, you're covered in dust or whatever, just want a shower and a rest.\n\nSo it's not like it's all sorted for me either, if that makes sense. You get the faces at work, yeah, but the energy to actually do something social on top of that long day — that's the struggle. Whereas you've got it a different way, James, but at least you're not knackered when five o'clock comes round. You could probably actually get yourself out somewhere if you fancied it.",
+      "timestamp": "2026-08-06T00:55:55.214663+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Fair point about the tiredness, I get that. But I'm not sure it's quite as straightforward for me as that, to be honest. Yeah, I'm not shattered at the end of the day in the way you are, but that doesn't automatically mean I'm getting out and seeing people. It's different, but it's not necessarily easier.\n\nWhen you've been working from the house all day, even if you've got energy left, you're sort of... already done with it, you know? You don't really want to gear yourself up to go somewhere. At least when you're on a site you're already dressed for it, you're already out. You've got momentum. For me there's this thing where I'd have to consciously decide to stop what I'm doing, get myself ready, and then go out and make an effort. And often I just... don't. Not because I'm tired, but because the default is just to stay put. It's easier mentally.\n\nPlus there's the work thing — because I'm working from home, when I finish, I'm still at home. The space doesn't change. I'm not transitioning anywhere. So it's actually quite easy to just stay in that mode and not bother going anywhere at all. Whereas at least you've got the journey giving you a break from it, a bit of a shift in the day.\n\nSo yeah, different problems really. You're tired, I'm just... stuck, sort of.",
+      "timestamp": "2026-08-06T00:56:23.437155+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Mark, what about you — where do you tend to end up when you're spending time with your mates?",
+      "timestamp": "2026-08-06T00:56:23.438131+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Honestly, for me it's quite a bit different from what you two are describing. I don't really have that crew thing at work — it's just me managing a small team, so it's not the same kind of banter and camaraderie you get on a building site. \n\nMost of my time outside work is taken up with the kids and what they're doing — school runs, their activities, all that. My mates, we see them, but it tends to be a bit more... organised, I suppose. We might meet up for a pint at the local pub, or sometimes we'll have people round for a barbecue in summer if the weather's decent and there's space. But it's not regular, not like Gregor's got built in at work.\n\nThe thing is, with two teenagers, weekends are quite structured round them anyway — driving them places, making sure they've got what they need. So meeting up with mates is something that has to fit around that, really. I'm probably closer to where James is in that sense — it takes a bit more deliberate arranging. But unlike James, at least I'm not working from home, so I get out of the house and I'm not just sitting there all day thinking about staying in.\n\nIt's just a different pattern, I think. More family-focused for me.",
+      "timestamp": "2026-08-06T00:56:42.508097+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a useful picture — three quite different patterns there. Let's shift to something related. How do you actually decide what to eat day to day? Not just in social situations, but generally — what drives it?",
+      "timestamp": "2026-08-06T00:56:42.509303+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Right, well in our house it's... it's quite a lot determined by what the kids want, to be honest. You've got two teenagers with different tastes, different schedules some nights because of activities and school stuff. My wife and I, we'll often be eating at different times or different things.\n\nDuring the week it's pretty basic — we do a lot of quick meals, things that don't take much thinking about. Pasta, jacket potatoes, that sort of thing. You're juggling getting one of them to football or whatever at half six, so you need something that doesn't require hours in the kitchen. Weekends you might do a proper roast or something, but even then it depends what everyone's doing.\n\nAnd then there's the cost of it all, feeding four people. You do get a bit strategic about it. Batch cooking when you can, things that stretch. My wife's usually the one thinking about that more than me, to be fair, but you're both aware of it.\n\nThe tiredness thing James was talking about — I get that in a different way. It's not from the commute, it's just that by the time you've sorted everyone's tea and cleared up, the last thing you want to do is think about what's for tomorrow as well. So it becomes quite routine, quite repetitive. You fall back on what you know works and what nobody complains about too much.",
+      "timestamp": "2026-08-06T00:57:15.971073+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Mark's painting a picture of food decisions being pretty much driven by what works for the household — kids' schedules, cost, what doesn't cause complaints. Does that resonate with either of you, or does it look quite different from where you're sitting?",
+      "timestamp": "2026-08-06T00:57:15.972090+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah, it's a bit different for me but I know what you mean about the household thing driving it. I've got three of us in the house, so it's not kids, but you're still cooking for more than just yourself, aren't you. You can't just do what you fancy.\n\nWe tend to sort of... coordinate a bit, make sure we're not all needing different things at different times. Because I'm working from home, I'm usually the one thinking about what's going to happen for tea, planning ahead a bit. But then you've got to check with the others — what do they fancy, what have we got, that sort of thing. It's more of a collective decision than it would be if I was just feeding myself.\n\nCost-wise, yeah, same as what you're saying. You're feeding three adults, so you can't just chuck money at it. We do the batch cooking thing, try to make it stretch. Though I suppose the nice thing is nobody's got specific schedules I'm juggling around — no activities or anything like that — so the actual logistics of getting it on the table are simpler. But the thinking about it, the planning, that's still there. You can't just not care about it.\n\nIt's a bit like what I was saying earlier about the house stuff piling up — same thing happens with routines. You fall into what works, and then it just carries on being that way because nobody's pushing to change it.",
+      "timestamp": "2026-08-06T00:57:42.583473+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "That's it, isn't it. You fall into something because it works at the time — the kids are smaller, you've got different demands — and then five years later you're still doing it the same way without really thinking about why. And nobody says anything because it's... fine. It works. Everyone gets fed, nobody's complaining.\n\nBut I'm starting to notice it more now the kids are getting older. Like, they're twelve and fifteen, they could actually help more with some of this stuff, but we've just never really shifted it. My wife does most of the planning, I do some of the cooking, but it's still very much the same pattern we fell into years ago. And you don't sit down and go, right, let's rethink this. You're just both tired and it's easier to carry on as you are.\n\nThe thing is, with teenagers especially, they should probably be learning how to do some of this themselves anyway. But you're so caught up in just getting through the week that you don't have the headspace to actually change how things work. You'd have to put in effort upfront to teach them or reorganise it, and when you're already knackered, that feels like too much.\n\nI hadn't really thought about it till you said that, James, but yeah — it's the same with the house stuff, the routines, all of it. You accept it because it's working, not because it's actually how you'd choose it to be.",
+      "timestamp": "2026-08-06T00:58:12.705788+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Gregor, we haven't heard from you yet on this one.",
+      "timestamp": "2026-08-06T00:58:12.707223+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, well it's a bit simpler for me, I suppose. There's three of us at home but nobody's got school runs or activities or anything like that. So it's just... what's for tea. My wife does most of the planning, if I'm honest. I'll cook sometimes, bit of whatever, but she's the one thinking ahead about it.\n\nDuring the week you're just grabbing something quick because you're in late, tired. Weekends maybe do something a bit more proper. But Mark's right about falling into a pattern — you just do what works and then you don't really change it. We've been doing the same sort of meals for years probably.\n\nCost comes into it, yeah. But it's not as complicated as what you're managing with two kids at different stages, Mark. That sounds like a lot of juggling. For us it's just the three of us, so it's easier to sort out really. Someone makes something, everyone eats it, that's the end of it.",
+      "timestamp": "2026-08-06T00:58:36.457336+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So across the three of you there's a pretty similar picture — meals are mostly driven by whoever's at home, what works, what doesn't cause grief, and you've all fallen into routines you're not actively choosing to change. Let me take that somewhere slightly different. I want to ask you something a bit more direct — do you think your gender influences what you eat? And I mean that genuinely, not a trick question — it might, it might not. What do you reckon?",
+      "timestamp": "2026-08-06T00:58:36.458698+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Hmm. I mean... yeah, probably, but not in the way you might think.\n\nIt's not like I won't eat something because it's not manly or whatever. It's more that... I don't know, my wife tends to be the one thinking about whether we're having enough veg, if everyone's getting proper nutrition, that sort of thing. I just kind of go along with it. And I cook, but it's usually things I know how to do — the simple stuff, the reliable things. She's the one pushing for a bit more variety or making sure it's balanced.\n\nSo I don't think I'm choosing differently because I'm a bloke, but I've definitely ended up not being the one driving those decisions. Whether that's because I'm not interested in it, or because we just fell into it that way early on, I'm not entirely sure to be honest. It's hard to separate out.\n\nLike, I can feed myself fine. But in the household context, it's become her thing more than mine. And I've never really questioned it because it works, and she seems to have opinions about it anyway. But now you're asking, I'm thinking... I don't know if that's because of gender or just because of how we've ended up dividing things up over time. Probably a bit of both, isn't it.",
+      "timestamp": "2026-08-06T00:59:09.179988+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "For me it's actually the other way round, which is maybe why I'm noticing it now you've asked. I'm the one doing most of the planning and thinking about it in our house. Not because anyone's asked me to, but because I'm here during the day and it just fell to me. \n\nSo when you're asking if gender influences it — I don't think it does for me in the sense of what I choose to eat. But it does in the sense that I've ended up being the default person who thinks about the household eating, if that makes sense. I'm working from home, so I'm the one who notices we're running low on things, thinks about what's going to work, checks what people fancy.\n\nThe other two adults, they just... eat what's there, mostly. They don't really engage with the planning side of it. And I don't think they'd do it differently if they were men or women, if I'm honest. It's just that I'm here and I'm the one who's thought about it, so I carry on thinking about it.\n\nBut yeah, Mark's thing about falling into a pattern and not questioning it — that's exactly it. I didn't consciously decide I'd be the meal planner. It just happened that way because of circumstances, and now it's just how it is. You don't sit down and renegotiate it. You're just getting through the week, same as everyone else.",
+      "timestamp": "2026-08-06T00:59:39.701075+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Yeah, I hear that. And I think... I don't know, maybe I'm being honest here, but I'm not sure I actually want to change it that much either. Which sounds a bit odd to say after going on about falling into patterns without thinking about it.\n\nBut the thing is, my wife's got opinions about food and cooking and nutrition and all that. She cares about it more than I do. And if I'm being truthful, I'm quite content to let her get on with it because I know it'll get done properly and nobody will complain. If I had to take that on completely, it would just be another thing I'm responsible for, and I'm already juggling quite a bit with work and the house stuff and the kids.\n\nSo maybe it's not that we fell into it by accident and haven't questioned it. Maybe we've just... sorted ourselves out in a way that works because we're different about it. She likes planning, I don't mind not being the one making those decisions. That's fine, isn't it?\n\nI suppose the difference from what you're saying, James, is that for you it sounds like nobody else really wants to take it on either, so you're just left doing it. Whereas with us there's actually someone who wants to be involved in it. \n\nBut honestly, I'm not sure if I'd call that a pattern we haven't examined — it might just be how we actually work better as a household.",
+      "timestamp": "2026-08-06T01:00:13.355133+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Right, yeah, I see what you mean. And fair enough if that's how it actually works for you two — if she genuinely wants to do it and you're both happy with that, then yeah, that's just... how you work.\n\nBut what I'm saying is slightly different. Nobody in my house wants to plan meals. They're not pushing for it, they don't care about nutrition or variety or any of that. They just... don't think about it. So it's not like I've found someone who's good at it and I'm stepping back because I trust them. It's more that I'm doing it because nobody else will, and if I don't, it just won't happen.\n\nAnd that's fine, I'm managing it. But the difference is — I can't just say oh well, I'm not interested in this so I'll leave it to someone else, because there is no someone else. There's no one to leave it to. So I get to do it whether I actually want to or not.\n\nI mean, I could decide not to bother, and then nobody eats properly, and that becomes a problem I've created. So it's not really an optional thing for me in the same way. You've got an actual choice because your wife's got opinions about it. I don't have that luxury. I'm just the person who has to care because if I don't, nothing gets sorted.",
+      "timestamp": "2026-08-06T01:00:42.871984+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Yeah, okay. You're right, actually. I hadn't thought about it quite like that.\n\nBecause now you're saying it, I'm realizing — I do have a choice in a way you don't. My wife will do it, or push for it to get done properly. So I can afford to not be bothered about it. But you're stuck with it whether you want it or not, because if you don't think about it, nobody eats. That's... that's not the same thing at all, is it.\n\nAnd I suppose when I was saying it works well because she cares about it more, I was maybe not being entirely straight about it. Because the thing is, I could care about it more if I needed to. I just... don't have to. And that's different from actually choosing not to because I prefer not to. I've got the option not to, and I'm taking it.\n\nWhereas you're just... landed with it. You can't opt out. And then you're doing all the thinking about it on top of everything else — the work, being at home all day, the lot. \n\nI don't know. I wasn't expecting to hear that back quite like that, but yeah. That's not really the same as what we've got going on at home.",
+      "timestamp": "2026-08-06T01:01:15.831073+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something interesting happening here — you've both been talking about who does the thinking about food, who carries the responsibility for it. And that's real. But I want to pull back to the original question for a second, because there's a dimension we haven't really got into yet. Everything you've described is about who plans meals. What I'm curious about is whether gender shapes what you actually choose to eat — specific foods, what feels right to eat or not, whether certain things feel more or less acceptable depending on who you're with. Does that feel like a different question to you, or is it the same thing?",
+      "timestamp": "2026-08-06T01:01:15.831610+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Right, yeah — that is different, isn't it. You're asking what I actually fancy, not who's doing the thinking about it.\n\nLook, I'll be honest. On the sites, what you eat is... it's a certain way. You've got your packed lunch, your flask of tea, maybe you'll grab something hot at lunch if there's a van round. But it's not delicate stuff. It's a fry-up, a pasty, a chip butty, that sort of thing. That's what the lads have, that's what you do. Nobody's thinking twice about it.\n\nAt home it's different, but I suppose... I don't know, I'm not going to say no to something because it looks a bit fancy or whatever. But I'm not going to ask for it either, if that makes sense. If my wife makes something, I'll eat it. But if I'm sorting myself out at the weekend, it's more likely to be something straightforward. A bit of meat, some potatoes, done.\n\nI don't think I'm actively avoiding anything because it's not manly or that. It's more just... that's what you're used to, that's what feels normal to you. The lads at work aren't sitting round eating salads, so you don't really get into that habit. By the time you're home you're tired anyway, you just want something filling.\n\nWhether that's because I'm a bloke or just because that's the world I'm in — the site work, the crew I'm with — I couldn't really say. Probably both, if I'm honest.",
+      "timestamp": "2026-08-06T01:01:47.128679+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Gregor, you said the lads at work aren't sitting round eating salads — so what do you reckon would actually happen if someone on your site did?",
+      "timestamp": "2026-08-06T01:01:47.130037+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Ha — he'd get some stick about it, wouldn't he. Not in a nasty way necessarily, just... you'd hear about it. The banter would come out. \"What are you on a diet or something?\" That sort of thing.\n\nI mean, nobody would stop him doing it. He can eat what he wants. But yeah, there'd be comments. It's just not what happens on a building site. You're doing physical work, you're hungry, you want something that fills you up. A salad doesn't really fit that picture, does it. So if someone turned up with a container of leaves, it'd be... noted.\n\nWhether that's stopping people from doing it or not, I don't know. I've never really seen it happen. But I reckon if someone was going to try it, they'd probably think twice knowing what the reaction would be. Not because there's any rule about it, just because you know what the atmosphere's like. You know what's acceptable in that environment.\n\nThat's just how it is though. Different places have different things, don't they. On a site it's one way. Round the dinner table at home, you just eat what's there.",
+      "timestamp": "2026-08-06T01:02:10.134476+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Yeah, that atmosphere thing is interesting — you don't need a rule if everyone already knows the score. Okay, let's shift slightly. Everything you've been describing — the routines, the habits, what fits, what doesn't — I want to make it a bit more concrete. Imagine you actually decided to go plant-based. Not dabbling with it, but properly. What would need to change in your life for that to be possible?",
+      "timestamp": "2026-08-06T01:02:10.135511+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Right. Well... that's not really going to happen for me, to be honest.\n\nI mean, I could technically do it, but it would be more hassle than it's worth. First off, my wife — she's not going to be into planning meals round that. She'd do it if I really pushed for it, but it would just be another thing I'm asking her to think about on top of what she's already doing. And I'd have to be the one sorting my packed lunches for work, making sure I've got stuff that works. That's extra thinking, extra prep time in the morning when I'm already up at half five.\n\nAnd then at work, you'd have to deal with the crew thing we were just talking about. Not that anyone would stop you, but you're marked out as different, aren't you. You're the one doing something else. That wears on you over time, even if it's just banter.\n\nPlus, honestly, I'm tired. I'm not going to spend what little energy I've got trying to work out what I can and can't eat, checking labels, making special meals. I want to come home, eat something that fills me up, and sit down. That's it. If my wife's made something, I eat it. If I'm doing it myself at the weekend, it's a steak or a bit of chicken, job done.\n\nSo no, I can't really see it happening. It would touch too many parts of how I actually live — work, home, time, effort. It's just not practical for my life as it is.",
+      "timestamp": "2026-08-06T01:02:51.358416+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Gregor's laying out something pretty concrete there — the domestic side, the work side, the sheer energy cost of it. Mark, James — does that land for you, or would it be a different set of things that would need to change in your lives?",
+      "timestamp": "2026-08-06T01:02:51.359702+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "I think... I'd probably be somewhere in between what you're describing, Gregor. I'm not going to do it either, if I'm honest, but for slightly different reasons.\n\nThe work crew thing wouldn't be an issue for me because I'm not on a site with lads giving each other stick. But the domestic side, yeah — that would be the same problem. My wife would have to completely change how she's thinking about meals, and like you said, it's just another thing on her plate. And the kids — they're teenagers, they're not going to be thrilled about it. It would become a thing where I'm imposing something on the household that nobody else wants, and then I'm the one who has to manage it.\n\nBut also, and I think this is what I was skirting round earlier with James — I don't actually want to do it enough to make all that happen. I'd have to care about it more than I do. You know, actually believe in it or want it for myself, not just as an abstract thing. And I don't. I eat fine as I am. My wife thinks about it and it works.\n\nSo yeah, I could probably do it if I had to. But like you said, Gregor, it would be more hassle than it's worth. And I'd need a reason that mattered to me more than just... getting through the week the way we already are.",
+      "timestamp": "2026-08-06T01:03:32.714745+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "James, you've been quiet — what would it look like for you?",
+      "timestamp": "2026-08-06T01:03:32.716019+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "I mean... I could actually do it, I think. That's the thing. There's no crew to deal with, no one's going to give me stick about it. And I'm already the one planning meals, so it's not like I'd be asking someone else to think differently about it.\n\nThe hassle would be different for me. It's not about someone else resisting or having to manage other people's reactions. It's more that I'd have to actually care about it enough to put in the extra work. Because right now I'm doing the minimum that keeps everyone fed — I'm not going out of my way to experiment or try things. I'm just... managing it efficiently.\n\nIf I went plant-based, I'd have to learn what to cook, plan differently, probably spend more time on it. And at the moment I don't have the energy or the will for that, even though I've got the time and the autonomy. It would just be adding another layer of thinking to something I'm already tired of thinking about.\n\nSo yeah, I could do it in practical terms. Nobody would stop me. But I don't want to enough to actually make that effort happen. And I'm not sure what would change that, to be honest. You'd need me to actually care about it — whether that's for health reasons or ethical reasons or whatever — more than I care about just keeping things simple and getting through the week.\n\nAt least with Gregor and Mark there's external stuff getting in the way. For me there's just... I can't be bothered. And that's my choice, I suppose. But it's a choice I'm making partly because I've got the space to be lazy about it.",
+      "timestamp": "2026-08-06T01:04:06.831407+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That phrase you used — 'the space to be lazy about it' — what do you mean by that?",
+      "timestamp": "2026-08-06T01:04:06.832926+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Well, I've got nobody depending on me to make a decision one way or another, have I. Mark's got his wife and kids who are involved whether he changes things or not. Gregor's got his wife and the crew at work. But for me, if I decide to eat plant-based or not plant-based, that's just... my thing. Nobody's affected by it except me.\n\nSo I could do it tomorrow if I wanted. But because nobody's pushing back, because there's no external pressure or expectation, I just don't bother. I could spend time learning new recipes, figuring it out, putting in that mental effort. Or I could just carry on as I am, which works fine and requires nothing.\n\nI've got the luxury of being lazy about it because there's nobody who cares either way. Nobody's going to say, right, we need to sort this out differently, or this matters to me. It's just me in the house doing this stuff on my own terms. Which sounds good in theory, but what it actually means is I never have to improve anything or push myself. I can just... opt out of bothering, indefinitely.\n\nWhereas you two, even if you're not going to change, there's at least something forcing you to think about it, to justify why you're not. For me there's just silence. Nobody asking anything of me, so nothing pushing me to do anything differently.",
+      "timestamp": "2026-08-06T01:04:38.385246+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something interesting in what you've each said, and I'm not sure it's quite as simple as 'we all don't want it enough.' Gregor, you've got real external things in the way — the domestic load, the work thing. Mark, you'd need to actually believe in it before taking it on. But James, you're saying almost the opposite: there's nothing in the way, and that's precisely the problem. No friction, no pressure, so no reason to move. So here's what I'm curious about — if the barrier for all three of you is ultimately about motivation rather than logistics, what would it actually take to shift that? Not as an abstract question, but for you specifically. What would have to be different — in your life, in the food itself, in how other people around you related to it — for any of you to actually want it enough?",
+      "timestamp": "2026-08-06T01:04:38.386471+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah, I don't know. That's the thing though — I'm not sure it's laziness in the way I said it. Or not just that.\n\nBecause actually, thinking about it now... the reason I don't have the energy to do anything different with food is partly because I'm already tired from doing all the thinking about it in the first place. Like, I'm the one who has to remember we need stuff, plan it out, think about what works. And by the time I've done that, I haven't got any left over for actually caring what it is.\n\nBut I've just been calling that laziness. I've been saying oh, I'm too lazy to bother trying something new. When actually what I mean is I'm exhausted from being the person who carries all that thinking, and I don't want to add anything else to it.\n\nSo what would shift it? I don't know. Maybe if someone else gave a shit about it enough to take some of that off me. Or if I could just... not be responsible for the whole thing. Have someone actually engage with me about what we eat, rather than just expecting me to sort it and they'll turn up and eat whatever's there.\n\nThat sounds like a lot to ask though. I don't think that's going to happen. So... I suppose nothing's going to shift, really. I'm just stuck with being tired about the whole thing and calling it not caring.",
+      "timestamp": "2026-08-06T01:05:17.591658+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "James, that's a shift from what you said earlier — not laziness exactly, but exhaustion from already doing the thinking. Gregor, Mark — you've both got other people in the picture when it comes to food decisions, even if they're complicating things. Does what James is describing resonate at all, or does it look different from where you're sitting?",
+      "timestamp": "2026-08-06T01:05:17.592890+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, that's... yeah, that lands actually. It's not quite the same as what James is saying, but I get what he means about being tired from the thinking.\n\nBecause I'm not doing the meal planning like James is, but I am doing a lot of the other stuff. Work, the commute, keeping the car running, bits round the house when I can get to them. And by the time you've done all that thinking — where am I going tomorrow, what needs doing, what's broken that I need to fix — you're just done, aren't you. You don't want to add another decision on top of it. You don't want to think about what you eat as well.\n\nSo when my wife's sorted the meals, that's actually one less thing I've got to carry. And I'm not saying that to sound lazy or that I don't pull my weight. But there's only so much thinking you can do in a day before your brain's just finished. And if someone else is handling that bit, you're... relieved of it.\n\nSo I don't think I'm lazy about the plant-based thing. I'm just already tired from everything else, and I can't face adding another complication to it. James's thing about exhaustion — yeah, that's closer to what it actually feels like than just not caring enough. You're worn out. And when you're worn out, you take the easiest option available to you.\n\nFor him it's the food planning wearing him out. For me it's everything else. But it's the same end result — you haven't got anything left to give to something new.",
+      "timestamp": "2026-08-06T01:05:47.415274+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Right, but the thing is — your wife's sorted the meals for you, yeah? So you've got someone else handling that bit. That's different from my situation.\n\nI mean, I get what you're saying about being tired from everything else. I've got that too — the work, thinking about the house stuff, all of it. But on top of that, I'm also the one doing the meal planning. There's nobody who's stepped in and taken that off me. There's nobody to hand it to.\n\nSo when you say your wife's relieved you of that bit — that's great, and I get why that matters. But for me there's no relief coming. I'm tired from work and everything else, and then I'm also the person who has to think about food. There's no one else to do it.\n\nI'm not looking for sympathy or anything. I'm just saying it's not quite the same situation. You've got someone else in your household who's engaged with that side of things, even if it's not how you'd choose it. I've just got... me. So there's nothing relieving the load. It all just sits with me.\n\nAnd I think that's why the idea of doing something different with it — plant-based or anything else — just feels impossible. I'm not just tired from other stuff. I'm tired from this as well. And there's nobody else to share it with.",
+      "timestamp": "2026-08-06T01:06:14.168698+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "Yeah, you're right. That is different. I hadn't thought about it quite like that, but you're right.\n\nI mean, I come home knackered and the meal's already sorted. Someone else has thought about it, done it, it's there. That's one less thing in my head. Whereas you're coming home knackered and then you've still got to think about it. You don't get to switch off from it.\n\nSo no, it's not the same. You're carrying it all yourself. There's no relief there, no handing it off to someone else who's engaged with it. You're just... stuck with it. All the thinking, all the time.\n\nI suppose I didn't really clock that till you said it. Because I was going on about being tired and not having energy for new things, but I've actually got someone managing one whole side of the household stuff for me. You haven't got that. So yeah, that's a fair point. It's a different kind of tired.",
+      "timestamp": "2026-08-06T01:06:47.944264+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a useful distinction — same exhaustion, different sources. You've between you mapped out something pretty clear: it's not really about whether plant-based food is available or affordable, it's about whether you've got anything left to give to changing something that already works, even if imperfectly. Let's take that somewhere slightly different. Thinking about plant-based foods more broadly — not whether you'd go fully plant-based, but what might actually make them more appealing to you, or to men you know. Not just taste or price — but anything. What would genuinely shift it?",
+      "timestamp": "2026-08-06T01:06:47.945050+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "I think... I need to be honest here. Listening to James and what he's saying about carrying it all himself, and then Gregor saying my wife's relieved me of that thinking — I've been telling myself it's neutral, that we've just sorted ourselves out how we work best. But actually, I'm benefiting from her doing that work, aren't I. She's not just preferring to do it, she's stuck doing it because I've opted out.\n\nAnd I don't know if that changes anything about whether I'd actually try plant-based stuff, but it changes something about how I think about it. Because what would make it appealing to me? Honestly? Someone else figuring out how to do it so I don't have to think about it. Someone else doing the work so I can just eat it without any effort on my part.\n\nWhich is... that's what I've already got with my wife, isn't it. Just with regular food instead. So I'm not actually tired because I'm doing too much thinking — I'm comfortable because someone else is.\n\nAs for what would shift it more broadly, I don't know. Maybe if it wasn't positioned as this thing you have to commit to, or learn about, or make a whole thing of. If it was just... normal. If my wife was making meals and half of them happened to be plant-based without it being some conscious decision we're making. That would be easier. Just slip into it rather than deciding to do it.\n\nBut that requires someone — in this case my wife — to do that work. To figure it out, to make it normal in the house. And I'm not about to ask her to take that on when she's already doing everything else.",
+      "timestamp": "2026-08-06T01:07:31.427981+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Mark, that's a pretty honest reckoning. The 'slip into it without deciding to do it' framing — does that resonate for either of you? What would actually shift it for you personally?",
+      "timestamp": "2026-08-06T01:07:31.429465+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg4_mark",
+      "speaker_name": "Mark",
+      "content": "Actually, wait — I'm going to push back on what I just said, because I'm not being straight about it.\n\nI said I won't ask my wife to take on more work when she's already doing everything else. But that's... that's me saying I won't take anything off her plate or reorganise how we do things, while at the same time benefiting from her doing all that thinking. So I'm comfortable, she's carrying it, and I'm justifying it by saying oh, well I don't want to add to her load.\n\nBut the thing is, if I actually wanted to shift it — if I cared enough about plant-based or anything else — I'd have to do some of the work myself, wouldn't I. Or we'd have to actually sit down and change how we divide things up. And I'm not doing that because it would be... effort. For me.\n\nSo really what I'm saying is: I'm fine with how it is because it suits me. And I'm calling it consideration for my wife when actually it's just me not wanting to be inconvenienced. That's the honest version.\n\nWould anything shift it? I don't know. Not plant-based specifically. But maybe if I actually examined what I'm comfortable leaving her to do and thought about whether that's fair, that might shift something. But I'm not sure I want to think about that very hard, to be honest.",
+      "timestamp": "2026-08-06T01:08:00.281960+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg4_james",
+      "speaker_name": "James",
+      "content": "Yeah, I... I'm hearing something in what you're saying that I need to look at myself, actually.\n\nBecause I've been sitting here saying my situation's different — I've got autonomy, nobody depending on me to make decisions, I could do something different if I wanted. And I've been using that to explain why I'm not bothering. Like, oh well, there's no external pressure so I'm just lazy about it.\n\nBut listening to you just now, I'm realising I'm doing the same thing you are. I'm comfortable with how it is — I'm the person who thinks about food, and everyone else just eats what I've sorted. And I'm calling that exhaustion or laziness when really what I am is... fine with it. Because it means I'm the one with the say, even if it's tiring. I'm in control of it.\n\nAnd if I actually wanted to change something — plant-based or anything else — I'd have to involve other people in that thinking, wouldn't I. I'd have to care enough to have that conversation, to negotiate it. And I don't want to do that. I want to keep it simple, keep it as just my thing.\n\nSo I'm not actually stuck with it because I'm exhausted or because there's nobody to help. I'm stuck with it because I've set it up this way and I'm comfortable enough with it not to change. Even though I'm complaining about being tired.\n\nThat's... that's not as straightforward as I was making it sound before.",
+      "timestamp": "2026-08-06T01:08:37.490629+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Gregor, you've been listening to both of them work through this. Where does it land for you — what would actually shift it?",
+      "timestamp": "2026-08-06T01:08:37.491915+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "I don't know, mate. I'm... I'm still thinking about what they've said.\n\nI mean, Mark's right about the comfort thing — I've got my wife doing that thinking and I'm benefiting from it without really questioning it. And listening to James, he's saying something similar but different — he's comfortable being in control of it even though it's tiring.\n\nFor me, I think it's a bit different again, but maybe not in the way I want to admit. Because I could probably do more of the meal planning if I wanted to. I've got the time at weekends, or I could think about it more. But I don't, because... well, it suits me that my wife handles it. I'm tired from work, I come home, and that bit's sorted. I don't have to think about it.\n\nIs that me being considerate like I said, or is that me just... being comfortable with how it is? I'm not entirely sure, if I'm honest. Maybe it's both. Maybe it's mostly me being comfortable and calling it something else.\n\nAs for what would shift it — what would make me actually care about plant-based stuff or changing how we eat? I don't know. Honestly, I don't think anything would right now. I'd need a reason that actually mattered to me personally, not just in theory. Health reasons maybe, if a doctor told me I had to. But just... deciding to do it because it's the right thing? That would need something more than I've got at the moment. More time, more energy, or maybe actually believing it was worth the hassle. And I don't.\n\nI'm not going to sit here and pretend I'm thinking deep thoughts about it. I'm just... not that bothered, really.",
+      "timestamp": "2026-08-06T01:09:10.457591+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So all three of you have worked through to something similar — it's not that plant-based food is unappealing or impossible, it's that you're comfortable enough not to change, and the thing that would shift it would have to come from outside. Gregor, you put it as a doctor telling you you had to. Mark, it was someone else making it normal in the house without you deciding. James, it was removing the need to involve other people in the thinking.\n\nHere's what I want to test though: that framing — 'I'd need an external reason that actually mattered' — is that actually different from saying it won't happen? Because the external reason you're each describing isn't something any of you are going to create. So is the honest version of this conversation that plant-based eating, for you, requires a crisis or someone else doing the work — and absent that, it's just not on the table?",
+      "timestamp": "2026-08-06T01:09:10.458368+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "mm_fg4_gregor",
+      "speaker_name": "Gregor",
+      "content": "No, that's... that's a fair challenge, actually.\n\nBecause yeah, if I'm saying it would take a doctor telling me I had to, or some kind of health thing forcing my hand, then I'm basically saying it's not going to happen. A doctor's not going to tell me that unless something's wrong. And nothing's wrong at the moment, so that's just... not a real scenario.\n\nSo if I'm being straight about it — and I think you're asking me to be — then no, it's not going to shift. Not because I couldn't do it, but because I won't. I'm comfortable enough how things are that I'm not going to bother changing them. And I'm telling myself it would take some external thing to shift it, but really what that is, is me saying I'm not going to choose to do it myself.\n\nThere's a difference, isn't there. Between saying 'I can't' and saying 'I won't.' I've been kind of... sliding between those two. And the honest answer is I won't. Not can't.\n\nI mean, could I sit down and learn about plant-based stuff, talk to my wife about maybe doing some meals that way? Could I put in that effort? Yeah, I could. But I'm not going to, because I don't want to badly enough. And that's... that's just the truth of it really. I'm comfortable, it works fine, and I can't be bothered to change it.",
+      "timestamp": "2026-08-06T01:09:42.299726+00:00",
+      "selection_mode": "voluntary"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+ "cache_key": "f224905a711823ab7c9e3ccc03b132599bdca1d881cd096dfaef6b9fd99778aa",
+ "computed_utc": "2026-07-31T00:24:58.181194+00:00",
+ "execution_mode": "batch",
+ "batch_job_name": "batches/to8xlhi19eohi33n4kb6vuyexr1a1b89ndws",
+ "custom_request_key": "macho_meals_fg3_run01",
+ "input": {
+  "side": "synthetic",
+  "fg": "fg3",
+  "condition": "enriched",
+  "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg3_run01\\comparable_transcript.json",
+  "sha256": "35d22075e4823baeafef6632bad40f41b24f371aa625c5a27e62026b2cf2bfd0",
+  "physical_run": "macho_meals_fg3_run01",
+  "canonical_replication_index": 1
+ },
+ "effective_request_config": {
+  "execution_mode": "batch",
+  "model": "gemini-3.5-flash",
+  "response_mime_type": "application/json",
+  "max_output_tokens": 16384,
+  "temperature_transmitted": false,
+  "temperature": null,
+  "thinking_config_transmitted": false,
+  "thinking_config": null,
+  "thinking_level_effective": "model_default_unpinned",
+  "thinking_level_label_in_config": "medium"
+ },
+ "codebook_sha256": "f343ebb1ead2b969a72472aba140072284cc910503c7ec3335a7d3d2d3f5dd4b",
+ "evaluator_prompt_sha256": "321ffd6274a26c3c59b9b63dd55a36e57d6f467cafd8fa8685630fbc2484f5af",
+ "blind_text_sha256": "48e9439993611eb9c588833feb687a049c019de4515b7a63da6f31406f01f704",
+ "call_telemetry": {
+  "max_output_tokens_requested": 16384,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "n_candidates": 1,
+  "prompt_tokens": 14742,
+  "candidates_tokens": 1453,
+  "total_tokens": 24260,
+  "thoughts_tokens": 8065,
+  "cached_tokens": null,
+  "raw_text_chars": 4870,
+  "parse_attempt": 1
+ },
+ "completeness": {
+  "status": "COMPLETE",
+  "problems": [],
+  "n_codes_returned": 11,
+  "n_codes_expected": 11,
+  "subtheme_ids_returned": [
+   "A.1",
+   "A.2",
+   "A.3",
+   "B.1",
+   "B.2",
+   "B.3",
+   "B.4",
+   "C.1",
+   "C.2",
+   "C.3",
+   "D"
+  ],
+  "expected_order_preserved": true,
+  "finish_reasons": [
+   "FinishReason.STOP"
+  ],
+  "max_output_tokens_requested": 16384,
+  "prompt_tokens": 14742,
+  "candidates_tokens": 1453,
+  "total_tokens": 24260,
+  "thoughts_tokens": 8065,
+  "cached_tokens": null,
+  "raw_text_chars": 4870,
+  "parse_attempt": 1,
+  "headroom_tokens": 14931
+ },
+ "tier1": {
+  "codes": [
+   {
+    "subtheme_id": "A.1",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T004",
+      "speaker": "Participant 1",
+      "quote": "I think sometimes people use that masculinity angle to justify not even thinking about what they're eating."
+     },
+     {
+      "turn_id": "T015",
+      "speaker": "Participant 5",
+      "quote": "you wouldn't catch me ordering a salad when I'm out with the lads, would you?"
+     },
+     {
+      "turn_id": "T016",
+      "speaker": "Participant 4",
+      "quote": "Yeah, that salad thing — that's it exactly, isn't it?"
+     },
+     {
+      "turn_id": "T031",
+      "speaker": "Participant 2",
+      "quote": "that link between meat and what it means to be a bloke"
+     }
+    ],
+    "evidence_note": "Participants 1, 2, 4, and 5 explicitly discuss how gender norms, peer pressure among male friends, and expectations of masculinity influence their food choices.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 0.8
+   },
+   {
+    "subtheme_id": "A.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "A.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.2",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T002",
+      "speaker": "Participant 1",
+      "quote": "You grab a burger on the way home or you cook up some chicken — that's just normal, that's what you do."
+     },
+     {
+      "turn_id": "T005",
+      "speaker": "Participant 2",
+      "quote": "It's just the default. It's what's expected, so you do it."
+     },
+     {
+      "turn_id": "T009",
+      "speaker": "Participant 4",
+      "quote": "it's just the path of least resistance because it's what's there, what's normal, what's expected."
+     },
+     {
+      "turn_id": "T013",
+      "speaker": "Participant 5",
+      "quote": "it's just what blokes do, innit?"
+     },
+     {
+      "turn_id": "T042",
+      "speaker": "Participant 3",
+      "quote": "part of what makes meat feel so natural and obvious is that there's no friction around it."
+     }
+    ],
+    "evidence_note": "All five participants describe eating meat as a default, socially expected, and normative practice.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3",
+     "Participant 4",
+     "Participant 5"
+    ],
+    "reach": 1.0
+   },
+   {
+    "subtheme_id": "B.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "B.4",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T004",
+      "speaker": "Participant 1",
+      "quote": "I eat meat. I like eating meat."
+     },
+     {
+      "turn_id": "T007",
+      "speaker": "Participant 3",
+      "quote": "I genuinely enjoy it — a good steak, proper roast chicken, fish."
+     },
+     {
+      "turn_id": "T015",
+      "speaker": "Participant 5",
+      "quote": "I like a decent steak, I like roast chicken."
+     },
+     {
+      "turn_id": "T020",
+      "speaker": "Participant 2",
+      "quote": "I eat meat. I like meat."
+     }
+    ],
+    "evidence_note": "Participants 1, 2, 3, and 5 directly voice their appreciation and enjoyment of the taste and satisfaction of eating animal products.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 1",
+     "Participant 2",
+     "Participant 3",
+     "Participant 5"
+    ],
+    "reach": 0.8
+   },
+   {
+    "subtheme_id": "C.1",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.2",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "C.3",
+    "present": false,
+    "confidence": null,
+    "supporting_quotes": [],
+    "evidence_note": null,
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [],
+    "reach": 0.0
+   },
+   {
+    "subtheme_id": "D",
+    "present": true,
+    "confidence": "high",
+    "supporting_quotes": [
+     {
+      "turn_id": "T037",
+      "speaker": "Participant 3",
+      "quote": "Or if they had a health scare and a doctor said you need to cut the meat."
+     },
+     {
+      "turn_id": "T050",
+      "speaker": "Participant 5",
+      "quote": "Health thing, or environmental thing that actually got under my skin somehow."
+     }
+    ],
+    "evidence_note": "Participants 3 and 5 outline the extreme circumstances, such as health scares or deep environmental concerns, required for them to change their eating habits.",
+    "quote_verified": true,
+    "unverified_quote_count": 0,
+    "voiced_by": [
+     "Participant 3",
+     "Participant 5"
+    ],
+    "reach": 0.4
+   }
+  ]
+ },
+ "quote_validity": {
+  "total_quotes": 15,
+  "verified_quotes": 15,
+  "total_present_codes": 4,
+  "verified_codes": 4,
+  "demoted_codes": 0
+ }
+}

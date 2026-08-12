@@ -1,0 +1,1390 @@
+{
+  "schema_version": 3,
+  "session_meta": {
+    "id": "macho_meals_fg3_twinpop_run03",
+    "research_objective": "Focus group guide exploring how men in the UK make everyday food\nchoices, how social context, work, hobbies, health, taste and other\npeople shape what they eat, how gender and masculinity may influence\nfood choices, and what would need to change for plant-based foods to\nbecome more acceptable or appealing.\n",
+    "topic_domain": "Masculinity, food choice, animal product consumption, and plant-based eating",
+    "participant_collective_identity": "Men in the UK reflecting on food choices, male friendship, gender norms, and plant-based eating",
+    "moderator_knowledge_brief": "Explore (1) everyday food decision-making, (2) the social contexts in\nwhich men spend time with male friends, (3) the influence of other\npeople, work, hobbies, health, nutrition and taste on food choices,\n(4) whether participants perceive gender as shaping what they eat,\n(5) social acceptability and gendered meanings attached to vegetarian,\nvegan, plant-based, feminine or masculine foods, and (6) what personal,\nsocial and practical changes would make plant-based eating more viable\nor appealing. The discussion should remain exploratory, non-judgmental,\nand non-leading.\n",
+    "researcher_notes": "",
+    "temperature": 1.0,
+    "participant_response_max_tokens": 800,
+    "participation_mode": "emergent",
+    "moderator_model": "claude-sonnet-4-6",
+    "initial_session_plan": {
+      "thematisation_approach": "These participants will be framed as men reflecting on their own everyday lives \u2014 the places they go, the food they eat, and the social contexts that shape those choices. The collective identity is ordinary men in the UK talking honestly about day-to-day decisions, not experts, health advocates, or campaigners. The framing will be mundane and specific, not ideological or aspirational.",
+      "priority_research_areas": [
+        "Gender and food choice (Section 3): This is the most socially loaded topic and the one most likely to produce either defensiveness or performative answers. Participants may dismiss gender as irrelevant to their choices while providing evidence that it does matter. Probe depth and behavioural grounding will be critical here.",
+        "Plant-based shift (Section 4): Participants may give 'polite' or hypothetical answers about going plant-based without engaging seriously with the real barriers. Consensus around cost or taste as barriers may mask deeper identity-based resistance. A sharpening move may be needed.",
+        "Social context and peer influence: Across sections 1\u20133, there is risk that participants underreport how much other men influence their food choices. The male friendship context in Section 1 is a useful behavioural entry point to surface this before it becomes a direct question.",
+        "Making plant-based more appealing (Section 5): Answers here may be generic or ad-speak ('better taste', 'lower price'). The challenge will be pushing past the obvious toward specific, personal, and sometimes contradictory barriers."
+      ],
+      "participant_notes": [
+        {
+          "participant_id": "mm_fg3_andrew",
+          "anticipated_role": "Unknown from profile alone. Mid-40s, suburban South East \u2014 comfortable middle-ground profile. May be articulate and forthcoming or may default to pragmatic, brief answers. Watch for whether he leads or follows early.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg3_daniel",
+          "anticipated_role": "Oldest in the group at 48, suburban East of England. May have more settled, habitual food patterns and potentially less openness to plant-based framing. Could be a grounding voice of practicality \u2014 or a dissenting voice if consensus drifts toward openness to plant-based.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg3_john",
+          "anticipated_role": "45, suburban South West. Profile is minimal. Watch for engagement in early sections \u2014 if quiet, may need a light invitation once the group settles.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg3_nick",
+          "anticipated_role": "Youngest at 40, North West. May bring a slightly different regional perspective. Age difference is small but he may feel less settled in his food identity than older participants, potentially more open to change or more self-aware about gender norms.",
+          "initial_attention_flag": null
+        },
+        {
+          "participant_id": "mm_fg3_paul",
+          "anticipated_role": "47, suburban South East \u2014 close in profile to Andrew. Two South East participants may align or reinforce each other; watch for whether a regional pairing emerges. Possible dominant voice if he is high-verbal.",
+          "initial_attention_flag": "Monitor for potential pairing dynamic with Andrew that could exclude others."
+        }
+      ],
+      "known_risk_conditions": [
+        "Social desirability bias on gender: Men may deny that gender influences their food choices because admitting it feels like admitting they conform to stereotypes. Use behavioural grounding ('can you think of a time...') rather than attitudinal questions alone.",
+        "Premature consensus on plant-based barriers: The group may quickly converge on 'taste' and 'price' as the obvious barriers, closing off deeper exploration of identity, social judgement, and masculinity. Plan a sharpening move early in Section 4.",
+        "Performative openness to plant-based eating: Some participants may signal openness they don't actually feel, especially if the discussion tone becomes health-positive. Watch for contradictions between stated openness and specific behavioural details.",
+        "Dominance risk in a five-person all-male group: These groups can quickly develop a dominant voice, especially in a topic area (food, gender) where some men feel confident asserting a pragmatic or dismissive take. Monitor turn distribution from Section 2 onward.",
+        "Topic sensitivity around masculinity: Direct questions about gender and masculine identity may produce deflection or humour as a distancing mechanism. Treat these as signals worth probing rather than obstacles to move past."
+      ],
+      "directivity_plan": "Sections 0\u20131: Light touch. The goal is rapport and warmth. Let participants speak freely, probe only if something emotionally rich or analytically significant surfaces unexpectedly. Do not exhaust topics. Section 2: Moderate directivity \u2014 begin grounding in real behaviour, not abstract preference. Probe for specific moments and decisions. Section 3: Higher directivity. This is the most analytically loaded section. Push past easy dismissals of gender. Use behavioural grounding, reflect contradictions when they emerge, and actively invite dissent if the group aligns too quickly. Sections 4\u20135: High directivity on specificity, lower on emotional depth. These sections are action-oriented; push for concrete, personal barriers and changes, not generic ones. Invite sharpening where answers feel polished. Section 6: Light touch again. Allow participants to add anything they feel was missed; do not reopen major topics.",
+      "time_budget": {
+        "total_minutes": 45,
+        "total_word_budget": 4500,
+        "budget_rationale": "Main topic sections (3, 4, 5) receive the largest share \u2014 roughly 55% of total budget combined. Context sections (1, 2) receive moderate allocation to build the foundation without consuming the core time. Intro (0) and closing (6) are kept light. Section 3 (gender and food) receives the most words among main topics because it is the highest-sensitivity section and most likely to need probing depth and contradiction work.",
+        "per_section": [
+          {
+            "section_index": 0,
+            "section_label": "Introduction and instructions",
+            "section_phase": "intro",
+            "word_budget": 250,
+            "turn_budget": 6
+          },
+          {
+            "section_index": 1,
+            "section_label": "Opening discussion: male friendship and place",
+            "section_phase": "context",
+            "word_budget": 550,
+            "turn_budget": 10
+          },
+          {
+            "section_index": 2,
+            "section_label": "Everyday food decision-making",
+            "section_phase": "context",
+            "word_budget": 600,
+            "turn_budget": 12
+          },
+          {
+            "section_index": 3,
+            "section_label": "Gender and food choice",
+            "section_phase": "main_topic",
+            "word_budget": 950,
+            "turn_budget": 18
+          },
+          {
+            "section_index": 4,
+            "section_label": "Imagining a plant-based shift",
+            "section_phase": "main_topic",
+            "word_budget": 800,
+            "turn_budget": 16
+          },
+          {
+            "section_index": 5,
+            "section_label": "Making plant-based foods more appealing",
+            "section_phase": "main_topic",
+            "word_budget": 700,
+            "turn_budget": 14
+          },
+          {
+            "section_index": 6,
+            "section_label": "Closing remarks",
+            "section_phase": "closing",
+            "word_budget": 150,
+            "turn_budget": 6
+          }
+        ]
+      }
+    },
+    "current_section_index": 3,
+    "section_phase": "main_topic",
+    "current_question_index": 0,
+    "total_turns": 25,
+    "session_started_at": "2026-08-06T00:04:30.868194Z",
+    "inject_participant_intro": false,
+    "run_label": "twinpop_run03",
+    "participant_episodic_depth": "since_last_n",
+    "participant_episodic_since_last_n": 20,
+    "participant_episodic_recent_k": 6,
+    "moderator_reflection_enabled": true,
+    "moderator_restraint_prompt": true,
+    "moderator_context_mode": "summarized",
+    "engagement_own_history_token_budget": 1500,
+    "moderator_prompt_override": "sandbox/01_MODERATOR_SYSTEM_PROMPT_MINIMAL.md",
+    "moderator_opening_prompt_override": null,
+    "time_budget_tracking_enabled": true
+  },
+  "discussion_guide": [
+    {
+      "section_index": 0,
+      "section_label": "Introduction and instructions",
+      "section_phase": "intro",
+      "section_purpose": "Section 0: Introduction and instructions",
+      "scripted_question": "Hi everyone, thanks so much for joining the focus group today. We\u2019re\ngoing to take about 45 minutes to talk about your food choices and\nopinions, and this will be recorded for research purposes. Try not to\noverthink the questions, and simply speak freely. There are no right\nor wrong answers. Please be respectful of your fellow focus group\nmembers, and keep your responses relatively brief to allow time for\neveryone to speak. But remember that this is a conversation, not an\ninterview, so you can jump in when you have something to say and you\ndon\u2019t have to take turns answering each question, but you can if you\nwant to. Okay great, let\u2019s start by going around and saying your name\nand where in the UK you\u2019re coming from today.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 1,
+      "section_label": "Opening discussion: male friendship and place",
+      "section_phase": "context",
+      "section_purpose": "Section 1: Opening discussion: male friendship and place",
+      "scripted_question": "What\u2019s your favourite place in your city to spend time with your male\nfriends? Why? Feel free to be specific.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 2,
+      "section_label": "Everyday food decision-making",
+      "section_phase": "context",
+      "section_purpose": "Section 2: Everyday food decision-making",
+      "scripted_question": "How do you decide what to eat?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": true,
+      "suggested_probes": [
+        "Do other people influence what you eat? If so, tell us more about how.",
+        "Do your work or hobbies influence what foods you eat? Tell us more about how.",
+        "How important is health and nutrition?",
+        "How important is taste?"
+      ]
+    },
+    {
+      "section_index": 3,
+      "section_label": "Gender and food choice",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 3: Gender and food choice",
+      "scripted_question": "Do you think your gender influences what you eat? Tell us more about\nwhy or why not.",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": [
+        "Is it socially acceptable for men to eat vegetarian or vegan foods?",
+        "Are some foods considered feminine?",
+        "Are some foods considered masculine?"
+      ]
+    },
+    {
+      "section_index": 4,
+      "section_label": "Imagining a plant-based shift",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 4: Imagining a plant-based shift",
+      "scripted_question": "Imagine you decided to go plant-based \u2014 what would need to change in\nyour life for you to do that?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": [
+        "How would your family and friends react to this?",
+        "How might it change the way you shop or cook?"
+      ]
+    },
+    {
+      "section_index": 5,
+      "section_label": "Making plant-based foods more appealing",
+      "section_phase": "main_topic",
+      "section_purpose": "Section 5: Making plant-based foods more appealing",
+      "scripted_question": "What might make plant-based foods more appealing to you or other men\nyou know?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": []
+    },
+    {
+      "section_index": 6,
+      "section_label": "Closing remarks",
+      "section_phase": "closing",
+      "section_purpose": "Section 6: Closing remarks",
+      "scripted_question": "Okay everyone, that\u2019s our time. Thanks so much for participating\ntoday. Before we finish, is there anything else you would like to add\nabout food choices, gender, masculinity, or plant-based eating?",
+      "probing_depth_ceiling": null,
+      "stimulus": null,
+      "completed": false,
+      "suggested_probes": []
+    }
+  ],
+  "participants": {
+    "mm_fg3_andrew": {
+      "id": "mm_fg3_andrew",
+      "name": "Andrew",
+      "profile_summary": "Andrew, 45, Male. Suburban, South East, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_andrew",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared",
+          "persona.background.working_life": "rendered_from_census_microdata_sn9154",
+          "persona.background.home_and_household": "rendered_from_census_microdata_sn9154",
+          "persona.background.week_and_hobbies": "rendered_from_census_microdata_sn9154"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Andrew",
+            "age": 45,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "South East",
+              "country": "UK"
+            }
+          },
+          "background": {
+            "working_life": "A forty-five-year-old employee working full-time as a manager in logistics, warehousing and transport, within the wholesale and retail trade and motor vehicle repair sector. The role carries supervisory responsibility for a team, placing it in the lower managerial and administrative bracket, and typically involves between thirty-one and forty-eight hours each week. A degree-level qualification underpins the career. The workplace sits between ten and twenty kilometres from home, reached by car or van, with no element of the job carried out remotely.",
+            "home_and_household": "Home is a terraced house in a suburban part of the South East, owned with a mortgage. The household consists of one person aged under sixty-five, living alone, never married and never in a registered civil partnership. There are at least two more bedrooms than the occupancy standard requires, so spare rooms are available for storage, a study or occasional guests. Maintaining the property, keeping up with mortgage payments and managing routine repairs and bills fall entirely to the single occupant.",
+            "week_and_hobbies": "Weekdays follow a settled rhythm shaped by shift patterns and a twenty-minute or so commute by car, with early starts common in transport management. Evenings at home tend to be quiet, given over to television, music, reading or catching up on household admin. Spare rooms allow space for a desk, tools or hobby equipment. Weekends leave room for car maintenance, garden and DIY tasks, driving out to the coast or countryside, and keeping in touch with friends and wider family."
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        }
+      },
+      "turn_count": 4,
+      "emotional_signal": "said 'it does feel like something's missing, when you look at it like that' \u2014 quiet, tentative admission; not dramatic but sits apart from the pragmatic tone of his earlier answer",
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg3_daniel": {
+      "id": "mm_fg3_daniel",
+      "name": "Daniel",
+      "profile_summary": "Daniel, 48, Male. Suburban, East of England, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_daniel",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared",
+          "persona.background.working_life": "rendered_from_census_microdata_sn9154",
+          "persona.background.home_and_household": "rendered_from_census_microdata_sn9154",
+          "persona.background.week_and_hobbies": "rendered_from_census_microdata_sn9154"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Daniel",
+            "age": 48,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "East of England",
+              "country": "UK"
+            }
+          },
+          "background": {
+            "working_life": "A forty-eight-year-old employee in the construction sector, working in the building finishing trades and classed within routine occupations. Employment is full-time, typically between thirty-one and forty-eight hours a week, with supervisory responsibility for others on site. There is no fixed place of work, so tasks are carried out at whatever property or development is currently contracted, reached by driving a car or van. Skills were gained through an apprenticeship, which remains the highest formal qualification held, and practical experience accumulated over many years on varied jobs.",
+            "home_and_household": "Home is a detached house in a suburban part of the East of England, owned with a mortgage still being repaid. The household consists of two adults, both aged sixty-five or under: a married couple in an opposite-sex partnership, with no dependent children living with them. Recorded as the husband or wife of the household reference person. The property has two or more bedrooms beyond the notional requirement, so there is considerable spare room, including space that can be given over to storage or occasional visitors.",
+            "week_and_hobbies": "Weekdays follow the rhythm of site work, with early starts, driving between locations across the region, and an evening return to the suburban house. Time away from work tends to be spent on maintenance and improvement of the property and garden, alongside vehicle upkeep and occasional projects using trade tools already to hand. Weekends allow for longer drives, visits to relatives and friends, following sport and motoring interests, and quieter evenings at home with a spouse who is also of working age."
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        }
+      },
+      "turn_count": 4,
+      "emotional_signal": null,
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg3_john": {
+      "id": "mm_fg3_john",
+      "name": "John",
+      "profile_summary": "John, 45, Male. Suburban, South West, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_john",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared",
+          "persona.background.working_life": "rendered_from_census_microdata_sn9154",
+          "persona.background.home_and_household": "rendered_from_census_microdata_sn9154",
+          "persona.background.week_and_hobbies": "rendered_from_census_microdata_sn9154"
+        },
+        "persona": {
+          "demographics": {
+            "name": "John",
+            "age": 45,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "South West",
+              "country": "UK"
+            }
+          },
+          "background": {
+            "working_life": "A self-employed road transport driver in his mid-forties, working full-time on his own account without staff or supervisory duties. His work sits within the transport and storage sector, and he holds no formal qualifications, having built his experience through years behind the wheel. Weeks routinely run to forty-nine hours or more, with schedules shaped by delivery windows and depot timings rather than fixed office hours. He travels to a workplace between ten and twenty kilometres away, driving a van or car there himself.",
+            "home_and_household": "He rents a detached house from a private landlord in a suburban part of the South West. The property is larger than the household strictly requires, with two or more bedrooms spare under standard occupancy measures. Two adults share the home, both aged sixty-five or under, and there are no children living there. He is divorced and not currently living as part of a couple. The arrangement is a private tenancy rather than ownership, giving a settled base without the commitments of a mortgage.",
+            "week_and_hobbies": "Long working hours leave limited free time, and much of the week is structured around early starts and late finishes. Quieter evenings tend to be spent at home, with radio, television and motorsport coverage among the usual distractions. Weekends allow for vehicle maintenance, tinkering in the driveway, and occasional drives out towards the coast or open countryside within reach of the South West suburbs. Contact with the other adult in the household is informal, and social plans are generally arranged around the shifting rota."
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        }
+      },
+      "turn_count": 5,
+      "emotional_signal": "said 'it's just arithmetic' \u2014 quiet insistence, defending his life situation as structurally constrained rather than a failure of motivation or meaning",
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg3_nick": {
+      "id": "mm_fg3_nick",
+      "name": "Nick",
+      "profile_summary": "Nick, 40, Male. Suburban, North West, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_nick",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared",
+          "persona.background.working_life": "rendered_from_census_microdata_sn9154",
+          "persona.background.home_and_household": "rendered_from_census_microdata_sn9154",
+          "persona.background.week_and_hobbies": "rendered_from_census_microdata_sn9154"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Nick",
+            "age": 40,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "North West",
+              "country": "UK"
+            }
+          },
+          "background": {
+            "working_life": "A forty-year-old employee working full-time in an electrical and electronic trade within the information and communication sector, typically between thirty-one and forty-eight hours each week. There is no fixed place of work, so days are spent moving between client premises and installation points rather than a single office or depot. He drives a car or van to reach each assignment, carrying tools and test equipment. He holds no supervisory or management responsibility, instead working to job schedules, and is qualified to degree level or professional equivalent.",
+            "home_and_household": "Home is a semi-detached house in a suburban part of the North West, owned with a mortgage. Three people live there: himself, his wife, and their one dependent child, who is under five. The property has one bedroom more than the household strictly requires, giving a little spare space for storage or a small study area. Being an owner with a loan shapes monthly budgeting, and the household runs as two adults sharing responsibility for a young child alongside full-time paid work.",
+            "week_and_hobbies": "Weekdays follow a driving-based pattern, with early starts and travel time between jobs, so evenings at home tend to be quiet and centred on a very young child's routine. Weekends bring trips to local parks and soft play, visits to relatives, and steady work on the house and garden. Practical interests reflect his trade: tinkering with wiring, audio equipment, computing and home automation projects. He also follows sport on television, reads technical material online, and occasionally studies for further professional certification."
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        }
+      },
+      "turn_count": 6,
+      "emotional_signal": "said 'Is this just what it is now?' \u2014 quietly resigned, echoing Paul and John's emotional register",
+      "follow_up_count_current_question": 0
+    },
+    "mm_fg3_paul": {
+      "id": "mm_fg3_paul",
+      "name": "Paul",
+      "profile_summary": "Paul, 47, Male. Suburban, South East, UK.",
+      "agent_payload": {
+        "schema_version": "fg_agents_v1",
+        "agent_id": "mm_fg3_paul",
+        "language": "en",
+        "field_provenance": {
+          "language": "observed",
+          "persona.demographics.name": "observed",
+          "persona.demographics.age": "observed",
+          "persona.demographics.gender": "observed",
+          "persona.demographics.location.urban_rural": "observed",
+          "persona.demographics.location.region": "observed",
+          "persona.demographics.location.country": "derived",
+          "study_context.identity_metadata_linkage": "researcher_declared",
+          "persona.background.working_life": "rendered_from_census_microdata_sn9154",
+          "persona.background.home_and_household": "rendered_from_census_microdata_sn9154",
+          "persona.background.week_and_hobbies": "rendered_from_census_microdata_sn9154"
+        },
+        "persona": {
+          "demographics": {
+            "name": "Paul",
+            "age": 47,
+            "gender": "Male",
+            "location": {
+              "urban_rural": "Suburban",
+              "region": "South East",
+              "country": "UK"
+            }
+          },
+          "background": {
+            "working_life": "A forty-seven-year-old employee working full-time, typically between thirty-one and forty-eight hours a week, in a lower professional and higher technical role. The work sits within human resources, training and vocational guidance, supporting people through recruitment processes, learning programmes and career development. The employing organisation operates in administrative and support service activities. There are no supervisory or management responsibilities attached to the post, and the role is carried out mainly at or from home rather than at a separate workplace. Formal qualifications amount to a small number of GCSE-level or vocational credits.",
+            "home_and_household": "Home is a terraced house in a suburban part of the South East of England, owned with a mortgage still being repaid. The household contains two people: a married couple of opposite sexes, both aged sixty-five or under, with no children living with them and no dependants in the family. The property has at least two more bedrooms than the household requires, so one room can readily serve as a study or workspace. Household responsibilities and running costs are shared between the two adults.",
+            "week_and_hobbies": "Weekdays follow a steady rhythm shaped by working from home, with no commute and a spare room set aside as an office. Breaks are often spent outdoors on local suburban streets and green spaces, and the absence of travelling time leaves room for reading, listening to music and keeping up with practical courses online. Weekends allow for maintenance jobs around the terraced house and garden, occasional day trips within the South East, and quiet time spent with a spouse."
+          }
+        },
+        "study_context": {
+          "dataset": "DS03_MACHO_MEALS_UK",
+          "focus_group": "FG3",
+          "identity_metadata_linkage": "researcher_random_assignment",
+          "identity_metadata_linkage_note": "FG3 (the 40-49 age-band focus group) had a PID recording error that made it impossible to match individual survey responses to individual named transcript speakers. The 5 real, unaltered FG3 survey rows (demographics + psychometric scores + consumption frequencies) were assigned to the 5 known FG3 transcript speaker names (Andrew, Daniel, John, Nick, Paul) by the researcher via random 1:1 pairing, recorded in data/manifests/focus_group_dataset_manifest_v5.xlsx, replacing the dash placeholders documented in data/datasets_transcripts/standardized/macho_meals/fg3/baseline_metadata.json. Every field value below is genuine, unaltered FG3 survey data; only the specific person-to-row correspondence is arbitrary. Analyses that treat an individual FG3 agent's psychometric profile as predictive of that same named agent's transcript statements are not valid at the individual level for this group; FG3 group-level/aggregate findings are unaffected, since all 5 real rows are genuinely FG3 data."
+        },
+        "simulation_config": {
+          "model": "claude-haiku-4-5-20251001",
+          "max_tokens": 400
+        }
+      },
+      "turn_count": 5,
+      "emotional_signal": "said 'anything that's just about looking after yourself or enjoying something, that gets pushed down the list' \u2014 framing self-care as a category of things that don't count, delivered with quiet matter-of-factness rather than distress",
+      "follow_up_count_current_question": 0
+    }
+  },
+  "group_state": {
+    "participation_balance": {
+      "mm_fg3_andrew": 0.167,
+      "mm_fg3_daniel": 0.167,
+      "mm_fg3_john": 0.208,
+      "mm_fg3_nick": 0.25,
+      "mm_fg3_paul": 0.208
+    },
+    "silent_participants": [],
+    "consensus_risk": 0.25,
+    "dominant_voices": [],
+    "unresolved_tensions": [],
+    "group_has_agreed_easily_on": [
+      "Time poverty / weekends consumed by maintenance and family obligations \u2014 group is converging on this without tension",
+      "Fatigue and compressed schedules \u2014 not the tasks themselves \u2014 as the barrier to being present",
+      "External pull \u2014 a partner, family commitment, or someone else's plan \u2014 as the thing that actually gets you out of the house when you're depleted, rather than self-generated motivation",
+      "Food decisions collapse under end-of-day depletion \u2014 default/easiest option wins without deliberation",
+      "Structure provided by others \u2014 a partner, a supervisor, an external commitment \u2014 enables action that self-generated motivation under fatigue cannot"
+    ],
+    "section_turn_counts": {
+      "mm_fg3_paul": 2,
+      "mm_fg3_nick": 2,
+      "mm_fg3_john": 2
+    },
+    "section_word_counts": {
+      "MODERATOR": 252,
+      "mm_fg3_paul": 560,
+      "mm_fg3_nick": 551,
+      "mm_fg3_john": 546
+    },
+    "completed_section_turn_counts": {
+      "0": {
+        "mm_fg3_andrew": 2,
+        "mm_fg3_nick": 1,
+        "mm_fg3_daniel": 1,
+        "mm_fg3_john": 1,
+        "mm_fg3_paul": 1
+      },
+      "1": {
+        "mm_fg3_nick": 3,
+        "mm_fg3_paul": 2,
+        "mm_fg3_john": 2,
+        "mm_fg3_daniel": 1
+      },
+      "2": {
+        "mm_fg3_andrew": 2,
+        "mm_fg3_daniel": 2
+      }
+    },
+    "completed_section_word_counts": {
+      "0": {
+        "MODERATOR": 196,
+        "mm_fg3_andrew": 233,
+        "mm_fg3_nick": 133,
+        "mm_fg3_daniel": 200,
+        "mm_fg3_john": 251,
+        "mm_fg3_paul": 250
+      },
+      "1": {
+        "MODERATOR": 157,
+        "mm_fg3_nick": 803,
+        "mm_fg3_paul": 525,
+        "mm_fg3_john": 502,
+        "mm_fg3_daniel": 306
+      },
+      "2": {
+        "MODERATOR": 72,
+        "mm_fg3_andrew": 468,
+        "mm_fg3_daniel": 514
+      }
+    },
+    "consecutive_silent_turns": 0,
+    "consecutive_participant_turns": 0,
+    "last_speaker_id": "MODERATOR",
+    "last_engagement_round": [
+      {
+        "participant_id": "mm_fg3_andrew",
+        "wants_to_speak": true,
+        "urgency": 0.7,
+        "hook": "John just named the real problem \u2014 that tiredness and full schedules make logic irrelevant. Andrew has already recognized the pattern of default choices adding up over time. There's a specific tension here about what's actually possible versus what's theoretically right, and whether admitting something feels impossible is acceptance or defeat. Andrew can push into that without retreating into 'it's just what happens.'",
+        "addressed_to": "John",
+        "intent": "affirm_and_elaborate"
+      },
+      {
+        "participant_id": "mm_fg3_daniel",
+        "wants_to_speak": true,
+        "urgency": 0.7,
+        "hook": "John's just said something about the problem being different from what Nick described \u2014 that logic doesn't solve exhaustion. That's true, but he's also sidestepped what I was getting at about structure and external expectation actually *creating* energy. I need to push on that because John's accepting the tiredness as the final answer, and it's not.",
+        "addressed_to": "John",
+        "intent": "challenge"
+      },
+      {
+        "participant_id": "mm_fg3_john",
+        "wants_to_speak": true,
+        "urgency": 0.85,
+        "hook": "Nick keeps circling back to the idea that you can do both \u2014 cook properly AND fix the fence \u2014 but he's not really landed on what happens when the work itself is the structural problem. I've said this already, but I think there's something he's not quite getting about self-employed work that eats fifty hours. It's not about priorities or identity or deciding what matters. It's that the work itself doesn't have an off switch. And I'm starting to feel like I need to push back on the implication that if I just accepted it matters enough, I'd find the energy. Because that's still logic. That's still assuming the problem is my mindset rather than the actual shape of the week.",
+        "addressed_to": "Nick",
+        "intent": "challenge"
+      },
+      {
+        "participant_id": "mm_fg3_nick",
+        "wants_to_speak": true,
+        "urgency": 0.7,
+        "hook": "John's just said something important \u2014 that logic isn't enough when you're exhausted, that you can't think your way out of tiredness. I've been pushing the logic angle hard, but he's right that there's a gap between knowing something matters and actually being able to act on it when you're that depleted. I need to acknowledge that, because I've been a bit dismissive of the exhaustion piece. But also \u2014 and this is what's nagging at me \u2014 there's something in what I said earlier about needing something that matters enough to override the tiredness. John might be missing that, or he might be genuinely too stretched to access it. That's different.",
+        "addressed_to": "John",
+        "intent": null
+      },
+      {
+        "participant_id": "mm_fg3_paul",
+        "wants_to_speak": true,
+        "urgency": 0.75,
+        "hook": "John just said something about energy and tiredness being a different problem than deciding things matter \u2014 and that's exactly where I am. Nick keeps talking about it being a choice, but John's naming the actual wall: by the time you're home, the energy isn't there. That's not backwards logic or identity stuff. That's just depletion. And I've been nodding along to Nick's logic without actually addressing what John's pointing at \u2014 which is that understanding something intellectually and having the actual capacity to do it are two completely different things.",
+        "addressed_to": "John",
+        "intent": "affirm_and_elaborate"
+      }
+    ],
+    "section_summaries": [
+      {
+        "section_index": 0,
+        "section_label": "Introduction and instructions",
+        "discussion_summary": "The introductory section centred on time poverty and a shared sense of life as maintenance rather than living \u2014 work, commute, recovery, household upkeep consuming the full week with little left over. This theme emerged across very different work patterns (fixed warehouse, mobile trade, home-based) and life situations (with and without family), suggesting it is structural rather than circumstantial. A quiet undercurrent of resignation, particularly in Paul's closing reflection, gave the theme emotional weight.",
+        "strategy_summary": "The priority was getting all five participants on record before the discussion ran away with two voices. The early Nick-Andrew exchange was productive so I let it run briefly, then prompted the remaining three directly. I held back from probing the time-poverty theme once it surfaced organically \u2014 correctly, I think \u2014 saving depth for the next section. The transition question (where do you meet male friends) was designed to carry that emotional energy forward into substantive territory."
+      },
+      {
+        "section_index": 1,
+        "section_label": "Opening discussion: male friendship and place",
+        "discussion_summary": "This section extended the time-poverty theme into social withdrawal, surfacing a tension between two framings: whether depleted social energy reflects missing motivation (something to pull hard enough against fatigue) or simple arithmetic (hours worked leave nothing structural for connection). A secondary thread emerged around the role of external agency \u2014 a partner's plan, a family pull \u2014 as the mechanism that actually overcomes exhaustion, raising an implicit question about what substitutes for that among men without those anchors.",
+        "strategy_summary": "I largely stayed out of a productive Nick-Paul exchange before intervening to widen participation. The Nick-John tension developed well without much prompting \u2014 I let it run, then used it as a frame to draw Daniel in. Andrew didn't speak this section despite being named in two prompts, which I let slide rather than force; the organic tension felt more valuable. The transition to food decisions carried the energy forward reasonably cleanly."
+      },
+      {
+        "section_index": 2,
+        "section_label": "Everyday food decision-making",
+        "discussion_summary": "This section narrowed onto a single, sharpening idea: that defaults \u2014 in food, exercise, social contact \u2014 are not really choices but the residue of structural absence. The thread moved from 'tiredness causes passivity' toward a more precise claim: that external agency (a partner's plan, a client's deadline) reliably unlocks energy that self-directed motivation cannot. This reframes the earlier fatigue-versus-motivation tension not as a binary but as a structural dependency on others' expectations.",
+        "strategy_summary": "This section was effectively a two-person exchange \u2014 Andrew and Daniel building on each other unprompted toward a genuinely productive insight. I stayed out and let it develop, intervening only to carry the energy into the gender question before the thread exhausted itself. The risk was losing other participants entirely for a full section; the payoff was a clean conceptual thread worth carrying forward. Whether the trade-off was right will depend on how the quieter voices re-engage now."
+      }
+    ],
+    "moderator_turn_share_overall": 0.4,
+    "moderator_turn_share_recent": 0.4
+  },
+  "moderator_log": [
+    {
+      "turn": 0,
+      "timestamp": "2026-08-06T00:05:19.746138Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Session is initialising. No data yet. This decision covers the opening utterance only. The opening must establish warmth and psychological safety, communicate the conversational (not interview) format clearly, and land the first question naturally without front-loading topic framing or implying what kinds of answers are expected.",
+      "action": "ask_initial_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Hi everyone, really glad you could all make it today. My name's Alex, and I'll be facilitating the conversation this afternoon. Just before we get going \u2014 a couple of quick things. We're going to be recorded today, purely for research purposes, so nothing leaves the room in a way that's traceable back to you personally. The conversation should take about 45 minutes. There are genuinely no right or wrong answers here \u2014 I'm not looking for anything in particular, and I'm not going to be evaluating what you say. What I'm most interested in is what you actually think and do, not what you think you should think or do. So the more concrete and honest you can be, the better. It's also not an interview \u2014 you don't have to take turns or wait to be asked. If something someone else says connects with your experience, just jump in. Okay, let's start simply \u2014 if you could just go around and say your name and where in the UK you're joining from today, that'd be great.",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": null
+    },
+    {
+      "turn": 2,
+      "timestamp": "2026-08-06T00:05:36.858143Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Andrew has introduced himself briefly and naturally \u2014 name, location, a small contextual detail about commuting. This is exactly what the opening round calls for. No probing needed. Four participants have yet to introduce themselves. The round should continue flowing naturally without moderator intervention.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 3,
+      "timestamp": "2026-08-06T00:06:00.703700Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Nick has introduced himself warmly and naturally, added some texture about his working life (out on jobs, van commute, variable sites), and then turned directly to Andrew with a question about his commute. This is good group conversation behaviour \u2014 participants talking to each other, not just to me. The intro round is still in progress: Daniel, John, and Paul haven't spoken yet. The section is nearly at its word budget (202/250). Nick and Andrew are at risk of going back and forth between themselves, which could crowd out the remaining three. I should not intervene in the Andrew-Nick exchange \u2014 it's natural and brief \u2014 but I need to be ready to bring in the others once it resolves. For this turn: observe, let the conversation breathe, and let Andrew respond or let the others self-select.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_daniel",
+        "rationale": "Daniel, John, and Paul have not yet introduced themselves. Once the Andrew-Nick exchange resolves naturally, a light invitation to the others will keep the intro round moving without letting it overrun the word budget.",
+        "condition": "Daniel, John, or Paul do not self-select after Andrew responds to Nick."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "timestamp": "2026-08-06T00:06:29.665536Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Andrew has responded warmly and naturally to Nick's question, adding useful texture about his commute and life context (fixed route, no kids at home, using the drive to decompress). This is good intro-round content \u2014 specific and honest. The exchange between Andrew and Nick has resolved naturally. Three participants \u2014 Daniel, John, and Paul \u2014 have still not introduced themselves, and the section is already over its word budget (335/250 words). The priority now is simply getting the remaining three to introduce themselves before we move to Section 1. The queued action (reactivate_silent targeting Daniel) is the right next move. A light, warm invitation to the others is all that's needed \u2014 no probing, no synthesis.",
+      "action": "reactivate_silent",
+      "target": "mm_fg3_daniel",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Good stuff. Daniel, John, Paul \u2014 we haven't heard from you yet. Want to jump in and say a bit about where you're based?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 5,
+      "timestamp": "2026-08-06T00:06:46.224307Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Daniel has introduced himself naturally and added useful texture about his work context. The intro round is progressing well \u2014 three of five participants have now spoken (Andrew, Nick, Daniel). John and Paul have not yet introduced themselves. The section is significantly over its word budget (562/250) but the primary goal \u2014 getting all participants to speak once \u2014 is not yet complete. No probing needed here; Daniel's intro is appropriately brief and contextual. The priority is simply getting John and Paul in before moving to Section 1. Observe and let them self-select, or wait one more turn before a gentle invitation.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_john",
+        "rationale": "John and Paul have not yet introduced themselves. If neither self-selects after Daniel's turn resolves, a light invitation will complete the intro round so we can move to Section 1.",
+        "condition": "John or Paul do not self-select on the next turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 6,
+      "timestamp": "2026-08-06T00:07:18.791832Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "John has now introduced himself and added real texture \u2014 the long working weeks, the van maintenance eating into Saturday, the sense that you're just managing fatigue rather than living. This is good intro content: specific, honest, and with a slightly more reflective emotional register than the others ('you don't really get much time where you're actually living it'). The intro round is now nearly complete \u2014 only Paul has not spoken. Section is well over word budget (762/250) but the primary goal of getting all five to speak once is almost done. The right move is to let Paul self-select or give a very light invitation. No probing needed \u2014 this is intro phase and John's reflection doesn't warrant deeper exploration here. Paul has been listening and flagged urgency to speak, so there's a reasonable chance he'll self-select. I should observe one turn and let Paul come in naturally.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_paul",
+        "rationale": "Paul is the only participant who hasn't introduced himself. If he doesn't self-select after John's turn, a brief light invitation will complete the intro round so we can move to Section 1.",
+        "condition": "Paul does not self-select on the next turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "timestamp": "2026-08-06T00:07:52.098574Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Paul has now introduced himself, completing the intro round \u2014 all five participants have spoken at least once. His contribution echoes John's theme of the grind consuming life, adding the work-from-home variant and a notably reflective, slightly melancholic close ('I'm not sure when the actual living is supposed to happen'). This is emotionally rich for an intro, but the section is massively over budget (1013/250 words, 5/6 turns). The intro purpose is fulfilled. The right move is to acknowledge Paul warmly and transition to Section 1 \u2014 this also gives us a natural thematic bridge since the group has been talking about where time goes, which connects to where they spend time with friends. No probing needed here; the intro has done its job.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "Thanks Paul, good to have you with us. There's something in what you and John are both describing \u2014 that sense of the week and the weekend just disappearing into keeping things running \u2014 that's worth holding onto. Let's actually start there in a way. When you do get time with your male friends, where do you tend to end up? What's your go-to place \u2014 and why that place rather than somewhere else?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "timestamp": "2026-08-06T00:08:41.345714Z",
+      "trigger": "guide_question_pending",
+      "situation_assessment": "Nick has directly engaged with two other participants' comments \u2014 John's van-commute observation and Paul's weekend maintenance reflection \u2014 and answered the guide question in his own way: no fixed place, ad hoc socialising, the garage or garden filling his spare time. His answer is substantive and specific enough for this context phase. The tension signal flagged in the constraints is worth examining: Nick's 'Is this just what it is now?' feels like an emotional echo of Paul and John's resignation, not directed aggression. I don't read genuine interpersonal conflict here \u2014 more a collective, slightly melancholic convergence around time poverty and constrained lives. The group is building on each other's points naturally and productively. The section has barely begun in terms of budget (71/550 words). Andrew and Daniel haven't yet answered the Section 1 guide question (favourite place to spend time with male friends). The group is in productive flow \u2014 Nick responded to others, others are primed to respond. The right move is to observe and let Andrew or Daniel come in, since they've both signalled urgency to speak and the guide question hasn't been exhausted. There's no stall, no conflict requiring acknowledgment, no excluded voice \u2014 just natural group energy building. The 'conflict signal' in the constraints appears to be a system flag, but the actual content doesn't warrant a conflict-management intervention; that would feel artificial and break the flow.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "redirect_to_group",
+        "target": "group",
+        "rationale": "Andrew and Daniel haven't yet answered the Section 1 guide question. If neither self-selects after this observed turn, a light redirect will bring them in without disrupting the group's organic energy.",
+        "condition": "Neither Andrew nor Daniel speaks on the next turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "timestamp": "2026-08-06T00:09:18.062578Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Paul has offered something substantively rich and emotionally layered \u2014 the distinction between Nick's anxiety about missing family moments versus his own use of maintenance tasks as a kind of substitute for meaningful purpose. His final line ('I'd just be sitting there wondering what the point of any of it is') carries real weight. This is still within the spirit of the Section 1 guide question \u2014 favourite place, why, male friendship \u2014 but the group has collectively drifted into an adjacent but genuinely interesting territory: how their time gets filled and what that reveals about their inner lives. The conflict/tension signal flagged in the constraints appears to be a false positive \u2014 Paul is not expressing aggression; he's building thoughtfully on Nick's words. There's no interpersonal tension to manage here. The conversation is flowing productively. Andrew and Daniel haven't answered the guide question yet, and the section still has budget (355/550 words, 1/10 turns). Multiple participants have flagged urgency to speak \u2014 Andrew in particular, who noted a contrast with his own commute experience. The right move is to observe. The group is working through something real and Andrew is likely to self-select and bring in a useful counterpoint. Intervening now would cut off what feels like a natural group moment. The emotional register constraint is noted \u2014 if I do speak soon, I should match the warmth and not rush toward analysis.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "redirect_to_group",
+        "target": "group",
+        "rationale": "Andrew and Daniel haven't answered the Section 1 guide question. If neither self-selects after this observed turn, a light invitation \u2014 perhaps connecting to the contrast Andrew flagged about his commute being decompression time \u2014 would bring in other voices without forcing the emotional content.",
+        "condition": "Neither Andrew nor Daniel speaks on the next turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "timestamp": "2026-08-06T00:09:56.901743Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Nick has just pushed back on Paul's darker framing \u2014 distinguishing between tasks-as-substitute-for-meaning versus tasks-as-just-stuff-that-needs-doing, and locating the 'actual living' in the small moments (bedtime routine). This is substantive and builds on the conversation productively. The conflict/tension flag in the constraints appears to be a false positive \u2014 Nick's challenge is warm and collegial, not aggressive. He's correcting Paul gently and offering his own counterframe. This is exactly what a healthy focus group does. The section is over its word budget (624/550) but the turn budget is barely used (2/10). More importantly, Andrew and Daniel have not yet answered the guide question at all \u2014 both have high urgency to speak and both were flagged as wanting to respond to Paul. The conversation has been substantive but has been carried almost entirely by Nick and Paul. The guide question (favourite place to spend time with male friends) has drifted into the broader territory of time poverty and meaning \u2014 relevant, but the guide question itself hasn't been answered by three participants. Given the budget situation and the emotional richness of what Nick just said, the right move is to observe and let Andrew or Daniel self-select. Nick's challenge to Paul is a natural invitation for Paul or others to respond. Andrew in particular flagged wanting to engage on this. The emotional register is warm and exploratory \u2014 no genuine conflict to manage. I should not intervene here; the group is doing the work.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "redirect_to_group",
+        "target": "group",
+        "rationale": "Andrew and Daniel have not yet answered the Section 1 guide question. Nick has offered a natural resting point with his challenge to Paul. If neither Andrew nor Daniel self-selects in the next turn, a warm redirect \u2014 possibly picking up on Nick's 'that's the living bit' framing \u2014 would bring in other voices without forcing the emotional content.",
+        "condition": "Neither Andrew nor Daniel speaks on the next turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "timestamp": "2026-08-06T00:10:32.953142Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Paul has just resolved the tension Nick introduced \u2014 he's accepted Nick's reframe (tasks are just tasks, not a psychological substitute) and landed on the 'space and fatigue' framing as the real issue. His closing line ('having enough left over to actually show up for it') is a thoughtful, settled landing point. The Nick-Paul exchange has been genuinely productive and has now reached a natural conclusion. The conflict/tension flag in the constraints reads as a false positive \u2014 there is no interpersonal aggression here; it was a warm peer challenge that Paul has engaged with openly and resolved. No conflict management is needed. The section is significantly over its word budget (886/550) but only 3/10 turns have been used. More importantly: Andrew, Daniel, and John have not answered the Section 1 guide question at all. Daniel is flagged as a silent participant (1 turn total, none in this section). John also has only 1 turn total. The Nick-Paul exchange has been rich but has effectively occupied the section so far. The right move now is to open the floor to the rest of the group \u2014 particularly the three who haven't spoken on this section's question. The guide question was about favourite places to spend time with male friends, and the group has drifted into a broader territory about time poverty and presence. That's fine and relevant, but the original question hasn't been answered by most participants. A light redirect to the group \u2014 picking up on the 'space to actually show up' thread \u2014 would bring in Andrew, Daniel, and John without forcing the emotional content. This is a redirect_to_group move. Not a probe, not a challenge. Just opening the floor.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_daniel",
+        "rationale": "Daniel has not spoken in this section at all. If Andrew or John self-select after this redirect but Daniel remains silent, a warm direct invitation tied to the topic would bring him in before the section closes.",
+        "condition": "Daniel does not self-select after the group redirect."
+      },
+      "intervention_mode": "speak",
+      "utterance": "That idea of having enough left over to show up for it \u2014 Andrew, John, Daniel, does that land with you? What does the time look like for you lot when it comes to actually getting time with your mates?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 12,
+      "timestamp": "2026-08-06T00:11:18.856683Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "John has just answered the guide question directly and in his own register \u2014 the 'used up your allocation for being a functional human' line is specific, grounded, and emotionally resonant without being overwrought. He's not drifting; he's answering the question about time with male friends by explaining why that time doesn't happen. This is useful and adds a novel dimension: the pre-emptive cancellation of social plans, the self-knowledge about being too depleted to be present. It builds on the Nick-Paul exchange but from a different life position (no family, different work pattern). The conflict/tension flag in the constraints continues to read as a false positive \u2014 there is no interpersonal aggression anywhere in this transcript. The exchange has been warm and collaborative throughout. The section is substantially over word budget (1181/550) and three other participants still have urgency to speak. Andrew and Daniel in particular have not answered the guide question in this section. However, John just spoke, and the emotional register note flags his elevated emotional content. The right move is to observe and let Andrew, Daniel, or Nick self-select \u2014 several of them have flagged high urgency. Intervening immediately after John would step on a natural moment for others to respond to him directly. The group is doing the work. Andrew in particular has been flagged as wanting to engage on this thread.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_daniel",
+        "rationale": "Daniel has not spoken in this section at all and has low overall turn count. If Andrew self-selects but Daniel remains silent, a warm invitation tied to the 'enough left over' thread would bring him in before the section transitions.",
+        "condition": "Daniel does not self-select after the next participant turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 13,
+      "timestamp": "2026-08-06T00:11:52.625730Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Nick has just offered a gentle but direct challenge to John \u2014 essentially suggesting that what John described (tinkering at home because it asks nothing of you) is a form of surrender, and that what he might be missing is something that pulls hard enough to override the tiredness. This is a warm, collegial challenge, not aggression \u2014 the conflict/tension flag continues to read as a false positive. The exchange is substantive and builds meaningfully on the section's core territory. Nick has now spoken three times in this section; John once; Andrew and Daniel not at all. The section is dramatically over word budget (1432/550) but the turn budget is only at 5/10. The guide question has been answered \u2014 richly \u2014 by Nick, Paul, and John, all through the lens of time poverty, fatigue, and what it costs to show up for people. That's genuinely useful context for the sections ahead. However, Andrew and Daniel have still not spoken in this section. Andrew has been flagged as wanting to respond to John and challenge his framing \u2014 he has urgency here. Daniel has said nothing in this section at all and is the only silent participant. Nick's challenge to John is a natural landing point. The group doesn't need me to mediate \u2014 there's no real tension. But I should not let Andrew and Daniel remain unheard before we move on. Andrew in particular wants to engage with exactly what Nick just said. The right move is to observe and let Andrew or Daniel self-select in response to Nick's challenge to John. Nick has essentially passed the floor to John and anyone else who wants to respond. Andrew has high urgency. If I intervene now I'll step on a natural moment. I'll observe.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "timestamp": "2026-08-06T00:12:41.071256Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "John has just pushed back firmly against Nick's framing \u2014 not defensively, but with real clarity. He's making a structural argument: fifty hours of self-employed driving isn't a choice or a motivation failure, it's arithmetic. The tinkering at home isn't surrender or settling, it's what fits. This is a genuine and important distinction from Nick's 'something that pulls harder' framing, and it adds real nuance to the section's emerging theme. The conflict/tension flag is technically live but I continue to read this as a false positive for interpersonal aggression \u2014 this is productive peer challenge that John has now answered with composure and specificity. There's no hostility. The dynamic is actually healthy. However, I do need to be careful not to let this become a two-person exchange that excludes the rest. Andrew and Daniel have not spoken in this section at all. Andrew was flagged as wanting to challenge on exactly this Nick-John thread \u2014 and John has now provided the clearest version of the structural argument. Andrew's hook (the difference between external pull like family versus having to generate motivation yourself, as someone without kids) is directly relevant to what both Nick and John have just said. This is a natural moment for Andrew to enter. The section is dramatically over word budget (1689/550) but the guide question still hasn't been answered by Andrew or Daniel. I should not continue to observe indefinitely \u2014 two consecutive observe turns have already passed. But I also shouldn't speak immediately after John's substantive rebuttal. The right move is to observe one more turn and let Andrew or someone self-select in response to John's clear pushback. If Andrew doesn't self-select, I'll need to act. Actually \u2014 given I've already observed twice and the section is this far over budget, and Andrew has high urgency but has been waiting through multiple turns, I think a light redirect to the group that names the Nick/John tension and opens it to others is appropriate. This serves both the conflict acknowledgment requirement (brief, not escalating) and the participation imbalance (bringing Andrew and Daniel in). Keep it very brief \u2014 one sentence acknowledging the exchange, one sentence opening the floor.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_daniel",
+        "rationale": "Daniel has not spoken at all in this section and has the lowest turn count in the group. If Andrew self-selects but Daniel remains silent, a warm direct invitation tied to the structural vs. motivation thread would bring him in before the section transitions.",
+        "condition": "Daniel does not self-select after the group redirect."
+      },
+      "intervention_mode": "speak",
+      "utterance": "There's something real in what both of you are saying \u2014 Nick talking about needing something that pulls hard enough, and John saying it's not about that, it's just the arithmetic of the hours. Andrew, Daniel \u2014 does one of those land closer to how it feels for you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "timestamp": "2026-08-06T00:13:19.921255Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Daniel has now answered the guide question, completing the group's coverage. His response is substantive and adds a genuinely new angle: the role of a partner's agenda as an external organising force that substitutes for self-generated motivation when you're depleted. He's threading between John and Nick's positions rather than simply siding with one \u2014 acknowledging the arithmetic is real while also validating Nick's point about needing something external to pull you out. This is analytically useful and adds to the terrain. All five participants have now contributed in this section. The conflict/tension flag: I continue to read this as a false positive for interpersonal aggression. John and Nick had a vigorous but collegial exchange; there was no hostility, and Daniel's response has already smoothed it further by finding a bridging position. The 'conflict' signal doesn't require a formal acknowledgement of tension here \u2014 doing so would actually misread the room. The section is dramatically over word budget (1987/550) and all participants have now spoken. The guide question has been answered richly by all five, with the key theme (time poverty, fatigue, what's needed to actually show up) explored from multiple angles. The section is ready to close. The marginal value of further discussion here is low. I should transition to Section 2 with a brief, warm close that carries this energy forward \u2014 the everyday food decision-making question connects naturally to the 'what fills the time / what you actually have left over' thread that's been running.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "speak",
+      "utterance": "That's a good thread to pull through \u2014 this idea of someone else's agenda doing the work when you haven't got the energy to generate your own. Okay, I want to move us on slightly. All of that \u2014 the tiredness, the compressed weeks, what fills the time \u2014 that's a good backdrop for what I want to ask next. How do you actually decide what to eat? Day to day \u2014 what goes into that?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 16,
+      "timestamp": "2026-08-06T00:13:59.016112Z",
+      "trigger": null,
+      "situation_assessment": "Andrew has just opened Section 2 with a substantive, specific answer to the guide question. He describes a gap between intention (meal planning, batch cooking) and reality (toast, beans, takeaway) driven by end-of-day depletion \u2014 explicitly connecting it to the thread from the previous section. His framing ('it's not really a decision, it's just default') is analytically useful and likely to resonate with others. The conflict/tension flag is a false positive here \u2014 there is no interpersonal tension in Andrew's turn, and the previous section's Nick-John exchange has already resolved. No acknowledgement of tension is needed or appropriate; doing so would misread the room and confuse participants. The section is just opening (0/12 turns used, 72/600 words). Andrew has given a clear, grounded answer. The right move now is to let others respond \u2014 several participants have high urgency and were already primed to speak on this topic. John, Nick, and Paul all had hooks ready before the section transition. The group should do the talking here. Observing is the correct choice.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "timestamp": "2026-08-06T00:14:33.873018Z",
+      "trigger": null,
+      "situation_assessment": "Daniel has given a full, substantive answer that closely mirrors Andrew's \u2014 default eating, minimum effort, batch cooking that fails after two days, and notably the role of his wife as the organising force (she plans the roast, he executes it). This adds a useful nuance: the partner-as-decision-maker dynamic surfaces here in the food context, not just the social context. The conflict/tension flag is a false positive again \u2014 there is no interpersonal tension in this section at all. Daniel's turn is calm, collegial, and affirmative of Andrew. Nothing requires acknowledgement of tension here; doing so would confuse participants and misread the room. The section is progressing well: 2/12 turns used, 297/600 words. Andrew and Daniel have both answered the guide question with specificity. Three participants \u2014 John, Nick, and Paul \u2014 have not yet spoken in this section, and all had high urgency hooks before the transition. The section guide question ('How do you decide what to eat?') still needs input from the other three. The right move is to observe and let the remaining participants self-select, given that multiple people were primed to speak and the conversation is flowing naturally. The consensus risk is low \u2014 Andrew and Daniel have given similar surface answers (default, effort-minimising) but Daniel's partner framing adds a genuine new dimension. There's no premature closure here. Observing is correct.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": null,
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "timestamp": "2026-08-06T00:15:12.753789Z",
+      "trigger": "emotional_register",
+      "situation_assessment": "Andrew has now moved beyond the guide question into a broader reflective passage about the accumulating effect of default choices across all areas of life \u2014 food, exercise, social connection. This is still thematically connected to the section (everyday decision-making, effort, depletion) but has drifted from food specifically into a wider existential register. The final line \u2014 'it does feel like something's missing, when you look at it like that' \u2014 is an emotional signal worth noting, but this is a context section and we are essentially at the word budget (545/600 words, section now at ~770+ after this turn). The conflict/tension flag in the constraints is a false positive here \u2014 there is no interpersonal tension in Andrew's turn or in the preceding exchange. He is speaking reflectively and calmly, not in conflict with anyone. The instruction to 'acknowledge before redirecting' doesn't apply because there is nothing to acknowledge; doing so would confuse participants and misread the room. What the discussion needs now: John, Nick, and Paul have not yet spoken in this section. The section's guide question ('How do you decide what to eat?') still needs their voices, and several suggested probes remain (social influence, work/hobbies, health, taste). However, the section is at budget and Andrew's final reflection is beginning to sound like a closing statement rather than an opening one. The right move is to let the remaining participants respond to what Andrew has just said \u2014 several were primed to speak and his 'something's missing' note is likely to land differently for Paul (who expressed something similar in Section 1) versus John (who framed his situation as arithmetic). But I should not intervene now \u2014 consecutive participant turns are at 2, the topic is live, and the group has momentum. The emotional signal at the end of Andrew's turn is worth logging. I should observe and let the remaining participants self-select, noting the emotional register for potential use in Section 3 if it resurfaces.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "section_transition",
+        "target": "group",
+        "rationale": "Section is over word budget and Andrew/Daniel have both answered the guide question. John, Nick, Paul should have one round to respond; after that, move to Section 3 regardless of whether all suggested probes have been covered \u2014 the emotional terrain here will be more productively explored in the gender section.",
+        "condition": "John, Nick, or Paul respond and the marginal value of further discussion in this section is low."
+      },
+      "intervention_mode": "yield",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "timestamp": "2026-08-06T00:15:59.158812Z",
+      "trigger": "section_complete",
+      "situation_assessment": "Daniel has just made a substantive, analytically sharp contribution that builds directly on Andrew's observation about default choices accumulating. He's drawn a clear distinction between tiredness-as-cause and the absence of structure-as-cause, and landed on something potentially actionable ('that's actually something you could maybe change, if you had the structure there'). This is still answering the section guide question \u2014 everyday food decision-making \u2014 and extending it productively. There is no interpersonal tension here; the conflict/tension flag is a false positive. Daniel is engaging warmly and constructively with Andrew's framing. The section is over word budget (788/600) and three participants \u2014 John, Nick, Paul \u2014 have not spoken in this section at all. The accumulated emotional register across this section (Andrew's 'something's missing', Paul's earlier existential note, Nick's resignation) has been building toward something that will be more productively explored in Section 3. The queued next action from the previous turn specified a section transition once John/Nick/Paul respond and marginal value is low. Daniel has now spoken twice in this section; the structure-vs-tiredness distinction is now on record. What the discussion needs: a brief round for Nick, John, or Paul to respond \u2014 but given the word budget is already 31% over, I should not let this run further. The right move is to observe once more if someone is clearly about to speak, or to transition. The last_engagement_round shows all five had high urgency hooks. Several were addressed to Andrew or about the cumulative-default theme. Given Daniel has now elaborated the structure point well, and the section is significantly over budget, I should transition. But three participants haven't spoken in this section at all \u2014 that's a concern for Section 3 where I'll need their voices. I'll do a brief transition that acknowledges what's been said and carries the thread forward into the gender section.",
+      "action": "section_transition",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_john",
+        "rationale": "John, Nick, and Paul have not spoken in Section 2. John in particular had a ready hook about the arithmetic framing. Early in Section 3, if they don't self-select, invite one of them in.",
+        "condition": "John, Nick, or Paul do not self-select in the first two turns of Section 3."
+      },
+      "intervention_mode": "speak",
+      "utterance": "That distinction Daniel's just made \u2014 between being tired and having no one else's agenda pulling at you \u2014 feels like it's worth carrying forward. Let me shift us slightly, because it connects to something I want to bring in. We've been talking about what drives the defaults \u2014 energy, structure, what other people expect of you. I want to ask about gender in all of this. Do you think being a man influences what you eat \u2014 and I mean day to day, not just in theory? Why or why not?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "timestamp": "2026-08-06T00:16:49.712755Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "Paul has given a rich, substantive first answer to the Section 3 guide question \u2014 and it's analytically significant. He's landed on something specific: the gendered sense that self-care and cooking for oneself are lower-priority than 'fixing and providing', and that this is what shapes his food defaults, not laziness or indifference. He's also connected it back to the partner-as-structure thread from Section 2 (the Sunday roast) and extended it with a gender frame ('that's a bloke thing'). This is exactly the kind of behavioural grounding the section needs. The emotional register is present but not acute \u2014 he's reflective and somewhat self-amused ('Does that make sense?'), not distressed. The conflict/tension flag appears to be a false positive again \u2014 there is no interpersonal tension in Paul's turn; he's speaking calmly and directly to the group. The emotional signal from his earlier turn ('wondering what the point of any of it is') is adjacent to this, but Paul is in a self-analytical mode, not a distressed one. Three participants \u2014 John, Nick, and Andrew \u2014 have not yet spoken in this section. Daniel has not spoken either. The guide question has now received one substantive answer (Paul's). The right move here is NOT to immediately probe Paul further \u2014 his answer is complete and specific, and doing so would pull the floor back to him when we need the other four to respond. The smarter move is to redirect this to the group, because Paul has articulated something ('that's a bloke thing \u2014 providing and fixing over looking after yourself') that is likely to land very differently with Daniel (who seems more practically grounded), John (who framed his situation as arithmetic), and Nick (who mentioned his wife organising food). The word budget is at 88/950 with 0/18 turns used \u2014 we have plenty of room to let this develop. Redirect to the group is the right action: use Paul's specific framing about providing/fixing vs. self-care as the hook, and open it to the others.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_john",
+        "rationale": "John hasn't spoken in Section 3 yet and had a ready hook about arithmetic vs. meaning. If he doesn't self-select after the group responds to Paul's framing, invite him in.",
+        "condition": "John does not self-select in the next two turns."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Paul, that's interesting \u2014 the idea that cooking for yourself feels like a luxury, or not your job, because your time should go to fixing and providing. Does that land for anyone else? Or does it feel different for you?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "timestamp": "2026-08-06T00:17:36.302030Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Nick has given a substantive, analytically rich response that directly engages with Paul's framing and pushes back on it \u2014 not aggressively, but with genuine intellectual challenge. He's agreed with the behaviour Paul described (tinkering instead of cooking) but disputed the logic: feeding yourself isn't a luxury that comes after the real work, it's the foundation for the real work. He's also named the gender dimension himself ('maybe this is the bloke thing') \u2014 that practical/fixing work is coded as 'real' and self-care is coded as lesser. This is exactly the kind of productive dissent the section needs. The conflict/tension flag appears to be a false positive here \u2014 Nick's challenge is intellectual and warm ('you might have that backwards, actually'), not hostile. There's no interpersonal aggression; this is good focus-group disagreement. The emotional signal attached to Nick ('Is this just what it is now?') is from an earlier section \u2014 his current turn is confident and forward-leaning, not resigned. I should not treat this as an emotionally activated moment requiring careful handling; that would misread the room. What the discussion needs: Andrew, Daniel, and John have not yet spoken in Section 3. The Nick/Paul exchange has generated a genuine tension worth putting to the group \u2014 specifically the question of whether the fixing/providing instinct is a rational misallocation (Paul's implicit framing) or a genuine values confusion about what counts as 'real work' (Nick's challenge). Both of them have named it as 'a bloke thing.' This is the precise territory the section guide is designed to explore. The right move is to observe \u2014 Nick's challenge has opened exactly the debate the section needs, and Andrew, Daniel, and John all had high-urgency hooks in the last engagement round. If I speak now I interrupt what should be a natural group response to a clear provocation. Let it run.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_john",
+        "rationale": "John, Andrew, and Daniel have not spoken in Section 3. Nick's challenge ('it's backwards logic') is a natural opening for the group \u2014 if none of them self-select after one more turn, invite John in specifically, given his earlier 'arithmetic' framing which intersects with this debate about what counts as real work.",
+        "condition": "Andrew, Daniel, and John do not self-select in the next two turns."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "timestamp": "2026-08-06T00:18:15.962884Z",
+      "trigger": "response_needs_probing",
+      "situation_assessment": "Paul has just done something analytically significant and emotionally honest: he's moved from intellectual acknowledgement of Nick's logic to a direct admission that he doesn't actually believe it, and then to the deeper layer \u2014 that he's not sure he wants to change. The final move is the most important one: he's suggesting that accepting Nick's framing would require him to question the meaning of all the maintenance/fixing work he's built his identity around. This is not a conflict in the interpersonal sense \u2014 the tension flag is misreading the register. Paul is being reflective and vulnerable, not aggressive. Nick's challenge was warm; Paul's response is honest and self-probing. The 'conflict' is internal, not interpersonal. What's happening is rich and precisely on the section's research question \u2014 this is exactly the identity-based resistance the guide anticipated. Paul has now named something that the other four participants almost certainly have a response to, particularly Daniel (who framed himself as practically grounded and may recognise the identity function of 'providing') and Andrew (who had a hook about avoidance dressed up as responsibility). John is also primed \u2014 his 'arithmetic' framing intersects with this. The emotional register is present but not distressed \u2014 Paul is matter-of-fact and slightly self-amused in his honesty ('which is probably the real thing I'm not saying'). The right move here is to observe. Paul has opened the floor with 'Does that make sense?' \u2014 that's a direct invitation to the group. Andrew had a 0.75 urgency hook about recognising the avoidance-dressed-as-responsibility pattern. Daniel had a 0.7 hook about pushing back on the misallocation framing. John had a 0.75 hook. All three are primed to respond. If I speak now I interrupt what should be a genuine group response to Paul's most honest statement so far. The section is at 703/950 words and 2/18 turns \u2014 we have substantial room. Let the group respond to Paul's admission.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "direct_probe",
+        "target": "mm_fg3_paul",
+        "rationale": "Paul has named something profound \u2014 that the identity function of fixing/maintaining might be more important to him than the practical output, and that questioning it is threatening. This deserves a direct probe on the identity layer: 'the thing that matters' \u2014 what does that mean to him specifically. But only if the group doesn't naturally take this further first.",
+        "condition": "No participant engages substantively with Paul's admission about not wanting to change in the next two turns."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "timestamp": "2026-08-06T00:19:03.306453Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "Nick is continuing to press his logic case at Paul \u2014 this is the third consecutive exchange between these two, and Nick's tone has shifted slightly: he's now more insistent, more structured, almost pedagogical. The conflict flag is reading this as interpersonal tension, but I think it's still intellectual rather than hostile. Paul asked 'does that make sense?' and opened the floor; Nick stepped back in to sharpen his argument. The exchange remains productive for the research question \u2014 they're working through exactly the identity-vs-logic tension the section is designed to surface. However, there are two issues now: (1) three participants \u2014 Andrew, Daniel, John \u2014 have contributed zero turns in Section 3, which is a real participation problem at this point in the session; (2) the Nick-Paul exchange has run long enough that it risks becoming a two-person debate that the others are watching rather than joining. The word budget is at 977/950 \u2014 technically over \u2014 but turns are only 3/18, which tells me the words consumed were by very long individual turns, not that the section has been adequately explored. Critically, the gender question has only really been answered by Paul and Nick so far. Andrew, Daniel, and John's perspectives on whether gender influences their food choices are entirely absent. This is a major gap. The section is NOT complete \u2014 the guide question has been partially answered by two participants but not explored across the group. The right move is to widen participation now. Nick has made a clear, complete point; Paul has been heard. The debate between them has served its purpose. Now I need to open this to the others. The queued action from turn 21 and 22 was to bring in Andrew, Daniel, or John \u2014 that condition has now been met (they haven't self-selected after multiple turns). I should redirect to the group, using the substance of what Paul and Nick have surfaced (the identity-as-fixer thing) as a hook, and explicitly invite the others in. The conflict flag doesn't require de-escalation in the traditional sense \u2014 there's no aggression here \u2014 but I should acknowledge the Nick-Paul exchange briefly before widening, so it doesn't feel like I'm dismissing what they've built together. I'll frame it as: this tension between you two is interesting, let's see if it lands with the others.",
+      "action": "redirect_to_group",
+      "target": "group",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_john",
+        "rationale": "John has not spoken in Section 3. His 'arithmetic' framing from Section 1 is directly relevant to the identity-vs-logic debate Paul and Nick have been having. If he doesn't self-select after the redirect, invite him specifically.",
+        "condition": "John does not self-select in the next turn."
+      },
+      "intervention_mode": "speak",
+      "utterance": "Andrew, Daniel, John \u2014 Paul and Nick have been pulling at something here about whether the fixing-and-providing thing is about identity rather than just habit or logic. Does any of that ring true for you? Does your gender shape what you eat, or what feels like the right use of your time around food?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "timestamp": "2026-08-06T00:19:49.363951Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "John has given a substantive and direct response to the moderator's question about gender and food. His answer is characteristically his: he's resisting the identity framing ('I don't know if it's about identity exactly') and returning to his structural/arithmetic position \u2014 fifty-hour weeks, no headspace, toast wins. But he has also done something new here: he's acknowledged Nick's logic ('yeah, that makes sense') while simultaneously articulating why it doesn't translate into behaviour ('you can't really logic your way out of tiredness'). This is the most nuanced thing John has said all session \u2014 he's moved from pure structural defence to a more honest position: he sees the gap between knowing something matters and being able to act on it. The emotional register note flags 'it's just arithmetic' from earlier, but John's current turn is actually slightly warmer and more open than that earlier framing. He's not defensive \u2014 he's genuinely grappling with the problem. The conflict flag is a carryover from the Nick-Paul exchange and does not apply to John's turn, which is calm and reflective. The section now has contributions from Paul, Nick, and John. Andrew and Daniel have still not spoken in Section 3. Andrew had a 0.75 urgency hook about recognising the avoidance-dressed-as-responsibility pattern from Paul's turn. Daniel had a hook about pushing back on the misallocation framing. The guide question ('Do you think your gender influences what you eat?') has been answered by Paul (yes, the fixer/provider identity), Nick (yes, the 'real work' coding), and John (maybe not identity, more structure \u2014 but acknowledging the logic). Andrew and Daniel are absent. The section word budget is substantially over (1291/950) but turns are only 4/18, suggesting long individual turns. The section is NOT complete \u2014 two participants haven't answered the core question, and the suggested probes about vegetarian/vegan social acceptability and masculine/feminine food categories haven't been touched at all. However, John has just answered the moderator's direct question fully and the group has been through a long Nick-Paul exchange. The right move is to observe and let Andrew or Daniel respond naturally \u2014 both had high-urgency hooks and were directly named in the previous moderator turn. If I speak now I interrupt what should be a natural self-selection by Andrew or Daniel. John's turn was a genuine, complete answer. The section needs widening, not more moderator intervention.",
+      "action": null,
+      "target": null,
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_andrew",
+        "rationale": "Andrew and Daniel were directly named in the last moderator turn and neither has responded yet. If Andrew does not self-select after John's response, invite him specifically \u2014 his hook about recognising the avoidance-dressed-as-responsibility pattern makes him a natural next voice.",
+        "condition": "Neither Andrew nor Daniel self-selects in the next turn."
+      },
+      "intervention_mode": "observe",
+      "utterance": "",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "timestamp": "2026-08-06T00:20:35.987455Z",
+      "trigger": "participation_imbalance",
+      "situation_assessment": "John is pressing the same structural point he's made before \u2014 the work has no container, the week has no off-switch, so the energy simply isn't there. This is consistent with his 'arithmetic' framing from earlier sections. He is not really answering the guide question about gender and food; he has returned to the structural fatigue argument he has been making across sections 1 and 2. The Nick-John exchange has now run three consecutive turns and is circling: Nick argues it's a choice about what matters, John argues the structure makes choice irrelevant. That tension is real and has research value, but it has been adequately explored for this section. What is missing: (1) Andrew and Daniel have still not spoken a single turn in Section 3. The guide question \u2014 does gender influence what you eat \u2014 has been answered by Paul (identity as fixer/provider), Nick (masculine coding of 'real work'), and John (structural/arithmetic, deflects the gender framing). Andrew and Daniel are completely absent. (2) The suggested probes \u2014 vegetarian/vegan social acceptability, feminine foods, masculine foods \u2014 have not been touched at all. The section is now at 1559/950 words and 5/18 turns, deeply over word budget but not over turn budget, meaning the words consumed were in very long individual turns. The section has not been adequately explored across the group. The conflict/tension signal is real \u2014 John is defending his position with some insistence \u2014 but it is not hostile or distressed; it is intellectually stubborn. The emotional register note about 'it's just arithmetic' is from an earlier turn; his current register is calm and precise. The tension is between Nick's logic-and-choice framing and John's structure-determines-outcome framing. This is a productive intellectual tension that has run its course in this pairing. The right move is not to probe John further or to let Nick respond again. It is to acknowledge the Nick-John exchange briefly \u2014 honouring the conflict signal by not ignoring it \u2014 and then firmly widen to Andrew and Daniel, who have been completely absent from this entire section. This is a participation_imbalance signal overriding the option to probe John, because the section's core research question is still unanswered by two participants.",
+      "action": "reactivate_silent",
+      "target": "mm_fg3_andrew",
+      "probe_type": null,
+      "follow_up_intensity": null,
+      "queued_next_action": {
+        "action": "reactivate_silent",
+        "target": "mm_fg3_daniel",
+        "rationale": "Daniel has not spoken in Section 3 at all. Once Andrew responds, invite Daniel in \u2014 his profile suggests a more practically grounded take that may differ from the identity/structure framing Paul, Nick, and John have been developing.",
+        "condition": "Daniel does not self-select after Andrew speaks."
+      },
+      "intervention_mode": "speak",
+      "utterance": "John, Nick \u2014 there's something real in that gap you're both pointing at, between knowing something matters and actually having the capacity to do it when the week's that full. That's worth sitting with.\n\nAndrew, Daniel \u2014 you've been quiet on this one. Does any of what's been said connect with your experience? Does being a man shape what you eat, or what feels like the right thing to be doing instead of cooking?",
+      "compressed": false,
+      "validation_fallback": false,
+      "selection_mode": "voluntary"
+    }
+  ],
+  "transcript": [
+    {
+      "turn": 0,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Hi everyone, really glad you could all make it today. My name's Alex, and I'll be facilitating the conversation this afternoon. Just before we get going \u2014 a couple of quick things. We're going to be recorded today, purely for research purposes, so nothing leaves the room in a way that's traceable back to you personally. The conversation should take about 45 minutes. There are genuinely no right or wrong answers here \u2014 I'm not looking for anything in particular, and I'm not going to be evaluating what you say. What I'm most interested in is what you actually think and do, not what you think you should think or do. So the more concrete and honest you can be, the better. It's also not an interview \u2014 you don't have to take turns or wait to be asked. If something someone else says connects with your experience, just jump in. Okay, let's start simply \u2014 if you could just go around and say your name and where in the UK you're joining from today, that'd be great.",
+      "timestamp": "2026-08-06T00:05:19.746264+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 2,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "I'm Andrew, I'm from just outside \u2014 well, South East, suburban area. Been here about fifteen years now. Bit of a commute to work but you get used to it.",
+      "timestamp": "2026-08-06T00:05:36.857821+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 3,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, I'm Nick. North West, suburban too \u2014 so I get what you mean about the commute, Andrew. Though I reckon mine's a bit different because I'm not going to the same place every day. I'm out on jobs, right, so it's the van in the morning, couple of hours maybe just getting between sites, different places all the time. Some days that's alright, actually \u2014 bit of a change of scenery. Other days it's just tiring, especially when you've got an early start and the traffic's already backed up before you've even left home. And then trying to be back at a reasonable time for family stuff... it all eats into the evening. Do you find that with yours, Andrew \u2014 the commute eating into your personal time, or is it more settled than that?",
+      "timestamp": "2026-08-06T00:06:00.703310+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah, I mean \u2014 mine's a bit more fixed, you're right. Same warehouse, same route most days, so at least I know what I'm getting. Twenty minutes or so each way, which isn't terrible, but it's still that chunk out of the day, isn't it. Early starts, so you're up at half five, quarter to six some mornings, and by the time you've done the commute and got through the day, you're knackered when you get home.\n\nThe difference is I suppose I haven't got the family stuff pulling at me the same way you have. No kids waiting at home or anything. So it's more... I don't know, it's just dead time really. Time in the car that could be doing something else. But then I use it to decompress a bit, if I'm honest. Listen to music, podcasts sometimes. So it's not all wasted.\n\nBut I get what you mean about it eating into things. Even without kids, you get home and you're tired, so the evening's just telly and dinner. Weekends are when I've got any energy for the house, the garden, that sort of thing. So yeah, the work day and the commute \u2014 they take a lot out of the week.",
+      "timestamp": "2026-08-06T00:06:29.664592+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Good stuff. Daniel, John, Paul \u2014 we haven't heard from you yet. Want to jump in and say a bit about where you're based?",
+      "timestamp": "2026-08-06T00:06:29.665652+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, alright. I'm Daniel, East of England, suburban as well. Similar sort of situation really \u2014 I'm out on sites most days, so it's not one fixed commute like Andrew's warehouse run. It's more like what Nick was saying, you know, different locations all over the region. Could be twenty minutes one day, could be an hour the next depending on where the job is and the traffic.\n\nThe thing is though, I've been doing it long enough that I don't really mind it that much anymore. You just plan around it. It's part of the job \u2014 you get up early, you get in the van, you know how it works. The difference for me is I've got supervisory stuff on site, so it's not just about getting there and back, it's about making sure people are working, checking quality, all that. So the drive's actually sometimes the quiet bit of my day, to be honest.\n\nWhat does get to you is the weather in winter, and if you've got breakdowns or delays. That can wreck your evening plans. But I mean, that's the building trade for you. You can't really plan around it the way Andrew can with his warehouse.",
+      "timestamp": "2026-08-06T00:06:46.224043+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, that resonates with me, Daniel. The quiet bit \u2014 I get that. For me it's similar, different sites all the time, van in the morning, could be anywhere from ten to twenty k away depending on what's booked in. And honestly, some days that drive is the only time you get to yourself, you know? Radio on, no one asking you to do anything. It's... it's almost like work doesn't feel as heavy until you're actually there.\n\nBut I think the thing that gets me is what you said about the evening plans getting wrecked. It's not really about plans for me, not in the way it might be for you lot with family stuff or supervisory side of things. It's more... I work a lot of hours. Weeks are regularly forty-nine, fifty hours, sometimes more. And by the time I'm home, I'm genuinely knackered. And that's most of the week, right. So weekends come around and I should be refreshed or whatever, but half of Saturday's gone to maintenance on the van, tinkering about, making sure things are sorted for the week ahead. And Sunday you're just recovering, really. Watching some motorsport coverage, bit of telly. \n\nSo the grind just sort of... it eats the whole thing. The work week's gone, the weekend's gone to keeping things running or just trying to get your head back together. You don't really get much time where you're actually living it, if that makes sense. You're just managing the schedule, managing the fatigue.",
+      "timestamp": "2026-08-06T00:07:18.789787+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah, John \u2014 that really does land with me. I mean, my situation's different in the detail, right, I work from home so there's no commute eating the day, but what you're describing about the grind just consuming everything... I feel that.\n\nI thought working from home would free up time, and in a way it does \u2014 no travel, so I get my breaks outside, bit of reading, online courses sometimes. But it doesn't work like that in practice, does it. Because the work just bleeds into everything. You finish at five or whenever, but the desk is right there in the spare room, and you're still half thinking about it. Or you're not, but you're so drained from being \"on\" all day that you can't actually do much with the evening anyway.\n\nAnd then the weekends \u2014 Christ, the weekends. Mine are the same as what you're describing. Saturday morning there's guttering that needs clearing, or the garden's a state, or something's broken that you should have fixed weeks ago. Sunday you're just flat, trying to recover enough to face Monday. My wife and I, we'll have a day trip occasionally, but even that's sandwiched between the chores. You're not really... living, like you said. You're just keeping the machinery going.\n\nI don't know. I'm forty-seven, and sometimes I just think \u2014 this is it, isn't it. This is the rhythm for the next fifteen, twenty years. Work, maintenance, recovery. And I'm not sure when the actual living is supposed to happen.",
+      "timestamp": "2026-08-06T00:07:52.097576+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Thanks Paul, good to have you with us. There's something in what you and John are both describing \u2014 that sense of the week and the weekend just disappearing into keeping things running \u2014 that's worth holding onto. Let's actually start there in a way. When you do get time with your male friends, where do you tend to end up? What's your go-to place \u2014 and why that place rather than somewhere else?",
+      "timestamp": "2026-08-06T00:07:52.098673+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "I haven't really got a go-to place, to be honest. I mean, I see mates occasionally, but it's not like I'm meeting them down the pub every week or anything. It tends to be a bit ad hoc \u2014 someone'll message and say come round on a Saturday afternoon, have a few beers in the garden or whatever. Or if there's a match on, we'll catch it together. But there's no real routine to it.\n\nThe thing is though \u2014 and this is what's getting to me about what you lot are saying \u2014 by the time the weekend comes round, I'm already thinking about what needs doing at the house. I've got a young one at home, right, so Saturday's often trips to the park or soft play, or seeing family. And even when I've got a bit of space, I'm usually in the garage or the garden doing something with the electrics or working on projects. Not because I'm being forced to, but because... I don't know, it's just what fills the time.\n\nJohn, what you said about the van being the only quiet time \u2014 I get that. But for me it's complicated because I'm not really using that drive time to get away from things. I'm just trying to get home, you know? I'm watching the clock thinking about bedtimes and routines and whether I'll actually make it back to help with bath time. So the commute's not really mine in that way.\n\nBut yeah, Paul \u2014 what you said about the weekends just disappearing into the maintenance and the recovery... that lands pretty hard. Because I look at my week and I think the same thing sometimes. Is this just what it is now?",
+      "timestamp": "2026-08-06T00:08:41.345001+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah, that's \u2014 that's the thing though, isn't it. You've just named something I haven't actually said out loud, Nick. It's not just the time being eaten up. It's that you're never fully anywhere, mentally.\n\nLike, even when I'm supposed to be having a break, there's this background thing running. My wife and I, we'll be sitting down on a Sunday afternoon and I'll remember the fence panel that's rotting, or there's a tile loose in the bathroom. And instead of just sitting there, part of my head's already cataloguing it, thinking about when I'll have to deal with it. And then there's the guilt of not actually being present because I'm thinking about the next job.\n\nBut what you're describing \u2014 with the clock watching, thinking about bath time \u2014 that's different, isn't it. That's worse actually. Because you're not just thinking about the maintenance, you're thinking about what you should be doing with your family. So the commute home isn't decompression time or even your own time, it's just... anxiety. Trying to get back before you miss something.\n\nI don't have that pull, which I suppose is something. But I think maybe I'm doing the same thing with the house instead. Like the tasks have become this substitute for... I don't know, having something that actually matters pulling at me. So I load the weekends with maintenance and recovery because at least that's tangible, you know? At least you can point to a painted fence or a cleared gutter.\n\nWhereas if I stopped doing all that, I'd just be sitting there wondering what the point of any of it is.",
+      "timestamp": "2026-08-06T00:09:18.062172+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "No, hold on \u2014 I think you're being a bit hard on yourself there, Paul. Because what you're describing at the end, that wondering what the point is... I don't think that's actually what happens if you stop doing the tasks.\n\nI mean, yeah, the house stuff matters and it needs doing. But it's not a substitute for something else. The thing pulling at me \u2014 the clock watching, the anxiety about bath time \u2014 that's not more meaningful, it's just different stress. It's not like I've got it figured out and you're missing something. It's just a different version of the same grind, but with someone else depending on you to get it right.\n\nWhat I mean is \u2014 when I do get home in time and we do the bedtime routine, that's... that's the actual thing. That's not a task on a list that's checking something meaningful off. That's it. That's the living bit, right there. Even if it's just twenty minutes before they're asleep and you're knackered.\n\nSo I reckon the issue isn't that the tasks are a substitute. I think they are what they are \u2014 just stuff that needs doing. The problem is more that the work schedule and the exhaustion are eating the space where the actual things you care about happen. Whether that's time with your family or just sitting with your wife without thinking about the fence.\n\nI don't think you need to find something more meaningful than a cleared gutter. I think you just need more than half a weekend to actually exist in between keeping everything running.",
+      "timestamp": "2026-08-06T00:09:56.901287+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "That's... yeah. That's actually fair, what you're saying.\n\nI think I was making it more complicated than it needs to be. You're right \u2014 the tasks just are tasks. They need doing. The fence will rot if you don't sort it. That's not some deep psychological thing, it's just reality.\n\nBut what you said about the space \u2014 that's the bit that's landing differently for me now. Because I do sit with my wife in the evenings, we'll have dinner, watch something. And that should be enough, shouldn't it. That should be the living bit. But it's hard to actually be there when you've still got the mental list running. And I think that's more about the tiredness and the compressed schedule than it is about the tasks themselves.\n\nLike, if I had a bit more breathing room in the week \u2014 not necessarily less work hours, but just... I don't know, less of that constant low-level fatigue where you're always running on fumes \u2014 maybe I could actually sit down on a Sunday without the background noise of everything that needs doing.\n\nI mean, I work from home, so theoretically I should have more space than you or John or any of you lot with the commutes. But somehow it doesn't feel like it. The work's still there, the tiredness is still there. \n\nWhat you're saying though \u2014 about those twenty minutes at bedtime being the thing \u2014 that makes sense. That it's not about finding something grander. It's just about having enough left over to actually show up for it.",
+      "timestamp": "2026-08-06T00:10:32.952692+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That idea of having enough left over to show up for it \u2014 Andrew, John, Daniel, does that land with you? What does the time look like for you lot when it comes to actually getting time with your mates?",
+      "timestamp": "2026-08-06T00:10:32.953184+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, that lands. The \"having enough left over\" bit \u2014 that's exactly it for me, really.\n\nI mean, I'm not in Nick's situation with the family stuff, so it's not about missing bedtimes or that anxiety. But it's the same tiredness you're talking about, Paul. The background noise of it. Because even when I'm not working, I'm still sort of... half-switched on, you know? Like, I could ring someone up on a Friday night, say come out for a drink or whatever. But by the time I've finished a forty-nine, fifty-hour week, the idea of going out and actually being present for it \u2014 having a laugh, properly engaging \u2014 that just feels like too much.\n\nSo what happens is I don't make the plans in the first place. Because I know I'll be too knackered to enjoy it, and then you're just going through the motions anyway. Sat there nursing a pint while you're thinking about the early start on Monday or whether the van's going to need looking at.\n\nIt's not that I don't want to see people. It's that by the time the weekend comes round, it's almost like you've used up your allocation for being a functional human, and what's left isn't really enough to give to something that matters. You know what I mean? It's not enough to show up for it properly.\n\nSo you end up at home, tinkering about, because at least that doesn't require you to be anything other than tired. You can just... be there.",
+      "timestamp": "2026-08-06T00:11:18.856213+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, but that's the thing though, John \u2014 if we just accept that as how it is, aren't we kind of... I don't know, surrendering to it? \n\nI mean, I hear what you're saying about the allocation thing. I genuinely do. And yeah, some weeks I'm in exactly that space where the thought of organizing something or being social just feels like one more demand on something that's already empty. But I'm not sure that's actually inevitable, you know? Or at least not as a permanent state.\n\nBecause if you're sitting at home tinkering because it doesn't require anything of you \u2014 that's not really living either, is it. That's just... managing fatigue. And I get why that happens. I do the same thing with the electrics or fiddling with the wiring. But it's a different kind of nothing than actually being with someone.\n\nWhat I'm wondering is whether the issue is just the hours, or whether it's more about how the whole thing's structured. Like, I've got the commute eating time and the early starts and all of that, same as you lot. But at least with the family stuff, there's \u2014 I don't know, there's something that pulls harder than the tiredness sometimes. Not always. But sometimes it's enough to override it.\n\nMaybe that's what's missing though, John. Not like you need a kid or whatever, but maybe you need something that matters enough to actually push back against the tiredness instead of just accepting it as the final word on what you can do with your time.",
+      "timestamp": "2026-08-06T00:11:52.625427+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "No, hold on \u2014 I'm not accepting it as the final word, Nick. That's not what I'm saying.\n\nI'm saying the fifty hours are just... they're the job. That's what self-employed driving is. You don't get to opt out of that and still have the income, you know? I've built my whole thing around doing the work that comes in. There's no office you clock out of at five. There's no supervisor saying right, that's enough for today. You're on call, you're managing your own schedule, and if the work's there and you don't take it, someone else does and you lose the money.\n\nSo it's not about lacking something that matters enough. The work matters \u2014 it's what keeps me going. The point is, by the time you've done that, there's nothing structural left. It's not a choice about priorities. It's just arithmetic.\n\nAnd yeah, maybe the family stuff does pull differently for you. That's fair. But that doesn't mean what I'm doing \u2014 just being at home, keeping things ticking over \u2014 that's somehow settling for nothing. I've got my van, I've got the house I'm renting, I've got a routine that works. The tinkering isn't some second-best thing I'm doing because I lack motivation. It's just... what fits into what's actually left of the week.\n\nI'm not asking for something to pull me out of tiredness. I'm describing what the tiredness actually is when you're working those hours. And it's real. It's not about willpower or finding the right thing that matters.",
+      "timestamp": "2026-08-06T00:12:41.070860+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something real in what both of you are saying \u2014 Nick talking about needing something that pulls hard enough, and John saying it's not about that, it's just the arithmetic of the hours. Andrew, Daniel \u2014 does one of those land closer to how it feels for you?",
+      "timestamp": "2026-08-06T00:12:41.071297+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "I think it's both, to be honest. John's right about the arithmetic \u2014 you can't argue with fifty hours, that's just what it is. I'm not far off that myself most weeks, and you don't get that time back. The van in the morning, the sites, the supervising people, making sure things are done right \u2014 that eats the week. That's not negotiable if you want the money coming in.\n\nBut I think what Nick's getting at is a bit different. It's not about lacking willpower or finding some magical thing to pull you out of tiredness. It's more... I don't know, whether you've actually got anything left that's yours, you know? \n\nThe difference for me is I've got my wife at home. We're not juggling kids or anything, so there's space there that Nick's got filled with bath times and routines. And on a Friday night or a Saturday, sometimes she'll just say come on, we're going to see so-and-so or we're driving up to see my brother. And I'm usually knackered, yeah, but there's that pull where you actually go because she's making the plan happen. It's not me having to conjure up energy to decide to do something.\n\nSo maybe that's what Nick's saying \u2014 not that you need a family, but that sometimes you need someone else's agenda to actually pull you out of just managing the fatigue by yourself. Because left to your own devices when you're that tired, John, you're right \u2014 tinkering in the garage is easier. But it's also... it doesn't really feel like anything happened, does it? You get to Sunday night and the weekend's gone.\n\nI'm not saying that's your fault or you're doing it wrong. I'm just saying I notice the difference between weeks where my wife's organized something and weeks where we've just... been at home managing things.",
+      "timestamp": "2026-08-06T00:13:19.920948+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That's a good thread to pull through \u2014 this idea of someone else's agenda doing the work when you haven't got the energy to generate your own. Okay, I want to move us on slightly. All of that \u2014 the tiredness, the compressed weeks, what fills the time \u2014 that's a good backdrop for what I want to ask next. How do you actually decide what to eat? Day to day \u2014 what goes into that?",
+      "timestamp": "2026-08-06T00:13:19.921285+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah, I \u2014 honestly, most of the time it's just whatever's easiest, isn't it. \n\nI mean, I'll do a bit of meal planning at the weekend sometimes, think right, I'll batch cook something on Sunday, get a few meals done. And that works for a bit. But then you get home at half six, you're knackered, and you can't be bothered with actually cooking even though you've got stuff there. So you end up doing toast, or beans, or you're ringing for a takeaway because the energy just isn't there to do what you said you were going to do.\n\nIt's what you lot were saying, isn't it \u2014 about not having much left over. That applies to food too. I know what I should probably do \u2014 actually cook, use fresh stuff, all of that. But by the time you're home and you've sat down, the thought of standing at the cooker for twenty minutes... it's just too much. So you go for what requires no effort. That's just the reality of it.\n\nAnd then the weekends, if I've actually got energy, sometimes I'll think right, I'll make a proper meal, try a recipe or something. But that's rare. Most Sundays it's still just quick stuff, because you're thinking about the week ahead.\n\nIt's not really a decision though, is it. It's just default. Whatever's fastest wins.",
+      "timestamp": "2026-08-06T00:13:59.015829+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, that's exactly it. It's not really a decision \u2014 it's just what happens by default when you're running on empty, isn't it.\n\nI do the same thing. My wife, she'll have ideas about what we should eat, and fair enough, sometimes she'll actually cook it. But if I'm left to sort dinner myself after a site day \u2014 and there are nights when she's working late or whatever \u2014 I'm not standing there thinking about nutrition or trying out a new recipe. I'm just... what's quickest. Toast, beans like you said, or there's usually something in the freezer that goes in the oven. Minimum effort.\n\nThe batch cooking thing, I've tried that too. Works for maybe two days and then you just can't face it. You'd rather have something different even if it's worse for you, because at least it doesn't feel like eating the same thing again.\n\nThe only time I actually cook properly is if my wife's organized it, to be honest. Like, if she's planned a roast on a Sunday and got the stuff in, then I'll actually do it because it's... I don't know, it's expected, and she's made the decision already. But if it's just left to me and what I fancy, the default wins every time. Easiest option. No thought required.\n\nAnd you're right \u2014 it's not really a choice. It's just what your brain does when you're that tired. You're not weighing up options. You're just going for whatever doesn't ask anything of you.",
+      "timestamp": "2026-08-06T00:14:33.871914+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah, and the thing is \u2014 and I'm only really thinking about this now \u2014 it's not just about food, is it. It's the same with everything else.\n\nI mean, I'll buy the decent coffee, tell myself I'm going to make proper coffee in the morning, and then half the time I'm just using instant because you can't be bothered. Or I'll think I should get to the gym or go for a run on a weekend, and instead I'm sat on the sofa because the thought of it just... doesn't happen.\n\nIt's like Daniel said about his wife organizing things \u2014 when someone else makes the decision, you just do it. But when it's just you and what you feel like doing, and you're tired, the default option just wins every single time. And the default is usually the thing that requires nothing.\n\nWhat I'm noticing is that it adds up, you know? It's not just one meal or one skipped run. It's the whole thing. Week after week, you're making these tiny decisions where the path of least resistance always wins. And you get to Sunday night and you think \u2014 well, I haven't done anything. Haven't cooked anything decent, haven't moved much, haven't seen anyone. Just worked and come home and managed the fatigue.\n\nAnd I suppose \u2014 I'm not sure there's anything wrong with that, exactly. It's just what happens. But it does feel like something's missing, when you look at it like that.",
+      "timestamp": "2026-08-06T00:15:12.752741+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Right, but here's the thing though \u2014 it's not just that the default wins because you're tired. It's that when there's structure, when someone else has actually decided it's happening, you do show up for it. You've got the energy then.\n\nLike, I'm thinking about this now and it's \u2014 it's actually different, isn't it. Because if my wife says we're going to her sister's on Saturday afternoon, I'll be knackered but I'll get myself sorted and we'll go. I won't be sat there thinking oh, I can't be bothered. I just do it. The decision's already made.\n\nSame thing at work actually. If there's a supervisor or the client's pushing for something to be finished by end of week, yeah, you're tired, but you find the energy somehow. You just get on with it because it's expected.\n\nBut the moment it's just you, deciding for yourself, with no one else waiting on it \u2014 that's when you default to nothing. Toast instead of cooking. Sofa instead of the gym. And it's weird because it's the same person, same level of tiredness. But the structure changes whether you actually do anything or not.\n\nSo when Andrew's saying it adds up week after week \u2014 yeah, it does. But I'm wondering if the issue isn't actually the tiredness itself. It's that without the structure, without someone else's agenda pulling at you, you're just left to motivate yourself. And when you're already running on fumes, that's... that's not going to happen, is it.\n\nThat's different from just accepting tiredness. That's actually something you could maybe change, if you had the structure there.",
+      "timestamp": "2026-08-06T00:15:59.158059+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That distinction Daniel's just made \u2014 between being tired and having no one else's agenda pulling at you \u2014 feels like it's worth carrying forward. Let me shift us slightly, because it connects to something I want to bring in. We've been talking about what drives the defaults \u2014 energy, structure, what other people expect of you. I want to ask about gender in all of this. Do you think being a man influences what you eat \u2014 and I mean day to day, not just in theory? Why or why not?",
+      "timestamp": "2026-08-06T00:15:59.158930+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah, I think it does actually. Though not in the way you might think, maybe.\n\nLike, it's not that I'm eating badly because I'm a bloke, or that I don't care about food or whatever. It's more \u2014 and I'm realizing this as I'm saying it \u2014 it's about what I think I'm supposed to be doing instead of eating properly.\n\nBecause when Daniel was talking about his wife organizing things and then he actually shows up for it, that landed. That's true for me too. But the thing is, when I'm home and I'm on my own \u2014 which is most evenings since I work from home \u2014 there's this thing where I think... well, I should be fixing something, or I should be doing something productive. That's more important than stopping to cook a decent meal.\n\nSo it's not laziness exactly. It's that I've got this sense that my time should go to things that matter \u2014 maintaining the house, keeping everything running. Cooking a proper meal feels like a luxury, or like something that's not my job, you know? Even though logically I know that doesn't make sense.\n\nBut I think that's a bloke thing, maybe. That sense that you're supposed to be the one providing and fixing, and anything that's just about... looking after yourself or enjoying something, that gets pushed down the list. Toast is fine, it's efficient. A proper meal takes time and attention that feels like it should be going somewhere else.\n\nAnd then my wife will say right, we're doing a roast on Sunday, and suddenly it's not a choice anymore \u2014 it's expected, it's structured, and I actually do it properly. Because it's for something, not just for me.\n\nDoes that make sense?",
+      "timestamp": "2026-08-06T00:16:49.711751+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Paul, that's interesting \u2014 the idea that cooking for yourself feels like a luxury, or not your job, because your time should go to fixing and providing. Does that land for anyone else? Or does it feel different for you?",
+      "timestamp": "2026-08-06T00:16:49.712847+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, I get what you're saying, Paul. But I think you might have that backwards, actually.\n\nI mean \u2014 I do the same thing. I'll get home and there's something that needs doing, some project in the garage or the wiring that's been bugging me, and I'll think right, I'll sort that before dinner. And then dinner's late, or it's just quick stuff because I've used the energy on the other thing. So I recognize what you're describing.\n\nBut the thing is, cooking a proper meal \u2014 that's not a luxury that comes after you've done the fixing. That's... that's part of looking after yourself. And if you're constantly pushing that down the list because you think you should be doing something productive instead, then yeah, you end up on toast. But that's not actually more responsible or more the right use of your time. That's just choosing to run yourself into the ground in a different direction.\n\nBecause you can't actually provide or fix anything properly if you're not even feeding yourself properly. It doesn't make sense when you actually look at it. It's like saying maintenance on the house is important, so I'm not going to maintain myself. That's just... it's backwards logic, isn't it.\n\nWhat I think is happening \u2014 and maybe this is the bloke thing \u2014 is that we're all kind of trained to think that the practical stuff, the fixing and providing, that's what counts as real work. So looking after yourself just feels... less important. But it's not. If anything, it should come first because it's the foundation for everything else.\n\nSo yeah, I do the tinkering instead of the cooking. But I'm not sure that's actually the right choice just because it feels more like work.",
+      "timestamp": "2026-08-06T00:17:36.301674+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah, I hear what you're saying, Nick. And logically, I know you're right. The backwards logic thing \u2014 yeah, that's fair.\n\nBut I'm not sure I actually believe it yet, if I'm honest.\n\nLike, I can sit here and nod and say yeah, of course I should feed myself properly, that's the foundation, all of that. And intellectually that makes sense. But there's something else running underneath that doesn't quite... shift, you know?\n\nIt's more like \u2014 even hearing you say it, I'm already thinking well, but the fence is still rotting. The house still needs things doing. And that feels real and urgent in a way that sitting down to cook a proper meal doesn't. Even though you're right that they're connected.\n\nI think maybe it's not actually about logic. Because if it was just logic, I'd be cooking a decent meal every night and the fence would have to wait. But it's not working like that.\n\nIt's more like \u2014 there's something about being the person who fixes things, who keeps things running, that feels like that's the thing that matters. That's the job. And anything else, including looking after myself, that's secondary. That's the thing you do if there's time left over.\n\nAnd I'm not sure I actually want to change that, which is probably the real thing I'm not saying. Because if I accepted what you're saying, really accepted it, that would mean admitting that all the stuff I'm doing \u2014 the maintenance, the fixing \u2014 maybe that's not actually as important as I've convinced myself it is. And that's... that's harder to sit with than just going along with you.\n\nDoes that make sense?",
+      "timestamp": "2026-08-06T00:18:15.961526+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "No, but that's \u2014 that's not what I'm saying though, Paul. I'm not saying the house stuff doesn't matter. The fence does need fixing. That's real.\n\nI'm saying that taking care of yourself isn't the secondary thing that comes after you've done all the fixing. They're not in competition with each other like that. You're making it either-or when it's not.\n\nBecause here's the thing \u2014 you can cook a proper meal and still fix the fence. Those aren't mutually exclusive. You've got the time for both. The problem is you're telling yourself that sitting down to cook for yourself feels less important, so it gets bumped down the list. But that's a choice you're making about what matters, not something that's actually true.\n\nAnd yeah, I get it \u2014 being the fixer, the person who keeps things running, that's an identity thing. That feels like the real job, the thing you're actually for. But I don't think admitting that you need to eat properly is admitting that the fixing doesn't matter. It's just... it's admitting that you matter too. That maintaining yourself is part of maintaining everything else.\n\nThe fence still gets fixed. You're still the person doing it. But you do it when you're fed, and rested, and not running on fumes. That's not backing down from responsibility. That's actually being more responsible.\n\nI think the harder thing to sit with isn't that the fixing isn't important. It's that you can't actually do it properly if you're completely run down. And accepting that \u2014 that's not weakness or less commitment. That's just... reality.",
+      "timestamp": "2026-08-06T00:19:03.303107+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Andrew, Daniel, John \u2014 Paul and Nick have been pulling at something here about whether the fixing-and-providing thing is about identity rather than just habit or logic. Does any of that ring true for you? Does your gender shape what you eat, or what feels like the right use of your time around food?",
+      "timestamp": "2026-08-06T00:19:03.306549+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "I don't know if it's about identity exactly, for me. It's more... straightforward than that, I think.\n\nI work. That's what I do. I'm self-employed, so the work is just \u2014 it's the thing I've built my life around. There's no separation between work-John and home-John, you know? You finish a job, you're back in the van thinking about the next one. Or you're home and you're thinking about whether the van needs servicing, or if there's anything to sort before Monday.\n\nSo when it comes to food, yeah, toast wins because it's faster. But that's not because I think cooking for myself is less important or secondary. It's just \u2014 I don't have the time or the headspace for it. And I'm not sure that's a bloke thing, or an identity thing. It's just what happens when you've got fifty hours of work eating the week.\n\nBut what Nick's saying about maintaining yourself so you can actually do the work properly \u2014 yeah, that makes sense. I get that. And I'm not arguing with it.\n\nThe thing is though, acknowledging that's one thing. Actually changing it when you're that tired and the week's that full \u2014 that's different, isn't it. I could sit down and cook a proper meal. I could. But by the time I'm home, the energy for that isn't there. And you can't really logic your way out of tiredness. Nick's right about that too \u2014 you need the rest and the food. But getting that to actually happen when you're running on that schedule... I don't know. That feels like a different problem than just deciding it matters.",
+      "timestamp": "2026-08-06T00:19:49.363539+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Look \u2014 I hear what you're saying, Nick. And I'm not disagreeing that maintaining yourself matters. Of course it does. But I think you're still working from a place where the work has got an end to it, you know?\n\nYou can decide, right, I'm going to work until five, and then I'm cooking a proper meal, and then I'm doing the wiring in the garage. You've got those containers. The work stops. You can fit things in around it.\n\nFor me it doesn't work like that. The work doesn't stop at five. There's no moment where I clock off and then I've got the evening ahead. If I've got a delivery booked for half six in the morning, I'm thinking about that from the moment I wake up. If there's a breakdown, that eats into Saturday. The work's just... it's the frame the whole thing sits in. It's not a task you finish and then you move on to the next thing.\n\nSo yeah, in theory I could cook a proper meal and fix the van and look after myself. But in practice, when you're living inside that schedule, it's not about deciding what matters or finding the energy through logic. It's that the energy just isn't there because it's being used up by the work itself. Not by a bad mindset or because I've decided the fence matters more. It's the shape of the week.\n\nAnd I'm not saying that's right, or that nothing can change. I'm just saying \u2014 acknowledging that you should eat properly, that's not the same as being able to actually do it when the work's structured like this. That's a different thing entirely.",
+      "timestamp": "2026-08-06T00:20:35.987130+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "John, Nick \u2014 there's something real in that gap you're both pointing at, between knowing something matters and actually having the capacity to do it when the week's that full. That's worth sitting with.\n\nAndrew, Daniel \u2014 you've been quiet on this one. Does any of what's been said connect with your experience? Does being a man shape what you eat, or what feels like the right thing to be doing instead of cooking?",
+      "timestamp": "2026-08-06T00:20:35.987493+00:00",
+      "selection_mode": "moderator_intervention"
+    }
+  ]
+}

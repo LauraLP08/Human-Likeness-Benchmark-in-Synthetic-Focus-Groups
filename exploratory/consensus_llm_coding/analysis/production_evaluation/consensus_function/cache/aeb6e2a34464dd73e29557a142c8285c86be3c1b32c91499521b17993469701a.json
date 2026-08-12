@@ -1,0 +1,228 @@
+{
+  "cache_key": "aeb6e2a34464dd73e29557a142c8285c86be3c1b32c91499521b17993469701a",
+  "run": "macho_meals_fg1_run03",
+  "condition": "enriched",
+  "chunk_index": 1,
+  "target_turn_ids": [
+    "T016",
+    "T018",
+    "T020",
+    "T022",
+    "T024",
+    "T026",
+    "T027",
+    "T028",
+    "T029",
+    "T031",
+    "T032",
+    "T033"
+  ],
+  "shown_turn_ids": [
+    "T013",
+    "T014",
+    "T015",
+    "T016",
+    "T017",
+    "T018",
+    "T019",
+    "T020",
+    "T021",
+    "T022",
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T027",
+    "T028",
+    "T029",
+    "T030",
+    "T031",
+    "T032",
+    "T033"
+  ],
+  "blinded_transcript_sha256": "004c67f4b3b80299ccdef837ea3436c46841faabaf1bca63170d2d25f0022d42",
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "probe_tag": null,
+  "attempt": 1,
+  "finish_reasons": [
+    "FinishReason.STOP"
+  ],
+  "truncated": false,
+  "parse_error": null,
+  "prompt_tokens": 6632,
+  "candidates_tokens": 1378,
+  "thoughts_tokens": 7482,
+  "codings": [
+    {
+      "turn_id": "T016",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "I think you're kind of flattening it a bit there, to be honest.",
+          "target_turn_id": "T015"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T018",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, I think Speaker C's got a point, to be honest.",
+          "target_turn_id": "T016"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "I don't think that means you're just... accepting it without actually choosing.",
+          "target_turn_id": "T015"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T020",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Speaker E's right that the pressure is real",
+          "target_turn_id": "T015"
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "Speaker C and Speaker D are right that you do make genuine choices",
+          "target_turn_id": "T018"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "how would you know if you'd actually want it",
+          "target_turn_id": "T018"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T022",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "there's definitely something there. It's not the norm",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T024",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, I think Speaker B's right about that \u2014 the marking yourself out bit.",
+          "target_turn_id": "T022"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T026",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "honestly, quite a lot would need to change for me",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T027",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, that's fair. And I think you're being honest about it in a way that matters, actually.",
+          "target_turn_id": "T026"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T028",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "what you're describing \u2014 the inertia, the fact that everything's already set up that way \u2014 that's real.",
+          "target_turn_id": "T027"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T029",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "you're right, I was kind of... I dunno, making it sound more complicated than it is",
+          "target_turn_id": "T028"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T031",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, I think I'm mostly where they are",
+          "target_turn_id": "T029"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "I'm not entirely sure I can say it as cleanly as that, to be honest.",
+          "target_turn_id": "T029"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T032",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, I think Speaker D's being honest there in a way that matters, actually.",
+          "target_turn_id": "T031"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "I'm not sure that fully lands.",
+          "target_turn_id": "T029"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T033",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "the uncertainty's actually kind of the most real part of it.",
+          "target_turn_id": "T032"
+        }
+      ],
+      "no_code_reason": null
+    }
+  ],
+  "called_utc": "2026-08-06T17:37:19.808551+00:00"
+}

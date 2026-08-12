@@ -1,0 +1,185 @@
+{
+  "namespace": "CONSENSUS_FUNCTION_LLM_EXPLORATORY",
+  "status": "LLM_CODED_HUMAN_VALIDATION_REQUIRED",
+  "generated_utc": "2026-08-06T17:14:40.568298+00:00",
+  "fg": "fg1",
+  "evaluator": {
+    "model": "gemini-3.5-flash",
+    "config_key": "gemininext",
+    "key_env": "GEMINI_API_KEY_NEXT"
+  },
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "chunking": {
+    "target_turns": 12,
+    "context_depth": 3
+  },
+  "transcripts": [
+    {
+      "condition": "human",
+      "run": "fg1_human",
+      "path": "data\\datasets_transcripts\\standardized\\macho_meals\\fg1\\transcript.json",
+      "source_sha256": "0770659d52d7b2d021ccea74aec553dd1e9078f040c3452f0df2e2e04aebf62a",
+      "blinded_sha256": "beae7ee5b433aca8b336ec12a02f3f7420d6dd416168aeefbc11368cf99d312f",
+      "participant_turns": 58,
+      "moderator_turns_excluded": 6,
+      "participant_words": 2788,
+      "mean_words_per_participant_turn": 48.1,
+      "mean_clauses_per_participant_turn": 5.1,
+      "em_dashes_per_100_participant_words": 0.0,
+      "speakers_masked": 5,
+      "in_text_name_substitutions": 1,
+      "chunks": 5,
+      "cache_keys": [
+        "5cb331d65d6632ce2e61231114193d2f88436458085e4479b1c8c8657dfad019",
+        "c2b613fc77f777b4695d57e1707c34e6d9046e780027a43382e47680e491d052",
+        "a2d415f0ffbd4e10d943c44e212f14b5de81eb13512514552f7bf5aa872133a6",
+        "30c89a56ccff0b7e51df97ee75910ff9b245f7a815d3b1f358bc964ceb24fd9a",
+        "59fedd961d566894a1c4e9b3a15386d679c79158e7fada26ea6d846418dd5d1a"
+      ]
+    },
+    {
+      "condition": "enriched",
+      "run": "macho_meals_fg1_run01",
+      "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg1_run01\\comparable_transcript.json",
+      "source_sha256": "43ebff26d04867f0552723313779e03a56fa7f377e2295267ff0929a2814ce97",
+      "blinded_sha256": "fbe54e144019b9391f8b8c8354f9b52edc3637af360a12bef12d5731dc9accde",
+      "participant_turns": 37,
+      "moderator_turns_excluded": 18,
+      "participant_words": 8472,
+      "mean_words_per_participant_turn": 229.0,
+      "mean_clauses_per_participant_turn": 23.7,
+      "em_dashes_per_100_participant_words": 1.39,
+      "speakers_masked": 5,
+      "in_text_name_substitutions": 70,
+      "chunks": 4,
+      "cache_keys": [
+        "abf70f6d68a73feb82964b31ce91ca138a3bfc1f2f45ed3a461b5a55dc37cdfe",
+        "0af87bdc1d119168d5d42560017cf5084e9054e86bac71c27dadb3a2086b06c1",
+        "1216f1bd1ae70602bda2433925bc5447248a9ce5494183a605395ea476c63467",
+        "481614aad5d759184e744f126f457966ce208531aca4fb31634d0a680b6ea21f"
+      ]
+    },
+    {
+      "condition": "enriched",
+      "run": "macho_meals_fg1_run02",
+      "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg1_run02\\comparable_transcript.json",
+      "source_sha256": "a9558195b7692927fc500d58be26feb7d4f8915cf7e19b2f9d6dd7b8f3943702",
+      "blinded_sha256": "6c421997d64c5606c333ce8bec4d2213a3bacedb525f218a437bcb04a851cf33",
+      "participant_turns": 32,
+      "moderator_turns_excluded": 15,
+      "participant_words": 7180,
+      "mean_words_per_participant_turn": 224.4,
+      "mean_clauses_per_participant_turn": 23.8,
+      "em_dashes_per_100_participant_words": 1.28,
+      "speakers_masked": 5,
+      "in_text_name_substitutions": 93,
+      "chunks": 3,
+      "cache_keys": [
+        "7a8b407879f882100543f99b522d9cba90d2647876f74070325af7fa6e7cdb78",
+        "d4635a448927cd7c88c8ced34a6b0979e44c70b2befbbfb02d1520c7da5eeb41",
+        "7a9390e0f42e5d9ce0d0f5593214970a6473ca6b92a9b3fa0856172090427b57"
+      ]
+    },
+    {
+      "condition": "enriched",
+      "run": "macho_meals_fg1_run03",
+      "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg1_run03\\comparable_transcript.json",
+      "source_sha256": "f34368ba6433e7c8d671c20afd498154610af0082165c139a5aaeed468eb2cdf",
+      "blinded_sha256": "004c67f4b3b80299ccdef837ea3436c46841faabaf1bca63170d2d25f0022d42",
+      "participant_turns": 34,
+      "moderator_turns_excluded": 16,
+      "participant_words": 8264,
+      "mean_words_per_participant_turn": 243.1,
+      "mean_clauses_per_participant_turn": 24.3,
+      "em_dashes_per_100_participant_words": 1.46,
+      "speakers_masked": 5,
+      "in_text_name_substitutions": 81,
+      "chunks": 3,
+      "cache_keys": [
+        "9c8f9473c0afc9a6211d41c38c164b592da2fb90151bd2627148c14c2f4b0467",
+        "aeb6e2a34464dd73e29557a142c8285c86be3c1b32c91499521b17993469701a",
+        "bb32356a9f44690cd60b6da3eedcc6d3f8c60e8c7cc6c72f3960b20912a32593"
+      ]
+    },
+    {
+      "condition": "demographics-only",
+      "run": "macho_meals_fg1_demoonly_run01",
+      "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg1_demoonly_run01\\comparable_transcript.json",
+      "source_sha256": "a68930e5b8cf7b283eb7d5d97a0e9915dbabf301cd91e5f9be810a156522a9cc",
+      "blinded_sha256": "919c375ad999b6e47ca5a87d5ace20fba1152eb0a9592021a41f07e6286fa216",
+      "participant_turns": 51,
+      "moderator_turns_excluded": 22,
+      "participant_words": 13792,
+      "mean_words_per_participant_turn": 270.4,
+      "mean_clauses_per_participant_turn": 28.2,
+      "em_dashes_per_100_participant_words": 1.11,
+      "speakers_masked": 5,
+      "in_text_name_substitutions": 93,
+      "chunks": 5,
+      "cache_keys": [
+        "3c0266042013dac80948a11f0df4b402c3be093ef9921531ebca41bbdb8f18c9",
+        "b52ce0d8e609f46f851d19674e42f0ad6265b5ef142173cdddfebe3ed6458f92",
+        "c31460e05831dc13f1261e6e1be6c109b783b1019ad18fdf2796cddcdada6a03",
+        "136b94573ca3521af967b091b12827b32e6e8d997f534fadff52fc362af0f5c1",
+        "551fe7346c6c6b0e95365b2b5417830ba219c814491dbc300804039f823d2e65"
+      ]
+    },
+    {
+      "condition": "demographics-only",
+      "run": "macho_meals_fg1_demoonly_run02",
+      "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg1_demoonly_run02\\comparable_transcript.json",
+      "source_sha256": "f5d5dde7a2d15973e5643ff80ded0876ec5c53f5cdeadee4cb69365662b8378d",
+      "blinded_sha256": "9745ce4eb24eb2b2b11904f1dd2ba64d09d0e1a3d298e6573ad8572f7d85c025",
+      "participant_turns": 35,
+      "moderator_turns_excluded": 17,
+      "participant_words": 7153,
+      "mean_words_per_participant_turn": 204.4,
+      "mean_clauses_per_participant_turn": 21.6,
+      "em_dashes_per_100_participant_words": 0.95,
+      "speakers_masked": 5,
+      "in_text_name_substitutions": 48,
+      "chunks": 3,
+      "cache_keys": [
+        "485a824f4287180387c29eed5a67e4e966e32779272f8510101ddc0e4f184c01",
+        "2cf938bd6f2660b1e09f4e3996493d67c8df01b81b0d4fad0e155e588b47e7a6",
+        "e041064cf2789e9d44e9c2f948b110b07dcf7a70460a8e497246f2a9b977f152"
+      ]
+    },
+    {
+      "condition": "demographics-only",
+      "run": "macho_meals_fg1_demoonly_run03",
+      "path": "analysis\\production_evaluation\\comparable_transcripts\\macho_meals_fg1_demoonly_run03\\comparable_transcript.json",
+      "source_sha256": "20d7c034cb0c39a873a15fe6edd2b2fc601181b61c729b30f2a1e5d0c6ce3366",
+      "blinded_sha256": "fde347ccad248d5b705498648806075585e051453dcb69859a4f2a1a03c2c7ab",
+      "participant_turns": 39,
+      "moderator_turns_excluded": 15,
+      "participant_words": 8086,
+      "mean_words_per_participant_turn": 207.3,
+      "mean_clauses_per_participant_turn": 21.2,
+      "em_dashes_per_100_participant_words": 0.99,
+      "speakers_masked": 5,
+      "in_text_name_substitutions": 63,
+      "chunks": 4,
+      "cache_keys": [
+        "70ffaf15f6563f798167128c44935993939db998c9a6c9cf4a9a59ec3e7e7e33",
+        "9953bee269d340dc40c1915ac67e4b019752de31c0311066e21a2f8327c9e43a",
+        "4c54023e4b67a4d04a42586754c7454bb27e22d55294dd62fa3789187a63f3e0",
+        "102dfb3db12c2799280ddc02658cd8fdef893124c37b52d697739ada73cff111"
+      ]
+    }
+  ],
+  "estimated_api_calls": 27
+}

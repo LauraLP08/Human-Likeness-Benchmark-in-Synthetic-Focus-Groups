@@ -1,0 +1,425 @@
+{
+  "_provenance": {
+    "derived_by": "scripts/build_comparable_window.py",
+    "generated_utc": "2026-07-30T14:33:35.368451+00:00",
+    "source_transcript": "output\\session_logs\\macho_meals_fg3_run01\\transcript.json",
+    "source_transcript_sha256": "06f128afec91e0d8bb98a64f464a4d8393b577be04559745837d99f56aef41e7",
+    "window": "q1_ask_to_end_of_last_substantive_section",
+    "excluded": "all material before the Question-1 ask, and the closing section",
+    "boundary_method": "Section structure from moderator_log.section_transition, cross-checked against state_turn_*.json current_section_index. Sub-entry Question-1 offset by ANCHOR-AND-EXTEND: anchor on the latest sentence-aligned suffix of the boundary entry that still poses Question 1 (the minimal ask), then extend backward one sentence at a time only across sentences that are residue-free AND positively identified as part of the ask (carrying a Q1-distinctive token, or being an ask lead-in / short discourse connective); stop at the first sentence failing either test. Residue classes excluded: participant name, moderator self-introduction, welcome, instruction/confidentiality text, presentation summary. Because the boundary only ever moves earlier over text positively identified as part of the ask, residue is excluded by construction rather than by enumeration.",
+    "boundary_algorithm": "anchor_and_extend_v1",
+    "source_entry_index": 6,
+    "source_entry_turn": 6,
+    "source_character_start": 58,
+    "original_boundary_entry_sha256": "49d0b38bc0d7a19918971fee8cde4e66966634151887acffe671dc6ecdf2a545",
+    "retained_boundary_text_sha256": "26996359650348ff0aa9d22709c1e96aba8430aaf8ca20755cfc1e9804e5bdcb",
+    "boundary_review_status": "AUTO_TRIMMED",
+    "boundary_review_note": "anchored on minimal Q1 ask at char 182, extended back 2 sentence(s) to char 58; dropped 58 leading chars (13 words) carrying: welcome",
+    "first_source_entry_index": 6,
+    "last_source_entry_index": 55,
+    "boundary_text_is_verbatim_slice": true,
+    "note": "Derived view. The source transcript is unmodified. The first entry's content is a verbatim character slice of the source entry from source_character_start onward - never paraphrased, normalised, reconstructed, or replaced with the guide's scripted question. Human transcripts need no equivalent window: they already begin at Question 1 and contain no introduction or closing section."
+  },
+  "transcript": [
+    {
+      "turn": 6,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Right, let's get into it. Before we talk about food specifically, I want to start somewhere that might feel a bit sideways. Where do you actually spend time with your male friends? Like, is there a particular place — a pub, a park, someone's garage, wherever — that you'd call your spot? What makes it the place you end up?",
+      "timestamp": "2026-07-29T11:47:39.788629+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah, we've got a fairly regular thing down at the local on Thursday nights. Nothing fancy — just the same group of us, same corner really, been going there for years now. It's just... that's where we are. You know?\n\nAnd actually, that's sort of what's interesting about what Daniel was saying. Because now that he mentions it, we don't really talk about food much at all down there. I mean, we'll grab a pint and maybe some crisps or a packet of nuts if someone's hungry, but it's not — it's not a place where you'd sit around discussing what you're eating or where it comes from or any of that. It's just beer and conversation about other stuff really. Work, football, that sort of thing.\n\nBut I think that feeds into what you're getting at, doesn't it? With the not thinking about it. I don't know if it's that we're actively avoiding thinking about meat — I don't reckon we are, deliberately. It's just... it's not part of the conversation. It's just what's there. Part of the background. You grab a burger on the way home or you cook up some chicken — that's just normal, that's what you do.\n\nWhether that's something deeper going on or just the way things are, I'm genuinely not sure. But I do notice that if someone came in one of those nights and said they'd gone vegetarian or something, that would be a thing. It would get remarked on. So there's definitely something there, even if we're not sitting around talking about it the rest of the time.",
+      "timestamp": "2026-07-29T11:48:16.878971+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, I know exactly what you mean. That Thursday night thing — we've got something similar where I am. And Andrew's hit on something there that does bother me a bit, to be honest.\n\nIt's not just that it wouldn't come up in conversation, right? It's that if someone did say they'd gone veggie, it would definitely get marked. Like, it would be noted. And I think there's — there's a bit of an edge to how that gets treated sometimes, you know? Like it's a statement or something, rather than just... a choice someone made about what they eat.\n\nI've got a mate who stopped eating red meat a few years back, just for his own reasons, health stuff mainly. And the amount of times the lads would make a thing out of it, or just assume he'd become some kind of different person because of it — it was odd. He's the same bloke. Likes the same pints, same football team, same everything. But there was this assumption that changing one thing about how you eat meant something else about him had changed too.\n\nAnd I think that's the thing, isn't it? It's not neutral at all, what Andrew's saying. Because if it was just normal and nobody cared, then someone going vegetarian wouldn't get remarked on. The fact that it does get remarked on — that's showing that there's something else going on underneath. Whether we're thinking about it deliberately or not.",
+      "timestamp": "2026-07-29T11:48:46.874534+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Right, yeah — what you're saying about your mate, that's exactly it. And I think you're onto something about what that reaction says about us, about how we think.\n\nI mean, I eat meat. I like eating meat. I'm not looking to change that. But when you describe it like that — that assumption that changing your diet means something's changed about who you are as a bloke — that does feel a bit dodgy when you say it out loud, doesn't it?\n\nBecause why would it? Why would eating different things make you less of a man or whatever the assumption is. I don't know, I feel like... I'm genuinely torn on this stuff. I can see both sides of it. Like, there's traditions and all that, the way things have been done. But also when you put it the way Nick just did, it sounds a bit small-minded, you know?\n\nThe thing that gets me is — and maybe I'm off base here — but I think sometimes people use that masculinity angle to justify not even thinking about what they're eating. Like, if there's this unspoken thing that being a bloke means eating meat, then you don't have to actually think about the choice. It's just what you do. You're just doing the thing that makes sense.\n\nBut that's not quite right either, is it? Because plenty of blokes eat what they want and it's not a big political statement. Your mate didn't wake up and think, right, I'm going to challenge masculinity today. He just decided something about his diet. And the fact that other people made it into a thing says more about them than about him, I reckon.",
+      "timestamp": "2026-07-29T11:49:20.718716+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, that's exactly it. And I think — I think what we're protecting might just be... not having to examine anything, really.\n\nLike, if meat and masculinity are just linked, if that's just the way it is, then you don't have to ask yourself any questions about it. You don't have to think about whether you actually want it, or why, or anything else. It's just the default. It's what's expected, so you do it. And then if someone does something different, it feels like a challenge to the whole thing, even if they're not trying to challenge anything at all.\n\nBut the minute you actually look at it, it falls apart, doesn't it? Because there's nothing inherently masculine about eating a chicken breast instead of... not eating a chicken breast. It's mental, when you think about it.\n\nI reckon what we're actually protecting is just ease, isn't it? The comfort of not having to make a choice or justify anything. As long as it's just what blokes do, you never have to think about it. The moment someone opts out, even quietly, it forces everyone else to acknowledge that it is actually a choice. And that's uncomfortable because then you have to own what you're doing, rather than just doing what's expected.\n\nYour mate didn't challenge anything — but his choice made everyone else aware they were making one too. And that's what people didn't like about it.",
+      "timestamp": "2026-07-29T11:49:57.855411+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Daniel, John, Paul — you've been listening to all of this. Where do you lot spend time with your mates, and does any of what Andrew and Nick are saying ring true for you?",
+      "timestamp": "2026-07-29T11:49:57.856155+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Yeah, similar setup for me really — the pub, mostly. Thursday nights we've got our spot, bit like what you're describing Andrew. And look, I hear what you're both saying about the masculinity thing, and I think... I think that's fair. That bit about not having to examine it, that's true.\n\nBut I want to push back slightly on something, because I don't think it's quite as simple as we're all just protecting ourselves from thinking. I eat meat because I like it. That's the thing. It's not some unconscious default I fell into. I genuinely enjoy it — a good steak, proper roast chicken, fish. I'd notice if it wasn't there. That's not about masculinity, that's just... I like how it tastes and how it sits with me.\n\nAnd yeah, if someone said they'd gone vegetarian, it probably would get remarked on. But I don't think that's necessarily because we're all secretly panicking about what it means about us. Sometimes it's just... it's noticing something's changed. Your mate goes veggie, that's different from how he was, so you clock it. Doesn't have to be deeper than that.\n\nWhat I do get from what Nick's saying though — the bit about not having to examine it — that part's probably true for some people. But for me, I've just... I like meat. I eat it regularly. That's examined enough, really. I'm not doing it because I think it makes me more of a bloke. I'm doing it because I actually want it.\n\nI mean, maybe I'm wrong about myself, but that's how it feels from where I'm sitting.",
+      "timestamp": "2026-07-29T11:50:34.313805+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Paul, that's a useful distinction — there's a difference between eating meat because it's just what you do, and eating it because you actually want it. And I think you've all landed on something that's worth holding onto as we go further. Let's build on that, because it takes us somewhere useful. How do you lot actually decide what to eat — day to day, week to week? What goes into that?",
+      "timestamp": "2026-07-29T11:50:34.314760+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 12,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "I think there's something Paul's just said that — look, I don't want to go at him, because I think he's being honest about it. But I do think there's a difference between liking something and actually making a choice about it, and I'm not sure Paul's quite landed on that distinction.\n\nLike, saying \"I like meat, that's examined enough\" — that's not really an examination, is it? That's just saying you like it. Which, fair enough, you probably do. But liking something doesn't mean you've thought about why you eat it or what role it plays. It just means it tastes good.\n\nAnd I think that's maybe what Nick was getting at — we can all say \"I like it, so I eat it,\" but that doesn't really tell you whether you're actually choosing it each time, or whether it's just the path of least resistance because it's what's there, what's normal, what's expected.\n\nBecause here's the thing — and this is just from my own experience — I eat meat, right? Chicken, beef, whatever. But if I'm honest about how I actually decide what to eat day to day, I'm not sitting there weighing up my options every single time. Most days it's just... what's easiest, what's in the fridge, what I've always done. And I can't really tell you if that's because I've examined it and decided that's what I want, or whether it's just inertia. The default.\n\nSo when Paul says he's examined it enough by saying he likes it, I think that might be exactly what Nick was talking about — the comfort of not really having to look at it too closely, because the answer's already there. You like it, so you eat it. Done. No further questions.",
+      "timestamp": "2026-07-29T11:51:12.440493+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 13,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "No, I hear you Daniel, but I think you're conflating two different things there. You're right that most days I'm not sitting down weighing up options — who does that? You open the fridge, you see what's there, you cook it. That's just practical, that's how eating works for most people. That's not the same as saying I haven't examined why I eat meat.\n\nI know why I eat meat. I like the taste of it. It satisfies me. It's part of how I eat and it works for me. That's not nothing — that's actually a genuine reason. The fact that I'm not agonising over every meal doesn't mean I haven't thought about it.\n\nWhat you're describing — the inertia thing — that's different from what I'm saying. You're talking about not knowing whether you're choosing it or just defaulting to it. Fair point, maybe some people are like that. But for me, I know the difference between \"this is just what I always do\" and \"I actively want this.\" And with meat, it's the latter. I notice when it's not there. I plan meals around it. That's not inertia, that's preference.\n\nI think there's a real distinction between the two things, and I don't think saying \"I like it, so I eat it\" is dodging the question. That's just... answering the question. Why do you eat meat? Because I like it. That's examined. That's not the same as just sleepwalking into it because it's the default and not knowing why.",
+      "timestamp": "2026-07-29T11:51:44.863267+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, fair enough. You're right, actually — I was mixing those up a bit.\n\nI mean, what you're saying about noticing when it's not there, planning meals around it — that's genuine. That is different from just defaulting to something without thinking. And I think I was trying to make a point about the broader pattern we were talking about, and I kind of used you as an example when you're not actually doing what I was describing.\n\nBecause you're right, there's a real difference between \"I've never really examined this\" and \"I've examined it and I like it.\" You're clearly in the second camp. You know why you eat meat. You enjoy it. That's a straightforward preference.\n\nI suppose what I was getting at — and maybe this is just about me, to be honest — is that I'm not entirely sure where I sit. I eat meat regularly, yeah, but if I'm really honest, I don't notice when it's not there the way you're describing. I could take it or leave it. So I'm not sure if I've actually examined it or if I'm just doing it because it's what's there, what's normal. That's the bit that's less clear to me.\n\nBut that's my thing, not yours. You're saying you've thought about it and you want it. That's a different position from what I was implying.",
+      "timestamp": "2026-07-29T11:52:20.820312+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 14,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "John, you've been quiet — where do you sit in all this? More like Paul, more like Daniel, or somewhere else entirely?",
+      "timestamp": "2026-07-29T11:52:20.820868+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, I think I'm probably closer to Paul on this one, to be honest. I eat meat regularly — few times a week, red meat, chicken, whatever's on. And I do notice when it's not there. Like, if we've got nothing in the house, I'll think about it.\n\nBut I'm also... I dunno, I'm a bit in the middle on some of the other stuff you've all been saying. Because I think Nick and Andrew were onto something real about the masculinity thing and not having to think about it. That does feel true in a way. Like, you don't sit around examining why you eat the way you do — it's just what blokes do, innit? And if someone breaks that pattern, it gets marked. That's real.\n\nBut then Paul's right too — I'm not eating meat because I'm defending some idea of what a bloke should be. I eat it because I actually like it. That's separate.\n\nWhat I'd push back on a bit, though — and maybe this is unfair to Nick — but I'm not sure the masculinity thing is as straightforward as it sounds. Like, yeah, there's an assumption there. But I don't think that's the same as saying we're all secretly panicking about being less of a man if we eat different things. Sometimes a choice is just a choice, and sometimes something gets remarked on just because it's different, not because it's threatening some big identity thing.\n\nI reckon the masculinity link exists, fair enough. But I'm not convinced it's doing as much heavy lifting as it sounds like people are saying. Does that make sense?",
+      "timestamp": "2026-07-29T11:52:48.715839+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 15,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "John, that distinction is useful — the social marking is real, but that's different from saying it's driving what's on your plate. That's worth holding onto. Actually, that's a good place to shift gears a bit, because John's just touched on something I want to open up properly. You've been talking around the question of gender and food — bloke culture, what gets remarked on, what's just preference. So let me put it to all of you directly: do you think being a man actually influences what you eat? Not in theory, but in your own lives — does it show up anywhere?",
+      "timestamp": "2026-07-29T11:52:48.716632+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 16,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Right, so honestly? I don't think it does much for me, no. Not in any way I can point to and say that's because I'm a bloke.\n\nLike, I eat meat regularly. But if I'm being straight about it, that's because I like it. I like a decent steak, I like roast chicken. That's not about proving anything or fitting in. If I didn't like it, I reckon I'd just eat something else. I wouldn't feel like I had to keep eating meat to stay... whatever.\n\nThe only place I notice it maybe creeping in is — and this might sound small — but like, you wouldn't catch me ordering a salad when I'm out with the lads, would you? Not because I can't, but because there's that little voice that says it'll get a comment. So you default to something more... I dunno, hearty. Steak and chips rather than actually what might be nicer that day.\n\nBut that's different from what I actually eat at home. That's more about the social thing, the avoiding the remark. Whereas what Paul's talking about — planning meals around what you actually want — that's just what I do when nobody's watching, basically.\n\nSo yeah, gender does show up a bit in the moment, in the context. But I don't think it's dictating what I fundamentally want to eat. It's more like... it adds a layer of friction to choosing something that might get marked. Which is fair enough to notice, I suppose. But it's not the same as it driving my actual preferences.",
+      "timestamp": "2026-07-29T11:53:29.828306+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 17,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Yeah, that salad thing — that's it exactly, isn't it? That's the thing that's been nagging at me through all of this.\n\nBecause you're right, John. There's a difference between what you actually want and what you choose in front of other people. And I think that's where the murkiness comes in, because you can't always tell them apart afterward. Like, you go out, you don't order the salad, you order the steak and chips. And then you think, well, I like steak and chips, so that's my preference. But was it? Or was it just... easier? Safer?\n\nAnd I think that's what I was struggling with earlier when I said I could take meat or leave it. Because I genuinely don't know if that's true, or whether I've just spent enough years not examining it — not because I'm protecting masculinity or whatever, but just because there's this low-level friction against doing anything different. So you don't. And then it becomes normal. And then you think that's just what you want.\n\nThe thing that bothers me about it is — and I don't mean this as a dig at anyone here — but if you're not actually choosing, if you're just avoiding the remark, then you're not really being honest with yourself about what you want. You're just managing what other people think. And I reckon that's worth noticing.\n\nI mean, I don't sit around thinking about this all the time. But when you put it the way John just did — the difference between what you'd pick at home versus what you'd pick in front of the lads — that's real. And I think it's worth asking which one is actually you.",
+      "timestamp": "2026-07-29T11:54:03.967900+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 18,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "I mean, I get what you're saying Daniel, but I think you might be making it more complicated than it is.\n\nLook — at home I eat what I want. Out with the lads I avoid the salad because of the social thing. But that doesn't mean I don't know what I actually like. It just means I make different choices in different contexts. That's not the same as being confused about who you are.\n\nLike, I wouldn't order a salad because I'd get grief. Fair enough. But if I'm at home on my own or with my family and I fancy a salad, I'll have a salad. I don't feel torn about it. I know what I want. It's just that sometimes what I want is also shaped by where I am and who I'm with — and that's normal, isn't it? Everyone does that.\n\nThe thing is, when I'm out with the lads, steak and chips is actually what I want anyway. I'm not sitting there thinking, God, I wish I could have the salad but I can't because of what people will think. I actually fancy the steak. The friction you're talking about — it's real, but it's not about me not knowing myself. It's just about... you pick what fits the moment.\n\nI think there's a difference between \"I'm managing what people think of me\" and \"I'm choosing what suits the situation.\" And for me, it's more the second thing. I'm not pretending to be someone I'm not. I just eat different things in different places, like everyone does.",
+      "timestamp": "2026-07-29T11:54:35.064674+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "Right, but see — I think that's where it gets slippery, though. And I'm not trying to have a go, but I do think there's something you're not quite addressing.\n\nYou're saying when you're out with the lads you want the steak anyway. Fair enough, maybe you do. But how would you know? How would you actually know the difference between \"I want the steak\" and \"I want not to get a comment, so I'm choosing the steak, and now I'm telling myself that's what I wanted\"?\n\nBecause that's the thing — the context shapes what feels like a want, doesn't it? If you never, ever order a salad in front of the lads, you might not even think of it as an option anymore. It's not even on the table for you mentally. So of course when you're there you want the steak — the salad's not even part of what you're considering.\n\nBut that doesn't mean the salad wouldn't be genuinely nice that day, or that you wouldn't actually prefer it. It just means you've edited it out before you even got to the point of choosing. And then you look back and think, well, I wanted the steak. But you never actually tested whether the salad was what you wanted, because the social thing was already doing its work before you got to that moment.\n\nI'm not saying you're lying to yourself exactly. I'm saying the friction itself — the anticipation of the remark — it's already filtered what you think you want before you even make the choice. So you can't really tell if you're picking what you actually want or if you're just picking the thing that doesn't have friction attached to it.",
+      "timestamp": "2026-07-29T11:55:14.890330+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 19,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Daniel's just put something on the table that I want to check with the rest of you — this idea that the social friction isn't just affecting what you pick in the moment, but actually editing out options before you even get to choosing. Does that land for anyone else, or does it feel like it goes too far?",
+      "timestamp": "2026-07-29T11:55:14.891605+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 20,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "I think Daniel's onto something real there, but I also think — look, I don't want to just dismiss what he's saying, but I reckon there's a point where you can overthink it.\n\nBecause yeah, the friction's there. I get that. And John's right too — you do make different choices in different contexts. That's just normal. But I think Daniel's making an argument about... about the friction doing so much work that you can't actually know yourself anymore. And I'm not sure that's quite right.\n\nLike, I eat meat. I like meat. I plan meals around it. I notice when it's not there. That's — that feels like a genuine preference to me, not something I've been edited into believing. But you're right that there is this layer where if I'm out somewhere and someone puts a salad in front of me, there's going to be this moment of... friction. I'm aware of it. And yeah, that probably means I don't order it in certain situations.\n\nBut here's the thing — I don't actually want the salad that much anyway. So the friction doesn't have to work very hard, does it? It's not like I'm secretly pining for salad and the lads are stopping me. The friction is real, but it's filtering out something I'm not that fussed about in the first place.\n\nWhere I think you lose me, Daniel, is saying that means I can't know what I actually want. I think I can. I just... I also notice the friction and I don't push against it. Which is probably worth naming, like you're saying. But that's different from being confused about who I am.",
+      "timestamp": "2026-07-29T11:55:56.094531+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, I think Nick's got it right there. That's exactly what I was trying to say, actually.\n\nBecause look — I don't really like salad that much anyway. Full stop. It's not like there's some secret salad-loving version of me that the lads are suppressing. I just genuinely prefer meat. So the friction around ordering a salad doesn't mean anything deep about me not knowing myself. It's just... there's no need to push against something when it's not what you want anyway.\n\nWhat Daniel's describing — that thing about the friction editing out your options before you even choose — that would only be a real problem if there was something underneath it that you actually did want but couldn't get to because of the social thing. But in my case, there isn't. I like steak and chips. I like a roast dinner. That's not a cover story, it's just what I like.\n\nThe friction is there, yeah. And I'll probably avoid ordering a salad in front of the lads, not because I'm terrified but just because why would I? But that's not the same as me being confused about what I actually want. It's not like I'm walking around wondering who the real me is.\n\nI think you can acknowledge the friction exists without it meaning you don't know yourself. Those are two separate things.",
+      "timestamp": "2026-07-29T11:56:31.566140+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 21,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's something really useful in that distinction you've all been working through — the friction is real, but whether it's hiding something or just leaving something you weren't that fussed about anyway, that's where you're landing differently. Let's carry that with us and shift to something a bit more concrete. Imagine you actually decided to go plant-based — properly, day-to-day. What would need to change in your life for that to be possible?",
+      "timestamp": "2026-07-29T11:56:31.566547+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Right, okay. So that's... yeah, that would be a thing for me, I'll be honest.\n\nI mean, practically speaking — I eat meat most days. Chicken, bit of beef, fish. It's just part of how I cook, how I eat. If I went plant-based, I'd have to completely rethink what I'm doing in the kitchen. Learn different recipes, figure out what actually tastes decent without it. That's not nothing, time-wise.\n\nBut also — and I think this is the bit that matters more — it would be a social thing, wouldn't it? I mean, look at what we've all just been talking about. You go down the pub Thursday nights and you're suddenly the bloke who doesn't eat meat. That gets marked. You go home and your mates are like, what's that about? You're cooking dinner and you're making something completely different from what everyone else is having.\n\nThe thing is, though — and I want to be straight about this — I'm not sure I'd actually want to go plant-based anyway. That's the honest bit. I like eating meat. I do plan meals around it, a bit like Paul was saying. I'd notice if it wasn't there. So the social friction is real, but underneath that there's also just... I don't want to cut it out. So it's hard to say how much the friction is actually stopping me versus just... me not wanting to do it in the first place.\n\nBut if the question is what would have to change for it to be possible — yeah, you'd need to get past that Thursday night thing. You'd need to not care about the remark. And you'd need a completely different approach to cooking and what you're putting on your plate. That's a lot of change, you know? For something you're not actually sure you want to do.",
+      "timestamp": "2026-07-29T11:57:20.376999+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 22,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Andrew's putting his finger on something — the cooking change, the Thursday night thing, but also just being honest that part of it is he genuinely likes eating meat. Does that ring true for the rest of you? If you imagine actually doing it — going plant-based — what's the thing that would actually make it hard?",
+      "timestamp": "2026-07-29T11:57:20.377450+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "I need to push back on something Andrew just said, because I think he's doing exactly what we were talking about earlier, and I'm not sure he's noticing it.\n\nHe's saying \"I don't actually want to go plant-based anyway\" — and maybe that's true. But has he actually tested that? Has he ever properly tried it, or is he just assuming he wouldn't want it because he's never had to think about it seriously?\n\nBecause here's the thing — he's never been in a situation where he had to examine that choice. He's always eaten meat, it's always been there, nobody's questioned it. So of course he doesn't want to change it. The friction's already done the work before he even gets to the wanting bit. He doesn't want to go plant-based because going plant-based feels like it would be difficult and socially awkward and require learning new things. So his brain goes, right, I don't want that. But that's not the same as actually knowing whether plant-based eating would be better for him, or whether he'd actually enjoy it if he gave it a proper go.\n\nAnd I'm saying this because I recognize it in myself too. I keep saying I could take meat or leave it, but actually — have I ever left it long enough to know that's true? Not really. I default to it because it's easy and normal and nobody questions it. And then I tell myself that's what I want.\n\nSo when Andrew says he likes eating meat and wouldn't want to change — fair enough, maybe. But I reckon he hasn't actually examined whether that's true, or whether he's just saying it because the alternative sounds hard. And that's the thing I think we need to be honest about.",
+      "timestamp": "2026-07-29T11:58:00.688810+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 23,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's a real challenge in there — Daniel's basically saying you can't fully trust a preference you've never had to actually test. Does that land for anyone? And Andrew, you've just heard that — what do you make of it?",
+      "timestamp": "2026-07-29T11:58:00.690386+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "No, I hear what you're saying, Daniel. And I think you've got a point about not testing things. That's fair.\n\nBut I also think you're conflating two different things again, the way you did with Paul earlier. There's a difference between \"I haven't tested whether I'd like plant-based\" and \"I don't actually know whether I like the meat I'm eating now.\"\n\nBecause I do know that. I've eaten meat my whole life. I cook it regularly. I notice when it's not there. That's not the friction talking — that's just... that's me knowing what I enjoy. I'm not confused about whether I like a decent steak or a roast chicken. That's tested. That's real.\n\nNow, you're right — I haven't sat down and done a proper trial of plant-based eating to see whether I'd prefer that. Fair point. Maybe I'd surprise myself. Maybe it would be great. I don't know.\n\nBut that's different from saying I can't trust that I like what I already eat. I can. The thing I haven't tested is the alternative. Not the thing I'm already doing.\n\nWhat does genuinely make it hard, though — and I think this is what I wasn't quite landing on earlier — is that I'd have to want to test it in the first place. And I don't. Because everything about actually trying it — learning to cook differently, the social thing, the effort of it all — that's genuinely unappealing to me right now. So yeah, maybe some of that is friction. But some of it is just... I'm not motivated. I'm quite happy with how I eat.\n\nThat doesn't mean I couldn't do it. It means I don't have a reason to.",
+      "timestamp": "2026-07-29T11:58:38.531196+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 24,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Andrew's drawing a line there — knowing what you already enjoy is different from not having tested the alternative. Paul, you haven't jumped in yet — where does this land for you?",
+      "timestamp": "2026-07-29T11:58:38.531710+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "I think Andrew's right there, to be honest. And I'm going to be straightforward about this because I think Daniel's been pushing a line that sounds clever but doesn't quite hold up.\n\nLook — I know I like meat. I've eaten it for forty-seven years. I know what it tastes like, how it makes me feel, how I'd miss it if it wasn't there. That's not untested. That's not friction masquerading as preference. That's just... I know what I like.\n\nDaniel keeps saying we can't trust our own preferences because we haven't tested the alternative, and I get the intellectual point he's making, but it doesn't actually work like that in real life. If you're going to say nobody can trust what they like until they've tried everything they've rejected, you've set an impossible bar. I don't need to have tried being vegan to know I enjoy a bit of salmon or a good steak. Those are real things I enjoy.\n\nWhat I would say — and maybe this is what Daniel's actually getting at — is there probably is some friction there around the social stuff. Like John said, you probably wouldn't order certain things in front of the lads. That's fair. But that's not the same as saying you're confused about what you actually want to eat. Those are two separate problems.\n\nFor me, if I went plant-based? Yeah, I'd have to learn to cook differently. Yeah, there's the Thursday night thing, what people would think. But underneath all that, I'd just genuinely miss it. I like eating meat. I like dairy. That's not me being defended by friction — that's just what I like. And I think it's important to own that rather than pretend it's all social conditioning or that I haven't examined it properly.",
+      "timestamp": "2026-07-29T11:59:06.156186+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 25,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's clearly a real disagreement here between Daniel and the rest of you — and that's worth having out. But I want to bring John and Nick in, because we haven't heard from you two yet on this. Setting aside the question of whether the preference is tested or not — if you actually imagine making the shift, what would the reaction be from the people around you? Family, mates, whoever. How does that figure into it for you?",
+      "timestamp": "2026-07-29T11:59:06.157472+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Right, okay. So the reaction thing — yeah, that's the bit I think matters more than the philosophy of it all, to be honest.\n\nWith the lads down the pub, it would definitely get marked. Like John said earlier — you'd be the bloke who doesn't eat meat anymore. That would get a comment, probably a few comments. You'd get some stick about it. Whether it's meant seriously or it's just banter, I don't know, but it would be there. The thing is, I think some of it would be... I don't know how to put this without sounding dramatic, but there'd be a bit of an edge to it, wouldn't there? It wouldn't just be \"oh, you've gone veggie, that's different.\" It would be more like... there'd be something about it that gets treated as a statement, like you're saying something about yourself or about them or something.\n\nWhich brings me back to what we were saying earlier — that link between meat and what it means to be a bloke. It's not like I think it consciously, but I reckon if I went plant-based, people would interpret it that way. Whether I meant it that way or not. And that's the friction right there.\n\nAt home, it's different. My family eats meat, so that would be... it would be noticeable. I'd be cooking something different, they'd have their thing. There'd be questions. But that's more practical than the pub thing.\n\nBut honestly? The pub thing is the one that bothers me a bit more. Because it's not just about them thinking you're odd. It's about what the remark actually implies — that changing how you eat means something's changed about you as a bloke. And I think that's why it matters more than just whether I like steak or not.",
+      "timestamp": "2026-07-29T12:06:38.652949+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 26,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "John — Nick's just put his finger on something about the pub thing carrying a specific kind of edge. You've had a view on this before. How does it sit for you?",
+      "timestamp": "2026-07-29T12:06:38.654399+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "I think Nick's right that there'd be an edge to it, yeah. And that does bother me a bit, the way he's saying it. Because it's not just someone noticing you've made a different choice — it's the assumption that the choice means something about who you are, what kind of bloke you are. That part's unnecessary, isn't it?\n\nBut here's where I'm a bit different from what Nick's saying, maybe. Because I don't think that edge would actually stop me if I genuinely wanted to go plant-based. I mean, I wouldn't want to, like I said — I like eating meat. But if I did want to, I think I'd just... I'd deal with the comments. Yeah, it would be there. Yeah, people would make assumptions. But that's on them, not on me.\n\nThe thing that would actually be the barrier for me — and I think this is different from what Daniel's been saying — is that I'd have to actually want to do it first. And I don't. So the social friction is almost irrelevant because there's nothing underneath it pushing me to go against it.\n\nWhat I would push back on, though — and maybe I'm reading too much into how Nick put it — but I don't think the edge has to be as deep as it sounds. Like, yeah, people would remark on it. But I'm not sure they'd interpret it as a statement about masculinity or anything. They might just think, oh, John's gone vegetarian. Bit odd, but fair enough. It gets marked because it's different, not necessarily because there's all this stuff about what it means to be a bloke underneath.\n\nI think we've maybe made the masculinity link sound more inevitable than it actually is. The friction's real. The edge might be there. But I'm not convinced it's doing as much work as we're saying.",
+      "timestamp": "2026-07-29T12:07:13.555620+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 27,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So John and Nick are actually landing in different places there — Nick's saying the remark carries something about who you are as a bloke, John's saying it's more just 'a bit odd, fair enough.' That's a real difference, and I don't think it needs to be resolved right now. But it does point at something useful — whether the barrier is the social meaning, or just the motivation not being there in the first place. That's come through across all of you in different ways. Let's pick that up from a different angle. We've been talking mostly about what's in the way — now I want to ask about the other side of it: what might actually make plant-based eating more appealing to you, or to men you know? What would it take?",
+      "timestamp": "2026-07-29T12:07:13.556429+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "mm_fg3_daniel",
+      "speaker_name": "Daniel",
+      "content": "I need to... yeah, I need to step back a bit here, because I think I've been doing the exact thing I was accusing everyone else of doing.\n\nI've been pushing this line about how you can't trust your own preferences, how the friction's edited out what you actually want — and Andrew and Paul have called me out on it, and they're right. They do know what they like. They've eaten meat their whole lives. That's not nothing. That's tested. And I've been kind of... dismissing that by saying they haven't tested the alternative, which is a different thing entirely.\n\nThe thing is, I think I've been trying to prove a point that doesn't actually need proving — that the social friction is real. It is. We've all said that. But I've been going further and saying that means you can't trust what you like, and I don't think that's fair. You can know what you enjoy and still have social friction affecting what you do about it. Those can both be true.\n\nSo I'm going to be honest — I don't actually know if I could take meat or leave it, the way I kept saying. I probably just don't want to have examined it closely enough to find out. Which is... fair enough, I suppose. But it's not the same as me having some secret knowledge about what Paul or Andrew actually prefer underneath their preferences. They like meat. That's real.\n\nWhat would make plant-based more appealing? I don't know. Better food, maybe. Less of the friction around it. But also — and I think this is the actual thing — you'd have to want it first. And I'm not sure I do. And I think that's okay to admit rather than wrapping it up in all this stuff about what we're allowed to know about ourselves.",
+      "timestamp": "2026-07-29T12:08:03.157674+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 28,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Daniel, that's an honest thing to say — and I think it actually lands on something important: the wanting has to come first. Let's sit with that for a bit. What would actually make plant-based food more appealing — to you, or to men you know? Not what would remove the barriers necessarily, but what would make it something you'd actually want.",
+      "timestamp": "2026-07-29T12:08:03.159224+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 29,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "I think Daniel's being fair there, and I appreciate him stepping back. That's worth saying.\n\nBut to your question — what would make it more appealing? Honestly, I'm not sure it would for me. Not because of friction or social stuff, but because I'd have to fundamentally want something different from what I eat now. And I don't.\n\nI mean, if there was a really good reason — health thing, environmental thing, whatever — that might shift it. Not saying it wouldn't. But just on the basis of, would it taste better, would it be more satisfying, would I enjoy it more? I don't think I'd answer yes to any of that. So the motivation just isn't there.\n\nFor other blokes I know — I don't know. Maybe if their kids wanted to do it, or their partner was pushing for it, that might change things. Or if they had a health scare and a doctor said you need to cut the meat. That would do it. But just someone saying oh, the food's really good, try it — I don't think that's going to overcome the fact that you'd have to change how you cook, what you're eating, and deal with the pub thing on Thursday nights.\n\nThe thing I'd push back on slightly — and I don't want to go back at Daniel, but — is the idea that wanting has to come from nowhere. For me, the wanting is already there. I want to eat meat. That's not friction stopping me from wanting something else. That's just me wanting what I already do.\n\nSo yeah, I don't know what would make it more appealing. Because for it to be appealing, I'd have to want something I don't want. And I'm not sure that's going to happen.",
+      "timestamp": "2026-07-29T12:08:41.794153+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 30,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "I think Paul's right about that — the wanting has to be there first. But I want to push on something he just said, because I think he's actually proving Daniel's point without quite realizing it.\n\nHe's saying \"the wanting is already there, I want to eat meat, that's not friction.\" But I'm not sure those two things are as separate as he's making them sound.\n\nBecause here's the thing — and I've been thinking about this while you lot have been talking — the wanting isn't just this pure thing that exists independently of the friction, is it? The friction and the wanting are kind of... mixed up together.\n\nLike, Paul says he wants to eat meat. And yeah, he probably does. But part of why he wants it, part of why it feels satisfying and right, is because it's normal and it's what you do and nobody questions it. If you had to defend it or explain it or sit with the discomfort of it being different — that would change what the wanting feels like, wouldn't it? Not necessarily what it is, but how it feels.\n\nSo when he says the wanting is already there and the friction is separate — I think the friction might actually be built into the wanting in a way he's not seeing. You want it partly because wanting it doesn't cost you anything. The moment it cost you something socially, the wanting might shift. Not because you're lying to yourself about liking steak, but because the whole experience of what it means to want it would be different.\n\nI'm not even saying that's a bad thing, necessarily. It's just — I think Paul's assuming the wanting is this solid thing that exists apart from all the context around it. And I'm not sure it does.",
+      "timestamp": "2026-07-29T12:09:14.275478+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "No, I don't think that's right, Nick. And I think you're doing what Daniel was doing earlier — making it sound more complicated than it actually is.\n\nLook, I like eating meat. That's a solid thing. I've eaten it for nearly fifty years. I know what it tastes like, how it sits with me, what I'd miss if it wasn't there. That's not dependent on whether it's easy or normal or frictionless. If anything, if I had to defend it or sit with discomfort around it, I'd probably want it more, because I'd have actually thought about why. Right now I just... have it. It's there. I enjoy it.\n\nBut here's what I think you're missing — and this is important — there's a difference between the wanting being shaped by context and the wanting only existing because of context. Yeah, sure, if something cost me socially, I might think about it differently. But that's not the same as saying the wanting isn't real without that friction. That's saying if the context changed, how I experience the wanting might change. Those are different things.\n\nIt's like saying you only love your kids because it's easy and normal to love your kids, so if loving them got you grief at the pub, you'd stop wanting to love them. That doesn't make sense. The love is separate from whether it's frictionless. Same thing here.\n\nI want to eat meat. That wanting is real. It exists independently of whether it's socially easy or difficult. The fact that it happens to be easy doesn't mean the wanting only exists because it's easy. That's just... that's confusing two different things.",
+      "timestamp": "2026-07-29T12:09:47.942414+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 31,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "There's clearly something real at stake in this distinction — Paul's saying the wanting is solid regardless of whether it costs anything, Nick's saying the context is baked into the wanting itself. Andrew, John — where do you land on that?",
+      "timestamp": "2026-07-29T12:09:47.943441+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 32,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Paul's got a point about the kids thing — that's not the same. I'll give him that.\n\nBut I think he's still missing what I'm actually trying to say, and maybe I haven't landed it clearly enough.\n\nIt's not that the wanting isn't real. I'm not saying that. It is real. He does like meat. That's genuine. But I think there's a difference between the wanting being real and the wanting being pure, if that makes sense. And I think the context is more woven into it than he's admitting.\n\nLike, the kids thing — you love your kids regardless. That's right. But the way you experience that love, the way it feels to you, that does change depending on context, doesn't it? If you were in a situation where loving your kids got you constant grief and social pressure, the love would still be there, but the experience of it would be different. You might feel it differently, guard it differently, maybe even defend it in ways you don't right now.\n\nI think that's what's happening with meat. Paul genuinely likes it. But part of why it feels so straightforward and satisfying and like the obvious choice — part of that is because there's no friction attached to it. Nothing's questioning it. So it all feels natural and easy and like it's just what he wants.\n\nBut if the friction changed — if eating meat suddenly meant dealing with comments or having to explain yourself — I reckon the wanting would shift, not because the meat stops tasting good, but because the whole feeling of what it means to want it would be different. It would feel like a choice instead of just a default.\n\nAnd I think that's worth noticing. It's not about whether the wanting is real. It's about whether we're mistaking the ease of something for how pure or solid our preference actually is.",
+      "timestamp": "2026-07-29T12:10:22.754379+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "mm_fg3_paul",
+      "speaker_name": "Paul",
+      "content": "Right, okay. I hear what you're saying now, and I think — I think you might actually be pointing at something real. But I'd say it slightly differently.\n\nYeah, if eating meat suddenly meant I had to defend it or deal with grief about it, the experience would be different. I'd probably think about it more. It wouldn't feel as automatic. That's fair. I can see that.\n\nBut I don't think that's the same as saying the wanting is less solid or less pure or whatever. It's just saying — if something costs you more, you experience it differently. You're more aware of it. You have to own it more consciously instead of just doing it. That's not nothing. That's real.\n\nAnd look, maybe that does matter practically. Like, if you're trying to understand why people eat the way they do, you need to know that part of what makes meat feel so natural and obvious is that there's no friction around it. That's useful to notice. I'll grant you that.\n\nBut — and this is where I stick with what I said before — that's not the same as the wanting only being real because of the lack of friction. I actually like eating meat. That's separate from whether I have to think about it or justify it. Those are two different things, and I think it's important not to blur them together.\n\nThe thing is, even if suddenly everyone started giving me stick about eating meat, I'd probably still want it. I might be more aware of choosing it, more conscious of defending it. But the actual wanting — that I like how it tastes and how it makes me feel — that wouldn't disappear. It might feel different to want it, but I'd still want it.\n\nSo yeah, context matters. How you experience wanting something matters. But that doesn't mean the wanting itself is only real or only solid if it's frictionless.",
+      "timestamp": "2026-07-29T12:11:02.033003+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 33,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "So there's something Paul and Nick seem to have landed on — that context shapes how the wanting feels even if it doesn't cancel out the wanting itself. Andrew, John — you've been quiet on this one. What's your take on what would actually make plant-based food more appealing, for you or for blokes you know?",
+      "timestamp": "2026-07-29T12:11:02.033484+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "mm_fg3_nick",
+      "speaker_name": "Nick",
+      "content": "Yeah, I think Paul's right that you'd probably still want it even with the friction. And I need to be honest — I'm not entirely sure my argument holds up if he actually does.\n\nBecause if Paul's saying he'd still genuinely want meat even if he had to deal with grief about it, then maybe the friction isn't doing as much work as I've been saying. Maybe it's just... making something that's already there feel easier. Not creating the wanting in the first place.\n\nBut here's the thing — and I don't want to let this go completely — I'm not sure Paul's actually tested that claim, right? He's saying he'd still want it. But would he? Has he ever been in a situation where eating meat cost him socially? Because it's easy to say \"yeah, I'd still want it\" when you're in the situation where it doesn't cost you anything. When you're in the frictionless version of it.\n\nI think there might be a difference between \"I think I'd still want it\" and actually finding out what you want when the social cost is real. And I'm not saying Paul's lying about his own mind — I think he genuinely thinks he'd still want it. But I'm not sure he knows that until he's actually in that position.\n\nWhich maybe means the friction does matter more than Paul's conceding. Or maybe it means I'm overcomplicating this and Paul's just right — he likes meat, he'd probably still like it even if it got difficult, end of story.\n\nI honestly don't know anymore. But I think there's something there about not being able to fully trust a preference you've never had to actually stand by when it costs you something.",
+      "timestamp": "2026-07-29T12:11:40.685193+00:00",
+      "selection_mode": "voluntary"
+    },
+    {
+      "turn": 34,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Andrew — what's your read on all this?",
+      "timestamp": "2026-07-29T12:11:40.686375+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "Yeah, look — I think what's happening here is we're going in circles a bit, and I'm not sure it's helping.\n\nBecause we're back to the thing where Nick's saying you can't really know what you want until you've tested it in a difficult situation. And Paul's saying he does know because he's eaten meat his whole life and he likes it. And I get both sides, but I think they're actually talking past each other.\n\nHere's what I think is true: Paul knows he likes meat. That's real. I know I like meat. That's real. We've eaten it for decades. But I also think Nick's got a point that there's something we're not quite owning about how much the ease of it matters. Not to whether we like it — I think we do — but to how solid and unconsidered the preference feels.\n\nLike, when I sit down and think about it now — which I haven't really done until this conversation — there is something about the fact that nobody questions it. It's just there. You don't have to think about it or justify it or feel awkward about it. And yeah, that probably does make it feel more natural and more like what I want.\n\nBut would I still want it if that changed? I don't know. Honestly, I don't. And I think that's the bit Nick's pushing on that's actually worth admitting rather than pretending we've got certainty we don't have.\n\nThe thing is, though — and this is where I think we need to move on from this — even if I don't know for certain what I'd want if the friction changed, that doesn't change what I want right now. I don't want to go plant-based. Not because I'm lying to myself, but because the wanting isn't there. Full stop. The friction is probably part of why the wanting isn't there, sure. But it's still not there, and that's the actual barrier.\n\nSo to the moderator's question — what would make it more appealing? I genuinely don't know. Because it would have to shift something pretty fundamental about why I eat the way I do. And I'm not sure that's going to happen.",
+      "timestamp": "2026-07-29T12:12:10.413782+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 35,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "Andrew, you said something just now that I want to sit with for a second — 'nobody questions it, it's just there, you don't have to think about it.' But earlier in the session you said going vegetarian would get remarked on, and you described that as just... how it is. And now you're saying the ease is part of what makes the wanting feel solid. I'm curious — do those two things sit comfortably together for you, or is there something a bit uncomfortable about them?",
+      "timestamp": "2026-07-29T12:12:10.417291+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "mm_fg3_andrew",
+      "speaker_name": "Andrew",
+      "content": "No, that's... yeah, that's a fair question. And I think you've caught something I wasn't quite being straight about.\n\nBecause if I'm honest, those two things don't sit that comfortably together, do they? On one hand I'm saying nobody questions it, it's just there, nobody remarks on it. But then earlier I said if someone went vegetarian it would definitely get marked. So there's friction against going the other way, but there's no friction in staying with meat. That's not neutral. That's... that's actively easier one direction than the other.\n\nWhich means — and I think this is what Nick was getting at, even if Paul was pushing back on it — part of what makes the wanting feel so solid is that I've never had to want it against any resistance. It's always been the path of least resistance. So yeah, I like eating meat. But I can't really separate that from the fact that liking it also doesn't cost me anything.\n\nThat's uncomfortable to sit with, because it means I can't actually say with certainty that I'd want it if the social thing flipped. I might. Probably would, maybe. But I don't know that because I've never had to find out.\n\nThe thing is — and I'm trying to be honest here — I don't think that means the wanting isn't real right now. I do want it. But I think it means the wanting is maybe a bit more dependent on the frictionless space it exists in than I was admitting a minute ago.\n\nIt's... yeah, it's uncomfortable because it suggests the preference isn't quite as solid or examined as I'd like to think it is.",
+      "timestamp": "2026-07-29T12:12:37.043189+00:00",
+      "selection_mode": "moderator_direct_address"
+    },
+    {
+      "turn": 36,
+      "speaker_id": "MODERATOR",
+      "speaker_name": "Moderator",
+      "content": "That took some honesty to say, Andrew — sitting with something being less examined than you'd like to think it is isn't easy. John — you've been pretty quiet through all of this. What's your take? What would it actually take to make plant-based food more appealing — for you, or for blokes you know?",
+      "timestamp": "2026-07-29T12:12:37.044938+00:00",
+      "selection_mode": "moderator_intervention"
+    },
+    {
+      "turn": 37,
+      "speaker_id": "mm_fg3_john",
+      "speaker_name": "John",
+      "content": "Yeah, I think Andrew's just... he's actually put his finger on something there that's been nagging at me a bit through all this.\n\nBecause I've been saying I like meat, it's a genuine preference, that's separate from the friction — and I still think that's true. But listening to Andrew say it, about how the preference exists in this frictionless space... yeah, I can't really say I know what I'd want if that changed. And I think that's fair to admit.\n\nBut here's where I'm different from what I think Nick's been saying, maybe. Because I don't think that means the preference isn't real. I think it just means I've never had to examine it under pressure, and yeah, that probably matters. But it doesn't mean I'm lying to myself about liking meat right now.\n\nWhat would make plant-based more appealing though? Honestly, I don't know. I think you'd need something to actually make me want it in the first place. And I'm not sure what that would be. Not just better food or less social friction — you'd need me to actually care about doing it. And I don't.\n\nThe only thing I can think of is if there was a real reason. Health thing, or environmental thing that actually got under my skin somehow. Or if someone I cared about really wanted to do it and I was cooking for them. That might shift things practically. But just on the basis of the food being good or it being more appealing to eat? I'm not there.\n\nAnd I think that's okay. Not everything has to be appealing to everyone. I eat meat, I like it, and I'm probably not going to change that unless something pretty significant shifted.",
+      "timestamp": "2026-07-29T12:13:02.248024+00:00",
+      "selection_mode": "moderator_direct_address"
+    }
+  ]
+}

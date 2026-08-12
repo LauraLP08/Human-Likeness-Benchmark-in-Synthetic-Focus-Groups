@@ -1,0 +1,87 @@
+{
+  "cache_key": "551fe7346c6c6b0e95365b2b5417830ba219c814491dbc300804039f823d2e65",
+  "run": "macho_meals_fg1_demoonly_run01",
+  "condition": "demographics-only",
+  "chunk_index": 4,
+  "target_turn_ids": [
+    "T068",
+    "T070",
+    "T072"
+  ],
+  "shown_turn_ids": [
+    "T065",
+    "T066",
+    "T067",
+    "T068",
+    "T069",
+    "T070",
+    "T071",
+    "T072"
+  ],
+  "blinded_transcript_sha256": "919c375ad999b6e47ca5a87d5ace20fba1152eb0a9592021a41f07e6286fa216",
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "probe_tag": null,
+  "attempt": 1,
+  "finish_reasons": [
+    "FinishReason.STOP"
+  ],
+  "truncated": false,
+  "parse_error": null,
+  "prompt_tokens": 3424,
+  "candidates_tokens": 289,
+  "thoughts_tokens": 3880,
+  "codings": [
+    {
+      "turn_id": "T068",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, and I think... I'm doing the same thing, to be honest.",
+          "target_turn_id": "T067"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T070",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, I mean... I recognize myself doing that too, to be fair.",
+          "target_turn_id": "T068"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T072",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "But I think it's different for me, and I don't want to just accept that it's the same thing",
+          "target_turn_id": "T070"
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "knowing feels hollow. And that's true for me too.",
+          "target_turn_id": "T066"
+        }
+      ],
+      "no_code_reason": null
+    }
+  ],
+  "called_utc": "2026-08-06T17:54:52.925426+00:00"
+}

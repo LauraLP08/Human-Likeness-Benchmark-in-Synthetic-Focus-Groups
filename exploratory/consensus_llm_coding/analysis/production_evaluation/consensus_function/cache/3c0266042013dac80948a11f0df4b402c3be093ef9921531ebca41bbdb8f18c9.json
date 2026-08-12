@@ -1,0 +1,272 @@
+{
+  "cache_key": "3c0266042013dac80948a11f0df4b402c3be093ef9921531ebca41bbdb8f18c9",
+  "run": "macho_meals_fg1_demoonly_run01",
+  "condition": "demographics-only",
+  "chunk_index": 0,
+  "target_turn_ids": [
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T007",
+    "T008",
+    "T009",
+    "T011",
+    "T012",
+    "T013",
+    "T014"
+  ],
+  "shown_turn_ids": [
+    "T000",
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T006",
+    "T007",
+    "T008",
+    "T009",
+    "T010",
+    "T011",
+    "T012",
+    "T013",
+    "T014"
+  ],
+  "blinded_transcript_sha256": "919c375ad999b6e47ca5a87d5ace20fba1152eb0a9592021a41f07e6286fa216",
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "probe_tag": null,
+  "attempt": 1,
+  "finish_reasons": [
+    "FinishReason.STOP"
+  ],
+  "truncated": false,
+  "parse_error": null,
+  "prompt_tokens": 4466,
+  "candidates_tokens": 1513,
+  "thoughts_tokens": 7047,
+  "codings": [
+    {
+      "turn_id": "T001",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "for me it's probably the pub near where I live",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T002",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "round here it's harder to find that kind of place",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T003",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "No, fair point actually. I hadn't really thought about it that way.",
+          "target_turn_id": "T002"
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "the driving thing makes sense",
+          "target_turn_id": "T002"
+        },
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "I've got options round here \u2014 there's loads of pubs within walking distance",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T004",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Exactly. And it changes what happens, doesn't it?",
+          "target_turn_id": "T003"
+        },
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "I've got mates who've just kind of drifted because of that.",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T005",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "That resonates with me, actually.",
+          "target_turn_id": "T004"
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "you're right about the messaging thing",
+          "target_turn_id": "T004"
+        },
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "I've got a couple of mates who moved out",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T007",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "I'm not as bad off as Speaker B makes it sound",
+          "target_turn_id": "T002"
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "the messaging thing Speaker A mentioned \u2014 yeah, that tracks.",
+          "target_turn_id": "T005"
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "becomes more... arranged, like Speaker B said",
+          "target_turn_id": "T004"
+        },
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "I've got enough places round here in the North East",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T008",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "that's definitely true here as well",
+          "target_turn_id": "T007"
+        },
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "I've got loads of places round Birmingham \u2014 probably too many, honestly.",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T009",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "you're right about what you said, Speaker D, about the vibe being attached to places now",
+          "target_turn_id": "T008"
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "it does make it less accidental, like you said",
+          "target_turn_id": "T008"
+        },
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "we've still got the pubs \u2014 loads of them",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T011",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "day to day I've got... I mean, there's a Tesco round the corner",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T012",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "It's not even just about having loads of options, it's that you're doing it on your own",
+          "target_turn_id": "T011"
+        },
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "when you go out with your mates and you're all deciding together, that's different",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T013",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "The isolation bit is... yeah, that's the thing I reckon. You're right.",
+          "target_turn_id": "T012"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "It's not really about having fewer choices being better though, is it?",
+          "target_turn_id": "T012"
+        },
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "when I'm out with the lads and we're deciding, it's quick",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T014",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "I don't think you're trapped either way, actually.",
+          "target_turn_id": "T013"
+        },
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "these apps, they're literally designed to keep you scrolling",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    }
+  ],
+  "called_utc": "2026-08-06T17:38:39.407406+00:00"
+}

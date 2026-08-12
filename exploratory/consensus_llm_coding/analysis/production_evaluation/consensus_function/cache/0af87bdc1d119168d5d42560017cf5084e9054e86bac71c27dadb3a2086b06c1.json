@@ -1,0 +1,217 @@
+{
+  "cache_key": "0af87bdc1d119168d5d42560017cf5084e9054e86bac71c27dadb3a2086b06c1",
+  "run": "macho_meals_fg1_run01",
+  "condition": "enriched",
+  "chunk_index": 1,
+  "target_turn_ids": [
+    "T017",
+    "T018",
+    "T019",
+    "T021",
+    "T022",
+    "T023",
+    "T025",
+    "T027",
+    "T029",
+    "T030",
+    "T032",
+    "T033"
+  ],
+  "shown_turn_ids": [
+    "T014",
+    "T015",
+    "T016",
+    "T017",
+    "T018",
+    "T019",
+    "T020",
+    "T021",
+    "T022",
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T027",
+    "T028",
+    "T029",
+    "T030",
+    "T031",
+    "T032",
+    "T033"
+  ],
+  "blinded_transcript_sha256": "fbe54e144019b9391f8b8c8354f9b52edc3637af360a12bef12d5731dc9accde",
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "probe_tag": null,
+  "attempt": 1,
+  "finish_reasons": [
+    "FinishReason.STOP"
+  ],
+  "truncated": false,
+  "parse_error": null,
+  "prompt_tokens": 5782,
+  "candidates_tokens": 1254,
+  "thoughts_tokens": 5410,
+  "codings": [
+    {
+      "turn_id": "T017",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "I'm not sure it's quite the same thing, Speaker C",
+          "target_turn_id": "T015"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T018",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, fair point actually \u2014 you're right, that's different.",
+          "target_turn_id": "T017"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T019",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "it's not just that there's no framework and I've never thought about it.",
+          "target_turn_id": "T018"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T021",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "But I'd push back a bit on how he's framing it",
+          "target_turn_id": "T019"
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "I completely agree with you there.",
+          "target_turn_id": "T015"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T022",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "and I suppose you're right that I've kind of been framing it like those are the only two options.",
+          "target_turn_id": "T021"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T023",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "But I'd just push back slightly on the Newcastle thing",
+          "target_turn_id": "T022"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T025",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "Like, you go round Birmingham, you see blokes eating burgers, steaks, that kind of thing.",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T027",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "you're right that it's real.",
+          "target_turn_id": "T025"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "But I think I'd push back a bit on how inevitable it all is",
+          "target_turn_id": "T025"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T029",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "I think Speaker D's got a point",
+          "target_turn_id": "T027"
+        },
+        {
+          "label": "disagreement",
+          "evidence_quote": "I think he might be underestimating how much it actually does feel like pressure",
+          "target_turn_id": "T027"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T030",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "You're right that I've got more room to just be different without it being this whole thing.",
+          "target_turn_id": "T029"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T032",
+      "labels": [
+        {
+          "label": "neutral_elaboration",
+          "evidence_quote": "Like, practically speaking, it's not impossible.",
+          "target_turn_id": null
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T033",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "connected to your community and the people you know. That's real.",
+          "target_turn_id": "T032"
+        }
+      ],
+      "no_code_reason": null
+    }
+  ],
+  "called_utc": "2026-08-06T17:19:36.284478+00:00"
+}

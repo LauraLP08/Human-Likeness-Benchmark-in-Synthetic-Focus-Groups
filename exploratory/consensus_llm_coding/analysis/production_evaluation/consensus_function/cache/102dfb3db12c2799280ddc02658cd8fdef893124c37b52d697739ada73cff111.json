@@ -1,0 +1,87 @@
+{
+  "cache_key": "102dfb3db12c2799280ddc02658cd8fdef893124c37b52d697739ada73cff111",
+  "run": "macho_meals_fg1_demoonly_run03",
+  "condition": "demographics-only",
+  "chunk_index": 3,
+  "target_turn_ids": [
+    "T049",
+    "T051",
+    "T053"
+  ],
+  "shown_turn_ids": [
+    "T046",
+    "T047",
+    "T048",
+    "T049",
+    "T050",
+    "T051",
+    "T052",
+    "T053"
+  ],
+  "blinded_transcript_sha256": "fde347ccad248d5b705498648806075585e051453dcb69859a4f2a1a03c2c7ab",
+  "prompt_sha256": "b15c48e0bdaef169e4e7b73dd486b4c1ba7b11349c78d139b68516690116e6d9",
+  "effective_request_config": {
+    "execution_mode": "synchronous",
+    "model": "gemini-3.5-flash",
+    "response_mime_type": "application/json",
+    "max_output_tokens": 16384,
+    "temperature_transmitted": false,
+    "temperature": null,
+    "thinking_config_transmitted": false,
+    "thinking_config": null,
+    "thinking_level_effective": "model_default_unpinned",
+    "thinking_level_label_in_config": "medium",
+    "safety_settings_transmitted": false
+  },
+  "probe_tag": null,
+  "attempt": 1,
+  "finish_reasons": [
+    "FinishReason.STOP"
+  ],
+  "truncated": false,
+  "parse_error": null,
+  "prompt_tokens": 2654,
+  "candidates_tokens": 356,
+  "thoughts_tokens": 2198,
+  "codings": [
+    {
+      "turn_id": "T049",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, that's... that's actually hitting something for me, Speaker E.",
+          "target_turn_id": "T048"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T051",
+      "labels": [
+        {
+          "label": "disagreement",
+          "evidence_quote": "it does feel different from what Speaker E's saying",
+          "target_turn_id": "T048"
+        }
+      ],
+      "no_code_reason": null
+    },
+    {
+      "turn_id": "T053",
+      "labels": [
+        {
+          "label": "agreement",
+          "evidence_quote": "Yeah, I think I'm more with Speaker A on that one, honestly.",
+          "target_turn_id": "T051"
+        },
+        {
+          "label": "agreement",
+          "evidence_quote": "what Speaker E's saying about the shape of things \u2014 like, what feels like it's for blokes like us \u2014 I do get some of that",
+          "target_turn_id": "T048"
+        }
+      ],
+      "no_code_reason": null
+    }
+  ],
+  "called_utc": "2026-08-06T17:59:20.685843+00:00"
+}

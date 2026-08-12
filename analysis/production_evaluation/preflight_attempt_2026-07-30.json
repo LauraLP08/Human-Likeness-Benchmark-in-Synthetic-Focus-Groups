@@ -1,0 +1,78 @@
+{
+ "attempt_utc": "2026-07-30T21:33:33Z",
+ "scope": "Mandatory Human Stop 2 — three-input preflight (human FG1, enriched FG1 rep 2, demographics-only FG1 rep 2)",
+ "model": "gemini-3.5-flash",
+ "model_substitution": "NONE — no fallback to gemini-2.5 or any other model",
+ "availability_probe": {
+  "calls": 1,
+  "outcome": "AVAILABLE",
+  "input_tokens": 5,
+  "output_tokens": 1,
+  "note": "3-token prompt succeeded on the first attempt"
+ },
+ "results": [
+  {
+   "input_id": "human_fg1",
+   "status": "computed",
+   "computed_utc": "2026-07-30T21:35:06.805067+00:00",
+   "attempts": 1,
+   "transient_retries": 0,
+   "elapsed_s": 43.07
+  },
+  {
+   "input_id": "macho_meals_fg1_run02",
+   "condition": "enriched",
+   "status": "FAILED_503",
+   "attempts": 7,
+   "transient_retries": 6,
+   "backoff_s": [
+    20,
+    60,
+    120,
+    240,
+    300,
+    300
+   ],
+   "error": "503 UNAVAILABLE — 'This model is currently experiencing high demand.'"
+  },
+  {
+   "input_id": "macho_meals_fg1_demoonly_run02",
+   "condition": "demographics-only",
+   "status": "NOT_ATTEMPTED",
+   "reason": "pipeline aborted when the enriched input exhausted its retry budget; no request for this input was ever issued",
+   "attempts": 0,
+   "transient_retries": 0,
+   "error": null
+  }
+ ],
+ "diagnosis": {
+  "class": "PROVIDER_UNAVAILABLE",
+  "is_api_key_problem": false,
+  "api_key_changed": false,
+  "reasoning": "503 is temporary provider unavailability. It is NOT 401/403 (the key authenticated and calls succeeded), NOT 404 (the model resolved and returned a normal completion), and NOT 429 (no quota or rate-limit response was returned).",
+  "permitted_observation": "One larger synthetic request failed with 503 after a 5-token probe and a 5,543-token human transcript had both succeeded.",
+  "explicitly_not_claimed": "No association with request length is claimed. n=1 failed request cannot establish one, and the second synthetic input was never attempted, so there is no second observation to reason from."
+ },
+ "further_retries_performed": 0,
+ "note": "Stopped after the built-in retry budget. No additional probing.",
+ "factual_correction": {
+  "corrected_utc": "2026-07-30T23:10:00Z",
+  "what_was_wrong": "An earlier version of this record and of PRE_EVALUATION_GATE_REPORT.md stated or implied that BOTH synthetic windows returned 503, and drew an inference from two synthetic failures. That is factually wrong.",
+  "what_actually_happened": "Exactly ONE synthetic input was attempted: enriched FG1 replication 2. It failed with 503 after the built-in 6 retries. Demographics-only FG1 replication 2 was NEVER attempted — the pipeline aborted when the enriched input exhausted its retry budget.",
+  "evidence": "The run output contains exactly one 'computed' line (human_fg1) and exactly 6 '[transient]' lines, i.e. one input's retry budget. There is no output line for either synthetic run, and no cache entry or error record exists for demographics-only.",
+  "inference_withdrawn": "The claim that failures were size-correlated rested on 'the two ~8,000-word synthetic windows did not succeed'. Only one was attempted, so that reasoning is withdrawn entirely.",
+  "call_logs_untouched": "analysis/coding_frame/gemini_calls.jsonl and preflight_availability_probe.jsonl are historical records and were NOT edited. Only this report-level record was corrected."
+ },
+ "effective_request_config_correction": {
+  "issue": "max_output_tokens=32768 and response_mime_type='application/json' are transmitted on every Tier-1 call but appeared in neither effective_request_config nor the cache key.",
+  "fixed_utc": "2026-07-30T23:06:48Z",
+  "human_fg1_cache_migration": {
+   "from": "3d6fe3bac2248d845b9269a31630bf7466c8f24c50820178e5c565c7540c4faf",
+   "to": "068e228d5b7afbfa15843a2252b092688a7a838c09432cda5b3fc153cab4960a",
+   "recomputed": false,
+   "result_byte_identical": true,
+   "original_preserved": "analysis/production_evaluation/evaluator_cache_legacy/",
+   "log": "analysis/production_evaluation/cache_key_migration_log.json"
+  }
+ }
+}

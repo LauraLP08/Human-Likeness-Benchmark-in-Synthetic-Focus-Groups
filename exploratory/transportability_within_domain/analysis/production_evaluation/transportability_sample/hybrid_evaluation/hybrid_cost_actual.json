@@ -1,0 +1,56 @@
+{
+ "record_type": "POST_RUN_MEASURED_USAGE",
+ "scope": "EXPLORATORY_OUT_OF_Q3_TRANSPORTABILITY_CHECK",
+ "kept_separate_from": "any pre-run estimate; this file contains no forecast",
+ "claude": {
+  "per_stage": [
+   {
+    "stage": "audit round 1",
+    "job_id": "msgbatch_01RgXvJrPHyUZfaTimUzw1Bf",
+    "n_requests": 122,
+    "n_complete": 121,
+    "input_tokens": 561503,
+    "output_tokens": 86340,
+    "retry": null
+   },
+   {
+    "stage": "audit round 2",
+    "job_id": "msgbatch_01LSVnMiM5BgYx5kiHX5pBdp",
+    "n_requests": 30,
+    "n_complete": 30,
+    "input_tokens": 162598,
+    "output_tokens": 31067,
+    "retry": null
+   },
+   {
+    "stage": "complementary audit (32 omitted pairs)",
+    "job_id": "msgbatch_01CkAwX2ruMRSV5yGRnxKfv6",
+    "n_requests": 64,
+    "n_complete": 64,
+    "input_tokens": 289964,
+    "output_tokens": 47945,
+    "retry": null
+   }
+  ],
+  "actual_input_tokens": 1014065,
+  "actual_output_tokens": 165352,
+  "batch_input_rate_per_mtok_usd": 2.5,
+  "batch_output_rate_per_mtok_usd": 12.5,
+  "formula": "(input/1e6 x in_rate) + (output/1e6 x out_rate)",
+  "worked": "(1014065/1e6 x 2.5) + (165352/1e6 x 12.5) = 2.5352 + 2.0669",
+  "calculated_list_batch_cost_usd": 4.6,
+  "rate_source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "rate_verified_utc": "2026-08-02"
+ },
+ "gemini": {
+  "job_name": "batches/fr2ux2vj1g55gy1oe62c48gmkgplchers1rg",
+  "model": "gemini-3.5-flash",
+  "actual_input_tokens": 14005,
+  "actual_output_tokens": 6434,
+  "re_run_for_the_complement": false,
+  "calculated_cost_usd": null,
+  "cost_status": "NOT_CALCULATED_RATE_NOT_VERIFIED",
+  "why": "no published Batch rate for this model was verified during this study, and inventing one would put an unsourced number into the record. The measured token counts above are the factual part."
+ },
+ "IMPORTANT": "costs CALCULATED at published list rates from measured tokens. Not necessarily what the organisation is billed. The Console invoice is authoritative."
+}

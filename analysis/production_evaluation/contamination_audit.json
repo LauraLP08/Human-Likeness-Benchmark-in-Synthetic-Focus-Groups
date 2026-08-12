@@ -1,0 +1,405 @@
+{
+  "generated_utc": "2026-07-30T16:19:22.203494+00:00",
+  "read_only": true,
+  "no_api_calls": true,
+  "method_note": "Rendered prompts were produced by calling core.participant_agent.build_participant_system_prompt on each agent payload, so 'rendered' means what the generating model would actually receive, not what the JSON stores.",
+  "pair_summary": {
+    "enriched_agents": 22,
+    "demographics_only_agents": 22,
+    "paired": [
+      "mm_fg1_amir",
+      "mm_fg1_david",
+      "mm_fg1_ibrahim",
+      "mm_fg1_isaiah",
+      "mm_fg1_will",
+      "mm_fg2_bilal",
+      "mm_fg2_connor",
+      "mm_fg2_henry",
+      "mm_fg2_noah",
+      "mm_fg2_sam",
+      "mm_fg3_andrew",
+      "mm_fg3_daniel",
+      "mm_fg3_john",
+      "mm_fg3_nick",
+      "mm_fg3_paul",
+      "mm_fg4_gregor",
+      "mm_fg4_james",
+      "mm_fg4_mark",
+      "mm_fg5_fletcher",
+      "mm_fg5_keith",
+      "mm_fg5_patrick",
+      "mm_fg5_toby"
+    ],
+    "enriched_only_agents": [],
+    "demo_only_agents": []
+  },
+  "psychometric_rendering": {
+    "agent_dimension_pairs": 110,
+    "disposition_lines_reproduced_verbatim": 110,
+    "disposition_lines_missing": 0,
+    "raw_score_values_leaked": 0,
+    "construct_names_underscore_leaked": 0,
+    "construct_names_spaced_leaked": 70,
+    "scale_direction_text_leaked": 66,
+    "per_dimension_construct_name_spaced": {
+      "meat_attachment": 22,
+      "masculinity_of_meat": 2,
+      "vegetarianism_threat": 2,
+      "dairy_attachment": 22,
+      "masculine_norms": 22
+    },
+    "per_dimension_scale_direction": {
+      "meat_attachment": 0,
+      "masculinity_of_meat": 22,
+      "vegetarianism_threat": 22,
+      "dairy_attachment": 0,
+      "masculine_norms": 22
+    },
+    "note_on_benign_numbers": "Ordinary demographic and consumption numbers (age, frequencies such as '2-4 per week') are expected persona content and are excluded from the raw-score-value test, which matches only the actual psychometric score values with digit boundaries."
+  },
+  "simulation_config_notes_provenance": {
+    "agents_with_notes": 22,
+    "distinct_note_values": 2,
+    "notes": [
+      {
+        "text": "Recruited as a regular meat eater.",
+        "count": 21,
+        "declared_provenance": [
+          "derived"
+        ],
+        "human_transcript_5gram_overlap": [],
+        "codebook_5gram_overlap": [],
+        "words": 6
+      },
+      {
+        "text": "Self-identified flexitarian.",
+        "count": 1,
+        "declared_provenance": [
+          "derived"
+        ],
+        "human_transcript_5gram_overlap": [],
+        "codebook_5gram_overlap": [],
+        "words": 2
+      }
+    ],
+    "declared_provenance_values": [
+      "derived"
+    ],
+    "human_transcript_overlap_detected": false,
+    "codebook_overlap_detected": false,
+    "constructed_independently_of_human_transcript_and_coding": true,
+    "interpretation": "All notes are short recruitment descriptors declared 'derived' in field_provenance. They restate the recruitment/diet category already carried by persona.demographics.diet, share no 5-gram with any human transcript turn or with the codebook, and contain no thematic, attitudinal or coding-derived content. On the specified tests they are independent of the human transcripts and of human coding results.",
+    "agents": [
+      {
+        "agent_id": "mm_fg1_amir",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg1_david",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg1_ibrahim",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg1_isaiah",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg1_will",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg2_bilal",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg2_connor",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg2_henry",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg2_noah",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg2_sam",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg3_andrew",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg3_daniel",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg3_john",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg3_nick",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg3_paul",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg4_gregor",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg4_james",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg4_mark",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg5_fletcher",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg5_keith",
+        "notes": "Self-identified flexitarian.",
+        "declared_provenance": "derived",
+        "notes_words": 2
+      },
+      {
+        "agent_id": "mm_fg5_patrick",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      },
+      {
+        "agent_id": "mm_fg5_toby",
+        "notes": "Recruited as a regular meat eater.",
+        "declared_provenance": "derived",
+        "notes_words": 6
+      }
+    ]
+  },
+  "condition_parity": {
+    "config_field_parity": {
+      "temperature": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": 1.0
+      },
+      "participation_mode": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": "emergent"
+      },
+      "participant_response_max_tokens": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": 800
+      },
+      "participant_episodic_depth": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": "since_last_n"
+      },
+      "participant_episodic_since_last_n": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": 20
+      },
+      "engagement_own_history_token_budget": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": 1500
+      },
+      "moderator_context_mode": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": "summarized"
+      },
+      "moderator_prompt_override": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": "sandbox/01_MODERATOR_SYSTEM_PROMPT_MINIMAL.md"
+      },
+      "moderator_restraint_prompt": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": true
+      },
+      "moderator_reflection_enabled": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": true
+      },
+      "time_budget_tracking_enabled": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": true
+      },
+      "research_objective": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": "Focus group guide exploring how men in the UK make everyday food\nchoices, how social context, work, hobbies, health, taste and other\npeople shape what they eat, how gender and masculinity may influence\nfood choices, and what would need to change for plant-based foods to\nbecome more acceptable or appealing.\n"
+      },
+      "topic_domain": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": "Masculinity, food choice, animal product consumption, and plant-based eating"
+      },
+      "moderator_knowledge_brief": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": "Explore (1) everyday food decision-making, (2) the social contexts in\nwhich men spend time with male friends, (3) the influence of other\npeople, work, hobbies, health, nutrition and taste on food choices,\n(4) whether participants perceive gender as shaping what they eat,\n(5) social acceptability and gendered meanings attached to vegetarian,\nvegan, plant-based, feminine or masculine foods, and (6) what personal,\nsocial and practical changes would make plant-based eating more viable\nor appealing. The discussion should remain exploratory, non-judgmental,\nand non-leading.\n"
+      },
+      "participant_collective_identity": {
+        "enriched_distinct_values": 1,
+        "demographics_only_distinct_values": 1,
+        "identical_across_conditions": true,
+        "value": "Men in the UK reflecting on food choices, male friendship, gender norms, and plant-based eating"
+      }
+    },
+    "guide_hash_enriched": [
+      "a93ffb3f68ea7b0776a409aba1512f2d93c30da177109e652860dbb853b28a9c"
+    ],
+    "guide_hash_demographics_only": [
+      "a93ffb3f68ea7b0776a409aba1512f2d93c30da177109e652860dbb853b28a9c"
+    ],
+    "guide_identical_across_all_30": true,
+    "all_fields_identical": true
+  },
+  "contamination": {
+    "human_corpus_scope": "participant turns only; human moderator turns excluded because they carry the shared guide questions",
+    "human_participant_turns_indexed": 273,
+    "guide_8grams_subtracted": 344,
+    "human_8gram_corpus_size_after_guide_subtraction": 20779,
+    "human_quote_samples_searched_for": [
+      "So, um, I'll start by there's a really nice property called ",
+      "Yeah, so it's a place called Old Town House. It's a pub. It'",
+      "I'll go next. Um, typically, um, there's a place called the ",
+      "Just the, just the classics, cheap food, nice drinks, like.",
+      "Yeah, I'll go next. I feel the best place, uh, we will go th"
+    ],
+    "codebook_subthemes": 11,
+    "codebook_labels_tested": [
+      "Does influence",
+      "No influence",
+      "No influence, but...",
+      "D) Extreme cases"
+    ],
+    "codebook_labels_excluded_as_nondistinctive": [
+      "Natural",
+      "Normal",
+      "Necessary",
+      "Nice",
+      "Unnatural",
+      "Insufficient",
+      "Not nice"
+    ],
+    "codebook_8gram_corpus_size": 128,
+    "targets_scanned": {
+      "rendered_participant_prompts": 44,
+      "experiment_configs": 30,
+      "moderator_prompt_files": 1
+    },
+    "moderator_prompt_files_referenced": [
+      "sandbox/01_MODERATOR_SYSTEM_PROMPT_MINIMAL.md"
+    ],
+    "findings": [],
+    "contamination_detected": false,
+    "inject_participant_intro_by_run": {
+      "macho_meals_fg1_run01": false,
+      "macho_meals_fg1_run02": false,
+      "macho_meals_fg1_run03": false,
+      "macho_meals_fg2_run01": false,
+      "macho_meals_fg2_run02": false,
+      "macho_meals_fg2_run03": false,
+      "macho_meals_fg3_run01": false,
+      "macho_meals_fg3_run02": false,
+      "macho_meals_fg3_run03": false,
+      "macho_meals_fg4_run01": false,
+      "macho_meals_fg4_run04": false,
+      "macho_meals_fg4_run03": false,
+      "macho_meals_fg5_run01": false,
+      "macho_meals_fg5_run03": false,
+      "macho_meals_fg5_run04": false,
+      "macho_meals_fg1_demoonly_run01": false,
+      "macho_meals_fg1_demoonly_run02": false,
+      "macho_meals_fg1_demoonly_run03": false,
+      "macho_meals_fg2_demoonly_run01": false,
+      "macho_meals_fg2_demoonly_run02": false,
+      "macho_meals_fg2_demoonly_run03": false,
+      "macho_meals_fg3_demoonly_run01": false,
+      "macho_meals_fg3_demoonly_run02": false,
+      "macho_meals_fg3_demoonly_run03": false,
+      "macho_meals_fg4_demoonly_run01": false,
+      "macho_meals_fg4_demoonly_run02": false,
+      "macho_meals_fg4_demoonly_run03": false,
+      "macho_meals_fg5_demoonly_run01": false,
+      "macho_meals_fg5_demoonly_run02": false,
+      "macho_meals_fg5_demoonly_run03": false
+    },
+    "inject_participant_intro_all_false": true,
+    "opening_intro_stored_but_never_rendered": true,
+    "opening_intro_would_render_if_flag_true": 17
+  },
+  "contamination_claim_scope": "No TEXTUAL/VERBATIM contamination was detected under the specified tests (participant 8-gram overlap with the guide subtracted, codebook description 8-grams, distinctive codebook labels). This is not evidence that semantic or conceptual contamination is impossible: paraphrase, thematic influence and design decisions informed by prior reading of the human data would not be caught by any string-overlap test."
+}

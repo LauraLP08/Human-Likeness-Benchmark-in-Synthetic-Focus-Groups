@@ -1,0 +1,10 @@
+graph TD
+    A[Start Participant Call] --> B[Load Agent Payload & Profile]
+    B --> C[Build System Prompt]
+    C --> D[Format Recent Transcript]
+    D --> E[Inject Hook if present]
+    E --> F[Construct User Message]
+    F --> G[API Call to Model]
+    G --> H[Extract Plain Text]
+    H --> I[Append API Log]
+    I --> J[Return Utterance]

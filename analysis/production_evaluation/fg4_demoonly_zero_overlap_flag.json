@@ -1,0 +1,41 @@
+{
+ "flag": "ZERO_OVERLAP_NOT_ZERO_CODING",
+ "status": "FLAGGED FOR QUALITATIVE INSPECTION \u2014 NOT INTERPRETED",
+ "cell": "demographics-only / fg4",
+ "n_runs": 3,
+ "observation": "all three replicates return recall=0 and precision=0 while synthetic_present_n > 0: codes WERE asserted, none of them overlap the human verified-present set for FG4",
+ "explicitly_not": "not 'the synthetic groups produced no themes' and not a coding failure \u2014 the evaluator returned verified codes; they simply share nothing with this FG's human set",
+ "next_step": "inspect the asserted codes and their quotes against FG4's human coding",
+ "runs": [
+  {
+   "physical_run": "macho_meals_fg4_demoonly_run01",
+   "rep": "1",
+   "recall": 0.0,
+   "precision": 0.0,
+   "synthetic_present_n": 1,
+   "human_present_n": 6,
+   "shared_n": 0,
+   "window_words": 7148
+  },
+  {
+   "physical_run": "macho_meals_fg4_demoonly_run03",
+   "rep": "3",
+   "recall": 0.0,
+   "precision": 0.0,
+   "synthetic_present_n": 2,
+   "human_present_n": 6,
+   "shared_n": 0,
+   "window_words": 7434
+  },
+  {
+   "physical_run": "macho_meals_fg4_demoonly_run02",
+   "rep": "2",
+   "recall": 0.0,
+   "precision": 0.0,
+   "synthetic_present_n": 2,
+   "human_present_n": 6,
+   "shared_n": 0,
+   "window_words": 6098
+  }
+ ]
+}
