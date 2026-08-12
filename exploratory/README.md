@@ -101,64 +101,12 @@ Results, stated with their own caveats:
 
 Start at `exploratory/transportability_within_domain/analysis/production_evaluation/transportability_sample/hybrid_evaluation/HYBRID_TRANSPORTABILITY_RESULTS.md`.
 
-### `transportability_cross_domain_mindfulness/` — the same apparatus, a different topic
+### Transferability — moved to `transferability/`
 
-One synthetic session on a mindfulness dataset (DS05: 67 turns, 5 participants) chosen
-because it matches Macho Meals FG1 in size, so only the *domain* varies.
-`EXPLORATORY_OUT_OF_DOMAIN_TRANSPORTABILITY_CHECK`.
-
-- **Six of nine** selected structural metrics fell inside the range of the 15 enriched
-  Macho Meals runs. This is one run against a descriptive range from 15. It is not
-  evidence of invariance, equivalence or generalisation.
-- One exact correspondence stands out: `short_turn_proportion_25w` is **0.000 in all 16
-  synthetic sessions across both domains** — the system has never produced a turn under
-  25 words. The two *human* baselines differ sharply. Consequence: the synthetic
-  moderator's turn share was 3–8× the human's in Macho Meals but only 1.24× here, which
-  looks like better fidelity and is not — only the human side moved. **A
-  synthetic-to-human structural gap measured in one domain does not isolate a property of
-  the system**, and that applies retrospectively to the Macho Meals results.
-- Thematic recall is reported as an **assignment-sensitivity envelope [0.048, 0.429]** on
-  a denominator of 21 stable codes — not a confidence interval, not a reliability band,
-  not a range for a true recall. A blind cross-model audit disagreed with 7 of 22
-  evaluator negatives; all 7 are held as `CROSS_MODEL_SEMANTIC_DISAGREEMENTS`
-  `AWAITING_HUMAN_ADJUDICATION` and none is counted as present.
-- Precision, F1 and synthetic novelty are **not identifiable under a closed frame**, so no
-  value is given for them: a closed frame makes precision an artefact of the closure.
-- **Three apparatus components did not port**, and that is itself a reportable cost:
-  the transcript standardiser (dataset-specific branches), the comparable-window builder
-  (a hardcoded run whitelist and a Macho Meals token set) and the results aggregator
-  (which gates on the *shape* of the study design — 30 runs, two named conditions, three
-  replicates).
-- Prompts were left byte-identical to the Macho Meals runs even though an audit found 7
-  domain residues in them, because editing them would have made the prompt a rival
-  explanation for any observed difference. The residues did not reach the generated text
-  (0 hits across 63 entries).
-
-Start at `exploratory/transportability_cross_domain_mindfulness/analysis/transportability_mindfulness/TRANSPORTABILITY_MINDFULNESS_REPORT.md`.
-
-### `twin_population_arm/` — richness per se, or construct-relevant richness?
-
-A placebo arm on FG3 and FG4: personas with the same *volume* of content as `enriched`,
-but thematically irrelevant (census-sampled occupation, household, education — no diet,
-no masculinity). A third point on the gradient `demographics-only → twinpop → enriched`.
-Pre-registered as `EXPLORATORY_NOT_CONFIRMATORY`, outside the frozen spec.
-
-- The question it answers is *not* "do I still need humans" — that is unanswerable here,
-  since every metric in the framework is a distance to the human reference. It is whether
-  the `enriched − demographics-only` recall gap is caused by richness itself or by
-  richness that is relevant to the construct.
-- FG3 is the primary discriminating case, not FG4: both of FG4's channels rest on a
-  single run.
-- Declared confounder: the placebo personas were rendered by Claude, the same family as
-  the generator, because no third-family credential existed. Measurement-side
-  independence (generator Claude ≠ evaluator Gemini) is what is preserved.
-- 7 sessions were generated (FG3 ×4, FG4 ×3) with Tier-1 coding. **Their session logs,
-  comparable windows and evaluator-cache entries are all inside this strand** and are
-  deliberately *not* in the main tree — several consumers in `scripts/` enumerate runs by
-  listing a directory rather than reading `frozen_evaluator_inputs.json`, and would fold
-  this arm into the enriched condition mean if it were left there.
-- The pre-registration, four frozen addenda and their SHA-256 deposits are at the top of
-  the strand directory.
+Two strands ask whether the apparatus and the persona construction reach beyond this corpus:
+applying the pipeline to **another discussion guide and domain**, and building agents from
+**census statistics instead of participant metadata**. They now live in `transferability/`,
+with their own README.
 
 ### `mator_external_benchmark/` — comparison with Mator et al. (2025) Table 4
 

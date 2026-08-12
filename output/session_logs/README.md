@@ -38,7 +38,7 @@ carries a README so git can represent the path, which
 `apps/focus_group_platform/frozen_sessions.json` lists as protected.
 
 The twin-population arm's 7 session logs are **not** here. They are in
-`exploratory/twin_population_arm/output/session_logs/`, deliberately kept out of this
+`transferability/census_built_personas/output/session_logs/`, deliberately kept out of this
 directory because several analysis scripts enumerate runs by listing it and would fold
 that arm into the enriched condition mean.
 

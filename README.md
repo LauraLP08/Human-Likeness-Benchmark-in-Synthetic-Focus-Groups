@@ -255,6 +255,10 @@ docs/                      Architecture, operational flowcharts and truth tables
                            evaluation framework, and dated findings notes.
 exploratory/               Analyses that were run and produced results but are not reported
                            in detail in the dissertation. See exploratory/README.md.
+transferability/           Two strands testing how far the apparatus and the persona
+                           construction reach beyond this corpus: another discussion guide
+                           and domain, and agents built from census statistics. See
+                           transferability/README.md.
 apps/focus_group_platform/ The researcher-facing UI. See UI_README.md.
 tests/                     68 test modules over the architecture and the evaluation.
 ```
@@ -316,7 +320,7 @@ index of 119 figures, each recomputed from source rather than transcribed.
 - **Two large third-party datasets.** The Twin-2K-500 corpus and the ONS Census 2021
   microdata (~2.5 GB combined) were downloaded for a persona-grounding arm that is not
   part of the reported results. Their ETL scripts are in
-  `exploratory/twin_population_arm/`; the raw data is not redistributed.
+  `transferability/census_built_personas/`; the raw data is not redistributed.
 - **The QESB and PHIND human corpora.** Standardised during the framework's development
   and used to calibrate the earlier Stage-7 assessment layer. Third-party transcripts,
   not redistributed. The standardisation and verification tooling is in `scripts/`.
